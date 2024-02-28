@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from string import ascii_lowercase, digits, printable
+from string import ascii_lowercase, digits
 
 import requests
 import typer
@@ -14,10 +14,15 @@ app = typer.Typer()
 _PAGE_SIZE = 500
 
 
-def get_ucum_results_for_character(character: str, page: int = 0, _results: list = []):
+def get_ucum_results_for_character(
+    character: str, page: int = 0, _results: list | None = None
+):
     """
     Get a page of UCUM units of measure for a given character
     """
+    if _results is None:
+        _results = []
+
     fields = [
         "cs_code",
         "name",
@@ -38,18 +43,20 @@ def get_ucum_results_for_character(character: str, page: int = 0, _results: list
         },
     )
 
-    if response.status_code != 200:
+    if response.status_code != requests.status_codes.codes.ok:
         print(f"ERROR: {response.status_code}")
         return []
 
     total_count, _codes, _, results = response.json()
     if len(results) >= _PAGE_SIZE:
         return get_ucum_results_for_character(
-            character, page + 1, [zip(fields, data) for data in [*_results, *results]]
+            character,
+            page + 1,
+            [zip(fields, data, strict=False) for data in [*_results, *results]],
         )
 
     assert len(results) == total_count
-    return [dict(zip(fields, data)) for data in [*_results, *results]]
+    return [dict(zip(fields, data, strict=False)) for data in [*_results, *results]]
 
 
 @app.command()
@@ -63,7 +70,7 @@ def fetch(
         writable=True,
         readable=False,
         resolve_path=True,
-    )
+    ),
 ):
     """
     Fetch units of measure from the API for UCUM

@@ -10,7 +10,7 @@ app = typer.Typer()
 
 @app.command(name="pull")
 def pull_package(
-    package_name: str = typer.Argument(..., help="Name of the package to pull")
+    package_name: str = typer.Argument(..., help="Name of the package to pull"),
 ):
     """Pull a package from SIMPLIFIER.NET"""
     download_simplifier_package(package_name)
@@ -19,7 +19,7 @@ def pull_package(
 @app.command(name="list")
 def list_packages():
     """List all locally downloaded packages"""
-    typer.echo(f"Local Packages:")
+    typer.echo("Local Packages:")
     package_dir = CONFIG_DIRECTORY / "packages"
     for file in package_dir.iterdir():
         typer.echo(file.name)
@@ -27,7 +27,7 @@ def list_packages():
 
 @app.command(name="delete")
 def delete_package(
-    package_name: str = typer.Argument(..., help="Name of the package to delete")
+    package_name: str = typer.Argument(..., help="Name of the package to delete"),
 ):
     """Delete a package from the local cache"""
     package_dir = CONFIG_DIRECTORY / "packages" / package_name
@@ -41,7 +41,7 @@ def delete_package(
 @app.command(name="refresh")
 def refresh_packages():
     """Refresh all locally downloaded packages"""
-    typer.echo(f"Refreshing all packages")
+    typer.echo("Refreshing all packages")
     package_dir = CONFIG_DIRECTORY / "packages"
     for file in package_dir.iterdir():
         download_simplifier_package(file.name)

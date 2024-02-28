@@ -5,6 +5,7 @@ from typing import Dict, Iterable, List, Tuple
 from pydantic import BaseModel, Field
 from rich.table import Table
 
+from fhirguard_cli.util import get_package_path
 from fhirguard_core.resources import (
     CodeSystem,
     CompartmentDefinition,
@@ -17,7 +18,6 @@ from fhirguard_core.resources import (
     StructureMap,
     ValueSet,
 )
-from fhirguard_cli.util import get_package_path
 
 
 class PackageResources(BaseModel):
@@ -72,8 +72,8 @@ class PackageResourcesFactory:
         for path in package_path.glob("**/*.json"):
             if resource := self._load_resource(path):
                 resource_name = getattr(resource, "name", None)
-                
-                if 'example' in path.name:
+
+                if "example" in path.name:
                     continue
 
                 assert (
@@ -84,7 +84,7 @@ class PackageResourcesFactory:
         return package_id, resources
 
     @staticmethod
-    def _load_resource(path: Path) -> Resource | None:
+    def _load_resource(path: Path) -> Resource | None:  # noqa
         """Load a resource from a path"""
         data = json.loads(path.read_text())
         match data.get("resourceType"):

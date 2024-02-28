@@ -119,11 +119,9 @@ class Definition(BaseModel):
 
         return self._deduplicate_valueset(valueset_definition)
 
-    def _deduplicate_valueset(
-        self, definition: ValueSetDefinition
-    ) -> ValueSetDefinition:
+    @staticmethod
+    def _deduplicate_valueset(definition: ValueSetDefinition) -> ValueSetDefinition:
         allowed_values: Dict[str, ValueSetDefinitionAllowedValue] = {}
-        conflicts = False
 
         for value in definition.allowed_values:
             assert value.code is not None
@@ -184,13 +182,13 @@ class Definition(BaseModel):
         return definition
 
     def add_codesystem(self, relationship: CodeSystemRelationshipMatcher.Relationship):
-        filter = relationship.resource.filter
+        resource_filter = relationship.resource.filter
 
         codesystem_definition = CodeSystemDefinition(
             name=relationship.resource.name,
             resource_id=relationship.resource.id or relationship.resource.name,
             resource_url=relationship.resource.url,
-            filter=list(filter) if filter else None,
+            filter=list(resource_filter) if resource_filter else None,
             concepts=list(relationship.concepts),
             properties=list(relationship.properties),
             valueset=self._convert_valueset(relationship.valueset)

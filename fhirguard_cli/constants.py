@@ -45,5 +45,4 @@ class ResourceType:
     MessageDefinition: str = "MessageDefinition"
     OperationOutcome: str = "OperationOutcome"
     ImplementationGuide: str = "ImplementationGuide"
-    CapabilityStatement: str = "CapabilityStatement"
     StructureMap: str = "StructureMap"

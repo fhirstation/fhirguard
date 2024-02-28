@@ -24,7 +24,7 @@ def get_tarball_url(package: str) -> str:
     ]
     print(f"Running command: '{' '.join(command)}'")
 
-    result = subprocess.run(command, capture_output=True)
+    result = subprocess.run(command, capture_output=True, check=False)
     if result.returncode != 0:
         print(f"Error downloading package '{package}'")
         print("npm output:")
@@ -46,7 +46,7 @@ def download_file(url: str) -> bytes:
     ):
         data += chunk
 
-    if response.status_code != 200:
+    if response.status_code != requests.status_codes.codes.ok:
         print(f"Error downloading file from '{url}'")
         print(f"HTTP status code: {response.status_code}")
         raise typer.Exit(code=1)

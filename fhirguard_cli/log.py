@@ -8,7 +8,7 @@ from rich.console import Console
 console = Console()
 
 
-def print(text):  # pylint: disable=redefined-builtin
+def print(text):  # noqa
     """Basic console print"""
     console.print(text)
 

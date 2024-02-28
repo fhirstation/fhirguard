@@ -298,7 +298,7 @@ class ValueSetRelationshipMatcher(RelationshipMatcher[ValueSet]):
                     f"Version mismatch for CodeSystem '{codesystem.id}' with system '{system}'"
                 )
 
-            if supplements := include.get("supplements"):
+            if include.get("supplements"):
                 log.warn("Supplements are not yet supported")
 
             if (concepts := include.get("concept")) and codesystem.concept:
@@ -385,7 +385,8 @@ class ValueSetRelationshipMatcher(RelationshipMatcher[ValueSet]):
 
         return _contains
 
-    def _deduplicate_relationship(self, relationship: Relationship) -> Relationship:
+    @staticmethod
+    def _deduplicate_relationship(relationship: Relationship) -> Relationship:
         """
         Remove duplicate resources from a relationship
         """

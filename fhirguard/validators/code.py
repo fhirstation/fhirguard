@@ -1,5 +1,5 @@
 from fhirguard.validators.validator import Validator
-from fhirguard_core.resources import fhirtypes
+
 
 class CodeValidator(Validator):
     def validate(
@@ -7,15 +7,14 @@ class CodeValidator(Validator):
         path: str,
         code: str,
         valueset: str | None = None,
-        codesystem: str | None = None
+        codesystem: str | None = None,
     ) -> bool:
-        
         if not code:
             self._add_issue(
                 severity="error",
                 code="code-invalid",
                 diagnostics="Code is missing, null or empty",
-                location=[path]
+                location=[path],
             )
             return False
 
@@ -24,7 +23,7 @@ class CodeValidator(Validator):
                 severity="error",
                 code="code-invalid",
                 diagnostics="Code must be a valid string",
-                location=[path]
+                location=[path],
             )
             return False
 
@@ -35,17 +34,15 @@ class CodeValidator(Validator):
             return self._validate_valueset(path, code, valueset)
 
         return False
-    
-    
+
     def _validate_valueset(self, path: str, code: str, valueset: str) -> bool:
         definition = self.metadata.get_valueset(valueset)
-        
+
         if not definition:
             raise ValueError(f"Valueset not found: {valueset}")
 
         matching_values = [
-            value for value in definition['allowed_values']
-            if value['code'] == code
+            value for value in definition["allowed_values"] if value["code"] == code
         ]
 
         if not matching_values:
@@ -53,7 +50,7 @@ class CodeValidator(Validator):
                 severity="error",
                 code="code-invalid",
                 diagnostics=f"Code '{code}' not found in valueset '{valueset}'",
-                location=[path]
+                location=[path],
             )
             return False
 

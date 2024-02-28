@@ -1,5 +1,6 @@
-from typing import TypeVar, Literal
-from fhirguard_core.resources import Resource, Element, fhirtypes
+from typing import Literal, TypeVar
+
+from fhirguard_core.resources import Element, Resource
 
 ResourceType = TypeVar("ResourceType", bound=Resource | Element)
 
