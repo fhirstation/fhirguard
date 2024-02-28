@@ -1,6 +1,6 @@
 from typing import Generic, List
 from fhirguard_core.types import ResourceType, OperationOutcomeSeverity
-from fhirguard.lib.metadata import Metadata
+from fhirguard.metadata import Metadata
 from abc import ABC, abstractmethod
 from fhirguard_core.resources import OperationOutcomeIssue
 

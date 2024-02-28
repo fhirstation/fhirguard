@@ -3,7 +3,7 @@ from pathlib import Path
 from fhirguard_core.resources import Coding, CodeableConcept, OperationOutcomeIssue
 
 from typing import Any, List, Generic, Self
-from fhirguard.lib.metadata import Metadata
+from fhirguard.metadata import Metadata
 from fhirguard_core.types import ResourceType
 from fhirguard.validators.coding import CodingValidator
 from fhirguard.validators.code import CodeValidator
