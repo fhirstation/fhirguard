@@ -48,7 +48,7 @@ jobs:
       - name: Package application
         run: poetry build
       
-      - name: upload windows dists
+      - name: Upload release dists
         uses: actions/upload-artifact@v4
         with:
           name: release-dists
