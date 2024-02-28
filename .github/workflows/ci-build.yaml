@@ -46,5 +46,5 @@ jobs:
       - name: Upload package
         uses: actions/upload-artifact@v4
         with:
-          name: fhirguard
+          name: fhirguard-${{ matrix.python-version }}
           path: dist/*
