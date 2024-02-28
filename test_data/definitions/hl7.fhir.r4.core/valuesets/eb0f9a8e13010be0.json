@@ -1,0 +1,71 @@
+{
+  "name": "v2.0160",
+  "resource_id": "v2-0160",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0160",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0160"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0160 ( TRAY TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0160",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0160"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "EARLY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0160",
+      "display": "Early tray",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GUEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0160",
+      "display": "Guest tray",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LATE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0160",
+      "display": "Late tray",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0160",
+      "display": "Tray message only",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0160",
+      "display": "No tray",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

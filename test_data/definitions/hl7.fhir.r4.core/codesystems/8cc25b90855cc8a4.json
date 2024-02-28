@@ -1,0 +1,90 @@
+{
+  "name": "BindingStrength",
+  "resource_id": "binding-strength",
+  "resource_url": "http://hl7.org/fhir/binding-strength",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "required",
+      "display": "Required",
+      "definition": "To be conformant, the concept in this element SHALL be from the specified value set."
+    },
+    {
+      "code": "extensible",
+      "display": "Extensible",
+      "definition": "To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead."
+    },
+    {
+      "code": "preferred",
+      "display": "Preferred",
+      "definition": "Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant."
+    },
+    {
+      "code": "example",
+      "display": "Example",
+      "definition": "Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "BindingStrength",
+    "resource_id": "binding-strength",
+    "resource_url": "http://hl7.org/fhir/ValueSet/binding-strength",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/binding-strength"
+        }
+      ]
+    },
+    "description": "Indication of the degree of conformance expectations associated with a binding.",
+    "related_codesystems": [
+      {
+        "id": "binding-strength",
+        "url": "http://hl7.org/fhir/binding-strength"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "required",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/binding-strength",
+        "display": "Required",
+        "description": "To be conformant, the concept in this element SHALL be from the specified value set.",
+        "filter": null
+      },
+      {
+        "code": "extensible",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/binding-strength",
+        "display": "Extensible",
+        "description": "To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.",
+        "filter": null
+      },
+      {
+        "code": "preferred",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/binding-strength",
+        "display": "Preferred",
+        "description": "Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.",
+        "filter": null
+      },
+      {
+        "code": "example",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/binding-strength",
+        "display": "Example",
+        "description": "Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included.",
+        "filter": null
+      }
+    ]
+  }
+}

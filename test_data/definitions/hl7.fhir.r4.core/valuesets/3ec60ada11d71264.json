@@ -1,0 +1,91 @@
+{
+  "name": "PropertyType",
+  "resource_id": "concept-property-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/concept-property-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/concept-property-type"
+      }
+    ]
+  },
+  "description": "The type of a property value.",
+  "related_codesystems": [
+    {
+      "id": "concept-property-type",
+      "url": "http://hl7.org/fhir/concept-property-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "code",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "code (internal reference)",
+      "description": "The property value is a code that identifies a concept defined in the code system.",
+      "filter": null
+    },
+    {
+      "code": "Coding",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "Coding (external reference)",
+      "description": "The property  value is a code defined in an external code system. This may be used for translations, but is not the intent.",
+      "filter": null
+    },
+    {
+      "code": "string",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "string",
+      "description": "The property value is a string.",
+      "filter": null
+    },
+    {
+      "code": "integer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "integer",
+      "description": "The property value is a string (often used to assign ranking values to concepts for supporting score assessments).",
+      "filter": null
+    },
+    {
+      "code": "boolean",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "boolean",
+      "description": "The property value is a boolean true | false.",
+      "filter": null
+    },
+    {
+      "code": "dateTime",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "dateTime",
+      "description": "The property is a date or a date + time.",
+      "filter": null
+    },
+    {
+      "code": "decimal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-property-type",
+      "display": "decimal",
+      "description": "The property value is a decimal number.",
+      "filter": null
+    }
+  ]
+}

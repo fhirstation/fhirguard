@@ -1,0 +1,81 @@
+{
+  "name": "v2.0905",
+  "resource_id": "v2-0905",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0905",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0905"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0905 ( Shipment Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0905",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0905"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "INV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0905",
+      "display": "Inventoried",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ONH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0905",
+      "display": "On Hold",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0905",
+      "display": "Processing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0905",
+      "display": "Rejected",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0905",
+      "display": "In Transit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0905",
+      "display": "Triaged to Lab",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

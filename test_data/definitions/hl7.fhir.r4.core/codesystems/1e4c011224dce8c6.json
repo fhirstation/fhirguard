@@ -1,0 +1,84 @@
+{
+  "name": "v2.0281",
+  "resource_id": "v2-0281",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0281",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "Hom",
+      "display": "Home Care",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Thuiszorg"
+        }
+      ]
+    },
+    {
+      "code": "Lab",
+      "display": "Laboratory",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Laboratorium"
+        }
+      ]
+    },
+    {
+      "code": "Med",
+      "display": "Medical",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Medisch"
+        }
+      ]
+    },
+    {
+      "code": "Psy",
+      "display": "Psychiatric",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Psychiatrisch"
+        }
+      ]
+    },
+    {
+      "code": "Rad",
+      "display": "Radiology",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Radiologie"
+        }
+      ]
+    },
+    {
+      "code": "Skn",
+      "display": "Skilled Nursing"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

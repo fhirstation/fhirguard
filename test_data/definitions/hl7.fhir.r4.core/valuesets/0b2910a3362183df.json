@@ -1,0 +1,141 @@
+{
+  "name": "v2.0384",
+  "resource_id": "v2-0384",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0384",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0384"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0384 ( Substance type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0384",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0384"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Control Reagent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Diluent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Measurable Liquid Item",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Liquid Waste",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Multiple Test Reagent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Pretreatment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Purified Water",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Reagent Calibrator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Countable Solid Item",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Single Test Reagent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0384",
+      "display": "Solid Waste",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

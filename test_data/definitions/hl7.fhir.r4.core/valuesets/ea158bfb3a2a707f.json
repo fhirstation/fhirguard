@@ -1,0 +1,71 @@
+{
+  "name": "v2.0436",
+  "resource_id": "v2-0436",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0436",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0436"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0436 ( Sensitivity to Causative Agent code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0436",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0436"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0436",
+      "display": "Adverse Reaction (Not otherwise classified)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0436",
+      "display": "Allergy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0436",
+      "display": "Contraindication",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0436",
+      "display": "Intolerance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0436",
+      "display": "Side Effect",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

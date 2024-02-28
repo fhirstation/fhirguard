@@ -1,0 +1,98 @@
+{
+  "name": "v2.0273",
+  "resource_id": "v2-0273",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0273",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AV",
+      "display": "Available for patient care",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verfügbar (Kann zur Behandlung herangezogen werden.)"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Beschikbaar voor patiëntzorg"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "display": "Deleted",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gelöscht"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verwijderd"
+        }
+      ]
+    },
+    {
+      "code": "OB",
+      "display": "Obsolete",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Nicht mehr relevant"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Obsoleet"
+        }
+      ]
+    },
+    {
+      "code": "UN",
+      "display": "Unavailable for patient care",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Nicht verfügbar (Kann nicht zur Behandlung verwendet werden.)"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet beschikbaar voor patiëntzorg"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,26 @@
+{
+  "name": "SNOMEDCTCodesForSpecies",
+  "resource_id": "sequence-species",
+  "resource_url": "http://hl7.org/fhir/ValueSet/sequence-species",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "Codes identifying atomic results of observations when value is type codeableConcept. This value set includes all the children of SNOMED CT Concepts from SCTIDs 404684003 Clinical finding (finding), 410607006 Organism (organism),362981000 Qualifier value (qualifier value), 105590001 Substance (substance), and 123037004 Body structure (body structure).  It is provided as a suggestive example",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

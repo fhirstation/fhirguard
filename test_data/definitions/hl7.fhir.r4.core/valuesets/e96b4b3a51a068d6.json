@@ -1,0 +1,71 @@
+{
+  "name": "v2.0536",
+  "resource_id": "v2-0536",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0536",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0536"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0536 ( Certificate Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0536",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0536"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0536",
+      "display": "Expired",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0536",
+      "display": "Inactive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0536",
+      "display": "Provisional",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0536",
+      "display": "Revoked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0536",
+      "display": "Active/Valid",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

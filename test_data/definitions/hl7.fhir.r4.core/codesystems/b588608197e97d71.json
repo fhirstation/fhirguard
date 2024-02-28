@@ -1,0 +1,50 @@
+{
+  "name": "MediaModality",
+  "resource_id": "media-modality",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/media-modality",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "diagram",
+      "display": "Diagram",
+      "definition": "A diagram. Often used in diagnostic reports"
+    },
+    {
+      "code": "fax",
+      "display": "Fax",
+      "definition": "A digital record of a fax document"
+    },
+    {
+      "code": "scan",
+      "display": "Scanned Document",
+      "definition": "A digital scan of a document. This is reserved for when there is not enough metadata to create a document reference"
+    },
+    {
+      "code": "retina",
+      "display": "Retina Scan",
+      "definition": "A retinal image used for identification purposes"
+    },
+    {
+      "code": "fingerprint",
+      "display": "Fingerprint",
+      "definition": "A finger print scan used for identification purposes"
+    },
+    {
+      "code": "iris",
+      "display": "Iris Scan",
+      "definition": "An iris scan used for identification purposes"
+    },
+    {
+      "code": "palm",
+      "display": "Palm Scan",
+      "definition": "A palm scan used for identification purposes"
+    },
+    {
+      "code": "face",
+      "display": "Face Scan",
+      "definition": "A face scan used for identification purposes"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

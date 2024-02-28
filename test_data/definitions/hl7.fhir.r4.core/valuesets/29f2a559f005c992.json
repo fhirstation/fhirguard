@@ -1,0 +1,183 @@
+{
+  "name": "PostalAddressUse",
+  "resource_id": "postal-address-use",
+  "resource_url": "http://hl7.org/fhir/ValueSet/postal-address-use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AddressUse",
+        "concept": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "A flag indicating that the address is bad, in fact, useless."
+              }
+            ],
+            "code": "BAD",
+            "display": "bad address"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Indicates that the address is considered sensitive and should only be shared or published in accordance with organizational controls governing patient demographic information with increased sensitivity. Uses of Addresses. Lloyd to supply more complete description."
+              }
+            ],
+            "code": "CONF",
+            "display": "confidential address"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "The primary home, to reach a person after business hours."
+              }
+            ],
+            "code": "HP",
+            "display": "primary home"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "A vacation home, to reach a person while on vacation."
+              }
+            ],
+            "code": "HV",
+            "display": "vacation home"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Indicates a work place address or telecommunication address that reaches the individual or organization directly without intermediaries. For phones, often referred to as a 'private line'."
+              }
+            ],
+            "code": "DIR",
+            "display": "direct"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Indicates a work place address or telecommunication address that is a 'standard' address which may reach a reception service, mail-room, or other intermediary prior to the target entity."
+              }
+            ],
+            "code": "PUB",
+            "display": "public"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Used primarily to visit an address."
+              }
+            ],
+            "code": "PHYS",
+            "display": "physical visit address"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Used to send mail."
+              }
+            ],
+            "code": "PST",
+            "display": "postal address"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Uses of an address not included in Address.use.",
+  "related_codesystems": [
+    {
+      "id": "v3-AddressUse",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-AddressUse"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BAD",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "bad address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "confidential address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HP",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "primary home",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HV",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "vacation home",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIR",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "direct",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUB",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "public",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHYS",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "physical visit address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PST",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "postal address",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

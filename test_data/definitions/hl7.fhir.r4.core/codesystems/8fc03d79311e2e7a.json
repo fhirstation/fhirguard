@@ -1,0 +1,105 @@
+{
+  "name": "StructureMapSourceListMode",
+  "resource_id": "map-source-list-mode",
+  "resource_url": "http://hl7.org/fhir/map-source-list-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "first",
+      "display": "First",
+      "definition": "Only process this rule for the first in the list."
+    },
+    {
+      "code": "not_first",
+      "display": "All but the first",
+      "definition": "Process this rule for all but the first."
+    },
+    {
+      "code": "last",
+      "display": "Last",
+      "definition": "Only process this rule for the last in the list."
+    },
+    {
+      "code": "not_last",
+      "display": "All but the last",
+      "definition": "Process this rule for all but the last."
+    },
+    {
+      "code": "only_one",
+      "display": "Enforce only one",
+      "definition": "Only process this rule is there is only item."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "StructureMapSourceListMode",
+    "resource_id": "map-source-list-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/map-source-list-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/map-source-list-mode"
+        }
+      ]
+    },
+    "description": "If field is a list, how to manage the source.",
+    "related_codesystems": [
+      {
+        "id": "map-source-list-mode",
+        "url": "http://hl7.org/fhir/map-source-list-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "first",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-source-list-mode",
+        "display": "First",
+        "description": "Only process this rule for the first in the list.",
+        "filter": null
+      },
+      {
+        "code": "not_first",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-source-list-mode",
+        "display": "All but the first",
+        "description": "Process this rule for all but the first.",
+        "filter": null
+      },
+      {
+        "code": "last",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-source-list-mode",
+        "display": "Last",
+        "description": "Only process this rule for the last in the list.",
+        "filter": null
+      },
+      {
+        "code": "not_last",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-source-list-mode",
+        "display": "All but the last",
+        "description": "Process this rule for all but the last.",
+        "filter": null
+      },
+      {
+        "code": "only_one",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-source-list-mode",
+        "display": "Enforce only one",
+        "description": "Only process this rule is there is only item.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourcePartyRoleCodes",
+  "resource_id": "contract-party-role",
+  "resource_url": "http://hl7.org/fhir/contract-party-role",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "flunky",
+      "display": "FLunky",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourcePartyRoleCodes",
+    "resource_id": "contract-party-role",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-party-role",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-party-role"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for offer party participation.",
+    "related_codesystems": [
+      {
+        "id": "contract-party-role",
+        "url": "http://hl7.org/fhir/contract-party-role"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "flunky",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-party-role",
+        "display": "FLunky",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

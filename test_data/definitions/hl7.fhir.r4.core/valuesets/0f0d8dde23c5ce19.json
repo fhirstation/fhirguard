@@ -1,0 +1,51 @@
+{
+  "name": "v2.0105",
+  "resource_id": "v2-0105",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0105",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0105"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0105 ( SOURCE OF COMMENT)",
+  "related_codesystems": [
+    {
+      "id": "v2-0105",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0105"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0105",
+      "display": "Ancillary (filler) department is source of comment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0105",
+      "display": "Other system is source of comment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0105",
+      "display": "Orderer (placer) is source of comment",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

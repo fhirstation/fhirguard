@@ -1,0 +1,161 @@
+{
+  "name": "SmartCapabilities",
+  "resource_id": "smart-capabilities",
+  "resource_url": "http://hl7.org/fhir/ValueSet/smart-capabilities",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities"
+      }
+    ]
+  },
+  "description": "Codes that define what the server is capable of.",
+  "related_codesystems": [
+    {
+      "id": "smart-capabilities",
+      "url": "http://terminology.hl7.org/CodeSystem/smart-capabilities"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "launch-ehr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "EHR Launch Mode",
+      "description": "support for SMART’s EHR Launch mode.",
+      "filter": null
+    },
+    {
+      "code": "launch-standalone",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Standalone Launch Mode",
+      "description": "support for SMART’s Standalone Launch mode.",
+      "filter": null
+    },
+    {
+      "code": "client-public",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Public Client Profile",
+      "description": "support for SMART’s public client profile (no client authentication).",
+      "filter": null
+    },
+    {
+      "code": "client-confidential-symmetric",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Confidential Client Profile",
+      "description": "support for SMART’s confidential client profile (symmetric client secret authentication).",
+      "filter": null
+    },
+    {
+      "code": "sso-openid-connect",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Supports OpenID Connect",
+      "description": "support for SMART’s OpenID Connect profile.",
+      "filter": null
+    },
+    {
+      "code": "context-passthrough-banner",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Allows \"Need Patient Banner\"",
+      "description": "support for “need patient banner” launch context (conveyed via need_patient_banner token parameter).",
+      "filter": null
+    },
+    {
+      "code": "context-passthrough-style",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Allows \"Smart Style Style\"",
+      "description": "support for “SMART style URL” launch context (conveyed via smart_style_url token parameter).",
+      "filter": null
+    },
+    {
+      "code": "context-ehr-patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Allows \"Patient Level Launch Context (EHR)\"",
+      "description": "support for patient-level launch context (requested by launch/patient scope, conveyed via patient token parameter).",
+      "filter": null
+    },
+    {
+      "code": "context-ehr-encounter",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Allows \"Encounter Level Launch Context (EHR)\"",
+      "description": "support for encounter-level launch context (requested by launch/encounter scope, conveyed via encounter token parameter).",
+      "filter": null
+    },
+    {
+      "code": "context-standalone-patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Allows \"Patient Level Launch Context (STANDALONE)\"",
+      "description": "support for patient-level launch context (requested by launch/patient scope, conveyed via patient token parameter).",
+      "filter": null
+    },
+    {
+      "code": "context-standalone-encounter",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Allows \"Encounter Level Launch Context (STANDALONE)\"",
+      "description": "support for encounter-level launch context (requested by launch/encounter scope, conveyed via encounter token parameter).",
+      "filter": null
+    },
+    {
+      "code": "permission-offline",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Supports Refresh Token",
+      "description": "support for refresh tokens (requested by offline_access scope).",
+      "filter": null
+    },
+    {
+      "code": "permission-patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Supports Patient Level Scopes",
+      "description": "support for patient-level scopes (e.g. patient/Observation.read).",
+      "filter": null
+    },
+    {
+      "code": "permission-user",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/smart-capabilities",
+      "display": "Supports User Level Scopes",
+      "description": "support for user-level scopes (e.g. user/Appointment.read).",
+      "filter": null
+    }
+  ]
+}

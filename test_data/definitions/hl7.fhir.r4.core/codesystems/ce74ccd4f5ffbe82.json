@@ -1,0 +1,84 @@
+{
+  "name": "v2.0495",
+  "resource_id": "v2-0495",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0495",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ANT",
+      "display": "Anterior"
+    },
+    {
+      "code": "BIL",
+      "display": "Bilateral"
+    },
+    {
+      "code": "DIS",
+      "display": "Distal"
+    },
+    {
+      "code": "EXT",
+      "display": "External"
+    },
+    {
+      "code": "L",
+      "display": "Left",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "links"
+        }
+      ]
+    },
+    {
+      "code": "LAT",
+      "display": "Lateral"
+    },
+    {
+      "code": "LLQ",
+      "display": "Quadrant, Left Lower"
+    },
+    {
+      "code": "LOW",
+      "display": "Lower"
+    },
+    {
+      "code": "LUQ",
+      "display": "Quadrant, Left Upper"
+    },
+    {
+      "code": "MED",
+      "display": "Medial"
+    },
+    {
+      "code": "POS",
+      "display": "Posterior"
+    },
+    {
+      "code": "PRO",
+      "display": "Proximal"
+    },
+    {
+      "code": "R",
+      "display": "Right"
+    },
+    {
+      "code": "RLQ",
+      "display": "Quadrant, Right Lower"
+    },
+    {
+      "code": "RUQ",
+      "display": "Quadrant, Right Upper"
+    },
+    {
+      "code": "UPP",
+      "display": "Upper"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,45 @@
+{
+  "name": "FMConditionCodes",
+  "resource_id": "fm-conditions",
+  "resource_url": "http://hl7.org/fhir/fm-conditions",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "123987",
+      "display": "Headache",
+      "definition": "Headache"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "FMConditionCodes",
+    "resource_id": "fm-conditions",
+    "resource_url": "http://hl7.org/fhir/ValueSet/fm-conditions",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/fm-conditions"
+        }
+      ]
+    },
+    "description": "This value set includes sample Conditions codes.",
+    "related_codesystems": [
+      {
+        "id": "fm-conditions",
+        "url": "http://hl7.org/fhir/fm-conditions"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "123987",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/fm-conditions",
+        "display": "Headache",
+        "description": "Headache",
+        "filter": null
+      }
+    ]
+  }
+}

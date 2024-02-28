@@ -1,0 +1,98 @@
+{
+  "name": "CommonUCUMCodesForDistance",
+  "resource_id": "distance-units",
+  "resource_url": "http://hl7.org/fhir/ValueSet/distance-units",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "nm",
+            "display": "nanometers"
+          },
+          {
+            "code": "um",
+            "display": "micrometers"
+          },
+          {
+            "code": "mm",
+            "display": "millimeters"
+          },
+          {
+            "code": "m",
+            "display": "meters"
+          },
+          {
+            "code": "km",
+            "display": "kilometers"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Unified Code for Units of Measure (UCUM). This value set includes common UCUM codes for units of distance",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "nm",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "nanometers",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "um",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "micrometers",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "mm",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "millimeters",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "m",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "meters",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "km",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "kilometers",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

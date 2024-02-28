@@ -1,0 +1,54 @@
+{
+  "name": "v2.0166",
+  "resource_id": "v2-0166",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0166",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Additive",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Additiv"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Additief"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Base",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Basissubstanz"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Basis"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,90 @@
+{
+  "name": "DeviceMetricCalibrationType",
+  "resource_id": "metric-calibration-type",
+  "resource_url": "http://hl7.org/fhir/metric-calibration-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "unspecified",
+      "display": "Unspecified",
+      "definition": "Metric calibration method has not been identified."
+    },
+    {
+      "code": "offset",
+      "display": "Offset",
+      "definition": "Offset metric calibration method."
+    },
+    {
+      "code": "gain",
+      "display": "Gain",
+      "definition": "Gain metric calibration method."
+    },
+    {
+      "code": "two-point",
+      "display": "Two Point",
+      "definition": "Two-point metric calibration method."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DeviceMetricCalibrationType",
+    "resource_id": "metric-calibration-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/metric-calibration-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/metric-calibration-type"
+        }
+      ]
+    },
+    "description": "Describes the type of a metric calibration.",
+    "related_codesystems": [
+      {
+        "id": "metric-calibration-type",
+        "url": "http://hl7.org/fhir/metric-calibration-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "unspecified",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-calibration-type",
+        "display": "Unspecified",
+        "description": "Metric calibration method has not been identified.",
+        "filter": null
+      },
+      {
+        "code": "offset",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-calibration-type",
+        "display": "Offset",
+        "description": "Offset metric calibration method.",
+        "filter": null
+      },
+      {
+        "code": "gain",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-calibration-type",
+        "display": "Gain",
+        "description": "Gain metric calibration method.",
+        "filter": null
+      },
+      {
+        "code": "two-point",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-calibration-type",
+        "display": "Two Point",
+        "description": "Two-point metric calibration method.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "SearchModifierCode",
+  "resource_id": "search-modifier-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/search-modifier-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/search-modifier-code"
+      }
+    ]
+  },
+  "description": "A supported modifier for a search parameter.",
+  "related_codesystems": [
+    {
+      "id": "search-modifier-code",
+      "url": "http://hl7.org/fhir/search-modifier-code"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "missing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Missing",
+      "description": "The search parameter returns resources that have a value or not.",
+      "filter": null
+    },
+    {
+      "code": "exact",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Exact",
+      "description": "The search parameter returns resources that have a value that exactly matches the supplied parameter (the whole string, including casing and accents).",
+      "filter": null
+    },
+    {
+      "code": "contains",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Contains",
+      "description": "The search parameter returns resources that include the supplied parameter value anywhere within the field being searched.",
+      "filter": null
+    },
+    {
+      "code": "not",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Not",
+      "description": "The search parameter returns resources that do not contain a match.",
+      "filter": null
+    },
+    {
+      "code": "text",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Text",
+      "description": "The search parameter is processed as a string that searches text associated with the code/value - either CodeableConcept.text, Coding.display, or Identifier.type.text.",
+      "filter": null
+    },
+    {
+      "code": "in",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "In",
+      "description": "The search parameter is a URI (relative or absolute) that identifies a value set, and the search parameter tests whether the coding is in the specified value set.",
+      "filter": null
+    },
+    {
+      "code": "not-in",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Not In",
+      "description": "The search parameter is a URI (relative or absolute) that identifies a value set, and the search parameter tests whether the coding is not in the specified value set.",
+      "filter": null
+    },
+    {
+      "code": "below",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Below",
+      "description": "The search parameter tests whether the value in a resource is subsumed by the specified value (is-a, or hierarchical relationships).",
+      "filter": null
+    },
+    {
+      "code": "above",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Above",
+      "description": "The search parameter tests whether the value in a resource subsumes the specified value (is-a, or hierarchical relationships).",
+      "filter": null
+    },
+    {
+      "code": "type",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Type",
+      "description": "The search parameter only applies to the Resource Type specified as a modifier (e.g. the modifier is not actually :type, but :Patient etc.).",
+      "filter": null
+    },
+    {
+      "code": "identifier",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Identifier",
+      "description": "The search parameter applies to the identifier on the resource, not the reference.",
+      "filter": null
+    },
+    {
+      "code": "ofType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/search-modifier-code",
+      "display": "Of Type",
+      "description": "The search parameter has the format system|code|value, where the system and code refer to an Identifier.type.coding.system and .code, and match if any of the type codes match. All 3 parts must be present.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "v2.0904",
+  "resource_id": "v2-0904",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0904",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "A non-embossed number included on bank cards and used to validate authenticity of the card and the person presenting the card"
+        }
+      ],
+      "code": "BCV",
+      "display": "Bank Card Validation Number"
+    },
+    {
+      "code": "CCS",
+      "display": "Credit Card Security code"
+    },
+    {
+      "code": "VID",
+      "display": "Version ID"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

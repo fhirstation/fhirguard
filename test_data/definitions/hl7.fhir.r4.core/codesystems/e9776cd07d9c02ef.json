@@ -1,0 +1,390 @@
+{
+  "name": "chromosome-human",
+  "resource_id": "chromosome-human",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "chromosome 1",
+      "definition": "chromosome 1."
+    },
+    {
+      "code": "2",
+      "display": "chromosome 2",
+      "definition": "chromosome 2."
+    },
+    {
+      "code": "3",
+      "display": "chromosome 3",
+      "definition": "chromosome 3."
+    },
+    {
+      "code": "4",
+      "display": "chromosome 4",
+      "definition": "chromosome 4."
+    },
+    {
+      "code": "5",
+      "display": "chromosome 5",
+      "definition": "chromosome 5."
+    },
+    {
+      "code": "6",
+      "display": "chromosome 6",
+      "definition": "chromosome 6."
+    },
+    {
+      "code": "7",
+      "display": "chromosome 7",
+      "definition": "chromosome 7."
+    },
+    {
+      "code": "8",
+      "display": "chromosome 8",
+      "definition": "chromosome 8."
+    },
+    {
+      "code": "9",
+      "display": "chromosome 9",
+      "definition": "chromosome 9."
+    },
+    {
+      "code": "10",
+      "display": "chromosome 10",
+      "definition": "chromosome 10."
+    },
+    {
+      "code": "11",
+      "display": "chromosome 11",
+      "definition": "chromosome 11."
+    },
+    {
+      "code": "12",
+      "display": "chromosome 12",
+      "definition": "chromosome 12."
+    },
+    {
+      "code": "13",
+      "display": "chromosome 13",
+      "definition": "chromosome 13."
+    },
+    {
+      "code": "14",
+      "display": "chromosome 14",
+      "definition": "chromosome 14."
+    },
+    {
+      "code": "15",
+      "display": "chromosome 15",
+      "definition": "chromosome 15."
+    },
+    {
+      "code": "16",
+      "display": "chromosome 16",
+      "definition": "chromosome 16."
+    },
+    {
+      "code": "17",
+      "display": "chromosome 17",
+      "definition": "chromosome 17."
+    },
+    {
+      "code": "18",
+      "display": "chromosome 18",
+      "definition": "chromosome 18."
+    },
+    {
+      "code": "19",
+      "display": "chromosome 19",
+      "definition": "chromosome 19."
+    },
+    {
+      "code": "20",
+      "display": "chromosome 20",
+      "definition": "chromosome 20."
+    },
+    {
+      "code": "21",
+      "display": "chromosome 21",
+      "definition": "chromosome 21."
+    },
+    {
+      "code": "22",
+      "display": "chromosome 22",
+      "definition": "chromosome 22."
+    },
+    {
+      "code": "X",
+      "display": "chromosome X",
+      "definition": "chromosome X."
+    },
+    {
+      "code": "Y",
+      "display": "chromosome Y",
+      "definition": "chromosome Y."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "chromosome-human",
+    "resource_id": "chromosome-human",
+    "resource_url": "http://hl7.org/fhir/ValueSet/chromosome-human",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/chromosome-human"
+        }
+      ]
+    },
+    "description": "Chromosome number for human.",
+    "related_codesystems": [
+      {
+        "id": "chromosome-human",
+        "url": "http://terminology.hl7.org/CodeSystem/chromosome-human"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "1",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 1",
+        "description": "chromosome 1.",
+        "filter": null
+      },
+      {
+        "code": "2",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 2",
+        "description": "chromosome 2.",
+        "filter": null
+      },
+      {
+        "code": "3",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 3",
+        "description": "chromosome 3.",
+        "filter": null
+      },
+      {
+        "code": "4",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 4",
+        "description": "chromosome 4.",
+        "filter": null
+      },
+      {
+        "code": "5",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 5",
+        "description": "chromosome 5.",
+        "filter": null
+      },
+      {
+        "code": "6",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 6",
+        "description": "chromosome 6.",
+        "filter": null
+      },
+      {
+        "code": "7",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 7",
+        "description": "chromosome 7.",
+        "filter": null
+      },
+      {
+        "code": "8",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 8",
+        "description": "chromosome 8.",
+        "filter": null
+      },
+      {
+        "code": "9",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 9",
+        "description": "chromosome 9.",
+        "filter": null
+      },
+      {
+        "code": "10",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 10",
+        "description": "chromosome 10.",
+        "filter": null
+      },
+      {
+        "code": "11",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 11",
+        "description": "chromosome 11.",
+        "filter": null
+      },
+      {
+        "code": "12",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 12",
+        "description": "chromosome 12.",
+        "filter": null
+      },
+      {
+        "code": "13",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 13",
+        "description": "chromosome 13.",
+        "filter": null
+      },
+      {
+        "code": "14",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 14",
+        "description": "chromosome 14.",
+        "filter": null
+      },
+      {
+        "code": "15",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 15",
+        "description": "chromosome 15.",
+        "filter": null
+      },
+      {
+        "code": "16",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 16",
+        "description": "chromosome 16.",
+        "filter": null
+      },
+      {
+        "code": "17",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 17",
+        "description": "chromosome 17.",
+        "filter": null
+      },
+      {
+        "code": "18",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 18",
+        "description": "chromosome 18.",
+        "filter": null
+      },
+      {
+        "code": "19",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 19",
+        "description": "chromosome 19.",
+        "filter": null
+      },
+      {
+        "code": "20",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 20",
+        "description": "chromosome 20.",
+        "filter": null
+      },
+      {
+        "code": "21",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 21",
+        "description": "chromosome 21.",
+        "filter": null
+      },
+      {
+        "code": "22",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome 22",
+        "description": "chromosome 22.",
+        "filter": null
+      },
+      {
+        "code": "X",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome X",
+        "description": "chromosome X.",
+        "filter": null
+      },
+      {
+        "code": "Y",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/chromosome-human",
+        "display": "chromosome Y",
+        "description": "chromosome Y.",
+        "filter": null
+      }
+    ]
+  }
+}

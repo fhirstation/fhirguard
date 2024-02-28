@@ -1,0 +1,406 @@
+{
+  "name": "Example Hierarchical ValueSet",
+  "resource_id": "example-hierarchical",
+  "resource_url": "http://hl7.org/fhir/ValueSet/example-hierarchical",
+  "compose": {
+    "include": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/valueset-expand-rules",
+            "valueCode": "groups-only"
+          },
+          {
+            "extension": [
+              {
+                "url": "display",
+                "valueString": "(Most common)"
+              },
+              {
+                "url": "member",
+                "valueCode": "login"
+              },
+              {
+                "url": "member",
+                "valueCode": "conflict"
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/valueset-expand-group"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCode": "processing"
+              },
+              {
+                "url": "member",
+                "valueCode": "duplicate"
+              },
+              {
+                "url": "member",
+                "valueCode": "not-found"
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/valueset-expand-group"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCode": "invalid"
+              },
+              {
+                "url": "member",
+                "valueCode": "structure"
+              },
+              {
+                "url": "member",
+                "valueCode": "required"
+              },
+              {
+                "url": "member",
+                "valueCode": "value"
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/valueset-expand-group"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCode": "transient"
+              },
+              {
+                "url": "member",
+                "valueCode": "lock"
+              },
+              {
+                "url": "member",
+                "valueCode": "exception"
+              },
+              {
+                "url": "member",
+                "valueCode": "throttled"
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/valueset-expand-group"
+          },
+          {
+            "extension": [
+              {
+                "url": "code",
+                "valueCode": "security"
+              },
+              {
+                "url": "member",
+                "valueCode": "login"
+              },
+              {
+                "url": "member",
+                "valueCode": "unknown"
+              }
+            ],
+            "url": "http://hl7.org/fhir/StructureDefinition/valueset-expand-group"
+          }
+        ],
+        "system": "#hacked",
+        "concept": [
+          {
+            "code": "invalid"
+          },
+          {
+            "code": "structure"
+          },
+          {
+            "code": "required"
+          },
+          {
+            "code": "value"
+          },
+          {
+            "code": "processing"
+          },
+          {
+            "code": "duplicate"
+          },
+          {
+            "code": "not-found"
+          },
+          {
+            "code": "conflict"
+          },
+          {
+            "code": "lock"
+          },
+          {
+            "code": "exception"
+          },
+          {
+            "code": "tbrottled"
+          },
+          {
+            "code": "login"
+          },
+          {
+            "code": "unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Demonstration of extensions that build a hierarchical contains",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "invalid",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "structure",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "required",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "value",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "processing",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "duplicate",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "not-found",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "conflict",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "lock",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "exception",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "tbrottled",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "login",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "login",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Login Required",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "conflict",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Edit Version Conflict",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "processing",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Processing Failure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "duplicate",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Duplicate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "not-found",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Not Found",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "structure",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Structural Issue",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "required",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Required element missing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "value",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Element value invalid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "lock-error",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Lock Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "exception",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Exception",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "throttled",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Throttled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "contains"
+      ],
+      "system": "http://hl7.org/fhir/hacked",
+      "display": "Unknown User",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

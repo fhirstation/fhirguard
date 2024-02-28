@@ -1,0 +1,61 @@
+{
+  "name": "v3.Dentition",
+  "resource_id": "v3-Dentition",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-Dentition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Dentition"
+      }
+    ]
+  },
+  "description": "**** MISSING DEFINITIONS ****",
+  "related_codesystems": [
+    {
+      "id": "v3-Dentition",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-Dentition"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ArtificialDentition",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-Dentition",
+      "display": "Artificial dentition",
+      "description": "Artificial dentition, artificial subsitutes for the natural dentition",
+      "filter": null
+    },
+    {
+      "code": "PermanentDentition",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-Dentition",
+      "display": "Permanent dentition",
+      "description": "Permanent dentition, the natural teeth of adulthood that replace or are added to the deciduous teeth",
+      "filter": null
+    },
+    {
+      "code": "PrimaryDentition",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-Dentition",
+      "display": "Primary dentition",
+      "description": "Primary dentition, the first teeth to errupt and usually replaced with permanent dentition",
+      "filter": null
+    },
+    {
+      "code": "SupernumeraryTooth",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-Dentition",
+      "display": "Supernumerary Tooth",
+      "description": "Supernumerary tooth, any tooth in addition to the normal permanent and primary dentition",
+      "filter": null
+    }
+  ]
+}

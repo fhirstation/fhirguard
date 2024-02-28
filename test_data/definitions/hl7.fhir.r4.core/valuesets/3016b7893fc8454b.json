@@ -1,0 +1,121 @@
+{
+  "name": "AdmitSource",
+  "resource_id": "encounter-admit-source",
+  "resource_url": "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/admit-source"
+      }
+    ]
+  },
+  "description": "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+  "related_codesystems": [
+    {
+      "id": "encounter-admit-source",
+      "url": "http://terminology.hl7.org/CodeSystem/admit-source"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "hosp-trans",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "Transferred from other hospital",
+      "description": "The Patient has been transferred from another hospital for this encounter.",
+      "filter": null
+    },
+    {
+      "code": "emd",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "From accident/emergency department",
+      "description": "The patient has been transferred from the emergency department within the hospital. This is typically used in the transition to an inpatient encounter",
+      "filter": null
+    },
+    {
+      "code": "outp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "From outpatient department",
+      "description": "The patient has been transferred from an outpatient department within the hospital.",
+      "filter": null
+    },
+    {
+      "code": "born",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "Born in hospital",
+      "description": "The patient is a newborn and the encounter will track the baby related activities (as opposed to the Mothers encounter - that may be associated using the newborn encounters partof property)",
+      "filter": null
+    },
+    {
+      "code": "gp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "General Practitioner referral",
+      "description": "The patient has been admitted due to a referred from a General Practitioner.",
+      "filter": null
+    },
+    {
+      "code": "mp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "Medical Practitioner/physician referral",
+      "description": "The patient has been admitted due to a referred from a Specialist (as opposed to a General Practitioner).",
+      "filter": null
+    },
+    {
+      "code": "nursing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "From nursing home",
+      "description": "The patient has been transferred from a nursing home.",
+      "filter": null
+    },
+    {
+      "code": "psych",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "From psychiatric hospital",
+      "description": "The patient has been transferred from a psychiatric facility.",
+      "filter": null
+    },
+    {
+      "code": "rehab",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "From rehabilitation facility",
+      "description": "The patient has been transferred from a rehabilitation facility or clinic.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+      "display": "Other",
+      "description": "The patient has been admitted from a source otherwise not specified here.",
+      "filter": null
+    }
+  ]
+}

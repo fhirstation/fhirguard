@@ -1,0 +1,131 @@
+{
+  "name": "v2.0489",
+  "resource_id": "v2-0489",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0489",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0489"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0489 ( Risk Codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0489",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0489"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AGG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Aggressive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BHZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Biohazard",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BIO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Biological",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Corrosive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Escape Risk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Explosive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "MaterialDangerInflammable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "MaterialDangerInfectious",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Injury Hazard",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Poison",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0489",
+      "display": "Radioactive",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

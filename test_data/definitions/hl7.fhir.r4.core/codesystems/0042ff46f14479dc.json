@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourceSecurityControlCodes",
+  "resource_id": "contract-security-control",
+  "resource_url": "http://hl7.org/fhir/contract-security-control",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "policy",
+      "display": "Policy",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourceSecurityControlCodes",
+    "resource_id": "contract-security-control",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-security-control",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-security-control"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for security control.",
+    "related_codesystems": [
+      {
+        "id": "contract-security-control",
+        "url": "http://hl7.org/fhir/contract-security-control"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "policy",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-security-control",
+        "display": "Policy",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

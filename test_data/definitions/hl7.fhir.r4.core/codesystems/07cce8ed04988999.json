@@ -1,0 +1,135 @@
+{
+  "name": "TestScriptRequestMethodCode",
+  "resource_id": "http-operations",
+  "resource_url": "http://hl7.org/fhir/http-operations",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "delete",
+      "display": "DELETE",
+      "definition": "HTTP DELETE operation."
+    },
+    {
+      "code": "get",
+      "display": "GET",
+      "definition": "HTTP GET operation."
+    },
+    {
+      "code": "options",
+      "display": "OPTIONS",
+      "definition": "HTTP OPTIONS operation."
+    },
+    {
+      "code": "patch",
+      "display": "PATCH",
+      "definition": "HTTP PATCH operation."
+    },
+    {
+      "code": "post",
+      "display": "POST",
+      "definition": "HTTP POST operation."
+    },
+    {
+      "code": "put",
+      "display": "PUT",
+      "definition": "HTTP PUT operation."
+    },
+    {
+      "code": "head",
+      "display": "HEAD",
+      "definition": "HTTP HEAD operation."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "TestScriptRequestMethodCode",
+    "resource_id": "http-operations",
+    "resource_url": "http://hl7.org/fhir/ValueSet/http-operations",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/http-operations"
+        }
+      ]
+    },
+    "description": "The allowable request method or HTTP operation codes.",
+    "related_codesystems": [
+      {
+        "id": "http-operations",
+        "url": "http://hl7.org/fhir/http-operations"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "delete",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "DELETE",
+        "description": "HTTP DELETE operation.",
+        "filter": null
+      },
+      {
+        "code": "get",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "GET",
+        "description": "HTTP GET operation.",
+        "filter": null
+      },
+      {
+        "code": "options",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "OPTIONS",
+        "description": "HTTP OPTIONS operation.",
+        "filter": null
+      },
+      {
+        "code": "patch",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "PATCH",
+        "description": "HTTP PATCH operation.",
+        "filter": null
+      },
+      {
+        "code": "post",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "POST",
+        "description": "HTTP POST operation.",
+        "filter": null
+      },
+      {
+        "code": "put",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "PUT",
+        "description": "HTTP PUT operation.",
+        "filter": null
+      },
+      {
+        "code": "head",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/http-operations",
+        "display": "HEAD",
+        "description": "HTTP HEAD operation.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "v2.0922",
+  "resource_id": "v2-0922",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0922",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "IR",
+      "display": "Initial Request"
+    },
+    {
+      "code": "RA",
+      "display": "Request for Appeal"
+    },
+    {
+      "code": "RE",
+      "display": "Request for Extension"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

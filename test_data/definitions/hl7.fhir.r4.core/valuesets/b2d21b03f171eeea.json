@@ -1,0 +1,71 @@
+{
+  "name": "CareTeamStatus",
+  "resource_id": "care-team-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/care-team-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/care-team-status"
+      }
+    ]
+  },
+  "description": "Indicates the status of the care team.",
+  "related_codesystems": [
+    {
+      "id": "care-team-status",
+      "url": "http://hl7.org/fhir/care-team-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "proposed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/care-team-status",
+      "display": "Proposed",
+      "description": "The care team has been drafted and proposed, but not yet participating in the coordination and delivery of patient care.",
+      "filter": null
+    },
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/care-team-status",
+      "display": "Active",
+      "description": "The care team is currently participating in the coordination and delivery of care.",
+      "filter": null
+    },
+    {
+      "code": "suspended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/care-team-status",
+      "display": "Suspended",
+      "description": "The care team is temporarily on hold or suspended and not participating in the coordination and delivery of care.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/care-team-status",
+      "display": "Inactive",
+      "description": "The care team was, but is no longer, participating in the coordination and delivery of care.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/care-team-status",
+      "display": "Entered in Error",
+      "description": "The care team should have never existed.",
+      "filter": null
+    }
+  ]
+}

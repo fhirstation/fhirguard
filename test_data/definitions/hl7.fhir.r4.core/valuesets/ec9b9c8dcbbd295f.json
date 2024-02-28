@@ -1,0 +1,76 @@
+{
+  "name": "LDLCodes",
+  "resource_id": "ldlcholesterol-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ldlcholesterol-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "18262-6",
+            "display": "LDL Cholesterol (Assay)",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.info/sct",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+              }
+            ]
+          },
+          {
+            "code": "13457-7",
+            "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation",
+            "designation": [
+              {
+                "use": {
+                  "system": "http://snomed.info/sct",
+                  "code": "900000000000003001",
+                  "display": "Fully specified name"
+                },
+                "value": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "description": "LDL Cholesterol codes - measured or calculated",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "18262-6",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "LDL Cholesterol (Assay)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13457-7",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

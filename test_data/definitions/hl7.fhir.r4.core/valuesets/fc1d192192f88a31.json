@@ -1,0 +1,39 @@
+{
+  "name": "SNOMEDCTAnatomicalStructureForAdministrationSiteCodes",
+  "resource_id": "approach-site-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/approach-site-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "91723000"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes Anatomical Structure codes from SNOMED CT - provided as an exemplar.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "91723000"
+        }
+      ]
+    }
+  ]
+}

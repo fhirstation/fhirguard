@@ -1,0 +1,41 @@
+{
+  "name": "CodeSearchSupport",
+  "resource_id": "code-search-support",
+  "resource_url": "http://hl7.org/fhir/ValueSet/code-search-support",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/code-search-support"
+      }
+    ]
+  },
+  "description": "The degree to which the server supports the code search parameter on ValueSet, if it is supported.",
+  "related_codesystems": [
+    {
+      "id": "code-search-support",
+      "url": "http://hl7.org/fhir/code-search-support"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "explicit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/code-search-support",
+      "display": "Explicit Codes",
+      "description": "The search for code on ValueSet only includes codes explicitly detailed on includes or expansions.",
+      "filter": null
+    },
+    {
+      "code": "all",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/code-search-support",
+      "display": "Implicit Codes",
+      "description": "The search for code on ValueSet only includes all codes based on the expansion of the value set.",
+      "filter": null
+    }
+  ]
+}

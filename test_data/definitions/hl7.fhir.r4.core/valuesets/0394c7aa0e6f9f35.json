@@ -1,0 +1,111 @@
+{
+  "name": "v2.0133",
+  "resource_id": "v2-0133",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0133",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0133"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0133 ( PROCEDURE PRACTITIONER TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0133",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0133"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Anesthesiologist/Anesthetist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Assistant Surgeon",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Certified Nurse Midwife",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Nurse Practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Procedure MD/ Surgeon",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Primary Surgeon",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Radiologist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Resident",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0133",
+      "display": "Scrub Nurse",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

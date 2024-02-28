@@ -1,0 +1,51 @@
+{
+  "name": "push-type-available",
+  "resource_id": "verificationresult-push-type-available",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-push-type-available",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/push-type-available"
+      }
+    ]
+  },
+  "description": "Type of alerts/updates the primary source can send",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-push-type-available",
+      "url": "http://terminology.hl7.org/CodeSystem/push-type-available"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "specific",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/push-type-available",
+      "display": "Specific requested changes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "any",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/push-type-available",
+      "display": "Any changes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "source",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/push-type-available",
+      "display": "As defined by source",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

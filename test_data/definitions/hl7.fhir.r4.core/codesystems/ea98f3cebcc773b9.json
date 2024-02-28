@@ -1,0 +1,90 @@
+{
+  "name": "MeasureReportType",
+  "resource_id": "measure-report-type",
+  "resource_url": "http://hl7.org/fhir/measure-report-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "individual",
+      "display": "Individual",
+      "definition": "An individual report that provides information on the performance for a given measure with respect to a single subject."
+    },
+    {
+      "code": "subject-list",
+      "display": "Subject List",
+      "definition": "A subject list report that includes a listing of subjects that satisfied each population criteria in the measure."
+    },
+    {
+      "code": "summary",
+      "display": "Summary",
+      "definition": "A summary report that returns the number of members in each population criteria for the measure."
+    },
+    {
+      "code": "data-collection",
+      "display": "Data Collection",
+      "definition": "A data collection report that contains data-of-interest for the measure."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "MeasureReportType",
+    "resource_id": "measure-report-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/measure-report-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/measure-report-type"
+        }
+      ]
+    },
+    "description": "The type of the measure report.",
+    "related_codesystems": [
+      {
+        "id": "measure-report-type",
+        "url": "http://hl7.org/fhir/measure-report-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "individual",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/measure-report-type",
+        "display": "Individual",
+        "description": "An individual report that provides information on the performance for a given measure with respect to a single subject.",
+        "filter": null
+      },
+      {
+        "code": "subject-list",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/measure-report-type",
+        "display": "Subject List",
+        "description": "A subject list report that includes a listing of subjects that satisfied each population criteria in the measure.",
+        "filter": null
+      },
+      {
+        "code": "summary",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/measure-report-type",
+        "display": "Summary",
+        "description": "A summary report that returns the number of members in each population criteria for the measure.",
+        "filter": null
+      },
+      {
+        "code": "data-collection",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/measure-report-type",
+        "display": "Data Collection",
+        "description": "A data collection report that contains data-of-interest for the measure.",
+        "filter": null
+      }
+    ]
+  }
+}

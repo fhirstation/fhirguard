@@ -1,0 +1,52 @@
+{
+  "name": "v2.0428",
+  "resource_id": "v2-0428",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0428",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "O",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Anders"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Preventable",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vermijdbaar"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "User Error",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gebruikersfout"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

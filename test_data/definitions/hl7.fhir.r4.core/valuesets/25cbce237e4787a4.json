@@ -1,0 +1,61 @@
+{
+  "name": "v2.0402",
+  "resource_id": "v2-0402",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0402",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0402"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0402 ( School type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0402",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0402"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0402",
+      "display": "Dental",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0402",
+      "display": "Graduate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0402",
+      "display": "Medical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0402",
+      "display": "Undergraduate",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

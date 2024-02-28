@@ -1,0 +1,31 @@
+{
+  "name": "ContractResourceAssetScopeCodes",
+  "resource_id": "contract-assetscope",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-assetscope",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contract-asset-scope"
+      }
+    ]
+  },
+  "description": "This value set contract specific codes for asset scope.",
+  "related_codesystems": [
+    {
+      "id": "contract-assetscope",
+      "url": "http://hl7.org/fhir/contract-asset-scope"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "thing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contract-asset-scope",
+      "display": "Thing",
+      "description": "To be completed",
+      "filter": null
+    }
+  ]
+}

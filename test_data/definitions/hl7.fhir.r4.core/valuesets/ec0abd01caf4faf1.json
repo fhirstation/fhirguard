@@ -1,0 +1,71 @@
+{
+  "name": "v2.0397",
+  "resource_id": "v2-0397",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0397",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0397"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0397 ( Sequencing)",
+  "related_codesystems": [
+    {
+      "id": "v2-0397",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0397"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0397",
+      "display": "Ascending",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0397",
+      "display": "Ascending, case insensitive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0397",
+      "display": "Descending",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0397",
+      "display": "Descending, case insensitive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0397",
+      "display": "None",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

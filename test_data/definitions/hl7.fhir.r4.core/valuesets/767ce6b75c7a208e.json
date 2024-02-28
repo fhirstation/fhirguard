@@ -1,0 +1,39 @@
+{
+  "name": "SNOMEDCTMorphologicAbnormalities",
+  "resource_id": "bodystructure-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/bodystructure-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "49755003"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "49755003"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "v2.0919",
+  "resource_id": "v2-0919",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0919",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "When  D is specified for this field, using field OM1-49 determines how tests must be grouped together.  Tests within the same Diagnostic Service Sector may be on the same requisition, and therefore in the same message"
+        }
+      ],
+      "code": "D",
+      "display": "In some cases, this test should be only exclusively with like tests (examples are cyto or pathology)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Default -.will be assumed when this field is empty"
+        }
+      ],
+      "code": "N",
+      "display": "This test can be included with any number of other tests"
+    },
+    {
+      "code": "Y",
+      "display": "This test should be exclusive"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

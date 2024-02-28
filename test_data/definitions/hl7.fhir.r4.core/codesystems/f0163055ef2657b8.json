@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourceAssetContextCodes",
+  "resource_id": "contract-assetcontext",
+  "resource_url": "http://hl7.org/fhir/contract-asset-context",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "custodian",
+      "display": "Custodian",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourceAssetContextCodes",
+    "resource_id": "contract-assetcontext",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-assetcontext",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-asset-context"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for asset context.",
+    "related_codesystems": [
+      {
+        "id": "contract-assetcontext",
+        "url": "http://hl7.org/fhir/contract-asset-context"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "custodian",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-asset-context",
+        "display": "Custodian",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

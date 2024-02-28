@@ -1,0 +1,41 @@
+{
+  "name": "OperationKind",
+  "resource_id": "operation-kind",
+  "resource_url": "http://hl7.org/fhir/ValueSet/operation-kind",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/operation-kind"
+      }
+    ]
+  },
+  "description": "Whether an operation is a normal operation or a query.",
+  "related_codesystems": [
+    {
+      "id": "operation-kind",
+      "url": "http://hl7.org/fhir/operation-kind"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "operation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/operation-kind",
+      "display": "Operation",
+      "description": "This operation is invoked as an operation.",
+      "filter": null
+    },
+    {
+      "code": "query",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/operation-kind",
+      "display": "Query",
+      "description": "This operation is a named query, invoked using the search mechanism.",
+      "filter": null
+    }
+  ]
+}

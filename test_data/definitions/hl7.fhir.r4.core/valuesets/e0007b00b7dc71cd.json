@@ -1,0 +1,81 @@
+{
+  "name": "v2.0529",
+  "resource_id": "v2-0529",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0529",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0529"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0529 ( Precision)",
+  "related_codesystems": [
+    {
+      "id": "v2-0529",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0529"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0529",
+      "display": "day",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0529",
+      "display": "hour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0529",
+      "display": "month",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0529",
+      "display": "minute",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0529",
+      "display": "second",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0529",
+      "display": "year",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

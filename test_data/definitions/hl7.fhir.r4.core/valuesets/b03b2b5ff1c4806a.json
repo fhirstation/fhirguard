@@ -1,0 +1,31 @@
+{
+  "name": "v3.ActExposureLevelCode",
+  "resource_id": "v3-ActExposureLevelCode",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-ActExposureLevelCode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActExposureLevelCode"
+      }
+    ]
+  },
+  "description": " A qualitative measure of the degree of exposure to the causative agent.  This includes concepts such as \"low\", \"medium\" and \"high\".  This quantifies how the quantity that was available to be administered to the target differs from typical or background levels of the substance.",
+  "related_codesystems": [
+    {
+      "id": "v3-ActExposureLevelCode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ActExposureLevelCode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "_ActExposureLevelCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActExposureLevelCode",
+      "display": "ActExposureLevelCode",
+      "description": "A qualitative measure of the degree of exposure to the causative agent.  This includes concepts such as \"low\", \"medium\" and \"high\".  This quantifies how the quantity that was available to be administered to the target differs from typical or background levels of the substance.",
+      "filter": null
+    }
+  ]
+}

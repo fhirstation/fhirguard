@@ -1,0 +1,81 @@
+{
+  "name": "v2.0251",
+  "resource_id": "v2-0251",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0251",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0251"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0251 ( Action Taken in Response to the Event)",
+  "related_codesystems": [
+    {
+      "id": "v2-0251",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0251"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0251",
+      "display": "Product dose or frequency of use increased",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0251",
+      "display": "Product dose or frequency of use reduced",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0251",
+      "display": "None",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0251",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0251",
+      "display": "Product withdrawn permanently",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0251",
+      "display": "Product withdrawn temporarily",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

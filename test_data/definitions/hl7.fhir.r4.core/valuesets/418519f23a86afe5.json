@@ -1,0 +1,151 @@
+{
+  "name": "v2.0351",
+  "resource_id": "v2-0351",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0351",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0351"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0351 ( Occurrence span)",
+  "related_codesystems": [
+    {
+      "id": "v2-0351",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0351"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "use NUBC codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Qualifying stay dates for SNF",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "71",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Prior stay dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "First/last visit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Benefit eligibility period",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "74",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Non-covered level of care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "75",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "SNF level of care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "76",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Patient liability",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Provider liability period",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "SNF prior stay dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "Payer code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "PSRO/UR approved stay dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "…",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0351",
+      "display": "use NUBC codes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

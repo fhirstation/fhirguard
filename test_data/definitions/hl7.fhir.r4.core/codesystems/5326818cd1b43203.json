@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourceExpirationTypeCodes",
+  "resource_id": "contract-expiration-type",
+  "resource_url": "http://hl7.org/fhir/contract-expiration-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "breach",
+      "display": "Breach",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourceExpirationTypeCodes",
+    "resource_id": "contract-expiration-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-expiration-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-expiration-type"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for status.",
+    "related_codesystems": [
+      {
+        "id": "contract-expiration-type",
+        "url": "http://hl7.org/fhir/contract-expiration-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "breach",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-expiration-type",
+        "display": "Breach",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

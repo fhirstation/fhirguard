@@ -1,0 +1,31 @@
+{
+  "name": "v2.0793",
+  "resource_id": "v2-0793",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0793",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0793"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0793 ( Ruling Act)",
+  "related_codesystems": [
+    {
+      "id": "v2-0793",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0793"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "SMDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0793",
+      "display": "Safe Medical Devices Act",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

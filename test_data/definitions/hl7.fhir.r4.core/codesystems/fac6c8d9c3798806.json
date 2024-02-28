@@ -1,0 +1,30 @@
+{
+  "name": "AuditEventEntityType",
+  "resource_id": "audit-entity-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/audit-entity-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Person",
+      "definition": "Person"
+    },
+    {
+      "code": "2",
+      "display": "System Object",
+      "definition": "System Object"
+    },
+    {
+      "code": "3",
+      "display": "Organization",
+      "definition": "Organization"
+    },
+    {
+      "code": "4",
+      "display": "Other",
+      "definition": "Other"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

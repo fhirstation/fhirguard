@@ -1,0 +1,61 @@
+{
+  "name": "v2.0279",
+  "resource_id": "v2-0279",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0279",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0279"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0279 ( Allow Substitution Codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0279",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0279"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Confirm",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0279",
+      "display": "Contact the Placer Contact Person prior to making any substitutions of this resource",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "No",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0279",
+      "display": "Substitution of this resource is not allowed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Notify",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0279",
+      "display": "Notify the Placer Contact Person, through normal institutional procedures, that a substitution of this resource has been made",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Yes",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0279",
+      "display": "Substitution of this resource is allowed",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

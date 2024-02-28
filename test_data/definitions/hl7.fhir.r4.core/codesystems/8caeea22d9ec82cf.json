@@ -1,0 +1,54 @@
+{
+  "name": "v2.0187",
+  "resource_id": "v2-0187",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0187",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "I",
+      "display": "Institution bills for provider",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Haus rechnet ab"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Instelling doet facturatie voor zorgverlener"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Provider does own billing",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Eigene Abrechnung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zorgverlener doet eigen facturatie"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

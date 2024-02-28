@@ -1,0 +1,267 @@
+{
+  "name": "FeedingDeviceCodes",
+  "resource_id": "feeding-device",
+  "resource_url": "http://hl7.org/fhir/ValueSet/feeding-device",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/feeding-device"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "705383004"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Materials used or needed to feed the patient.",
+  "related_codesystems": [
+    {
+      "id": "feeding-device",
+      "url": "http://hl7.org/fhir/feeding-device"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "standard-nipple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Standard nipple",
+      "description": "Standard nipple definition:",
+      "filter": null
+    },
+    {
+      "code": "preemie-nipple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Preemie nipple",
+      "description": "Preemie nipple definition:",
+      "filter": null
+    },
+    {
+      "code": "ortho-nipple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Orthodontic nipple",
+      "description": "Orthodontic nipple definition:",
+      "filter": null
+    },
+    {
+      "code": "sloflo-nipple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Slow flow nipple",
+      "description": "Slow flow nipple definition:",
+      "filter": null
+    },
+    {
+      "code": "midflo-nipple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Middle flow nipple",
+      "description": "Middle flow nipple definition:",
+      "filter": null
+    },
+    {
+      "code": "bigcut-nipple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Enlarged, cross-cut nipple",
+      "description": "Enlarged, cross-cut nipple definition:",
+      "filter": null
+    },
+    {
+      "code": "haberman-bottle",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Haberman bottle",
+      "description": "Haberman bottle definition:",
+      "filter": null
+    },
+    {
+      "code": "sippy-valve",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Sippy cup with valve",
+      "description": "Sippy cup with valve definition:",
+      "filter": null
+    },
+    {
+      "code": "sippy-no-valve",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Sippy cup without valve",
+      "description": "Sippy cup without valve definition:",
+      "filter": null
+    },
+    {
+      "code": "provale-cup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Provale Cup",
+      "description": "Provale Cup definition:",
+      "filter": null
+    },
+    {
+      "code": "glass-lid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Glass with lid/sippy cup",
+      "description": "Glass with lid/sippy cup definition:",
+      "filter": null
+    },
+    {
+      "code": "handhold-cup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Double handhold on glass/cup",
+      "description": "Double handhold on glass/cup definition:",
+      "filter": null
+    },
+    {
+      "code": "rubber-mat",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Rubber matting under tray",
+      "description": "Rubber matting under tray definition:",
+      "filter": null
+    },
+    {
+      "code": "straw",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Straw",
+      "description": "Straw definition:",
+      "filter": null
+    },
+    {
+      "code": "nose-cup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Nose cup",
+      "description": "Nose cup definition:",
+      "filter": null
+    },
+    {
+      "code": "scoop-plate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Scoop plate",
+      "description": "Scoop plate definition:",
+      "filter": null
+    },
+    {
+      "code": "utensil-holder",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Hand wrap utensil holder",
+      "description": "Hand wrap utensil holder definition:",
+      "filter": null
+    },
+    {
+      "code": "foam-handle",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Foam handle utensils",
+      "description": "Foam handle utensils definition:",
+      "filter": null
+    },
+    {
+      "code": "angled-utensil",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Angled utensils",
+      "description": "Angled utensils definition:",
+      "filter": null
+    },
+    {
+      "code": "spout-cup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Spout cup",
+      "description": "Spout cup definition:",
+      "filter": null
+    },
+    {
+      "code": "autofeeding-device",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Automated feeding devices",
+      "description": "Automated feeding devices definition:",
+      "filter": null
+    },
+    {
+      "code": "rocker-knife",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/feeding-device",
+      "display": "Rocker knife",
+      "description": "Rocker knife definition:",
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "705383004"
+        }
+      ]
+    }
+  ]
+}

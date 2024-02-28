@@ -1,0 +1,26 @@
+{
+  "name": "ConsentContentCodes",
+  "resource_id": "consent-content-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consent-content-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "description": "This example value set contains all LOINC code",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "name": "v2.0301",
+  "resource_id": "v2-0301",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0301",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0301"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0301 ( Universal ID type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0301",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0301"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CAP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "College of American Pathologist Accreditation Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Clinical Laboratory Improvement Amendments",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Clinical laboratory Improvement Program",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Domain Name System",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EUI64",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "IEEE 64-bit Extended Unique Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GUID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "globally unique identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "CEN Healthcare Coding Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HL7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "HL7 registration schemes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "ISO Object Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Local",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L,M,N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Local",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Local",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Local",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "US National Provider Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Random",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Random",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Uniform Resource Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UUID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "Universal Unique Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "x400",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "X.400 MHS identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "x500",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0301",
+      "display": "X500 directory Name",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

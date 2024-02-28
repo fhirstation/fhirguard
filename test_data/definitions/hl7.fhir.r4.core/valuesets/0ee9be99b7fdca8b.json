@@ -1,0 +1,71 @@
+{
+  "name": "ContractTypeCodes",
+  "resource_id": "contract-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/contract-type"
+      }
+    ]
+  },
+  "description": "This value set includes sample Contract Type codes.",
+  "related_codesystems": [
+    {
+      "id": "contract-type",
+      "url": "http://terminology.hl7.org/CodeSystem/contract-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "privacy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-type",
+      "display": "Privacy",
+      "description": "Privacy policy.",
+      "filter": null
+    },
+    {
+      "code": "disclosure",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-type",
+      "display": "Disclosure",
+      "description": "Information disclosure policy.",
+      "filter": null
+    },
+    {
+      "code": "healthinsurance",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-type",
+      "display": "Health Insurance",
+      "description": "Health Insurance policy.",
+      "filter": null
+    },
+    {
+      "code": "supply",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-type",
+      "display": "Supply Contract",
+      "description": "Contract to supply goods or services.",
+      "filter": null
+    },
+    {
+      "code": "consent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-type",
+      "display": "Consent",
+      "description": "Consent Directive.",
+      "filter": null
+    }
+  ]
+}

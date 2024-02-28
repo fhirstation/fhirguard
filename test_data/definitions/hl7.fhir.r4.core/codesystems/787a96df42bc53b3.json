@@ -1,0 +1,22 @@
+{
+  "name": "v2.0757",
+  "resource_id": "v2-0757",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0757",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "Respiration minutes not used for grouping"
+    },
+    {
+      "code": "1",
+      "display": "Listed respiration minutes used for grouping"
+    },
+    {
+      "code": "2",
+      "display": "OPS code value used for grouping"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

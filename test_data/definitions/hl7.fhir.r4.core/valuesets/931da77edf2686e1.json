@@ -1,0 +1,211 @@
+{
+  "name": "ProvenanceActivityType",
+  "resource_id": "provenance-activity-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/provenance-activity-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "concept": [
+          {
+            "code": "LA"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "concept": [
+          {
+            "code": "ANONY"
+          },
+          {
+            "code": "DEID"
+          },
+          {
+            "code": "MASK"
+          },
+          {
+            "code": "LABEL"
+          },
+          {
+            "code": "PSEUD"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+        "concept": [
+          {
+            "code": "CREATE"
+          },
+          {
+            "code": "DELETE"
+          },
+          {
+            "code": "UPDATE"
+          },
+          {
+            "code": "APPEND"
+          },
+          {
+            "code": "NULLIFY"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      }
+    ]
+  },
+  "description": "This value set contains representative Activity Type codes, which includes codes from the HL7 DocumentCompletion, ActStatus, and DataOperations code system, W3C PROV-DM and PROV-N concepts and display names, several HL7 Lifecycle Event codes for which there are agreed upon definitions, and non-duplicated codes from the HL7 Security and Privacy Ontology Operations codes.",
+  "related_codesystems": [
+    {
+      "id": "v3-DocumentCompletion",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"
+    },
+    {
+      "id": "v3-ActCode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+    },
+    {
+      "id": "v3-DataOperation",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-DataOperation"
+    },
+    {
+      "id": "v3-ParticipationType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+      "display": "legally authenticated",
+      "description": "A completion status in which a document has been signed manually or electronically by the individual who is legally responsible for that document. This is the most mature state in the workflow progression.",
+      "filter": null
+    },
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANONY",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEID",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MASK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LABEL",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSEUD",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CREATE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELETE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPDATE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APPEND",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NULLIFY",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "Participation",
+      "description": "Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.",
+      "filter": null
+    }
+  ]
+}

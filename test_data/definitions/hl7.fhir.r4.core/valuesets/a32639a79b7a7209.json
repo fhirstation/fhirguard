@@ -1,0 +1,101 @@
+{
+  "name": "CoverageEligibilityResponseAuthSupportCodes",
+  "resource_id": "coverageeligibilityresponse-ex-auth-support",
+  "resource_url": "http://hl7.org/fhir/ValueSet/coverageeligibilityresponse-ex-auth-support",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support"
+      }
+    ]
+  },
+  "description": "This value set includes CoverageEligibilityResponse Auth Support codes.",
+  "related_codesystems": [
+    {
+      "id": "coverageeligibilityresponse-ex-auth-support",
+      "url": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "laborder",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Lab Order",
+      "description": "A request or authorization for laboratory diagnostic tests.",
+      "filter": null
+    },
+    {
+      "code": "labreport",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Lab Report",
+      "description": "A report on laboratory diagnostic test(s).",
+      "filter": null
+    },
+    {
+      "code": "diagnosticimageorder",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Diagnostic Image Order",
+      "description": "A request or authorization for diagnostic imaging.",
+      "filter": null
+    },
+    {
+      "code": "diagnosticimagereport",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Diagnostic Image Report",
+      "description": "A report on diagnostic image(s).",
+      "filter": null
+    },
+    {
+      "code": "professionalreport",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Professional Report",
+      "description": "A report from a licensed professional regarding the siutation, condition or proposed treatment.",
+      "filter": null
+    },
+    {
+      "code": "accidentreport",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Accident Report",
+      "description": "A formal accident report as would be filed with police or a simlar official body.",
+      "filter": null
+    },
+    {
+      "code": "model",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Model",
+      "description": "A physical model of the affected area.",
+      "filter": null
+    },
+    {
+      "code": "picture",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+      "display": "Picture",
+      "description": "A photograph of the affected area.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "v2.0478",
+  "resource_id": "v2-0478",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0478",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "G",
+      "display": "Pharmaceutical substance is in the formulary, but guidelines apply",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Farmaceutische substantie zit in het formularium maar er zijn richtlijnen"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Pharmaceutical substance is NOT in the formulary",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Farmaceutische substantie zit NIET in het formularium"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Pharmaceutical substance is in the formulary, but restrictions apply",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Farmaceutische substantie zit in het formularium maar er zijn beperkingen"
+        }
+      ]
+    },
+    {
+      "code": "Y",
+      "display": "Pharmaceutical substance is in the formulary",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Farmaceutische substantie zit in het formularium"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

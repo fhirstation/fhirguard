@@ -1,0 +1,41 @@
+{
+  "name": "orientationType",
+  "resource_id": "orientation-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/orientation-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/orientation-type"
+      }
+    ]
+  },
+  "description": "Type for orientation.",
+  "related_codesystems": [
+    {
+      "id": "orientation-type",
+      "url": "http://hl7.org/fhir/orientation-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "sense",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/orientation-type",
+      "display": "Sense orientation of referenceSeq",
+      "description": "Sense orientation of reference sequence.",
+      "filter": null
+    },
+    {
+      "code": "antisense",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/orientation-type",
+      "display": "Antisense orientation of referenceSeq",
+      "description": "Antisense orientation of reference sequence.",
+      "filter": null
+    }
+  ]
+}

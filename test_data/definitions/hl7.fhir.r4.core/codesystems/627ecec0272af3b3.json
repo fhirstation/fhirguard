@@ -1,0 +1,60 @@
+{
+  "name": "ImmunizationProgramEligibility",
+  "resource_id": "immunization-program-eligibility",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ineligible",
+      "display": "Not Eligible",
+      "definition": "The patient is not eligible for the funding program."
+    },
+    {
+      "code": "uninsured",
+      "display": "Uninsured",
+      "definition": "The patient is eligible for the funding program because they are uninsured."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ImmunizationProgramEligibility",
+    "resource_id": "immunization-program-eligibility",
+    "resource_url": "http://hl7.org/fhir/ValueSet/immunization-program-eligibility",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility"
+        }
+      ]
+    },
+    "description": "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the patient's eligibility for a vaccination program. This value set is provided as a suggestive example.",
+    "related_codesystems": [
+      {
+        "id": "immunization-program-eligibility",
+        "url": "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ineligible",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility",
+        "display": "Not Eligible",
+        "description": "The patient is not eligible for the funding program.",
+        "filter": null
+      },
+      {
+        "code": "uninsured",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/immunization-program-eligibility",
+        "display": "Uninsured",
+        "description": "The patient is eligible for the funding program because they are uninsured.",
+        "filter": null
+      }
+    ]
+  }
+}

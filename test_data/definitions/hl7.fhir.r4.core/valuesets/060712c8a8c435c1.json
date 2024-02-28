@@ -1,0 +1,131 @@
+{
+  "name": "v2.0383",
+  "resource_id": "v2-0383",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0383",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0383"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0383 ( Substance status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0383",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0383"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Calibration Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Calibration Warning",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Expired Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Expired Warning",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Not Available Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Not Available Warning",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Other Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "OK Status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "Other Warning",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "QC Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0383",
+      "display": "QC Warning",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

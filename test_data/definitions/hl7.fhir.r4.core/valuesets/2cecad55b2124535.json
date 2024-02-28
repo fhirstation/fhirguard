@@ -1,0 +1,503 @@
+{
+  "name": "TimingAbbreviation",
+  "resource_id": "timing-abbreviation",
+  "resource_url": "http://hl7.org/fhir/ValueSet/timing-abbreviation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+        "concept": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Two times a day at institution specified time"
+              }
+            ],
+            "code": "BID",
+            "display": "BID"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Three times a day at institution specified time"
+              }
+            ],
+            "code": "TID",
+            "display": "TID"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Four times a day at institution specified time"
+              }
+            ],
+            "code": "QID",
+            "display": "QID"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every morning at institution specified times"
+              }
+            ],
+            "code": "AM",
+            "display": "AM"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every afternoon at institution specified times"
+              }
+            ],
+            "code": "PM",
+            "display": "PM"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every Day at institution specified times"
+              }
+            ],
+            "code": "QD",
+            "display": "QD"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every Other Day at institution specified times"
+              }
+            ],
+            "code": "QOD",
+            "display": "QOD"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every hour at institution specified times"
+              }
+            ],
+            "code": "Q1H",
+            "display": "every hour"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every 2 hours at institution specified times"
+              }
+            ],
+            "code": "Q2H",
+            "display": "every 2 hours"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every 3 hours at institution specified times"
+              }
+            ],
+            "code": "Q3H",
+            "display": "every 3 hours"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every 4 hours at institution specified times"
+              }
+            ],
+            "code": "Q4H",
+            "display": "Q4H"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every 6 Hours  at institution specified times"
+              }
+            ],
+            "code": "Q6H",
+            "display": "Q6H"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Every 8 hours at institution specified times"
+              }
+            ],
+            "code": "Q8H",
+            "display": "every 8 hours"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "At bedtime (institution specified time)"
+              }
+            ],
+            "code": "BED",
+            "display": "at bedtime"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Weekly at institution specified time"
+              }
+            ],
+            "code": "WK",
+            "display": "weekly"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Monthly at institution specified time"
+              }
+            ],
+            "code": "MO",
+            "display": "monthly"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Code for a known / defined timing pattern.",
+  "related_codesystems": [
+    {
+      "id": "v3-GTSAbbreviation",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "BID",
+      "description": "Two times a day at institution specified time",
+      "filter": null
+    },
+    {
+      "code": "TID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "TID",
+      "description": "Three times a day at institution specified time",
+      "filter": null
+    },
+    {
+      "code": "QID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "QID",
+      "description": "Four times a day at institution specified time",
+      "filter": null
+    },
+    {
+      "code": "AM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "AM",
+      "description": "Every morning at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "PM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "PM",
+      "description": "Every afternoon at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "QD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "QD",
+      "description": "Every day at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "QOD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "QOD",
+      "description": "Every other day at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "Q1H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "every hour",
+      "description": "Every hour at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "Q2H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "every 2 hours",
+      "description": "Every 2 hours at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "Q3H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "every 3 hours",
+      "description": "Every 3 hours at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "Q4H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "Q4H",
+      "description": "Every 4 hours at institution specified time",
+      "filter": null
+    },
+    {
+      "code": "Q6H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "Q6H",
+      "description": "Every 6 hours at institution specified time",
+      "filter": null
+    },
+    {
+      "code": "Q8H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "every 8 hours",
+      "description": "Every 8 hours at institution specified times.",
+      "filter": null
+    },
+    {
+      "code": "BED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "at bedtime",
+      "description": "At bedtime (institution specified time).",
+      "filter": null
+    },
+    {
+      "code": "WK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "weekly",
+      "description": "Weekly at institution specified time.",
+      "filter": null
+    },
+    {
+      "code": "MO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+      "display": "monthly",
+      "description": "Monthly at institution specified time.",
+      "filter": null
+    },
+    {
+      "code": "BID",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "BID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TID",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "TID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QID",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "QID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AM",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "AM",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PM",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "PM",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QD",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "QD",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QOD",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "QOD",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q1H",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "every hour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q2H",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "every 2 hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q3H",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "every 3 hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q4H",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Q4H",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q6H",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Q6H",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q8H",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "every 8 hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BED",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "at bedtime",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "weekly",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MO",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "monthly",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

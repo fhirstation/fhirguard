@@ -1,0 +1,30 @@
+{
+  "name": "v2.0468",
+  "resource_id": "v2-0468",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0468",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "No payment adjustment"
+    },
+    {
+      "code": "2",
+      "display": "Designated current drug or biological payment adjustment applies to APC (status indicator G)"
+    },
+    {
+      "code": "3",
+      "display": "Designated new device payment adjustment applies to APC (status indicator H)"
+    },
+    {
+      "code": "4",
+      "display": "Designated new drug or new biological payment adjustment applies to APC (status indicator J)"
+    },
+    {
+      "code": "5",
+      "display": "Deductible not applicable (specific list of HCPCS codes)"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

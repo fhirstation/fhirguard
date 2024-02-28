@@ -1,0 +1,76 @@
+{
+  "name": "v2.0170",
+  "resource_id": "v2-0170",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0170",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "C",
+      "display": "Child Observation",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Untersuchung an sekundärem Probenmaterial"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onderliggende/deel observatie"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Not Applicable",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Nicht Anwendbar"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet van toepassing"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Parent Observation",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Untersuchung an primärem Probenmaterial"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bovenliggende observatie"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

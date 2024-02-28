@@ -1,0 +1,151 @@
+{
+  "name": "v2.0158",
+  "resource_id": "v2-0158",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0158",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1ST",
+      "display": "First value within range",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "erster Wert"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Eerste waarde binnen bereik"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-10"
+        }
+      ]
+    },
+    {
+      "code": "ALL",
+      "display": "All values within the range",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "alle Werte"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Alle waarden binnen bereik"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-10"
+        }
+      ]
+    },
+    {
+      "code": "LST",
+      "display": "Last value within the range",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "letzter Wert"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Laatste waarde binnen bereik"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-10"
+        }
+      ]
+    },
+    {
+      "code": "REV",
+      "display": "All values within the range returned in reverse chronological order (This is the default if not otherwise specified.)",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "alle Werte in umgekehrter chronologischer Reihenfolge"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Alle waarden binnen bereik in omgekeerde chronologische volgorde. (Standaard tenzij anders gespecificeerd.)"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-10"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, retired",
+      "type": "code"
+    },
+    {
+      "code": "deprecationDate",
+      "uri": "http://hl7.org/fhir/concept-properties#deprecationDate",
+      "description": "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged",
+      "type": "dateTime"
+    }
+  ],
+  "valueset": null
+}

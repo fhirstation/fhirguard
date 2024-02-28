@@ -1,0 +1,253 @@
+{
+  "name": "MediaTypeCode",
+  "resource_id": "dicm-405-mediatype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/dicm-405-mediatype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110030"
+          },
+          {
+            "code": "110031"
+          },
+          {
+            "code": "110032"
+          },
+          {
+            "code": "110033"
+          },
+          {
+            "code": "110034"
+          },
+          {
+            "code": "110035"
+          },
+          {
+            "code": "110036"
+          },
+          {
+            "code": "110037"
+          },
+          {
+            "code": "110010"
+          },
+          {
+            "code": "110038"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Media Type Code",
+  "related_codesystems": [
+    {
+      "id": "dicom-dcim",
+      "url": "http://dicom.nema.org/resources/ontology/DCM"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "110030",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "USB Disk Emulation",
+      "description": "A device that connects using the USB hard drive interface. These may be USB-Sticks, portable hard drives, and other technologies",
+      "filter": null
+    },
+    {
+      "code": "110031",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Email",
+      "description": "Email and email attachments used as a media for data transport",
+      "filter": null
+    },
+    {
+      "code": "110032",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "CD",
+      "description": "CD-R, CD-ROM, and CD-RW media used for data transport",
+      "filter": null
+    },
+    {
+      "code": "110033",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "DVD",
+      "description": "DVD, DVD-RAM, and other DVD formatted media used for data transport",
+      "filter": null
+    },
+    {
+      "code": "110034",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Compact Flash",
+      "description": "Media that comply with the Compact Flash standard",
+      "filter": null
+    },
+    {
+      "code": "110035",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Multi-media Card",
+      "description": "Media that comply with the Multi-media Card standard",
+      "filter": null
+    },
+    {
+      "code": "110036",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Secure Digital Card",
+      "description": "Media that comply with the Secure Digital Card standard",
+      "filter": null
+    },
+    {
+      "code": "110037",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "URI",
+      "description": "URI Identifier for network or other resource, see RFC 3968",
+      "filter": null
+    },
+    {
+      "code": "110010",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Film",
+      "description": "Film type of output",
+      "filter": null
+    },
+    {
+      "code": "110038",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Paper Document",
+      "description": "Any paper or similar document",
+      "filter": null
+    },
+    {
+      "code": "110030",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110031",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110032",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110033",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110034",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110035",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110036",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110037",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110010",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110038",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

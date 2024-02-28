@@ -1,0 +1,56 @@
+{
+  "name": "v2.0339",
+  "resource_id": "v2-0339",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0339",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Service is subject to medical necessity procedures",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zuzahlung muss abgeklärt werden"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Patient has been informed of responsibility, and agrees to pay for service"
+    },
+    {
+      "code": "3",
+      "display": "Patient has been informed of responsibility, and asks that the payer be billed",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Patient fragt nach Rechnung"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Advanced Beneficiary Notice has not been signed",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zustimmung zur Zuzahlung liegt nicht vor"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

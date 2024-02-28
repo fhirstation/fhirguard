@@ -1,0 +1,111 @@
+{
+  "name": "v2.0201",
+  "resource_id": "v2-0201",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0201",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0201"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0201 ( Telecommunication Use Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0201",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0201"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ASN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Answering Service Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Beeper Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Emergency Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Network (email) Address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Other Residence Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Primary Residence Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Personal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VHN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Vacation Home Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0201",
+      "display": "Work Number",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

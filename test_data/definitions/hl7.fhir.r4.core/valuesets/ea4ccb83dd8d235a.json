@@ -1,0 +1,71 @@
+{
+  "name": "v2.0513",
+  "resource_id": "v2-0513",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0513",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0513"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0513 ( Blood Product Transfusion/Disposition Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0513",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0513"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "RA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0513",
+      "display": "Returned unused/no longer needed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0513",
+      "display": "Returned unused/keep linked to patient for possible use later",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0513",
+      "display": "Transfused with adverse reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0513",
+      "display": "Transfused",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0513",
+      "display": "Wasted (product no longer viable)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

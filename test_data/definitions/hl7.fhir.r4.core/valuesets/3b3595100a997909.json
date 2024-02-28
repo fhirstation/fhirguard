@@ -1,0 +1,51 @@
+{
+  "name": "v2.0618",
+  "resource_id": "v2-0618",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0618",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0618"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0618 ( Protection Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0618",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0618"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0618",
+      "display": "Listed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0618",
+      "display": "Unlisted (Should not appear in directories)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0618",
+      "display": "Unpublished",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

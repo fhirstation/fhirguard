@@ -1,0 +1,815 @@
+{
+  "name": "Performer Function Codes",
+  "resource_id": "performer-function",
+  "resource_url": "http://hl7.org/fhir/ValueSet/performer-function",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+        "concept": [
+          {
+            "code": "TRANS"
+          },
+          {
+            "code": "PART"
+          },
+          {
+            "code": "ATND"
+          },
+          {
+            "code": "CON"
+          },
+          {
+            "code": "AUT"
+          },
+          {
+            "code": "INF"
+          },
+          {
+            "code": "ENT"
+          },
+          {
+            "code": "WIT"
+          },
+          {
+            "code": "PPRF"
+          },
+          {
+            "code": "SPRF"
+          },
+          {
+            "code": "RESP"
+          },
+          {
+            "code": "VRF"
+          },
+          {
+            "code": "AUTHEN"
+          },
+          {
+            "code": "LA"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "The types of involvement of the performer in the Event.",
+  "related_codesystems": [
+    {
+      "id": "v3-ParticipationType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "PART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "Participation",
+      "description": "Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.",
+      "filter": null
+    },
+    {
+      "code": "_ParticipationAncillary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ParticipationAncillary",
+      "description": "Participations related, but not primary to an act. The Referring, Admitting, and Discharging practitioners must be the same person as those authoring the ControlAct event for their respective trigger events.",
+      "filter": null
+    },
+    {
+      "code": "ADM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "admitter",
+      "description": "The practitioner who is responsible for admitting a patient to a patient encounter.",
+      "filter": null
+    },
+    {
+      "code": "ATND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "attender",
+      "description": "The practitioner that has responsibility for overseeing a patient's care during a patient encounter.",
+      "filter": null
+    },
+    {
+      "code": "CALLBCK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "callback contact",
+      "description": "A person or organization who should be contacted for follow-up questions about the act in place of the author.",
+      "filter": null
+    },
+    {
+      "code": "CON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "consultant",
+      "description": "An advisor participating in the service by performing evaluations and making recommendations.",
+      "filter": null
+    },
+    {
+      "code": "DIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "discharger",
+      "description": "The practitioner who is responsible for the discharge of a patient from a patient encounter.",
+      "filter": null
+    },
+    {
+      "code": "ESC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "escort",
+      "description": "Only with Transportation services.  A person who escorts the patient.",
+      "filter": null
+    },
+    {
+      "code": "REF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "referrer",
+      "description": "A person having referred the subject of the service to the performer (referring physician).  Typically, a referring physician will receive a report.",
+      "filter": null
+    },
+    {
+      "code": "_ParticipationInformationGenerator",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ParticipationInformationGenerator",
+      "description": "Parties that may or should contribute or have contributed information to the Act. Such information includes information leading to the decision to perform the Act and how to perform the Act (e.g., consultant), information that the Act itself seeks to reveal (e.g., informant of clinical history), or information about what Act was performed (e.g., informant witness).",
+      "filter": null
+    },
+    {
+      "code": "AUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "author (originator)",
+      "description": "Definition: A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.\r\n\n                        \n                           Example: the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship. \r\n\n                        Examples of such policies might include:\r\n\n                        \n                           \n                              The author and anyone they explicitly delegate may update the report;\r\n\n                           \n                           \n                              All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic;\r\n\n                           \n                        \n                        A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.",
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "informant",
+      "description": "A source of reported information (e.g., a next of kin who answers questions about the patient's history).  For history questions, the patient is logically an informant, yet the informant of history questions is implicitly the subject.",
+      "filter": null
+    },
+    {
+      "code": "TRANS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "Transcriber",
+      "description": "An entity entering the data into the originating system. The data entry entity is collected optionally for internal quality control purposes. This includes the transcriptionist for dictated text transcribed into electronic form.",
+      "filter": null
+    },
+    {
+      "code": "ENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "data entry person",
+      "description": "A person entering the data into the originating system.  The data entry person is collected optionally for internal quality control purposes.  This includes the transcriptionist for dictated text.",
+      "filter": null
+    },
+    {
+      "code": "WIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "witness",
+      "description": "Only with service events.  A person witnessing the action happening without doing anything.  A witness is not necessarily aware, much less approves of anything stated in the service event.  Example for a witness is students watching an operation or an advanced directive witness.",
+      "filter": null
+    },
+    {
+      "code": "CST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "custodian",
+      "description": "An entity (person, organization or device) that is in charge of maintaining the information of this act (e.g., who maintains the report or the master service catalog item, etc.).",
+      "filter": null
+    },
+    {
+      "code": "DIR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "direct target",
+      "description": "Target participant  that is substantially present in the act  and which is directly involved in the action (includes consumed material, devices, etc.).",
+      "filter": null
+    },
+    {
+      "code": "ALY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "analyte",
+      "description": "The target of an Observation action. Links an observation to a Role whose player is the substance or most specific component entity (material, micro-organism, etc.) being measured within the subject.\r\n\n                        \n                           Examples: A \"plasma porcelain substance concentration\" has analyte a Role with player substance Entity \"porcelain\".\r\n\n                        \n                           UsageNotes: The Role that this participation connects to may be any Role whose player is that substance measured. Very often, the scoper may indicate the system in which the component is being measured. E.g., for \"plasma porcelain\" the scoper could be \"Plasma\".",
+      "filter": null
+    },
+    {
+      "code": "BBY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "baby",
+      "description": "In an obstetric service, the baby.",
+      "filter": null
+    },
+    {
+      "code": "CAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "catalyst",
+      "description": "The catalyst of a chemical reaction, such as an enzyme or a platinum surface. In biochemical reactions, connects the enzyme with the molecular interaction",
+      "filter": null
+    },
+    {
+      "code": "CSM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "consumable",
+      "description": "Participant material that is taken up, diminished, altered, or disappears in the act.",
+      "filter": null
+    },
+    {
+      "code": "TPA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "therapeutic agent",
+      "description": "Something incorporated in the subject of a therapy service to achieve a physiologic effect (e.g., heal, relieve, provoke a condition, etc.) on the subject.  In an administration service the therapeutic agent is a consumable, in a preparation or dispense service, it is a product.  Thus, consumable or product must be specified in accordance with the kind of service.",
+      "filter": null
+    },
+    {
+      "code": "DEV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "device",
+      "description": "Participant used in performing the act without being substantially affected by the act (i.e. durable or inert with respect to that particular service).\r\n\n                        \n                           Examples: monitoring equipment, tools, but also access/drainage lines, prostheses, pace maker, etc.",
+      "filter": null
+    },
+    {
+      "code": "NRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "non-reuseable device",
+      "description": "A device that changes ownership due to the service, e.g., a pacemaker, a prosthesis, an insulin injection equipment (pen), etc.  Such material may need to be restocked after he service.",
+      "filter": null
+    },
+    {
+      "code": "RDV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "reusable device",
+      "description": "A device that does not change ownership due to the service, i.e., a surgical instrument or tool or an endoscope.  The distinction between reuseable and non-reuseable must be made in order to know whether material must be re-stocked.",
+      "filter": null
+    },
+    {
+      "code": "DON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "donor",
+      "description": "In some organ transplantation services and rarely in transfusion services a donor will be a target participant in the service.  However, in most cases transplantation is decomposed in three services: explantation, transport, and implantation.  The identity of the donor (recipient) is often irrelevant for the explantation (implantation) service.",
+      "filter": null
+    },
+    {
+      "code": "EXPAGNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ExposureAgent",
+      "description": "Description: The entity playing the associated role is the physical (including energy), chemical or biological substance that is participating in the exposure.  For example in communicable diseases, the associated playing entity is the disease causing pathogen.",
+      "filter": null
+    },
+    {
+      "code": "EXPART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ExposureParticipation",
+      "description": "Description:Direct participation in an exposure act where it is unknown that the participant is the source or subject of the exposure.  If the participant is known to be the contact of an exposure then the SBJ participation type should be used.  If the participant is known to be the source then the EXSRC participation type should be used.",
+      "filter": null
+    },
+    {
+      "code": "EXPTRGT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ExposureTarget",
+      "description": "Description: The entity playing the associated role is the target (contact) of exposure.",
+      "filter": null
+    },
+    {
+      "code": "EXSRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ExposureSource",
+      "description": "Description:The entity playing the associated role is the source of exposure.",
+      "filter": null
+    },
+    {
+      "code": "PRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "product",
+      "description": "Participant material that is brought forth (produced) in the act (e.g., specimen in a specimen collection, access or drainage in a placement service, medication package in a dispense service). It does not matter whether the material produced had existence prior to the service, or whether it is created in the service (e.g., in supply services the product is taken from a stock).",
+      "filter": null
+    },
+    {
+      "code": "SBJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "subject",
+      "description": "The principle target on which the action happens.\r\n\n                        \n                           Examples: The patient in physical examination, a specimen in a lab observation. May also be a patient's family member (teaching) or a device or room (cleaning, disinfecting, housekeeping). \r\n\n                        \n                           UsageNotes: Not all direct targets are subjects. Consumables and devices used as tools for an act are not subjects. However, a device may be a subject of a maintenance action.",
+      "filter": null
+    },
+    {
+      "code": "SPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "specimen",
+      "description": "The subject of non-clinical (e.g. laboratory) observation services is a specimen.",
+      "filter": null
+    },
+    {
+      "code": "IND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "indirect target",
+      "description": "Target that is not substantially present in the act and which is not directly affected by the act, but which will be a focus of the record or documentation of the act.",
+      "filter": null
+    },
+    {
+      "code": "BEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "beneficiary",
+      "description": "Target on behalf of whom the service happens, but that is not necessarily present in the service.  Can occur together with direct target to indicate that a target is both, as in the case where the patient is the indirect beneficiary of a service rendered to a family member, e.g. counseling or given home care instructions.  This concept includes a participant, such as a covered party, who derives benefits from a service act covered by a coverage act.\r\n\n                        Note that the semantic role of the intended recipient who benefits from the happening denoted by the verb in the clause.  Thus, a patient who has no coverage under a policy or program may be a beneficiary of a health service while not being the beneficiary of coverage for that service.",
+      "filter": null
+    },
+    {
+      "code": "CAGNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "causative agent",
+      "description": "Definition: A factor, such as a microorganism, chemical substance, or form of radiation, whose presence, excessive presence, or (in deficiency diseases) relative absence is essential, in whole or in part, for the occurrence of a condition.\r\n\n                        Constraint:  The use of this participation is limited to observations.",
+      "filter": null
+    },
+    {
+      "code": "COV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "coverage target",
+      "description": "The target participation for an individual in a health care coverage act in which the target role is either the policy holder of the coverage, or a covered party under the coverage.",
+      "filter": null
+    },
+    {
+      "code": "GUAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "guarantor party",
+      "description": "The target person or organization contractually recognized by the issuer as a participant who has assumed fiscal responsibility for another personaTMs financial obligations by guaranteeing to pay for amounts owed to a particular account\r\n\n                        \n                           Example:The subscriber of the patientaTMs health insurance policy signs a contract with the provider to be fiscally responsible for the patient billing account balance amount owed.",
+      "filter": null
+    },
+    {
+      "code": "HLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "holder",
+      "description": "Participant who posses an instrument such as a financial contract (insurance policy) usually based on some agreement with the author.",
+      "filter": null
+    },
+    {
+      "code": "RCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "record target",
+      "description": "The record target indicates whose medical record holds the documentation of this act.  This is especially important when the subject of a service is not the patient himself.",
+      "filter": null
+    },
+    {
+      "code": "RCV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "receiver",
+      "description": "The person (or organization) who receives the product of an Act.",
+      "filter": null
+    },
+    {
+      "code": "IRCP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "information recipient",
+      "description": "A party, who may or should receive or who has recieved the Act or subsequent or derivative information of that Act. Information recipient is inert, i.e., independent of mood.\" Rationale: this is a generalization of a too diverse family that the definition can't be any more specific, and the concept is abstract so one of the specializations should be used.",
+      "filter": null
+    },
+    {
+      "code": "NOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "ugent notification contact",
+      "description": "An information recipient to notify for urgent matters about this Act. (e.g., in a laboratory order, critical results are being called by phone right away, this is the contact to call; or for an inpatient encounter, a next of kin to notify when the patient becomes critically ill).",
+      "filter": null
+    },
+    {
+      "code": "PRCP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "primary information recipient",
+      "description": "Information recipient to whom an act statement is primarily directed. E.g., a primary care provider receiving a discharge letter from a hospitalist, a health department receiving information on a suspected case of infectious disease. Multiple of these participations may exist on the same act without requiring that recipients be ranked as primary vs. secondary.",
+      "filter": null
+    },
+    {
+      "code": "REFB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "Referred By",
+      "description": "A participant (e.g. provider) who has referred the subject of an act (e.g. patient).\r\n\n                        Typically, a referred by participant will provide a report (e.g. referral).",
+      "filter": null
+    },
+    {
+      "code": "REFT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "Referred to",
+      "description": "The person who receives the patient",
+      "filter": null
+    },
+    {
+      "code": "TRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "tracker",
+      "description": "A secondary information recipient, who receives copies (e.g., a primary care provider receiving copies of results as ordered by specialist).",
+      "filter": null
+    },
+    {
+      "code": "LOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "location",
+      "description": "The facility where the service is done.  May be a static building (or room therein) or a moving location (e.g., ambulance, helicopter, aircraft, train, truck, ship, etc.)",
+      "filter": null
+    },
+    {
+      "code": "DST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "destination",
+      "description": "The destination for services.  May be a static building (or room therein) or a movable facility (e.g., ship).",
+      "filter": null
+    },
+    {
+      "code": "ELOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "entry location",
+      "description": "A location where data about an Act was entered.",
+      "filter": null
+    },
+    {
+      "code": "ORG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "origin",
+      "description": "The location of origin for services.  May be a static building (or room therein) or a movable facility (e.g., ship).",
+      "filter": null
+    },
+    {
+      "code": "RML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "remote",
+      "description": "Some services take place at multiple concurrent locations (e.g., telemedicine, telephone consultation).  The location where the principal performing actor is located is taken as the primary location (LOC) while the other location(s) are considered \"remote.\"",
+      "filter": null
+    },
+    {
+      "code": "VIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "via",
+      "description": "For services, an intermediate location that specifies a path between origin an destination.",
+      "filter": null
+    },
+    {
+      "code": "PRF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "performer",
+      "description": "Definition: A person, non-person living subject, organization or device that who actually and principally carries out the action. Device should only be assigned as a performer in circumstances where the device is performing independent of human intervention.  Need not be the principal responsible actor.\r\n\n                        \n                           Exampe: A surgery resident operating under supervision of attending surgeon, a search and rescue dog locating survivors, an electronic laboratory analyzer or the laboratory discipline requested to perform a laboratory test. The performer may also be the patient in self-care, e.g. fingerstick blood sugar. The traditional order filler is a performer. This information should accompany every service event.\r\n\n                        \n                           Note: that existing HL7 designs assign an organization as the playing entity of the Role that is the performer.  These designs should be revised in subsequent releases to make this the scooping entity for the role involved.",
+      "filter": null
+    },
+    {
+      "code": "DIST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "distributor",
+      "description": "Distributes material used in or generated during the act.",
+      "filter": null
+    },
+    {
+      "code": "PPRF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "primary performer",
+      "description": "The principal or primary performer of the act.",
+      "filter": null
+    },
+    {
+      "code": "SPRF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "secondary performer",
+      "description": "A person assisting in an act through his substantial presence and involvement   This includes: assistants, technicians, associates, or whatever the job titles may be.",
+      "filter": null
+    },
+    {
+      "code": "RESP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "responsible party",
+      "description": "The person or organization that has primary responsibility for the act.  The responsible party is not necessarily present in an action, but is accountable for the action through the power to delegate, and the duty to review actions with the performing actor after the fact.  This responsibility may be ethical, legal, contractual, fiscal, or fiduciary in nature.\r\n\n                        \n                           Example: A person who is the head of a biochemical laboratory; a sponsor for a policy or government program.",
+      "filter": null
+    },
+    {
+      "code": "VRF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "verifier",
+      "description": "A person who verifies the correctness and appropriateness of the service (plan, order, event, etc.) and hence takes on accountability.",
+      "filter": null
+    },
+    {
+      "code": "AUTHEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "authenticator",
+      "description": "A verifier who attests to the accuracy of an act, but who does not have privileges to legally authenticate the act. An example would be a resident physician who sees a patient and dictates a note, then later signs it. Their signature constitutes an authentication.",
+      "filter": null
+    },
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "display": "legal authenticator",
+      "description": "A verifier who legally authenticates the accuracy of an act. An example would be a staff physician who sees a patient and dictates a note, then later signs it. Their signature constitutes a legal authentication.",
+      "filter": null
+    },
+    {
+      "code": "TRANS",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PART",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ATND",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CON",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WIT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESP",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTHEN",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

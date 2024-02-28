@@ -1,0 +1,50 @@
+{
+  "name": "v2.0470",
+  "resource_id": "v2-0470",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0470",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "Crnl",
+      "display": "Corneal Tissue APC"
+    },
+    {
+      "code": "DME",
+      "display": "Durable Medical Equipment"
+    },
+    {
+      "code": "EPO",
+      "display": "Epotein"
+    },
+    {
+      "code": "Lab",
+      "display": "Clinical Laboratory APC"
+    },
+    {
+      "code": "Mamm",
+      "display": "Screening Mammography APC"
+    },
+    {
+      "code": "NoPay",
+      "display": "This APC is not paid"
+    },
+    {
+      "code": "OPPS",
+      "display": "Outpatient Prospective Payment System"
+    },
+    {
+      "code": "PartH",
+      "display": "Partial Hospitalization APC"
+    },
+    {
+      "code": "Pckg",
+      "display": "Packaged APC"
+    },
+    {
+      "code": "Thrpy",
+      "display": "Therapy APC"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

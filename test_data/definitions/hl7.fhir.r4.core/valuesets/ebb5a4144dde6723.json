@@ -1,0 +1,151 @@
+{
+  "name": "v2.0933",
+  "resource_id": "v2-0933",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0933",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0933"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0933 ( Intended Procedure Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0933",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0933"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "2RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Double Red Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Granulocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Hemachromatosis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Hematopoietic Progenitor Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LYM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Lymphocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Platelets",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PNP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Platelets and Plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PNR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Platelets and Red Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Platelets, Plasma, and Red Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Therapeutic Apheresis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Therapeutic Whole Blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WBL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0933",
+      "display": "Whole Blood",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

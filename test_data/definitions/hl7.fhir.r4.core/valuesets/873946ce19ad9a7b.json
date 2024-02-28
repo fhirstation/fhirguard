@@ -1,0 +1,61 @@
+{
+  "name": "v2.0128",
+  "resource_id": "v2-0128",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0128",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0128"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0128 ( ALLERGY SEVERITY)",
+  "related_codesystems": [
+    {
+      "id": "v2-0128",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0128"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "MI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0128",
+      "display": "Mild",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0128",
+      "display": "Moderate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0128",
+      "display": "Severe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0128",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

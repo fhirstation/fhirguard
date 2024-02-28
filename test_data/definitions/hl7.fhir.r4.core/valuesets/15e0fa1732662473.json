@@ -1,0 +1,51 @@
+{
+  "name": "v2.0547",
+  "resource_id": "v2-0547",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0547",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0547"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0547 ( Jurisdictional Breadth)",
+  "related_codesystems": [
+    {
+      "id": "v2-0547",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0547"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0547",
+      "display": "County/Parish",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0547",
+      "display": "Country",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0547",
+      "display": "State/Province",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "v2.0250",
+  "resource_id": "v2-0250",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0250",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "H",
+      "display": "Highly probable",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zeer waarschijnlijk"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Improbable",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet waarschijnlijk"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Moderately probable",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gemiddeld waarschijnlijk"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Not related",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet gerelateerd"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Somewhat probable",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Enigzins waarschijnlijk"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

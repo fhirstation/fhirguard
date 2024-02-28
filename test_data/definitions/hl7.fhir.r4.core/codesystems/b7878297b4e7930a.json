@@ -1,0 +1,164 @@
+{
+  "name": "v2.0080",
+  "resource_id": "v2-0080",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0080",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "An age-based population",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Altersabhängig"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Een op leeftijd gebaseerde populatie"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Breed",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "abhängig von Rasse oder Zucht"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Dierenras"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "None - generic normal range",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Genereller Normalwert"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geen - algemene normale reeks"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "A race-based population",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Rasseabhängig"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Een op ras gebaseerde populatie"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "A sex-based population",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geschlechtsabhängig"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Een op geslacht gebaseerde populatie"
+        }
+      ]
+    },
+    {
+      "code": "SP",
+      "display": "Species",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "abhängig von Spezies"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Soort"
+        }
+      ]
+    },
+    {
+      "code": "ST",
+      "display": "Strain",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "abhängig von Bakterienstamm"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Stam"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

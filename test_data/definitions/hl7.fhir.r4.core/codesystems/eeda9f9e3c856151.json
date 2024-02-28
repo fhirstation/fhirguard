@@ -1,0 +1,122 @@
+{
+  "name": "v2.0209",
+  "resource_id": "v2-0209",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0209",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CT",
+      "display": "Contains",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bevat"
+        }
+      ]
+    },
+    {
+      "code": "EQ",
+      "display": "Equal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gelijk aan"
+        }
+      ]
+    },
+    {
+      "code": "GE",
+      "display": "Greater than or equal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Groter of gelijk aan"
+        }
+      ]
+    },
+    {
+      "code": "GN",
+      "display": "Generic",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Generiek"
+        }
+      ]
+    },
+    {
+      "code": "GT",
+      "display": "Greater than",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Groter dan"
+        }
+      ]
+    },
+    {
+      "code": "LE",
+      "display": "Less than or equal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Kleiner dan of gelijk aan"
+        }
+      ]
+    },
+    {
+      "code": "LT",
+      "display": "Less than",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Kleiner dan"
+        }
+      ]
+    },
+    {
+      "code": "NE",
+      "display": "Not Equal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ongelijk aan"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

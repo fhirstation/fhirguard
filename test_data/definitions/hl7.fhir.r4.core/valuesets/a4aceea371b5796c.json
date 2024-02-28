@@ -1,0 +1,15 @@
+{
+  "name": "DeviceMetricAndComponentTypes",
+  "resource_id": "devicemetric-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/devicemetric-type",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:11073:10101"
+      }
+    ]
+  },
+  "description": "Codes used to identify health care device metric types and units and component types as part of the ISO/IEEE 11073-10101 Medical Device Communication Nomenclature.",
+  "related_codesystems": [],
+  "allowed_values": []
+}

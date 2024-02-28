@@ -1,0 +1,101 @@
+{
+  "name": "v2.0391.2.4",
+  "resource_id": "v2-2.4-0391",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-2.4-0391",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0391 ver 2.5.1 ( Segment group)",
+  "related_codesystems": [
+    {
+      "id": "v2-2.4-0391",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "OBRG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "OBR group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORCG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "ORC group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PIDG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "PID group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RXAG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "RXA group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RXDG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "RXD group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RXEG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "RXE group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RXOG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": "RXO group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "etc",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

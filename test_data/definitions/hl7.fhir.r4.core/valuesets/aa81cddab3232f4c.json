@@ -1,0 +1,811 @@
+{
+  "name": "v2.0350",
+  "resource_id": "v2-0350",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0350",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0350"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0350 ( Occurrence code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0350",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0350"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Use NUBC codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Auto accident",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "No fault insurance involved-including auto accident/other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Accident/tort liability",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Accident/employment related",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Other accident",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Crime victim",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Start of infertility treatment cycle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Last menstrual period",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Onset of symptoms/illness",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of onset for a chronically dependent individual",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date outpatient occupational therapy plan established or last reviewed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of retirement patient/beneficiary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of retirement spouse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Guarantee of payment began",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "UR notice received",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date active care ended",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date insurance denied",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date benefits terminated by primary payor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date SNF bed available",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date home health plan established",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Spouse's date of birth",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date outpatient physical therapy plan established or last reviewed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date outpatient speech pathology plan established or last reviewed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date beneficiary notified of intent to bill (accommodations)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date beneficiary notified of intent to bill (procedures or treatments)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of election of extended care facilities",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date treatment started for P.T.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of inpatient hospital discharge for covered transplant patients",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of inpatient hospital discharge for non-covered transplant patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Scheduled date of admission",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of first test for pre-admission testing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date of discharge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Scheduled date of canceled surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date treatment started for O.T.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date treatment started for S.T.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date treatment started for cardiac rehab.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "47 ... 49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date lien released",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Date treatment started for psychiatric care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70 ... 99",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "71",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "74",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "75",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "76",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "80",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "81",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "82",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "83",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "84",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "85",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "86",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "87",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "88",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "89",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "90",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "91",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "92",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "93",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "94",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "95",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "96",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "97",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "98",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "99",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Occurrence span codes and dates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Birthdate - insured A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Effective date - insured A policy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Benefits exhausted payer A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "…",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0350",
+      "display": "Use NUBC codes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

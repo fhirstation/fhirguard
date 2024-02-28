@@ -1,0 +1,75 @@
+{
+  "name": "Claim Payee Type Codes",
+  "resource_id": "payeetype",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/payeetype",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "subscriber",
+      "display": "Subscriber",
+      "definition": "The subscriber (policy holder) will be reimbursed."
+    },
+    {
+      "code": "provider",
+      "display": "Provider",
+      "definition": "Any benefit payable will be paid to the provider (Assignment of Benefit)."
+    },
+    {
+      "code": "other",
+      "display": "Provider",
+      "definition": "Any benefit payable will be paid to a third party such as a guarrantor."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "Claim Payee Type Codes",
+    "resource_id": "payeetype",
+    "resource_url": "http://hl7.org/fhir/ValueSet/payeetype",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/payeetype"
+        }
+      ]
+    },
+    "description": "This value set includes sample Payee Type codes.",
+    "related_codesystems": [
+      {
+        "id": "payeetype",
+        "url": "http://terminology.hl7.org/CodeSystem/payeetype"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "subscriber",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/payeetype",
+        "display": "Subscriber",
+        "description": "The subscriber (policy holder) will be reimbursed.",
+        "filter": null
+      },
+      {
+        "code": "provider",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/payeetype",
+        "display": "Provider",
+        "description": "Any benefit payable will be paid to the provider (Assignment of Benefit).",
+        "filter": null
+      },
+      {
+        "code": "other",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/payeetype",
+        "display": "Provider",
+        "description": "Any benefit payable will be paid to a third party such as a guarrantor.",
+        "filter": null
+      }
+    ]
+  }
+}

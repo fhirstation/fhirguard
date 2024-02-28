@@ -1,0 +1,151 @@
+{
+  "name": "v2.0123",
+  "resource_id": "v2-0123",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0123",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0123"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0123 ( RESULT STATUS - OBR)",
+  "related_codesystems": [
+    {
+      "id": "v2-0123",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0123"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Some, but not all, results available",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Corrected, final",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Final results",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "No results available; specimen received, procedure incomplete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Corrected, not final",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Procedure completed, results pending",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Order received; specimen not yet received",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Preliminary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "Results stored; not yet verified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "No results available; procedure scheduled, but not done",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "No results available; Order canceled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "No order on record for this test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Z",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0123",
+      "display": "No record of this patient",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

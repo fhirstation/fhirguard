@@ -1,0 +1,15 @@
+{
+  "name": "HLA",
+  "resource_id": "allelename",
+  "resource_url": "http://hl7.org/fhir/ValueSet/allelename",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.ebi.ac.uk/ipd/imgt/hla"
+      }
+    ]
+  },
+  "description": "European Bioinformatics Institute",
+  "related_codesystems": [],
+  "allowed_values": []
+}

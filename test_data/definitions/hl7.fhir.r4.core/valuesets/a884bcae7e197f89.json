@@ -1,0 +1,61 @@
+{
+  "name": "MedicationDispense Performer Function Codes",
+  "resource_id": "medicationdispense-performer-function",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationdispense-performer-function",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function"
+      }
+    ]
+  },
+  "description": "MedicationDispense Performer Function Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationdispense-performer-function",
+      "url": "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "dataenterer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function",
+      "display": "Data Enterer",
+      "description": "Recorded the details of the request",
+      "filter": null
+    },
+    {
+      "code": "packager",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function",
+      "display": "Packager",
+      "description": "Prepared the medication.",
+      "filter": null
+    },
+    {
+      "code": "checker",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function",
+      "display": "Checker",
+      "description": "Performed initial quality assurance on the prepared medication",
+      "filter": null
+    },
+    {
+      "code": "finalchecker",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function",
+      "display": "Final Checker",
+      "description": "Performed the final quality assurance on the prepared medication against the request. Typically, this is a pharmacist function.",
+      "filter": null
+    }
+  ]
+}

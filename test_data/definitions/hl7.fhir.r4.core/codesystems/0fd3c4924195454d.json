@@ -1,0 +1,15 @@
+{
+  "name": "TaskIntent",
+  "resource_id": "task-intent",
+  "resource_url": "http://hl7.org/fhir/task-intent",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "The intent is not known.  When dealing with Task, it's not always known (or relevant) how the task was initiated - i.e. whether it was proposed, planned, ordered or just done spontaneously."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

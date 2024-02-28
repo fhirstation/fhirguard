@@ -1,0 +1,91 @@
+{
+  "name": "FinancialTaskInputTypeCodes",
+  "resource_id": "financial-taskinputtype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/financial-taskinputtype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype"
+      }
+    ]
+  },
+  "description": "This value set includes Financial Task Input Type codes.",
+  "related_codesystems": [
+    {
+      "id": "financial-taskinputtype",
+      "url": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "include",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Include",
+      "description": "The name of a resource to include in a selection.",
+      "filter": null
+    },
+    {
+      "code": "exclude",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Exclude",
+      "description": "The name of a resource to not include in a selection.",
+      "filter": null
+    },
+    {
+      "code": "origresponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Original Response",
+      "description": "A reference to the response resource to the original processing of a resource.",
+      "filter": null
+    },
+    {
+      "code": "reference",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Reference Number",
+      "description": "A reference value which must be quoted to authorize an action.",
+      "filter": null
+    },
+    {
+      "code": "item",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Item Number",
+      "description": "The sequence number associated with an item for reprocessing.",
+      "filter": null
+    },
+    {
+      "code": "period",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Period",
+      "description": "The reference period for the action being requested.",
+      "filter": null
+    },
+    {
+      "code": "status",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskinputtype",
+      "display": "Status code",
+      "description": "The processing status from a check on the processing status of a resource such as the adjudication of a claim.",
+      "filter": null
+    }
+  ]
+}

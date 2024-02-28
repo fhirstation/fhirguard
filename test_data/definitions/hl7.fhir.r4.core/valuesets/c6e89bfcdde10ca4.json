@@ -1,0 +1,41 @@
+{
+  "name": "v2.0375",
+  "resource_id": "v2-0375",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0375",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0375"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0375 ( Artificial blood)",
+  "related_codesystems": [
+    {
+      "id": "v2-0375",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0375"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "FLUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0375",
+      "display": "Fluorocarbons",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SFHB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0375",
+      "display": "Stromal free hemoglobin preparations",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "name": "v2.0493",
+  "resource_id": "v2-0493",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0493",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0493"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0493 ( Specimen Condition)",
+  "related_codesystems": [
+    {
+      "id": "v2-0493",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0493"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Autolyzed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CFU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Centrifuged",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Clotted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Contaminated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Cool",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FROZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Frozen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Hemolyzed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIVE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Live",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Room temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0493",
+      "display": "Sample not received",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

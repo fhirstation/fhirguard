@@ -1,0 +1,165 @@
+{
+  "name": "SearchParamType",
+  "resource_id": "search-param-type",
+  "resource_url": "http://hl7.org/fhir/search-param-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "number",
+      "display": "Number",
+      "definition": "Search parameter SHALL be a number (a whole number, or a decimal)."
+    },
+    {
+      "code": "date",
+      "display": "Date/DateTime",
+      "definition": "Search parameter is on a date/time. The date format is the standard XML format, though other formats may be supported."
+    },
+    {
+      "code": "string",
+      "display": "String",
+      "definition": "Search parameter is a simple string, like a name part. Search is case-insensitive and accent-insensitive. May match just the start of a string. String parameters may contain spaces."
+    },
+    {
+      "code": "token",
+      "display": "Token",
+      "definition": "Search parameter on a coded element or identifier. May be used to search through the text, display, code and code/codesystem (for codes) and label, system and key (for identifier). Its value is either a string or a pair of namespace and value, separated by a \"|\", depending on the modifier used."
+    },
+    {
+      "code": "reference",
+      "display": "Reference",
+      "definition": "A reference to another resource (Reference or canonical)."
+    },
+    {
+      "code": "composite",
+      "display": "Composite",
+      "definition": "A composite search parameter that combines a search on two values together."
+    },
+    {
+      "code": "quantity",
+      "display": "Quantity",
+      "definition": "A search parameter that searches on a quantity."
+    },
+    {
+      "code": "uri",
+      "display": "URI",
+      "definition": "A search parameter that searches on a URI (RFC 3986)."
+    },
+    {
+      "code": "special",
+      "display": "Special",
+      "definition": "Special logic applies to this parameter per the description of the search parameter."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SearchParamType",
+    "resource_id": "search-param-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/search-param-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/search-param-type"
+        }
+      ]
+    },
+    "description": "Data types allowed to be used for search parameters.",
+    "related_codesystems": [
+      {
+        "id": "search-param-type",
+        "url": "http://hl7.org/fhir/search-param-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "number",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Number",
+        "description": "Search parameter SHALL be a number (a whole number, or a decimal).",
+        "filter": null
+      },
+      {
+        "code": "date",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Date/DateTime",
+        "description": "Search parameter is on a date/time. The date format is the standard XML format, though other formats may be supported.",
+        "filter": null
+      },
+      {
+        "code": "string",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "String",
+        "description": "Search parameter is a simple string, like a name part. Search is case-insensitive and accent-insensitive. May match just the start of a string. String parameters may contain spaces.",
+        "filter": null
+      },
+      {
+        "code": "token",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Token",
+        "description": "Search parameter on a coded element or identifier. May be used to search through the text, display, code and code/codesystem (for codes) and label, system and key (for identifier). Its value is either a string or a pair of namespace and value, separated by a \"|\", depending on the modifier used.",
+        "filter": null
+      },
+      {
+        "code": "reference",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Reference",
+        "description": "A reference to another resource (Reference or canonical).",
+        "filter": null
+      },
+      {
+        "code": "composite",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Composite",
+        "description": "A composite search parameter that combines a search on two values together.",
+        "filter": null
+      },
+      {
+        "code": "quantity",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Quantity",
+        "description": "A search parameter that searches on a quantity.",
+        "filter": null
+      },
+      {
+        "code": "uri",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "URI",
+        "description": "A search parameter that searches on a URI (RFC 3986).",
+        "filter": null
+      },
+      {
+        "code": "special",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-param-type",
+        "display": "Special",
+        "description": "Special logic applies to this parameter per the description of the search parameter.",
+        "filter": null
+      }
+    ]
+  }
+}

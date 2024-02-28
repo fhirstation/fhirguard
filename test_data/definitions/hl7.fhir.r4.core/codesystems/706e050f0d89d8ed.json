@@ -1,0 +1,80 @@
+{
+  "name": "v2.0403",
+  "resource_id": "v2-0403",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0403",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Read",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Lezen"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Write",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Schrijven"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Speak",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Spreken"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Understand",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verstaan"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Sign",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gebarentaal"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

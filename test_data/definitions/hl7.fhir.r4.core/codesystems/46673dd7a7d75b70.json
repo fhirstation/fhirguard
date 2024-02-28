@@ -1,0 +1,75 @@
+{
+  "name": "ServiceProvisionConditions",
+  "resource_id": "service-provision-conditions",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "free",
+      "display": "Free",
+      "definition": "This service is available for no patient cost."
+    },
+    {
+      "code": "disc",
+      "display": "Discounts Available",
+      "definition": "There are discounts available on this service for qualifying patients."
+    },
+    {
+      "code": "cost",
+      "display": "Fees apply",
+      "definition": "Fees apply for this service."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ServiceProvisionConditions",
+    "resource_id": "service-provision-conditions",
+    "resource_url": "http://hl7.org/fhir/ValueSet/service-provision-conditions",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions"
+        }
+      ]
+    },
+    "description": "The code(s) that detail the conditions under which the healthcare service is available/offered.",
+    "related_codesystems": [
+      {
+        "id": "service-provision-conditions",
+        "url": "http://terminology.hl7.org/CodeSystem/service-provision-conditions"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "free",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
+        "display": "Free",
+        "description": "This service is available for no patient cost.",
+        "filter": null
+      },
+      {
+        "code": "disc",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
+        "display": "Discounts Available",
+        "description": "There are discounts available on this service for qualifying patients.",
+        "filter": null
+      },
+      {
+        "code": "cost",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-provision-conditions",
+        "display": "Fees apply",
+        "description": "Fees apply for this service.",
+        "filter": null
+      }
+    ]
+  }
+}

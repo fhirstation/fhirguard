@@ -1,0 +1,52 @@
+{
+  "name": "v2.0394",
+  "resource_id": "v2-0394",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0394",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "B",
+      "display": "Batch",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Batch/bundel"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Real Time",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Real time"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Bolus (a series of responses sent at the same time without use of batch formatting)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bolus (een serie antwoorden tegelijk verzonden zonder gebruik te maken van een batch/bundel)"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

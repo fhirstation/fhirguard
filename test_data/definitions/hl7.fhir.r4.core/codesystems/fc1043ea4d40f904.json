@@ -1,0 +1,75 @@
+{
+  "name": "FlagStatus",
+  "resource_id": "flag-status",
+  "resource_url": "http://hl7.org/fhir/flag-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "active",
+      "display": "Active",
+      "definition": "A current flag that should be displayed to a user. A system may use the category to determine which user roles should view the flag."
+    },
+    {
+      "code": "inactive",
+      "display": "Inactive",
+      "definition": "The flag no longer needs to be displayed."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "The flag was added in error and should no longer be displayed."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "FlagStatus",
+    "resource_id": "flag-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/flag-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/flag-status"
+        }
+      ]
+    },
+    "description": "Indicates whether this flag is active and needs to be displayed to a user, or whether it is no longer needed or was entered in error.",
+    "related_codesystems": [
+      {
+        "id": "flag-status",
+        "url": "http://hl7.org/fhir/flag-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "active",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/flag-status",
+        "display": "Active",
+        "description": "A current flag that should be displayed to a user. A system may use the category to determine which user roles should view the flag.",
+        "filter": null
+      },
+      {
+        "code": "inactive",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/flag-status",
+        "display": "Inactive",
+        "description": "The flag no longer needs to be displayed.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/flag-status",
+        "display": "Entered in Error",
+        "description": "The flag was added in error and should no longer be displayed.",
+        "filter": null
+      }
+    ]
+  }
+}

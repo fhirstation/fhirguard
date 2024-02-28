@@ -1,0 +1,56 @@
+{
+  "name": "v2.0570",
+  "resource_id": "v2-0570",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0570",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CASH",
+      "display": "Cash"
+    },
+    {
+      "code": "CCCA",
+      "display": "Credit Card"
+    },
+    {
+      "code": "CCHK",
+      "display": "Cashier's Check"
+    },
+    {
+      "code": "CDAC",
+      "display": "Credit/Debit Account"
+    },
+    {
+      "code": "CHCK",
+      "display": "Check"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "EFT"
+        }
+      ],
+      "code": "DDPO",
+      "display": "Direct Deposit"
+    },
+    {
+      "code": "DEBC",
+      "display": "Debit Card"
+    },
+    {
+      "code": "SWFT",
+      "display": "Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)"
+    },
+    {
+      "code": "TRAC",
+      "display": "Traveler's Check"
+    },
+    {
+      "code": "VISN",
+      "display": "VISA Special Electronic Funds Transfer Network"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

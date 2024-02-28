@@ -1,0 +1,81 @@
+{
+  "name": "CommunicationNotDoneReason",
+  "resource_id": "communication-not-done-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/communication-not-done-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason"
+      }
+    ]
+  },
+  "description": "Codes for the reason why a communication did not happen.",
+  "related_codesystems": [
+    {
+      "id": "communication-not-done-reason",
+      "url": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+      "display": "Unknown",
+      "description": "The communication was not done due to an unknown reason.",
+      "filter": null
+    },
+    {
+      "code": "system-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+      "display": "System Error",
+      "description": "The communication was not done due to a system error.",
+      "filter": null
+    },
+    {
+      "code": "invalid-phone-number",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+      "display": "Invalid Phone Number",
+      "description": "The communication was not done due to an invalid phone number.",
+      "filter": null
+    },
+    {
+      "code": "recipient-unavailable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+      "display": "Recipient Unavailable",
+      "description": "The communication was not done due to the recipient being unavailable.",
+      "filter": null
+    },
+    {
+      "code": "family-objection",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+      "display": "Family Objection",
+      "description": "The communication was not done due to a family objection.",
+      "filter": null
+    },
+    {
+      "code": "patient-objection",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+      "display": "Patient Objection",
+      "description": "The communication was not done due to a patient objection.",
+      "filter": null
+    }
+  ]
+}

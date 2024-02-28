@@ -1,0 +1,171 @@
+{
+  "name": "v2.0906",
+  "resource_id": "v2-0906",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0906",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0906"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0906 ( ActPriority)",
+  "related_codesystems": [
+    {
+      "id": "v2-0906",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0906"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "ASAP - As soon as possible, next highest priority after stat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Callback results - filler should contact the placer as soon as results are available, even for preliminary results",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Callback for scheduling - Filler should contact the placer (or target) to schedule the service.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Callback placer for scheduling - filler should contact the placer to schedule the service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Contact recipient for scheduling - Filler should contact the service recipient (target) to schedule the service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Elective - Beneficial to the patient but not essential for survival.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Emergency - An unforeseen combination of circumstances or the resulting state that calls for immediate action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Preop - Used to indicate that a service is to be performed prior to a scheduled surgery.  When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service.  When the order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "As needed - An \"as needed\" order should be accompanied by a description of what constitutes a need.  This description is represented by an observation service predicate as a precondition.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Routine - Routine service, do at usual work hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Rush reporting - A report should be prepared and sent as quickly as possible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Stat - With highest priority (e.g. emergency).",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Timing critical - It is critical to come as close as possible to the requested time (e.g. for a through antimicrobial level).",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Use as directed - Drug is to be used as directed by the prescriber.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0906",
+      "display": "Urgent - Calls for prompt action",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

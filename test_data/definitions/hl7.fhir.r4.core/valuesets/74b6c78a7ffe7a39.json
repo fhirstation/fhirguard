@@ -1,0 +1,91 @@
+{
+  "name": "v2.0431",
+  "resource_id": "v2-0431",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0431",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0431"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0431 ( Recreational drug use code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0431",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0431"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Alcohol",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Tobacco - chewed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Kava",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Marijuana",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Tobacco - smoked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0431",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

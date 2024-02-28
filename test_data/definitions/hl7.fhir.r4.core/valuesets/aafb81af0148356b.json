@@ -1,0 +1,51 @@
+{
+  "name": "GenderStatus",
+  "resource_id": "animal-genderstatus",
+  "resource_url": "http://hl7.org/fhir/ValueSet/animal-genderstatus",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/animal-genderstatus"
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate the current state of the animal's reproductive organs.",
+  "related_codesystems": [
+    {
+      "id": "animal-genderstatus",
+      "url": "http://hl7.org/fhir/animal-genderstatus"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "neutered",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/animal-genderstatus",
+      "display": "Neutered",
+      "description": "The animal has been sterilized, castrated or otherwise made infertile.",
+      "filter": null
+    },
+    {
+      "code": "intact",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/animal-genderstatus",
+      "display": "Intact",
+      "description": "The animal's reproductive organs are intact.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/animal-genderstatus",
+      "display": "Unknown",
+      "description": "Unable to determine whether the animal has been neutered.",
+      "filter": null
+    }
+  ]
+}

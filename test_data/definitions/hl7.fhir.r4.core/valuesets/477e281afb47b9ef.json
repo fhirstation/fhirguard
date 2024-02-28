@@ -1,0 +1,51 @@
+{
+  "name": "ExpansionProcessingRule",
+  "resource_id": "expansion-processing-rule",
+  "resource_url": "http://hl7.org/fhir/ValueSet/expansion-processing-rule",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/expansion-processing-rule"
+      }
+    ]
+  },
+  "description": "Defines how concepts are processed into the expansion when it's for UI presentation.",
+  "related_codesystems": [
+    {
+      "id": "expansion-processing-rule",
+      "url": "http://terminology.hl7.org/CodeSystem/expansion-processing-rule"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "all-codes",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/expansion-processing-rule",
+      "display": "All Codes",
+      "description": "The expansion (when in UI mode) includes all codes *and* any defined groups (in extensions).",
+      "filter": null
+    },
+    {
+      "code": "ungrouped",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/expansion-processing-rule",
+      "display": "Groups + Ungrouped codes",
+      "description": "The expanion (when in UI mode) lists the groups, and then any codes that have not been included in a group.",
+      "filter": null
+    },
+    {
+      "code": "groups-only",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/expansion-processing-rule",
+      "display": "Groups Only",
+      "description": "The expansion (when in UI mode) only includes the defined groups.",
+      "filter": null
+    }
+  ]
+}

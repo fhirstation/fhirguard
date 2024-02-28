@@ -1,0 +1,60 @@
+{
+  "name": "ExampleScenarioActorType",
+  "resource_id": "examplescenario-actor-type",
+  "resource_url": "http://hl7.org/fhir/examplescenario-actor-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "person",
+      "display": "Person",
+      "definition": "A person."
+    },
+    {
+      "code": "entity",
+      "display": "System",
+      "definition": "A system."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExampleScenarioActorType",
+    "resource_id": "examplescenario-actor-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/examplescenario-actor-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/examplescenario-actor-type"
+        }
+      ]
+    },
+    "description": "The type of actor - system or human.",
+    "related_codesystems": [
+      {
+        "id": "examplescenario-actor-type",
+        "url": "http://hl7.org/fhir/examplescenario-actor-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "person",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/examplescenario-actor-type",
+        "display": "Person",
+        "description": "A person.",
+        "filter": null
+      },
+      {
+        "code": "entity",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/examplescenario-actor-type",
+        "display": "System",
+        "description": "A system.",
+        "filter": null
+      }
+    ]
+  }
+}

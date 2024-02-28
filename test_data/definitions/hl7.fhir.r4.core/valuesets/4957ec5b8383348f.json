@@ -1,0 +1,51 @@
+{
+  "name": "v2.0927",
+  "resource_id": "v2-0927",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0927",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0927"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0927 ( Arm Stick)",
+  "related_codesystems": [
+    {
+      "id": "v2-0927",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0927"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0927",
+      "display": "Both Arms",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0927",
+      "display": "Left Arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0927",
+      "display": "Right Arm",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

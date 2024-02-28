@@ -1,0 +1,91 @@
+{
+  "name": "v2.0144",
+  "resource_id": "v2-0144",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0144",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0144"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0144 ( ELIGIBILITY SOURCE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0144",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0144"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "Insurance company",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "Employer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "Insured presented policy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "Insured presented card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "Signed statement on file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "Verbal information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0144",
+      "display": "None",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

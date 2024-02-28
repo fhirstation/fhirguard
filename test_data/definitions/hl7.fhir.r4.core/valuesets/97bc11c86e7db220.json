@@ -1,0 +1,71 @@
+{
+  "name": "Beneficiary Relationship Codes",
+  "resource_id": "relationship",
+  "resource_url": "http://hl7.org/fhir/ValueSet/relationship",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/relationship"
+      }
+    ]
+  },
+  "description": "This value set includes the Patient to subscriber relationship codes.",
+  "related_codesystems": [
+    {
+      "id": "relationship",
+      "url": "http://hl7.org/fhir/relationship"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relationship",
+      "display": "Self",
+      "description": "The patient is the subscriber (policy holder)",
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relationship",
+      "display": "Spouse",
+      "description": "The patient is the spouse or equivalent of the subscriber (policy holder)",
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relationship",
+      "display": "Child",
+      "description": "The patient is the child of the subscriber (policy holder)",
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relationship",
+      "display": "Common Law Spouse",
+      "description": "The patient is the common law spouse of the subscriber (policy holder)",
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relationship",
+      "display": "Other",
+      "description": "The patient has some other relationship, such as parent, to the subscriber (policy holder)",
+      "filter": null
+    }
+  ]
+}

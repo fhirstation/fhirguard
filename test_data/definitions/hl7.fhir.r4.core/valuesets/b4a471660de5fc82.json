@@ -1,0 +1,51 @@
+{
+  "name": "validation-status",
+  "resource_id": "verificationresult-validation-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-validation-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/validation-status"
+      }
+    ]
+  },
+  "description": "Status of the validation of the target against the primary source",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-validation-status",
+      "url": "http://terminology.hl7.org/CodeSystem/validation-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "successful",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-status",
+      "display": "Successful",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "failed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-status",
+      "display": "Failed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-status",
+      "display": "Unknown",
+      "description": "The validations status has not been determined yet",
+      "filter": null
+    }
+  ]
+}

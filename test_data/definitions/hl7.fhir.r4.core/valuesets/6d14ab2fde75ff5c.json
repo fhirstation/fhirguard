@@ -1,0 +1,51 @@
+{
+  "name": "v2.0923",
+  "resource_id": "v2-0923",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0923",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0923"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0923 ( Process Interruption)",
+  "related_codesystems": [
+    {
+      "id": "v2-0923",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0923"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ABR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0923",
+      "display": "Aborted Run: Process interrupted after the Phlebotomist inserts the needle in the Donor's arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0923",
+      "display": "Process was not interrupted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0923",
+      "display": "Walk Out: Process interrupted before the Phlebotomist inserts the needle in the Donor's arm",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

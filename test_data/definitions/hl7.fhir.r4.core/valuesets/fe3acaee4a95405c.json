@@ -1,0 +1,101 @@
+{
+  "name": "v2.0372",
+  "resource_id": "v2-0372",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0372",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0372"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0372 ( Specimen component)",
+  "related_codesystems": [
+    {
+      "id": "v2-0372",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0372"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Whole blood, homogeneous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BSEP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Whole blood, separated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Plasma, NOS (not otherwise specified)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Platelet poor plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Platelet rich plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Sediment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Serum, NOS (not otherwise specified)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0372",
+      "display": "Supernatant",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

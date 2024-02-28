@@ -1,0 +1,81 @@
+{
+  "name": "HTTPVerb",
+  "resource_id": "http-verb",
+  "resource_url": "http://hl7.org/fhir/ValueSet/http-verb",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/http-verb"
+      }
+    ]
+  },
+  "description": "HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.",
+  "related_codesystems": [
+    {
+      "id": "http-verb",
+      "url": "http://hl7.org/fhir/http-verb"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "GET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/http-verb",
+      "display": "GET",
+      "description": "HTTP GET Command.",
+      "filter": null
+    },
+    {
+      "code": "HEAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/http-verb",
+      "display": "HEAD",
+      "description": "HTTP HEAD Command.",
+      "filter": null
+    },
+    {
+      "code": "POST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/http-verb",
+      "display": "POST",
+      "description": "HTTP POST Command.",
+      "filter": null
+    },
+    {
+      "code": "PUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/http-verb",
+      "display": "PUT",
+      "description": "HTTP PUT Command.",
+      "filter": null
+    },
+    {
+      "code": "DELETE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/http-verb",
+      "display": "DELETE",
+      "description": "HTTP DELETE Command.",
+      "filter": null
+    },
+    {
+      "code": "PATCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/http-verb",
+      "display": "PATCH",
+      "description": "HTTP PATCH Command.",
+      "filter": null
+    }
+  ]
+}

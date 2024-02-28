@@ -1,0 +1,71 @@
+{
+  "name": "v2.0253",
+  "resource_id": "v2-0253",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0253",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0253"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0253 ( Indirect Exposure Mechanism)",
+  "related_codesystems": [
+    {
+      "id": "v2-0253",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0253"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0253",
+      "display": "Breast milk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0253",
+      "display": "Father",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0253",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0253",
+      "display": "Transplacental",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0253",
+      "display": "Blood product",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

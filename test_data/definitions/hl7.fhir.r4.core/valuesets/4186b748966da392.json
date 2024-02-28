@@ -1,0 +1,151 @@
+{
+  "name": "v2.0191",
+  "resource_id": "v2-0191",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0191",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0191"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0191 ( Type Of Data)",
+  "related_codesystems": [
+    {
+      "id": "v2-0191",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0191"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Other application data, typically uninterpreted binary data (HL7 V2.3 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Application",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Other application data, typically uninterpreted binary data  (HL7 V2.3 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Audio data (HL7 V2.3 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Audio",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Audio data  (HL7 V2.3 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Formatted text (HL7 V2.2 only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Image data (HL7 V2.3 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Image",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Image data  (HL7 V2.3 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "multipart",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "MIME multipart package",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Non-scanned image (HL7 V2.2 only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Scanned document (HL7 V2.2 only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Scanned image (HL7 V2.2 only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEXT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Machine readable text document (HL7 V2.3.1 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0191",
+      "display": "Machine readable text document (HL7 V2.2 only)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

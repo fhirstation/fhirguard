@@ -1,0 +1,81 @@
+{
+  "name": "CapabilityStatementKind",
+  "resource_id": "capability-statement-kind",
+  "resource_url": "http://hl7.org/fhir/capability-statement-kind",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "instance",
+      "display": "Instance",
+      "definition": "The CapabilityStatement instance represents the present capabilities of a specific system instance.  This is the kind returned by /metadata for a FHIR server end-point."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Elements marked as 'optional' represent configurable capabilities"
+        }
+      ],
+      "code": "capability",
+      "display": "Capability",
+      "definition": "The CapabilityStatement instance represents the capabilities of a system or piece of software, independent of a particular installation."
+    },
+    {
+      "code": "requirements",
+      "display": "Requirements",
+      "definition": "The CapabilityStatement instance represents a set of requirements for other systems to meet; e.g. as part of an implementation guide or 'request for proposal'."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "CapabilityStatementKind",
+    "resource_id": "capability-statement-kind",
+    "resource_url": "http://hl7.org/fhir/ValueSet/capability-statement-kind",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/capability-statement-kind"
+        }
+      ]
+    },
+    "description": "How a capability statement is intended to be used.",
+    "related_codesystems": [
+      {
+        "id": "capability-statement-kind",
+        "url": "http://hl7.org/fhir/capability-statement-kind"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "instance",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/capability-statement-kind",
+        "display": "Instance",
+        "description": "The CapabilityStatement instance represents the present capabilities of a specific system instance.  This is the kind returned by /metadata for a FHIR server end-point.",
+        "filter": null
+      },
+      {
+        "code": "capability",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/capability-statement-kind",
+        "display": "Capability",
+        "description": "The CapabilityStatement instance represents the capabilities of a system or piece of software, independent of a particular installation.",
+        "filter": null
+      },
+      {
+        "code": "requirements",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/capability-statement-kind",
+        "display": "Requirements",
+        "description": "The CapabilityStatement instance represents a set of requirements for other systems to meet; e.g. as part of an implementation guide or 'request for proposal'.",
+        "filter": null
+      }
+    ]
+  }
+}

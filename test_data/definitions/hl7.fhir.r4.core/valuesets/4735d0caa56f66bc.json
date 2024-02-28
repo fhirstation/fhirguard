@@ -1,0 +1,61 @@
+{
+  "name": "ConsentScopeCodes",
+  "resource_id": "consent-scope",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consent-scope",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope"
+      }
+    ]
+  },
+  "description": "This value set includes the four Consent scope codes.",
+  "related_codesystems": [
+    {
+      "id": "consent-scope",
+      "url": "http://terminology.hl7.org/CodeSystem/consentscope"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "adr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+      "display": "Advanced Care Directive",
+      "description": "Actions to be taken if they are no longer able to make decisions for themselves",
+      "filter": null
+    },
+    {
+      "code": "research",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+      "display": "Research",
+      "description": "Consent to participate in research protocol and information sharing required",
+      "filter": null
+    },
+    {
+      "code": "patient-privacy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+      "display": "Privacy Consent",
+      "description": "Agreement to collect, access, use or disclose (share) information",
+      "filter": null
+    },
+    {
+      "code": "treatment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+      "display": "Treatment",
+      "description": "Consent to undergo a specific treatment",
+      "filter": null
+    }
+  ]
+}

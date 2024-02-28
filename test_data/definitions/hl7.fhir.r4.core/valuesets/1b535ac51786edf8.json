@@ -1,0 +1,41 @@
+{
+  "name": "AdverseEventActuality",
+  "resource_id": "adverse-event-actuality",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-actuality",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/adverse-event-actuality"
+      }
+    ]
+  },
+  "description": "Overall nature of the adverse event, e.g. real or potential.",
+  "related_codesystems": [
+    {
+      "id": "adverse-event-actuality",
+      "url": "http://hl7.org/fhir/adverse-event-actuality"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "actual",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/adverse-event-actuality",
+      "display": "Adverse Event",
+      "description": "The adverse event actually happened regardless of whether anyone was affected or harmed.",
+      "filter": null
+    },
+    {
+      "code": "potential",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/adverse-event-actuality",
+      "display": "Potential Adverse Event",
+      "description": "A potential adverse event.",
+      "filter": null
+    }
+  ]
+}

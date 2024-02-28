@@ -1,0 +1,51 @@
+{
+  "name": "Funds Reservation Codes",
+  "resource_id": "fundsreserve",
+  "resource_url": "http://hl7.org/fhir/ValueSet/fundsreserve",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/fundsreserve"
+      }
+    ]
+  },
+  "description": "This value set includes sample funds reservation type codes.",
+  "related_codesystems": [
+    {
+      "id": "fundsreserve",
+      "url": "http://terminology.hl7.org/CodeSystem/fundsreserve"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/fundsreserve",
+      "display": "Patient",
+      "description": "The payor is requested to reserve funds for the provision of the named services by any provider for settlement of future claims related to this request.",
+      "filter": null
+    },
+    {
+      "code": "provider",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/fundsreserve",
+      "display": "Provider",
+      "description": "The payor is requested to reserve funds solely for the named provider for settlement of future claims related to this request.",
+      "filter": null
+    },
+    {
+      "code": "none",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/fundsreserve",
+      "display": "None",
+      "description": "The payor is not being requested to reserve any funds for the settlement of future claims.",
+      "filter": null
+    }
+  ]
+}

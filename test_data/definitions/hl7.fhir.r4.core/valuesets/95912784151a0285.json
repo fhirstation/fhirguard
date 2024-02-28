@@ -1,0 +1,61 @@
+{
+  "name": "DeviceMetricCategory",
+  "resource_id": "metric-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/metric-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/metric-category"
+      }
+    ]
+  },
+  "description": "Describes the category of the metric.",
+  "related_codesystems": [
+    {
+      "id": "metric-category",
+      "url": "http://hl7.org/fhir/metric-category"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "measurement",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-category",
+      "display": "Measurement",
+      "description": "DeviceObservations generated for this DeviceMetric are measured.",
+      "filter": null
+    },
+    {
+      "code": "setting",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-category",
+      "display": "Setting",
+      "description": "DeviceObservations generated for this DeviceMetric is a setting that will influence the behavior of the Device.",
+      "filter": null
+    },
+    {
+      "code": "calculation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-category",
+      "display": "Calculation",
+      "description": "DeviceObservations generated for this DeviceMetric are calculated.",
+      "filter": null
+    },
+    {
+      "code": "unspecified",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-category",
+      "display": "Unspecified",
+      "description": "The category of this DeviceMetric is unspecified.",
+      "filter": null
+    }
+  ]
+}

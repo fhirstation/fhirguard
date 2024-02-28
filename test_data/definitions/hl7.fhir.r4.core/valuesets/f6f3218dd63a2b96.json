@@ -1,0 +1,3171 @@
+{
+  "name": "v2.0487",
+  "resource_id": "v2-0487",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0487",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0487"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0487 ( Specimen Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0487",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0487"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "No suggested values",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ABS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACNE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tissue, Acne",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACNFLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Acne",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AIRS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Air Sample",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Allograft",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Amniotic fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Amputation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANGI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Angio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARTC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Arterial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASERU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Serum, Acute",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Aspirate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ATTE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environment, Attest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTOA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Autoclave Ampule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Autoclave Capsule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Autopsy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BBL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood bag",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BCYST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cyst, Baker's",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BDY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Whole body",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BIFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bile Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bite",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Whole blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood arterial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLDCO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cord blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLDV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood venous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLEB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bleb",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLIST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blister",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Boil",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOWL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bowel contents",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Basophils",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood product unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Burn",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRSH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Brush",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Breath (use EXHLD)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Brushing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bubo",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BULLA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bulla/Bullae",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Biopsy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CALC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Calculus (=Stone)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CARBU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Carbuncle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CBITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bite, Cat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cardiac muscle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLIPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Clippings",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNJT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Conjunctiva",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cannula",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Colostrum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Biospy, Cone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Scratch, Cat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSERU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Serum, Convalescent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cerebral spinal fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Insertion Site",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSMY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid,  Cystostomy Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Cyst",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSVR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood, Cell Saver",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter tip",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Curretage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CVM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cervical Mucus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CVPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, CVP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CVPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, CVP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CYN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Nodule, Cystic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CYST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cyst",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bite, Dog",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DCS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum, Deep Cough",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Ulcer, Decubitus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Water  (Deionized)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Dialysate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIAF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Dialysis Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DISCHG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Discharge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Diverticulum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drain",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRNG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRNGP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Penrose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DUFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Duodenal fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EARW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Ear wax (cerumen)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EBRUSH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Brush, Esophageal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EEYE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Eye Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Effluent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EFFUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Effusion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EFOD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EISO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Isolette",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Electrode",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENVIR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Unidentified Substance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Eosinophils",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Other Substance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESOI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Soil",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Solution (Sterile)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ETA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Aspirate,  Endotrach",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ETTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Endotracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ETTUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tube, Endotracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EWHI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Whirlpool",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Gas, exhaled (=breath)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Shunt, External",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXUDTE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Exudate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FAW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Water  (Well)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBLOOD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood, Fetal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FGA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid,  Abdomen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fibroblasts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fistula",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Filter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FLU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Body unsp",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FLUID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FOLEY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Foley",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FRS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Respiratory",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FSCLP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Scalp, Fetal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Furuncle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Gas",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GASA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Aspirate, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GASAN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Antrum, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GASBR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Brushing, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GASD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GAST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid/contents, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GENL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Genital lochia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GENV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Genital vaginal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRAFT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Graft",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRAFTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Graft Site",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRANU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Granuloma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GROSH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter, Groshong",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GSOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Solution, Gastrostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GSPEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Biopsy, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tube, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GTUBE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage Tube, Drainage (Gastrostomy)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Hair",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HBITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bite, Human",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HBLUD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood, Autopsy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEMAQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Hemaquit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEMO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Hemovac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HERNI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tissue, Herniated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drain, Hemovac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter, Hickman",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HYDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Hydrocele",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IBITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bite, Insect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICYST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cyst, Inclusion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Indwelling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IHG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Gas, Inhaled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILEO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Ileostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILLEG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Source of Specimen Is Illegible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Implant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INCI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Incision/Surgical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INFIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Infiltrate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Insect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INTRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Introducer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Isolate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Intubation tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IUD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Intrauterine Device",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IVCAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, IV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IVFLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, IV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IVTIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tubing Tip, IV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JEJU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Jejunal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JNTFLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Joint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Jackson Pratt",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KELOI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lavage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KIDFLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Kidney",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAVG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lavage, Bronhial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAVGG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lavage, Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAVGP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lavage, Peritoneal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAVPG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lavage, Pre-Bronch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LENS1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Contact Lens",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LENS2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Contact Lens Case",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LESN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lesion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Liquid, Unspecified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIQO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Liquid, Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LNA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Line arterial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LNV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Line venous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LSAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Lumbar Sac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LYM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lymphocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Macrophages",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAHUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Makurkour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Marrow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MASS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Mass",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MBLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood, Menstrual",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Meconium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MILK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Breast milk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MLK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Milk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MUCOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Mucosa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MUCUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Mucus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Nail",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NASDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Nasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NEDL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Needle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NEPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Nephrostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NGASP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Aspirate, Nasogastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NGAST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Nasogastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NGS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Naso/Gastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NODUL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Nodule(s)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NSECR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Secretion, Nasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lesion, Oral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Source, Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PACEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pacemaker",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pancreatic fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Pericardial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PDSIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Peritoneal Dialysis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PDTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Peritoneal Dialysis Tunnel",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PELVA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Pelvic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PENIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Lesion, Penile",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Perianal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PILOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cyst, Pilonidal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PINS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Pin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Pacemaker Insetion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLAN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Plant Material",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Plasma bag",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Placenta",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLEVS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Serum, Peak Level",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pleural fluid (thoracentesis fluid)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Polymorphonuclear neutrophils",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Penile",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Polyps",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POPGS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Graft Site, Popliteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POPLG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Graft, Popliteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POPLV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Popliteal Vein",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PORTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter, Porta",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Plasma, Platelet poor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Prosthetic Device",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Plasma, Platelet rich",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pseudocyst",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUNCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wound, Puncture",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUSFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pustule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Pus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QC3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Quality Control",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RANDU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Random",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Erythrocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RBITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Bite, Reptile",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RECT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Rectal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RECTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Rectal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RENALC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cyst, Renal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RENC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Renal Cyst",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Respiratory",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Saliva",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tissue, Keloid (Scar)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCLV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Subclavian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCROA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Scrotal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SECRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Secretion(s)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Serum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Shunt",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHUNF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, Shunt",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHUNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Shunt",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SITE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SKBP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Biopsy, Skin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SKN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Skin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SMM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Mass, Sub-Mandibular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Seminal fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Fluid, synovial (Joint fluid)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPRM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Spermatozoa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPRP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Suprapubic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPRPB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cathether Tip, Suprapubic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Spore Strip",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPTC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum - coughed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPTT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum - tracheal aspirate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPUT1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum, Simulated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPUTIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum, Inducted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPUTSP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sputum, Spontaneous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Sterrad",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Stool = Fecal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Stone, Kidney",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Submandibular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBMX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Submaxillary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Drainage, Sump",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Suprapubic Tap",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUTUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Suture",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWGZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Swan Gantz",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Sweat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TASP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Aspirate, Tracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tears",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THRB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Thrombocyte (platelet)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TISS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tissue",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TISU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tissue ulcer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TLC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Cathether Tip, Triple Lumen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Site, Tracheostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRANS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Transudate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TSERU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Serum, Trough",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TSTES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Abscess, Testicular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TTRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Aspirate, Transtracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TUBES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tubes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TUMOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Tumor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TZANC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Smear, Tzanck",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UDENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Source, Unidentified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UMED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Unknown Medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine clean catch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URINB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Bladder Washings",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URINC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Catheterized",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URINM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Midstream",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URINN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Nephrostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URINP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Pedibag",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine sediment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine catheter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USCOP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Urine, Cystoscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USPEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Source, Unspecified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Unkown substance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VASTIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Vas",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Catheter Tip, Ventricular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VITF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Vitreous Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Vomitus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WASH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WASI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Washing, e.g. bronchial washing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Water",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Blood, Whole",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Leukocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WICK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wick",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WNDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wound abscess",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WNDD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wound drainage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WNDE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wound exudate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WORM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Worm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Wart",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WWA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Water",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WWO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Water (Ocean)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WWT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "display": "Environmental, Water  (Tap)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

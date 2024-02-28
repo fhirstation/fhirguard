@@ -1,0 +1,120 @@
+{
+  "name": "v3.LanguageAbilityMode",
+  "resource_id": "v3-LanguageAbilityMode",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ESGN",
+      "display": "Expressed signed",
+      "definition": "Expressed signed"
+    },
+    {
+      "code": "ESP",
+      "display": "Expressed spoken",
+      "definition": "Expressed spoken"
+    },
+    {
+      "code": "EWR",
+      "display": "Expressed written",
+      "definition": "Expressed written"
+    },
+    {
+      "code": "RSGN",
+      "display": "Received signed",
+      "definition": "Received signed"
+    },
+    {
+      "code": "RSP",
+      "display": "Received spoken",
+      "definition": "Received spoken"
+    },
+    {
+      "code": "RWR",
+      "display": "Received written",
+      "definition": "Received written"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "v3.LanguageAbilityMode",
+    "resource_id": "v3-LanguageAbilityMode",
+    "resource_url": "http://terminology.hl7.org/ValueSet/v3-LanguageAbilityMode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode"
+        }
+      ]
+    },
+    "description": " A value representing the method of expression of the language.  Example:\r\nExpressed spoken, expressed written, expressed signed, received spoken, received written, received signed.  OpenIssue:\r\nDescription copied from Concept Domain of same name.  Must be verified.",
+    "related_codesystems": [
+      {
+        "id": "v3-LanguageAbilityMode",
+        "url": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ESGN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "display": "Expressed signed",
+        "description": "Expressed signed",
+        "filter": null
+      },
+      {
+        "code": "ESP",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "display": "Expressed spoken",
+        "description": "Expressed spoken",
+        "filter": null
+      },
+      {
+        "code": "EWR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "display": "Expressed written",
+        "description": "Expressed written",
+        "filter": null
+      },
+      {
+        "code": "RSGN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "display": "Received signed",
+        "description": "Received signed",
+        "filter": null
+      },
+      {
+        "code": "RSP",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "display": "Received spoken",
+        "description": "Received spoken",
+        "filter": null
+      },
+      {
+        "code": "RWR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-LanguageAbilityMode",
+        "display": "Received written",
+        "description": "Received written",
+        "filter": null
+      }
+    ]
+  }
+}

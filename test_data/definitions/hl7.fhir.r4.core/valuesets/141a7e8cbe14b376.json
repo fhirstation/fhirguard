@@ -1,0 +1,51 @@
+{
+  "name": "ConditionState",
+  "resource_id": "condition-state",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-state",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-state"
+      }
+    ]
+  },
+  "description": "Enumeration indicating whether the condition is currently active, inactive, or has been resolved.",
+  "related_codesystems": [
+    {
+      "id": "condition-state",
+      "url": "http://terminology.hl7.org/CodeSystem/condition-state"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/condition-state",
+      "display": "Active",
+      "description": "The condition is active.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/condition-state",
+      "display": "Inactive",
+      "description": "The condition is inactive, but not resolved.",
+      "filter": null
+    },
+    {
+      "code": "resolved",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/condition-state",
+      "display": "Resolved",
+      "description": "The condition is resolved.",
+      "filter": null
+    }
+  ]
+}

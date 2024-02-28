@@ -1,0 +1,20 @@
+{
+  "name": "LanguagePreferenceType",
+  "resource_id": "language-preference-type",
+  "resource_url": "http://hl7.org/fhir/language-preference-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "verbal",
+      "display": "verbal",
+      "definition": "The patient prefers to verbally communicate with the associated language."
+    },
+    {
+      "code": "written",
+      "display": "written",
+      "definition": "The patient prefers to communicate in writing with the associated language."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

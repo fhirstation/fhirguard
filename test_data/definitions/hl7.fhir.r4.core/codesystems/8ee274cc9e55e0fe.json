@@ -1,0 +1,56 @@
+{
+  "name": "v2.0561",
+  "resource_id": "v2-0561",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0561",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CLCTR",
+      "display": "Claim Center"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "MSP: assigned by MSP"
+        }
+      ],
+      "code": "DGAPP",
+      "display": "Diagnostic Approval Number"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "MSP: Data Center Number associated with the Provider's Network Application ID"
+        }
+      ],
+      "code": "DTCTR",
+      "display": "Data Center Number"
+    },
+    {
+      "code": "ENC",
+      "display": "Encounter Number"
+    },
+    {
+      "code": "GFTH",
+      "display": "Good Faith Indicator"
+    },
+    {
+      "code": "OOP",
+      "display": "Out of Province Indicator"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "MSP: Must be sequential by Data Center Number"
+        }
+      ],
+      "code": "SEQ",
+      "display": "Sequence Number"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

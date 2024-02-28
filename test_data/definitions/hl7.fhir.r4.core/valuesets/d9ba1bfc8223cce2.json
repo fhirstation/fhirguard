@@ -1,0 +1,191 @@
+{
+  "name": "GenderIdentity",
+  "resource_id": "gender-identity",
+  "resource_url": "http://hl7.org/fhir/ValueSet/gender-identity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/gender-identity",
+        "concept": [
+          {
+            "code": "male",
+            "display": "male"
+          },
+          {
+            "code": "female",
+            "display": "female"
+          },
+          {
+            "code": "non-binary",
+            "display": "non-binary"
+          },
+          {
+            "code": "transgender-male",
+            "display": "transgender male"
+          },
+          {
+            "code": "transgender-female",
+            "display": "transgender female"
+          },
+          {
+            "code": "other",
+            "display": "other"
+          },
+          {
+            "code": "non-disclose",
+            "display": "does not wish to disclose"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate a patient's gender identity.",
+  "related_codesystems": [
+    {
+      "id": "gender-identity",
+      "url": "http://hl7.org/fhir/gender-identity"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "male",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "male",
+      "description": "the patient identifies as male",
+      "filter": null
+    },
+    {
+      "code": "female",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "female",
+      "description": "the patient identifies as female",
+      "filter": null
+    },
+    {
+      "code": "non-binary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "non-binary",
+      "description": "the patient identifies with neither/both female and male",
+      "filter": null
+    },
+    {
+      "code": "transgender-male",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "transgender male",
+      "description": "the patient identifies as transgender female-to-male",
+      "filter": null
+    },
+    {
+      "code": "transgender-female",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "transgender female",
+      "description": "the patient identifies as transgender male-to-female",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "other",
+      "description": "other gender identity",
+      "filter": null
+    },
+    {
+      "code": "non-disclose",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/gender-identity",
+      "display": "does not wish to disclose",
+      "description": "the patient does not wish to disclose his gender identity",
+      "filter": null
+    },
+    {
+      "code": "male",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "male",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "female",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "female",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "non-binary",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "non-binary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "transgender-male",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "transgender male",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "transgender-female",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "transgender female",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "non-disclose",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "does not wish to disclose",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

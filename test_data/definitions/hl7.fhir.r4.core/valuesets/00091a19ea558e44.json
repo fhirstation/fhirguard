@@ -1,0 +1,131 @@
+{
+  "name": "v2.0369",
+  "resource_id": "v2-0369",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0369",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0369"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0369 ( Specimen role)",
+  "related_codesystems": [
+    {
+      "id": "v2-0369",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0369"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Blind Sample",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Calibrator, used for initial setting of calibration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Electronic QC, used with manufactured reference providing signals that simulate QC results",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Specimen used for testing proficiency of the organization performing the testing (Filler)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Group (where a specimen consists of multiple individual elements that are not individually identified)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Specimen used for testing Operator Proficiency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Patient (default if blank component value)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Control specimen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Replicate (of patient sample as a control)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0369",
+      "display": "Verifying Calibrator, used for periodic calibration checks",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

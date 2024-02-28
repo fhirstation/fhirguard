@@ -1,0 +1,101 @@
+{
+  "name": "v2.0571",
+  "resource_id": "v2-0571",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0571",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0571"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0571 ( Invoice Processing Results Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0571",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0571"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Acknowledge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Adjudicated with Adjustments",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADJSUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Adjudicated as Submitted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADJZER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Adjudicated to Zero",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Paid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Pending",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Pre-Determination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REJECT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0571",
+      "display": "Reject",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

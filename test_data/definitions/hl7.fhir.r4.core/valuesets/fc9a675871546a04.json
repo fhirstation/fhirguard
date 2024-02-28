@@ -1,0 +1,15 @@
+{
+  "name": "DBSNP",
+  "resource_id": "dbsnp",
+  "resource_url": "http://hl7.org/fhir/ValueSet/dbsnp",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.ncbi.nlm.nih.gov/projects/SNP"
+      }
+    ]
+  },
+  "description": "DBSNP : Single Nucleotide Polymorphism database",
+  "related_codesystems": [],
+  "allowed_values": []
+}

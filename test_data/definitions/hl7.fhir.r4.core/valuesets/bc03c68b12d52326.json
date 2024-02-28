@@ -1,0 +1,91 @@
+{
+  "name": "v3.AcknowledgementDetailCode",
+  "resource_id": "v3-AcknowledgementDetailCode",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-AcknowledgementDetailCode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode"
+      }
+    ]
+  },
+  "description": "  OpenIssue:\r\nMissing description.",
+  "related_codesystems": [
+    {
+      "id": "v3-AcknowledgementDetailCode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "_AcknowledgementDetailNotSupportedCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "AcknowledgementDetailNotSupportedCode",
+      "description": "Refelects rejections because elements of the communication are not supported in the current context.",
+      "filter": null
+    },
+    {
+      "code": "INTERR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "Internal system error",
+      "description": "An internal software component (database, application, queue mechanism, etc.) has failed, leading to inability to process the message.",
+      "filter": null
+    },
+    {
+      "code": "NOSTORE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "No storage space for message.",
+      "description": "Rejection: The message can't be stored by the receiver due to an unspecified internal application issue. The message was neither processed nor stored by the receiving application.",
+      "filter": null
+    },
+    {
+      "code": "RTEDEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "Message routing error, destination unreachable.",
+      "description": "Error: The destination of this message is known to the receiving application. Messages have been successfully routed to that destination in the past. The link to the destination application or an intermediate application is unavailable.",
+      "filter": null
+    },
+    {
+      "code": "RTUDEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "Error: Message routing error, unknown destination.",
+      "description": "The destination of this message is unknown to the receiving application. The receiving application in the message does not match the application which received the message. The message was neither routed, processed nor stored by the receiving application.",
+      "filter": null
+    },
+    {
+      "code": "RTWDEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "Message routing warning, destination unreachable.",
+      "description": "Warning: The destination of this message is known to the receiving application. Messages have been successfully routed to that destination in the past. The link to the destination application or an intermediate application is (temporarily) unavailable. The receiving application will forward the message as soon as the destination can be reached again.",
+      "filter": null
+    },
+    {
+      "code": "SYN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode",
+      "display": "Syntax error",
+      "description": "Reflects errors in the syntax or structure of the communication.",
+      "filter": null
+    }
+  ]
+}

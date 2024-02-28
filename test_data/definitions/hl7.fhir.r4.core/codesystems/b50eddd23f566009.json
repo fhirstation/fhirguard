@@ -1,0 +1,105 @@
+{
+  "name": "XPathUsageType",
+  "resource_id": "search-xpath-usage",
+  "resource_url": "http://hl7.org/fhir/search-xpath-usage",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "normal",
+      "display": "Normal",
+      "definition": "The search parameter is derived directly from the selected nodes based on the type definitions."
+    },
+    {
+      "code": "phonetic",
+      "display": "Phonetic",
+      "definition": "The search parameter is derived by a phonetic transform from the selected nodes."
+    },
+    {
+      "code": "nearby",
+      "display": "Nearby",
+      "definition": "The search parameter is based on a spatial transform of the selected nodes."
+    },
+    {
+      "code": "distance",
+      "display": "Distance",
+      "definition": "The search parameter is based on a spatial transform of the selected nodes, using physical distance from the middle."
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "The interpretation of the xpath statement is unknown (and can't be automated)."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "XPathUsageType",
+    "resource_id": "search-xpath-usage",
+    "resource_url": "http://hl7.org/fhir/ValueSet/search-xpath-usage",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/search-xpath-usage"
+        }
+      ]
+    },
+    "description": "How a search parameter relates to the set of elements returned by evaluating its xpath query.",
+    "related_codesystems": [
+      {
+        "id": "search-xpath-usage",
+        "url": "http://hl7.org/fhir/search-xpath-usage"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "normal",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-xpath-usage",
+        "display": "Normal",
+        "description": "The search parameter is derived directly from the selected nodes based on the type definitions.",
+        "filter": null
+      },
+      {
+        "code": "phonetic",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-xpath-usage",
+        "display": "Phonetic",
+        "description": "The search parameter is derived by a phonetic transform from the selected nodes.",
+        "filter": null
+      },
+      {
+        "code": "nearby",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-xpath-usage",
+        "display": "Nearby",
+        "description": "The search parameter is based on a spatial transform of the selected nodes.",
+        "filter": null
+      },
+      {
+        "code": "distance",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-xpath-usage",
+        "display": "Distance",
+        "description": "The search parameter is based on a spatial transform of the selected nodes, using physical distance from the middle.",
+        "filter": null
+      },
+      {
+        "code": "other",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-xpath-usage",
+        "display": "Other",
+        "description": "The interpretation of the xpath statement is unknown (and can't be automated).",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "v2.0460",
+  "resource_id": "v2-0460",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0460",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "Line item not denied or rejected"
+    },
+    {
+      "code": "1",
+      "display": "Line item denied or rejected"
+    },
+    {
+      "code": "2",
+      "display": "Line item is on a multiple-day claim. The line item is not denied or rejected, but occurs on a day that has been denied or rejected."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

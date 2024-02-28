@@ -1,0 +1,211 @@
+{
+  "name": "v2.0514",
+  "resource_id": "v2-0514",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0514",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0514"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0514 ( Transfusion Adverse Reaction)",
+  "related_codesystems": [
+    {
+      "id": "v2-0514",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0514"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ABOINC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "ABO Incompatible Transfusion Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACUTHEHTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Acute Hemolytic Transfusion Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALLERGIC1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Allergic Reaction - First",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALLERGIC2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Allergic Reaction - Recurrent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALLERGICR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Allergic Reaction - Repeating",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANAPHYLAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Anaphylactic Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BACTCONTAM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Reaction to Bacterial Contamination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELAYEDHTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Delayed Hemolytic Transfusion Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELAYEDSTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Delayed Serological Transfusion Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GVHD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Graft vs Host Disease - Transfusion - Associated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HYPOTENS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Non-hemolytic Hypotensive Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NONHTR1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Non-Hemolytic Fever Chill Transfusion Reaction - First",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NONHTR2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Non-Hemolytic Fever Chill Transfusion Reaction - Recurrent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NONHTRREC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Non-Hemolytic Fever Chill Transfusion Reaction - Repeating",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NONIMMUNE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Non-Immune Hemolysis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NONSPEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Non-Specific, Non-Hemolytic Transfusion Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NORXN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "No Evidence of Transfusion Reaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Posttransfusion Purpura",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VOLOVER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0514",
+      "display": "Symptoms most likely due to volume overload",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

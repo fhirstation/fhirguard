@@ -1,0 +1,81 @@
+{
+  "name": "v2.0511",
+  "resource_id": "v2-0511",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0511",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0511"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0511 ( BP Observation Status Codes Interpretation)",
+  "related_codesystems": [
+    {
+      "id": "v2-0511",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0511"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0511",
+      "display": "Record coming over is a correction and thus replaces a final status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0511",
+      "display": "Deletes the BPX record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0511",
+      "display": "Final status; Can only be changed with a corrected status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0511",
+      "display": "Order detail description only (no status)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0511",
+      "display": "Preliminary status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0511",
+      "display": "Post original as wrong, e.g., transmitted for wrong patient",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

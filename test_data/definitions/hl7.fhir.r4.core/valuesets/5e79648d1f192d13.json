@@ -1,0 +1,26 @@
+{
+  "name": "QuestionnaireQuestionCodes",
+  "resource_id": "questionnaire-questions",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-questions",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "description": "Example list of codes for questions and groups of questions. (Not necessarily complete or appropriate.)",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "v2.0213",
+  "resource_id": "v2-0213",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0213",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "The visit is marked for deletion and the user cannot enter new data against it.",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Het bezoek is gemarkeerd voor verwijdering en de gebruiker kan geen nieuwe gegevens bij het bezoek invoeren"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "The visit is marked inactive and the user cannot enter new data against it.",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Het bezoek is gemarkeerd als inactief en de gebruiker kan geen nieuwe gegevens bij het bezoek invoeren"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Marked for purge.  User is no longer able to update the visit.",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gemarkeerd voor opruiming. Gebruiker kan het bezoek niet langer bijwerken."
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

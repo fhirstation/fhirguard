@@ -1,0 +1,52 @@
+{
+  "name": "Condition/Problem/DiagnosisCodes",
+  "resource_id": "condition-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "160245001",
+            "display": "No current problems or disability"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for Condition/Problem/Diagnosis codes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "160245001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "No current problems or disability",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

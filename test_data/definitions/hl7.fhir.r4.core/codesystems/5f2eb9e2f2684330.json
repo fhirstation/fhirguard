@@ -1,0 +1,75 @@
+{
+  "name": "LinkageType",
+  "resource_id": "linkage-type",
+  "resource_url": "http://hl7.org/fhir/linkage-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "source",
+      "display": "Source of Truth",
+      "definition": "The resource represents the \"source of truth\" (from the perspective of this Linkage resource) for the underlying event/condition/etc."
+    },
+    {
+      "code": "alternate",
+      "display": "Alternate Record",
+      "definition": "The resource represents an alternative view of the underlying event/condition/etc.  The resource may still be actively maintained, even though it is not considered to be the source of truth."
+    },
+    {
+      "code": "historical",
+      "display": "Historical/Obsolete Record",
+      "definition": "The resource represents an obsolete record of the underlying event/condition/etc.  It is not expected to be actively maintained."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "LinkageType",
+    "resource_id": "linkage-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/linkage-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/linkage-type"
+        }
+      ]
+    },
+    "description": "Used to distinguish different roles a resource can play within a set of linked resources.",
+    "related_codesystems": [
+      {
+        "id": "linkage-type",
+        "url": "http://hl7.org/fhir/linkage-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "source",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/linkage-type",
+        "display": "Source of Truth",
+        "description": "The resource represents the \"source of truth\" (from the perspective of this Linkage resource) for the underlying event/condition/etc.",
+        "filter": null
+      },
+      {
+        "code": "alternate",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/linkage-type",
+        "display": "Alternate Record",
+        "description": "The resource represents an alternative view of the underlying event/condition/etc.  The resource may still be actively maintained, even though it is not considered to be the source of truth.",
+        "filter": null
+      },
+      {
+        "code": "historical",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/linkage-type",
+        "display": "Historical/Obsolete Record",
+        "description": "The resource represents an obsolete record of the underlying event/condition/etc.  It is not expected to be actively maintained.",
+        "filter": null
+      }
+    ]
+  }
+}

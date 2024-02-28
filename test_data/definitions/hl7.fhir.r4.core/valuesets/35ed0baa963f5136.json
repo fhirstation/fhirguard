@@ -1,0 +1,71 @@
+{
+  "name": "AccountStatus",
+  "resource_id": "account-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/account-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/account-status"
+      }
+    ]
+  },
+  "description": "Indicates whether the account is available to be used.",
+  "related_codesystems": [
+    {
+      "id": "account-status",
+      "url": "http://hl7.org/fhir/account-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/account-status",
+      "display": "Active",
+      "description": "This account is active and may be used.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/account-status",
+      "display": "Inactive",
+      "description": "This account is inactive and should not be used to track financial information.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/account-status",
+      "display": "Entered in error",
+      "description": "This instance should not have been part of this patient's medical record.",
+      "filter": null
+    },
+    {
+      "code": "on-hold",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/account-status",
+      "display": "On Hold",
+      "description": "This account is on hold.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/account-status",
+      "display": "Unknown",
+      "description": "The account status is unknown.",
+      "filter": null
+    }
+  ]
+}

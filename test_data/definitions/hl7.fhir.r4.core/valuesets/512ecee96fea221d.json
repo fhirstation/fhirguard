@@ -1,0 +1,71 @@
+{
+  "name": "v2.0728",
+  "resource_id": "v2-0728",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0728",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0728"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0728 ( CCL Value)",
+  "related_codesystems": [
+    {
+      "id": "v2-0728",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0728"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0728",
+      "display": "Nothing obvious",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0728",
+      "display": "Low",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0728",
+      "display": "Moderate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0728",
+      "display": "High",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0728",
+      "display": "Very high",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

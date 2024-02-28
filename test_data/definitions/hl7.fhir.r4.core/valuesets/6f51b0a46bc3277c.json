@@ -1,0 +1,101 @@
+{
+  "name": "SpecimenProcessingProcedure",
+  "resource_id": "specimen-processing-procedure",
+  "resource_url": "http://hl7.org/fhir/ValueSet/specimen-processing-procedure",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0373"
+      }
+    ]
+  },
+  "description": "The technique that is used to perform the process or preserve the specimen.",
+  "related_codesystems": [
+    {
+      "id": "v2-0373",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0373"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Acidification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Alkalization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEFB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Defibrination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FILT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Filtration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LDLP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "LDL Precipitation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NEUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Neutralization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RECA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Recalification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UFIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0373",
+      "display": "Ultrafiltration",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

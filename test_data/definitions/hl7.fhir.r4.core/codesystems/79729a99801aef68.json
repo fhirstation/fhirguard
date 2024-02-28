@@ -1,0 +1,14 @@
+{
+  "name": "v2.0793",
+  "resource_id": "v2-0793",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0793",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "SMDA",
+      "display": "Safe Medical Devices Act"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

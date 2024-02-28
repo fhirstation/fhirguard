@@ -1,0 +1,41 @@
+{
+  "name": "v2.0102",
+  "resource_id": "v2-0102",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0102",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0102"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0102 ( DELAYED ACKNOWLEDGMENT TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0102",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0102"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0102",
+      "display": "Message received, stored for later processing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0102",
+      "display": "acknowledgment after processing",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

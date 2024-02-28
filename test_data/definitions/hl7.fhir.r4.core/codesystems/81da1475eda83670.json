@@ -1,0 +1,247 @@
+{
+  "name": "v3.ActPriority",
+  "resource_id": "v3-ActPriority",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "ASAP",
+      "definition": "As soon as possible, next highest priority after stat."
+    },
+    {
+      "code": "CR",
+      "display": "callback results",
+      "definition": "Filler should contact the placer as soon as results are available, even for preliminary results.  (Was \"C\" in HL7 version 2.3's reporting priority.)"
+    },
+    {
+      "code": "CS",
+      "display": "callback for scheduling",
+      "definition": "Filler should contact the placer (or target) to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)",
+      "concept": [
+        {
+          "code": "CSP",
+          "display": "callback placer for scheduling",
+          "definition": "Filler should contact the placer to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)"
+        },
+        {
+          "code": "CSR",
+          "display": "contact recipient for scheduling",
+          "definition": "Filler should contact the service recipient (target) to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)"
+        }
+      ]
+    },
+    {
+      "code": "CSP",
+      "display": "callback placer for scheduling",
+      "definition": "Filler should contact the placer to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)"
+    },
+    {
+      "code": "CSR",
+      "display": "contact recipient for scheduling",
+      "definition": "Filler should contact the service recipient (target) to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)"
+    },
+    {
+      "code": "EL",
+      "display": "elective",
+      "definition": "Beneficial to the patient but not essential for survival."
+    },
+    {
+      "code": "EM",
+      "display": "emergency",
+      "definition": "An unforeseen combination of circumstances or the resulting state that calls for immediate action."
+    },
+    {
+      "code": "P",
+      "display": "preop",
+      "definition": "Used to indicate that a service is to be performed prior to a scheduled surgery.  When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service.  When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation."
+    },
+    {
+      "code": "PRN",
+      "display": "as needed",
+      "definition": "An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition."
+    },
+    {
+      "code": "R",
+      "display": "routine",
+      "definition": "Routine service, do at usual work hours."
+    },
+    {
+      "code": "RR",
+      "display": "rush reporting",
+      "definition": "A report should be prepared and sent as quickly as possible."
+    },
+    {
+      "code": "S",
+      "display": "stat",
+      "definition": "With highest priority (e.g., emergency)."
+    },
+    {
+      "code": "T",
+      "display": "timing critical",
+      "definition": "It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level)."
+    },
+    {
+      "code": "UD",
+      "display": "use as directed",
+      "definition": "Drug is to be used as directed by the prescriber."
+    },
+    {
+      "code": "UR",
+      "display": "urgent",
+      "definition": "Calls for prompt action."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "v3.ActPriority",
+    "resource_id": "v3-ActPriority",
+    "resource_url": "http://terminology.hl7.org/ValueSet/v3-ActPriority",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+        }
+      ]
+    },
+    "description": " A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.",
+    "related_codesystems": [
+      {
+        "id": "v3-ActPriority",
+        "url": "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "A",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "ASAP",
+        "description": "As soon as possible, next highest priority after stat.",
+        "filter": null
+      },
+      {
+        "code": "CR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "callback results",
+        "description": "Filler should contact the placer as soon as results are available, even for preliminary results.  (Was \"C\" in HL7 version 2.3's reporting priority.)",
+        "filter": null
+      },
+      {
+        "code": "CS",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "callback for scheduling",
+        "description": "Filler should contact the placer (or target) to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)",
+        "filter": null
+      },
+      {
+        "code": "EL",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "elective",
+        "description": "Beneficial to the patient but not essential for survival.",
+        "filter": null
+      },
+      {
+        "code": "EM",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "emergency",
+        "description": "An unforeseen combination of circumstances or the resulting state that calls for immediate action.",
+        "filter": null
+      },
+      {
+        "code": "P",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "preop",
+        "description": "Used to indicate that a service is to be performed prior to a scheduled surgery.  When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service.  When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation.",
+        "filter": null
+      },
+      {
+        "code": "PRN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "as needed",
+        "description": "An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition.",
+        "filter": null
+      },
+      {
+        "code": "R",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "routine",
+        "description": "Routine service, do at usual work hours.",
+        "filter": null
+      },
+      {
+        "code": "RR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "rush reporting",
+        "description": "A report should be prepared and sent as quickly as possible.",
+        "filter": null
+      },
+      {
+        "code": "S",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "stat",
+        "description": "With highest priority (e.g., emergency).",
+        "filter": null
+      },
+      {
+        "code": "T",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "timing critical",
+        "description": "It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level).",
+        "filter": null
+      },
+      {
+        "code": "UD",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "use as directed",
+        "description": "Drug is to be used as directed by the prescriber.",
+        "filter": null
+      },
+      {
+        "code": "UR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+        "display": "urgent",
+        "description": "Calls for prompt action.",
+        "filter": null
+      }
+    ]
+  }
+}

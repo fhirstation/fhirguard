@@ -1,0 +1,75 @@
+{
+  "name": "ActionConditionKind",
+  "resource_id": "action-condition-kind",
+  "resource_url": "http://hl7.org/fhir/action-condition-kind",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "applicability",
+      "display": "Applicability",
+      "definition": "The condition describes whether or not a given action is applicable."
+    },
+    {
+      "code": "start",
+      "display": "Start",
+      "definition": "The condition is a starting condition for the action."
+    },
+    {
+      "code": "stop",
+      "display": "Stop",
+      "definition": "The condition is a stop, or exit condition for the action."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ActionConditionKind",
+    "resource_id": "action-condition-kind",
+    "resource_url": "http://hl7.org/fhir/ValueSet/action-condition-kind",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/action-condition-kind"
+        }
+      ]
+    },
+    "description": "Defines the kinds of conditions that can appear on actions.",
+    "related_codesystems": [
+      {
+        "id": "action-condition-kind",
+        "url": "http://hl7.org/fhir/action-condition-kind"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "applicability",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-condition-kind",
+        "display": "Applicability",
+        "description": "The condition describes whether or not a given action is applicable.",
+        "filter": null
+      },
+      {
+        "code": "start",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-condition-kind",
+        "display": "Start",
+        "description": "The condition is a starting condition for the action.",
+        "filter": null
+      },
+      {
+        "code": "stop",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-condition-kind",
+        "display": "Stop",
+        "description": "The condition is a stop, or exit condition for the action.",
+        "filter": null
+      }
+    ]
+  }
+}

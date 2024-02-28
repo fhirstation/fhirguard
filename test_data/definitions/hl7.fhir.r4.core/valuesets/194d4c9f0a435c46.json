@@ -1,0 +1,41 @@
+{
+  "name": "v2.0894",
+  "resource_id": "v2-0894",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0894",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0894"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0894 ( Side of body)",
+  "related_codesystems": [
+    {
+      "id": "v2-0894",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0894"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0894",
+      "display": "Left",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0894",
+      "display": "Right",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

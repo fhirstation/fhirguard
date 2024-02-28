@@ -1,0 +1,119 @@
+{
+  "name": "ImmunizationOriginCodes",
+  "resource_id": "immunization-origin",
+  "resource_url": "http://hl7.org/fhir/ValueSet/immunization-origin",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+        "concept": [
+          {
+            "code": "provider",
+            "display": "Other Provider"
+          },
+          {
+            "code": "record",
+            "display": "Written Record"
+          },
+          {
+            "code": "recall",
+            "display": "Parent/Guardian/Patient Recall"
+          },
+          {
+            "code": "school",
+            "display": "School Record"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the data when the report of the immunization event is not based on information from the person, entity or organization who administered the vaccine. This value set is provided as a suggestive example.",
+  "related_codesystems": [
+    {
+      "id": "immunization-origin",
+      "url": "http://terminology.hl7.org/CodeSystem/immunization-origin"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "provider",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+      "display": "Other Provider",
+      "description": "The data for the immunization event originated with another provider.",
+      "filter": null
+    },
+    {
+      "code": "record",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+      "display": "Written Record",
+      "description": "The data for the immunization event originated with a written record for the patient.",
+      "filter": null
+    },
+    {
+      "code": "recall",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+      "display": "Parent/Guardian/Patient Recall",
+      "description": "The data for the immunization event originated from the recollection of the patient or parent/guardian of the patient.",
+      "filter": null
+    },
+    {
+      "code": "school",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-origin",
+      "display": "School Record",
+      "description": "The data for the immunization event originated with a school record for the patient.",
+      "filter": null
+    },
+    {
+      "code": "provider",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Other Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "record",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Written Record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "recall",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Parent/Guardian/Patient Recall",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "school",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "School Record",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

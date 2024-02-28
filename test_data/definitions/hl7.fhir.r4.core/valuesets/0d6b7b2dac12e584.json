@@ -1,0 +1,101 @@
+{
+  "name": "v2.0065",
+  "resource_id": "v2-0065",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0065",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0065"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0065 ( ACTION CODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0065",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0065"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Add ordered tests to the existing specimen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Cancel order for battery or tests named",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Generated order; reflex order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Lab to obtain specimen from patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Specimen obtained by service other than Lab",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Pending specimen; Order sent prior to delivery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Revised order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0065",
+      "display": "Schedule the tests specified below",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

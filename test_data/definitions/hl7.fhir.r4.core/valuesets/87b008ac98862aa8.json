@@ -1,0 +1,51 @@
+{
+  "name": "v2.0409",
+  "resource_id": "v2-0409",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0409",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0409"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0409 ( Application change type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0409",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0409"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0409",
+      "display": "Migrates to different CPU",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0409",
+      "display": "Shut down",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0409",
+      "display": "Start up",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

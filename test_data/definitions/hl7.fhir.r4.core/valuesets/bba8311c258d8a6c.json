@@ -1,0 +1,81 @@
+{
+  "name": "v2.0208",
+  "resource_id": "v2-0208",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0208",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0208"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0208 ( Query Response Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0208",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0208"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0208",
+      "display": "Application error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0208",
+      "display": "Application reject",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0208",
+      "display": "No data found, no errors",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0208",
+      "display": "Data found, no errors (this is the default)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0208",
+      "display": "Protected data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0208",
+      "display": "Too much data found",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

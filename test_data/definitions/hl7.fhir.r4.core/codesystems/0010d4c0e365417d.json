@@ -1,0 +1,80 @@
+{
+  "name": "v2.0475",
+  "resource_id": "v2-0475",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0475",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "01",
+      "display": "Allergy",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Allergie"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "display": "Intolerance",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Intolerantie"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "display": "Treatment Failure",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Behandeling mislukt"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "display": "Patient Request",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Patiëntverzoek"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "display": "No Exception",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geen uitzondering"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

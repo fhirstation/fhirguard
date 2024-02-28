@@ -1,0 +1,80 @@
+{
+  "name": "v2.0416",
+  "resource_id": "v2-0416",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0416",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "1st non-Operative",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "1ste niet-operatief"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "2nd non-Operative",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "2de niet-operatief"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Major Operative",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "groot operatief"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "2nd Operative",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "2de operatief"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "3rd Operative",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "3de operatief"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,61 @@
+{
+  "name": "v2.0273",
+  "resource_id": "v2-0273",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0273",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0273"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0273 ( Document Availability Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0273",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0273"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0273",
+      "display": "Available for patient care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0273",
+      "display": "Deleted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0273",
+      "display": "Obsolete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0273",
+      "display": "Unavailable for patient care",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "v2.0818",
+  "resource_id": "v2-0818",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0818",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "BX",
+      "display": "Box"
+    },
+    {
+      "code": "CS",
+      "display": "Case"
+    },
+    {
+      "code": "EA",
+      "display": "Each"
+    },
+    {
+      "code": "SET",
+      "display": "Set"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

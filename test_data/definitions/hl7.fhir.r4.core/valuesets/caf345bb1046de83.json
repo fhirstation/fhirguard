@@ -1,0 +1,144 @@
+{
+  "name": "AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes",
+  "resource_id": "allergyintolerance-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/allergyintolerance-code",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/ValueSet/substance-code"
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "418038007"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "267425008"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "29736007"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "340519003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "190753003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "413427002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "716186003"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes concept codes for specific substances/pharmaceutical products, allergy or intolerance conditions, and negation/exclusion codes to specify the absence of specific types of allergies or intolerances.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "105590001"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "373873005"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "418038007"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "267425008"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "29736007"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "340519003"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "190753003"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "413427002"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "716186003"
+        }
+      ]
+    }
+  ]
+}

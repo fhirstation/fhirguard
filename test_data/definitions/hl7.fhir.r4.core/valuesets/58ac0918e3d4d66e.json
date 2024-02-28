@@ -1,0 +1,61 @@
+{
+  "name": "v2.0322",
+  "resource_id": "v2-0322",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0322",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0322"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0322 ( Completion Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0322",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0322"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0322",
+      "display": "Complete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0322",
+      "display": "Not Administered",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0322",
+      "display": "Partially Administered",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0322",
+      "display": "Refused",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "DefinitionUseCodes",
+  "resource_id": "definition-use",
+  "resource_url": "http://hl7.org/fhir/ValueSet/definition-use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/definition-use"
+      }
+    ]
+  },
+  "description": "Structure Definition Use Codes / Keywords",
+  "related_codesystems": [
+    {
+      "id": "definition-use",
+      "url": "http://terminology.hl7.org/CodeSystem/definition-use"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "fhir-structure",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/definition-use",
+      "display": "FHIR Structure",
+      "description": "This structure is defined as part of the base FHIR Specification",
+      "filter": null
+    },
+    {
+      "code": "custom-resource",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/definition-use",
+      "display": "Custom Resource",
+      "description": "This structure is intended to be treated like a FHIR resource (e.g. on the FHIR API)",
+      "filter": null
+    },
+    {
+      "code": "dam",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/definition-use",
+      "display": "Domain Analysis Model",
+      "description": "This structure captures an analysis of a domain",
+      "filter": null
+    },
+    {
+      "code": "wire-format",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/definition-use",
+      "display": "Wire Format",
+      "description": "This structure represents and existing structure (e.g. CDA, HL7 v2)",
+      "filter": null
+    },
+    {
+      "code": "archetype",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/definition-use",
+      "display": "Domain Analysis Model",
+      "description": "This structure captures an analysis of a domain",
+      "filter": null
+    },
+    {
+      "code": "template",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/definition-use",
+      "display": "Template",
+      "description": "This structure is a template (n.b: 'template' has many meanings)",
+      "filter": null
+    }
+  ]
+}

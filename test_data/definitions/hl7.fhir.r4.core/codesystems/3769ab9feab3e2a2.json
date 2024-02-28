@@ -1,0 +1,87 @@
+{
+  "name": "ProvenanceEntityRole",
+  "resource_id": "provenance-entity-role",
+  "resource_url": "http://hl7.org/fhir/provenance-entity-role",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "derivation",
+      "display": "Derivation",
+      "definition": "A transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+      "concept": [
+        {
+          "code": "revision",
+          "display": "Revision",
+          "definition": "A derivation for which the resulting entity is a revised version of some original."
+        },
+        {
+          "code": "quotation",
+          "display": "Quotation",
+          "definition": "The repeat of (some or all of) an entity, such as text or image, by someone who might or might not be its original author."
+        },
+        {
+          "code": "source",
+          "display": "Source",
+          "definition": "A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight."
+        },
+        {
+          "code": "removal",
+          "display": "Removal",
+          "definition": "A derivation for which the entity is removed from accessibility usually through the use of the Delete operation."
+        }
+      ]
+    },
+    {
+      "code": "revision",
+      "display": "Revision",
+      "definition": "A derivation for which the resulting entity is a revised version of some original."
+    },
+    {
+      "code": "quotation",
+      "display": "Quotation",
+      "definition": "The repeat of (some or all of) an entity, such as text or image, by someone who might or might not be its original author."
+    },
+    {
+      "code": "source",
+      "display": "Source",
+      "definition": "A primary source for a topic refers to something produced by some agent with direct experience and knowledge about the topic, at the time of the topic's study, without benefit from hindsight."
+    },
+    {
+      "code": "removal",
+      "display": "Removal",
+      "definition": "A derivation for which the entity is removed from accessibility usually through the use of the Delete operation."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ProvenanceEntityRole",
+    "resource_id": "provenance-entity-role",
+    "resource_url": "http://hl7.org/fhir/ValueSet/provenance-entity-role",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/provenance-entity-role"
+        }
+      ]
+    },
+    "description": "How an entity was used in an activity.",
+    "related_codesystems": [
+      {
+        "id": "provenance-entity-role",
+        "url": "http://hl7.org/fhir/provenance-entity-role"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "derivation",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-entity-role",
+        "display": "Derivation",
+        "description": "A transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+        "filter": null
+      }
+    ]
+  }
+}

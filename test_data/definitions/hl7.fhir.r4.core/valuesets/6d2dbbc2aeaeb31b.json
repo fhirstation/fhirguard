@@ -1,0 +1,41 @@
+{
+  "name": "AdverseEventSeriousness",
+  "resource_id": "adverse-event-seriousness",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-seriousness",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness"
+      }
+    ]
+  },
+  "description": "Overall seriousness of this event for the patient.",
+  "related_codesystems": [
+    {
+      "id": "adverse-event-seriousness",
+      "url": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Non-serious",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness",
+      "display": "Non-serious",
+      "description": "Non-serious.",
+      "filter": null
+    },
+    {
+      "code": "Serious",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness",
+      "display": "Serious",
+      "description": "Serious.",
+      "filter": null
+    }
+  ]
+}

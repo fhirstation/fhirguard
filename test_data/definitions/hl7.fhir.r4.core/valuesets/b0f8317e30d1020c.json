@@ -1,0 +1,51 @@
+{
+  "name": "v2.0520",
+  "resource_id": "v2-0520",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0520",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0520"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0520 ( Message waiting priority)",
+  "related_codesystems": [
+    {
+      "id": "v2-0520",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0520"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0520",
+      "display": "High",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0520",
+      "display": "Low",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0520",
+      "display": "Medium",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

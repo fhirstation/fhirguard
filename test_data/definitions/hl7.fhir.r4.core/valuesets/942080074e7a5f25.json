@@ -1,0 +1,41 @@
+{
+  "name": "ExposureState",
+  "resource_id": "exposure-state",
+  "resource_url": "http://hl7.org/fhir/ValueSet/exposure-state",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/exposure-state"
+      }
+    ]
+  },
+  "description": "Whether the results by exposure is describing the results for the primary exposure of interest (exposure) or the alternative state (exposureAlternative).",
+  "related_codesystems": [
+    {
+      "id": "exposure-state",
+      "url": "http://hl7.org/fhir/exposure-state"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "exposure",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/exposure-state",
+      "display": "Exposure",
+      "description": "used when the results by exposure is describing the results for the primary exposure of interest.",
+      "filter": null
+    },
+    {
+      "code": "exposure-alternative",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/exposure-state",
+      "display": "Exposure Alternative",
+      "description": "used when the results by exposure is describing the results for the alternative exposure state, control state or comparator state.",
+      "filter": null
+    }
+  ]
+}

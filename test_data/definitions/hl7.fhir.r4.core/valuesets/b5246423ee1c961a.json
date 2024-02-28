@@ -1,0 +1,61 @@
+{
+  "name": "CompositeMeasureScoring",
+  "resource_id": "composite-measure-scoring",
+  "resource_url": "http://hl7.org/fhir/ValueSet/composite-measure-scoring",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/composite-measure-scoring"
+      }
+    ]
+  },
+  "description": "The composite scoring method of the measure.",
+  "related_codesystems": [
+    {
+      "id": "composite-measure-scoring",
+      "url": "http://terminology.hl7.org/CodeSystem/composite-measure-scoring"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "opportunity",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/composite-measure-scoring",
+      "display": "Opportunity",
+      "description": "Opportunity scoring combines the scores from component measures by combining the numerators and denominators for each component.",
+      "filter": null
+    },
+    {
+      "code": "all-or-nothing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/composite-measure-scoring",
+      "display": "All-or-nothing",
+      "description": "All-or-nothing scoring includes an individual in the numerator of the composite measure if they are in the numerators of all of the component measures in which they are in the denominator.",
+      "filter": null
+    },
+    {
+      "code": "linear",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/composite-measure-scoring",
+      "display": "Linear",
+      "description": "Linear scoring gives an individual a score based on the number of numerators in which they appear.",
+      "filter": null
+    },
+    {
+      "code": "weighted",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/composite-measure-scoring",
+      "display": "Weighted",
+      "description": "Weighted scoring gives an individual a score based on a weighted factor for each component numerator in which they appear.",
+      "filter": null
+    }
+  ]
+}

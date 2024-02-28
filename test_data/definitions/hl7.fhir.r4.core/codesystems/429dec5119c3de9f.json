@@ -1,0 +1,26 @@
+{
+  "name": "v2.0491",
+  "resource_id": "v2-0491",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0491",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "E",
+      "display": "Excellent"
+    },
+    {
+      "code": "F",
+      "display": "Fair"
+    },
+    {
+      "code": "G",
+      "display": "Good"
+    },
+    {
+      "code": "P",
+      "display": "Poor"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

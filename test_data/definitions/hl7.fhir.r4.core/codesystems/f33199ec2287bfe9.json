@@ -1,0 +1,122 @@
+{
+  "name": "AdverseEventSeriousness",
+  "resource_id": "adverse-event-seriousness",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "Non-serious",
+      "display": "Non-serious",
+      "definition": "Non-serious."
+    },
+    {
+      "code": "Serious",
+      "display": "Serious",
+      "definition": "Serious.",
+      "concept": [
+        {
+          "code": "SeriousResultsInDeath",
+          "display": "Results in death",
+          "definition": "Results in death."
+        },
+        {
+          "code": "SeriousIsLifeThreatening",
+          "display": "Is Life-threatening",
+          "definition": "Is Life-threatening."
+        },
+        {
+          "code": "SeriousResultsInHospitalization",
+          "display": "Requires or prolongs inpatient hospitalization",
+          "definition": "Requires inpatient hospitalization or causes prolongation of existing hospitalization."
+        },
+        {
+          "code": "SeriousResultsInDisability",
+          "display": "Results in persistent or significant disability/incapacity",
+          "definition": "Results in persistent or significant disability/incapacity."
+        },
+        {
+          "code": "SeriousIsBirthDefect",
+          "display": "Is a congenital anomaly/birth defect",
+          "definition": "Is a congenital anomaly/birth defect."
+        },
+        {
+          "code": "SeriousRequiresPreventImpairment",
+          "display": "Requires intervention to prevent permanent impairment",
+          "definition": "Requires intervention to prevent permanent impairment or damage (i.e., an important medical event that requires medical judgement)."
+        }
+      ]
+    },
+    {
+      "code": "SeriousResultsInDeath",
+      "display": "Results in death",
+      "definition": "Results in death."
+    },
+    {
+      "code": "SeriousIsLifeThreatening",
+      "display": "Is Life-threatening",
+      "definition": "Is Life-threatening."
+    },
+    {
+      "code": "SeriousResultsInHospitalization",
+      "display": "Requires or prolongs inpatient hospitalization",
+      "definition": "Requires inpatient hospitalization or causes prolongation of existing hospitalization."
+    },
+    {
+      "code": "SeriousResultsInDisability",
+      "display": "Results in persistent or significant disability/incapacity",
+      "definition": "Results in persistent or significant disability/incapacity."
+    },
+    {
+      "code": "SeriousIsBirthDefect",
+      "display": "Is a congenital anomaly/birth defect",
+      "definition": "Is a congenital anomaly/birth defect."
+    },
+    {
+      "code": "SeriousRequiresPreventImpairment",
+      "display": "Requires intervention to prevent permanent impairment",
+      "definition": "Requires intervention to prevent permanent impairment or damage (i.e., an important medical event that requires medical judgement)."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AdverseEventSeriousness",
+    "resource_id": "adverse-event-seriousness",
+    "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-seriousness",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness"
+        }
+      ]
+    },
+    "description": "Overall seriousness of this event for the patient.",
+    "related_codesystems": [
+      {
+        "id": "adverse-event-seriousness",
+        "url": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "Non-serious",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness",
+        "display": "Non-serious",
+        "description": "Non-serious.",
+        "filter": null
+      },
+      {
+        "code": "Serious",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-seriousness",
+        "display": "Serious",
+        "description": "Serious.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "v2.0231",
+  "resource_id": "v2-0231",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0231",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "F",
+      "display": "Full-time student",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Voltijdsstudent"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Not a student",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geen student"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Part-time student",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Deeltijdstudent"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,66 @@
+{
+  "name": "v2.0279",
+  "resource_id": "v2-0279",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0279",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "Confirm",
+      "display": "Contact the Placer Contact Person prior to making any substitutions of this resource",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Neem contact op met placer contactpersoon voorafgaand aan eventuele substituties van deze resource"
+        }
+      ]
+    },
+    {
+      "code": "No",
+      "display": "Substitution of this resource is not allowed",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Substitutie van deze resource is niet toegestaan"
+        }
+      ]
+    },
+    {
+      "code": "Notify",
+      "display": "Notify the Placer Contact Person, through normal institutional procedures, that a substitution of this resource has been made",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Melden bij placer contactpersoon via normale institutionele afspraken indien een substitutie van deze resource heeft plaatsgevonden"
+        }
+      ]
+    },
+    {
+      "code": "Yes",
+      "display": "Substitution of this resource is allowed",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Substitutie van deze resource is toegestaan"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

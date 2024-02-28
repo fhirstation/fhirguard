@@ -1,0 +1,54 @@
+{
+  "name": "v2.0508",
+  "resource_id": "v2-0508",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0508",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AU",
+      "display": "Autologous Unit"
+    },
+    {
+      "code": "CM",
+      "display": "CMV Negative"
+    },
+    {
+      "code": "CS",
+      "display": "CMV Safe"
+    },
+    {
+      "code": "DI",
+      "display": "Directed Unit"
+    },
+    {
+      "code": "FR",
+      "display": "Fresh unit"
+    },
+    {
+      "code": "HB",
+      "display": "Hemoglobin S Negative"
+    },
+    {
+      "code": "HL",
+      "display": "HLA Matched"
+    },
+    {
+      "code": "IG",
+      "display": "IgA Deficient"
+    },
+    {
+      "code": "IR",
+      "display": "Irradiated"
+    },
+    {
+      "code": "LR",
+      "display": "Leukoreduced"
+    },
+    {
+      "code": "WA",
+      "display": "Washed"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

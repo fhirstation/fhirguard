@@ -1,0 +1,81 @@
+{
+  "name": "validation-process",
+  "resource_id": "verificationresult-validation-process",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-validation-process",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/validation-process"
+      }
+    ]
+  },
+  "description": "The primary process by which the target is validated",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-validation-process",
+      "url": "http://terminology.hl7.org/CodeSystem/validation-process"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "edit-check",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-process",
+      "display": "edit check",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "valueset",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-process",
+      "display": "value set",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "primary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-process",
+      "display": "primary source",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "multi",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-process",
+      "display": "multiple sources",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "standalone",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-process",
+      "display": "standalone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "in-context",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/validation-process",
+      "display": "in context",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

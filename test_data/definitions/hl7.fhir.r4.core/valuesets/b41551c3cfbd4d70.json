@@ -1,0 +1,61 @@
+{
+  "name": "v3.EquipmentAlertLevel",
+  "resource_id": "v3-EquipmentAlertLevel",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-EquipmentAlertLevel",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EquipmentAlertLevel"
+      }
+    ]
+  },
+  "description": "**** MISSING DEFINITIONS ****",
+  "related_codesystems": [
+    {
+      "id": "v3-EquipmentAlertLevel",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-EquipmentAlertLevel"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EquipmentAlertLevel",
+      "display": "Critical",
+      "description": "Shut Down, Fix Problem and Re-init",
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EquipmentAlertLevel",
+      "display": "Normal",
+      "description": "No Corrective Action Needed",
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EquipmentAlertLevel",
+      "display": "Serious",
+      "description": "Corrective Action Required",
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EquipmentAlertLevel",
+      "display": "Warning",
+      "description": "Corrective Action Anticipated",
+      "filter": null
+    }
+  ]
+}

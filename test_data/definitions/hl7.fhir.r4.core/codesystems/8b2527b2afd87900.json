@@ -1,0 +1,60 @@
+{
+  "name": "Form Codes",
+  "resource_id": "forms",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/forms-codes",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Form #1",
+      "definition": "Example: The #1 form to be used when printing this information."
+    },
+    {
+      "code": "2",
+      "display": "Form #1",
+      "definition": "Example: The #2 form to be used when printing this information."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "Form Codes",
+    "resource_id": "forms",
+    "resource_url": "http://hl7.org/fhir/ValueSet/forms",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/forms-codes"
+        }
+      ]
+    },
+    "description": "This value set includes a sample set of Forms codes.",
+    "related_codesystems": [
+      {
+        "id": "forms",
+        "url": "http://terminology.hl7.org/CodeSystem/forms-codes"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "1",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/forms-codes",
+        "display": "Form #1",
+        "description": "Example: The #1 form to be used when printing this information.",
+        "filter": null
+      },
+      {
+        "code": "2",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/forms-codes",
+        "display": "Form #1",
+        "description": "Example: The #2 form to be used when printing this information.",
+        "filter": null
+      }
+    ]
+  }
+}

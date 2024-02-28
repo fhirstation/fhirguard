@@ -1,0 +1,54 @@
+{
+  "name": "DesignationUse",
+  "resource_id": "designation-use",
+  "resource_url": "http://hl7.org/fhir/ValueSet/designation-use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "900000000000003001"
+          },
+          {
+            "code": "900000000000013009"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Details of how a designation would be used",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "900000000000003001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "900000000000013009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

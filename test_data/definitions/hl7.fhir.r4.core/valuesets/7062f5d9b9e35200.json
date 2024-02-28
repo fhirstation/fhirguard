@@ -1,0 +1,81 @@
+{
+  "name": "v2.0116",
+  "resource_id": "v2-0116",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0116",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0116 ( BED STATUS)",
+  "related_codesystems": [
+    {
+      "id": "v2-0116",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0116"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "display": "Closed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "display": "Housekeeping",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "display": "Isolated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "display": "Contaminated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "display": "Occupied",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "display": "Unoccupied",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

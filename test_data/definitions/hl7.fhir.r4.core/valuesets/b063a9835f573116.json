@@ -1,0 +1,61 @@
+{
+  "name": "v2.0230",
+  "resource_id": "v2-0230",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0230",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0230"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0230 ( Procedure Functional Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0230",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0230"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0230",
+      "display": "Anesthesia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0230",
+      "display": "Diagnostic procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0230",
+      "display": "Invasive procedure not classified elsewhere (e.g., IV, catheter, etc.)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0230",
+      "display": "Procedure for treatment (therapeutic, including operations)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

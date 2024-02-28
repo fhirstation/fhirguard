@@ -1,0 +1,61 @@
+{
+  "name": "v2.0124",
+  "resource_id": "v2-0124",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0124",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0124"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0124 ( TRANSPORTATION MODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0124",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0124"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0124",
+      "display": "Cart - patient travels on cart or gurney",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PORT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0124",
+      "display": "The examining device goes to patient's location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WALK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0124",
+      "display": "Patient walks to diagnostic service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WHLC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0124",
+      "display": "Wheelchair",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

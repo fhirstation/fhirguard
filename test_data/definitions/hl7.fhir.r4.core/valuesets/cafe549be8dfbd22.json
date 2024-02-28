@@ -1,0 +1,61 @@
+{
+  "name": "v3.hl7PublishingSection",
+  "resource_id": "v3-hl7PublishingSection",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-hl7PublishingSection",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-hl7PublishingSection"
+      }
+    ]
+  },
+  "description": "  Description:\r\nCodes for HL7 publishing sections (major business categories)",
+  "related_codesystems": [
+    {
+      "id": "v3-hl7PublishingSection",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-hl7PublishingSection"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-hl7PublishingSection",
+      "display": "administrative management",
+      "description": "Description: Represents the HL7 V3 publishing section that deals with the administration and management of health care activities and organizations.\r\n\n                        \n                           UsageNote: V3 Specifications are published in a set of \"domains\", which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications.\r\n\n                        For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets.",
+      "filter": null
+    },
+    {
+      "code": "HM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-hl7PublishingSection",
+      "display": "health and clinical management",
+      "description": "Description: Represents the HL7 V3 publishing section that deals with the health care provision and clinical management.\r\n\n                        \n                           UsageNote: V3 Specifications are published in a set of \"domains\", which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications.\r\n\n                        For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets.",
+      "filter": null
+    },
+    {
+      "code": "IM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-hl7PublishingSection",
+      "display": "infrastructure management",
+      "description": "Description: Represents the HL7 V3 publishing section that deals with the definition and management of the computing and communication infrastructure necessary to support health care.\r\n\n                        \n                           UsageNote: V3 Specifications are published in a set of \"domains\", which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications.\r\n\n                        For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets.",
+      "filter": null
+    },
+    {
+      "code": "UU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-hl7PublishingSection",
+      "display": "unknown",
+      "description": "Description: Represents the HL7 V3 publishing section that holds specifications that are unassigned - that have not yet been assigned to one of the formal publishing sections.\r\n\n                        \n                           UsageNote: V3 Specifications are published in a set of \"domains\", which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications.\r\n\n                        For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets.",
+      "filter": null
+    }
+  ]
+}

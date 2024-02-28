@@ -1,0 +1,91 @@
+{
+  "name": "v2.0719",
+  "resource_id": "v2-0719",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0719",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0719"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0719 ( Access Restriction Reason Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0719",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0719"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "DIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Diagnosis-related",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Employee of this organization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Organizational policy or requirement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Patient Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Physician Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Regulatory requirement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0719",
+      "display": "Very important person or celebrity",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

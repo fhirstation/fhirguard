@@ -1,0 +1,331 @@
+{
+  "name": "CanonicalStatusCodesForFHIRResources",
+  "resource_id": "resource-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/resource-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/resource-status"
+      }
+    ]
+  },
+  "description": "The master set of status codes used throughout FHIR. All status codes are mapped to one of these codes.",
+  "related_codesystems": [
+    {
+      "id": "resource-status",
+      "url": "http://hl7.org/fhir/resource-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "error",
+      "description": "The resource was created in error, and should not be treated as valid (note: in many cases, for various data integrity related reasons, the information cannot be removed from the record)",
+      "filter": null
+    },
+    {
+      "code": "proposed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "proposed",
+      "description": "The resource describes an action or plan that is proposed, and not yet approved by the participants",
+      "filter": null
+    },
+    {
+      "code": "planned",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "planned",
+      "description": "The resource describes a course of action that is planned and agreed/approved, but at the time of recording was still future",
+      "filter": null
+    },
+    {
+      "code": "draft",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "draft",
+      "description": "The information in the resource is still being prepared and edited",
+      "filter": null
+    },
+    {
+      "code": "requested",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "requested",
+      "description": "A fulfiller has been asked to perform this action, but it has not yet occurred",
+      "filter": null
+    },
+    {
+      "code": "received",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "received",
+      "description": "The fulfiller has received the request, but not yet agreed to carry out the action",
+      "filter": null
+    },
+    {
+      "code": "declined",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "declined",
+      "description": "The fulfiller chose not to perform the action",
+      "filter": null
+    },
+    {
+      "code": "accepted",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "accepted",
+      "description": "The fulfiller has decided to perform the action, and plans are in train to do this in the future",
+      "filter": null
+    },
+    {
+      "code": "arrived",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "arrived",
+      "description": "The pre-conditions for the action are all fulfilled, and it is imminent",
+      "filter": null
+    },
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "active",
+      "description": "The resource describes information that is currently valid or a process that is presently occuring",
+      "filter": null
+    },
+    {
+      "code": "suspended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "suspended",
+      "description": "The process described/requested in this resource has been halted for some reason",
+      "filter": null
+    },
+    {
+      "code": "failed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "failed",
+      "description": "The process described/requested in the resource could not be completed, and no further action is planned",
+      "filter": null
+    },
+    {
+      "code": "replaced",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "replaced",
+      "description": "The information in this resource has been replaced by information in another resource",
+      "filter": null
+    },
+    {
+      "code": "complete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "complete",
+      "description": "The process described/requested in the resource has been completed, and no further action is planned",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "inactive",
+      "description": "The resource describes information that is no longer valid or a process that is stopped occurring",
+      "filter": null
+    },
+    {
+      "code": "abandoned",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "abandoned",
+      "description": "The process described/requested in the resource did not complete - usually due to some workflow error, and no further action is planned",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "unknown",
+      "description": "Authoring system does not know the status",
+      "filter": null
+    },
+    {
+      "code": "unconfirmed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "unconfirmed",
+      "description": "The information in this resource is not yet approved",
+      "filter": null
+    },
+    {
+      "code": "confirmed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "confirmed",
+      "description": "The information in this resource is approved",
+      "filter": null
+    },
+    {
+      "code": "resolved",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "resolved",
+      "description": "The issue identified by this resource is no longer of concern",
+      "filter": null
+    },
+    {
+      "code": "refuted",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "refuted",
+      "description": "This information has been ruled out by testing and evaluation",
+      "filter": null
+    },
+    {
+      "code": "differential",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "differential",
+      "description": "Potentially true?",
+      "filter": null
+    },
+    {
+      "code": "partial",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "partial",
+      "description": "This information is still being assembled",
+      "filter": null
+    },
+    {
+      "code": "busy-unavailable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "busy-unavailable",
+      "description": "not available at this time/location",
+      "filter": null
+    },
+    {
+      "code": "free",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "free",
+      "description": "Free for scheduling",
+      "filter": null
+    },
+    {
+      "code": "on-target",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "on-target",
+      "description": "Ready to act",
+      "filter": null
+    },
+    {
+      "code": "ahead-of-target",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "ahead-of-target",
+      "description": "Ahead of the planned timelines",
+      "filter": null
+    },
+    {
+      "code": "behind-target",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "behind-target",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "not-ready",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "not-ready",
+      "description": "Behind the planned timelines",
+      "filter": null
+    },
+    {
+      "code": "transduc-discon",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "transduc-discon",
+      "description": "The device transducer is disconnected",
+      "filter": null
+    },
+    {
+      "code": "hw-discon",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/resource-status",
+      "display": "hw-discon",
+      "description": "The hardware is disconnected",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "v2.0210",
+  "resource_id": "v2-0210",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0210",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AND",
+      "display": "Default",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Standaard"
+        }
+      ]
+    },
+    {
+      "code": "OR",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "OF"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

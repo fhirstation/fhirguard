@@ -1,0 +1,111 @@
+{
+  "name": "MedicationDispense Status Codes",
+  "resource_id": "medicationdispense-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationdispense-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status"
+      }
+    ]
+  },
+  "description": "MedicationDispense Status Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationdispense-status",
+      "url": "http://terminology.hl7.org/CodeSystem/medicationdispense-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "preparation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Preparation",
+      "description": "The core event has not started yet, but some staging activities have begun (e.g. initial compounding or packaging of medication). Preparation stages may be tracked for billing purposes.",
+      "filter": null
+    },
+    {
+      "code": "in-progress",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "In Progress",
+      "description": "The dispensed product is ready for pickup.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Cancelled",
+      "description": "The dispensed product was not and will never be picked up by the patient.",
+      "filter": null
+    },
+    {
+      "code": "on-hold",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "On Hold",
+      "description": "The dispense process is paused while waiting for an external event to reactivate the dispense.  For example, new stock has arrived or the prescriber has called.",
+      "filter": null
+    },
+    {
+      "code": "completed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Completed",
+      "description": "The dispensed product has been picked up.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Entered in Error",
+      "description": "The dispense was entered in error and therefore nullified.",
+      "filter": null
+    },
+    {
+      "code": "stopped",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Stopped",
+      "description": "Actions implied by the dispense have been permanently halted, before all of them occurred.",
+      "filter": null
+    },
+    {
+      "code": "declined",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Declined",
+      "description": "The dispense was declined and not performed.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationdispense-status",
+      "display": "Unknown",
+      "description": "The authoring system does not know which of the status values applies for this medication dispense.  Note: this concept is not to be used for other - one of the listed statuses is presumed to apply, it's just now known which one.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "name": "v2.0153",
+  "resource_id": "v2-0153",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0153",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0153"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0153 ( Value code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0153",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0153"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "See NUBC codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Most common semi-private rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Hospital has no semi-private rooms",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Inpatient professional component charges which are combined billed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Professional component included in charges and also billed separate to carrier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Medicare blood deductible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Medicare life time reserve amount in the first calendar year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Medicare co-insurance amount in the first calendar year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Lifetime reserve amount in the second calendar year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Co-insurance amount in the second calendar year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Working aged beneficiary/spouse with employer group health plan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "ESRD beneficiary in a Medicare coordination period with an employer group health plan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "No Fault including auto/other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Worker's Compensation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "PHS, or other federal agency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Catastrophic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Surplus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Recurring monthly incode",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Medicaid rate code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Pre-admission testing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Patient liability amount",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Pints of blood furnished",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Blood deductible pints",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Pints of blood replaced",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "New coverage not implemented by HMO (for inpatient service only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Black lung",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "VA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Disabled beneficiary under age 64 with LGHP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Amount provider agreed to accept from primary payer when this amount is less than charges but higher than payment received,, then a Medicare secondary payment is due",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Accident hour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Number of grace days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Any liability insurance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Hemoglobin reading",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Hematocrit reading",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Physical therapy visits",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Occupational therapy visits",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Speech therapy visits",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "53",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Cardiac rehab visits",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Skilled nurse - home visit hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "57",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Home health aide - home visit hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "58",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Arterial blood gas",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "59",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Oxygen saturation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "60",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "HHA branch MSA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "67",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Peritoneal dialysis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "68",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "EPO-drug",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70 ... 72",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "71",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "75",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "75 ... 79",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "76",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Payer codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "80",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Psychiatric visits",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "81",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Visits subject to co-payment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Deductible payer A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Coinsurance payer A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Estimated responsibility payer A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Service excluded on primary policy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "Supplemental coverage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "…",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0153",
+      "display": "See NUBC codes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

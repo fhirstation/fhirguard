@@ -1,0 +1,140 @@
+{
+  "name": "EnteralRouteCodes",
+  "resource_id": "enteral-route",
+  "resource_url": "http://hl7.org/fhir/ValueSet/enteral-route",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+        "concept": [
+          {
+            "code": "PO"
+          },
+          {
+            "code": "EFT"
+          },
+          {
+            "code": "ENTINSTL"
+          },
+          {
+            "code": "GT"
+          },
+          {
+            "code": "NGT"
+          },
+          {
+            "code": "OGT"
+          },
+          {
+            "code": "GJT"
+          },
+          {
+            "code": "JJTINSTL"
+          },
+          {
+            "code": "OJJ"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "EnteralRouteOfAdministration: Codes specifying the route of administration of enteral formula.  This value set is composed of HL7 V3 codes and is provided as a suggestive example.",
+  "related_codesystems": [
+    {
+      "id": "v3-RouteOfAdministration",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "PO",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EFT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTINSTL",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NGT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OGT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GJT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JJTINSTL",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OJJ",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

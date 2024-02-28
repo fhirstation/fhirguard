@@ -1,0 +1,22 @@
+{
+  "name": "v2.0923",
+  "resource_id": "v2-0923",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0923",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ABR",
+      "display": "Aborted Run: Process interrupted after the Phlebotomist inserts the needle in the Donor's arm"
+    },
+    {
+      "code": "NIN",
+      "display": "Process was not interrupted"
+    },
+    {
+      "code": "WOT",
+      "display": "Walk Out: Process interrupted before the Phlebotomist inserts the needle in the Donor's arm"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

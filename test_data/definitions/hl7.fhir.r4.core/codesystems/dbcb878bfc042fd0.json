@@ -1,0 +1,60 @@
+{
+  "name": "ChoiceListOrientation",
+  "resource_id": "choice-list-orientation",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/choice-list-orientation",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "horizontal",
+      "display": "Horizontal",
+      "definition": "List choices along the horizontal axis."
+    },
+    {
+      "code": "vertical",
+      "display": "Vertical",
+      "definition": "List choices down the vertical axis."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ChoiceListOrientation",
+    "resource_id": "choice-list-orientation",
+    "resource_url": "http://hl7.org/fhir/ValueSet/choice-list-orientation",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/choice-list-orientation"
+        }
+      ]
+    },
+    "description": "Direction in which lists of possible answers should be displayed.",
+    "related_codesystems": [
+      {
+        "id": "choice-list-orientation",
+        "url": "http://terminology.hl7.org/CodeSystem/choice-list-orientation"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "horizontal",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/choice-list-orientation",
+        "display": "Horizontal",
+        "description": "List choices along the horizontal axis.",
+        "filter": null
+      },
+      {
+        "code": "vertical",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/choice-list-orientation",
+        "display": "Vertical",
+        "description": "List choices down the vertical axis.",
+        "filter": null
+      }
+    ]
+  }
+}

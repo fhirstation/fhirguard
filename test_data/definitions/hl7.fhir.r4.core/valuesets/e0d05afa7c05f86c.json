@@ -1,0 +1,51 @@
+{
+  "name": "v2.0238",
+  "resource_id": "v2-0238",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0238",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0238"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0238 ( Event Seriousness)",
+  "related_codesystems": [
+    {
+      "id": "v2-0238",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0238"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0238",
+      "display": "No",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0238",
+      "display": "Significant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0238",
+      "display": "Yes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

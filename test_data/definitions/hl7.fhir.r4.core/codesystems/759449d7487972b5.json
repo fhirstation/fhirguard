@@ -1,0 +1,132 @@
+{
+  "name": "SpecialValues",
+  "resource_id": "special-values",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/special-values",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "true",
+      "display": "true",
+      "definition": "Boolean true."
+    },
+    {
+      "code": "false",
+      "display": "false",
+      "definition": "Boolean false."
+    },
+    {
+      "code": "trace",
+      "display": "Trace Amount Detected",
+      "definition": "The content is greater than zero, but too small to be quantified."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "used in formulations (e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' This code would be used to express the quantity of water. )"
+        }
+      ],
+      "code": "sufficient",
+      "display": "Sufficient Quantity",
+      "definition": "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material."
+    },
+    {
+      "code": "withdrawn",
+      "display": "Value Withdrawn",
+      "definition": "The value is no longer available."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The existence of this subject to review"
+        }
+      ],
+      "code": "nil-known",
+      "display": "Nil Known",
+      "definition": "The are no known applicable values in this context."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SpecialValues",
+    "resource_id": "special-values",
+    "resource_url": "http://hl7.org/fhir/ValueSet/special-values",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/special-values"
+        }
+      ]
+    },
+    "description": "A set of generally useful codes defined so they can be included in value sets.",
+    "related_codesystems": [
+      {
+        "id": "special-values",
+        "url": "http://terminology.hl7.org/CodeSystem/special-values"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "true",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/special-values",
+        "display": "true",
+        "description": "Boolean true.",
+        "filter": null
+      },
+      {
+        "code": "false",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/special-values",
+        "display": "false",
+        "description": "Boolean false.",
+        "filter": null
+      },
+      {
+        "code": "trace",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/special-values",
+        "display": "Trace Amount Detected",
+        "description": "The content is greater than zero, but too small to be quantified.",
+        "filter": null
+      },
+      {
+        "code": "sufficient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/special-values",
+        "display": "Sufficient Quantity",
+        "description": "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material.",
+        "filter": null
+      },
+      {
+        "code": "withdrawn",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/special-values",
+        "display": "Value Withdrawn",
+        "description": "The value is no longer available.",
+        "filter": null
+      },
+      {
+        "code": "nil-known",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/special-values",
+        "display": "Nil Known",
+        "description": "The are no known applicable values in this context.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "v2.0881",
+  "resource_id": "v2-0881",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0881",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0881"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0881 ( Role Executing Physician)",
+  "related_codesystems": [
+    {
+      "id": "v2-0881",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0881"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0881",
+      "display": "Both",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0881",
+      "display": "Professional Part",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0881",
+      "display": "Technical Part",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

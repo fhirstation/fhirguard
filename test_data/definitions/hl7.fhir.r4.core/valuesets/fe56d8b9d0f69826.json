@@ -1,0 +1,111 @@
+{
+  "name": "primary-source-type",
+  "resource_id": "verificationresult-primary-source-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-primary-source-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/primary-source-type"
+      }
+    ]
+  },
+  "description": "Type of the validation primary source",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-primary-source-type",
+      "url": "http://terminology.hl7.org/CodeSystem/primary-source-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "lic-board",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "License Board",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "prim",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Primary Education",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "cont-ed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Continuing Education",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "post-serv",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Postal Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "rel-own",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Relationship owner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "reg-auth",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Registration Authority",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "legal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Legal source",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "issuer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Issuing source",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "auth-source",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/primary-source-type",
+      "display": "Authoritative source",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

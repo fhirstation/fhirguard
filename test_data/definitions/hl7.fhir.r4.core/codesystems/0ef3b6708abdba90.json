@@ -1,0 +1,30 @@
+{
+  "name": "v2.0667",
+  "resource_id": "v2-0667",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0667",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Display data"
+        }
+      ],
+      "code": "0",
+      "display": "Real Time Values"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Print data"
+        }
+      ],
+      "code": "1",
+      "display": "Historic Values"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

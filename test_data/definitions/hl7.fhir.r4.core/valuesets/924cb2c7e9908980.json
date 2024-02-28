@@ -1,0 +1,231 @@
+{
+  "name": "v2.0368",
+  "resource_id": "v2-0368",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0368",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0368"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0368 ( Remote control command)",
+  "related_codesystems": [
+    {
+      "id": "v2-0368",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0368"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Abort",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Aliquot From container",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Aliquot To container",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Clear",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Clear Notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Disable Sending Events",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Enable Sending Events",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Emergency -stop",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Execute (command specified in field Parameters (ST) 01394)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Initialize/Initiate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Local Control Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Lock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Load",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Pause",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Remote Control Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Resume",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Sampling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Setup",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Transport To",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Unlock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0368",
+      "display": "Unload",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

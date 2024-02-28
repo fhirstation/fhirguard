@@ -1,0 +1,81 @@
+{
+  "name": "EndpointStatus",
+  "resource_id": "endpoint-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/endpoint-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/endpoint-status"
+      }
+    ]
+  },
+  "description": "The status of the endpoint.",
+  "related_codesystems": [
+    {
+      "id": "endpoint-status",
+      "url": "http://hl7.org/fhir/endpoint-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/endpoint-status",
+      "display": "Active",
+      "description": "This endpoint is expected to be active and can be used.",
+      "filter": null
+    },
+    {
+      "code": "suspended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/endpoint-status",
+      "display": "Suspended",
+      "description": "This endpoint is temporarily unavailable.",
+      "filter": null
+    },
+    {
+      "code": "error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/endpoint-status",
+      "display": "Error",
+      "description": "This endpoint has exceeded connectivity thresholds and is considered in an error state and should no longer be attempted to connect to until corrective action is taken.",
+      "filter": null
+    },
+    {
+      "code": "off",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/endpoint-status",
+      "display": "Off",
+      "description": "This endpoint is no longer to be used.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/endpoint-status",
+      "display": "Entered in error",
+      "description": "This instance should not have been part of this patient's medical record.",
+      "filter": null
+    },
+    {
+      "code": "test",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/endpoint-status",
+      "display": "Test",
+      "description": "This endpoint is not intended for production usage.",
+      "filter": null
+    }
+  ]
+}

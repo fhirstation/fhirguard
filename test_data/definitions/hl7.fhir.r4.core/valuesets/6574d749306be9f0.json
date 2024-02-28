@@ -1,0 +1,71 @@
+{
+  "name": "repositoryType",
+  "resource_id": "repository-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/repository-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/repository-type"
+      }
+    ]
+  },
+  "description": "Type for access of external URI.",
+  "related_codesystems": [
+    {
+      "id": "repository-type",
+      "url": "http://hl7.org/fhir/repository-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "directlink",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/repository-type",
+      "display": "Click and see",
+      "description": "When URL is clicked, the resource can be seen directly (by webpage or by download link format).",
+      "filter": null
+    },
+    {
+      "code": "openapi",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/repository-type",
+      "display": "The URL is the RESTful or other kind of API that can access to the result.",
+      "description": "When the API method (e.g. [base_url]/[parameter]) related with the URL of the website is executed, the resource can be seen directly (usually in JSON or XML format).",
+      "filter": null
+    },
+    {
+      "code": "login",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/repository-type",
+      "display": "Result cannot be access unless an account is logged in",
+      "description": "When logged into the website, the resource can be seen.",
+      "filter": null
+    },
+    {
+      "code": "oauth",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/repository-type",
+      "display": "Result need to be fetched with API and need LOGIN( or cookies are required when visiting the link of resource)",
+      "description": "When logged in and  follow the API in the website related with URL, the resource can be seen.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/repository-type",
+      "display": "Some other complicated or particular way to get resource from URL.",
+      "description": "Some other complicated or particular way to get resource from URL.",
+      "filter": null
+    }
+  ]
+}

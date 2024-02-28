@@ -1,0 +1,61 @@
+{
+  "name": "v2.0248",
+  "resource_id": "v2-0248",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0248",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0248"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0248 ( Product Source)",
+  "related_codesystems": [
+    {
+      "id": "v2-0248",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0248"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0248",
+      "display": "Actual product involved in incident was evaluated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0248",
+      "display": "A product from the same lot as the actual product involved was evaluated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0248",
+      "display": "A product from a controlled/non-related inventory was evaluated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0248",
+      "display": "A product from a reserve sample was evaluated",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

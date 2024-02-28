@@ -1,0 +1,91 @@
+{
+  "name": "v2.0305",
+  "resource_id": "v2-0305",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0305",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0305"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0305 ( Person location type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0305",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0305"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "Clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "Department",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "Home",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "Nursing Unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "Provider's Office",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "Phone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0305",
+      "display": "SNF",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

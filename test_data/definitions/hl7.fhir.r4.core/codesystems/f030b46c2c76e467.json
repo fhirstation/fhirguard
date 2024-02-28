@@ -1,0 +1,90 @@
+{
+  "name": "verificationresult-communication-method",
+  "resource_id": "verificationresult-communication-method",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "manual",
+      "display": "Manual",
+      "definition": "The information is submitted/retrieved manually (e.g. by phone, fax, paper-based)"
+    },
+    {
+      "code": "portal",
+      "display": "Portal",
+      "definition": "The information is submitted/retrieved via a portal"
+    },
+    {
+      "code": "pull",
+      "display": "Pull",
+      "definition": "The information is retrieved (i.e. pulled) from a source (e.g. over an API)"
+    },
+    {
+      "code": "push",
+      "display": "Push",
+      "definition": "The information is sent (i.e. pushed) from a source (e.g. over an API, asynchronously, secure messaging)"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "verificationresult-communication-method",
+    "resource_id": "verificationresult-communication-method",
+    "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-communication-method",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method"
+        }
+      ]
+    },
+    "description": "Attested information may be validated by process that are manual or automated. For automated processes it may accomplished by the system of record reaching out through another system's API or information may be sent to the system of record. This value set defines a set of codes to describing the process, the how, a resource or data element is validated.",
+    "related_codesystems": [
+      {
+        "id": "verificationresult-communication-method",
+        "url": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "manual",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
+        "display": "Manual",
+        "description": "The information is submitted/retrieved manually (e.g. by phone, fax, paper-based)",
+        "filter": null
+      },
+      {
+        "code": "portal",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
+        "display": "Portal",
+        "description": "The information is submitted/retrieved via a portal",
+        "filter": null
+      },
+      {
+        "code": "pull",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
+        "display": "Pull",
+        "description": "The information is retrieved (i.e. pulled) from a source (e.g. over an API)",
+        "filter": null
+      },
+      {
+        "code": "push",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
+        "display": "Push",
+        "description": "The information is sent (i.e. pushed) from a source (e.g. over an API, asynchronously, secure messaging)",
+        "filter": null
+      }
+    ]
+  }
+}

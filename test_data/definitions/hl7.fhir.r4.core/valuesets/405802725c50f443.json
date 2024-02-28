@@ -1,0 +1,61 @@
+{
+  "name": "v2.0478",
+  "resource_id": "v2-0478",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0478",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0478"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0478 ( Formulary Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0478",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0478"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0478",
+      "display": "Pharmaceutical substance is in the formulary, but guidelines apply",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0478",
+      "display": "Pharmaceutical substance is NOT in the formulary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0478",
+      "display": "Pharmaceutical substance is in the formulary, but restrictions apply",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0478",
+      "display": "Pharmaceutical substance is in the formulary",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

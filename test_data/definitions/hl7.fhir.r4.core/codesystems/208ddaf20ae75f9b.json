@@ -1,0 +1,80 @@
+{
+  "name": "v2.0397",
+  "resource_id": "v2-0397",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0397",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Ascending",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Oplopend"
+        }
+      ]
+    },
+    {
+      "code": "AN",
+      "display": "Ascending, case insensitive",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Oplopend, niet-hoofdlettergevoelig"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Descending",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aflopend"
+        }
+      ]
+    },
+    {
+      "code": "DN",
+      "display": "Descending, case insensitive",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aflopend, niet-hoofdlettergevoelig"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "None",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geen"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,144 @@
+{
+  "name": "v2.0193",
+  "resource_id": "v2-0193",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0193",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Retained for backward compatibility only as of v 2.5",
+          "_valueString": {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "lang",
+                    "valueCode": "nl"
+                  },
+                  {
+                    "url": "content",
+                    "valueString": "Alleen voor backward compatibiliteit sinds v2.5."
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/translation"
+              }
+            ]
+          }
+        }
+      ],
+      "code": "AT",
+      "display": "Amount",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Betrag"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bedrag"
+        }
+      ]
+    },
+    {
+      "code": "LM",
+      "display": "Limit",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Höchstbetrag"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Limiet"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Retained for backward compatibility only as of v 2.5",
+          "_valueString": {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "lang",
+                    "valueCode": "nl"
+                  },
+                  {
+                    "url": "content",
+                    "valueString": "Alleen voor backward compatibiliteit sinds v2.5."
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/translation"
+              }
+            ]
+          }
+        }
+      ],
+      "code": "PC",
+      "display": "Percentage",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Prozentsatz"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Percentage"
+        }
+      ]
+    },
+    {
+      "code": "UL",
+      "display": "Unlimited",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Unbegrenzt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onbeperkt"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

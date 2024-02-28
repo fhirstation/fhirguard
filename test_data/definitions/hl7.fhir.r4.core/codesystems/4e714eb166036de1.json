@@ -1,0 +1,75 @@
+{
+  "name": "ClaimItemTypeCodes",
+  "resource_id": "fm-itemtype",
+  "resource_url": "http://hl7.org/fhir/ex-claimitemtype",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "group",
+      "display": "Group",
+      "definition": "A group of products and/or Services, amount ar the summary or detail level products and services."
+    },
+    {
+      "code": "product",
+      "display": "Product",
+      "definition": "A billed product line item."
+    },
+    {
+      "code": "service",
+      "display": "Service",
+      "definition": "A billed service line item."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ClaimItemTypeCodes",
+    "resource_id": "fm-itemtype",
+    "resource_url": "http://hl7.org/fhir/ValueSet/fm-itemtype",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/ex-claimitemtype"
+        }
+      ]
+    },
+    "description": "This value set includes sample Item Type codes.",
+    "related_codesystems": [
+      {
+        "id": "fm-itemtype",
+        "url": "http://hl7.org/fhir/ex-claimitemtype"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "group",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-claimitemtype",
+        "display": "Group",
+        "description": "A group of products and/or Services, amount ar the summary or detail level products and services.",
+        "filter": null
+      },
+      {
+        "code": "product",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-claimitemtype",
+        "display": "Product",
+        "description": "A billed product line item.",
+        "filter": null
+      },
+      {
+        "code": "service",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-claimitemtype",
+        "display": "Service",
+        "description": "A billed service line item.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "v2.0387",
+  "resource_id": "v2-0387",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0387",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0387"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0387 ( Command response)",
+  "related_codesystems": [
+    {
+      "id": "v2-0387",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0387"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0387",
+      "display": "Command cannot be completed because of error condition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0387",
+      "display": "Command completed successfully",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0387",
+      "display": "Command cannot be completed because of the status of the requested equipment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0387",
+      "display": "Command cannot be completed within requested completion time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0387",
+      "display": "Command cannot be completed for unknown reasons",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

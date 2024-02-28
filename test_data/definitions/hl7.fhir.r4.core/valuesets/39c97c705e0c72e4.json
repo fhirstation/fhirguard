@@ -1,0 +1,31 @@
+{
+  "name": "MaxOccurs",
+  "resource_id": "question-max-occurs",
+  "resource_url": "http://hl7.org/fhir/ValueSet/question-max-occurs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/question-max-occurs"
+      }
+    ]
+  },
+  "description": "Flags an element as having unlimited repetitions.",
+  "related_codesystems": [
+    {
+      "id": "question-max-occurs",
+      "url": "http://terminology.hl7.org/CodeSystem/question-max-occurs"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "*",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/question-max-occurs",
+      "display": "Repeating",
+      "description": "Element can repeat an unlimited number of times.",
+      "filter": null
+    }
+  ]
+}

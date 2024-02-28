@@ -1,0 +1,168 @@
+{
+  "name": "AnimalSpecies",
+  "resource_id": "animal-species",
+  "resource_url": "http://hl7.org/fhir/ValueSet/animal-species",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "125097000",
+            "display": "goat"
+          },
+          {
+            "code": "125099002",
+            "display": "sheep"
+          },
+          {
+            "code": "34618005",
+            "display": "cow"
+          },
+          {
+            "code": "425134008",
+            "display": "turkey"
+          },
+          {
+            "code": "47290002",
+            "display": "chicken"
+          },
+          {
+            "code": "15778005",
+            "display": "goose"
+          },
+          {
+            "code": "396620009",
+            "display": "duck"
+          },
+          {
+            "code": "388445009",
+            "display": "horse"
+          },
+          {
+            "code": "85626006",
+            "display": "donkey"
+          },
+          {
+            "code": "132950000",
+            "display": "mule"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate species of animal patients.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "125097000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "goat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "125099002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "sheep",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "34618005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "cow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "425134008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "turkey",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "47290002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "chicken",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15778005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "goose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "396620009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "duck",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "388445009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "horse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "85626006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "donkey",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "132950000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "mule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

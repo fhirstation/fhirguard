@@ -1,0 +1,41 @@
+{
+  "name": "ExampleCoverageFinancialExceptionCodes",
+  "resource_id": "coverage-financial-exception",
+  "resource_url": "http://hl7.org/fhir/ValueSet/coverage-financial-exception",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception"
+      }
+    ]
+  },
+  "description": "This value set includes Example Coverage Financial Exception Codes.",
+  "related_codesystems": [
+    {
+      "id": "coverage-financial-exception",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "retired",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception",
+      "display": "Retired",
+      "description": "Retired persons have all copays and deductibles reduced.",
+      "filter": null
+    },
+    {
+      "code": "foster",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-coverage-financial-exception",
+      "display": "Foster child",
+      "description": "Children in the foster care have all copays and deductibles waived.",
+      "filter": null
+    }
+  ]
+}

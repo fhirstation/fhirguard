@@ -1,0 +1,14 @@
+{
+  "name": "v2.0634",
+  "resource_id": "v2-0634",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0634",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CRT",
+      "display": "Critical"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

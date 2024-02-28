@@ -1,0 +1,301 @@
+{
+  "name": "v3.AddressPartType",
+  "resource_id": "v3-AddressPartType",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-AddressPartType",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType"
+      }
+    ]
+  },
+  "description": "  Description:\r\nCode that specifies whether an address part names the street, city, country, postal code, post box, etc. Discussion: The hierarchical nature of these concepts shows composition.  E.g. \"Street Name\" is part of \"Street Address Line\"",
+  "related_codesystems": [
+    {
+      "id": "v3-AddressPartType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ADL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "additional locator",
+      "description": "This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., \"3rd floor, Appt. 342\"). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch \"t.o.\" means \"opposite to\" for house boats located across the street facing houses).",
+      "filter": null
+    },
+    {
+      "code": "AL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "address line",
+      "description": "Description: An address line is for either an additional locator, a delivery address or a street address.",
+      "filter": null
+    },
+    {
+      "code": "BNN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "building number numeric",
+      "description": "The numeric portion of a building number",
+      "filter": null
+    },
+    {
+      "code": "BNR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "building number",
+      "description": "The number of a building, house or lot alongside the street.  Also known as \"primary street number\".  This does not number the street but rather the building.",
+      "filter": null
+    },
+    {
+      "code": "BNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "building number suffix",
+      "description": "Any alphabetic character, fraction or other text that may appear after the numeric portion of a building number",
+      "filter": null
+    },
+    {
+      "code": "CAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "care of",
+      "description": "The name of the party who will take receipt at the specified address, and will take on responsibility for ensuring delivery to the target recipient",
+      "filter": null
+    },
+    {
+      "code": "CEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "census tract",
+      "description": "A geographic sub-unit delineated for demographic purposes.",
+      "filter": null
+    },
+    {
+      "code": "CNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "country",
+      "description": "Country",
+      "filter": null
+    },
+    {
+      "code": "CPA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "county or parish",
+      "description": "A sub-unit of a state or province. (49 of the United States of America use the term \"county;\" Louisiana uses the term \"parish\".)",
+      "filter": null
+    },
+    {
+      "code": "CTY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "municipality",
+      "description": "The name of the city, town, village, or other community or delivery center",
+      "filter": null
+    },
+    {
+      "code": "DEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delimiter",
+      "description": "Delimiters are printed without framing white space.  If no value component is provided, the delimiter appears as a line break.",
+      "filter": null
+    },
+    {
+      "code": "DINST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delivery installation type",
+      "description": "Indicates the type of delivery installation (the facility to which the mail will be delivered prior to final shipping via the delivery mode.) Example: post office, letter carrier depot, community mail center, station, etc.",
+      "filter": null
+    },
+    {
+      "code": "DINSTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delivery installation area",
+      "description": "The location of the delivery installation, usually a town or city, and is only required if the area is different from the municipality. Area to which mail delivery service is provided from any postal facility or service such as an individual letter carrier, rural route, or postal route.",
+      "filter": null
+    },
+    {
+      "code": "DINSTQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delivery installation qualifier",
+      "description": "A number, letter or name identifying a delivery installation.  E.g., for Station A, the delivery installation qualifier would be 'A'.",
+      "filter": null
+    },
+    {
+      "code": "DIR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "direction",
+      "description": "Direction (e.g., N, S, W, E)",
+      "filter": null
+    },
+    {
+      "code": "DMOD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delivery mode",
+      "description": "Indicates the type of service offered, method of delivery.  For example: post office box, rural route, general delivery, etc.",
+      "filter": null
+    },
+    {
+      "code": "DMODID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delivery mode identifier",
+      "description": "Represents the routing information such as a letter carrier route number.  It is the identifying number of the designator (the box number or rural route number).",
+      "filter": null
+    },
+    {
+      "code": "DPID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "delivery point identifier",
+      "description": "A value that uniquely identifies the postal address.",
+      "filter": null
+    },
+    {
+      "code": "INT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "intersection",
+      "description": "Description:An intersection denotes that the actual address is located AT or CLOSE TO the intersection OF two or more streets.",
+      "filter": null
+    },
+    {
+      "code": "POB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "post box",
+      "description": "A numbered box located in a post station.",
+      "filter": null
+    },
+    {
+      "code": "PRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "precinct",
+      "description": "A subsection of a municipality",
+      "filter": null
+    },
+    {
+      "code": "STA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "state or province",
+      "description": "A sub-unit of a country with limited sovereignty in a federally organized country.",
+      "filter": null
+    },
+    {
+      "code": "STB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "street name base",
+      "description": "The base name of a roadway or artery recognized by a municipality (excluding street type and direction)",
+      "filter": null
+    },
+    {
+      "code": "STR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "street name",
+      "description": "street name",
+      "filter": null
+    },
+    {
+      "code": "STTYP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "street type",
+      "description": "The designation given to the street.  (e.g. Street, Avenue, Crescent, etc.)",
+      "filter": null
+    },
+    {
+      "code": "UNID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "unit identifier",
+      "description": "The number or name of a specific unit contained within a building or complex, as assigned by that building or complex.",
+      "filter": null
+    },
+    {
+      "code": "UNIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "unit designator",
+      "description": "Indicates the type of specific unit contained within a building or complex.  E.g. Appartment, Floor",
+      "filter": null
+    },
+    {
+      "code": "ZIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-AddressPartType",
+      "display": "postal code",
+      "description": "A postal code designating a region defined by the postal service.",
+      "filter": null
+    }
+  ]
+}

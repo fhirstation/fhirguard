@@ -1,0 +1,111 @@
+{
+  "name": "v2.0038",
+  "resource_id": "v2-0038",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0038",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0038"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0038 ( ORDER STATUS)",
+  "related_codesystems": [
+    {
+      "id": "v2-0038",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0038"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Some, but not all, results available",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Order was canceled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Order is completed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Order was discontinued",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Error, order not found",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Order is on hold",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "In process, unspecified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "Order has been replaced",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0038",
+      "display": "In process, scheduled",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "v2.0243",
+  "resource_id": "v2-0243",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0243",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0243"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0243 ( Identity may be Divulged)",
+  "related_codesystems": [
+    {
+      "id": "v2-0243",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0243"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0243",
+      "display": "No",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0243",
+      "display": "Not applicable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0243",
+      "display": "Yes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

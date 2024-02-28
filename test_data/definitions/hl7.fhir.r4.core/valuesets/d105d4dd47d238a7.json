@@ -1,0 +1,61 @@
+{
+  "name": "v2.0258",
+  "resource_id": "v2-0258",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0258",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0258"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0258 ( Relationship Modifier)",
+  "related_codesystems": [
+    {
+      "id": "v2-0258",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0258"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BPU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0258",
+      "display": "Blood product unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONTROL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0258",
+      "display": "Control",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DONOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0258",
+      "display": "Donor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0258",
+      "display": "Patient",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

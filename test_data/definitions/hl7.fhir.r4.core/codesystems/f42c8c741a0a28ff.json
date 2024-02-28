@@ -1,0 +1,134 @@
+{
+  "name": "v2.0391.2.4",
+  "resource_id": "v2-2.4-0391",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0391|2.4",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "OBRG",
+      "display": "OBR group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "ORCG",
+      "display": "ORC group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "PIDG",
+      "display": "PID group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "RXAG",
+      "display": "RXA group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "RXDG",
+      "display": "RXD group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "RXEG",
+      "display": "RXE group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "RXOG",
+      "display": "RXO group",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2007-04"
+        }
+      ]
+    },
+    {
+      "code": "etc",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2000-11"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, retired",
+      "type": "code"
+    },
+    {
+      "code": "deprecationDate",
+      "uri": "http://hl7.org/fhir/concept-properties#deprecationDate",
+      "description": "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged",
+      "type": "dateTime"
+    }
+  ],
+  "valueset": null
+}

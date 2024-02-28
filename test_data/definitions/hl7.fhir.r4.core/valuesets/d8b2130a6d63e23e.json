@@ -1,0 +1,521 @@
+{
+  "name": "OperationOutcomeCodes",
+  "resource_id": "operation-outcome",
+  "resource_url": "http://hl7.org/fhir/ValueSet/operation-outcome",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/operation-outcome"
+      }
+    ]
+  },
+  "description": "Operation Outcome codes used by FHIR test servers (see Implementation file translations.xml)",
+  "related_codesystems": [
+    {
+      "id": "operation-outcome",
+      "url": "http://terminology.hl7.org/CodeSystem/operation-outcome"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "DELETE_MULTIPLE_MATCHES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Error: Multiple matches exist for the conditional delete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_AUTH_REQUIRED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "You must authenticate before you can use this service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_BAD_FORMAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Bad Syntax: \"%s\" must be a %s'",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_BAD_SYNTAX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Bad Syntax in %s",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_CANT_PARSE_CONTENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unable to parse feed (entry content type = \"%s\")",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_CANT_PARSE_ROOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unable to parse feed (root element name = \"%s\")",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_CREATED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "New resource created",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_DATE_FORMAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "The Date value %s is not in the correct format (Xml Date Format required)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_DELETED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "This resource has been deleted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_DELETED_DONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resource deleted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_DELETED_ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "The resource \"%s\" has been deleted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_DUPLICATE_ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Duplicate Id %s for resource type %s",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_ERROR_PARSING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Error parsing resource Xml (%s)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_ID_INVALID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Id \"%s\" has an invalid character \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_ID_TOO_LONG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Id \"%s\" too long (length limit 36)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_INVALID_ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Id not accepted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_JSON_OBJECT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Json Source for a resource should start with an object",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_LOCAL_FAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unable to resolve local reference to resource %s",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_NO_EXIST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resource Id \"%s\" does not exist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_NO_MATCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "No Resource found matching the query \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_NO_MODULE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "No module could be found to handle the request \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_NO_SUMMARY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "No Summary for this resource",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_OP_NOT_ALLOWED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Operation %s not allowed for resource %s (due to local configuration)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_PARAM_CHAINED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unknown chained parameter name \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_PARAM_INVALID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Parameter \"%s\" content is invalid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_PARAM_MODIFIER_INVALID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Parameter \"%s\" modifier is invalid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_PARAM_NO_REPEAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Parameter \"%s\" is not allowed to repeat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_PARAM_UNKNOWN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Parameter \"%s\" not understood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_EXAMPLE_PROTECTED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resources with identity \"example\" cannot be deleted (for testing/training purposes)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_ID_FAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "unable to allocate resource id",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_ID_MISMATCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resource Id Mismatch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_ID_MISSING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resource Id Missing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_NOT_ALLOWED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Not allowed to submit a resource for this operation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_REQUIRED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "A resource is required",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_RESOURCE_TYPE_MISMATCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resource Type Mismatch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_SORT_UNKNOWN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unknown sort parameter name \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_TRANSACTION_DUPLICATE_ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Duplicate Identifier in transaction: %s",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_TRANSACTION_MISSING_ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Missing Identifier in transaction - an entry.id must be provided",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_UNHANDLED_NODE_TYPE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unhandled xml node type \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_UNKNOWN_CONTENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Unknown Content (%s) at %s",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_UNKNOWN_OPERATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "unknown FHIR http operation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_UNKNOWN_TYPE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Resource Type \"%s\" not recognised",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_UPDATED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "existing resource updated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_VERSION_AWARE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Version aware updates are required for this resource",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_VERSION_AWARE_CONFLICT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Update Conflict (server current version = \"%s\", client version referenced = \"%s\")",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_VERSION_AWARE_URL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Version specific URL not recognised",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG_WRONG_NS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "This does not appear to be a FHIR element or resource (wrong namespace \"%s\")",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEARCH_MULTIPLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Error: Multiple matches exist for %s search parameters \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEARCH_NONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Error: no processable search found for %s search parameters \"%s\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPDATE_MULTIPLE_MATCHES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/operation-outcome",
+      "display": "Error: Multiple matches exist for the conditional update",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

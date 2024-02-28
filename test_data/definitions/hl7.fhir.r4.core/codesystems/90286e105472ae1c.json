@@ -1,0 +1,60 @@
+{
+  "name": "ContractActionCodes",
+  "resource_id": "contract-action",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/contractaction",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "action-a",
+      "display": "Action A",
+      "definition": "Definition for Action A"
+    },
+    {
+      "code": "action-b",
+      "display": "Action B",
+      "definition": "Definition for Action B"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractActionCodes",
+    "resource_id": "contract-action",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-action",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/contractaction"
+        }
+      ]
+    },
+    "description": "This value set includes sample Contract Action codes.",
+    "related_codesystems": [
+      {
+        "id": "contract-action",
+        "url": "http://terminology.hl7.org/CodeSystem/contractaction"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "action-a",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/contractaction",
+        "display": "Action A",
+        "description": "Definition for Action A",
+        "filter": null
+      },
+      {
+        "code": "action-b",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/contractaction",
+        "display": "Action B",
+        "description": "Definition for Action B",
+        "filter": null
+      }
+    ]
+  }
+}

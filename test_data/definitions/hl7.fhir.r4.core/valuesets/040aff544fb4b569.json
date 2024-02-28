@@ -1,0 +1,26 @@
+{
+  "name": "QuestionnaireAnswerCodes",
+  "resource_id": "questionnaire-answers",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-answers",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "Example list of codes for answers to questions. (Not complete or necessarily appropriate.)",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

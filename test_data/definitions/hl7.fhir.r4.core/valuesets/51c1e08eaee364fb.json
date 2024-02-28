@@ -1,0 +1,51 @@
+{
+  "name": "TestReportResult",
+  "resource_id": "report-result-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/report-result-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/report-result-codes"
+      }
+    ]
+  },
+  "description": "The reported execution result.",
+  "related_codesystems": [
+    {
+      "id": "report-result-codes",
+      "url": "http://hl7.org/fhir/report-result-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "pass",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-result-codes",
+      "display": "Pass",
+      "description": "All test operations successfully passed all asserts.",
+      "filter": null
+    },
+    {
+      "code": "fail",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-result-codes",
+      "display": "Fail",
+      "description": "One or more test operations failed one or more asserts.",
+      "filter": null
+    },
+    {
+      "code": "pending",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-result-codes",
+      "display": "Pending",
+      "description": "One or more test operations is pending execution completion.",
+      "filter": null
+    }
+  ]
+}

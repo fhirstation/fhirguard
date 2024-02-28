@@ -1,0 +1,121 @@
+{
+  "name": "v2.0734",
+  "resource_id": "v2-0734",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0734",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0734"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0734 ( Grouper Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0734",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0734"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Normal grouping",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid or missing primary diagnosis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Diagnosis is not allowed to be primary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Data does not fulfill DRG criteria",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid age, admission date, date of birth or discharge date",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid gender",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid discharge status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid weight ad admission",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid length of stay",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0734",
+      "display": "Invalid field \"same day\"",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

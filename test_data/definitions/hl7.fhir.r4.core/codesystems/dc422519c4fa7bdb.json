@@ -1,0 +1,90 @@
+{
+  "name": "medicationRequest Category Codes",
+  "resource_id": "medicationrequest-category",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "inpatient",
+      "display": "Inpatient",
+      "definition": "Includes requests for medications to be administered or consumed in an inpatient or acute care setting"
+    },
+    {
+      "code": "outpatient",
+      "display": "Outpatient",
+      "definition": "Includes requests for medications to be administered or consumed in an outpatient setting (for example, Emergency Department, Outpatient Clinic, Outpatient Surgery, Doctor's office)"
+    },
+    {
+      "code": "community",
+      "display": "Community",
+      "definition": "Includes requests for medications to be administered or consumed by the patient in their home (this would include long term care or nursing homes, hospices, etc.)"
+    },
+    {
+      "code": "discharge",
+      "display": "Discharge",
+      "definition": "Includes requests for medications created when the patient is being released from a facility"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "medicationRequest Category Codes",
+    "resource_id": "medicationrequest-category",
+    "resource_url": "http://hl7.org/fhir/ValueSet/medicationrequest-category",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+        }
+      ]
+    },
+    "description": "MedicationRequest Category Codes",
+    "related_codesystems": [
+      {
+        "id": "medicationrequest-category",
+        "url": "http://terminology.hl7.org/CodeSystem/medicationrequest-category"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "inpatient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+        "display": "Inpatient",
+        "description": "Includes requests for medications to be administered or consumed in an inpatient or acute care setting",
+        "filter": null
+      },
+      {
+        "code": "outpatient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+        "display": "Outpatient",
+        "description": "Includes requests for medications to be administered or consumed in an outpatient setting (for example, Emergency Department, Outpatient Clinic, Outpatient Surgery, Doctor's office)",
+        "filter": null
+      },
+      {
+        "code": "community",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+        "display": "Community",
+        "description": "Includes requests for medications to be administered or consumed by the patient in their home (this would include long term care or nursing homes, hospices, etc.)",
+        "filter": null
+      },
+      {
+        "code": "discharge",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+        "display": "Discharge",
+        "description": "Includes requests for medications created when the patient is being released from a facility",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "name": "v2.0104",
+  "resource_id": "v2-0104",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0104",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0104"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0104 ( VERSION CONTROL TABLE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0104",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0104"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "2.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.0",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.0D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Demo 2.0",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.3",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.3.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.3.1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.3.2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.3.2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.5.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.5.1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.6",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.7",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.7.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.7.1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.8",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.8.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.8.1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.8.2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Release 2.8.2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0104",
+      "display": "Draft 2.9",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

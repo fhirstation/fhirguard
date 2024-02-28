@@ -1,0 +1,35 @@
+{
+  "name": "AlternativeCodeKind",
+  "resource_id": "codesystem-altcode-kind",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/codesystem-altcode-kind",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "alternate",
+      "display": "Alternate Code",
+      "definition": "The code is an alternative code that can be used in any of the circumstances that the primary code can be used."
+    },
+    {
+      "code": "deprecated",
+      "display": "Deprecated",
+      "definition": "The code should no longer be used, but was used in the past."
+    },
+    {
+      "code": "case-insensitive",
+      "display": "Case Insensitive",
+      "definition": "The code is an alternative to be used when a case insensitive code is required (when the primary codes are case sensitive)."
+    },
+    {
+      "code": "case-sensitive",
+      "display": "Case Sensitive",
+      "definition": "The code is an alternative to be used when a case sensitive code is required (when the primary codes are case insensitive)."
+    },
+    {
+      "code": "expression",
+      "display": "Expression",
+      "definition": "The code is an alternative for the primary code that is built using the expression grammar defined by the code system."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

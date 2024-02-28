@@ -1,0 +1,90 @@
+{
+  "name": "QualityOfEvidenceRating",
+  "resource_id": "evidence-quality",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/evidence-quality",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "high",
+      "display": "High quality",
+      "definition": "High quality evidence."
+    },
+    {
+      "code": "moderate",
+      "display": "Moderate quality",
+      "definition": "Moderate quality evidence."
+    },
+    {
+      "code": "low",
+      "display": "Low quality",
+      "definition": "Low quality evidence."
+    },
+    {
+      "code": "very-low",
+      "display": "Very low quality",
+      "definition": "Very low quality evidence."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "QualityOfEvidenceRating",
+    "resource_id": "evidence-quality",
+    "resource_url": "http://hl7.org/fhir/ValueSet/evidence-quality",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/evidence-quality"
+        }
+      ]
+    },
+    "description": "A rating system that describes the quality of evidence such as the GRADE, DynaMed, or Oxford CEBM systems.",
+    "related_codesystems": [
+      {
+        "id": "evidence-quality",
+        "url": "http://terminology.hl7.org/CodeSystem/evidence-quality"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "high",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/evidence-quality",
+        "display": "High quality",
+        "description": "High quality evidence.",
+        "filter": null
+      },
+      {
+        "code": "moderate",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/evidence-quality",
+        "display": "Moderate quality",
+        "description": "Moderate quality evidence.",
+        "filter": null
+      },
+      {
+        "code": "low",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/evidence-quality",
+        "display": "Low quality",
+        "description": "Low quality evidence.",
+        "filter": null
+      },
+      {
+        "code": "very-low",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/evidence-quality",
+        "display": "Very low quality",
+        "description": "Very low quality evidence.",
+        "filter": null
+      }
+    ]
+  }
+}

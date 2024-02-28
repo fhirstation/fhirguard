@@ -1,0 +1,61 @@
+{
+  "name": "v2.0389",
+  "resource_id": "v2-0389",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0389",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0389"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0389 ( Analyte repeat status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0389",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0389"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0389",
+      "display": "Repeated with dilution",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0389",
+      "display": "Reflex test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0389",
+      "display": "Original, first run",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0389",
+      "display": "Repeated without dilution",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "name": "v2.0009",
+  "resource_id": "v2-0009",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0009",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0009"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0009 ( AMBULATORY STATUS)",
+  "related_codesystems": [
+    {
+      "id": "v2-0009",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0009"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "No functional limitations",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Ambulates with assistive device",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Wheelchair/stretcher bound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Comatose; non-responsive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Disoriented",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Vision impaired",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Hearing impaired",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Speech impaired",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Non-English speaking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Functional level unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Oxygen therapy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Special equipment (tubes, IVs, catheters)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Amputee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Mastectomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Paraplegic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0009",
+      "display": "Pregnant",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

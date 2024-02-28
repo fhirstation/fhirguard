@@ -1,0 +1,56 @@
+{
+  "name": "InvestigationType",
+  "resource_id": "investigation-sets",
+  "resource_url": "http://hl7.org/fhir/ValueSet/investigation-sets",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "271336007",
+            "display": "Examination / signs"
+          },
+          {
+            "code": "160237006",
+            "display": "History/symptoms"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for investigation type.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "271336007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Examination / signs",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "160237006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "History/symptoms",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

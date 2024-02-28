@@ -1,0 +1,121 @@
+{
+  "name": "v2.0470",
+  "resource_id": "v2-0470",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0470",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0470"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0470 ( Reimbursement type code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0470",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0470"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Crnl",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Corneal Tissue APC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Durable Medical Equipment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Epotein",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Lab",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Clinical Laboratory APC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Mamm",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Screening Mammography APC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NoPay",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "This APC is not paid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Outpatient Prospective Payment System",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PartH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Partial Hospitalization APC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Pckg",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Packaged APC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Thrpy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0470",
+      "display": "Therapy APC",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "FHIRSubstanceStatus",
+  "resource_id": "substance-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/substance-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/substance-status"
+      }
+    ]
+  },
+  "description": "A code to indicate if the substance is actively used.",
+  "related_codesystems": [
+    {
+      "id": "substance-status",
+      "url": "http://hl7.org/fhir/substance-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/substance-status",
+      "display": "Active",
+      "description": "The substance is considered for use or reference.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/substance-status",
+      "display": "Inactive",
+      "description": "The substance is considered for reference, but not for use.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/substance-status",
+      "display": "Entered in Error",
+      "description": "The substance was entered in error.",
+      "filter": null
+    }
+  ]
+}

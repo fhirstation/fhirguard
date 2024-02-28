@@ -1,0 +1,61 @@
+{
+  "name": "TransactionMode",
+  "resource_id": "transaction-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/transaction-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/transaction-mode"
+      }
+    ]
+  },
+  "description": "A code that indicates how transactions are supported.",
+  "related_codesystems": [
+    {
+      "id": "transaction-mode",
+      "url": "http://hl7.org/fhir/transaction-mode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "not-supported",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/transaction-mode",
+      "display": "None",
+      "description": "Neither batch or transaction is supported.",
+      "filter": null
+    },
+    {
+      "code": "batch",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/transaction-mode",
+      "display": "Batches supported",
+      "description": "Batches are  supported.",
+      "filter": null
+    },
+    {
+      "code": "transaction",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/transaction-mode",
+      "display": "Transactions Supported",
+      "description": "Transactions are supported.",
+      "filter": null
+    },
+    {
+      "code": "both",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/transaction-mode",
+      "display": "Batches & Transactions",
+      "description": "Both batches and transactions are supported.",
+      "filter": null
+    }
+  ]
+}

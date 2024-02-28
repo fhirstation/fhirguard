@@ -1,0 +1,31 @@
+{
+  "name": "ContractResourceAssetAvailiabilityCodes",
+  "resource_id": "asset-availability",
+  "resource_url": "http://hl7.org/fhir/ValueSet/asset-availability",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/asset-availability"
+      }
+    ]
+  },
+  "description": "This value set has asset availability codes.",
+  "related_codesystems": [
+    {
+      "id": "asset-availability",
+      "url": "http://hl7.org/fhir/asset-availability"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "lease",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/asset-availability",
+      "display": "Lease",
+      "description": "To be completed",
+      "filter": null
+    }
+  ]
+}

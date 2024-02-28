@@ -1,0 +1,26 @@
+{
+  "name": "AllLanguages",
+  "resource_id": "all-languages",
+  "resource_url": "http://hl7.org/fhir/ValueSet/all-languages",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:bcp:47"
+      }
+    ]
+  },
+  "description": "This value set includes all possible codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "urn:ietf:bcp:47",
+      "type": [
+        "include"
+      ],
+      "system": "urn:ietf:bcp:47",
+      "display": "urn:ietf:bcp:47",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

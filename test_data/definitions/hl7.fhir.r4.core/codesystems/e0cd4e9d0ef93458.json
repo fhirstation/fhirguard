@@ -1,0 +1,90 @@
+{
+  "name": "ActionParticipantType",
+  "resource_id": "action-participant-type",
+  "resource_url": "http://hl7.org/fhir/action-participant-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "patient",
+      "display": "Patient",
+      "definition": "The participant is the patient under evaluation."
+    },
+    {
+      "code": "practitioner",
+      "display": "Practitioner",
+      "definition": "The participant is a practitioner involved in the patient's care."
+    },
+    {
+      "code": "related-person",
+      "display": "Related Person",
+      "definition": "The participant is a person related to the patient."
+    },
+    {
+      "code": "device",
+      "display": "Device",
+      "definition": "The participant is a system or device used in the care of the patient."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ActionParticipantType",
+    "resource_id": "action-participant-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/action-participant-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/action-participant-type"
+        }
+      ]
+    },
+    "description": "The type of participant for the action.",
+    "related_codesystems": [
+      {
+        "id": "action-participant-type",
+        "url": "http://hl7.org/fhir/action-participant-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "patient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-participant-type",
+        "display": "Patient",
+        "description": "The participant is the patient under evaluation.",
+        "filter": null
+      },
+      {
+        "code": "practitioner",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-participant-type",
+        "display": "Practitioner",
+        "description": "The participant is a practitioner involved in the patient's care.",
+        "filter": null
+      },
+      {
+        "code": "related-person",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-participant-type",
+        "display": "Related Person",
+        "description": "The participant is a person related to the patient.",
+        "filter": null
+      },
+      {
+        "code": "device",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-participant-type",
+        "display": "Device",
+        "description": "The participant is a system or device used in the care of the patient.",
+        "filter": null
+      }
+    ]
+  }
+}

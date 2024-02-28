@@ -1,0 +1,122 @@
+{
+  "name": "v2.0237",
+  "resource_id": "v2-0237",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0237",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Abuse",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Misbruik"
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "display": "Unexpected beneficial effect",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onverwacht goedaardig effect"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Dependency",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Afhankelijkheid"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Interaction",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Interactie"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Lack of expect therapeutic effect",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Uitgebleven verwacht therapeutisch effect"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Misuse",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verkeerd gebruik"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Overdose",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overdosis"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Drug withdrawal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Medicatie onthouden"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

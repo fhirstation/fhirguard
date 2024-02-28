@@ -1,0 +1,451 @@
+{
+  "name": "v2.0912",
+  "resource_id": "v2-0912",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0912",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0912"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0912 ( Participation)",
+  "related_codesystems": [
+    {
+      "id": "v2-0912",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0912"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AAP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Alert Acknowledging Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Administration Cosigner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Admitting Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AHP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Authorized Performing Health Professional",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Assistant/Alternate Interpreter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Administering Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Authorized Performing Provider Organization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Assistant Result Interpreter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Attending Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Author/Event Initiator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Consulting Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Dispensing Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EARI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Expected Assistant Result Interpreter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Entering Person",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Expected Principal Result Interpreter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EQUIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Equipment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FHCP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Family Health Care Professional",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDIR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Medical Director",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Ordering Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Outside Site(s) Where Observation May Be Performed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Packed by",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Pharmacist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Primary Interpreter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Performing Organization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Performing Organization Medical Director",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Primary Care Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Patient Preferred Pharmacy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Principal Result Interpreter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Results Copies To",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RHP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Referring Health Professional",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Responsible Observer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Referring Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Referring Provider Organization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Referred to Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Send by",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Specimen Collector",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Technician",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Transcriptionist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Verifier (Verifying Person)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Waypoint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WAYR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0912",
+      "display": "Waypoint Recipient",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

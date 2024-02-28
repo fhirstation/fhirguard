@@ -1,0 +1,41 @@
+{
+  "name": "ContractActorRoleCodes",
+  "resource_id": "contract-actorrole",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-actorrole",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/contractactorrole"
+      }
+    ]
+  },
+  "description": "This value set includes sample Contract Actor Role codes.",
+  "related_codesystems": [
+    {
+      "id": "contract-actorrole",
+      "url": "http://terminology.hl7.org/CodeSystem/contractactorrole"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "practitioner",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractactorrole",
+      "display": "Practitioner",
+      "description": "Someone who provides health care related services to people or animals including both clinical and support services.",
+      "filter": null
+    },
+    {
+      "code": "patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractactorrole",
+      "display": "Patient",
+      "description": "A receiver, human or animal, of health care related goods and services.",
+      "filter": null
+    }
+  ]
+}

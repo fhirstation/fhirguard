@@ -1,0 +1,601 @@
+{
+  "name": "v2.0119",
+  "resource_id": "v2-0119",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0119",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0119"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0119 ( ORDER CONTROL)",
+  "related_codesystems": [
+    {
+      "id": "v2-0119",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0119"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service refill request approval",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Cancel order/service request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Child order/service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Combined result",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Cancel process step",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Canceled as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Discontinue order/service request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Data errors",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service refill request denied",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Discontinued as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service refilled, unsolicited",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Hold order request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "On hold as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Link order/service to patient care problem or goal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Miscellaneous Charge - not associated with an order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Number assigned",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Notification Received",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "New order/service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service canceled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service discontinued",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service released",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service refilled as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service held",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service accepted & OK",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Notification of order for outside dispense",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Released as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Parent order/service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Previous Results with new order/service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Notification of replacement order for outside dispense",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Recommendation Accepted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Recommended Change",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Recommendation Declined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Observations/Performed Service to follow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Refill order/service request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Release previous hold",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Replacement order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service replace request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Replaced as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Request received",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Replaced unsolicited",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Status changed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Send order/service number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Supplemented as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Response to send order/service status request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Send order/service status request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Supplement this order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to accept order/service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to cancel",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to discontinue",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to refill",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to put on hold",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to replace",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unlink order/service from patient care problem or goal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to release",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Unable to change",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Change order/service request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Changed as requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0119",
+      "display": "Order/service changed, unsol.",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

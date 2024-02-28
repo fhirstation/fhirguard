@@ -1,0 +1,81 @@
+{
+  "name": "v2.0477",
+  "resource_id": "v2-0477",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0477",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0477"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0477 ( Controlled Substance Schedule)",
+  "related_codesystems": [
+    {
+      "id": "v2-0477",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0477"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0477",
+      "display": "Schedule I",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "II",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0477",
+      "display": "Schedule II",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "III",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0477",
+      "display": "Schedule III",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0477",
+      "display": "Schedule IV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0477",
+      "display": "Schedule V",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0477",
+      "display": "Schedule VI",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

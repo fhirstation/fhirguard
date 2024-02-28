@@ -1,0 +1,1134 @@
+{
+  "name": "FacilityTypeCodeValueSet",
+  "resource_id": "c80-facilitycodes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/c80-facilitycodes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "82242000",
+            "display": "Hospital-children's"
+          },
+          {
+            "code": "225732001",
+            "display": "Hospital-community"
+          },
+          {
+            "code": "79993009",
+            "display": "Hospital-government"
+          },
+          {
+            "code": "32074000",
+            "display": "Hospital-long term care"
+          },
+          {
+            "code": "4322002",
+            "display": "Hospital-military field"
+          },
+          {
+            "code": "224687002",
+            "display": "Hospital-prison"
+          },
+          {
+            "code": "62480006",
+            "display": "Hospital-psychiatric"
+          },
+          {
+            "code": "80522000",
+            "display": "Hospital-rehabilitation"
+          },
+          {
+            "code": "36125001",
+            "display": "Hospital-trauma center"
+          },
+          {
+            "code": "48311003",
+            "display": "Hospital-Veterans' Administration"
+          },
+          {
+            "code": "284546000",
+            "display": "Hospice facility"
+          },
+          {
+            "code": "42665001",
+            "display": "Nursing home"
+          },
+          {
+            "code": "45618002",
+            "display": "Skilled nursing facility"
+          },
+          {
+            "code": "418518002",
+            "display": "Dialysis unit--hospital"
+          },
+          {
+            "code": "73770003",
+            "display": "Emergency department--hospital"
+          },
+          {
+            "code": "69362002",
+            "display": "Hospital ambulatory surgery facility"
+          },
+          {
+            "code": "52668009",
+            "display": "Hospital birthing center"
+          },
+          {
+            "code": "360957003",
+            "display": "Hospital outpatient allergy clinic"
+          },
+          {
+            "code": "10206005",
+            "display": "Hospital outpatient dental clinic"
+          },
+          {
+            "code": "37550003",
+            "display": "Hospital outpatient dermatology clinic"
+          },
+          {
+            "code": "73644007",
+            "display": "Hospital outpatient endocrinology clinic"
+          },
+          {
+            "code": "31628002",
+            "display": "Hospital outpatient family medicine clinic"
+          },
+          {
+            "code": "58482006",
+            "display": "Hospital outpatient gastroenterology clinic"
+          },
+          {
+            "code": "90484001",
+            "display": "Hospital outpatient general surgery clinic"
+          },
+          {
+            "code": "1814000",
+            "display": "Hospital outpatient geriatric health center"
+          },
+          {
+            "code": "22549003",
+            "display": "Hospital outpatient gynecology clinic"
+          },
+          {
+            "code": "56293002",
+            "display": "Hospital outpatient hematology clinic"
+          },
+          {
+            "code": "360966004",
+            "display": "Hospital outpatient immunology clinic"
+          },
+          {
+            "code": "2849009",
+            "display": "Hospital outpatient infectious disease clinic"
+          },
+          {
+            "code": "14866005",
+            "display": "Hospital outpatient mental health center"
+          },
+          {
+            "code": "38238005",
+            "display": "Hospital outpatient neurology clinic"
+          },
+          {
+            "code": "56189001",
+            "display": "Hospital outpatient obstetrical clinic"
+          },
+          {
+            "code": "89972002",
+            "display": "Hospital outpatient oncology clinic"
+          },
+          {
+            "code": "78088001",
+            "display": "Hospital outpatient ophthalmology clinic"
+          },
+          {
+            "code": "78001009",
+            "display": "Hospital outpatient orthopedics clinic"
+          },
+          {
+            "code": "23392004",
+            "display": "Hospital outpatient otorhinolaryngology clinic"
+          },
+          {
+            "code": "36293008",
+            "display": "Hospital outpatient pain clinic"
+          },
+          {
+            "code": "3729002",
+            "display": "Hospital outpatient pediatric clinic"
+          },
+          {
+            "code": "5584006",
+            "display": "Hospital outpatient peripheral vascular clinic"
+          },
+          {
+            "code": "37546005",
+            "display": "Hospital outpatient rehabilitation clinic"
+          },
+          {
+            "code": "57159002",
+            "display": "Hospital outpatient respiratory disease clinic"
+          },
+          {
+            "code": "331006",
+            "display": "Hospital outpatient rheumatology clinic"
+          },
+          {
+            "code": "50569004",
+            "display": "Hospital outpatient urology clinic"
+          },
+          {
+            "code": "79491001",
+            "display": "Hospital radiology facility"
+          },
+          {
+            "code": "33022008",
+            "display": "Hospital-based outpatient clinic or department--OTHER-NOT LISTED"
+          },
+          {
+            "code": "19602009",
+            "display": "Fee-for-service private physicians' group office"
+          },
+          {
+            "code": "39350007",
+            "display": "Private physicians' group office"
+          },
+          {
+            "code": "83891005",
+            "display": "Solo practice private office"
+          },
+          {
+            "code": "394759007",
+            "display": "Independent ambulatory care provider site--OTHER--NOT LISTED"
+          },
+          {
+            "code": "405607001",
+            "display": "Ambulatory surgery center"
+          },
+          {
+            "code": "309900005",
+            "display": "Care of the elderly day hospital"
+          },
+          {
+            "code": "275576008",
+            "display": "Elderly assessment clinic"
+          },
+          {
+            "code": "10531005",
+            "display": "Free-standing ambulatory surgery facility"
+          },
+          {
+            "code": "91154008",
+            "display": "Free-standing birthing center"
+          },
+          {
+            "code": "41844007",
+            "display": "Free-standing geriatric health center"
+          },
+          {
+            "code": "45899008",
+            "display": "Free-standing laboratory facility"
+          },
+          {
+            "code": "51563005",
+            "display": "Free-standing mental health center"
+          },
+          {
+            "code": "1773006",
+            "display": "Free-standing radiology facility"
+          },
+          {
+            "code": "72311000",
+            "display": "Health maintenance organization"
+          },
+          {
+            "code": "6827000",
+            "display": "Local community health center"
+          },
+          {
+            "code": "309898008",
+            "display": "Psychogeriatric day hospital"
+          },
+          {
+            "code": "39913001",
+            "display": "Residential school infirmary"
+          },
+          {
+            "code": "77931003",
+            "display": "Rural health center"
+          },
+          {
+            "code": "25681007",
+            "display": "Sexually transmitted disease health center"
+          },
+          {
+            "code": "20078004",
+            "display": "Substance abuse treatment center"
+          },
+          {
+            "code": "46224007",
+            "display": "Vaccination clinic"
+          },
+          {
+            "code": "81234003",
+            "display": "Walk-in clinic"
+          },
+          {
+            "code": "35971002",
+            "display": "Ambulatory care site--OTHER--NOT LISTED"
+          },
+          {
+            "code": "11424001",
+            "display": "Ambulance-based care"
+          },
+          {
+            "code": "409519008",
+            "display": "Contained casualty setting"
+          },
+          {
+            "code": "901005",
+            "display": "Helicopter-based care"
+          },
+          {
+            "code": "2081004",
+            "display": "Hospital ship"
+          },
+          {
+            "code": "59374000",
+            "display": "Traveler's aid clinic"
+          },
+          {
+            "code": "413456002",
+            "display": "Adult day care center"
+          },
+          {
+            "code": "413817003",
+            "display": "Child day care center"
+          },
+          {
+            "code": "310205006",
+            "display": "Private residential home"
+          },
+          {
+            "code": "419955002",
+            "display": "Residential institution"
+          },
+          {
+            "code": "272501009",
+            "display": "Sports facility"
+          },
+          {
+            "code": "394777002",
+            "display": "Health encounter site--NOT LISTED"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This is the code representing the type of organizational setting where the clinical encounter, service, interaction, or treatment occurred. The value set used for Healthcare Facility Type has been defined by HITSP to be the value set reproduced from HITSP C80 Table 2-147.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "82242000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-children's",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "225732001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-community",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79993009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-government",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "32074000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-long term care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4322002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-military field",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "224687002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-prison",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "62480006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-psychiatric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "80522000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-rehabilitation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "36125001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-trauma center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "48311003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-Veterans' Administration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "284546000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospice facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "42665001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Nursing home",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "45618002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Skilled nursing facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418518002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dialysis unit--hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73770003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Emergency department--hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "69362002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital ambulatory surgery facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "52668009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital birthing center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "360957003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient allergy clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10206005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient dental clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37550003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient dermatology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73644007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient endocrinology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "31628002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient family medicine clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "58482006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient gastroenterology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "90484001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient general surgery clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1814000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient geriatric health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "22549003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient gynecology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "56293002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient hematology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "360966004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient immunology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2849009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient infectious disease clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14866005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient mental health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "38238005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient neurology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "56189001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient obstetrical clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "89972002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient oncology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78088001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient ophthalmology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78001009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient orthopedics clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "23392004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient otorhinolaryngology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "36293008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient pain clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3729002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient pediatric clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5584006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient peripheral vascular clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37546005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient rehabilitation clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "57159002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient respiratory disease clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "331006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient rheumatology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "50569004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital outpatient urology clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79491001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital radiology facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "33022008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital-based outpatient clinic or department--OTHER-NOT LISTED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "19602009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Fee-for-service private physicians' group office",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39350007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Private physicians' group office",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "83891005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Solo practice private office",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394759007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Independent ambulatory care provider site--OTHER--NOT LISTED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "405607001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Ambulatory surgery center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "309900005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Care of the elderly day hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "275576008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Elderly assessment clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10531005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Free-standing ambulatory surgery facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "91154008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Free-standing birthing center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "41844007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Free-standing geriatric health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "45899008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Free-standing laboratory facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "51563005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Free-standing mental health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1773006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Free-standing radiology facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72311000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Health maintenance organization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6827000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Local community health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "309898008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Psychogeriatric day hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39913001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Residential school infirmary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77931003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Rural health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "25681007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Sexually transmitted disease health center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "20078004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Substance abuse treatment center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46224007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Vaccination clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "81234003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Walk-in clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "35971002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Ambulatory care site--OTHER--NOT LISTED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11424001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Ambulance-based care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409519008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Contained casualty setting",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "901005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Helicopter-based care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2081004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hospital ship",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "59374000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Traveler's aid clinic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "413456002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Adult day care center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "413817003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Child day care center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "310205006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Private residential home",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419955002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Residential institution",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "272501009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Sports facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394777002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Health encounter site--NOT LISTED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

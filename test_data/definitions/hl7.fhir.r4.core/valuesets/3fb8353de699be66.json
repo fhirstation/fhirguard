@@ -1,0 +1,71 @@
+{
+  "name": "QuestionnaireResponseStatus",
+  "resource_id": "questionnaire-answers-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-answers-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/questionnaire-answers-status"
+      }
+    ]
+  },
+  "description": "Lifecycle status of the questionnaire response.",
+  "related_codesystems": [
+    {
+      "id": "questionnaire-answers-status",
+      "url": "http://hl7.org/fhir/questionnaire-answers-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "in-progress",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-answers-status",
+      "display": "In Progress",
+      "description": "This QuestionnaireResponse has been partially filled out with answers but changes or additions are still expected to be made to it.",
+      "filter": null
+    },
+    {
+      "code": "completed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-answers-status",
+      "display": "Completed",
+      "description": "This QuestionnaireResponse has been filled out with answers and the current content is regarded as definitive.",
+      "filter": null
+    },
+    {
+      "code": "amended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-answers-status",
+      "display": "Amended",
+      "description": "This QuestionnaireResponse has been filled out with answers, then marked as complete, yet changes or additions have been made to it afterwards.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-answers-status",
+      "display": "Entered in Error",
+      "description": "This QuestionnaireResponse was entered in error and voided.",
+      "filter": null
+    },
+    {
+      "code": "stopped",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-answers-status",
+      "display": "Stopped",
+      "description": "This QuestionnaireResponse has been partially filled out with answers but has been abandoned. It is unknown whether changes or additions are expected to be made to it.",
+      "filter": null
+    }
+  ]
+}

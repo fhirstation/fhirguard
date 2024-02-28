@@ -1,0 +1,54 @@
+{
+  "name": "v2.0444",
+  "resource_id": "v2-0444",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0444",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "F",
+      "display": "Prefix Family Middle Given Suffix",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Familienname zuerst"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Prefix Achternaam Middle Voornaam Suffix"
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "display": "Prefix Given Middle Family Suffix",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Familienname hinten"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Prefix Voornaam Middle Achternaam Suffix"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

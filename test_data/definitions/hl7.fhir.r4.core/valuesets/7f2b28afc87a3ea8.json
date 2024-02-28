@@ -1,0 +1,200 @@
+{
+  "name": "TypeRestfulInteraction",
+  "resource_id": "type-restful-interaction",
+  "resource_url": "http://hl7.org/fhir/ValueSet/type-restful-interaction",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/restful-interaction",
+        "concept": [
+          {
+            "code": "read"
+          },
+          {
+            "code": "vread"
+          },
+          {
+            "code": "update"
+          },
+          {
+            "code": "patch"
+          },
+          {
+            "code": "delete"
+          },
+          {
+            "code": "history-instance"
+          },
+          {
+            "code": "history-type"
+          },
+          {
+            "code": "create"
+          },
+          {
+            "code": "search-type"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Operations supported by REST at the type or instance level.",
+  "related_codesystems": [
+    {
+      "id": "restful-interaction",
+      "url": "http://hl7.org/fhir/restful-interaction"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "read",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "read",
+      "description": "Read the current state of the resource.",
+      "filter": null
+    },
+    {
+      "code": "vread",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "vread",
+      "description": "Read the state of a specific version of the resource.",
+      "filter": null
+    },
+    {
+      "code": "update",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "update",
+      "description": "Update an existing resource by its id (or create it if it is new).",
+      "filter": null
+    },
+    {
+      "code": "patch",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "patch",
+      "description": "Update an existing resource by posting a set of changes to it.",
+      "filter": null
+    },
+    {
+      "code": "delete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "delete",
+      "description": "Delete a resource.",
+      "filter": null
+    },
+    {
+      "code": "create",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "create",
+      "description": "Create a new resource with a server assigned id.",
+      "filter": null
+    },
+    {
+      "code": "read",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "vread",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "update",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "patch",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "delete",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "history-instance",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "history-type",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "create",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "search-type",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

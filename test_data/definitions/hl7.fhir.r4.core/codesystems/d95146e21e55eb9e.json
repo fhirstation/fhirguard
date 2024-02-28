@@ -1,0 +1,75 @@
+{
+  "name": "ExampleProviderQualificationCodes",
+  "resource_id": "provider-qualification",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/ex-providerqualification",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "311405",
+      "display": "Dentist",
+      "definition": "Dentist General Practitioner (DDS, DDM)."
+    },
+    {
+      "code": "604215",
+      "display": "Ophthalmologist",
+      "definition": "Ophthalmologist."
+    },
+    {
+      "code": "604210",
+      "display": "Optometrist",
+      "definition": "Optometrist."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExampleProviderQualificationCodes",
+    "resource_id": "provider-qualification",
+    "resource_url": "http://hl7.org/fhir/ValueSet/provider-qualification",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/ex-providerqualification"
+        }
+      ]
+    },
+    "description": "This value set includes sample Provider Qualification codes.",
+    "related_codesystems": [
+      {
+        "id": "provider-qualification",
+        "url": "http://terminology.hl7.org/CodeSystem/ex-providerqualification"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "311405",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-providerqualification",
+        "display": "Dentist",
+        "description": "Dentist General Practitioner (DDS, DDM).",
+        "filter": null
+      },
+      {
+        "code": "604215",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-providerqualification",
+        "display": "Ophthalmologist",
+        "description": "Ophthalmologist.",
+        "filter": null
+      },
+      {
+        "code": "604210",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-providerqualification",
+        "display": "Optometrist",
+        "description": "Optometrist.",
+        "filter": null
+      }
+    ]
+  }
+}

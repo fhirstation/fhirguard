@@ -1,0 +1,51 @@
+{
+  "name": "v2.0224",
+  "resource_id": "v2-0224",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0224",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0224"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0224 ( Transport Arranged)",
+  "related_codesystems": [
+    {
+      "id": "v2-0224",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0224"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0224",
+      "display": "Arranged",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0224",
+      "display": "Not Arranged",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0224",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

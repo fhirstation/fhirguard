@@ -1,0 +1,3121 @@
+{
+  "name": "v2.0354",
+  "resource_id": "v2-0354",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0354",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0354"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0354 ( Message structure)",
+  "related_codesystems": [
+    {
+      "id": "v2-0354",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0354"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Varies",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADR_A19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A01, A04, A08, A13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A05, A14, A28, A31",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A06, A07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A09, A10, A11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A16",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A17",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A20",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A21, A22, A23, A25, A26, A27, A29, A32, A33",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A24",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A28, A31",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A37",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A38",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A39, A40, A41, A42",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A43",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A44",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A45",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A50, A51",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A52, A53",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A54",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A54, A55",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A60",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A60",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT_A61",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A61, A62",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARD_A19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A19",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR_P01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR_P02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR_P05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR_P06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR_P10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR_P12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPS_O29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O29",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRP_030",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O30",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRP_O30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O30",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRT_O32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O32",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BTS_O31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O31",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCF_I22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCI_I22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCM_I21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I21",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCQ_I19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I19",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCR_I16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I16, |17, |18",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCU_I20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I20",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CQU_I19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I19",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRM_C01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "C01, C02, C03, C04, C05, C06, C07, C08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSU_C09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "C09, C10, C11, C12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBC_O41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O41",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBC_O42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O42",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEL_O46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O46",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEO_O45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O45",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DER_O44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O44",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DFT_P03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DFT_P11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DOC_T12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DPR_O48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O48",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRC_O47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O47",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRG_O43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O43",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DSR_P04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DSR_Q01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DSR_Q03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAC_U07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAN_U09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAR_U08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDR_R07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E20",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E21",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC_E24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E24",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EQQ_Q04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ERP_R09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESR_U02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESU_U01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INR_U06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INU_U05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INV_U14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Events U14",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LSU_U12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U12, U13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDM_T01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "T01, T03, T05, T07, T09, T11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDM_T02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "T02, T04, T06, T08, T10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFD_MFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "MFA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFD_P09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFK_M01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M01, M02, M03, M04, M05, M06, M07, M08, M09, M10, M11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M16",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M17",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN_M18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M18",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFQ_M01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M01, M02, M03, M04, M05, M06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR_M01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M01, M02, M03,",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR_M04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR_M05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR_M06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR_M07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "M07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMD_N02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "N02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMQ_N01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "N01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMR_N01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "N01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMB_O27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O27",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMD_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMD_O03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMG_O19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O19",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMI_O23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O23",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OML_O21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O21",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OML_O33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O33",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OML_O35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O35",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OML_O39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O39",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OML_O59",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Laboratory Fulfillment request with REL segment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMN_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMN_O07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMP_O09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMQ_O42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O42",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMQ_O57",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O57",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMS_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMS_O05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPL_O37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O37",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPR_O38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O38",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPU_R25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R25",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORA_R33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R33",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORA_R41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R41",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORB_O28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O28",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORD_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORD_O04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORF_R02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R02, R04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORF_R04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORG_O20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O20",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORI_O24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O24",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O34",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O36",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O40",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O41",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O42",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O43",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O44",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O53",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O53",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O54",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O54",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O55",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL_O56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O56",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORM_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORM_Q06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORN_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORN_O08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORP_O10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORR_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORR_Q06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORS_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORS_O06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORU_R01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORU_R30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R30",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORU_R31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R31",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORU_R32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R32",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORU_W01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "W01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORX_O43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O43",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORX_O58",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O58",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSM_R26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R26",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSQ_Q06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSR_Q06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSU_O41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O41",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSU_O51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O51",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSU_O52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O52",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OUL_R21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R21",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OUL_R22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OUL_R23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R23",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OUL_R24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R24",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEX_P07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P07, P08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PGL_PC6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PC6, PC7, PC8",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PIN_I07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMU_B01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "B01, B02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMU_B03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "B03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMU_B04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "B04, B05, B06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMU_B07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "B07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMU_B08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "B08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPG_PCG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PCC, PCG, PCH, PCJ",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPP_PCB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PCB, PCD",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPR_PC1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PC1, PC2, PC3",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPT_PCL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PCL",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPV_PCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PCA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRR_PC5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PC5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PTR_PCF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PCF",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_E03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_E22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_O33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O33",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_O34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O34",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_Q11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_Q13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_Q15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_Q21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q21, Q22, Q23,Q24, Q25",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_Qnn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Qnn",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP_Z73",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Z73",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QCK_Q02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QCN_J01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "J01, J02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRF_W02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "W02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_A19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "A19",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_P04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_PC4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "PC4, PC9, PCE, PCK",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_Q01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q01, Q26, Q27, Q28, Q29, Q30",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_Q02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_R02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_T12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "T12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QSB_Q16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q16",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QVR_Q17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q17",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAR_RAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "RAR",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAS_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAS_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O022",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAS_O17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O17",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCI_I05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCL_I06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDE_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDE_O11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O11, O25",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDE_O49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Events O49",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDO_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDR_RDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "RDR",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDS_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDS_O13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDY_K11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDY_K15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REF_I12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I12, I13, I14, I15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RER_RER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "RER",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGR_RGR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "RGR",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGV_O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGV_O15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROR_ROR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "ROR",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPA_I08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I08, I09. I10, I11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPI_I01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I01, I04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPI_I04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPI_I0I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I01, I04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPL_I02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPR_I03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQA_I08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I08, I09, I10, I11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQC_I05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I05, I06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQC_I06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I06",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQI_I01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I01, I02, I03, I07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQI_I0I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I01, I02, I03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQP_I04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQQ_Q09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRA_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRA_O18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O18",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRD_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRD_O14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O14",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRE_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRE_O12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O12, O26",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRE_O50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Events O50",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRG_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O02",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRG_O16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O16",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRI_I12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "I12, I13, I14, I15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRO_O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_E03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_E22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "E22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K21",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K22",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K23, K24",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K24",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K25",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K31",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_K32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K32",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_O33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O33",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_O34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "O34",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_Q11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_Z82",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Z82",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_Z86",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Z86",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_Z88",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Z88",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP_Z90",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Z90",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RTB_K13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "K13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RTB_Knn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Knn",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RTB_Z74",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Z74",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDR_S31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S31, S36",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDR_S32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S32, S37",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIU_S12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S26",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SLR_S28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S28, S29, S30, S34, S35",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPQ_Q08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SQM_S25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S25",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SQR_S25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S25",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRM_S01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S01, S02, S03, S04, S05, S06, S07, S08, S09, S10, S11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRM_T12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "T12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRR_S01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S01, S02, S03, S04, S05, S06, S07, S08, S09, S10, S11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRR_T12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "T12",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SSR_U04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SSU_U03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STC_S33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "S33",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUR_P09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "P09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TBR_R08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R08",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TBR_R09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "R09",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TCU_U10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "U10, U11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UDM_Q05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q05",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VQQ_Q07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "Q07",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXQ_V01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "V01",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXR_V03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "V03",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXU_V04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "V04",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXX_V02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0354",
+      "display": "V02",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

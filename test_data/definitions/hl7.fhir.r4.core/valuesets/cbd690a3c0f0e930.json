@@ -1,0 +1,41 @@
+{
+  "name": "v2.0181",
+  "resource_id": "v2-0181",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0181",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0181"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0181 ( MFN Recode-Level Error Return)",
+  "related_codesystems": [
+    {
+      "id": "v2-0181",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0181"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0181",
+      "display": "Successful posting of the record defined by the MFE segment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0181",
+      "display": "Unsuccessful posting of the record defined by the MFE segment",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

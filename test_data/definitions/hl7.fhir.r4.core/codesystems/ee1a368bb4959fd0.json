@@ -1,0 +1,164 @@
+{
+  "name": "v2.0144",
+  "resource_id": "v2-0144",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0144",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Insurance company",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Versicherung / Krankenkasse"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verzekeraar"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Employer",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Arbeitgeber"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Werkgever"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Insured presented policy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "vorgelegte Versicherungspolice"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Door verzekerde getoonde polis"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Insured presented card",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vorgelegte Krankenversichertenkarte (KVK)"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Door verzekerde getoonde kaart"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Signed statement on file",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Unterschriebenene Bestätigung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ondertekenende mededeling op schrift"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "display": "Verbal information",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "mündliche Angabe"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Mondelinge mededeling"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "display": "None",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "keine"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geen"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

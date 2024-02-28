@@ -1,0 +1,119 @@
+{
+  "name": "ProcedureCategoryCodes(SNOMEDCT)",
+  "resource_id": "procedure-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/procedure-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24642003"
+          },
+          {
+            "code": "409063005"
+          },
+          {
+            "code": "409073007"
+          },
+          {
+            "code": "387713003"
+          },
+          {
+            "code": "103693007"
+          },
+          {
+            "code": "46947000"
+          },
+          {
+            "code": "410606002"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Procedure Category code: A selection of relevant SNOMED CT codes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "24642003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409063005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409073007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "387713003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "103693007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46947000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "410606002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

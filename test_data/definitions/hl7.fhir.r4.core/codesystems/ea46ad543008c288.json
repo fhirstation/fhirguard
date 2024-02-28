@@ -1,0 +1,120 @@
+{
+  "name": "SynthesisType",
+  "resource_id": "synthesis-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "std-MA",
+      "display": "summary data meta-analysis",
+      "definition": "A meta-analysis of the summary data of estimates from individual studies or data sets."
+    },
+    {
+      "code": "IPD-MA",
+      "display": "individual patient data meta-analysis",
+      "definition": "A meta-analysis of the individual participant data from individual studies or data sets."
+    },
+    {
+      "code": "indirect-NMA",
+      "display": "indirect network meta-analysis",
+      "definition": "An indirect meta-analysis derived from 2 or more direct comparisons in a network meta-analysis."
+    },
+    {
+      "code": "combined-NMA",
+      "display": "combined direct plus indirect network meta-analysis",
+      "definition": "An composite meta-analysis derived from direct comparisons and indirect comparisons in a network meta-analysis."
+    },
+    {
+      "code": "range",
+      "display": "range of results",
+      "definition": "A range of results across a body of evidence."
+    },
+    {
+      "code": "classification",
+      "display": "classifcation of results",
+      "definition": "An approach describing a body of evidence by categorically classifying individual studies (eg 3 studies showed beneft and 2 studied found no effect)."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SynthesisType",
+    "resource_id": "synthesis-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/synthesis-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/synthesis-type"
+        }
+      ]
+    },
+    "description": "Types of combining results from a body of evidence (eg. summary data meta-analysis).",
+    "related_codesystems": [
+      {
+        "id": "synthesis-type",
+        "url": "http://terminology.hl7.org/CodeSystem/synthesis-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "std-MA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "display": "summary data meta-analysis",
+        "description": "A meta-analysis of the summary data of estimates from individual studies or data sets.",
+        "filter": null
+      },
+      {
+        "code": "IPD-MA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "display": "individual patient data meta-analysis",
+        "description": "A meta-analysis of the individual participant data from individual studies or data sets.",
+        "filter": null
+      },
+      {
+        "code": "indirect-NMA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "display": "indirect network meta-analysis",
+        "description": "An indirect meta-analysis derived from 2 or more direct comparisons in a network meta-analysis.",
+        "filter": null
+      },
+      {
+        "code": "combined-NMA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "display": "combined direct plus indirect network meta-analysis",
+        "description": "An composite meta-analysis derived from direct comparisons and indirect comparisons in a network meta-analysis.",
+        "filter": null
+      },
+      {
+        "code": "range",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "display": "range of results",
+        "description": "A range of results across a body of evidence.",
+        "filter": null
+      },
+      {
+        "code": "classification",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/synthesis-type",
+        "display": "classifcation of results",
+        "description": "An approach describing a body of evidence by categorically classifying individual studies (eg 3 studies showed beneft and 2 studied found no effect).",
+        "filter": null
+      }
+    ]
+  }
+}

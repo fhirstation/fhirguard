@@ -1,0 +1,66 @@
+{
+  "name": "v2.0322",
+  "resource_id": "v2-0322",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0322",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CP",
+      "display": "Complete",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Voltooid"
+        }
+      ]
+    },
+    {
+      "code": "NA",
+      "display": "Not Administered",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet toegediend"
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "display": "Partially Administered",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gedeeltelijk toegediend"
+        }
+      ]
+    },
+    {
+      "code": "RE",
+      "display": "Refused",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geweigerd"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,91 @@
+{
+  "name": "v2.0438",
+  "resource_id": "v2-0438",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0438",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0438"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0438 ( Allergy clinical status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0438",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0438"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Confirmed or verified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Doubt raised",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Erroneous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Confirmed but inactive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Pending",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Suspect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0438",
+      "display": "Unconfirmed",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

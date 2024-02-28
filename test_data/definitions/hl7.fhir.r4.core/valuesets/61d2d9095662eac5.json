@@ -1,0 +1,39 @@
+{
+  "name": "PreparePatient",
+  "resource_id": "prepare-patient-prior-specimen-collection",
+  "resource_url": "http://hl7.org/fhir/ValueSet/prepare-patient-prior-specimen-collection",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "703763000"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Checks on the patient prior specimen collection. All SNOMED CT concepts descendants of 703763000 |Precondition value (qualifier value)|",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "703763000"
+        }
+      ]
+    }
+  ]
+}

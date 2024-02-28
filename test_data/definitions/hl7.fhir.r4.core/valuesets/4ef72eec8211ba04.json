@@ -1,0 +1,51 @@
+{
+  "name": "v2.0225",
+  "resource_id": "v2-0225",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0225",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0225"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0225 ( Escort Required)",
+  "related_codesystems": [
+    {
+      "id": "v2-0225",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0225"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0225",
+      "display": "Not Required",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0225",
+      "display": "Required",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0225",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

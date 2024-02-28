@@ -1,0 +1,79 @@
+{
+  "name": "ProvenanceEventHistoryAgentRoleCodes",
+  "resource_id": "provenance-history-agent-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/provenance-history-agent-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+        "concept": [
+          {
+            "code": "AUT",
+            "display": "Author"
+          },
+          {
+            "code": "INF",
+            "display": "Informant"
+          },
+          {
+            "code": "VRF",
+            "display": "Verifier"
+          },
+          {
+            "code": "ENT",
+            "display": "Data Enterer"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Types of roles indicating how a particular agent was involved with the creation or modification of a resource for use when exposing event history",
+  "related_codesystems": [
+    {
+      "id": "v3-ParticipationType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AUT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Author",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Informant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Verifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Data Enterer",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

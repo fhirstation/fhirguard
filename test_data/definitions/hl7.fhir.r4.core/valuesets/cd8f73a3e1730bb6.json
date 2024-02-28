@@ -1,0 +1,41 @@
+{
+  "name": "SupplyType",
+  "resource_id": "supplyrequest-kind",
+  "resource_url": "http://hl7.org/fhir/ValueSet/supplyrequest-kind",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/supply-kind"
+      }
+    ]
+  },
+  "description": "This value sets refers to a Category of supply.",
+  "related_codesystems": [
+    {
+      "id": "supplyrequest-kind",
+      "url": "http://terminology.hl7.org/CodeSystem/supply-kind"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "central",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/supply-kind",
+      "display": "Central Supply",
+      "description": "Supply is stored and requested from central supply.",
+      "filter": null
+    },
+    {
+      "code": "nonstock",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/supply-kind",
+      "display": "Non-Stock",
+      "description": "Supply is not onsite and must be requested from an outside vendor using a non-stock requisition.",
+      "filter": null
+    }
+  ]
+}

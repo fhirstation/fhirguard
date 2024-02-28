@@ -1,0 +1,75 @@
+{
+  "name": "EvidenceVariableType",
+  "resource_id": "variable-type",
+  "resource_url": "http://hl7.org/fhir/variable-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "dichotomous",
+      "display": "Dichotomous",
+      "definition": "The variable is dichotomous, such as present or absent."
+    },
+    {
+      "code": "continuous",
+      "display": "Continuous",
+      "definition": "The variable is a continuous result such as a quantity."
+    },
+    {
+      "code": "descriptive",
+      "display": "Descriptive",
+      "definition": "The variable is described narratively rather than quantitatively."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "EvidenceVariableType",
+    "resource_id": "variable-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/variable-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/variable-type"
+        }
+      ]
+    },
+    "description": "The possible types of variables for exposures or outcomes (E.g. Dichotomous, Continuous, Descriptive).",
+    "related_codesystems": [
+      {
+        "id": "variable-type",
+        "url": "http://hl7.org/fhir/variable-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "dichotomous",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/variable-type",
+        "display": "Dichotomous",
+        "description": "The variable is dichotomous, such as present or absent.",
+        "filter": null
+      },
+      {
+        "code": "continuous",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/variable-type",
+        "display": "Continuous",
+        "description": "The variable is a continuous result such as a quantity.",
+        "filter": null
+      },
+      {
+        "code": "descriptive",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/variable-type",
+        "display": "Descriptive",
+        "description": "The variable is described narratively rather than quantitatively.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "v2.0275",
+  "resource_id": "v2-0275",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0275",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0275"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0275 ( Document Storage Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0275",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0275"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0275",
+      "display": "Active and archived",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0275",
+      "display": "Active",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0275",
+      "display": "Archived (not active)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0275",
+      "display": "Purged",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

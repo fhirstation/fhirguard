@@ -1,0 +1,41 @@
+{
+  "name": "AbstractType",
+  "resource_id": "abstract-types",
+  "resource_url": "http://hl7.org/fhir/ValueSet/abstract-types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/abstract-types"
+      }
+    ]
+  },
+  "description": "A list of the base types defined by this version of the FHIR specification - types that are defined, but for which only specializations actually are created.",
+  "related_codesystems": [
+    {
+      "id": "abstract-types",
+      "url": "http://hl7.org/fhir/abstract-types"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Type",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/abstract-types",
+      "display": "Type",
+      "description": "A place holder that means any kind of data type",
+      "filter": null
+    },
+    {
+      "code": "Any",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/abstract-types",
+      "display": "Any",
+      "description": "A place holder that means any kind of resource",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "sequenceStatus",
+  "resource_id": "variant-state",
+  "resource_url": "http://hl7.org/fhir/ValueSet/variant-state",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/variant-state"
+      }
+    ]
+  },
+  "description": "Codes providing the status of the variant test result.",
+  "related_codesystems": [
+    {
+      "id": "variant-state",
+      "url": "http://terminology.hl7.org/CodeSystem/variant-state"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "positive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/variant-state",
+      "display": "positive",
+      "description": "the variant is detected.",
+      "filter": null
+    },
+    {
+      "code": "negative",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/variant-state",
+      "display": "negative",
+      "description": "no variant is detected.",
+      "filter": null
+    },
+    {
+      "code": "absent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/variant-state",
+      "display": "absent",
+      "description": "result of the variant is missing.",
+      "filter": null
+    }
+  ]
+}

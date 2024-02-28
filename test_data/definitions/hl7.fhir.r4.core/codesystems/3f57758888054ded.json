@@ -1,0 +1,61 @@
+{
+  "name": "ACMECholCodesBlood",
+  "resource_id": "example",
+  "resource_url": "http://hl7.org/fhir/CodeSystem/example",
+  "filter": [
+    {
+      "code": "acme-plasma",
+      "description": "An internal filter used to select codes that are only used with plasma",
+      "operator": [
+        "="
+      ],
+      "value": "the value of this filter is either 'true' or 'false'"
+    }
+  ],
+  "concepts": [
+    {
+      "code": "chol-mmol",
+      "display": "SChol (mmol/L)",
+      "definition": "Serum Cholesterol, in mmol/L",
+      "designation": [
+        {
+          "use": {
+            "system": "http://acme.com/config/fhir/codesystems/internal",
+            "code": "internal-label"
+          },
+          "value": "From ACME POC Testing"
+        }
+      ]
+    },
+    {
+      "code": "chol-mass",
+      "display": "SChol (mg/L)",
+      "definition": "Serum Cholesterol, in mg/L",
+      "designation": [
+        {
+          "use": {
+            "system": "http://acme.com/config/fhir/codesystems/internal",
+            "code": "internal-label"
+          },
+          "value": "From Paragon Labs"
+        }
+      ]
+    },
+    {
+      "code": "chol",
+      "display": "SChol",
+      "definition": "Serum Cholesterol",
+      "designation": [
+        {
+          "use": {
+            "system": "http://acme.com/config/fhir/codesystems/internal",
+            "code": "internal-label"
+          },
+          "value": "Obdurate Labs uses this with both kinds of units..."
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

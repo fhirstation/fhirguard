@@ -1,0 +1,75 @@
+{
+  "name": "BiologicallyDerivedProductStorageScale",
+  "resource_id": "product-storage-scale",
+  "resource_url": "http://hl7.org/fhir/product-storage-scale",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "farenheit",
+      "display": "Fahrenheit",
+      "definition": "Fahrenheit temperature scale."
+    },
+    {
+      "code": "celsius",
+      "display": "Celsius",
+      "definition": "Celsius or centigrade temperature scale."
+    },
+    {
+      "code": "kelvin",
+      "display": "Kelvin",
+      "definition": "Kelvin absolute thermodynamic temperature scale."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "BiologicallyDerivedProductStorageScale",
+    "resource_id": "product-storage-scale",
+    "resource_url": "http://hl7.org/fhir/ValueSet/product-storage-scale",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/product-storage-scale"
+        }
+      ]
+    },
+    "description": "BiologicallyDerived Product Storage Scale.",
+    "related_codesystems": [
+      {
+        "id": "product-storage-scale",
+        "url": "http://hl7.org/fhir/product-storage-scale"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "farenheit",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-storage-scale",
+        "display": "Fahrenheit",
+        "description": "Fahrenheit temperature scale.",
+        "filter": null
+      },
+      {
+        "code": "celsius",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-storage-scale",
+        "display": "Celsius",
+        "description": "Celsius or centigrade temperature scale.",
+        "filter": null
+      },
+      {
+        "code": "kelvin",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-storage-scale",
+        "display": "Kelvin",
+        "description": "Kelvin absolute thermodynamic temperature scale.",
+        "filter": null
+      }
+    ]
+  }
+}

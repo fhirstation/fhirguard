@@ -1,0 +1,41 @@
+{
+  "name": "ObservationReferenceRangeMeaningCodes",
+  "resource_id": "referencerange-meaning",
+  "resource_url": "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      }
+    ]
+  },
+  "description": "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+  "related_codesystems": [
+    {
+      "id": "referencerange-meaning",
+      "url": "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "type",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+      "display": "Type",
+      "description": "General types of reference range.",
+      "filter": null
+    },
+    {
+      "code": "endocrine",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+      "display": "Endocrine",
+      "description": "Endocrine related states that change the expected value.",
+      "filter": null
+    }
+  ]
+}

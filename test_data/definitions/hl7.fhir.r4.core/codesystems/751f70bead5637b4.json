@@ -1,0 +1,510 @@
+{
+  "name": "TeethCodes",
+  "resource_id": "teeth",
+  "resource_url": "http://hl7.org/fhir/ex-fdi",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "11",
+      "display": "11",
+      "definition": "Upper Right Tooth 1 from the central axis, permanent dentition."
+    },
+    {
+      "code": "12",
+      "display": "12",
+      "definition": "Upper Right Tooth 2 from the central axis, permanent dentition."
+    },
+    {
+      "code": "13",
+      "display": "13",
+      "definition": "Upper Right Tooth 3 from the central axis, permanent dentition."
+    },
+    {
+      "code": "14",
+      "display": "14",
+      "definition": "Upper Right Tooth 4 from the central axis, permanent dentition."
+    },
+    {
+      "code": "15",
+      "display": "15",
+      "definition": "Upper Right Tooth 5 from the central axis, permanent dentition."
+    },
+    {
+      "code": "16",
+      "display": "16",
+      "definition": "Upper Right Tooth 6 from the central axis, permanent dentition."
+    },
+    {
+      "code": "17",
+      "display": "17",
+      "definition": "Upper Right Tooth 7 from the central axis, permanent dentition."
+    },
+    {
+      "code": "18",
+      "display": "18",
+      "definition": "Upper Right Tooth 8 from the central axis, permanent dentition."
+    },
+    {
+      "code": "21",
+      "display": "21",
+      "definition": "Upper Left Tooth 1 from the central axis, permanent dentition."
+    },
+    {
+      "code": "22",
+      "display": "22",
+      "definition": "Upper Left Tooth 2 from the central axis, permanent dentition."
+    },
+    {
+      "code": "23",
+      "display": "23",
+      "definition": "Upper Left Tooth 3 from the central axis, permanent dentition."
+    },
+    {
+      "code": "24",
+      "display": "24",
+      "definition": "Upper Left Tooth 4 from the central axis, permanent dentition."
+    },
+    {
+      "code": "25",
+      "display": "25",
+      "definition": "Upper Left Tooth 5 from the central axis, permanent dentition."
+    },
+    {
+      "code": "26",
+      "display": "26",
+      "definition": "Upper Left Tooth 6 from the central axis, permanent dentition."
+    },
+    {
+      "code": "27",
+      "display": "27",
+      "definition": "Upper Left Tooth 7 from the central axis, permanent dentition."
+    },
+    {
+      "code": "28",
+      "display": "28",
+      "definition": "Upper Left Tooth 8 from the central axis, permanent dentition."
+    },
+    {
+      "code": "31",
+      "display": "31",
+      "definition": "Lower Left Tooth 1 from the central axis, permanent dentition."
+    },
+    {
+      "code": "32",
+      "display": "32",
+      "definition": "Lower Left Tooth 2 from the central axis, permanent dentition."
+    },
+    {
+      "code": "33",
+      "display": "33",
+      "definition": "Lower Left Tooth 3 from the central axis, permanent dentition."
+    },
+    {
+      "code": "34",
+      "display": "34",
+      "definition": "Lower Left Tooth 4 from the central axis, permanent dentition."
+    },
+    {
+      "code": "35",
+      "display": "35",
+      "definition": "Lower Left Tooth 5 from the central axis, permanent dentition."
+    },
+    {
+      "code": "36",
+      "display": "36",
+      "definition": "Lower Left Tooth 6 from the central axis, permanent dentition."
+    },
+    {
+      "code": "37",
+      "display": "37",
+      "definition": "Lower Left Tooth 7 from the central axis, permanent dentition."
+    },
+    {
+      "code": "38",
+      "display": "38",
+      "definition": "Lower Left Tooth 8 from the central axis, permanent dentition."
+    },
+    {
+      "code": "41",
+      "display": "41",
+      "definition": "Lower Right Tooth 1 from the central axis, permanent dentition."
+    },
+    {
+      "code": "42",
+      "display": "42",
+      "definition": "Lower Right Tooth 2 from the central axis, permanent dentition."
+    },
+    {
+      "code": "43",
+      "display": "43",
+      "definition": "Lower Right Tooth 3 from the central axis, permanent dentition."
+    },
+    {
+      "code": "44",
+      "display": "44",
+      "definition": "Lower Right Tooth 4 from the central axis, permanent dentition."
+    },
+    {
+      "code": "45",
+      "display": "45",
+      "definition": "Lower Right Tooth 5 from the central axis, permanent dentition."
+    },
+    {
+      "code": "46",
+      "display": "46",
+      "definition": "Lower Right Tooth 6 from the central axis, permanent dentition."
+    },
+    {
+      "code": "47",
+      "display": "47",
+      "definition": "Lower Right Tooth 7 from the central axis, permanent dentition."
+    },
+    {
+      "code": "48",
+      "display": "48",
+      "definition": "Lower Right Tooth 8 from the central axis, permanent dentition."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "TeethCodes",
+    "resource_id": "teeth",
+    "resource_url": "http://hl7.org/fhir/ValueSet/teeth",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/ex-fdi"
+        }
+      ]
+    },
+    "description": "This value set includes the FDI Teeth codes.",
+    "related_codesystems": [
+      {
+        "id": "teeth",
+        "url": "http://hl7.org/fhir/ex-fdi"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "11",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "11",
+        "description": "Upper Right Tooth 1 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "12",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "12",
+        "description": "Upper Right Tooth 2 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "13",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "13",
+        "description": "Upper Right Tooth 3 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "14",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "14",
+        "description": "Upper Right Tooth 4 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "15",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "15",
+        "description": "Upper Right Tooth 5 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "16",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "16",
+        "description": "Upper Right Tooth 6 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "17",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "17",
+        "description": "Upper Right Tooth 7 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "18",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "18",
+        "description": "Upper Right Tooth 8 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "21",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "21",
+        "description": "Upper Left Tooth 1 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "22",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "22",
+        "description": "Upper Left Tooth 2 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "23",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "23",
+        "description": "Upper Left Tooth 3 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "24",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "24",
+        "description": "Upper Left Tooth 4 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "25",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "25",
+        "description": "Upper Left Tooth 5 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "26",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "26",
+        "description": "Upper Left Tooth 6 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "27",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "27",
+        "description": "Upper Left Tooth 7 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "28",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "28",
+        "description": "Upper Left Tooth 8 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "31",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "31",
+        "description": "Lower Left Tooth 1 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "32",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "32",
+        "description": "Lower Left Tooth 2 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "33",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "33",
+        "description": "Lower Left Tooth 3 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "34",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "34",
+        "description": "Lower Left Tooth 4 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "35",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "35",
+        "description": "Lower Left Tooth 5 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "36",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "36",
+        "description": "Lower Left Tooth 6 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "37",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "37",
+        "description": "Lower Left Tooth 7 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "38",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "38",
+        "description": "Lower Left Tooth 8 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "41",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "41",
+        "description": "Lower Right Tooth 1 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "42",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "42",
+        "description": "Lower Right Tooth 2 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "43",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "43",
+        "description": "Lower Right Tooth 3 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "44",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "44",
+        "description": "Lower Right Tooth 4 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "45",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "45",
+        "description": "Lower Right Tooth 5 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "46",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "46",
+        "description": "Lower Right Tooth 6 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "47",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "47",
+        "description": "Lower Right Tooth 7 from the central axis, permanent dentition.",
+        "filter": null
+      },
+      {
+        "code": "48",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-fdi",
+        "display": "48",
+        "description": "Lower Right Tooth 8 from the central axis, permanent dentition.",
+        "filter": null
+      }
+    ]
+  }
+}

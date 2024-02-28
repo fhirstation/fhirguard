@@ -1,0 +1,61 @@
+{
+  "name": "v2.0505",
+  "resource_id": "v2-0505",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0505",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0505"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0505 ( Cyclic Entry/Exit Indicator)",
+  "related_codesystems": [
+    {
+      "id": "v2-0505",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0505"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "#",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0505",
+      "display": "The last service request in a cyclic group.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "*",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0505",
+      "display": "The first service request in a cyclic group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0505",
+      "display": "First service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0505",
+      "display": "Last service",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "v2.0262",
+  "resource_id": "v2-0262",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0262",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0262"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0262 ( Privacy Level)",
+  "related_codesystems": [
+    {
+      "id": "v2-0262",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0262"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0262",
+      "display": "Isolation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "J",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0262",
+      "display": "Private room - medically justified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0262",
+      "display": "Private room",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0262",
+      "display": "Private room - due to overflow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0262",
+      "display": "Semi-private room",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0262",
+      "display": "Ward",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

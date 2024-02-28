@@ -1,0 +1,1601 @@
+{
+  "name": "v2.0076",
+  "resource_id": "v2-0076",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0076",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0076"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0076 ( MESSAGE TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0076",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0076"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "General acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "ADT response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "ADT message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Ancillary RPT (display) (for backward compatibility only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Add/change billing account",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Blood product dispense status message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Blood product dispense status acknowledgement message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Blood product transfusion/disposition acknowledgement message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Blood product transfusion/disposition message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Collaborative Care Fetch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Collaborative Care Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Collaborative Care Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Collaborative Care Referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Collaborative Care Referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Cancel query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CQU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Collaborative Care Referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Clinical study registration message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Unsolicited study data message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Create Donor Record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Update Donor Record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Donor Eligibility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Donor Eligibility Observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Donor Eligibility Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DFT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Detail financial transactions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Document response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Donation Procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Donor Request to Collect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DSR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Display response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment command message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment notification message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment response message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Enhanced display response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EHC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Health Care Invoice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EQQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Embedded query language query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ERP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Event replay response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ERQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Event replay query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment status update acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment status update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment inventory request message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment inventory update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LSR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment log/service request message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment log/service update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Delayed Acknowledgment (Retained for backward compatibility only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Medical document management",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Master files delayed application acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Master files application acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Master files notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Master files query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Master files response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Application management data message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Application management query message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Application management response message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Blood product order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Dietary order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "General clinical order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Imaging order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Laboratory order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Non-stock requisition order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "General order message with document payload",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Stock requisition order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Population/Location-Based Laboratory Order Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Population/Location-Based Laboratory Order Acknowledgment Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Unsolicited Population/Location-Based Laboratory Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Observation Report Acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Blood product order acknowledgement message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Dietary order acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query for results of observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "General clinical order acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Imaging order acknowledgement message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Laboratory acknowledgment message (unsolicited)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Non-stock requisition - General order acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment order acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "General order response message response to any ORM",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Stock requisition - Order acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Unsolicited transmission of an observation message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "General Order Message with Document Payload Acknowledgement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Specimen Shipment Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query response for order status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query response for order status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Order status update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OUL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Unsolicited laboratory observation message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Product experience message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PGL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient goal message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient insurance information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Add personnel record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient pathway message (goal-oriented)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient pathway message (problem-oriented)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient problem message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient pathway goal-oriented response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient goal response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient problem response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient pathway problem-oriented response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query by parameter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QCK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query general acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Cancel query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query, original mode",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QSB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Create subscription",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QSX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Cancel subscription/acknowledge message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QVR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query for previous events",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment administration information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment administration message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return clinical information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return clinical list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment encoded order message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment dispense information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment dispense message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Display based response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Patient referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment encoded order information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment dose information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment give message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Request clinical information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Request pateint demographics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment order response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return patient authorization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return patient information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return patient display list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return patient list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Request patient authorization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Request clinical information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Request patient information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Request patient demographics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Event replay query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment administration acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment dispense acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment encoded order acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Pharmacy/treatment give acknowledgment message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Return referral information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Segment pattern response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RTB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Tabular response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Notification of Anti-Microbial Device Cycle Data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Notification of Anti-Microbial Device Data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Sterilization anti-microbial device data request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Schedule information unsolicited",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SLN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Notification of New Sterilization Lot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SLR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Sterilization lot request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Sterilization anti-microbial device cycle data request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Stored procedure request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SQM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Schedule query message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SQR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Schedule query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Schedule request message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Scheduled request response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SSR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Specimen status request message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Specimen status update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Notification of Sterilization Configuration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Sterilization item request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Summary product experience report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TBR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Tabular data response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment test code settings request message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TCU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Automated equipment test code settings update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Unsolicited display update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VQQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Virtual table query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Query for vaccination record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Vaccination record response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Unsolicited vaccination record update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0076",
+      "display": "Response for vaccination query with multiple PID matches",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

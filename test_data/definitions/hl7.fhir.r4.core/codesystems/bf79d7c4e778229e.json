@@ -1,0 +1,112 @@
+{
+  "name": "v2.0425",
+  "resource_id": "v2-0425",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0425",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Born in facility",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "in der Klinik"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geboren in instelling"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Transfer in",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overplaatsing naar binnen"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Born en route",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "unterwegs"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onderweg geboren"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "sonstiger Ort"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Anders"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Born at home",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "zuhause"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Thuisgeboren"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

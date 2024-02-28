@@ -1,0 +1,66 @@
+{
+  "name": "v2.0236",
+  "resource_id": "v2-0236",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0236",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "Distributor",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Distributeur"
+        }
+      ]
+    },
+    {
+      "code": "L",
+      "display": "Local facility/user facility",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Lokale afdeling/gebruiker afdeling"
+        }
+      ]
+    },
+    {
+      "code": "M",
+      "display": "Manufacturer",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Fabrikant"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Regulatory agency",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Toezichthoudend orgaan"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

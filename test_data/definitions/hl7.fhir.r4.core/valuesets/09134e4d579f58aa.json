@@ -1,0 +1,51 @@
+{
+  "name": "CatalogType",
+  "resource_id": "catalogType",
+  "resource_url": "http://hl7.org/fhir/ValueSet/catalogType",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/catalogType"
+      }
+    ]
+  },
+  "description": "The type of catalog.",
+  "related_codesystems": [
+    {
+      "id": "catalogType",
+      "url": "http://terminology.hl7.org/CodeSystem/catalogType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "medication",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/catalogType",
+      "display": "Medication Catalog",
+      "description": "Medication Catalog.",
+      "filter": null
+    },
+    {
+      "code": "device",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/catalogType",
+      "display": "Device Catalog",
+      "description": "Device Catalog.",
+      "filter": null
+    },
+    {
+      "code": "protocol",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/catalogType",
+      "display": "Protocol List",
+      "description": "Protocol List.",
+      "filter": null
+    }
+  ]
+}

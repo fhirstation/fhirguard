@@ -1,0 +1,211 @@
+{
+  "name": "v2.0344",
+  "resource_id": "v2-0344",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0344",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0344"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0344 ( Patient’s relationship to insured)",
+  "related_codesystems": [
+    {
+      "id": "v2-0344",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0344"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Patient is insured",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Spouse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Natural child/insured financial responsibility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Natural child/Insured does not have financial responsibility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Step child",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Foster child",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Ward of the court",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Employee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Handicapped dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Organ donor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Cadaver donor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Grandchild",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Niece/nephew",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Injured plaintiff",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Sponsored dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Minor dependent of a minor dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Parent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0344",
+      "display": "Grandparent",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

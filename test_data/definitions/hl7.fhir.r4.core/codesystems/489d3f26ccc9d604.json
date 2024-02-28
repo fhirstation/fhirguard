@@ -1,0 +1,60 @@
+{
+  "name": "AssertionDirectionType",
+  "resource_id": "assert-direction-codes",
+  "resource_url": "http://hl7.org/fhir/assert-direction-codes",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "response",
+      "display": "response",
+      "definition": "The assertion is evaluated on the response. This is the default value."
+    },
+    {
+      "code": "request",
+      "display": "request",
+      "definition": "The assertion is evaluated on the request."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AssertionDirectionType",
+    "resource_id": "assert-direction-codes",
+    "resource_url": "http://hl7.org/fhir/ValueSet/assert-direction-codes",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/assert-direction-codes"
+        }
+      ]
+    },
+    "description": "The type of direction to use for assertion.",
+    "related_codesystems": [
+      {
+        "id": "assert-direction-codes",
+        "url": "http://hl7.org/fhir/assert-direction-codes"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "response",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/assert-direction-codes",
+        "display": "response",
+        "description": "The assertion is evaluated on the response. This is the default value.",
+        "filter": null
+      },
+      {
+        "code": "request",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/assert-direction-codes",
+        "display": "request",
+        "description": "The assertion is evaluated on the request.",
+        "filter": null
+      }
+    ]
+  }
+}

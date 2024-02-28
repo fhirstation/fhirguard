@@ -1,0 +1,151 @@
+{
+  "name": "ResearchSubjectStatus",
+  "resource_id": "research-subject-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/research-subject-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/research-subject-status"
+      }
+    ]
+  },
+  "description": "Indicates the progression of a study subject through a study.",
+  "related_codesystems": [
+    {
+      "id": "research-subject-status",
+      "url": "http://hl7.org/fhir/research-subject-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "candidate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Candidate",
+      "description": "An identified person that can be considered for inclusion in a study.",
+      "filter": null
+    },
+    {
+      "code": "eligible",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Eligible",
+      "description": "A person that has met the eligibility criteria for inclusion in a study.",
+      "filter": null
+    },
+    {
+      "code": "follow-up",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Follow-up",
+      "description": "A person is no longer receiving study intervention and/or being evaluated with tests and procedures according to the protocol, but they are being monitored on a protocol-prescribed schedule.",
+      "filter": null
+    },
+    {
+      "code": "ineligible",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Ineligible",
+      "description": "A person who did not meet one or more criteria required for participation in a study is considered to have failed screening or\nis ineligible for the study.",
+      "filter": null
+    },
+    {
+      "code": "not-registered",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Not Registered",
+      "description": "A person for whom registration was not completed.",
+      "filter": null
+    },
+    {
+      "code": "off-study",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Off-study",
+      "description": "A person that has ended their participation on a study either because their treatment/observation is complete or through not\nresponding, withdrawal, non-compliance and/or adverse event.",
+      "filter": null
+    },
+    {
+      "code": "on-study",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "On-study",
+      "description": "A person that is enrolled or registered on a study.",
+      "filter": null
+    },
+    {
+      "code": "on-study-intervention",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "On-study-intervention",
+      "description": "The person is receiving the treatment or participating in an activity (e.g. yoga, diet, etc.) that the study is evaluating.",
+      "filter": null
+    },
+    {
+      "code": "on-study-observation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "On-study-observation",
+      "description": "The subject is being evaluated via tests and assessments according to the study calendar, but is not receiving any intervention. Note that this state is study-dependent and might not exist in all studies.  A synonym for this is \"short-term follow-up\".",
+      "filter": null
+    },
+    {
+      "code": "pending-on-study",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Pending on-study",
+      "description": "A person is pre-registered for a study.",
+      "filter": null
+    },
+    {
+      "code": "potential-candidate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Potential Candidate",
+      "description": "A person that is potentially eligible for participation in the study.",
+      "filter": null
+    },
+    {
+      "code": "screening",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Screening",
+      "description": "A person who is being evaluated for eligibility for a study.",
+      "filter": null
+    },
+    {
+      "code": "withdrawn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-subject-status",
+      "display": "Withdrawn",
+      "description": "The person has withdrawn their participation in the study before registration.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "name": "UnitsOfTime",
+  "resource_id": "units-of-time",
+  "resource_url": "http://hl7.org/fhir/ValueSet/units-of-time",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "second"
+              }
+            ],
+            "code": "s",
+            "display": "second",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "秒"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "minute"
+              }
+            ],
+            "code": "min",
+            "display": "minute",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "分钟"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "hour"
+              }
+            ],
+            "code": "h",
+            "display": "hour",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "小时"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "day"
+              }
+            ],
+            "code": "d",
+            "display": "day",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "天"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "week"
+              }
+            ],
+            "code": "wk",
+            "display": "week",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "星期"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "month"
+              }
+            ],
+            "code": "mo",
+            "display": "month",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "月"
+              }
+            ]
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "year"
+              }
+            ],
+            "code": "a",
+            "display": "year",
+            "designation": [
+              {
+                "language": "zh",
+                "value": "年"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "description": "A unit of time (units from UCUM).",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "s",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "second",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "min",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "minute",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "h",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "hour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "d",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "day",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "wk",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "week",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "mo",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "month",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "a",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

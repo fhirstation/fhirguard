@@ -1,0 +1,61 @@
+{
+  "name": "v2.0466",
+  "resource_id": "v2-0466",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0466",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0466"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0466 ( Ambulatory payment classification code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0466",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0466"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0466",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "031",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0466",
+      "display": "Dental procedures",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "163",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0466",
+      "display": "Excision/biopsy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "181",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0466",
+      "display": "Level 1 skin repair.",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

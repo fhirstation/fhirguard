@@ -1,0 +1,168 @@
+{
+  "name": "SpecimenCollection",
+  "resource_id": "specimen-collection",
+  "resource_url": "http://hl7.org/fhir/ValueSet/specimen-collection",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "129316008",
+            "display": "Aspiration - action"
+          },
+          {
+            "code": "129314006",
+            "display": "Biopsy - action"
+          },
+          {
+            "code": "129300006",
+            "display": "Puncture - action"
+          },
+          {
+            "code": "129304002",
+            "display": "Excision - action"
+          },
+          {
+            "code": "129323009",
+            "display": "Scraping - action"
+          },
+          {
+            "code": "73416001",
+            "display": "Urine specimen collection, clean catch"
+          },
+          {
+            "code": "225113003",
+            "display": "Timed urine collection"
+          },
+          {
+            "code": "70777001",
+            "display": "Urine specimen collection, catheterized"
+          },
+          {
+            "code": "386089008",
+            "display": "Collection of coughed sputum"
+          },
+          {
+            "code": "278450005",
+            "display": "Finger-prick sampling"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Actions that can be taken for the collection of specimen from a subject.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "129316008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Aspiration - action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "129314006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Biopsy - action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "129300006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Puncture - action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "129304002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Excision - action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "129323009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Scraping - action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73416001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Urine specimen collection, clean catch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "225113003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Timed urine collection",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70777001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Urine specimen collection, catheterized",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "386089008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Collection of coughed sputum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "278450005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Finger-prick sampling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "v2.0146",
+  "resource_id": "v2-0146",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0146",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0146"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0146 ( AMOUNT TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0146",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0146"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "DF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0146",
+      "display": "Differential",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0146",
+      "display": "Limit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0146",
+      "display": "Percentage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0146",
+      "display": "Rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0146",
+      "display": "Unlimited",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "v2.0237",
+  "resource_id": "v2-0237",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0237",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0237"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0237 ( Event Qualification)",
+  "related_codesystems": [
+    {
+      "id": "v2-0237",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0237"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Abuse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Unexpected beneficial effect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Dependency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Interaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Lack of expect therapeutic effect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Misuse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Overdose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0237",
+      "display": "Drug withdrawal",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

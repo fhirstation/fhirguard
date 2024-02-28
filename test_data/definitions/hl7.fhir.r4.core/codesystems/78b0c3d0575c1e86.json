@@ -1,0 +1,26 @@
+{
+  "name": "v2.0558",
+  "resource_id": "v2-0558",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0558",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "FM",
+      "display": "Family Member"
+    },
+    {
+      "code": "GT",
+      "display": "Guarantor"
+    },
+    {
+      "code": "PT",
+      "display": "Patient"
+    },
+    {
+      "code": "SB",
+      "display": "Subscriber"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,38 @@
+{
+  "name": "v2.0083",
+  "resource_id": "v2-0083",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0083",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "C",
+      "display": "Outlier cost",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Retentierecht kosten"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Outlier days",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Retentierecht dagen"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

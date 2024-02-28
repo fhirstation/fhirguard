@@ -1,0 +1,41 @@
+{
+  "name": "AllergyIntoleranceType",
+  "resource_id": "allergy-intolerance-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/allergy-intolerance-type"
+      }
+    ]
+  },
+  "description": "Identification of the underlying physiological mechanism for a Reaction Risk.",
+  "related_codesystems": [
+    {
+      "id": "allergy-intolerance-type",
+      "url": "http://hl7.org/fhir/allergy-intolerance-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "allergy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/allergy-intolerance-type",
+      "display": "Allergy",
+      "description": "A propensity for hypersensitive reaction(s) to a substance.  These reactions are most typically type I hypersensitivity, plus other \"allergy-like\" reactions, including pseudoallergy.",
+      "filter": null
+    },
+    {
+      "code": "intolerance",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/allergy-intolerance-type",
+      "display": "Intolerance",
+      "description": "A propensity for adverse reactions to a substance that is not judged to be allergic or \"allergy-like\".  These reactions are typically (but not necessarily) non-immune.  They are to some degree idiosyncratic and/or patient-specific (i.e. are not a reaction that is expected to occur with most or all patients given similar circumstances).",
+      "filter": null
+    }
+  ]
+}

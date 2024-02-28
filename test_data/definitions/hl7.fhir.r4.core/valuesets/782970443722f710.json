@@ -1,0 +1,111 @@
+{
+  "name": "v2.0370",
+  "resource_id": "v2-0370",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0370",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0370"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0370 ( Container status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0370",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0370"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Archived",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Identified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Left Equipment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Missing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "In Process",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "In Position",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Process Completed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0370",
+      "display": "Container Unavailable",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "GenderIdentity",
+  "resource_id": "gender-identity",
+  "resource_url": "http://hl7.org/fhir/gender-identity",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "transgender-female",
+      "display": "transgender female",
+      "definition": "the patient identifies as transgender male-to-female"
+    },
+    {
+      "code": "transgender-male",
+      "display": "transgender male",
+      "definition": "the patient identifies as transgender female-to-male"
+    },
+    {
+      "code": "non-binary",
+      "display": "non-binary",
+      "definition": "the patient identifies with neither/both female and male"
+    },
+    {
+      "code": "male",
+      "display": "male",
+      "definition": "the patient identifies as male"
+    },
+    {
+      "code": "female",
+      "display": "female",
+      "definition": "the patient identifies as female"
+    },
+    {
+      "code": "other",
+      "display": "other",
+      "definition": "other gender identity"
+    },
+    {
+      "code": "non-disclose",
+      "display": "does not wish to disclose",
+      "definition": "the patient does not wish to disclose his gender identity"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

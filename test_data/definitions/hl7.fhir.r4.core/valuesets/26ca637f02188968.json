@@ -1,0 +1,196 @@
+{
+  "name": "BodystructureLocationQualifier",
+  "resource_id": "bodystructure-relative-location",
+  "resource_url": "http://hl7.org/fhir/ValueSet/bodystructure-relative-location",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "419161000",
+            "display": "Unilateral left"
+          },
+          {
+            "code": "419465000",
+            "display": "Unilateral right"
+          },
+          {
+            "code": "51440002",
+            "display": "Bilateral"
+          },
+          {
+            "code": "261183002",
+            "display": "Upper"
+          },
+          {
+            "code": "261122009",
+            "display": "Lower"
+          },
+          {
+            "code": "255561001",
+            "display": "Medial"
+          },
+          {
+            "code": "49370004",
+            "display": "Lateral"
+          },
+          {
+            "code": "264217000",
+            "display": "Superior"
+          },
+          {
+            "code": "261089000",
+            "display": "Inferior"
+          },
+          {
+            "code": "255551008",
+            "display": "Posterior"
+          },
+          {
+            "code": "351726001",
+            "display": "Below"
+          },
+          {
+            "code": "352730000",
+            "display": "Above"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "SNOMED-CT concepts modifying the anatomic location",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "419161000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Unilateral left",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419465000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Unilateral right",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "51440002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Bilateral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "261183002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Upper",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "261122009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Lower",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "255561001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Medial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "49370004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Lateral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "264217000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Superior",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "261089000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Inferior",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "255551008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Posterior",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "351726001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Below",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "352730000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Above",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

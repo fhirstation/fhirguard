@@ -1,0 +1,101 @@
+{
+  "name": "v2.0223",
+  "resource_id": "v2-0223",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0223",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0223"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0223 ( Living Dependency)",
+  "related_codesystems": [
+    {
+      "id": "v2-0223",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0223"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Small Children Dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Common Bath",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Spouse dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Medical Supervision Required",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Spouse Dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0223",
+      "display": "Walk up",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

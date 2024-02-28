@@ -1,0 +1,18 @@
+{
+  "name": "v2.0790",
+  "resource_id": "v2-0790",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0790",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AMA",
+      "display": "American Medical Association"
+    },
+    {
+      "code": "FDA",
+      "display": "Food and Drug Administration"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

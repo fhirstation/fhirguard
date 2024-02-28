@@ -1,0 +1,51 @@
+{
+  "name": "can-push-updates",
+  "resource_id": "verificationresult-can-push-updates",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-can-push-updates",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/can-push-updates"
+      }
+    ]
+  },
+  "description": "Ability of the primary source to push updates/alerts",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-can-push-updates",
+      "url": "http://terminology.hl7.org/CodeSystem/can-push-updates"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "yes",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/can-push-updates",
+      "display": "Yes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "no",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/can-push-updates",
+      "display": "No",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "undetermined",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/can-push-updates",
+      "display": "Undetermined",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

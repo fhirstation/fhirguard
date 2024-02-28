@@ -1,0 +1,75 @@
+{
+  "name": "SearchEntryMode",
+  "resource_id": "search-entry-mode",
+  "resource_url": "http://hl7.org/fhir/search-entry-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "match",
+      "display": "Match",
+      "definition": "This resource matched the search specification."
+    },
+    {
+      "code": "include",
+      "display": "Include",
+      "definition": "This resource is returned because it is referred to from another resource in the search set."
+    },
+    {
+      "code": "outcome",
+      "display": "Outcome",
+      "definition": "An OperationOutcome that provides additional information about the processing of a search."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SearchEntryMode",
+    "resource_id": "search-entry-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/search-entry-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/search-entry-mode"
+        }
+      ]
+    },
+    "description": "Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.",
+    "related_codesystems": [
+      {
+        "id": "search-entry-mode",
+        "url": "http://hl7.org/fhir/search-entry-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "match",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-entry-mode",
+        "display": "Match",
+        "description": "This resource matched the search specification.",
+        "filter": null
+      },
+      {
+        "code": "include",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-entry-mode",
+        "display": "Include",
+        "description": "This resource is returned because it is referred to from another resource in the search set.",
+        "filter": null
+      },
+      {
+        "code": "outcome",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/search-entry-mode",
+        "display": "Outcome",
+        "description": "An OperationOutcome that provides additional information about the processing of a search.",
+        "filter": null
+      }
+    ]
+  }
+}

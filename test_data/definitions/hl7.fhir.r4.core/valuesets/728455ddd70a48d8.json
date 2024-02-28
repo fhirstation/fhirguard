@@ -1,0 +1,70 @@
+{
+  "name": "ContainerMaterials",
+  "resource_id": "container-material",
+  "resource_url": "http://hl7.org/fhir/ValueSet/container-material",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "32039001",
+            "display": "glass"
+          },
+          {
+            "code": "61088005",
+            "display": "plastic"
+          },
+          {
+            "code": "425620007",
+            "display": "metal"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes SNOMED CT codes for materials that specimen containers are made of",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "32039001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "glass",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "61088005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "plastic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "425620007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "metal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

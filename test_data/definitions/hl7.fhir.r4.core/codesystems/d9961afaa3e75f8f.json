@@ -1,0 +1,28 @@
+{
+  "name": "v2.0569",
+  "resource_id": "v2-0569",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0569",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Instructs party to print this adjustment on the EOB (Explanation of Benefits) handed to the patient"
+        }
+      ],
+      "code": "EOB",
+      "display": "Print on EOB"
+    },
+    {
+      "code": "PAT",
+      "display": "Inform Patient"
+    },
+    {
+      "code": "PRO",
+      "display": "Inform Provider"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

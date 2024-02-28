@@ -1,0 +1,38 @@
+{
+  "name": "v2.0482",
+  "resource_id": "v2-0482",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0482",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "I",
+      "display": "Inpatient Order",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Klinische aanvraag"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Outpatient Order",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Poliklinische aanvraag"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

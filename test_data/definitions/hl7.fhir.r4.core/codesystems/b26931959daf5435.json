@@ -1,0 +1,60 @@
+{
+  "name": "TypeDerivationRule",
+  "resource_id": "type-derivation-rule",
+  "resource_url": "http://hl7.org/fhir/type-derivation-rule",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "specialization",
+      "display": "Specialization",
+      "definition": "This definition defines a new type that adds additional elements to the base type."
+    },
+    {
+      "code": "constraint",
+      "display": "Constraint",
+      "definition": "This definition adds additional rules to an existing concrete type."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "TypeDerivationRule",
+    "resource_id": "type-derivation-rule",
+    "resource_url": "http://hl7.org/fhir/ValueSet/type-derivation-rule",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/type-derivation-rule"
+        }
+      ]
+    },
+    "description": "How a type relates to its baseDefinition.",
+    "related_codesystems": [
+      {
+        "id": "type-derivation-rule",
+        "url": "http://hl7.org/fhir/type-derivation-rule"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "specialization",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/type-derivation-rule",
+        "display": "Specialization",
+        "description": "This definition defines a new type that adds additional elements to the base type.",
+        "filter": null
+      },
+      {
+        "code": "constraint",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/type-derivation-rule",
+        "display": "Constraint",
+        "description": "This definition adds additional rules to an existing concrete type.",
+        "filter": null
+      }
+    ]
+  }
+}

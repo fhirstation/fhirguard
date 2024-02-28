@@ -1,0 +1,141 @@
+{
+  "name": "AssertionResponseTypes",
+  "resource_id": "assert-response-code-types",
+  "resource_url": "http://hl7.org/fhir/ValueSet/assert-response-code-types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/assert-response-code-types"
+      }
+    ]
+  },
+  "description": "The type of response code to use for assertion.",
+  "related_codesystems": [
+    {
+      "id": "assert-response-code-types",
+      "url": "http://hl7.org/fhir/assert-response-code-types"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "okay",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "okay",
+      "description": "Response code is 200.",
+      "filter": null
+    },
+    {
+      "code": "created",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "created",
+      "description": "Response code is 201.",
+      "filter": null
+    },
+    {
+      "code": "noContent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "noContent",
+      "description": "Response code is 204.",
+      "filter": null
+    },
+    {
+      "code": "notModified",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "notModified",
+      "description": "Response code is 304.",
+      "filter": null
+    },
+    {
+      "code": "bad",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "bad",
+      "description": "Response code is 400.",
+      "filter": null
+    },
+    {
+      "code": "forbidden",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "forbidden",
+      "description": "Response code is 403.",
+      "filter": null
+    },
+    {
+      "code": "notFound",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "notFound",
+      "description": "Response code is 404.",
+      "filter": null
+    },
+    {
+      "code": "methodNotAllowed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "methodNotAllowed",
+      "description": "Response code is 405.",
+      "filter": null
+    },
+    {
+      "code": "conflict",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "conflict",
+      "description": "Response code is 409.",
+      "filter": null
+    },
+    {
+      "code": "gone",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "gone",
+      "description": "Response code is 410.",
+      "filter": null
+    },
+    {
+      "code": "preconditionFailed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "preconditionFailed",
+      "description": "Response code is 412.",
+      "filter": null
+    },
+    {
+      "code": "unprocessable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-response-code-types",
+      "display": "unprocessable",
+      "description": "Response code is 422.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ProvenanceEntityRole",
+  "resource_id": "provenance-entity-role",
+  "resource_url": "http://hl7.org/fhir/ValueSet/provenance-entity-role",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/provenance-entity-role"
+      }
+    ]
+  },
+  "description": "How an entity was used in an activity.",
+  "related_codesystems": [
+    {
+      "id": "provenance-entity-role",
+      "url": "http://hl7.org/fhir/provenance-entity-role"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "derivation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/provenance-entity-role",
+      "display": "Derivation",
+      "description": "A transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+      "filter": null
+    }
+  ]
+}

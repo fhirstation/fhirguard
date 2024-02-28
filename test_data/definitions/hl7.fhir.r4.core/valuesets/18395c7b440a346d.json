@@ -1,0 +1,41 @@
+{
+  "name": "DoseAndRateType",
+  "resource_id": "dose-rate-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/dose-rate-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type"
+      }
+    ]
+  },
+  "description": "The kind of dose or rate specified.",
+  "related_codesystems": [
+    {
+      "id": "dose-rate-type",
+      "url": "http://terminology.hl7.org/CodeSystem/dose-rate-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "calculated",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+      "display": "Calculated",
+      "description": "The dose specified is calculated by the prescriber or the system.",
+      "filter": null
+    },
+    {
+      "code": "ordered",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+      "display": "Ordered",
+      "description": "The dose specified is as ordered by the prescriber.",
+      "filter": null
+    }
+  ]
+}

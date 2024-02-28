@@ -1,0 +1,66 @@
+{
+  "name": "v2.0490",
+  "resource_id": "v2-0490",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0490",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "EX",
+      "display": "Expired"
+    },
+    {
+      "code": "QS",
+      "display": "Quantity not sufficient"
+    },
+    {
+      "code": "RA",
+      "display": "Missing patient ID number"
+    },
+    {
+      "code": "RB",
+      "display": "Broken container"
+    },
+    {
+      "code": "RC",
+      "display": "Clotting"
+    },
+    {
+      "code": "RD",
+      "display": "Missing collection date"
+    },
+    {
+      "code": "RE",
+      "display": "Missing patient name"
+    },
+    {
+      "code": "RH",
+      "display": "Hemolysis"
+    },
+    {
+      "code": "RI",
+      "display": "Identification problem"
+    },
+    {
+      "code": "RM",
+      "display": "Labeling"
+    },
+    {
+      "code": "RN",
+      "display": "Contamination"
+    },
+    {
+      "code": "RP",
+      "display": "Missing phlebotomist ID"
+    },
+    {
+      "code": "RR",
+      "display": "Improper storage"
+    },
+    {
+      "code": "RS",
+      "display": "Name misspelling"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,84 @@
+{
+  "name": "EncounterReasonCodes",
+  "resource_id": "encounter-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/encounter-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "71388002"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "243796009"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "272379006"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "404684003"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "71388002"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "243796009"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "272379006"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "name": "InsurancePlanType",
+  "resource_id": "insuranceplan-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/insuranceplan-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type"
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate a type of insurance plan.",
+  "related_codesystems": [
+    {
+      "id": "insuranceplan-type",
+      "url": "http://terminology.hl7.org/CodeSystem/insurance-plan-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "medical",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Medical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "dental",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Dental",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "mental",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Mental Health",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "subst-ab",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Substance Abuse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "vision",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Vision",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Drug",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Drug",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "short-term",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Short Term",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "long-term",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Long Term Care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "hospice",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Hospice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "home",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/insurance-plan-type",
+      "display": "Home Health",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

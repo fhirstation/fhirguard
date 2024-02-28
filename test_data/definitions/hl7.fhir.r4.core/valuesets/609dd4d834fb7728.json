@@ -1,0 +1,241 @@
+{
+  "name": "FHIRVersion",
+  "resource_id": "FHIR-version",
+  "resource_url": "http://hl7.org/fhir/ValueSet/FHIR-version",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/FHIR-version"
+      }
+    ]
+  },
+  "description": "All published FHIR Versions.",
+  "related_codesystems": [
+    {
+      "id": "FHIR-version",
+      "url": "http://hl7.org/fhir/FHIR-version"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0.01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.01",
+      "description": "Oldest archived version of FHIR.",
+      "filter": null
+    },
+    {
+      "code": "0.05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.05",
+      "description": "1st Draft for Comment (Sept 2012 Ballot).",
+      "filter": null
+    },
+    {
+      "code": "0.06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.06",
+      "description": "2nd Draft for Comment (January 2013 Ballot).",
+      "filter": null
+    },
+    {
+      "code": "0.11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.11",
+      "description": "DSTU 1 Ballot version.",
+      "filter": null
+    },
+    {
+      "code": "0.0.80",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.0.80",
+      "description": "DSTU 1 Official version.",
+      "filter": null
+    },
+    {
+      "code": "0.0.81",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.0.81",
+      "description": "DSTU 1 Official version Technical Errata #1.",
+      "filter": null
+    },
+    {
+      "code": "0.0.82",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.0.82",
+      "description": "DSTU 1 Official version Technical Errata #2.",
+      "filter": null
+    },
+    {
+      "code": "0.4.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.4.0",
+      "description": "Draft For Comment (January 2015 Ballot).",
+      "filter": null
+    },
+    {
+      "code": "0.5.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "0.5.0",
+      "description": "DSTU 2 Ballot version (May 2015 Ballot).",
+      "filter": null
+    },
+    {
+      "code": "1.0.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.0.0",
+      "description": "DSTU 2 QA Preview + CQIF Ballot (Sep 2015).",
+      "filter": null
+    },
+    {
+      "code": "1.0.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.0.1",
+      "description": "DSTU 2 (Official version).",
+      "filter": null
+    },
+    {
+      "code": "1.0.2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.0.2",
+      "description": "DSTU 2 (Official version) with 1 technical errata.",
+      "filter": null
+    },
+    {
+      "code": "1.1.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.1.0",
+      "description": "GAO Ballot + draft changes to main FHIR standard.",
+      "filter": null
+    },
+    {
+      "code": "1.4.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.4.0",
+      "description": "CQF on FHIR Ballot + Connectathon 12 (Montreal).",
+      "filter": null
+    },
+    {
+      "code": "1.6.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.6.0",
+      "description": "FHIR STU3 Ballot + Connectathon 13 (Baltimore).",
+      "filter": null
+    },
+    {
+      "code": "1.8.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "1.8.0",
+      "description": "FHIR STU3 Candidate + Connectathon 14 (San Antonio).",
+      "filter": null
+    },
+    {
+      "code": "3.0.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "3.0.0",
+      "description": "FHIR Release 3 (STU).",
+      "filter": null
+    },
+    {
+      "code": "3.0.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "3.0.1",
+      "description": "FHIR Release 3 (STU) with 1 technical errata.",
+      "filter": null
+    },
+    {
+      "code": "3.3.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "3.3.0",
+      "description": "R4 Ballot #1.",
+      "filter": null
+    },
+    {
+      "code": "3.5.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "3.5.0",
+      "description": "R4 Ballot #2.",
+      "filter": null
+    },
+    {
+      "code": "4.0.0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "4.0.0",
+      "description": "FHIR Release 4 (Normative + STU).",
+      "filter": null
+    },
+    {
+      "code": "4.0.1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/FHIR-version",
+      "display": "4.0.1",
+      "description": "FHIR Release 4 Technical Correction.",
+      "filter": null
+    }
+  ]
+}

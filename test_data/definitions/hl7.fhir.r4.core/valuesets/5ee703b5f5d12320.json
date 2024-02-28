@@ -1,0 +1,101 @@
+{
+  "name": "v2.0209",
+  "resource_id": "v2-0209",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0209",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0209"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0209 ( Relational Operator)",
+  "related_codesystems": [
+    {
+      "id": "v2-0209",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0209"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Contains",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Equal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Greater than or equal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Generic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Greater than",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Less than or equal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Less than",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0209",
+      "display": "Not Equal",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

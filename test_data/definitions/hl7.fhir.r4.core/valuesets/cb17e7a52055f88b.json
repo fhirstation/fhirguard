@@ -1,0 +1,591 @@
+{
+  "name": "v2.0371",
+  "resource_id": "v2-0371",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0371",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0371"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0371 ( Additive)",
+  "related_codesystems": [
+    {
+      "id": "v2-0371",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0371"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "ACD Solution A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACDB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "ACD Solution B",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Acetic Acid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMIES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Amies transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BACTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Bacterial Transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BF10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Buffered 10% formalin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Borate Boric Acid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOUIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Bouin's solution",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BSKM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Buffered skim milk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "3.2%  Citrate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "3.8% Citrate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CARS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Carson's Modified 10% formalin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CARY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Cary Blair Medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHLTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Chlamydia transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CTAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "CTAD (this should be spelled out if not universally understood)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDTK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Potassium/K EDTA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDTK15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Potassium/K EDTA 15%",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDTK75",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Potassium/K EDTA 7.5%",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDTN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Sodium/Na EDTA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Enteric bacteria transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENT+",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Enteric plus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "10% Formalin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FL10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Sodium Fluoride, 10mg",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FL100",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Sodium Fluoride, 100mg",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HCL6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "6N HCL",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEPA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Ammonium heparin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEPL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Lithium/Li  Heparin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Sodium/Na  Heparin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HNO3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Nitric Acid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JKM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Jones Kendrick Medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KARN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Karnovsky's fixative",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KOX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Potassium Oxalate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Lithium iodoacetate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "M4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M4RT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "M4-RT",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "M5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MICHTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Michel's transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MMDTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "MMD transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Sodium Fluoride",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "None",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAGE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Pages's Saline",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHENOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Phenol",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PVA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "PVA (polyvinylalcohol)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Reagan Lowe Medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SILICA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Siliceous earth, 12 mg",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "SPS(this should be spelled out if not universally understood)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Serum Separator Tube (Polymer Gel)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STUTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Stuart transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THROM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Thrombin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THYMOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Thymol",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THYO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Thyoglycollate broth",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TOLU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Toluene",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URETM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Ureaplasma transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VIRTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Viral Transport medium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0371",
+      "display": "Buffered Citrate (Westergren Sedimentation Rate)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

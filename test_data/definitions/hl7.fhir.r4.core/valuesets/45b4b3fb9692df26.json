@@ -1,0 +1,144 @@
+{
+  "name": "ProcedureNotPerformedReason(SNOMED-CT)",
+  "resource_id": "procedure-not-performed-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "183932001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "416406003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "416237000"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "428119001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "416064006"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "416432009"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "183944003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "394908001"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "183932001"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "416406003"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "416237000"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "428119001"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "416064006"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "416432009"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "183944003"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "394908001"
+        }
+      ]
+    }
+  ]
+}

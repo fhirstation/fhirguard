@@ -1,0 +1,61 @@
+{
+  "name": "RequestPriority",
+  "resource_id": "request-priority",
+  "resource_url": "http://hl7.org/fhir/ValueSet/request-priority",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/request-priority"
+      }
+    ]
+  },
+  "description": "The clinical priority of a diagnostic order.",
+  "related_codesystems": [
+    {
+      "id": "request-priority",
+      "url": "http://hl7.org/fhir/request-priority"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "routine",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-priority",
+      "display": "Routine",
+      "description": "The request has normal priority.",
+      "filter": null
+    },
+    {
+      "code": "urgent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-priority",
+      "display": "Urgent",
+      "description": "The request should be actioned promptly - higher priority than routine.",
+      "filter": null
+    },
+    {
+      "code": "asap",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-priority",
+      "display": "ASAP",
+      "description": "The request should be actioned as soon as possible - higher priority than urgent.",
+      "filter": null
+    },
+    {
+      "code": "stat",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-priority",
+      "display": "STAT",
+      "description": "The request should be actioned immediately - highest possible priority.  E.g. an emergency.",
+      "filter": null
+    }
+  ]
+}

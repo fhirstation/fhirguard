@@ -1,0 +1,41 @@
+{
+  "name": "v2.0444",
+  "resource_id": "v2-0444",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0444",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0444"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0444 ( Name assembly order)",
+  "related_codesystems": [
+    {
+      "id": "v2-0444",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0444"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0444",
+      "display": "Prefix Family Middle Given Suffix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0444",
+      "display": "Prefix Given Middle Family Suffix",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

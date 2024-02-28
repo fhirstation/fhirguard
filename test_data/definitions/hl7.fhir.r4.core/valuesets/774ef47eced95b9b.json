@@ -1,0 +1,171 @@
+{
+  "name": "v2.0165",
+  "resource_id": "v2-0165",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0165",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0165"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0165 ( ADMINISTRATION METHOD)",
+  "related_codesystems": [
+    {
+      "id": "v2-0165",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0165"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Chew",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Dissolve",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Dust",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Infiltrate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Irrigate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Insert",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IVP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "IV Push",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IVPB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "IV Piggyback",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Nebulized",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Perfuse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Paint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Shampoo",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Soak",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0165",
+      "display": "Wipe",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

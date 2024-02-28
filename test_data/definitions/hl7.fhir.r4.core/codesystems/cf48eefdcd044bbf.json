@@ -1,0 +1,90 @@
+{
+  "name": "AllergyIntoleranceVerificationStatusCodes",
+  "resource_id": "allergyintolerance-verification",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "unconfirmed",
+      "display": "Unconfirmed",
+      "definition": "A low level of certainty about the propensity for a reaction to the identified substance."
+    },
+    {
+      "code": "confirmed",
+      "display": "Confirmed",
+      "definition": "A high level of certainty about the propensity for a reaction to the identified substance, which may include clinical evidence by testing or rechallenge."
+    },
+    {
+      "code": "refuted",
+      "display": "Refuted",
+      "definition": "A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "The statement was entered in error and is not valid."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AllergyIntoleranceVerificationStatusCodes",
+    "resource_id": "allergyintolerance-verification",
+    "resource_url": "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+        }
+      ]
+    },
+    "description": "Preferred value set for AllergyIntolerance Verification Status.",
+    "related_codesystems": [
+      {
+        "id": "allergyintolerance-verification",
+        "url": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "unconfirmed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "display": "Unconfirmed",
+        "description": "A low level of certainty about the propensity for a reaction to the identified substance.",
+        "filter": null
+      },
+      {
+        "code": "confirmed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "display": "Confirmed",
+        "description": "A high level of certainty about the propensity for a reaction to the identified substance, which may include clinical evidence by testing or rechallenge.",
+        "filter": null
+      },
+      {
+        "code": "refuted",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "display": "Refuted",
+        "description": "A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "display": "Entered in Error",
+        "description": "The statement was entered in error and is not valid.",
+        "filter": null
+      }
+    ]
+  }
+}

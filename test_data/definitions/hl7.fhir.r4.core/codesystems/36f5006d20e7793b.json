@@ -1,0 +1,18 @@
+{
+  "name": "v2.0917",
+  "resource_id": "v2-0917",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0917",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "C",
+      "display": "Supplemental"
+    },
+    {
+      "code": "L",
+      "display": "Loading"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

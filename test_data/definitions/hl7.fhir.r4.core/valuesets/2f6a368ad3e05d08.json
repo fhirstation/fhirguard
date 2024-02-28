@@ -1,0 +1,51 @@
+{
+  "name": "sequenceType",
+  "resource_id": "sequence-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/sequence-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sequence-type"
+      }
+    ]
+  },
+  "description": "Type if a sequence -- DNA, RNA, or amino acid sequence.",
+  "related_codesystems": [
+    {
+      "id": "sequence-type",
+      "url": "http://hl7.org/fhir/sequence-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "aa",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/sequence-type",
+      "display": "AA Sequence",
+      "description": "Amino acid sequence.",
+      "filter": null
+    },
+    {
+      "code": "dna",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/sequence-type",
+      "display": "DNA Sequence",
+      "description": "DNA Sequence.",
+      "filter": null
+    },
+    {
+      "code": "rna",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/sequence-type",
+      "display": "RNA Sequence",
+      "description": "RNA Sequence.",
+      "filter": null
+    }
+  ]
+}

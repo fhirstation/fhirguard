@@ -1,0 +1,41 @@
+{
+  "name": "Adjudication Error Codes",
+  "resource_id": "adjudication-error",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adjudication-error",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adjudication-error"
+      }
+    ]
+  },
+  "description": "This value set includes a smattering of adjudication codes.",
+  "related_codesystems": [
+    {
+      "id": "adjudication-error",
+      "url": "http://terminology.hl7.org/CodeSystem/adjudication-error"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "a001",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication-error",
+      "display": "Missing Identifier",
+      "description": "Missing Identifier",
+      "filter": null
+    },
+    {
+      "code": "a002",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication-error",
+      "display": "Missing Creation Date",
+      "description": "Missing Creation Date",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "FinancialTaskCodes",
+  "resource_id": "financial-taskcode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/financial-taskcode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/financialtaskcode"
+      }
+    ]
+  },
+  "description": "This value set includes Financial Task codes.",
+  "related_codesystems": [
+    {
+      "id": "financial-taskcode",
+      "url": "http://terminology.hl7.org/CodeSystem/financialtaskcode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "cancel",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskcode",
+      "display": "Cancel",
+      "description": "Cancel or reverse a resource, such as a claim or preauthorization, which is in-process or complete.",
+      "filter": null
+    },
+    {
+      "code": "poll",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskcode",
+      "display": "Poll",
+      "description": "Retrieve selected or all queued resources or messages.",
+      "filter": null
+    },
+    {
+      "code": "release",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskcode",
+      "display": "Release",
+      "description": "Release any reserved funds or material obligations associated with a resource. For example, any unused but reserved funds or treatment allowance associated with a preauthorization once treatment is complete.",
+      "filter": null
+    },
+    {
+      "code": "reprocess",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskcode",
+      "display": "Reprocess",
+      "description": "Indication that the processing of a resource, such as a claim, for some or all of the required work is now being requested.",
+      "filter": null
+    },
+    {
+      "code": "status",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/financialtaskcode",
+      "display": "Status check",
+      "description": "Check on the processing status of a resource such as the adjudication of a claim.",
+      "filter": null
+    }
+  ]
+}

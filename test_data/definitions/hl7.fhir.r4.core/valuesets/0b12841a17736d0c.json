@@ -1,0 +1,51 @@
+{
+  "name": "ConceptMapGroupUnmappedMode",
+  "resource_id": "conceptmap-unmapped-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/conceptmap-unmapped-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/conceptmap-unmapped-mode"
+      }
+    ]
+  },
+  "description": "Defines which action to take if there is no match in the group.",
+  "related_codesystems": [
+    {
+      "id": "conceptmap-unmapped-mode",
+      "url": "http://hl7.org/fhir/conceptmap-unmapped-mode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "provided",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/conceptmap-unmapped-mode",
+      "display": "Provided Code",
+      "description": "Use the code as provided in the $translate request.",
+      "filter": null
+    },
+    {
+      "code": "fixed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/conceptmap-unmapped-mode",
+      "display": "Fixed Code",
+      "description": "Use the code explicitly provided in the group.unmapped.",
+      "filter": null
+    },
+    {
+      "code": "other-map",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/conceptmap-unmapped-mode",
+      "display": "Other Map",
+      "description": "Use the map identified by the canonical URL in the url element.",
+      "filter": null
+    }
+  ]
+}

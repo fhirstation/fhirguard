@@ -1,0 +1,66 @@
+{
+  "name": "v2.0130",
+  "resource_id": "v2-0130",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0130",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "HO",
+      "display": "Home",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Thuis"
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "display": "Mobile Unit",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Mobiele eenheid"
+        }
+      ]
+    },
+    {
+      "code": "PH",
+      "display": "Phone",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Telefoon"
+        }
+      ]
+    },
+    {
+      "code": "TE",
+      "display": "Teaching",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geeft onderwijs"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

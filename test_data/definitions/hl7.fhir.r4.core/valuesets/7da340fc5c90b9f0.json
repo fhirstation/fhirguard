@@ -1,0 +1,101 @@
+{
+  "name": "DeviceMetricColor",
+  "resource_id": "metric-color",
+  "resource_url": "http://hl7.org/fhir/ValueSet/metric-color",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/metric-color"
+      }
+    ]
+  },
+  "description": "Describes the typical color of representation.",
+  "related_codesystems": [
+    {
+      "id": "metric-color",
+      "url": "http://hl7.org/fhir/metric-color"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "black",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Black",
+      "description": "Color for representation - black.",
+      "filter": null
+    },
+    {
+      "code": "red",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Red",
+      "description": "Color for representation - red.",
+      "filter": null
+    },
+    {
+      "code": "green",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Green",
+      "description": "Color for representation - green.",
+      "filter": null
+    },
+    {
+      "code": "yellow",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Yellow",
+      "description": "Color for representation - yellow.",
+      "filter": null
+    },
+    {
+      "code": "blue",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Blue",
+      "description": "Color for representation - blue.",
+      "filter": null
+    },
+    {
+      "code": "magenta",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Magenta",
+      "description": "Color for representation - magenta.",
+      "filter": null
+    },
+    {
+      "code": "cyan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color Cyan",
+      "description": "Color for representation - cyan.",
+      "filter": null
+    },
+    {
+      "code": "white",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/metric-color",
+      "display": "Color White",
+      "description": "Color for representation - white.",
+      "filter": null
+    }
+  ]
+}

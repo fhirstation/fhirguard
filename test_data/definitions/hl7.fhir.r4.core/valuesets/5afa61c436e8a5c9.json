@@ -1,0 +1,581 @@
+{
+  "name": "v2.0163",
+  "resource_id": "v2-0163",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0163",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0163"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0163 ( ADMINISTRIVE SITE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0163",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0163"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Bilateral Ears",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Bilateral Nares",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Buttock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Chest Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Anterior Chest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LACF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Antecubital Fossa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Deltoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Ear",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LEJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left External Jugular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Foot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Gluteus Medius",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Hand",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Internal Jugular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LLAQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Lower Abd Quadrant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LLFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Lower Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LMFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Mid Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Naris",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LNB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Nebulized",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Posterior Chest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Subclavian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Thigh",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Upper Arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUAQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Upper Abd Quadrant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Upper Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Vastus Lateralis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LVG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Ventragluteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LVL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Vastus Lateralis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Nebulized",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Eye",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Left Eye",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Bilateral Eyes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Perianal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Perineal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Anterior Chest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RACF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Antecubital Fossa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Deltoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Ear",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right External Jugular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Foot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Gluteus Medius",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Hand",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RIJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Internal Jugular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLAQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Rt Lower Abd Quadrant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Lower Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RMFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Mid Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Naris",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Posterior Chest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Subclavian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Thigh",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RUA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Upper Arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RUAQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Upper Abd Quadrant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RUFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Upper Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RVG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Ventragluteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RVL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0163",
+      "display": "Right Vastus Lateralis",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

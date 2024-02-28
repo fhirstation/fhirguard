@@ -1,0 +1,158 @@
+{
+  "name": "v2.0429",
+  "resource_id": "v2-0429",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0429",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "BR",
+      "display": "Breeding/genetic stock",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Fokken/genetische voorraad"
+        }
+      ]
+    },
+    {
+      "code": "DA",
+      "display": "Dairy",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Melkproduct"
+        }
+      ]
+    },
+    {
+      "code": "DR",
+      "display": "Draft"
+    },
+    {
+      "code": "DU",
+      "display": "Dual Purpose",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Meervoudig doel"
+        }
+      ]
+    },
+    {
+      "code": "LY",
+      "display": "Layer, Includes Multiplier flocks"
+    },
+    {
+      "code": "MT",
+      "display": "Meat",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vlees"
+        }
+      ]
+    },
+    {
+      "code": "NA",
+      "display": "Not Applicable",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet van toepassing"
+        }
+      ]
+    },
+    {
+      "code": "OT",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Anders"
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "display": "Pleasure",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Hobby"
+        }
+      ]
+    },
+    {
+      "code": "RA",
+      "display": "Racing",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Racen"
+        }
+      ]
+    },
+    {
+      "code": "SH",
+      "display": "Show",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Show"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onbekend"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

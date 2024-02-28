@@ -1,0 +1,75 @@
+{
+  "name": "ExtensionContextType",
+  "resource_id": "extension-context-type",
+  "resource_url": "http://hl7.org/fhir/extension-context-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "fhirpath",
+      "display": "FHIRPath",
+      "definition": "The context is all elements that match the FHIRPath query found in the expression."
+    },
+    {
+      "code": "element",
+      "display": "Element ID",
+      "definition": "The context is any element that has an ElementDefinition.id that matches that found in the expression. This includes ElementDefinition Ids that have slicing identifiers. The full path for the element is [url]#[elementid]. If there is no #, the Element id is one defined in the base specification."
+    },
+    {
+      "code": "extension",
+      "display": "Extension URL",
+      "definition": "The context is a particular extension from a particular StructureDefinition, and the expression is just a uri that identifies the extension."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExtensionContextType",
+    "resource_id": "extension-context-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/extension-context-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/extension-context-type"
+        }
+      ]
+    },
+    "description": "How an extension context is interpreted.",
+    "related_codesystems": [
+      {
+        "id": "extension-context-type",
+        "url": "http://hl7.org/fhir/extension-context-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "fhirpath",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/extension-context-type",
+        "display": "FHIRPath",
+        "description": "The context is all elements that match the FHIRPath query found in the expression.",
+        "filter": null
+      },
+      {
+        "code": "element",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/extension-context-type",
+        "display": "Element ID",
+        "description": "The context is any element that has an ElementDefinition.id that matches that found in the expression. This includes ElementDefinition Ids that have slicing identifiers. The full path for the element is [url]#[elementid]. If there is no #, the Element id is one defined in the base specification.",
+        "filter": null
+      },
+      {
+        "code": "extension",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/extension-context-type",
+        "display": "Extension URL",
+        "description": "The context is a particular extension from a particular StructureDefinition, and the expression is just a uri that identifies the extension.",
+        "filter": null
+      }
+    ]
+  }
+}

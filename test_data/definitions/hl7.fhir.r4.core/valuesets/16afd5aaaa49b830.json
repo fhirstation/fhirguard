@@ -1,0 +1,471 @@
+{
+  "name": "DiagnosticServiceSectionCodes",
+  "resource_id": "diagnostic-service-sections",
+  "resource_url": "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0074"
+      }
+    ]
+  },
+  "description": "This value set includes all the codes in HL7 V2 table 0074.",
+  "related_codesystems": [
+    {
+      "id": "v2-0074",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0074"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Audiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Blood Gases",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Blood Bank",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Cytogenetics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Chemistry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Cytopathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "CAT Scan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Cardiac Catheterization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Cardiac Ultrasound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Electrocardiac (e.g., EKG,  EEC, Holter)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Electroneuro (EEG, EMG,EP,PSG)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Genetics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Hematology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Bedside ICU Monitoring",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IMG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Diagnostic Imaging",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IMM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Immunology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Laboratory",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Microbiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Mycobacteriology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MYC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Mycology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Nuclear Magnetic Resonance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NMS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Nuclear Medicine Scan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NRS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Nursing Service Measures",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Outside Lab",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Occupational Therapy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "OB Ultrasound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Parasitology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Pathology (gross & histopath, not surgical)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Pulmonary Function",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Pharmacy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Physician (Hx. Dx, admission note, etc.)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Physical Therapy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Radiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Respiratory Care (therapy)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Radiation Therapy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Radiology Ultrasound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Radiograph",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Surgical Pathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Serology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Toxicology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Urinalysis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Virology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Vascular Ultrasound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+      "display": "Cineradiograph",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

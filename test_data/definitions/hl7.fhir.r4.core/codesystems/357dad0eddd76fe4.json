@@ -1,0 +1,208 @@
+{
+  "name": "v2.0038",
+  "resource_id": "v2-0038",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0038",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Some, but not all, results available",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "einige, aber nicht alle, Resultate verfügbar"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Sommige maar niet alle resultaten beschikbaar"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "display": "Order was canceled",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftrag storniert"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag is geannuleerd"
+        }
+      ]
+    },
+    {
+      "code": "CM",
+      "display": "Order is completed",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftrag ausgeführt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag is afgerond"
+        }
+      ]
+    },
+    {
+      "code": "DC",
+      "display": "Order was discontinued",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ausführung des Auftrags abgebrochen"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag is afgebroken"
+        }
+      ]
+    },
+    {
+      "code": "ER",
+      "display": "Error, order not found",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftrag nicht gefunden"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Fout, aanvraag niet gevonden"
+        }
+      ]
+    },
+    {
+      "code": "HD",
+      "display": "Order is on hold",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftragsbearbeitung ausgesetzt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag is aangehouden"
+        }
+      ]
+    },
+    {
+      "code": "IP",
+      "display": "In process, unspecified",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftrag in Bearbeitung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag loopt, niet-specificeerd"
+        }
+      ]
+    },
+    {
+      "code": "RP",
+      "display": "Order has been replaced",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftrag ist ersetzt worden"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag is vervangen"
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "display": "In process, scheduled",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Auftrag hat Termin oder ist in Ausführung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aanvraag loopt, is gepland"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

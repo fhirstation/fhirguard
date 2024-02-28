@@ -1,0 +1,39 @@
+{
+  "name": "SpecimenContainerType",
+  "resource_id": "specimen-container-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/specimen-container-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "706041008"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Checks on the patient prior specimen collection. All SNOMED CT concepts descendants of 706041008 |Device for body fluid and tissue collection/transfer/processing (physical object)|",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "706041008"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ExampleServiceModifierCodes",
+  "resource_id": "service-modifiers",
+  "resource_url": "http://hl7.org/fhir/ValueSet/service-modifiers",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/ex-servicemodifier"
+      }
+    ]
+  },
+  "description": "This value set includes sample Service Modifier codes.",
+  "related_codesystems": [
+    {
+      "id": "service-modifiers",
+      "url": "http://hl7.org/fhir/ex-servicemodifier"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "sr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-servicemodifier",
+      "display": "Side of the Road",
+      "description": "Services provided on the side of the road or such other non-conventional setting.",
+      "filter": null
+    },
+    {
+      "code": "ah",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-servicemodifier",
+      "display": "After hours",
+      "description": "Services provided outside or normal business hours.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "AllergyIntoleranceSeverity",
+  "resource_id": "reaction-event-severity",
+  "resource_url": "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/reaction-event-severity"
+      }
+    ]
+  },
+  "description": "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+  "related_codesystems": [
+    {
+      "id": "reaction-event-severity",
+      "url": "http://hl7.org/fhir/reaction-event-severity"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "mild",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/reaction-event-severity",
+      "display": "Mild",
+      "description": "Causes mild physiological effects.",
+      "filter": null
+    },
+    {
+      "code": "moderate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/reaction-event-severity",
+      "display": "Moderate",
+      "description": "Causes moderate physiological effects.",
+      "filter": null
+    },
+    {
+      "code": "severe",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/reaction-event-severity",
+      "display": "Severe",
+      "description": "Causes severe physiological effects.",
+      "filter": null
+    }
+  ]
+}

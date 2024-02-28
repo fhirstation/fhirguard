@@ -1,0 +1,165 @@
+{
+  "name": "v3.DocumentCompletion",
+  "resource_id": "v3-DocumentCompletion",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AU",
+      "display": "authenticated",
+      "definition": "A completion status in which a document has been signed manually or electronically by one or more individuals who attest to its accuracy.  No explicit determination is made that the assigned individual has performed the authentication.  While the standard allows multiple instances of authentication, it would be typical to have a single instance of authentication, usually by the assigned individual."
+    },
+    {
+      "code": "DI",
+      "display": "dictated",
+      "definition": "A completion status in which information has been orally recorded but not yet transcribed."
+    },
+    {
+      "code": "DO",
+      "display": "documented",
+      "definition": "A completion status in which document content, other than dictation, has been received but has not been translated into the final electronic format.  Examples include paper documents, whether hand-written or typewritten, and intermediate electronic forms, such as voice to text."
+    },
+    {
+      "code": "IN",
+      "display": "incomplete",
+      "definition": "A completion status in which information is known to be missing from a transcribed document."
+    },
+    {
+      "code": "IP",
+      "display": "in progress",
+      "definition": "A workflow status where the material has been assigned to personnel to perform the task of transcription. The document remains in this state until the document is transcribed."
+    },
+    {
+      "code": "LA",
+      "display": "legally authenticated",
+      "definition": "A completion status in which a document has been signed manually or electronically by the individual who is legally responsible for that document. This is the most mature state in the workflow progression."
+    },
+    {
+      "code": "NU",
+      "display": "nullified document",
+      "definition": "A completion status in which a document was created in error or was placed in the wrong chart. The document is no longer available."
+    },
+    {
+      "code": "PA",
+      "display": "pre-authenticated",
+      "definition": "A completion status in which a document is transcribed but not authenticated."
+    },
+    {
+      "code": "UC",
+      "display": "unsigned completed document",
+      "definition": "A completion status where the document is complete and there is no expectation that the document will be signed."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "v3.DocumentCompletion",
+    "resource_id": "v3-DocumentCompletion",
+    "resource_url": "http://terminology.hl7.org/ValueSet/v3-DocumentCompletion",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"
+        }
+      ]
+    },
+    "description": " Identifies the current completion state of a clinical document.",
+    "related_codesystems": [
+      {
+        "id": "v3-DocumentCompletion",
+        "url": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "AU",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "authenticated",
+        "description": "A completion status in which a document has been signed manually or electronically by one or more individuals who attest to its accuracy.  No explicit determination is made that the assigned individual has performed the authentication.  While the standard allows multiple instances of authentication, it would be typical to have a single instance of authentication, usually by the assigned individual.",
+        "filter": null
+      },
+      {
+        "code": "DI",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "dictated",
+        "description": "A completion status in which information has been orally recorded but not yet transcribed.",
+        "filter": null
+      },
+      {
+        "code": "DO",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "documented",
+        "description": "A completion status in which document content, other than dictation, has been received but has not been translated into the final electronic format.  Examples include paper documents, whether hand-written or typewritten, and intermediate electronic forms, such as voice to text.",
+        "filter": null
+      },
+      {
+        "code": "IN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "incomplete",
+        "description": "A completion status in which information is known to be missing from a transcribed document.",
+        "filter": null
+      },
+      {
+        "code": "IP",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "in progress",
+        "description": "A workflow status where the material has been assigned to personnel to perform the task of transcription. The document remains in this state until the document is transcribed.",
+        "filter": null
+      },
+      {
+        "code": "LA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "legally authenticated",
+        "description": "A completion status in which a document has been signed manually or electronically by the individual who is legally responsible for that document. This is the most mature state in the workflow progression.",
+        "filter": null
+      },
+      {
+        "code": "NU",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "nullified document",
+        "description": "A completion status in which a document was created in error or was placed in the wrong chart. The document is no longer available.",
+        "filter": null
+      },
+      {
+        "code": "PA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "pre-authenticated",
+        "description": "A completion status in which a document is transcribed but not authenticated.",
+        "filter": null
+      },
+      {
+        "code": "UC",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
+        "display": "unsigned completed document",
+        "description": "A completion status where the document is complete and there is no expectation that the document will be signed.",
+        "filter": null
+      }
+    ]
+  }
+}

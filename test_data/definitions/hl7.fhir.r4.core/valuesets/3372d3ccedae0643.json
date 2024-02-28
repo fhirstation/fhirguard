@@ -1,0 +1,71 @@
+{
+  "name": "PerformerRoleCodes",
+  "resource_id": "consent-performer",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consent-performer",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/consentperformer"
+      }
+    ]
+  },
+  "description": "This value set includes sample Performer Role codes.",
+  "related_codesystems": [
+    {
+      "id": "consent-performer",
+      "url": "http://hl7.org/fhir/consentperformer"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "consenter",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consentperformer",
+      "display": "Consenter",
+      "description": "An entity or an entity's delegatee who is the grantee in an agreement such as a consent for services, advanced directive, or a privacy consent directive in accordance with jurisdictional, organizational, or patient policy.",
+      "filter": null
+    },
+    {
+      "code": "grantee",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consentperformer",
+      "display": "Grantee",
+      "description": "An entity which accepts certain rights or authority from a grantor.",
+      "filter": null
+    },
+    {
+      "code": "grantor",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consentperformer",
+      "display": "Grantor",
+      "description": "An entity which agrees to confer certain rights or authority to a grantee.",
+      "filter": null
+    },
+    {
+      "code": "delegatee",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consentperformer",
+      "display": "Delegatee",
+      "description": "A party to whom some right or authority is granted by a delegator.",
+      "filter": null
+    },
+    {
+      "code": "delegator",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consentperformer",
+      "display": "Delegator",
+      "description": "A party that grants all or some portion its right or authority to another party.",
+      "filter": null
+    }
+  ]
+}

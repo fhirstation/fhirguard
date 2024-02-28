@@ -1,0 +1,141 @@
+{
+  "name": "v2.0247",
+  "resource_id": "v2-0247",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0247",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0247"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0247 ( Start of Evaluation)",
+  "related_codesystems": [
+    {
+      "id": "v2-0247",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0247"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Evaluation anticipated, but not yet begun",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product received in condition which made analysis impossible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product discarded -- unable to follow up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product remains implanted -- unable to follow up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Problem already known, no evaluation necessary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Evaluation in progress",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product under quarantine -- unable to follow up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product under recall/corrective action",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product unavailable for follow up investigation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Product not made by company",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0247",
+      "display": "Evaluation completed",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

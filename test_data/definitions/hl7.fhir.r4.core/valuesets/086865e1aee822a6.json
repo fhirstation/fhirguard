@@ -1,0 +1,111 @@
+{
+  "name": "v3.TableFrame",
+  "resource_id": "v3-TableFrame",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-TableFrame",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame"
+      }
+    ]
+  },
+  "description": " These values are defined within the XHTML 4.0 Table Model",
+  "related_codesystems": [
+    {
+      "id": "v3-TableFrame",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-TableFrame"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "above",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "above",
+      "description": "above",
+      "filter": null
+    },
+    {
+      "code": "below",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "below",
+      "description": "below",
+      "filter": null
+    },
+    {
+      "code": "border",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "border",
+      "description": "border",
+      "filter": null
+    },
+    {
+      "code": "box",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "box",
+      "description": "box",
+      "filter": null
+    },
+    {
+      "code": "hsides",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "hsides",
+      "description": "hsides",
+      "filter": null
+    },
+    {
+      "code": "lhs",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "lhs",
+      "description": "lhs",
+      "filter": null
+    },
+    {
+      "code": "rhs",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "rhs",
+      "description": "rhs",
+      "filter": null
+    },
+    {
+      "code": "void",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "void",
+      "description": "void",
+      "filter": null
+    },
+    {
+      "code": "vsides",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-TableFrame",
+      "display": "vsides",
+      "description": "vsides",
+      "filter": null
+    }
+  ]
+}

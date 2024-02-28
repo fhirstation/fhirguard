@@ -1,0 +1,44 @@
+{
+  "name": "v2.0834",
+  "resource_id": "v2-0834",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0834",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "application",
+      "display": "Application data"
+    },
+    {
+      "code": "audio",
+      "display": "Audio data"
+    },
+    {
+      "code": "image",
+      "display": "Image data"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "RFC 2077"
+        }
+      ],
+      "code": "model",
+      "display": "Model data"
+    },
+    {
+      "code": "multipart",
+      "display": "MIME multipart package"
+    },
+    {
+      "code": "text",
+      "display": "Text data"
+    },
+    {
+      "code": "video",
+      "display": "Video data"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

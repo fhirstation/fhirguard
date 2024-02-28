@@ -1,0 +1,30 @@
+{
+  "name": "v2.0682",
+  "resource_id": "v2-0682",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0682",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Door Locked"
+        }
+      ],
+      "code": "0",
+      "display": "Ready"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Door Unlocked"
+        }
+      ],
+      "code": "1",
+      "display": "Not Ready"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

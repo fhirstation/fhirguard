@@ -1,0 +1,74 @@
+{
+  "name": "v2.0150",
+  "resource_id": "v2-0150",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0150",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ER",
+      "display": "Emergency",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "(Tabelle 150 wird nicht verwendet)"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Spoed"
+        }
+      ]
+    },
+    {
+      "code": "IPE",
+      "display": "Inpatient elective",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Klinisch eigen keuze"
+        }
+      ]
+    },
+    {
+      "code": "OPE",
+      "display": "Outpatient elective",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Poliklinisch eigen keuze"
+        }
+      ]
+    },
+    {
+      "code": "UR",
+      "display": "Urgent",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Spoed"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,42 @@
+{
+  "name": "DataElementSDCObjectClass",
+  "resource_id": "dataelement-sdcobjectclassproperty",
+  "resource_url": "http://hl7.org/fhir/ValueSet/dataelement-sdcobjectclassproperty",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct"
+      },
+      {
+        "system": "http://loinc.org"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm"
+      }
+    ]
+  },
+  "description": "The allowed codes for identifying the ISO 11179 ObjectClass Property for a particular data element if intended for registration/use within the U.S. Structured Data Capture (SDC) project.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

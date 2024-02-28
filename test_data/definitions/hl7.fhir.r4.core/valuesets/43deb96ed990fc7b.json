@@ -1,0 +1,301 @@
+{
+  "name": "v2.0033",
+  "resource_id": "v2-0033",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0033",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0033"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0033 ( ROUTE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0033",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0033"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Apply externally",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Chew",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Dust",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Ear",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Eye",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Intro-arterial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Intra-dermal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Infiltrate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Inhalation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Intra-muscular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Intra-nasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Irrigate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Inserted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Intrathecal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Intravenous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Nebulized",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Nathogasic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Peri-anally",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Paint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "IV push",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Rectally",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Shampoo",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Sublingual",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Soak",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "IV soluset",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Topically",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0033",
+      "display": "Wipe",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

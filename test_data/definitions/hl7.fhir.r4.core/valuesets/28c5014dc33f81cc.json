@@ -1,0 +1,91 @@
+{
+  "name": "v2.0156",
+  "resource_id": "v2-0156",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0156",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0156"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0156 ( DATE/TIME QUALIFIER)",
+  "related_codesystems": [
+    {
+      "id": "v2-0156",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0156"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ANY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Any date/time within a range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Cancellation date/time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Collection date/time, equivalent to film or sample collection date/time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Order date/time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Specimen receipt date/time, receipt of specimen in filling ancillary (Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Report date/time, report date/time at filling ancillary (i.e., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCHED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0156",
+      "display": "Schedule date/time",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

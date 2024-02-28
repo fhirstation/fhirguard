@@ -1,0 +1,15 @@
+{
+  "name": "AlternativeCodeKind",
+  "resource_id": "composition-altcode-kind",
+  "resource_url": "http://hl7.org/fhir/ValueSet/composition-altcode-kind",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/composition-altcode-kind"
+      }
+    ]
+  },
+  "description": "Indicates the type of use for which the code is defined.",
+  "related_codesystems": [],
+  "allowed_values": []
+}

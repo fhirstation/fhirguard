@@ -1,0 +1,165 @@
+{
+  "name": "ExampleRevenueCenterCodes",
+  "resource_id": "ex-revenue-center",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0370",
+      "display": "Anaesthesia",
+      "definition": "Anaesthesia."
+    },
+    {
+      "code": "0420",
+      "display": "Physical Therapy",
+      "definition": "Physical Therapy."
+    },
+    {
+      "code": "0421",
+      "display": "Physical Therapy - ",
+      "definition": "Physical Therapy - visit charge."
+    },
+    {
+      "code": "0440",
+      "display": "Speech-Language Pathology",
+      "definition": "Speech-Language Pathology."
+    },
+    {
+      "code": "0441",
+      "display": "Speech-Language Pathology - Visit",
+      "definition": "Speech-Language Pathology- visit charge"
+    },
+    {
+      "code": "0450",
+      "display": "Emergency Room",
+      "definition": "Emergency Room"
+    },
+    {
+      "code": "0451",
+      "display": "Emergency Room - EM/EMTALA",
+      "definition": "Emergency Room - EM/EMTALA"
+    },
+    {
+      "code": "0452",
+      "display": "Emergency Room - beyond EMTALA",
+      "definition": "Emergency Room - beyond EMTALA"
+    },
+    {
+      "code": "0010",
+      "display": "Vision Clinic",
+      "definition": "Vision Clinic"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExampleRevenueCenterCodes",
+    "resource_id": "ex-revenue-center",
+    "resource_url": "http://hl7.org/fhir/ValueSet/ex-revenue-center",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center"
+        }
+      ]
+    },
+    "description": "This value set includes sample Revenue Center codes.",
+    "related_codesystems": [
+      {
+        "id": "ex-revenue-center",
+        "url": "http://terminology.hl7.org/CodeSystem/ex-revenue-center"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "0370",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Anaesthesia",
+        "description": "Anaesthesia.",
+        "filter": null
+      },
+      {
+        "code": "0420",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Physical Therapy",
+        "description": "Physical Therapy.",
+        "filter": null
+      },
+      {
+        "code": "0421",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Physical Therapy - ",
+        "description": "Physical Therapy - visit charge.",
+        "filter": null
+      },
+      {
+        "code": "0440",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Speech-Language Pathology",
+        "description": "Speech-Language Pathology.",
+        "filter": null
+      },
+      {
+        "code": "0441",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Speech-Language Pathology - Visit",
+        "description": "Speech-Language Pathology- visit charge",
+        "filter": null
+      },
+      {
+        "code": "0450",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Emergency Room",
+        "description": "Emergency Room",
+        "filter": null
+      },
+      {
+        "code": "0451",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Emergency Room - EM/EMTALA",
+        "description": "Emergency Room - EM/EMTALA",
+        "filter": null
+      },
+      {
+        "code": "0452",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Emergency Room - beyond EMTALA",
+        "description": "Emergency Room - beyond EMTALA",
+        "filter": null
+      },
+      {
+        "code": "0010",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-revenue-center",
+        "display": "Vision Clinic",
+        "description": "Vision Clinic",
+        "filter": null
+      }
+    ]
+  }
+}

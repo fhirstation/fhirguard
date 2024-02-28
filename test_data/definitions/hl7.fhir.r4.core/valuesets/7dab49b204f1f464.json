@@ -1,0 +1,71 @@
+{
+  "name": "v2.0126",
+  "resource_id": "v2-0126",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0126",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0126"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0126 ( QUANTITY LIMITED REQUEST)",
+  "related_codesystems": [
+    {
+      "id": "v2-0126",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0126"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0126",
+      "display": "Characters",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0126",
+      "display": "Lines",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0126",
+      "display": "Pages",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0126",
+      "display": "Records",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ZO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0126",
+      "display": "Locally defined",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

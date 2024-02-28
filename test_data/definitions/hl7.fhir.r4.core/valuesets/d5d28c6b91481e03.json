@@ -1,0 +1,431 @@
+{
+  "name": "OralSiteCodes",
+  "resource_id": "tooth",
+  "resource_url": "http://hl7.org/fhir/ValueSet/tooth",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-tooth"
+      }
+    ]
+  },
+  "description": "This value set includes a smattering of FDI oral site codes.",
+  "related_codesystems": [
+    {
+      "id": "tooth",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-tooth"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "Oral cavity",
+      "description": "Oral cavity.",
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "1",
+      "description": "Permanent teeth Maxillary right.",
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "2",
+      "description": "Permanent teeth Maxillary left.",
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "3",
+      "description": "Permanent teeth Mandibular right.",
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "4",
+      "description": "Permanent teeth Mandibular left.",
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "5",
+      "description": "Deciduous teeth Maxillary right.",
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "6",
+      "description": "Deciduous teeth Maxillary left.",
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "7",
+      "description": "Deciduous teeth Mandibular right.",
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "8",
+      "description": "Deciduous teeth Mandibular left.",
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "11",
+      "description": "Upper Right Tooth 1 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "12",
+      "description": "Upper Right Tooth 2 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "13",
+      "description": "Upper Right Tooth 3 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "14",
+      "description": "Upper Right Tooth 4 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "15",
+      "description": "Upper Right Tooth 5 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "16",
+      "description": "Upper Right Tooth 6 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "17",
+      "description": "Upper Right Tooth 7 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "18",
+      "description": "Upper Right Tooth 8 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "21",
+      "description": "Upper Left Tooth 1 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "22",
+      "description": "Upper Left Tooth 2 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "23",
+      "description": "Upper Left Tooth 3 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "24",
+      "description": "Upper Left Tooth 4 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "25",
+      "description": "Upper Left Tooth 5 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "26",
+      "description": "Upper Left Tooth 6 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "27",
+      "description": "Upper Left Tooth 7 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "28",
+      "description": "Upper Left Tooth 8 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "31",
+      "description": "Lower Left Tooth 1 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "32",
+      "description": "Lower Left Tooth 2 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "33",
+      "description": "Lower Left Tooth 3 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "34",
+      "description": "Lower Left Tooth 4 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "35",
+      "description": "Lower Left Tooth 5 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "36",
+      "description": "Lower Left Tooth 6 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "37",
+      "description": "Lower Left Tooth 7 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "38",
+      "description": "Lower Left Tooth 8 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "41",
+      "description": "Lower Right Tooth 1 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "42",
+      "description": "Lower Right Tooth 2 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "43",
+      "description": "Lower Right Tooth 3 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "44",
+      "description": "Lower Right Tooth 4 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "45",
+      "description": "Lower Right Tooth 5 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "46",
+      "description": "Lower Right Tooth 6 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "47",
+      "description": "Lower Right Tooth 7 from the central axis, permanent dentition.",
+      "filter": null
+    },
+    {
+      "code": "48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-tooth",
+      "display": "48",
+      "description": "Lower Right Tooth 8 from the central axis, permanent dentition.",
+      "filter": null
+    }
+  ]
+}

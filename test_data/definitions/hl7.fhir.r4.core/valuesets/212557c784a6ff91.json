@@ -1,0 +1,61 @@
+{
+  "name": "PrecisionEstimateType",
+  "resource_id": "precision-estimate-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/precision-estimate-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/precision-estimate-type"
+      }
+    ]
+  },
+  "description": "Method of reporting variability of estimates, such as confidence intervals, interquartile range or standard deviation.",
+  "related_codesystems": [
+    {
+      "id": "precision-estimate-type",
+      "url": "http://terminology.hl7.org/CodeSystem/precision-estimate-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/precision-estimate-type",
+      "display": "confidence interval",
+      "description": "confidence interval.",
+      "filter": null
+    },
+    {
+      "code": "IQR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/precision-estimate-type",
+      "display": "interquartile range",
+      "description": "interquartile range.",
+      "filter": null
+    },
+    {
+      "code": "SD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/precision-estimate-type",
+      "display": "standard deviation",
+      "description": "standard deviation.",
+      "filter": null
+    },
+    {
+      "code": "SE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/precision-estimate-type",
+      "display": "standard error",
+      "description": "standard error.",
+      "filter": null
+    }
+  ]
+}

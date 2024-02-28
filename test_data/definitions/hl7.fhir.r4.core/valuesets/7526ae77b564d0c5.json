@@ -1,0 +1,71 @@
+{
+  "name": "DiscriminatorType",
+  "resource_id": "discriminator-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/discriminator-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/discriminator-type"
+      }
+    ]
+  },
+  "description": "How an element value is interpreted when discrimination is evaluated.",
+  "related_codesystems": [
+    {
+      "id": "discriminator-type",
+      "url": "http://hl7.org/fhir/discriminator-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "value",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/discriminator-type",
+      "display": "Value",
+      "description": "The slices have different values in the nominated element.",
+      "filter": null
+    },
+    {
+      "code": "exists",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/discriminator-type",
+      "display": "Exists",
+      "description": "The slices are differentiated by the presence or absence of the nominated element.",
+      "filter": null
+    },
+    {
+      "code": "pattern",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/discriminator-type",
+      "display": "Pattern",
+      "description": "The slices have different values in the nominated element, as determined by testing them against the applicable ElementDefinition.pattern[x].",
+      "filter": null
+    },
+    {
+      "code": "type",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/discriminator-type",
+      "display": "Type",
+      "description": "The slices are differentiated by type of the nominated element.",
+      "filter": null
+    },
+    {
+      "code": "profile",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/discriminator-type",
+      "display": "Profile",
+      "description": "The slices are differentiated by conformance of the nominated element to a specified profile. Note that if the path specifies .resolve() then the profile is the target profile on the reference. In this case, validation by the possible profiles is required to differentiate the slices.",
+      "filter": null
+    }
+  ]
+}

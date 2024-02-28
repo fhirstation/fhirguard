@@ -1,0 +1,81 @@
+{
+  "name": "InvoicePriceComponentType",
+  "resource_id": "invoice-priceComponentType",
+  "resource_url": "http://hl7.org/fhir/ValueSet/invoice-priceComponentType",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/invoice-priceComponentType"
+      }
+    ]
+  },
+  "description": "Codes indicating the kind of the price component.",
+  "related_codesystems": [
+    {
+      "id": "invoice-priceComponentType",
+      "url": "http://hl7.org/fhir/invoice-priceComponentType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "base",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-priceComponentType",
+      "display": "base price",
+      "description": "the amount is the base price used for calculating the total price before applying surcharges, discount or taxes.",
+      "filter": null
+    },
+    {
+      "code": "surcharge",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-priceComponentType",
+      "display": "surcharge",
+      "description": "the amount is a surcharge applied on the base price.",
+      "filter": null
+    },
+    {
+      "code": "deduction",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-priceComponentType",
+      "display": "deduction",
+      "description": "the amount is a deduction applied on the base price.",
+      "filter": null
+    },
+    {
+      "code": "discount",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-priceComponentType",
+      "display": "discount",
+      "description": "the amount is a discount applied on the base price.",
+      "filter": null
+    },
+    {
+      "code": "tax",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-priceComponentType",
+      "display": "tax",
+      "description": "the amount is the tax component of the total price.",
+      "filter": null
+    },
+    {
+      "code": "informational",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-priceComponentType",
+      "display": "informational",
+      "description": "the amount is of informational character, it has not been applied in the calculation of the total price.",
+      "filter": null
+    }
+  ]
+}

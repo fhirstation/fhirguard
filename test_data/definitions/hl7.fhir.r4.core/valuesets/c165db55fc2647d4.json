@@ -1,0 +1,71 @@
+{
+  "name": "v2.0069",
+  "resource_id": "v2-0069",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0069",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0069"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0069 ( Hospital service)",
+  "related_codesystems": [
+    {
+      "id": "v2-0069",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0069"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0069",
+      "display": "Cardiac Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0069",
+      "display": "Medical Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0069",
+      "display": "Pulmonary Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0069",
+      "display": "Surgical Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0069",
+      "display": "Urology Service",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

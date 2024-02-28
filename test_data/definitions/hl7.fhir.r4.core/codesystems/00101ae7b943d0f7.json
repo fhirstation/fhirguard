@@ -1,0 +1,26 @@
+{
+  "name": "v2.0445",
+  "resource_id": "v2-0445",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0445",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AL",
+      "display": "Patient/Person Name is an Alias"
+    },
+    {
+      "code": "UA",
+      "display": "Unknown/Default Address"
+    },
+    {
+      "code": "UD",
+      "display": "Unknown/Default Date of Birth"
+    },
+    {
+      "code": "US",
+      "display": "Unknown/Default Social Security Number"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

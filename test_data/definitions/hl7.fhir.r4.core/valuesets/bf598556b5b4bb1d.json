@@ -1,0 +1,261 @@
+{
+  "name": "v2.0200",
+  "resource_id": "v2-0200",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0200",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0200"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0200 ( Name Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0200",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0200"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Assigned",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Birth name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Bad Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Adopted Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Customary Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Fathers Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Licensing Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Business name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Official Registry Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Maiden Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Masked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Nickname",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Temporarily Unavailable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Newborn Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOUSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "No Longer To Be Used",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Name of Partner/Spouse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Registered Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Religious",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Pseudonym",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Indigenous/Tribal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Temporary Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0200",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

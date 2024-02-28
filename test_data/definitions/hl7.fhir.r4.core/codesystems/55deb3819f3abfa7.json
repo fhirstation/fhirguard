@@ -1,0 +1,40 @@
+{
+  "name": "v2.0480",
+  "resource_id": "v2-0480",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0480",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Default value.  Includes, but is not limited to, tables, capsules, powders, puffs, and other non-injected/non-infused products."
+        }
+      ],
+      "code": "M",
+      "display": "Medication"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Includes, but is not limited to, piggybacks and syringes"
+        }
+      ],
+      "code": "O",
+      "display": "Other solution as medication orders"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Includes, but is not limited to, TPNs, admixtures, solutions and drips."
+        }
+      ],
+      "code": "S",
+      "display": "IV Large Volume Solutions"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

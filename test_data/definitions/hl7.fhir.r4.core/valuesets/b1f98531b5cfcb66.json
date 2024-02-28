@@ -1,0 +1,51 @@
+{
+  "name": "AllergyIntoleranceCriticality",
+  "resource_id": "allergy-intolerance-criticality",
+  "resource_url": "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/allergy-intolerance-criticality"
+      }
+    ]
+  },
+  "description": "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+  "related_codesystems": [
+    {
+      "id": "allergy-intolerance-criticality",
+      "url": "http://hl7.org/fhir/allergy-intolerance-criticality"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "low",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "display": "Low Risk",
+      "description": "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.",
+      "filter": null
+    },
+    {
+      "code": "high",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "display": "High Risk",
+      "description": "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.",
+      "filter": null
+    },
+    {
+      "code": "unable-to-assess",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "display": "Unable to Assess Risk",
+      "description": "Unable to assess the worst case result of a future exposure.",
+      "filter": null
+    }
+  ]
+}

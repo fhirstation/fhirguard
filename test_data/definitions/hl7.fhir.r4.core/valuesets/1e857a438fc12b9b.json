@@ -1,0 +1,15 @@
+{
+  "name": "COSMIC",
+  "resource_id": "cosmic",
+  "resource_url": "http://hl7.org/fhir/ValueSet/cosmic",
+  "compose": {
+    "include": [
+      {
+        "system": "http://cancer.sanger.ac.uk/cancergenome/projects/cosmic"
+      }
+    ]
+  },
+  "description": "COSMIC : Catalogue Of Somatic Mutations In Cancer",
+  "related_codesystems": [],
+  "allowed_values": []
+}

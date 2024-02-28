@@ -1,0 +1,70 @@
+{
+  "name": "EventTiming",
+  "resource_id": "event-timing",
+  "resource_url": "http://hl7.org/fhir/event-timing",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "MORN",
+      "display": "Morning",
+      "definition": "Event occurs during the morning. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "MORN.early",
+      "display": "Early Morning",
+      "definition": "Event occurs during the early morning. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "MORN.late",
+      "display": "Late Morning",
+      "definition": "Event occurs during the late morning. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "NOON",
+      "display": "Noon",
+      "definition": "Event occurs around 12:00pm. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "AFT",
+      "display": "Afternoon",
+      "definition": "Event occurs during the afternoon. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "AFT.early",
+      "display": "Early Afternoon",
+      "definition": "Event occurs during the early afternoon. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "AFT.late",
+      "display": "Late Afternoon",
+      "definition": "Event occurs during the late afternoon. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "EVE",
+      "display": "Evening",
+      "definition": "Event occurs during the evening. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "EVE.early",
+      "display": "Early Evening",
+      "definition": "Event occurs during the early evening. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "EVE.late",
+      "display": "Late Evening",
+      "definition": "Event occurs during the late evening. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "NIGHT",
+      "display": "Night",
+      "definition": "Event occurs during the night. The exact time is unspecified and established by institution convention or patient interpretation."
+    },
+    {
+      "code": "PHS",
+      "display": "After Sleep",
+      "definition": "Event occurs [offset] after subject goes to sleep. The exact time is unspecified and established by institution convention or patient interpretation."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

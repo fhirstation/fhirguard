@@ -1,0 +1,60 @@
+{
+  "name": "InterventionCodes",
+  "resource_id": "intervention",
+  "resource_url": "http://hl7.org/fhir/intervention",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "Unknown"
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Other"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "InterventionCodes",
+    "resource_id": "intervention",
+    "resource_url": "http://hl7.org/fhir/ValueSet/intervention",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/intervention"
+        }
+      ]
+    },
+    "description": "This value set includes sample Intervention codes.",
+    "related_codesystems": [
+      {
+        "id": "intervention",
+        "url": "http://hl7.org/fhir/intervention"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "unknown",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/intervention",
+        "display": "Unknown",
+        "description": "Unknown",
+        "filter": null
+      },
+      {
+        "code": "other",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/intervention",
+        "display": "Other",
+        "description": "Other",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "ActionRequiredBehavior",
+  "resource_id": "action-required-behavior",
+  "resource_url": "http://hl7.org/fhir/ValueSet/action-required-behavior",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/action-required-behavior"
+      }
+    ]
+  },
+  "description": "Defines expectations around whether an action or action group is required.",
+  "related_codesystems": [
+    {
+      "id": "action-required-behavior",
+      "url": "http://hl7.org/fhir/action-required-behavior"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "must",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-required-behavior",
+      "display": "Must",
+      "description": "An action with this behavior must be included in the actions processed by the end user; the end user SHALL NOT choose not to include this action.",
+      "filter": null
+    },
+    {
+      "code": "could",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-required-behavior",
+      "display": "Could",
+      "description": "An action with this behavior may be included in the set of actions processed by the end user.",
+      "filter": null
+    },
+    {
+      "code": "must-unless-documented",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-required-behavior",
+      "display": "Must Unless Documented",
+      "description": "An action with this behavior must be included in the set of actions processed by the end user, unless the end user provides documentation as to why the action was not included.",
+      "filter": null
+    }
+  ]
+}

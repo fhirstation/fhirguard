@@ -1,0 +1,120 @@
+{
+  "name": "DefinitionResourceType",
+  "resource_id": "definition-resource-types",
+  "resource_url": "http://hl7.org/fhir/definition-resource-types",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ActivityDefinition",
+      "display": "ActivityDefinition",
+      "definition": "This resource allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context."
+    },
+    {
+      "code": "EventDefinition",
+      "display": "EventDefinition",
+      "definition": "The EventDefinition resource provides a reusable description of when a particular event can occur."
+    },
+    {
+      "code": "Measure",
+      "display": "Measure",
+      "definition": "The Measure resource provides the definition of a quality measure."
+    },
+    {
+      "code": "OperationDefinition",
+      "display": "OperationDefinition",
+      "definition": "A formal computable definition of an operation (on the RESTful interface) or a named query (using the search interaction)."
+    },
+    {
+      "code": "PlanDefinition",
+      "display": "PlanDefinition",
+      "definition": "This resource allows for the definition of various types of plans as a sharable, consumable, and executable artifact. The resource is general enough to support the description of a broad range of clinical artifacts such as clinical decision support rules, order sets and protocols."
+    },
+    {
+      "code": "Questionnaire",
+      "display": "Questionnaire",
+      "definition": "A structured set of questions intended to guide the collection of answers from end-users. Questionnaires provide detailed control over order, presentation, phraseology and grouping to allow coherent, consistent data collection."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DefinitionResourceType",
+    "resource_id": "definition-resource-types",
+    "resource_url": "http://hl7.org/fhir/ValueSet/definition-resource-types",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/definition-resource-types"
+        }
+      ]
+    },
+    "description": "A list of all the definition resource types defined in this version of the FHIR specification.",
+    "related_codesystems": [
+      {
+        "id": "definition-resource-types",
+        "url": "http://hl7.org/fhir/definition-resource-types"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ActivityDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/definition-resource-types",
+        "display": "ActivityDefinition",
+        "description": "This resource allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context.",
+        "filter": null
+      },
+      {
+        "code": "EventDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/definition-resource-types",
+        "display": "EventDefinition",
+        "description": "The EventDefinition resource provides a reusable description of when a particular event can occur.",
+        "filter": null
+      },
+      {
+        "code": "Measure",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/definition-resource-types",
+        "display": "Measure",
+        "description": "The Measure resource provides the definition of a quality measure.",
+        "filter": null
+      },
+      {
+        "code": "OperationDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/definition-resource-types",
+        "display": "OperationDefinition",
+        "description": "A formal computable definition of an operation (on the RESTful interface) or a named query (using the search interaction).",
+        "filter": null
+      },
+      {
+        "code": "PlanDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/definition-resource-types",
+        "display": "PlanDefinition",
+        "description": "This resource allows for the definition of various types of plans as a sharable, consumable, and executable artifact. The resource is general enough to support the description of a broad range of clinical artifacts such as clinical decision support rules, order sets and protocols.",
+        "filter": null
+      },
+      {
+        "code": "Questionnaire",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/definition-resource-types",
+        "display": "Questionnaire",
+        "description": "A structured set of questions intended to guide the collection of answers from end-users. Questionnaires provide detailed control over order, presentation, phraseology and grouping to allow coherent, consistent data collection.",
+        "filter": null
+      }
+    ]
+  }
+}

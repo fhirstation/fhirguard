@@ -1,0 +1,60 @@
+{
+  "name": "ActionCardinalityBehavior",
+  "resource_id": "action-cardinality-behavior",
+  "resource_url": "http://hl7.org/fhir/action-cardinality-behavior",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "single",
+      "display": "Single",
+      "definition": "The action may only be selected one time."
+    },
+    {
+      "code": "multiple",
+      "display": "Multiple",
+      "definition": "The action may be selected multiple times."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ActionCardinalityBehavior",
+    "resource_id": "action-cardinality-behavior",
+    "resource_url": "http://hl7.org/fhir/ValueSet/action-cardinality-behavior",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/action-cardinality-behavior"
+        }
+      ]
+    },
+    "description": "Defines behavior for an action or a group for how many times that item may be repeated.",
+    "related_codesystems": [
+      {
+        "id": "action-cardinality-behavior",
+        "url": "http://hl7.org/fhir/action-cardinality-behavior"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "single",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-cardinality-behavior",
+        "display": "Single",
+        "description": "The action may only be selected one time.",
+        "filter": null
+      },
+      {
+        "code": "multiple",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-cardinality-behavior",
+        "display": "Multiple",
+        "description": "The action may be selected multiple times.",
+        "filter": null
+      }
+    ]
+  }
+}

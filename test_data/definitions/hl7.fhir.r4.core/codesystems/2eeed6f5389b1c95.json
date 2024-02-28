@@ -1,0 +1,90 @@
+{
+  "name": "DeviceMetricOperationalStatus",
+  "resource_id": "metric-operational-status",
+  "resource_url": "http://hl7.org/fhir/metric-operational-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "on",
+      "display": "On",
+      "definition": "The DeviceMetric is operating and will generate DeviceObservations."
+    },
+    {
+      "code": "off",
+      "display": "Off",
+      "definition": "The DeviceMetric is not operating."
+    },
+    {
+      "code": "standby",
+      "display": "Standby",
+      "definition": "The DeviceMetric is operating, but will not generate any DeviceObservations."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered In Error",
+      "definition": "The DeviceMetric was entered in error."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DeviceMetricOperationalStatus",
+    "resource_id": "metric-operational-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/metric-operational-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/metric-operational-status"
+        }
+      ]
+    },
+    "description": "Describes the operational status of the DeviceMetric.",
+    "related_codesystems": [
+      {
+        "id": "metric-operational-status",
+        "url": "http://hl7.org/fhir/metric-operational-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "on",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-operational-status",
+        "display": "On",
+        "description": "The DeviceMetric is operating and will generate DeviceObservations.",
+        "filter": null
+      },
+      {
+        "code": "off",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-operational-status",
+        "display": "Off",
+        "description": "The DeviceMetric is not operating.",
+        "filter": null
+      },
+      {
+        "code": "standby",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-operational-status",
+        "display": "Standby",
+        "description": "The DeviceMetric is operating, but will not generate any DeviceObservations.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/metric-operational-status",
+        "display": "Entered In Error",
+        "description": "The DeviceMetric was entered in error.",
+        "filter": null
+      }
+    ]
+  }
+}

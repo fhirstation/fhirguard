@@ -1,0 +1,81 @@
+{
+  "name": "ConsentState",
+  "resource_id": "consent-state-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consent-state-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/consent-state-codes"
+      }
+    ]
+  },
+  "description": "Indicates the state of the consent.",
+  "related_codesystems": [
+    {
+      "id": "consent-state-codes",
+      "url": "http://hl7.org/fhir/consent-state-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "draft",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-state-codes",
+      "display": "Pending",
+      "description": "The consent is in development or awaiting use but is not yet intended to be acted upon.",
+      "filter": null
+    },
+    {
+      "code": "proposed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-state-codes",
+      "display": "Proposed",
+      "description": "The consent has been proposed but not yet agreed to by all parties. The negotiation stage.",
+      "filter": null
+    },
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-state-codes",
+      "display": "Active",
+      "description": "The consent is to be followed and enforced.",
+      "filter": null
+    },
+    {
+      "code": "rejected",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-state-codes",
+      "display": "Rejected",
+      "description": "The consent has been rejected by one or more of the parties.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-state-codes",
+      "display": "Inactive",
+      "description": "The consent is terminated or replaced.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-state-codes",
+      "display": "Entered in Error",
+      "description": "The consent was created wrongly (e.g. wrong patient) and should be ignored.",
+      "filter": null
+    }
+  ]
+}

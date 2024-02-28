@@ -1,0 +1,281 @@
+{
+  "name": "v2.0175",
+  "resource_id": "v2-0175",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0175",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0175"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0175 ( MASTER FILE IDENTIFIER CODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0175",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0175"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Charge description master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Clinic master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Clinical study master",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Clinical study phase master",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Clinical study Data Schedule Master",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Clinical study with phases and scheduled master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Clinical study without phases but with scheduled master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Inventory master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Location master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MACP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Medicare Approved Coverage Process",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MLCP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Medicare Limited Coverage Process",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM1-OM6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OM6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation text master file segments (e.g., Lab)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Numerical observation master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Categorical observation master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Observation batteries master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Calculated observations master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Other Observation/Service Item master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Mixed type observation master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Practitioner master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0175",
+      "display": "Staff master file",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

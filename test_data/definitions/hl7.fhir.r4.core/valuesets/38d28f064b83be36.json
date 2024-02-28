@@ -1,0 +1,51 @@
+{
+  "name": "MedicationKnowledge Status Codes",
+  "resource_id": "medicationknowledge-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationknowledge-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-status"
+      }
+    ]
+  },
+  "description": "MedicationKnowledge Status Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationknowledge-status",
+      "url": "http://terminology.hl7.org/CodeSystem/medicationknowledge-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-status",
+      "display": "Active",
+      "description": "The medication is available for use.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-status",
+      "display": "Inactive",
+      "description": "The medication is not available for use.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-status",
+      "display": "Entered in Error",
+      "description": "The medication was entered in error.",
+      "filter": null
+    }
+  ]
+}

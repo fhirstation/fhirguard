@@ -1,0 +1,71 @@
+{
+  "name": "RequestIntent",
+  "resource_id": "request-intent",
+  "resource_url": "http://hl7.org/fhir/ValueSet/request-intent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/request-intent"
+      }
+    ]
+  },
+  "description": "Codes indicating the degree of authority/intentionality associated with a request.",
+  "related_codesystems": [
+    {
+      "id": "request-intent",
+      "url": "http://hl7.org/fhir/request-intent"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "proposal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Proposal",
+      "description": "The request is a suggestion made by someone/something that does not have an intention to ensure it occurs and without providing an authorization to act.",
+      "filter": null
+    },
+    {
+      "code": "plan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Plan",
+      "description": "The request represents an intention to ensure something occurs without providing an authorization for others to act.",
+      "filter": null
+    },
+    {
+      "code": "directive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Directive",
+      "description": "The request represents a legally binding instruction authored by a Patient or RelatedPerson.",
+      "filter": null
+    },
+    {
+      "code": "order",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Order",
+      "description": "The request represents a request/demand and authorization for action by a Practitioner.",
+      "filter": null
+    },
+    {
+      "code": "option",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Option",
+      "description": "The request represents a component or option for a RequestGroup that establishes timing, conditionality and/or other constraints among a set of requests.  Refer to [[[RequestGroup]]] for additional information on how this status is used.",
+      "filter": null
+    }
+  ]
+}

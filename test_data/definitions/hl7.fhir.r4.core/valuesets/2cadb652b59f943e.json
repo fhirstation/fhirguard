@@ -1,0 +1,61 @@
+{
+  "name": "v2.0311",
+  "resource_id": "v2-0311",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0311",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0311"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0311 ( Job status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0311",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0311"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0311",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0311",
+      "display": "Permanent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0311",
+      "display": "Temporary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0311",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

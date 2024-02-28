@@ -1,0 +1,91 @@
+{
+  "name": "v2.0566",
+  "resource_id": "v2-0566",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0566",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0566"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0566 ( Blood Unit Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0566",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0566"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "GRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Granulocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LYM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Lymphocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Platelets",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Peripheral Stem Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Red Blood Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WBL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0566",
+      "display": "Whole Blood",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

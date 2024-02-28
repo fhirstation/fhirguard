@@ -1,0 +1,34 @@
+{
+  "name": "v2.0905",
+  "resource_id": "v2-0905",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0905",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "INV",
+      "display": "Inventoried"
+    },
+    {
+      "code": "ONH",
+      "display": "On Hold"
+    },
+    {
+      "code": "PRC",
+      "display": "Processing"
+    },
+    {
+      "code": "REJ",
+      "display": "Rejected"
+    },
+    {
+      "code": "TRN",
+      "display": "In Transit"
+    },
+    {
+      "code": "TTL",
+      "display": "Triaged to Lab"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

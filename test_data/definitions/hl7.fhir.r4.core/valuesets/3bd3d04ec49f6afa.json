@@ -1,0 +1,39 @@
+{
+  "name": "DietCodes",
+  "resource_id": "diet-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/diet-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "182922004"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Codes that can be used to indicate the type of food being ordered for a patient. This value set is provided as a suggestive example. It includes codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 182922004 (Dietary regime (regime/therapy)) ",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "182922004"
+        }
+      ]
+    }
+  ]
+}

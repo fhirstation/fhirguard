@@ -1,0 +1,20 @@
+{
+  "name": "ParticipantType",
+  "resource_id": "encounter-participant-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/participant-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "translator",
+      "display": "Translator",
+      "definition": "A translator who is facilitating communication with the patient during the encounter."
+    },
+    {
+      "code": "emergency",
+      "display": "Emergency",
+      "definition": "A person to be contacted in case of an emergency during the encounter."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

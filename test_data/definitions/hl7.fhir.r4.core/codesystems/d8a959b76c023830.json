@@ -1,0 +1,42 @@
+{
+  "name": "v2.0373",
+  "resource_id": "v2-0373",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0373",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ACID",
+      "display": "Acidification"
+    },
+    {
+      "code": "ALK",
+      "display": "Alkalization"
+    },
+    {
+      "code": "DEFB",
+      "display": "Defibrination"
+    },
+    {
+      "code": "FILT",
+      "display": "Filtration"
+    },
+    {
+      "code": "LDLP",
+      "display": "LDL Precipitation"
+    },
+    {
+      "code": "NEUT",
+      "display": "Neutralization"
+    },
+    {
+      "code": "RECA",
+      "display": "Recalification"
+    },
+    {
+      "code": "UFIL",
+      "display": "Ultrafiltration"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

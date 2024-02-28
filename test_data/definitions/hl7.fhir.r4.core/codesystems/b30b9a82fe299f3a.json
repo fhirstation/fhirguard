@@ -1,0 +1,90 @@
+{
+  "name": "SubscriptionStatus",
+  "resource_id": "subscription-status",
+  "resource_url": "http://hl7.org/fhir/subscription-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "requested",
+      "display": "Requested",
+      "definition": "The client has requested the subscription, and the server has not yet set it up."
+    },
+    {
+      "code": "active",
+      "display": "Active",
+      "definition": "The subscription is active."
+    },
+    {
+      "code": "error",
+      "display": "Error",
+      "definition": "The server has an error executing the notification."
+    },
+    {
+      "code": "off",
+      "display": "Off",
+      "definition": "Too many errors have occurred or the subscription has expired."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SubscriptionStatus",
+    "resource_id": "subscription-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/subscription-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/subscription-status"
+        }
+      ]
+    },
+    "description": "The status of a subscription.",
+    "related_codesystems": [
+      {
+        "id": "subscription-status",
+        "url": "http://hl7.org/fhir/subscription-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "requested",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-status",
+        "display": "Requested",
+        "description": "The client has requested the subscription, and the server has not yet set it up.",
+        "filter": null
+      },
+      {
+        "code": "active",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-status",
+        "display": "Active",
+        "description": "The subscription is active.",
+        "filter": null
+      },
+      {
+        "code": "error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-status",
+        "display": "Error",
+        "description": "The server has an error executing the notification.",
+        "filter": null
+      },
+      {
+        "code": "off",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-status",
+        "display": "Off",
+        "description": "Too many errors have occurred or the subscription has expired.",
+        "filter": null
+      }
+    ]
+  }
+}

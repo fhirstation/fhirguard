@@ -1,0 +1,41 @@
+{
+  "name": "ConditionClinicalStatusCodes",
+  "resource_id": "condition-clinical",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-clinical",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+      }
+    ]
+  },
+  "description": "Preferred value set for Condition Clinical Status.",
+  "related_codesystems": [
+    {
+      "id": "condition-clinical",
+      "url": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "display": "Active",
+      "description": "The subject is currently experiencing the symptoms of the condition or there is evidence of the condition.",
+      "filter": null
+    },
+    {
+      "code": "inactive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "display": "Inactive",
+      "description": "The subject is no longer experiencing the symptoms of the condition or there is no longer evidence of the condition.",
+      "filter": null
+    }
+  ]
+}

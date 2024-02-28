@@ -1,0 +1,54 @@
+{
+  "name": "v2.0183",
+  "resource_id": "v2-0183",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0183",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Active Staff",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aktiver Mitarbeiter"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Actieve medewerker"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Inactive Staff",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Inaktiver / beurlaubter Mitarbeiter"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Inactieve medewerker"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,51 @@
+{
+  "name": "v2.0135",
+  "resource_id": "v2-0135",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0135",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0135"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0135 ( ASSIGNMENT OF BENEFITS)",
+  "related_codesystems": [
+    {
+      "id": "v2-0135",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0135"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0135",
+      "display": "Modified assignment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0135",
+      "display": "No",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0135",
+      "display": "Yes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

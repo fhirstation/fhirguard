@@ -1,0 +1,120 @@
+{
+  "name": "ActionSelectionBehavior",
+  "resource_id": "action-selection-behavior",
+  "resource_url": "http://hl7.org/fhir/action-selection-behavior",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "any",
+      "display": "Any",
+      "definition": "Any number of the actions in the group may be chosen, from zero to all."
+    },
+    {
+      "code": "all",
+      "display": "All",
+      "definition": "All the actions in the group must be selected as a single unit."
+    },
+    {
+      "code": "all-or-none",
+      "display": "All Or None",
+      "definition": "All the actions in the group are meant to be chosen as a single unit: either all must be selected by the end user, or none may be selected."
+    },
+    {
+      "code": "exactly-one",
+      "display": "Exactly One",
+      "definition": "The end user must choose one and only one of the selectable actions in the group. The user SHALL NOT choose none of the actions in the group."
+    },
+    {
+      "code": "at-most-one",
+      "display": "At Most One",
+      "definition": "The end user may choose zero or at most one of the actions in the group."
+    },
+    {
+      "code": "one-or-more",
+      "display": "One Or More",
+      "definition": "The end user must choose a minimum of one, and as many additional as desired."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ActionSelectionBehavior",
+    "resource_id": "action-selection-behavior",
+    "resource_url": "http://hl7.org/fhir/ValueSet/action-selection-behavior",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/action-selection-behavior"
+        }
+      ]
+    },
+    "description": "Defines selection behavior of a group.",
+    "related_codesystems": [
+      {
+        "id": "action-selection-behavior",
+        "url": "http://hl7.org/fhir/action-selection-behavior"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "any",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-selection-behavior",
+        "display": "Any",
+        "description": "Any number of the actions in the group may be chosen, from zero to all.",
+        "filter": null
+      },
+      {
+        "code": "all",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-selection-behavior",
+        "display": "All",
+        "description": "All the actions in the group must be selected as a single unit.",
+        "filter": null
+      },
+      {
+        "code": "all-or-none",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-selection-behavior",
+        "display": "All Or None",
+        "description": "All the actions in the group are meant to be chosen as a single unit: either all must be selected by the end user, or none may be selected.",
+        "filter": null
+      },
+      {
+        "code": "exactly-one",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-selection-behavior",
+        "display": "Exactly One",
+        "description": "The end user must choose one and only one of the selectable actions in the group. The user SHALL NOT choose none of the actions in the group.",
+        "filter": null
+      },
+      {
+        "code": "at-most-one",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-selection-behavior",
+        "display": "At Most One",
+        "description": "The end user may choose zero or at most one of the actions in the group.",
+        "filter": null
+      },
+      {
+        "code": "one-or-more",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/action-selection-behavior",
+        "display": "One Or More",
+        "description": "The end user must choose a minimum of one, and as many additional as desired.",
+        "filter": null
+      }
+    ]
+  }
+}

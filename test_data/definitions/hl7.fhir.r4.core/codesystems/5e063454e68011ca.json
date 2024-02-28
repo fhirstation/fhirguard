@@ -1,0 +1,30 @@
+{
+  "name": "v2.0513",
+  "resource_id": "v2-0513",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0513",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "RA",
+      "display": "Returned unused/no longer needed"
+    },
+    {
+      "code": "RL",
+      "display": "Returned unused/keep linked to patient for possible use later"
+    },
+    {
+      "code": "TR",
+      "display": "Transfused with adverse reaction"
+    },
+    {
+      "code": "TX",
+      "display": "Transfused"
+    },
+    {
+      "code": "WA",
+      "display": "Wasted (product no longer viable)"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

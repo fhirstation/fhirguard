@@ -1,0 +1,210 @@
+{
+  "name": "ContainerCap",
+  "resource_id": "container-cap",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/container-cap",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "red",
+      "display": "red cap",
+      "definition": "red cap."
+    },
+    {
+      "code": "yellow",
+      "display": "yellow cap",
+      "definition": "yellow cap."
+    },
+    {
+      "code": "dark-yellow",
+      "display": "dark yellow cap",
+      "definition": "dark yellow cap."
+    },
+    {
+      "code": "grey",
+      "display": "grey cap",
+      "definition": "grey cap."
+    },
+    {
+      "code": "light-blue",
+      "display": "light blue cap",
+      "definition": "light blue cap."
+    },
+    {
+      "code": "black",
+      "display": "black cap",
+      "definition": "black cap."
+    },
+    {
+      "code": "green",
+      "display": "green cap",
+      "definition": "green cap."
+    },
+    {
+      "code": "light-green",
+      "display": "light green cap",
+      "definition": "light green cap."
+    },
+    {
+      "code": "lavender",
+      "display": "lavender cap",
+      "definition": "lavender cap."
+    },
+    {
+      "code": "brown",
+      "display": "brown cap",
+      "definition": "brown cap."
+    },
+    {
+      "code": "white",
+      "display": "white cap",
+      "definition": "white cap."
+    },
+    {
+      "code": "pink",
+      "display": "pink cap",
+      "definition": "pink cap."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContainerCap",
+    "resource_id": "container-cap",
+    "resource_url": "http://hl7.org/fhir/ValueSet/container-cap",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/container-cap"
+        }
+      ]
+    },
+    "description": "Color of the container cap.",
+    "related_codesystems": [
+      {
+        "id": "container-cap",
+        "url": "http://terminology.hl7.org/CodeSystem/container-cap"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "red",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "red cap",
+        "description": "red cap.",
+        "filter": null
+      },
+      {
+        "code": "yellow",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "yellow cap",
+        "description": "yellow cap.",
+        "filter": null
+      },
+      {
+        "code": "dark-yellow",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "dark yellow cap",
+        "description": "dark yellow cap.",
+        "filter": null
+      },
+      {
+        "code": "grey",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "grey cap",
+        "description": "grey cap.",
+        "filter": null
+      },
+      {
+        "code": "light-blue",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "light blue cap",
+        "description": "light blue cap.",
+        "filter": null
+      },
+      {
+        "code": "black",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "black cap",
+        "description": "black cap.",
+        "filter": null
+      },
+      {
+        "code": "green",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "green cap",
+        "description": "green cap.",
+        "filter": null
+      },
+      {
+        "code": "light-green",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "light green cap",
+        "description": "light green cap.",
+        "filter": null
+      },
+      {
+        "code": "lavender",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "lavender cap",
+        "description": "lavender cap.",
+        "filter": null
+      },
+      {
+        "code": "brown",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "brown cap",
+        "description": "brown cap.",
+        "filter": null
+      },
+      {
+        "code": "white",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "white cap",
+        "description": "white cap.",
+        "filter": null
+      },
+      {
+        "code": "pink",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/container-cap",
+        "display": "pink cap",
+        "description": "pink cap.",
+        "filter": null
+      }
+    ]
+  }
+}

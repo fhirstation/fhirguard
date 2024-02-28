@@ -1,0 +1,38 @@
+{
+  "name": "v2.0742",
+  "resource_id": "v2-0742",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0742",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "00",
+      "display": "Effective weight calculated"
+    },
+    {
+      "code": "01",
+      "display": "Hospital specific contract"
+    },
+    {
+      "code": "03",
+      "display": "Eeffective weight for transfer/referral calculated"
+    },
+    {
+      "code": "04",
+      "display": "Referral from other hospital based on a cooperation (no DRG reimbursement)"
+    },
+    {
+      "code": "05",
+      "display": "Invalid length of stay"
+    },
+    {
+      "code": "10",
+      "display": "No information/entry in cost data for this DRG"
+    },
+    {
+      "code": "11",
+      "display": "No relative weight found for department (type)"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

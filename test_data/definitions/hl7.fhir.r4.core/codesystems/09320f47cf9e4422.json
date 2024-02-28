@@ -1,0 +1,75 @@
+{
+  "name": "StructureMapGroupTypeMode",
+  "resource_id": "map-group-type-mode",
+  "resource_url": "http://hl7.org/fhir/map-group-type-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "none",
+      "display": "Not a Default",
+      "definition": "This group is not a default group for the types."
+    },
+    {
+      "code": "types",
+      "display": "Default for Type Combination",
+      "definition": "This group is a default mapping group for the specified types and for the primary source type."
+    },
+    {
+      "code": "type-and-types",
+      "display": "Default for type + combination",
+      "definition": "This group is a default mapping group for the specified types."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "StructureMapGroupTypeMode",
+    "resource_id": "map-group-type-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/map-group-type-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/map-group-type-mode"
+        }
+      ]
+    },
+    "description": "If this is the default rule set to apply for the source type, or this combination of types.",
+    "related_codesystems": [
+      {
+        "id": "map-group-type-mode",
+        "url": "http://hl7.org/fhir/map-group-type-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "none",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-group-type-mode",
+        "display": "Not a Default",
+        "description": "This group is not a default group for the types.",
+        "filter": null
+      },
+      {
+        "code": "types",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-group-type-mode",
+        "display": "Default for Type Combination",
+        "description": "This group is a default mapping group for the specified types and for the primary source type.",
+        "filter": null
+      },
+      {
+        "code": "type-and-types",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-group-type-mode",
+        "display": "Default for type + combination",
+        "description": "This group is a default mapping group for the specified types.",
+        "filter": null
+      }
+    ]
+  }
+}

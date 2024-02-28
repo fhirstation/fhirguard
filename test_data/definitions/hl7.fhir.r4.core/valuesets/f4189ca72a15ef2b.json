@@ -1,0 +1,61 @@
+{
+  "name": "v2.0473",
+  "resource_id": "v2-0473",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0473",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0473"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0473 ( Formulary status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0473",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0473"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0473",
+      "display": "This observation/service is on the formulary, and has guidelines",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0473",
+      "display": "This observation/service is not on the formulary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0473",
+      "display": "This observation/service is on the formulary, but is restricted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0473",
+      "display": "This observation/service is on the formulary",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

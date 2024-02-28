@@ -1,0 +1,94 @@
+{
+  "name": "v2.0330",
+  "resource_id": "v2-0330",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0330",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "510E",
+      "display": "510 (K) exempt",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "510 (K) vrijstelling"
+        }
+      ]
+    },
+    {
+      "code": "510K",
+      "display": "510 (K)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "510 (K)"
+        }
+      ]
+    },
+    {
+      "code": "522S",
+      "display": "Post marketing study (522)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Post-marketingonderzoek (522)"
+        }
+      ]
+    },
+    {
+      "code": "PMA",
+      "display": "Premarketing authorization",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Pre-marketing autorisatie"
+        }
+      ]
+    },
+    {
+      "code": "PRE",
+      "display": "Preamendment",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Pre amendement"
+        }
+      ]
+    },
+    {
+      "code": "TXN",
+      "display": "Transitional",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Transitioneel"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

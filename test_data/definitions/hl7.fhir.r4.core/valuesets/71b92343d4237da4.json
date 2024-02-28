@@ -1,0 +1,39 @@
+{
+  "name": "ProcedureCodes(SNOMEDCT)",
+  "resource_id": "procedure-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/procedure-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "71388002"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Procedure Code: All SNOMED CT procedure codes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "71388002"
+        }
+      ]
+    }
+  ]
+}

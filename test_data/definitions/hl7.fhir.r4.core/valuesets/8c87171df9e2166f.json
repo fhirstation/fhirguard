@@ -1,0 +1,54 @@
+{
+  "name": "SNOMEDCTSupplyItem",
+  "resource_id": "supply-item",
+  "resource_url": "http://hl7.org/fhir/ValueSet/supply-item",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "105590001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "260787004"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes [SNOMED CT](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) or  concept is-a 260787004 (Physical object)  and provided as an example value set.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "105590001"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "260787004"
+        }
+      ]
+    }
+  ]
+}

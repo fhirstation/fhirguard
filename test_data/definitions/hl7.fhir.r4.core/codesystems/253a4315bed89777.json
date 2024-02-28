@@ -1,0 +1,177 @@
+{
+  "name": "ProvenanceParticipantRole",
+  "resource_id": "provenance-agent-role",
+  "resource_url": "http://hl7.org/fhir/provenance-participant-role",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "enterer",
+      "display": "Enterer",
+      "definition": "A person entering the data into the originating system"
+    },
+    {
+      "code": "performer",
+      "display": "Performer",
+      "definition": "A person, animal, organization or device that who actually and principally carries out the activity"
+    },
+    {
+      "code": "author",
+      "display": "Author",
+      "definition": "A party that originates the resource and therefore has responsibility for the information given in the resource and ownership of this resource"
+    },
+    {
+      "code": "verifier",
+      "display": "Verifier",
+      "definition": "A person who verifies the correctness and appropriateness of activity",
+      "concept": [
+        {
+          "code": "legal",
+          "display": "Legal Authenticator",
+          "definition": "The person authenticated the content and accepted legal responsibility for its content"
+        }
+      ]
+    },
+    {
+      "code": "legal",
+      "display": "Legal Authenticator",
+      "definition": "The person authenticated the content and accepted legal responsibility for its content"
+    },
+    {
+      "code": "attester",
+      "display": "Attester",
+      "definition": "A verifier who attests to the accuracy of the resource"
+    },
+    {
+      "code": "informant",
+      "display": "Informant",
+      "definition": "A person who reported information that contributed to the resource"
+    },
+    {
+      "code": "custodian",
+      "display": "Custodian",
+      "definition": "The entity that is accountable for maintaining a true an accurate copy of the original record"
+    },
+    {
+      "code": "assembler",
+      "display": "Assembler",
+      "definition": "A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact."
+    },
+    {
+      "code": "composer",
+      "display": "Composer",
+      "definition": "A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ProvenanceParticipantRole",
+    "resource_id": "provenance-agent-role",
+    "resource_url": "http://hl7.org/fhir/ValueSet/provenance-agent-role",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/provenance-participant-role"
+        }
+      ]
+    },
+    "description": "The role that a provenance participant played",
+    "related_codesystems": [
+      {
+        "id": "provenance-agent-role",
+        "url": "http://hl7.org/fhir/provenance-participant-role"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "enterer",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Enterer",
+        "description": "A person entering the data into the originating system",
+        "filter": null
+      },
+      {
+        "code": "performer",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Performer",
+        "description": "A person, animal, organization or device that who actually and principally carries out the activity",
+        "filter": null
+      },
+      {
+        "code": "author",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Author",
+        "description": "A party that originates the resource and therefore has responsibility for the information given in the resource and ownership of this resource",
+        "filter": null
+      },
+      {
+        "code": "verifier",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Verifier",
+        "description": "A person who verifies the correctness and appropriateness of activity",
+        "filter": null
+      },
+      {
+        "code": "attester",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Attester",
+        "description": "A verifier who attests to the accuracy of the resource",
+        "filter": null
+      },
+      {
+        "code": "informant",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Informant",
+        "description": "A person who reported information that contributed to the resource",
+        "filter": null
+      },
+      {
+        "code": "custodian",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Custodian",
+        "description": "The entity that is accountable for maintaining a true an accurate copy of the original record",
+        "filter": null
+      },
+      {
+        "code": "assembler",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Assembler",
+        "description": "A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.",
+        "filter": null
+      },
+      {
+        "code": "composer",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/provenance-participant-role",
+        "display": "Composer",
+        "description": "A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.",
+        "filter": null
+      }
+    ]
+  }
+}

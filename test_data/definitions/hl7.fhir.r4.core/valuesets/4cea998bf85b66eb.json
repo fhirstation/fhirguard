@@ -1,0 +1,81 @@
+{
+  "name": "ExampleMessageReasonCodes",
+  "resource_id": "message-reason-encounter",
+  "resource_url": "http://hl7.org/fhir/ValueSet/message-reason-encounter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter"
+      }
+    ]
+  },
+  "description": "Example Message Reasons. These are the set of codes that might be used an updating an encounter using admin-update.",
+  "related_codesystems": [
+    {
+      "id": "message-reason-encounter",
+      "url": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "admit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "display": "Admit",
+      "description": "The patient has been admitted.",
+      "filter": null
+    },
+    {
+      "code": "discharge",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "display": "Discharge",
+      "description": "The patient has been discharged.",
+      "filter": null
+    },
+    {
+      "code": "absent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "display": "Absent",
+      "description": "The patient has temporarily left the institution.",
+      "filter": null
+    },
+    {
+      "code": "return",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "display": "Returned",
+      "description": "The patient has returned from a temporary absence.",
+      "filter": null
+    },
+    {
+      "code": "moved",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "display": "Moved",
+      "description": "The patient has been moved to a new location.",
+      "filter": null
+    },
+    {
+      "code": "edit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-reasons-encounter",
+      "display": "Edit",
+      "description": "Encounter details have been updated (e.g. to correct a coding error).",
+      "filter": null
+    }
+  ]
+}

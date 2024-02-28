@@ -1,0 +1,51 @@
+{
+  "name": "v2.0776",
+  "resource_id": "v2-0776",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0776",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0776"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0776 ( Item Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0776",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0776"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0776",
+      "display": "Active",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0776",
+      "display": "Inactive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0776",
+      "display": "Pending Inactive",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

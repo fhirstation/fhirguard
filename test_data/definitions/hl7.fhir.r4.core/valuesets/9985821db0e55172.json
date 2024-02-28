@@ -1,0 +1,61 @@
+{
+  "name": "messageheader-response-request",
+  "resource_id": "messageheader-response-request",
+  "resource_url": "http://hl7.org/fhir/ValueSet/messageheader-response-request",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/messageheader-response-request"
+      }
+    ]
+  },
+  "description": "HL7-defined table of codes which identify conditions under which acknowledgments are required to be returned in response to a message.",
+  "related_codesystems": [
+    {
+      "id": "messageheader-response-request",
+      "url": "http://hl7.org/fhir/messageheader-response-request"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "always",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/messageheader-response-request",
+      "display": "Always",
+      "description": "initiator expects a response for this message.",
+      "filter": null
+    },
+    {
+      "code": "on-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/messageheader-response-request",
+      "display": "Error/reject conditions only",
+      "description": "initiator expects a response only if in error.",
+      "filter": null
+    },
+    {
+      "code": "never",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/messageheader-response-request",
+      "display": "Never",
+      "description": "initiator does not expect a response.",
+      "filter": null
+    },
+    {
+      "code": "on-success",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/messageheader-response-request",
+      "display": "Successful completion only",
+      "description": "initiator expects a response only if successful.",
+      "filter": null
+    }
+  ]
+}

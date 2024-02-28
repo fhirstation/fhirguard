@@ -1,0 +1,41 @@
+{
+  "name": "ConceptMapEquivalence",
+  "resource_id": "concept-map-equivalence",
+  "resource_url": "http://hl7.org/fhir/ValueSet/concept-map-equivalence",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/concept-map-equivalence"
+      }
+    ]
+  },
+  "description": "The degree of equivalence between concepts.",
+  "related_codesystems": [
+    {
+      "id": "concept-map-equivalence",
+      "url": "http://hl7.org/fhir/concept-map-equivalence"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "relatedto",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-map-equivalence",
+      "display": "Related To",
+      "description": "The concepts are related to each other, and have at least some overlap in meaning, but the exact relationship is not known.",
+      "filter": null
+    },
+    {
+      "code": "unmatched",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/concept-map-equivalence",
+      "display": "Unmatched",
+      "description": "There is no match for this concept in the target code system.",
+      "filter": null
+    }
+  ]
+}

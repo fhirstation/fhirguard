@@ -1,0 +1,41 @@
+{
+  "name": "v2.0667",
+  "resource_id": "v2-0667",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0667",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0667"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0667 ( Device Data State)",
+  "related_codesystems": [
+    {
+      "id": "v2-0667",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0667"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0667",
+      "display": "Real Time Values",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0667",
+      "display": "Historic Values",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

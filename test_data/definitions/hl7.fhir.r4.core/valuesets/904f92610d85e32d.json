@@ -1,0 +1,101 @@
+{
+  "name": "v2.0527",
+  "resource_id": "v2-0527",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0527",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0527"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0527 ( Calendar alignment)",
+  "related_codesystems": [
+    {
+      "id": "v2-0527",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0527"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "DM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "day of the month",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "day of the week (begins with Monday)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "day of the year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "hour of the day",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "month of the year",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "minute of the hour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "second of the minute",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0527",
+      "display": "week of the year",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

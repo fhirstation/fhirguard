@@ -1,0 +1,39 @@
+{
+  "name": "AllUCUMExpressionForDistance",
+  "resource_id": "all-distance-units",
+  "resource_url": "http://hl7.org/fhir/ValueSet/all-distance-units",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "filter": [
+          {
+            "property": "canonical",
+            "op": "=",
+            "value": "m"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Unified Code for Units of Measure (UCUM). This value set includes all UCUM codes for units of length",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": [
+        {
+          "property": "canonical",
+          "op": "=",
+          "value": "m"
+        }
+      ]
+    }
+  ]
+}

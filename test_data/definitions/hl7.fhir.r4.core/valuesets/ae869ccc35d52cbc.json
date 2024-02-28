@@ -1,0 +1,15 @@
+{
+  "name": "ContractResourceScopeCodes",
+  "resource_id": "contract-security-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-security-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contract-security-category"
+      }
+    ]
+  },
+  "description": "This value set contract specific codes for security category.",
+  "related_codesystems": [],
+  "allowed_values": []
+}

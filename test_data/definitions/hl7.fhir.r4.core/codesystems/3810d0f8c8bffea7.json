@@ -1,0 +1,22 @@
+{
+  "name": "v2.0921",
+  "resource_id": "v2-0921",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0921",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ADM",
+      "display": "Admitting"
+    },
+    {
+      "code": "PROC",
+      "display": "Procedure"
+    },
+    {
+      "code": "SERV",
+      "display": "Service"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

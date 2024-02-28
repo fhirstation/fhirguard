@@ -1,0 +1,20 @@
+{
+  "name": "AbstractType",
+  "resource_id": "abstract-types",
+  "resource_url": "http://hl7.org/fhir/abstract-types",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "Type",
+      "display": "Type",
+      "definition": "A place holder that means any kind of data type"
+    },
+    {
+      "code": "Any",
+      "display": "Any",
+      "definition": "A place holder that means any kind of resource"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

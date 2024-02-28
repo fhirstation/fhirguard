@@ -1,0 +1,84 @@
+{
+  "name": "GoalStartEvent",
+  "resource_id": "goal-start-event",
+  "resource_url": "http://hl7.org/fhir/ValueSet/goal-start-event",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "32485007",
+            "display": "Admission to hospital"
+          },
+          {
+            "code": "308283009",
+            "display": "Discharge from hospital"
+          },
+          {
+            "code": "442137000",
+            "display": "Completion time of procedure"
+          },
+          {
+            "code": "386216000",
+            "display": "Childbirth"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Identifies types of events that might trigger the start of a goal.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "32485007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Admission to hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "308283009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Discharge from hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "442137000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Completion time of procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "386216000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Childbirth",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

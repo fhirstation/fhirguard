@@ -1,0 +1,1666 @@
+{
+  "name": "PracticeSettingCodeValueSet",
+  "resource_id": "c80-practice-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "408467006",
+            "display": "Adult mental illness"
+          },
+          {
+            "code": "394577000",
+            "display": "Anesthetics"
+          },
+          {
+            "code": "394578005",
+            "display": "Audiological medicine"
+          },
+          {
+            "code": "421661004",
+            "display": "Blood banking and transfusion medicine"
+          },
+          {
+            "code": "408462000",
+            "display": "Burns care"
+          },
+          {
+            "code": "394579002",
+            "display": "Cardiology"
+          },
+          {
+            "code": "394804000",
+            "display": "Clinical cytogenetics and molecular genetics"
+          },
+          {
+            "code": "394580004",
+            "display": "Clinical genetics"
+          },
+          {
+            "code": "394803006",
+            "display": "Clinical hematology"
+          },
+          {
+            "code": "408480009",
+            "display": "Clinical immunology"
+          },
+          {
+            "code": "408454008",
+            "display": "Clinical microbiology"
+          },
+          {
+            "code": "394809005",
+            "display": "Clinical neuro-physiology"
+          },
+          {
+            "code": "394592004",
+            "display": "Clinical oncology"
+          },
+          {
+            "code": "394600006",
+            "display": "Clinical pharmacology"
+          },
+          {
+            "code": "394601005",
+            "display": "Clinical physiology"
+          },
+          {
+            "code": "394581000",
+            "display": "Community medicine"
+          },
+          {
+            "code": "408478003",
+            "display": "Critical care medicine"
+          },
+          {
+            "code": "394812008",
+            "display": "Dental medicine specialties"
+          },
+          {
+            "code": "408444009",
+            "display": "Dental-General dental practice"
+          },
+          {
+            "code": "394582007",
+            "display": "Dermatology"
+          },
+          {
+            "code": "408475000",
+            "display": "Diabetic medicine"
+          },
+          {
+            "code": "410005002",
+            "display": "Dive medicine"
+          },
+          {
+            "code": "394583002",
+            "display": "Endocrinology"
+          },
+          {
+            "code": "419772000",
+            "display": "Family practice"
+          },
+          {
+            "code": "394584008",
+            "display": "Gastroenterology"
+          },
+          {
+            "code": "408443003",
+            "display": "General medical practice"
+          },
+          {
+            "code": "394802001",
+            "display": "General medicine"
+          },
+          {
+            "code": "394915009",
+            "display": "General pathology"
+          },
+          {
+            "code": "394814009",
+            "display": "General practice"
+          },
+          {
+            "code": "394808002",
+            "display": "Genito-urinary medicine"
+          },
+          {
+            "code": "394811001",
+            "display": "Geriatric medicine"
+          },
+          {
+            "code": "408446006",
+            "display": "Gynecological oncology"
+          },
+          {
+            "code": "394586005",
+            "display": "Gynecology"
+          },
+          {
+            "code": "394916005",
+            "display": "Hematopathology"
+          },
+          {
+            "code": "408472002",
+            "display": "Hepatology"
+          },
+          {
+            "code": "394597005",
+            "display": "Histopathology"
+          },
+          {
+            "code": "394598000",
+            "display": "Immunopathology"
+          },
+          {
+            "code": "394807007",
+            "display": "Infectious diseases"
+          },
+          {
+            "code": "419192003",
+            "display": "Internal medicine"
+          },
+          {
+            "code": "408468001",
+            "display": "Learning disability"
+          },
+          {
+            "code": "394593009",
+            "display": "Medical oncology"
+          },
+          {
+            "code": "394813003",
+            "display": "Medical ophthalmology"
+          },
+          {
+            "code": "410001006",
+            "display": "Military medicine"
+          },
+          {
+            "code": "394589003",
+            "display": "Nephrology"
+          },
+          {
+            "code": "394591006",
+            "display": "Neurology"
+          },
+          {
+            "code": "394599008",
+            "display": "Neuropathology"
+          },
+          {
+            "code": "394649004",
+            "display": "Nuclear medicine"
+          },
+          {
+            "code": "408470005",
+            "display": "Obstetrics"
+          },
+          {
+            "code": "394585009",
+            "display": "Obstetrics and gynecology"
+          },
+          {
+            "code": "394821009",
+            "display": "Occupational medicine"
+          },
+          {
+            "code": "422191005",
+            "display": "Ophthalmic surgery"
+          },
+          {
+            "code": "394594003",
+            "display": "Ophthalmology"
+          },
+          {
+            "code": "416304004",
+            "display": "Osteopathic manipulative medicine"
+          },
+          {
+            "code": "418960008",
+            "display": "Otolaryngology"
+          },
+          {
+            "code": "394882004",
+            "display": "Pain management"
+          },
+          {
+            "code": "394806003",
+            "display": "Palliative medicine"
+          },
+          {
+            "code": "394588006",
+            "display": "Pediatric (Child and adolescent) psychiatry"
+          },
+          {
+            "code": "408459003",
+            "display": "Pediatric cardiology"
+          },
+          {
+            "code": "394607009",
+            "display": "Pediatric dentistry"
+          },
+          {
+            "code": "419610006",
+            "display": "Pediatric endocrinology"
+          },
+          {
+            "code": "418058008",
+            "display": "Pediatric gastroenterology"
+          },
+          {
+            "code": "420208008",
+            "display": "Pediatric genetics"
+          },
+          {
+            "code": "418652005",
+            "display": "Pediatric hematology"
+          },
+          {
+            "code": "418535003",
+            "display": "Pediatric immunology"
+          },
+          {
+            "code": "418862001",
+            "display": "Pediatric infectious diseases"
+          },
+          {
+            "code": "419365004",
+            "display": "Pediatric nephrology"
+          },
+          {
+            "code": "418002000",
+            "display": "Pediatric oncology"
+          },
+          {
+            "code": "419983000",
+            "display": "Pediatric ophthalmology"
+          },
+          {
+            "code": "419170002",
+            "display": "Pediatric pulmonology"
+          },
+          {
+            "code": "419472004",
+            "display": "Pediatric rheumatology"
+          },
+          {
+            "code": "394539006",
+            "display": "Pediatric surgery"
+          },
+          {
+            "code": "420112009",
+            "display": "Pediatric surgery-bone marrow transplantation"
+          },
+          {
+            "code": "409968004",
+            "display": "Preventive medicine"
+          },
+          {
+            "code": "394587001",
+            "display": "Psychiatry"
+          },
+          {
+            "code": "394913002",
+            "display": "Psychotherapy"
+          },
+          {
+            "code": "408440000",
+            "display": "Public health medicine"
+          },
+          {
+            "code": "418112009",
+            "display": "Pulmonary medicine"
+          },
+          {
+            "code": "419815003",
+            "display": "Radiation oncology"
+          },
+          {
+            "code": "394914008",
+            "display": "Radiology"
+          },
+          {
+            "code": "408455009",
+            "display": "Radiology-Interventional radiology"
+          },
+          {
+            "code": "394602003",
+            "display": "Rehabilitation"
+          },
+          {
+            "code": "408447002",
+            "display": "Respite care"
+          },
+          {
+            "code": "394810000",
+            "display": "Rheumatology"
+          },
+          {
+            "code": "408450004",
+            "display": "Sleep studies"
+          },
+          {
+            "code": "408476004",
+            "display": "Surgery-Bone and marrow transplantation"
+          },
+          {
+            "code": "408469009",
+            "display": "Surgery-Breast surgery"
+          },
+          {
+            "code": "408466002",
+            "display": "Surgery-Cardiac surgery"
+          },
+          {
+            "code": "408471009",
+            "display": "Surgery-Cardiothoracic transplantation"
+          },
+          {
+            "code": "408464004",
+            "display": "Surgery-Colorectal surgery"
+          },
+          {
+            "code": "408441001",
+            "display": "Surgery-Dental-Endodontics"
+          },
+          {
+            "code": "408465003",
+            "display": "Surgery-Dental-Oral and maxillofacial surgery"
+          },
+          {
+            "code": "394605001",
+            "display": "Surgery-Dental-Oral surgery"
+          },
+          {
+            "code": "394608004",
+            "display": "Surgery-Dental-Orthodontics"
+          },
+          {
+            "code": "408461007",
+            "display": "Surgery-Dental-Periodontal surgery"
+          },
+          {
+            "code": "408460008",
+            "display": "Surgery-Dental-Prosthetic dentistry (Prosthodontics)"
+          },
+          {
+            "code": "408460008",
+            "display": "Surgery-Dental-surgical-Prosthodontics"
+          },
+          {
+            "code": "394606000",
+            "display": "Surgery-Dentistry-Restorative dentistry"
+          },
+          {
+            "code": "408449004",
+            "display": "Surgery-Dentistry--surgical"
+          },
+          {
+            "code": "394608004",
+            "display": "Surgery-Dentistry-surgical-Orthodontics"
+          },
+          {
+            "code": "418018006",
+            "display": "Surgery-Dermatologic surgery"
+          },
+          {
+            "code": "394604002",
+            "display": "Surgery-Ear, nose and throat surgery"
+          },
+          {
+            "code": "394609007",
+            "display": "Surgery-general"
+          },
+          {
+            "code": "408474001",
+            "display": "Surgery-Hepatobiliary and pancreatic surgery"
+          },
+          {
+            "code": "394610002",
+            "display": "Surgery-Neurosurgery"
+          },
+          {
+            "code": "394611003",
+            "display": "Surgery-Plastic surgery"
+          },
+          {
+            "code": "408477008",
+            "display": "Surgery-Transplantation surgery"
+          },
+          {
+            "code": "394801008",
+            "display": "Surgery-Trauma and orthopedics"
+          },
+          {
+            "code": "408463005",
+            "display": "Surgery-Vascular"
+          },
+          {
+            "code": "419321007",
+            "display": "Surgical oncology"
+          },
+          {
+            "code": "394576009",
+            "display": "Surgical-Accident & emergency"
+          },
+          {
+            "code": "394590007",
+            "display": "Thoracic medicine"
+          },
+          {
+            "code": "409967009",
+            "display": "Toxicology"
+          },
+          {
+            "code": "408448007",
+            "display": "Tropical medicine"
+          },
+          {
+            "code": "419043006",
+            "display": "Urological oncology"
+          },
+          {
+            "code": "394612005",
+            "display": "Urology"
+          },
+          {
+            "code": "394733009",
+            "display": "Medical specialty--OTHER--NOT LISTED"
+          },
+          {
+            "code": "394732004",
+            "display": "Surgical specialty--OTHER-NOT LISTED"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "408467006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Adult mental illness",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394577000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Anesthetics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394578005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Audiological medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "421661004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Blood banking and transfusion medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408462000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Burns care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394579002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Cardiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394804000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical cytogenetics and molecular genetics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394580004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical genetics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394803006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical hematology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408480009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical immunology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408454008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical microbiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394809005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical neuro-physiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394592004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394600006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical pharmacology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394601005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical physiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394581000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Community medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408478003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Critical care medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394812008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dental medicine specialties",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408444009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dental-General dental practice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394582007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dermatology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408475000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Diabetic medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "410005002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dive medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394583002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Endocrinology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419772000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Family practice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394584008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Gastroenterology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408443003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "General medical practice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394802001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "General medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394915009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "General pathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394814009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "General practice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394808002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Genito-urinary medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394811001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Geriatric medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408446006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Gynecological oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394586005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Gynecology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394916005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hematopathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408472002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Hepatology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394597005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Histopathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394598000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Immunopathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394807007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Infectious diseases",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419192003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Internal medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408468001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Learning disability",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394593009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Medical oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394813003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Medical ophthalmology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "410001006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Military medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394589003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Nephrology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394591006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Neurology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394599008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Neuropathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394649004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Nuclear medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408470005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Obstetrics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394585009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Obstetrics and gynecology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394821009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Occupational medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "422191005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Ophthalmic surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394594003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Ophthalmology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "416304004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Osteopathic manipulative medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418960008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Otolaryngology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394882004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pain management",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394806003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Palliative medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394588006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric (Child and adolescent) psychiatry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408459003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric cardiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394607009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric dentistry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419610006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric endocrinology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418058008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric gastroenterology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "420208008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric genetics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418652005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric hematology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418535003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric immunology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418862001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric infectious diseases",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419365004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric nephrology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418002000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419983000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric ophthalmology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419170002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric pulmonology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419472004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric rheumatology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394539006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "420112009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pediatric surgery-bone marrow transplantation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409968004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Preventive medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394587001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Psychiatry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394913002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Psychotherapy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408440000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Public health medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418112009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pulmonary medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419815003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Radiation oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394914008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Radiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408455009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Radiology-Interventional radiology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394602003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Rehabilitation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408447002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Respite care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394810000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Rheumatology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408450004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Sleep studies",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408476004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Bone and marrow transplantation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408469009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Breast surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408466002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Cardiac surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408471009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Cardiothoracic transplantation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408464004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Colorectal surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408441001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-Endodontics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408465003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-Oral and maxillofacial surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394605001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-Oral surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394608004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-Orthodontics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408461007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-Periodontal surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408460008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-Prosthetic dentistry (Prosthodontics)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408460008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dental-surgical-Prosthodontics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394606000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dentistry-Restorative dentistry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408449004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dentistry--surgical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394608004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dentistry-surgical-Orthodontics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "418018006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Dermatologic surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394604002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Ear, nose and throat surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394609007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-general",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408474001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Hepatobiliary and pancreatic surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394610002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Neurosurgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394611003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Plastic surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408477008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Transplantation surgery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394801008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Trauma and orthopedics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408463005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgery-Vascular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419321007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgical oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394576009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgical-Accident & emergency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394590007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Thoracic medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409967009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Toxicology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "408448007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Tropical medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "419043006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Urological oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394612005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Urology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394733009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Medical specialty--OTHER--NOT LISTED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394732004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgical specialty--OTHER-NOT LISTED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

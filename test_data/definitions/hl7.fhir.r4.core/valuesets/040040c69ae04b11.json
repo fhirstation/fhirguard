@@ -1,0 +1,111 @@
+{
+  "name": "ActionRelationshipType",
+  "resource_id": "action-relationship-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/action-relationship-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/action-relationship-type"
+      }
+    ]
+  },
+  "description": "Defines the types of relationships between actions.",
+  "related_codesystems": [
+    {
+      "id": "action-relationship-type",
+      "url": "http://hl7.org/fhir/action-relationship-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "before-start",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "Before Start",
+      "description": "The action must be performed before the start of the related action.",
+      "filter": null
+    },
+    {
+      "code": "before",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "Before",
+      "description": "The action must be performed before the related action.",
+      "filter": null
+    },
+    {
+      "code": "before-end",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "Before End",
+      "description": "The action must be performed before the end of the related action.",
+      "filter": null
+    },
+    {
+      "code": "concurrent-with-start",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "Concurrent With Start",
+      "description": "The action must be performed concurrent with the start of the related action.",
+      "filter": null
+    },
+    {
+      "code": "concurrent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "Concurrent",
+      "description": "The action must be performed concurrent with the related action.",
+      "filter": null
+    },
+    {
+      "code": "concurrent-with-end",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "Concurrent With End",
+      "description": "The action must be performed concurrent with the end of the related action.",
+      "filter": null
+    },
+    {
+      "code": "after-start",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "After Start",
+      "description": "The action must be performed after the start of the related action.",
+      "filter": null
+    },
+    {
+      "code": "after",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "After",
+      "description": "The action must be performed after the related action.",
+      "filter": null
+    },
+    {
+      "code": "after-end",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/action-relationship-type",
+      "display": "After End",
+      "description": "The action must be performed after the end of the related action.",
+      "filter": null
+    }
+  ]
+}

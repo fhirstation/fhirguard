@@ -1,0 +1,116 @@
+{
+  "name": "ICD-10Codes",
+  "resource_id": "icd-10",
+  "resource_url": "http://hl7.org/fhir/ValueSet/icd-10",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "123456",
+            "display": "DIAG-1"
+          },
+          {
+            "code": "123457",
+            "display": "DIAG-1a"
+          },
+          {
+            "code": "987654",
+            "display": "DIAG-2"
+          },
+          {
+            "code": "123987",
+            "display": "DIAG-3"
+          },
+          {
+            "code": "112233",
+            "display": "DIAG-4"
+          },
+          {
+            "code": "997755",
+            "display": "DIAG-5"
+          },
+          {
+            "code": "321789",
+            "display": "DIAG-6"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes sample ICD-10 codes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "123456",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "123457",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-1a",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "987654",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "123987",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-3",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "112233",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "997755",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "321789",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "DIAG-6",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourceDefinitionTypeCodes",
+  "resource_id": "contract-definition-type",
+  "resource_url": "http://hl7.org/fhir/contract-definition-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "temp",
+      "display": "Temporary Value",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourceDefinitionTypeCodes",
+    "resource_id": "contract-definition-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-definition-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-definition-type"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for status.",
+    "related_codesystems": [
+      {
+        "id": "contract-definition-type",
+        "url": "http://hl7.org/fhir/contract-definition-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "temp",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-definition-type",
+        "display": "Temporary Value",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

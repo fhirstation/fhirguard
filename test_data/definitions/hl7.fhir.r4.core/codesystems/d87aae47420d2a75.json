@@ -1,0 +1,14 @@
+{
+  "name": "v2.0423",
+  "resource_id": "v2-0423",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0423",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "Doctor's Office Closed"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

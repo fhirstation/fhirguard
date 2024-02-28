@@ -1,0 +1,41 @@
+{
+  "name": "ExampleClaimSubTypeCodes",
+  "resource_id": "claim-subtype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/claim-subtype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-claimsubtype"
+      }
+    ]
+  },
+  "description": "This value set includes sample Claim SubType codes which are used to distinguish the claim types for example within type institutional there may be subtypes for emergency services, bed stay and transportation.",
+  "related_codesystems": [
+    {
+      "id": "claim-subtype",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-claimsubtype"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ortho",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-claimsubtype",
+      "display": "Orthodontic Claim",
+      "description": "A claim for Orthodontic Services.",
+      "filter": null
+    },
+    {
+      "code": "emergency",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-claimsubtype",
+      "display": "Emergency Claim",
+      "description": "A claim for emergency services.",
+      "filter": null
+    }
+  ]
+}

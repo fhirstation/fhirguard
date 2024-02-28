@@ -1,0 +1,86 @@
+{
+  "name": "NutrientModifierCodes",
+  "resource_id": "nutrient-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/nutrient-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "33463005",
+            "display": "Fluid"
+          },
+          {
+            "code": "39972003",
+            "display": "Sodium"
+          },
+          {
+            "code": "88480006",
+            "display": "Potassium"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "226355009"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "NutrientModifier :  Codes for types of nutrients that are being modified such as carbohydrate or sodium.  This value set includes codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 226355009 (Nutrients(substance)), and the concepts for Sodium, Potassium and Fluid. This is provided as a suggestive example.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "33463005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39972003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Sodium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "88480006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Potassium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "226355009"
+        }
+      ]
+    }
+  ]
+}

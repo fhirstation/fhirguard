@@ -1,0 +1,89 @@
+{
+  "name": "FocalSubjectCodes",
+  "resource_id": "focal-subject",
+  "resource_url": "http://hl7.org/fhir/ValueSet/focal-subject",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "83418008",
+            "display": "Fetus"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+        "concept": [
+          {
+            "code": "DON",
+            "display": "donor"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "concept": [
+          {
+            "code": "SPS",
+            "display": "spouse"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set composed from SNOMED CT and HL7 V3 codes for observation targets such as donor, fetus or spouse. As use cases are discovered, more values may be added.",
+  "related_codesystems": [
+    {
+      "id": "v3-ParticipationType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+    },
+    {
+      "id": "v3-RoleCode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "83418008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Fetus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DON",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "donor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPS",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "spouse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

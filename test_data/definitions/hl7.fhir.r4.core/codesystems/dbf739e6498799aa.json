@@ -1,0 +1,36 @@
+{
+  "name": "v2.0538",
+  "resource_id": "v2-0538",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0538",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CON",
+      "display": "Contractor"
+    },
+    {
+      "code": "CST",
+      "display": "Consultant"
+    },
+    {
+      "code": "EMP",
+      "display": "Employee",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Angestellter"
+        }
+      ]
+    },
+    {
+      "code": "VOL",
+      "display": "Volunteer"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

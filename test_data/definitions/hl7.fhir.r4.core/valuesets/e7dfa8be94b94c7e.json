@@ -1,0 +1,81 @@
+{
+  "name": "UDIEntryType",
+  "resource_id": "udi-entry-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/udi-entry-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/udi-entry-type"
+      }
+    ]
+  },
+  "description": "Codes to identify how UDI data was entered.",
+  "related_codesystems": [
+    {
+      "id": "udi-entry-type",
+      "url": "http://hl7.org/fhir/udi-entry-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "barcode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/udi-entry-type",
+      "display": "Barcode",
+      "description": "a barcodescanner captured the data from the device label.",
+      "filter": null
+    },
+    {
+      "code": "rfid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/udi-entry-type",
+      "display": "RFID",
+      "description": "An RFID chip reader captured the data from the device label.",
+      "filter": null
+    },
+    {
+      "code": "manual",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/udi-entry-type",
+      "display": "Manual",
+      "description": "The data was read from the label by a person and manually entered. (e.g.  via a keyboard).",
+      "filter": null
+    },
+    {
+      "code": "card",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/udi-entry-type",
+      "display": "Card",
+      "description": "The data originated from a patient's implant card and was read by an operator.",
+      "filter": null
+    },
+    {
+      "code": "self-reported",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/udi-entry-type",
+      "display": "Self Reported",
+      "description": "The data originated from a patient source and was not directly scanned or read from a label or card.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/udi-entry-type",
+      "display": "Unknown",
+      "description": "The method of data capture has not been determined.",
+      "filter": null
+    }
+  ]
+}

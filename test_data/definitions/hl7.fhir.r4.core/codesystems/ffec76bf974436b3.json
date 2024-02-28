@@ -1,0 +1,52 @@
+{
+  "name": "v2.0268",
+  "resource_id": "v2-0268",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0268",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Override allowed",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Override toegestaan"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Override required",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Override vereist"
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "display": "Override not allowed",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Override niet toegestaan"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

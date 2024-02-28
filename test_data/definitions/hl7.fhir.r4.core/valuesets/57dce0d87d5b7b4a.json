@@ -1,0 +1,81 @@
+{
+  "name": "DeviceUseStatementStatus",
+  "resource_id": "device-statement-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/device-statement-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/device-statement-status"
+      }
+    ]
+  },
+  "description": "A coded concept indicating the current status of the Device Usage.",
+  "related_codesystems": [
+    {
+      "id": "device-statement-status",
+      "url": "http://hl7.org/fhir/device-statement-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-statement-status",
+      "display": "Active",
+      "description": "The device is still being used.",
+      "filter": null
+    },
+    {
+      "code": "completed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-statement-status",
+      "display": "Completed",
+      "description": "The device is no longer being used.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-statement-status",
+      "display": "Entered in Error",
+      "description": "The statement was recorded incorrectly.",
+      "filter": null
+    },
+    {
+      "code": "intended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-statement-status",
+      "display": "Intended",
+      "description": "The device may be used at some time in the future.",
+      "filter": null
+    },
+    {
+      "code": "stopped",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-statement-status",
+      "display": "Stopped",
+      "description": "Actions implied by the statement have been permanently halted, before all of them occurred.",
+      "filter": null
+    },
+    {
+      "code": "on-hold",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-statement-status",
+      "display": "On Hold",
+      "description": "Actions implied by the statement have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+      "filter": null
+    }
+  ]
+}

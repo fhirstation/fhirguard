@@ -1,0 +1,61 @@
+{
+  "name": "v2.0339",
+  "resource_id": "v2-0339",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0339",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0339"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0339 ( Advanced Beneficiary Notice Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0339",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0339"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0339",
+      "display": "Service is subject to medical necessity procedures",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0339",
+      "display": "Patient has been informed of responsibility, and agrees to pay for service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0339",
+      "display": "Patient has been informed of responsibility, and asks that the payer be billed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0339",
+      "display": "Advanced Beneficiary Notice has not been signed",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

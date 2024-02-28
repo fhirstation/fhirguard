@@ -1,0 +1,105 @@
+{
+  "name": "BiologicallyDerivedProductCategory",
+  "resource_id": "product-category",
+  "resource_url": "http://hl7.org/fhir/product-category",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "organ",
+      "display": "Organ",
+      "definition": "A collection of tissues joined in a structural unit to serve a common function."
+    },
+    {
+      "code": "tissue",
+      "display": "Tissue",
+      "definition": "An ensemble of similar cells and their extracellular matrix from the same origin that together carry out a specific function."
+    },
+    {
+      "code": "fluid",
+      "display": "Fluid",
+      "definition": "Body fluid."
+    },
+    {
+      "code": "cells",
+      "display": "Cells",
+      "definition": "Collection of cells."
+    },
+    {
+      "code": "biologicalAgent",
+      "display": "BiologicalAgent",
+      "definition": "Biological agent of unspecified type."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "BiologicallyDerivedProductCategory",
+    "resource_id": "product-category",
+    "resource_url": "http://hl7.org/fhir/ValueSet/product-category",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/product-category"
+        }
+      ]
+    },
+    "description": "Biologically Derived Product Category.",
+    "related_codesystems": [
+      {
+        "id": "product-category",
+        "url": "http://hl7.org/fhir/product-category"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "organ",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-category",
+        "display": "Organ",
+        "description": "A collection of tissues joined in a structural unit to serve a common function.",
+        "filter": null
+      },
+      {
+        "code": "tissue",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-category",
+        "display": "Tissue",
+        "description": "An ensemble of similar cells and their extracellular matrix from the same origin that together carry out a specific function.",
+        "filter": null
+      },
+      {
+        "code": "fluid",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-category",
+        "display": "Fluid",
+        "description": "Body fluid.",
+        "filter": null
+      },
+      {
+        "code": "cells",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-category",
+        "display": "Cells",
+        "description": "Collection of cells.",
+        "filter": null
+      },
+      {
+        "code": "biologicalAgent",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/product-category",
+        "display": "BiologicalAgent",
+        "description": "Biological agent of unspecified type.",
+        "filter": null
+      }
+    ]
+  }
+}

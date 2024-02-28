@@ -1,0 +1,41 @@
+{
+  "name": "ExampleVisionPrescriptionProductCodes",
+  "resource_id": "vision-product",
+  "resource_url": "http://hl7.org/fhir/ValueSet/vision-product",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct"
+      }
+    ]
+  },
+  "description": "This value set includes a smattering of Prescription Product codes.",
+  "related_codesystems": [
+    {
+      "id": "vision-product",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "lens",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct",
+      "display": "Lens",
+      "description": "A lens to be fitted to a frame to comprise a pair of glasses.",
+      "filter": null
+    },
+    {
+      "code": "contact",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-visionprescriptionproduct",
+      "display": "Contact Lens",
+      "description": "A lens to be fitted for wearing directly on an eye.",
+      "filter": null
+    }
+  ]
+}

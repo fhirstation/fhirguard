@@ -1,0 +1,186 @@
+{
+  "name": "v2.0127",
+  "resource_id": "v2-0127",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0127",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AA",
+      "display": "Animal Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Tierallergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Dierenallergie"
+        }
+      ]
+    },
+    {
+      "code": "DA",
+      "display": "Drug allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Medikamentenallergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Medicatieallergie"
+        }
+      ]
+    },
+    {
+      "code": "EA",
+      "display": "Environmental Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Allergie gegen Umwelteinflüsse"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Omgevingsallergie"
+        }
+      ]
+    },
+    {
+      "code": "FA",
+      "display": "Food allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Nahrungsmittelallergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Voedselallergie"
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "display": "Pollen Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Pollenallergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Pollenallergie"
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "display": "Miscellaneous allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Sonstige Allergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overige allergie"
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "display": "Miscellaneous contraindication",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Sonstige Kontraindikation"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overige contraindicatie"
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "display": "Plant Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Pflanzenallergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Plantallergie"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

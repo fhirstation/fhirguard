@@ -1,0 +1,88 @@
+{
+  "name": "v2.0436",
+  "resource_id": "v2-0436",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0436",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AD",
+      "display": "Adverse Reaction (Not otherwise classified)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overgevoeligheidsreactie (niet verder gedefinieerd)"
+        }
+      ]
+    },
+    {
+      "code": "AL",
+      "display": "Allergy",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Allergie"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Allergie"
+        }
+      ]
+    },
+    {
+      "code": "CT",
+      "display": "Contraindication",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Contra-indicatie"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "Intolerance",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Intolerantie"
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "display": "Side Effect",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bijwerking"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

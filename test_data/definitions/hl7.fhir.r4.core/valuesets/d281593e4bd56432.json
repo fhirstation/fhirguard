@@ -1,0 +1,51 @@
+{
+  "name": "v2.0926",
+  "resource_id": "v2-0926",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0926",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0926"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0926 ( Phlebotomy Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0926",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0926"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "NDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0926",
+      "display": "Not Drawn",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0926",
+      "display": "Successful",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UL5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0926",
+      "display": "Unsuccessful Less than 50 ml drawn",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

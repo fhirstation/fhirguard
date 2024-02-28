@@ -1,0 +1,41 @@
+{
+  "name": "v2.0107",
+  "resource_id": "v2-0107",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0107",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0107"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0107 ( DEFERRED RESPONSE TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0107",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0107"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0107",
+      "display": "Before the Date/Time specified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0107",
+      "display": "Later than the Date/Time specified",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

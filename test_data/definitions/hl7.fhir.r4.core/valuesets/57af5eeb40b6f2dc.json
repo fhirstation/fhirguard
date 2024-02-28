@@ -1,0 +1,31 @@
+{
+  "name": "ContractResourceAssetTypeCodes",
+  "resource_id": "contract-assettype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-assettype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contract-asset-type"
+      }
+    ]
+  },
+  "description": "This value set contract specific codes for asset type.",
+  "related_codesystems": [
+    {
+      "id": "contract-assettype",
+      "url": "http://hl7.org/fhir/contract-asset-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "participation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contract-asset-type",
+      "display": "Participation",
+      "description": "To be completed",
+      "filter": null
+    }
+  ]
+}

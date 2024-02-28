@@ -1,0 +1,68 @@
+{
+  "name": "v2.0052",
+  "resource_id": "v2-0052",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0052",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Admitting",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Aufnahme"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Opname"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Final",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Enddiagnose"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Definitief"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Working",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Werk"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

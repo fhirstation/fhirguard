@@ -1,0 +1,60 @@
+{
+  "name": "ImmunizationFundingSource",
+  "resource_id": "immunization-funding-source",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/immunization-funding-source",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "private",
+      "display": "Private",
+      "definition": "The vaccine was purchased with private funds."
+    },
+    {
+      "code": "public",
+      "display": "Public",
+      "definition": "The vaccine was purchased with public funds."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ImmunizationFundingSource",
+    "resource_id": "immunization-funding-source",
+    "resource_url": "http://hl7.org/fhir/ValueSet/immunization-funding-source",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/immunization-funding-source"
+        }
+      ]
+    },
+    "description": "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the vaccine administered. This value set is provided as a suggestive example.",
+    "related_codesystems": [
+      {
+        "id": "immunization-funding-source",
+        "url": "http://terminology.hl7.org/CodeSystem/immunization-funding-source"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "private",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/immunization-funding-source",
+        "display": "Private",
+        "description": "The vaccine was purchased with private funds.",
+        "filter": null
+      },
+      {
+        "code": "public",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/immunization-funding-source",
+        "display": "Public",
+        "description": "The vaccine was purchased with public funds.",
+        "filter": null
+      }
+    ]
+  }
+}

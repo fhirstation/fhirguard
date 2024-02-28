@@ -1,0 +1,122 @@
+{
+  "name": "v2.0261",
+  "resource_id": "v2-0261",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0261",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "EEG",
+      "display": "Electro-Encephalogram",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Electroencefalogram"
+        }
+      ]
+    },
+    {
+      "code": "EKG",
+      "display": "Electro-Cardiogram",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Electrocardiogram"
+        }
+      ]
+    },
+    {
+      "code": "INF",
+      "display": "Infusion pump",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Infusiepomp"
+        }
+      ]
+    },
+    {
+      "code": "IVP",
+      "display": "IV pump",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Infuuspomp"
+        }
+      ]
+    },
+    {
+      "code": "OXY",
+      "display": "Oxygen",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zuurstof"
+        }
+      ]
+    },
+    {
+      "code": "SUC",
+      "display": "Suction",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Suctie"
+        }
+      ]
+    },
+    {
+      "code": "VEN",
+      "display": "Ventilator",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ventilator"
+        }
+      ]
+    },
+    {
+      "code": "VIT",
+      "display": "Vital signs monitor",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vitale functies monitor"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,105 @@
+{
+  "name": "ReferralMethod",
+  "resource_id": "service-referral-method",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/service-referral-method",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "fax",
+      "display": "Fax",
+      "definition": "Referrals may be accepted by fax."
+    },
+    {
+      "code": "phone",
+      "display": "Phone",
+      "definition": "Referrals may be accepted over the phone from a practitioner."
+    },
+    {
+      "code": "elec",
+      "display": "Secure Messaging",
+      "definition": "Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages."
+    },
+    {
+      "code": "semail",
+      "display": "Secure Email",
+      "definition": "Referrals may be accepted via a secure email. To send please encrypt with the services public key."
+    },
+    {
+      "code": "mail",
+      "display": "Mail",
+      "definition": "Referrals may be accepted via regular postage (or hand delivered)."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ReferralMethod",
+    "resource_id": "service-referral-method",
+    "resource_url": "http://hl7.org/fhir/ValueSet/service-referral-method",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-referral-method"
+        }
+      ]
+    },
+    "description": "The methods of referral can be used when referring to a specific HealthCareService resource.",
+    "related_codesystems": [
+      {
+        "id": "service-referral-method",
+        "url": "http://terminology.hl7.org/CodeSystem/service-referral-method"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "fax",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-referral-method",
+        "display": "Fax",
+        "description": "Referrals may be accepted by fax.",
+        "filter": null
+      },
+      {
+        "code": "phone",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-referral-method",
+        "display": "Phone",
+        "description": "Referrals may be accepted over the phone from a practitioner.",
+        "filter": null
+      },
+      {
+        "code": "elec",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-referral-method",
+        "display": "Secure Messaging",
+        "description": "Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages.",
+        "filter": null
+      },
+      {
+        "code": "semail",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-referral-method",
+        "display": "Secure Email",
+        "description": "Referrals may be accepted via a secure email. To send please encrypt with the services public key.",
+        "filter": null
+      },
+      {
+        "code": "mail",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/service-referral-method",
+        "display": "Mail",
+        "description": "Referrals may be accepted via regular postage (or hand delivered).",
+        "filter": null
+      }
+    ]
+  }
+}

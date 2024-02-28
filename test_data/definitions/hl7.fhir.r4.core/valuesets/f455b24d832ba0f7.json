@@ -1,0 +1,144 @@
+{
+  "name": "CareTeamCategory",
+  "resource_id": "care-team-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/care-team-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA27975-4"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA27976-2"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA27977-0"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA27978-8"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA28865-6"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA28866-4"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA27980-4"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "LA28867-2"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Indicates the type of care team.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA27975-4"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA27976-2"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA27977-0"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA27978-8"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA28865-6"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA28866-4"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA27980-4"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "LA28867-2"
+        }
+      ]
+    }
+  ]
+}

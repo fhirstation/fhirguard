@@ -1,0 +1,60 @@
+{
+  "name": "ContractSubtypeCodes",
+  "resource_id": "contract-subtype",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/contractsubtypecodes",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "disclosure-ca",
+      "display": "Disclosure-CA",
+      "definition": "Canadian health information disclosure policy."
+    },
+    {
+      "code": "disclosure-us",
+      "display": "Disclosure-US",
+      "definition": "United States health information disclosure policy."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractSubtypeCodes",
+    "resource_id": "contract-subtype",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-subtype",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/contractsubtypecodes"
+        }
+      ]
+    },
+    "description": "This value set includes sample Contract Subtype codes.",
+    "related_codesystems": [
+      {
+        "id": "contract-subtype",
+        "url": "http://terminology.hl7.org/CodeSystem/contractsubtypecodes"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "disclosure-ca",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/contractsubtypecodes",
+        "display": "Disclosure-CA",
+        "description": "Canadian health information disclosure policy.",
+        "filter": null
+      },
+      {
+        "code": "disclosure-us",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/contractsubtypecodes",
+        "display": "Disclosure-US",
+        "description": "United States health information disclosure policy.",
+        "filter": null
+      }
+    ]
+  }
+}

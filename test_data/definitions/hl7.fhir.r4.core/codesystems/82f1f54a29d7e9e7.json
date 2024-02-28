@@ -1,0 +1,85 @@
+{
+  "name": "CholCodeLegacyStatus",
+  "resource_id": "example-supplement",
+  "resource_url": "http://hl7.org/fhir/CodeSystem/example-supplement",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "chol-mmol",
+      "display": "SChol (mmol/L)",
+      "definition": "Serum Cholesterol, in mmol/L",
+      "designation": [
+        {
+          "use": {
+            "system": "http://acme.com/config/fhir/codesystems/internal",
+            "code": "internal-label"
+          },
+          "value": "From ACME POC Testing"
+        }
+      ]
+    },
+    {
+      "code": "chol-mass",
+      "display": "SChol (mg/L)",
+      "definition": "Serum Cholesterol, in mg/L",
+      "designation": [
+        {
+          "use": {
+            "system": "http://acme.com/config/fhir/codesystems/internal",
+            "code": "internal-label"
+          },
+          "value": "From Paragon Labs"
+        }
+      ]
+    },
+    {
+      "code": "chol",
+      "display": "SChol",
+      "definition": "Serum Cholesterol",
+      "designation": [
+        {
+          "use": {
+            "system": "http://acme.com/config/fhir/codesystems/internal",
+            "code": "internal-label"
+          },
+          "value": "Obdurate Labs uses this with both kinds of units..."
+        }
+      ]
+    },
+    {
+      "code": "chol-mmol",
+      "property": [
+        {
+          "code": "legacy",
+          "valueBoolean": false
+        }
+      ]
+    },
+    {
+      "code": "chol-mass",
+      "property": [
+        {
+          "code": "legacy",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "chol",
+      "property": [
+        {
+          "code": "legacy",
+          "valueBoolean": true
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "legacy",
+      "description": "hether the test is currently performed",
+      "type": "boolean"
+    }
+  ],
+  "valueset": null
+}

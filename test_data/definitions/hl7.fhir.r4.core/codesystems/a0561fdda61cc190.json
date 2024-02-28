@@ -1,0 +1,60 @@
+{
+  "name": "ExampleProcedureTypeCodes",
+  "resource_id": "ex-procedure-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/ex-procedure-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "primary",
+      "display": "Primary procedure",
+      "definition": "The first procedure in a series required to produce and overall patient outcome."
+    },
+    {
+      "code": "secondary",
+      "display": "Secondary procedure",
+      "definition": "The second procedure in a series required to produce and overall patient outcome."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExampleProcedureTypeCodes",
+    "resource_id": "ex-procedure-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/ex-procedure-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/ex-procedure-type"
+        }
+      ]
+    },
+    "description": "This value set includes example Procedure Type codes.",
+    "related_codesystems": [
+      {
+        "id": "ex-procedure-type",
+        "url": "http://terminology.hl7.org/CodeSystem/ex-procedure-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "primary",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-procedure-type",
+        "display": "Primary procedure",
+        "description": "The first procedure in a series required to produce and overall patient outcome.",
+        "filter": null
+      },
+      {
+        "code": "secondary",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-procedure-type",
+        "display": "Secondary procedure",
+        "description": "The second procedure in a series required to produce and overall patient outcome.",
+        "filter": null
+      }
+    ]
+  }
+}

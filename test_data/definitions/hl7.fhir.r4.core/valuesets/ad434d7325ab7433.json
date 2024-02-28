@@ -1,0 +1,51 @@
+{
+  "name": "v2.0919",
+  "resource_id": "v2-0919",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0919",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0919"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0919 ( Exclusive Test)",
+  "related_codesystems": [
+    {
+      "id": "v2-0919",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0919"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0919",
+      "display": "In some cases, this test should be only exclusively with like tests (examples are cyto or pathology)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0919",
+      "display": "This test can be included with any number of other tests",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0919",
+      "display": "This test should be exclusive",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

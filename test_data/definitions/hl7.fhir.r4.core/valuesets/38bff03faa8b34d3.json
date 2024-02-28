@@ -1,0 +1,101 @@
+{
+  "name": "v3.ConfidentialityClassification",
+  "resource_id": "v3-ConfidentialityClassification",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+        "concept": [
+          {
+            "code": "U"
+          },
+          {
+            "code": "L"
+          },
+          {
+            "code": "M"
+          },
+          {
+            "code": "N"
+          },
+          {
+            "code": "R"
+          },
+          {
+            "code": "V"
+          }
+        ]
+      }
+    ]
+  },
+  "description": " Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".",
+  "related_codesystems": [
+    {
+      "id": "v3-Confidentiality",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

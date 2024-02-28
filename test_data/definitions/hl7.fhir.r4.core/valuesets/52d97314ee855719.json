@@ -1,0 +1,41 @@
+{
+  "name": "v2.0337",
+  "resource_id": "v2-0337",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0337",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0337"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0337 ( Certification Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0337",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0337"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0337",
+      "display": "Certified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0337",
+      "display": "Eligible",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

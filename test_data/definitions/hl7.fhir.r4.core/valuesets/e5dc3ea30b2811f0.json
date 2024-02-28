@@ -1,0 +1,51 @@
+{
+  "name": "qualityType",
+  "resource_id": "quality-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/quality-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/quality-type"
+      }
+    ]
+  },
+  "description": "Type for quality report.",
+  "related_codesystems": [
+    {
+      "id": "quality-type",
+      "url": "http://hl7.org/fhir/quality-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "indel",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quality-type",
+      "display": "INDEL Comparison",
+      "description": "INDEL Comparison.",
+      "filter": null
+    },
+    {
+      "code": "snp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quality-type",
+      "display": "SNP Comparison",
+      "description": "SNP Comparison.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quality-type",
+      "display": "UNKNOWN Comparison",
+      "description": "UNKNOWN Comparison.",
+      "filter": null
+    }
+  ]
+}

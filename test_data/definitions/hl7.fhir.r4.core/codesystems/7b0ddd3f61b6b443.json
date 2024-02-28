@@ -1,0 +1,122 @@
+{
+  "name": "v2.0527",
+  "resource_id": "v2-0527",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0527",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "DM",
+      "display": "day of the month",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Tag des Monats"
+        }
+      ]
+    },
+    {
+      "code": "DW",
+      "display": "day of the week (begins with Monday)",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Tag der Woche (beginnend mit Montag)"
+        }
+      ]
+    },
+    {
+      "code": "DY",
+      "display": "day of the year",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Tag des Jahres"
+        }
+      ]
+    },
+    {
+      "code": "HD",
+      "display": "hour of the day",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Stunde"
+        }
+      ]
+    },
+    {
+      "code": "MY",
+      "display": "month of the year",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Monat"
+        }
+      ]
+    },
+    {
+      "code": "NH",
+      "display": "minute of the hour",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Minute"
+        }
+      ]
+    },
+    {
+      "code": "SN",
+      "display": "second of the minute",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Sekunde"
+        }
+      ]
+    },
+    {
+      "code": "WY",
+      "display": "week of the year",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Kalenderwoche"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

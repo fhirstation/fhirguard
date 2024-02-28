@@ -1,0 +1,210 @@
+{
+  "name": "TaskStatus",
+  "resource_id": "task-status",
+  "resource_url": "http://hl7.org/fhir/task-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "draft",
+      "display": "Draft",
+      "definition": "The task is not yet ready to be acted upon."
+    },
+    {
+      "code": "requested",
+      "display": "Requested",
+      "definition": "The task is ready to be acted upon and action is sought."
+    },
+    {
+      "code": "received",
+      "display": "Received",
+      "definition": "A potential performer has claimed ownership of the task and is evaluating whether to perform it."
+    },
+    {
+      "code": "accepted",
+      "display": "Accepted",
+      "definition": "The potential performer has agreed to execute the task but has not yet started work."
+    },
+    {
+      "code": "rejected",
+      "display": "Rejected",
+      "definition": "The potential performer who claimed ownership of the task has decided not to execute it prior to performing any action."
+    },
+    {
+      "code": "ready",
+      "display": "Ready",
+      "definition": "The task is ready to be performed, but no action has yet been taken.  Used in place of requested/received/accepted/rejected when request assignment and acceptance is a given."
+    },
+    {
+      "code": "cancelled",
+      "display": "Cancelled",
+      "definition": "The task was not completed."
+    },
+    {
+      "code": "in-progress",
+      "display": "In Progress",
+      "definition": "The task has been started but is not yet complete."
+    },
+    {
+      "code": "on-hold",
+      "display": "On Hold",
+      "definition": "The task has been started but work has been paused."
+    },
+    {
+      "code": "failed",
+      "display": "Failed",
+      "definition": "The task was attempted but could not be completed due to some error."
+    },
+    {
+      "code": "completed",
+      "display": "Completed",
+      "definition": "The task has been completed."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "The task should never have existed and is retained only because of the possibility it may have used."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "TaskStatus",
+    "resource_id": "task-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/task-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/task-status"
+        }
+      ]
+    },
+    "description": "The current status of the task.",
+    "related_codesystems": [
+      {
+        "id": "task-status",
+        "url": "http://hl7.org/fhir/task-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "draft",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Draft",
+        "description": "The task is not yet ready to be acted upon.",
+        "filter": null
+      },
+      {
+        "code": "requested",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Requested",
+        "description": "The task is ready to be acted upon and action is sought.",
+        "filter": null
+      },
+      {
+        "code": "received",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Received",
+        "description": "A potential performer has claimed ownership of the task and is evaluating whether to perform it.",
+        "filter": null
+      },
+      {
+        "code": "accepted",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Accepted",
+        "description": "The potential performer has agreed to execute the task but has not yet started work.",
+        "filter": null
+      },
+      {
+        "code": "rejected",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Rejected",
+        "description": "The potential performer who claimed ownership of the task has decided not to execute it prior to performing any action.",
+        "filter": null
+      },
+      {
+        "code": "ready",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Ready",
+        "description": "The task is ready to be performed, but no action has yet been taken.  Used in place of requested/received/accepted/rejected when request assignment and acceptance is a given.",
+        "filter": null
+      },
+      {
+        "code": "cancelled",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Cancelled",
+        "description": "The task was not completed.",
+        "filter": null
+      },
+      {
+        "code": "in-progress",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "In Progress",
+        "description": "The task has been started but is not yet complete.",
+        "filter": null
+      },
+      {
+        "code": "on-hold",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "On Hold",
+        "description": "The task has been started but work has been paused.",
+        "filter": null
+      },
+      {
+        "code": "failed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Failed",
+        "description": "The task was attempted but could not be completed due to some error.",
+        "filter": null
+      },
+      {
+        "code": "completed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Completed",
+        "description": "The task has been completed.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/task-status",
+        "display": "Entered in Error",
+        "description": "The task should never have existed and is retained only because of the possibility it may have used.",
+        "filter": null
+      }
+    ]
+  }
+}

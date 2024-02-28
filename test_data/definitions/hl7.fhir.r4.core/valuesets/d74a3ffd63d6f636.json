@@ -1,0 +1,71 @@
+{
+  "name": "TriggerType",
+  "resource_id": "trigger-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/trigger-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/trigger-type"
+      }
+    ]
+  },
+  "description": "The type of trigger.",
+  "related_codesystems": [
+    {
+      "id": "trigger-type",
+      "url": "http://hl7.org/fhir/trigger-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "named-event",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/trigger-type",
+      "display": "Named Event",
+      "description": "The trigger occurs in response to a specific named event, and no other information about the trigger is specified. Named events are completely pre-coordinated, and the formal semantics of the trigger are not provided.",
+      "filter": null
+    },
+    {
+      "code": "periodic",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/trigger-type",
+      "display": "Periodic",
+      "description": "The trigger occurs at a specific time or periodically as described by a timing or schedule. A periodic event cannot have any data elements, but may have a name assigned as a shorthand for the event.",
+      "filter": null
+    },
+    {
+      "code": "data-changed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/trigger-type",
+      "display": "Data Changed",
+      "description": "The trigger occurs whenever data of a particular type is changed in any way, either added, modified, or removed.",
+      "filter": null
+    },
+    {
+      "code": "data-accessed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/trigger-type",
+      "display": "Data Accessed",
+      "description": "The trigger occurs whenever data of a particular type is accessed.",
+      "filter": null
+    },
+    {
+      "code": "data-access-ended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/trigger-type",
+      "display": "Data Access Ended",
+      "description": "The trigger occurs whenever access to data of a particular type is completed.",
+      "filter": null
+    }
+  ]
+}

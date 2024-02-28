@@ -1,0 +1,94 @@
+{
+  "name": "v2.0103",
+  "resource_id": "v2-0103",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0103",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "Debugging",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Test"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Debugging"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Non-Production Testing"
+    },
+    {
+      "code": "P",
+      "display": "Production",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Routine / Produktion"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Productie"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Training",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Schulung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Training"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "display": "Validation",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Validierung"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

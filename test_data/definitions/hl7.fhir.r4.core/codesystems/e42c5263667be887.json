@@ -1,0 +1,9 @@
+{
+  "name": "MessageEvent",
+  "resource_id": "message-events",
+  "resource_url": "http://hl7.org/fhir/message-events",
+  "filter": null,
+  "concepts": [],
+  "properties": [],
+  "valueset": null
+}

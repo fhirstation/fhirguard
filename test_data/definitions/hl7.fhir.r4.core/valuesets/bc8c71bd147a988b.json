@@ -1,0 +1,39 @@
+{
+  "name": "MediaCollectionView/Projection",
+  "resource_id": "media-view",
+  "resource_url": "http://hl7.org/fhir/ValueSet/media-view",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "260419006"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Codes defined in SNOMED CT that can be used to record Media Recording views.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "260419006"
+        }
+      ]
+    }
+  ]
+}

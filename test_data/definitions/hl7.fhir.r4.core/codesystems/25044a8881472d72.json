@@ -1,0 +1,165 @@
+{
+  "name": "BundleType",
+  "resource_id": "bundle-type",
+  "resource_url": "http://hl7.org/fhir/bundle-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "document",
+      "display": "Document",
+      "definition": "The bundle is a document. The first resource is a Composition."
+    },
+    {
+      "code": "message",
+      "display": "Message",
+      "definition": "The bundle is a message. The first resource is a MessageHeader."
+    },
+    {
+      "code": "transaction",
+      "display": "Transaction",
+      "definition": "The bundle is a transaction - intended to be processed by a server as an atomic commit."
+    },
+    {
+      "code": "transaction-response",
+      "display": "Transaction Response",
+      "definition": "The bundle is a transaction response. Because the response is a transaction response, the transaction has succeeded, and all responses are error free."
+    },
+    {
+      "code": "batch",
+      "display": "Batch",
+      "definition": "The bundle is a set of actions - intended to be processed by a server as a group of independent actions."
+    },
+    {
+      "code": "batch-response",
+      "display": "Batch Response",
+      "definition": "The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success."
+    },
+    {
+      "code": "history",
+      "display": "History List",
+      "definition": "The bundle is a list of resources from a history interaction on a server."
+    },
+    {
+      "code": "searchset",
+      "display": "Search Results",
+      "definition": "The bundle is a list of resources returned as a result of a search/query interaction, operation, or message."
+    },
+    {
+      "code": "collection",
+      "display": "Collection",
+      "definition": "The bundle is a set of resources collected into a single package for ease of distribution that imposes no processing obligations or behavioral rules beyond persistence."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "BundleType",
+    "resource_id": "bundle-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/bundle-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/bundle-type"
+        }
+      ]
+    },
+    "description": "Indicates the purpose of a bundle - how it is intended to be used.",
+    "related_codesystems": [
+      {
+        "id": "bundle-type",
+        "url": "http://hl7.org/fhir/bundle-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "document",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Document",
+        "description": "The bundle is a document. The first resource is a Composition.",
+        "filter": null
+      },
+      {
+        "code": "message",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Message",
+        "description": "The bundle is a message. The first resource is a MessageHeader.",
+        "filter": null
+      },
+      {
+        "code": "transaction",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Transaction",
+        "description": "The bundle is a transaction - intended to be processed by a server as an atomic commit.",
+        "filter": null
+      },
+      {
+        "code": "transaction-response",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Transaction Response",
+        "description": "The bundle is a transaction response. Because the response is a transaction response, the transaction has succeeded, and all responses are error free.",
+        "filter": null
+      },
+      {
+        "code": "batch",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Batch",
+        "description": "The bundle is a set of actions - intended to be processed by a server as a group of independent actions.",
+        "filter": null
+      },
+      {
+        "code": "batch-response",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Batch Response",
+        "description": "The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success.",
+        "filter": null
+      },
+      {
+        "code": "history",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "History List",
+        "description": "The bundle is a list of resources from a history interaction on a server.",
+        "filter": null
+      },
+      {
+        "code": "searchset",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Search Results",
+        "description": "The bundle is a list of resources returned as a result of a search/query interaction, operation, or message.",
+        "filter": null
+      },
+      {
+        "code": "collection",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/bundle-type",
+        "display": "Collection",
+        "description": "The bundle is a set of resources collected into a single package for ease of distribution that imposes no processing obligations or behavioral rules beyond persistence.",
+        "filter": null
+      }
+    ]
+  }
+}

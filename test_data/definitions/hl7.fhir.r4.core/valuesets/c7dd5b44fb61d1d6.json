@@ -1,0 +1,71 @@
+{
+  "name": "TestReportStatus",
+  "resource_id": "report-status-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/report-status-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/report-status-codes"
+      }
+    ]
+  },
+  "description": "The current status of the test report.",
+  "related_codesystems": [
+    {
+      "id": "report-status-codes",
+      "url": "http://hl7.org/fhir/report-status-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "completed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-status-codes",
+      "display": "Completed",
+      "description": "All test operations have completed.",
+      "filter": null
+    },
+    {
+      "code": "in-progress",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-status-codes",
+      "display": "In Progress",
+      "description": "A test operations is currently executing.",
+      "filter": null
+    },
+    {
+      "code": "waiting",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-status-codes",
+      "display": "Waiting",
+      "description": "A test operation is waiting for an external client request.",
+      "filter": null
+    },
+    {
+      "code": "stopped",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-status-codes",
+      "display": "Stopped",
+      "description": "The test script execution was manually stopped.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-status-codes",
+      "display": "Entered In Error",
+      "description": "This test report was entered or created in error.",
+      "filter": null
+    }
+  ]
+}

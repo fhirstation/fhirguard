@@ -1,0 +1,131 @@
+{
+  "name": "v2.0510",
+  "resource_id": "v2-0510",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0510",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0510"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0510 ( Blood Product Dispense Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0510",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0510"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Released into inventory for general availability",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Dispensed to patient location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Presumed transfused (dispensed and not returned)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Returned unused/no longer needed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Reserved and ready to dispense",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Released (no longer allocated for the patient)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Received into inventory (for specified patient)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Returned unused/keep linked to patient for possible use later",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Request to dispense blood product",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Reserved (ordered and product allocated for the patient)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0510",
+      "display": "Wasted (product no longer viable)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

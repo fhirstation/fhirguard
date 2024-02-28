@@ -1,0 +1,51 @@
+{
+  "name": "ExpansionParameterSource",
+  "resource_id": "expansion-parameter-source",
+  "resource_url": "http://hl7.org/fhir/ValueSet/expansion-parameter-source",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/expansion-parameter-source"
+      }
+    ]
+  },
+  "description": "Declares what the source of a parameter is.",
+  "related_codesystems": [
+    {
+      "id": "expansion-parameter-source",
+      "url": "http://terminology.hl7.org/CodeSystem/expansion-parameter-source"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "input",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/expansion-parameter-source",
+      "display": "Client Input",
+      "description": "The parameter was supplied by the client in the $expand request.",
+      "filter": null
+    },
+    {
+      "code": "server",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/expansion-parameter-source",
+      "display": "Server Engine",
+      "description": "The parameter was added by the expansion engine on the server.",
+      "filter": null
+    },
+    {
+      "code": "codesystem",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/expansion-parameter-source",
+      "display": "Code System",
+      "description": "The parameter was added from one the code systems used in the $expand operation.",
+      "filter": null
+    }
+  ]
+}

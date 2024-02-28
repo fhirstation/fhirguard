@@ -1,0 +1,75 @@
+{
+  "name": "ReasonMedicationGivenCodes",
+  "resource_id": "reason-medication-given-codes",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/reason-medication-given",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "a",
+      "display": "None",
+      "definition": "No reason known."
+    },
+    {
+      "code": "b",
+      "display": "Given as Ordered",
+      "definition": "The administration was following an ordered protocol."
+    },
+    {
+      "code": "c",
+      "display": "Emergency",
+      "definition": "The administration was needed to treat an emergency."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ReasonMedicationGivenCodes",
+    "resource_id": "reason-medication-given-codes",
+    "resource_url": "http://hl7.org/fhir/ValueSet/reason-medication-given-codes",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/reason-medication-given"
+        }
+      ]
+    },
+    "description": "This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the medication process.",
+    "related_codesystems": [
+      {
+        "id": "reason-medication-given-codes",
+        "url": "http://terminology.hl7.org/CodeSystem/reason-medication-given"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "a",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reason-medication-given",
+        "display": "None",
+        "description": "No reason known.",
+        "filter": null
+      },
+      {
+        "code": "b",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reason-medication-given",
+        "display": "Given as Ordered",
+        "description": "The administration was following an ordered protocol.",
+        "filter": null
+      },
+      {
+        "code": "c",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reason-medication-given",
+        "display": "Emergency",
+        "description": "The administration was needed to treat an emergency.",
+        "filter": null
+      }
+    ]
+  }
+}

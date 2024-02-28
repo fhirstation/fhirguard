@@ -1,0 +1,111 @@
+{
+  "name": "v2.0935",
+  "resource_id": "v2-0935",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0935",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0935"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0935 ( Process Interruption Reason)",
+  "related_codesystems": [
+    {
+      "id": "v2-0935",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0935"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ASC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Apheresis Software Crash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Manufacturing Software Crash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CFT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Couldn't follow through with donation (scared)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Bathroom",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DCW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Couldn't wait",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DNI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Phlebotomy Issue",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GFE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "General Facility Emergency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NRG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "No reason given, donor decided to stop without giving a reason",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0935",
+      "display": "Phone Call-Donor",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

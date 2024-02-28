@@ -1,0 +1,61 @@
+{
+  "name": "ConsentDataMeaning",
+  "resource_id": "consent-data-meaning",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consent-data-meaning",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/consent-data-meaning"
+      }
+    ]
+  },
+  "description": "How a resource reference is interpreted when testing consent restrictions.",
+  "related_codesystems": [
+    {
+      "id": "consent-data-meaning",
+      "url": "http://hl7.org/fhir/consent-data-meaning"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "instance",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-data-meaning",
+      "display": "Instance",
+      "description": "The consent applies directly to the instance of the resource.",
+      "filter": null
+    },
+    {
+      "code": "related",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-data-meaning",
+      "display": "Related",
+      "description": "The consent applies directly to the instance of the resource and instances it refers to.",
+      "filter": null
+    },
+    {
+      "code": "dependents",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-data-meaning",
+      "display": "Dependents",
+      "description": "The consent applies directly to the instance of the resource and instances that refer to it.",
+      "filter": null
+    },
+    {
+      "code": "authoredby",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-data-meaning",
+      "display": "AuthoredBy",
+      "description": "The consent applies to instances of resources that are authored by.",
+      "filter": null
+    }
+  ]
+}

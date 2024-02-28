@@ -1,0 +1,91 @@
+{
+  "name": "v2.0742",
+  "resource_id": "v2-0742",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0742",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0742"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0742 ( DRG Status Financial Calculation)",
+  "related_codesystems": [
+    {
+      "id": "v2-0742",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0742"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "00",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "Effective weight calculated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "Hospital specific contract",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "Eeffective weight for transfer/referral calculated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "Referral from other hospital based on a cooperation (no DRG reimbursement)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "Invalid length of stay",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "No information/entry in cost data for this DRG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0742",
+      "display": "No relative weight found for department (type)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

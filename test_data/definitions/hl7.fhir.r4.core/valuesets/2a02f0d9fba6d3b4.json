@@ -1,0 +1,221 @@
+{
+  "name": "v2.0365",
+  "resource_id": "v2-0365",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0365",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0365"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0365 ( Equipment state)",
+  "related_codesystems": [
+    {
+      "id": "v2-0365",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0365"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "(null) No state change",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Clearing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Configuring",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Diagnose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "E-stopped",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Failure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Idle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Initializing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Limited test menu",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Maintenance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Normal Operation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Pausing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Paused",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Powered Up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Ready to start",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Shutting down",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Sampling stopped",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Transport stopped",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "…",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0365",
+      "display": "(null) No state change",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

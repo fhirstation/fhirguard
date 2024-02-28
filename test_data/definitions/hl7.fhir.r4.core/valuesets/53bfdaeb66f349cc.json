@@ -1,0 +1,91 @@
+{
+  "name": "v2.0263",
+  "resource_id": "v2-0263",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0263",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0263"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0263 ( Level of Care)",
+  "related_codesystems": [
+    {
+      "id": "v2-0263",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0263"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Ambulatory",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Critical care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Emergency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Isolation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Intensive care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Routine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0263",
+      "display": "Surgery",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

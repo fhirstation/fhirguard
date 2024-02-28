@@ -1,0 +1,73 @@
+{
+  "name": "v2.0455",
+  "resource_id": "v2-0455",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0455",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "...",
+      "display": "No suggested values defined",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "keine Werte vorgeschlagen"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "geen voorgestelde waarden"
+        }
+      ]
+    },
+    {
+      "code": "131",
+      "display": "Hospital - Outpatient - Admit thru Discharge Claim",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2000-11"
+        }
+      ]
+    },
+    {
+      "code": "141",
+      "display": "Hospital - Other - Admit thru Discharge Claim",
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "2000-11"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, retired",
+      "type": "code"
+    },
+    {
+      "code": "deprecationDate",
+      "uri": "http://hl7.org/fhir/concept-properties#deprecationDate",
+      "description": "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged",
+      "type": "dateTime"
+    }
+  ],
+  "valueset": null
+}

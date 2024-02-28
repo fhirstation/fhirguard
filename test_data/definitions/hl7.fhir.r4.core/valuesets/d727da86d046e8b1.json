@@ -1,0 +1,39 @@
+{
+  "name": "ProcedurePerformerRoleCodes",
+  "resource_id": "performer-role",
+  "resource_url": "http://hl7.org/fhir/ValueSet/performer-role",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "223366009"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "223366009"
+        }
+      ]
+    }
+  ]
+}

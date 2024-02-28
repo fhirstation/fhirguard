@@ -1,0 +1,156 @@
+{
+  "name": "v2.0305",
+  "resource_id": "v2-0305",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0305",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "C",
+      "display": "Clinic",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Klinik"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Kliniek"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Department",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Abteilung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Afdeling"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "display": "Home",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "zu Hause"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Thuis"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Nursing Unit",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Station"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verpleegafdeling"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Provider's Office",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Sprechzimmer"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Kantoor zorgaanbieder"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Phone",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Telefon(zelle)"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Telefonisch"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "SNF",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Skilled Nursing Facility"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

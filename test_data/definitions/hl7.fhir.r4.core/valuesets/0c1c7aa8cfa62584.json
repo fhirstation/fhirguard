@@ -1,0 +1,81 @@
+{
+  "name": "AdverseEventOutcome",
+  "resource_id": "adverse-event-outcome",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-outcome",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome"
+      }
+    ]
+  },
+  "description": "TODO (and should this be required?).",
+  "related_codesystems": [
+    {
+      "id": "adverse-event-outcome",
+      "url": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "resolved",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome",
+      "display": "Resolved",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "recovering",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome",
+      "display": "Recovering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ongoing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome",
+      "display": "Ongoing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "resolvedWithSequelae",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome",
+      "display": "Resolved with Sequelae",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "fatal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome",
+      "display": "Fatal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-outcome",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

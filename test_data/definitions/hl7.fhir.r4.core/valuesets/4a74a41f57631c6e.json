@@ -1,0 +1,51 @@
+{
+  "name": "v2.0806",
+  "resource_id": "v2-0806",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0806",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0806"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0806 ( Sterilization Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0806",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0806"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "EOG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0806",
+      "display": "Ethylene Oxide Gas",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0806",
+      "display": "Peracetic acid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0806",
+      "display": "Steam",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

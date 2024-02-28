@@ -1,0 +1,30 @@
+{
+  "name": "v2.0457",
+  "resource_id": "v2-0457",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0457",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "No edits present on claim"
+    },
+    {
+      "code": "1",
+      "display": "Only edits present are for line item denial or rejection"
+    },
+    {
+      "code": "2",
+      "display": "Multiple-day claim with one or more days denied or rejected"
+    },
+    {
+      "code": "3",
+      "display": "Claim denied, rejected, suspended or returned to provider with only post payment edits"
+    },
+    {
+      "code": "4",
+      "display": "Claim denied, rejected, suspended or returned to provider with only pre payment edits"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

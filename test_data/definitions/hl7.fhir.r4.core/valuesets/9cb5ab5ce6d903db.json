@@ -1,0 +1,61 @@
+{
+  "name": "QuantityComparator",
+  "resource_id": "quantity-comparator",
+  "resource_url": "http://hl7.org/fhir/ValueSet/quantity-comparator",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/quantity-comparator"
+      }
+    ]
+  },
+  "description": "How the Quantity should be understood and represented.",
+  "related_codesystems": [
+    {
+      "id": "quantity-comparator",
+      "url": "http://hl7.org/fhir/quantity-comparator"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "<",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quantity-comparator",
+      "display": "Less than",
+      "description": "The actual value is less than the given value.",
+      "filter": null
+    },
+    {
+      "code": "<=",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quantity-comparator",
+      "display": "Less or Equal to",
+      "description": "The actual value is less than or equal to the given value.",
+      "filter": null
+    },
+    {
+      "code": ">=",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quantity-comparator",
+      "display": "Greater or Equal to",
+      "description": "The actual value is greater than or equal to the given value.",
+      "filter": null
+    },
+    {
+      "code": ">",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/quantity-comparator",
+      "display": "Greater than",
+      "description": "The actual value is greater than the given value.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "v2.0926",
+  "resource_id": "v2-0926",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0926",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "NDR",
+      "display": "Not Drawn"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Successful means a complete component was drawn"
+        }
+      ],
+      "code": "SUC",
+      "display": "Successful"
+    },
+    {
+      "code": "UL5",
+      "display": "Unsuccessful Less than 50 ml drawn"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

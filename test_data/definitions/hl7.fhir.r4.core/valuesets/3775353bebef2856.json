@@ -1,0 +1,51 @@
+{
+  "name": "medicationRequest Course of Therapy Codes",
+  "resource_id": "medicationrequest-course-of-therapy",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+      }
+    ]
+  },
+  "description": "MedicationRequest Course of Therapy Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationrequest-course-of-therapy",
+      "url": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "continuous",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+      "display": "Continuous long term therapy",
+      "description": "A medication which is expected to be continued beyond the present order and which the patient should be assumed to be taking unless explicitly stopped.",
+      "filter": null
+    },
+    {
+      "code": "acute",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+      "display": "Short course (acute) therapy",
+      "description": "A medication which the patient is only expected to consume for the duration of the current order and which is not expected to be renewed.",
+      "filter": null
+    },
+    {
+      "code": "seasonal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
+      "display": "Seasonal",
+      "description": "A medication which is expected to be used on a part time basis at certain times of the year",
+      "filter": null
+    }
+  ]
+}

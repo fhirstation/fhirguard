@@ -1,0 +1,60 @@
+{
+  "name": "StrengthOfRecommendationRating",
+  "resource_id": "recommendation-strength",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/recommendation-strength",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "strong",
+      "display": "Strong",
+      "definition": "Strong recommendation."
+    },
+    {
+      "code": "weak",
+      "display": "Weak",
+      "definition": "Weak recommendation."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "StrengthOfRecommendationRating",
+    "resource_id": "recommendation-strength",
+    "resource_url": "http://hl7.org/fhir/ValueSet/recommendation-strength",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/recommendation-strength"
+        }
+      ]
+    },
+    "description": "A rating system that describes the strength of the recommendation, such as the GRADE, DynaMed, or HGPS systems.",
+    "related_codesystems": [
+      {
+        "id": "recommendation-strength",
+        "url": "http://terminology.hl7.org/CodeSystem/recommendation-strength"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "strong",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/recommendation-strength",
+        "display": "Strong",
+        "description": "Strong recommendation.",
+        "filter": null
+      },
+      {
+        "code": "weak",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/recommendation-strength",
+        "display": "Weak",
+        "description": "Weak recommendation.",
+        "filter": null
+      }
+    ]
+  }
+}

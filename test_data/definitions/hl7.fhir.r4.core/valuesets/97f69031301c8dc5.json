@@ -1,0 +1,61 @@
+{
+  "name": "ContributorType",
+  "resource_id": "contributor-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contributor-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contributor-type"
+      }
+    ]
+  },
+  "description": "The type of contributor.",
+  "related_codesystems": [
+    {
+      "id": "contributor-type",
+      "url": "http://hl7.org/fhir/contributor-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "author",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contributor-type",
+      "display": "Author",
+      "description": "An author of the content of the module.",
+      "filter": null
+    },
+    {
+      "code": "editor",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contributor-type",
+      "display": "Editor",
+      "description": "An editor of the content of the module.",
+      "filter": null
+    },
+    {
+      "code": "reviewer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contributor-type",
+      "display": "Reviewer",
+      "description": "A reviewer of the content of the module.",
+      "filter": null
+    },
+    {
+      "code": "endorser",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contributor-type",
+      "display": "Endorser",
+      "description": "An endorser of the content of the module.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "v2.0540",
+  "resource_id": "v2-0540",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0540",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "L",
+      "display": "Leave of Absence",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verlof"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Retired",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verlopen"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Termination",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Beëindiging"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

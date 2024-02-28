@@ -1,0 +1,181 @@
+{
+  "name": "v2.0357",
+  "resource_id": "v2-0357",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0357",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0357"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0357 ( Message error condition  codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0357",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0357"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Message accepted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "100",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Segment sequence error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "101",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Required field missing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "102",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Data type error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "103",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Table value not found",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "104",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Value too long",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "198",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Non-Conformant Cardinality",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "199",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Other HL7 Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "200",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Unsupported message type",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "201",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Unsupported event code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "202",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Unsupported processing id",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "203",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Unsupported version id",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "204",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Unknown key identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "205",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Duplicate key identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "206",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Application record locked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "207",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0357",
+      "display": "Application error",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

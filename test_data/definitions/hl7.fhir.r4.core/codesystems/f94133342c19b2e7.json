@@ -1,0 +1,75 @@
+{
+  "name": "v3.RelationshipConjunction",
+  "resource_id": "v3-RelationshipConjunction",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v3-RelationshipConjunction",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AND",
+      "display": "and",
+      "definition": "This condition must be true."
+    },
+    {
+      "code": "OR",
+      "display": "or",
+      "definition": "At least one of the condition among all OR conditions must be true."
+    },
+    {
+      "code": "XOR",
+      "display": "exclusive or",
+      "definition": "One and only one of the XOR conditions must be true."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "v3.RelationshipConjunction",
+    "resource_id": "v3-RelationshipConjunction",
+    "resource_url": "http://terminology.hl7.org/ValueSet/v3-RelationshipConjunction",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RelationshipConjunction"
+        }
+      ]
+    },
+    "description": "**** MISSING DEFINITIONS ****",
+    "related_codesystems": [
+      {
+        "id": "v3-RelationshipConjunction",
+        "url": "http://terminology.hl7.org/CodeSystem/v3-RelationshipConjunction"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "AND",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RelationshipConjunction",
+        "display": "and",
+        "description": "This condition must be true.",
+        "filter": null
+      },
+      {
+        "code": "OR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RelationshipConjunction",
+        "display": "or",
+        "description": "At least one of the condition among all OR conditions must be true.",
+        "filter": null
+      },
+      {
+        "code": "XOR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RelationshipConjunction",
+        "display": "exclusive or",
+        "description": "One and only one of the XOR conditions must be true.",
+        "filter": null
+      }
+    ]
+  }
+}

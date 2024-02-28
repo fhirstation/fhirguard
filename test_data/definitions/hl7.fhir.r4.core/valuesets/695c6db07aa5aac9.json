@@ -1,0 +1,112 @@
+{
+  "name": "CommonUCUMCodesForAge",
+  "resource_id": "age-units",
+  "resource_url": "http://hl7.org/fhir/ValueSet/age-units",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "min",
+            "display": "minutes"
+          },
+          {
+            "code": "h",
+            "display": "hours"
+          },
+          {
+            "code": "d",
+            "display": "days"
+          },
+          {
+            "code": "wk",
+            "display": "weeks"
+          },
+          {
+            "code": "mo",
+            "display": "months"
+          },
+          {
+            "code": "a",
+            "display": "years"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Unified Code for Units of Measure (UCUM). This value set includes all UCUM codes",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "min",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "minutes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "h",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "d",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "wk",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "weeks",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "mo",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "months",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "a",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "years",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "name": "v2.0291",
+  "resource_id": "v2-0291",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0291",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0291"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0291 ( Subtype of Referenced Data)",
+  "related_codesystems": [
+    {
+      "id": "v2-0291",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0291"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Source RFC 2046",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BASIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "ISDN PCM audio data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DICOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Digital Imaging and Communications in Medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FAX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Facsimile data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GIF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Graphics Interchange Format",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HTML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Hypertext Markup Language",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Electronic ink data (Jot 1.0 standard)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JPEG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Joint Photographic Experts Group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Octet-stream",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Uninterpreted binary data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PICT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "PICT format image data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PostScript",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "PostScript program",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RTF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Rich Text Format",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SGML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Standard Generalized Markup Language (HL7 V2.3.1 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "TIFF image data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "x-hl7-cda-level-one",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "HL7 Clinical Document Architecture Level One document",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Extensible Markup Language (HL7 V2.3.1 and later)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "…",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0291",
+      "display": "Source RFC 2046",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

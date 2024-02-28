@@ -1,0 +1,61 @@
+{
+  "name": "AdministrativeGender",
+  "resource_id": "administrative-gender",
+  "resource_url": "http://hl7.org/fhir/ValueSet/administrative-gender",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/administrative-gender"
+      }
+    ]
+  },
+  "description": "The gender of a person used for administrative purposes.",
+  "related_codesystems": [
+    {
+      "id": "administrative-gender",
+      "url": "http://hl7.org/fhir/administrative-gender"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "male",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "display": "Male",
+      "description": "Male.",
+      "filter": null
+    },
+    {
+      "code": "female",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "display": "Female",
+      "description": "Female.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "display": "Other",
+      "description": "Other.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/administrative-gender",
+      "display": "Unknown",
+      "description": "Unknown.",
+      "filter": null
+    }
+  ]
+}

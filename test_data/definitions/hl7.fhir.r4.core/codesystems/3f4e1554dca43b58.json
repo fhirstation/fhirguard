@@ -1,0 +1,26 @@
+{
+  "name": "v2.0442",
+  "resource_id": "v2-0442",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0442",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "Diagnostic"
+    },
+    {
+      "code": "E",
+      "display": "Emergency Room Casualty"
+    },
+    {
+      "code": "P",
+      "display": "Primary Care"
+    },
+    {
+      "code": "T",
+      "display": "Therapeutic"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

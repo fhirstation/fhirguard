@@ -1,0 +1,41 @@
+{
+  "name": "SupplyItemType",
+  "resource_id": "supplydelivery-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/supplydelivery-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/supply-item-type"
+      }
+    ]
+  },
+  "description": "This value sets refers to a specific supply item.",
+  "related_codesystems": [
+    {
+      "id": "supplydelivery-type",
+      "url": "http://terminology.hl7.org/CodeSystem/supply-item-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "medication",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/supply-item-type",
+      "display": "Medication",
+      "description": "Supply is a kind of medication.",
+      "filter": null
+    },
+    {
+      "code": "device",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/supply-item-type",
+      "display": "Device",
+      "description": "What is supplied (or requested) is a device.",
+      "filter": null
+    }
+  ]
+}

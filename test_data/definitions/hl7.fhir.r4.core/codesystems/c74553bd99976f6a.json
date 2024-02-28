@@ -1,0 +1,46 @@
+{
+  "name": "v2.0530",
+  "resource_id": "v2-0530",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0530",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AE",
+      "display": "American Express"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The US Drug Enforcement Administration does not solely assign DEA numbers in the United States. Hospitals have the authority to issue DEA numbers to their medical residents. These DEA numbers are based upon the hospital’s DEA number, but the authority rests with the hospital on the assignment to the residents. Thus, DEA as an Assigning Authority is necessary in addition to DEA as an Identifier Type."
+        }
+      ],
+      "code": "DEA",
+      "display": "Drug Enforcement Agency"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "In some countries e.g., the US, more than one department may issue a military identifier. Hence, US is not sufficient as the Assigning Authority."
+        }
+      ],
+      "code": "DOD",
+      "display": "Department of Defense"
+    },
+    {
+      "code": "MC",
+      "display": "Master Card"
+    },
+    {
+      "code": "VA",
+      "display": "Veterans Affairs"
+    },
+    {
+      "code": "VI",
+      "display": "Visa"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

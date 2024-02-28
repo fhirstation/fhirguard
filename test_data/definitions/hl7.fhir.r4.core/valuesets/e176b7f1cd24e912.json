@@ -1,0 +1,51 @@
+{
+  "name": "v2.0052",
+  "resource_id": "v2-0052",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0052",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0052"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0052 ( Diagnosis Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0052",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0052"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0052",
+      "display": "Admitting",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0052",
+      "display": "Final",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0052",
+      "display": "Working",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

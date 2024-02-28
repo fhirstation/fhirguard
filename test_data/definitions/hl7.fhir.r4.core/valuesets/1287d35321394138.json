@@ -1,0 +1,131 @@
+{
+  "name": "CoverageClassCodes",
+  "resource_id": "coverage-class",
+  "resource_url": "http://hl7.org/fhir/ValueSet/coverage-class",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/coverage-class"
+      }
+    ]
+  },
+  "description": "This value set includes Coverage Class codes.",
+  "related_codesystems": [
+    {
+      "id": "coverage-class",
+      "url": "http://terminology.hl7.org/CodeSystem/coverage-class"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "group",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "Group",
+      "description": "An employee group",
+      "filter": null
+    },
+    {
+      "code": "subgroup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "SubGroup",
+      "description": "A sub-group of an employee group",
+      "filter": null
+    },
+    {
+      "code": "plan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "Plan",
+      "description": "A specific suite of benefits.",
+      "filter": null
+    },
+    {
+      "code": "subplan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "SubPlan",
+      "description": "A subset of a specific suite of benefits.",
+      "filter": null
+    },
+    {
+      "code": "class",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "Class",
+      "description": "A class of benefits.",
+      "filter": null
+    },
+    {
+      "code": "subclass",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "SubClass",
+      "description": "A subset of a class of benefits.",
+      "filter": null
+    },
+    {
+      "code": "sequence",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "Sequence",
+      "description": "A sequence number associated with a short-term continuance of the coverage.",
+      "filter": null
+    },
+    {
+      "code": "rxbin",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "RX BIN",
+      "description": "Pharmacy benefit manager's Business Identification Number.",
+      "filter": null
+    },
+    {
+      "code": "rxpcn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "RX PCN",
+      "description": "A Pharmacy Benefit Manager specified Processor Control Number.",
+      "filter": null
+    },
+    {
+      "code": "rxid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "RX Id",
+      "description": "A Pharmacy Benefit Manager specified Member ID.",
+      "filter": null
+    },
+    {
+      "code": "rxgroup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+      "display": "RX Group",
+      "description": "A Pharmacy Benefit Manager specified Group number.",
+      "filter": null
+    }
+  ]
+}

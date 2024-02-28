@@ -1,0 +1,71 @@
+{
+  "name": "v2.0507",
+  "resource_id": "v2-0507",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0507",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0507"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0507 ( Observation Result Handling)",
+  "related_codesystems": [
+    {
+      "id": "v2-0507",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0507"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0507",
+      "display": "Alert provider when abnormal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BCC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0507",
+      "display": "Blind copy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0507",
+      "display": "Copies requested",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0507",
+      "display": "Film-with-patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0507",
+      "display": "Notify provider when ready",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

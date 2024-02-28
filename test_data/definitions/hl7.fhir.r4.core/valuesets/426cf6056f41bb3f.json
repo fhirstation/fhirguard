@@ -1,0 +1,26 @@
+{
+  "name": "LOINCDiagnosticReportCodes",
+  "resource_id": "report-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/report-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "description": "This value set includes LOINC codes that relate to Diagnostic Observations.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

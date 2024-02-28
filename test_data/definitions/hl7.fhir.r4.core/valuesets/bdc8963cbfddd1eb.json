@@ -1,0 +1,91 @@
+{
+  "name": "v2.0548",
+  "resource_id": "v2-0548",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0548",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0548"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0548 ( Signatory's Relationship to Subject)",
+  "related_codesystems": [
+    {
+      "id": "v2-0548",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0548"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Self",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Parent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Next of Kin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Durable Power of Attorney in Healthcare Affairs",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Conservator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Emergent Practitioner (practitioner judging case as emergency requiring care without a consent)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0548",
+      "display": "Non-Emergent Practitioner (i.e. medical ethics committee)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "v2.0206",
+  "resource_id": "v2-0206",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0206",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Add/Insert",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Einfügen"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Toevoegen/invoegen"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Delete",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Löschen/Stornieren"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verwijderen"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Used in Snapshot mode"
+    },
+    {
+      "code": "U",
+      "display": "Update",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ändern"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Updaten"
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "display": "No Change",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geen wijziging"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

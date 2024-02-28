@@ -1,0 +1,91 @@
+{
+  "name": "v2.0430",
+  "resource_id": "v2-0430",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0430",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0430"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0430 ( Mode of arrival code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0430",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0430"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "Ambulance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "Car",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "On foot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "Helicopter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "Public Transport",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0430",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

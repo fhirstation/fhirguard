@@ -1,0 +1,224 @@
+{
+  "name": "TextureModifiedFoodTypeCodes",
+  "resource_id": "modified-foodtype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/modified-foodtype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "255620007",
+            "display": "Foods"
+          },
+          {
+            "code": "28647000",
+            "display": "Meat"
+          },
+          {
+            "code": "22836000",
+            "display": "Vegetables"
+          },
+          {
+            "code": "72511004",
+            "display": "Fruit"
+          },
+          {
+            "code": "226760005",
+            "display": "Dairy foods"
+          },
+          {
+            "code": "226887002",
+            "display": "Dietary Fats and Oils"
+          },
+          {
+            "code": "102263004",
+            "display": "Eggs"
+          },
+          {
+            "code": "74242007",
+            "display": "Food Starch"
+          },
+          {
+            "code": "227415002",
+            "display": "Fruit Nuts and Seeds"
+          },
+          {
+            "code": "264331002",
+            "display": "Grain"
+          },
+          {
+            "code": "227518002",
+            "display": "Sauce seasonings and soups"
+          },
+          {
+            "code": "44027008",
+            "display": "Seafood"
+          },
+          {
+            "code": "226529007",
+            "display": "Starchy food"
+          },
+          {
+            "code": "227210005",
+            "display": "Vegetables plus herbs and spices"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "TextureModifiedFoodType: Codes for types of foods that are texture-modified. This value set is composed SNOMED CT Concepts from SCTID 255620007 Foods (substance) and is provided as a suggestive example.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "255620007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Foods",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "28647000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Meat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "22836000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Vegetables",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72511004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Fruit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "226760005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dairy foods",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "226887002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Dietary Fats and Oils",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "102263004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Eggs",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "74242007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Food Starch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "227415002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Fruit Nuts and Seeds",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "264331002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Grain",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "227518002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Sauce seasonings and soups",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "44027008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Seafood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "226529007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Starchy food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "227210005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Vegetables plus herbs and spices",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

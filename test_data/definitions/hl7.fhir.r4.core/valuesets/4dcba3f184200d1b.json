@@ -1,0 +1,41 @@
+{
+  "name": "ExamplePaymentTypeCodes",
+  "resource_id": "ex-paymenttype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ex-paymenttype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-paymenttype"
+      }
+    ]
+  },
+  "description": "This value set includes example Payment Type codes.",
+  "related_codesystems": [
+    {
+      "id": "ex-paymenttype",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-paymenttype"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "complete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-paymenttype",
+      "display": "Complete",
+      "description": "Complete (final) payment of the benefit under the Claim less any adjustments.",
+      "filter": null
+    },
+    {
+      "code": "partial",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-paymenttype",
+      "display": "Partial",
+      "description": "Partial payment of the benefit under the Claim less any adjustments.",
+      "filter": null
+    }
+  ]
+}

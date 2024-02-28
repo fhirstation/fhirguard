@@ -1,0 +1,26 @@
+{
+  "name": "Currencies",
+  "resource_id": "currencies",
+  "resource_url": "http://hl7.org/fhir/ValueSet/currencies",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:4217"
+      }
+    ]
+  },
+  "description": "Currency codes from ISO 4217 (see https://www.iso.org/iso-4217-currency-codes.html)",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "urn:iso:std:iso:4217",
+      "type": [
+        "include"
+      ],
+      "system": "urn:iso:std:iso:4217",
+      "display": "urn:iso:std:iso:4217",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

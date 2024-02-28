@@ -1,0 +1,75 @@
+{
+  "name": "QuestionnaireTextCategories",
+  "resource_id": "questionnaire-display-category",
+  "resource_url": "http://hl7.org/fhir/questionnaire-display-category",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "instructions",
+      "display": "Instructions",
+      "definition": "The text provides guidance on how to populate or use a portion of the questionnaire (or the questionnaire as a whole)."
+    },
+    {
+      "code": "security",
+      "display": "Security",
+      "definition": "The text provides guidance on how the information should be or will be handled from a security/confidentiality/access control perspective when completed"
+    },
+    {
+      "code": "help",
+      "display": "Help",
+      "definition": "The text provides additional guidance on populating the containing item.  Help text isn't necessarily expected to be rendered as part of the form, but may instead be made available through fly-over, pop-up button, link to a \"help\" page, etc."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "QuestionnaireTextCategories",
+    "resource_id": "questionnaire-display-category",
+    "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-display-category",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/questionnaire-display-category"
+        }
+      ]
+    },
+    "description": "Codes defining the purpose of a Questionnaire item of type 'text'.",
+    "related_codesystems": [
+      {
+        "id": "questionnaire-display-category",
+        "url": "http://hl7.org/fhir/questionnaire-display-category"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "instructions",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-display-category",
+        "display": "Instructions",
+        "description": "The text provides guidance on how to populate or use a portion of the questionnaire (or the questionnaire as a whole).",
+        "filter": null
+      },
+      {
+        "code": "security",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-display-category",
+        "display": "Security",
+        "description": "The text provides guidance on how the information should be or will be handled from a security/confidentiality/access control perspective when completed",
+        "filter": null
+      },
+      {
+        "code": "help",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-display-category",
+        "display": "Help",
+        "description": "The text provides additional guidance on populating the containing item.  Help text isn't necessarily expected to be rendered as part of the form, but may instead be made available through fly-over, pop-up button, link to a \"help\" page, etc.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "v2.0914",
+  "resource_id": "v2-0914",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0914",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0914"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0914 ( Root Cause)",
+  "related_codesystems": [
+    {
+      "id": "v2-0914",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0914"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0914",
+      "display": "Analysis Process",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0914",
+      "display": "Information Management",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0914",
+      "display": "Laboratory",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0914",
+      "display": "Not Applicable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0914",
+      "display": "Placer Data",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

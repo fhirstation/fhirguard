@@ -1,0 +1,71 @@
+{
+  "name": "LanguagePreferenceType",
+  "resource_id": "language-preference-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/language-preference-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/language-preference-type",
+        "concept": [
+          {
+            "code": "verbal",
+            "display": "verbal"
+          },
+          {
+            "code": "written",
+            "display": "written"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set defines the set of codes for describing the type or mode of the patient's preferred language.",
+  "related_codesystems": [
+    {
+      "id": "language-preference-type",
+      "url": "http://hl7.org/fhir/language-preference-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "verbal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/language-preference-type",
+      "display": "verbal",
+      "description": "The patient prefers to verbally communicate with the associated language.",
+      "filter": null
+    },
+    {
+      "code": "written",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/language-preference-type",
+      "display": "written",
+      "description": "The patient prefers to communicate in writing with the associated language.",
+      "filter": null
+    },
+    {
+      "code": "verbal",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "verbal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "written",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "written",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

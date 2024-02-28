@@ -1,0 +1,141 @@
+{
+  "name": "v2.0338",
+  "resource_id": "v2-0338",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0338",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0338"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0338 ( Practitioner ID number type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0338",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0338"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "County number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Drug Enforcement Agency no.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "General ledger number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L&I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Labor and industries number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Labor and industries number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Medicaid number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Medicare number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "QA number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "State license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TAX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Tax ID number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Training license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0338",
+      "display": "Unique physician ID no.",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

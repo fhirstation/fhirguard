@@ -1,0 +1,41 @@
+{
+  "name": "EventCapabilityMode",
+  "resource_id": "event-capability-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/event-capability-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/event-capability-mode"
+      }
+    ]
+  },
+  "description": "The mode of a message capability statement.",
+  "related_codesystems": [
+    {
+      "id": "event-capability-mode",
+      "url": "http://hl7.org/fhir/event-capability-mode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "sender",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-capability-mode",
+      "display": "Sender",
+      "description": "The application sends requests and receives responses.",
+      "filter": null
+    },
+    {
+      "code": "receiver",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-capability-mode",
+      "display": "Receiver",
+      "description": "The application receives requests and sends responses.",
+      "filter": null
+    }
+  ]
+}

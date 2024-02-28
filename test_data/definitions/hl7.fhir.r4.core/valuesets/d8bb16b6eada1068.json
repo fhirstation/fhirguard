@@ -1,0 +1,41 @@
+{
+  "name": "v2.0651",
+  "resource_id": "v2-0651",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0651",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0651"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0651 ( Labor Calculation Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0651",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0651"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0651",
+      "display": "Cost",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0651",
+      "display": "Time",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "v2.0388",
+  "resource_id": "v2-0388",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0388",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0388"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0388 ( Processing type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0388",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0388"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0388",
+      "display": "Evaluation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0388",
+      "display": "Regular Production",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

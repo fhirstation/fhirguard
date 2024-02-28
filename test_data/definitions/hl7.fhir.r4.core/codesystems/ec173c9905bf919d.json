@@ -1,0 +1,60 @@
+{
+  "name": "ExampleRelatedClaimRelationshipCodes",
+  "resource_id": "related-claim-relationship",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "prior",
+      "display": "Prior Claim",
+      "definition": "A prior claim instance for the same intended suite of services."
+    },
+    {
+      "code": "associated",
+      "display": "Associated Claim",
+      "definition": "A claim for a different suite of services which is related the suite claimed here."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExampleRelatedClaimRelationshipCodes",
+    "resource_id": "related-claim-relationship",
+    "resource_url": "http://hl7.org/fhir/ValueSet/related-claim-relationship",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship"
+        }
+      ]
+    },
+    "description": "This value set includes sample Related Claim Relationship codes.",
+    "related_codesystems": [
+      {
+        "id": "related-claim-relationship",
+        "url": "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "prior",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship",
+        "display": "Prior Claim",
+        "description": "A prior claim instance for the same intended suite of services.",
+        "filter": null
+      },
+      {
+        "code": "associated",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/ex-relatedclaimrelationship",
+        "display": "Associated Claim",
+        "description": "A claim for a different suite of services which is related the suite claimed here.",
+        "filter": null
+      }
+    ]
+  }
+}

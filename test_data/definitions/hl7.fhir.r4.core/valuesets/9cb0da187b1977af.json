@@ -1,0 +1,39 @@
+{
+  "name": "ConditionOutcomeCodes",
+  "resource_id": "condition-outcome",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-outcome",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for condition outcomes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "404684003"
+        }
+      ]
+    }
+  ]
+}

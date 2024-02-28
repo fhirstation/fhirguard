@@ -1,0 +1,61 @@
+{
+  "name": "FinancialResourceStatusCodes",
+  "resource_id": "fm-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/fm-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/fm-status"
+      }
+    ]
+  },
+  "description": "This value set includes Status codes.",
+  "related_codesystems": [
+    {
+      "id": "fm-status",
+      "url": "http://hl7.org/fhir/fm-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/fm-status",
+      "display": "Active",
+      "description": "The instance is currently in-force.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/fm-status",
+      "display": "Cancelled",
+      "description": "The instance is withdrawn, rescinded or reversed.",
+      "filter": null
+    },
+    {
+      "code": "draft",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/fm-status",
+      "display": "Draft",
+      "description": "A new instance the contents of which is not complete.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/fm-status",
+      "display": "Entered in Error",
+      "description": "The instance was entered in error.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Mime Types",
+  "resource_id": "mimetypes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/mimetypes",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:bcp:13"
+      }
+    ]
+  },
+  "description": "This value set includes all possible codes from BCP-13 (http://tools.ietf.org/html/bcp13)",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "urn:ietf:bcp:13",
+      "type": [
+        "include"
+      ],
+      "system": "urn:ietf:bcp:13",
+      "display": "urn:ietf:bcp:13",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

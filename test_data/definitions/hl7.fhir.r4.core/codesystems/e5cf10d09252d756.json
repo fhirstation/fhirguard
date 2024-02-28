@@ -1,0 +1,153 @@
+{
+  "name": "ConceptMapEquivalence",
+  "resource_id": "concept-map-equivalence",
+  "resource_url": "http://hl7.org/fhir/concept-map-equivalence",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "relatedto",
+      "display": "Related To",
+      "definition": "The concepts are related to each other, and have at least some overlap in meaning, but the exact relationship is not known.",
+      "concept": [
+        {
+          "code": "equivalent",
+          "display": "Equivalent",
+          "definition": "The definitions of the concepts mean the same thing (including when structural implications of meaning are considered) (i.e. extensionally identical).",
+          "concept": [
+            {
+              "code": "equal",
+              "display": "Equal",
+              "definition": "The definitions of the concepts are exactly the same (i.e. only grammatical differences) and structural implications of meaning are identical or irrelevant (i.e. intentionally identical)."
+            }
+          ]
+        },
+        {
+          "code": "wider",
+          "display": "Wider",
+          "definition": "The target mapping is wider in meaning than the source concept."
+        },
+        {
+          "code": "subsumes",
+          "display": "Subsumes",
+          "definition": "The target mapping subsumes the meaning of the source concept (e.g. the source is-a target)."
+        },
+        {
+          "code": "narrower",
+          "display": "Narrower",
+          "definition": "The target mapping is narrower in meaning than the source concept. The sense in which the mapping is narrower SHALL be described in the comments in this case, and applications should be careful when attempting to use these mappings operationally."
+        },
+        {
+          "code": "specializes",
+          "display": "Specializes",
+          "definition": "The target mapping specializes the meaning of the source concept (e.g. the target is-a source)."
+        },
+        {
+          "code": "inexact",
+          "display": "Inexact",
+          "definition": "The target mapping overlaps with the source concept, but both source and target cover additional meaning, or the definitions are imprecise and it is uncertain whether they have the same boundaries to their meaning. The sense in which the mapping is inexact SHALL be described in the comments in this case, and applications should be careful when attempting to use these mappings operationally."
+        }
+      ]
+    },
+    {
+      "code": "equivalent",
+      "display": "Equivalent",
+      "definition": "The definitions of the concepts mean the same thing (including when structural implications of meaning are considered) (i.e. extensionally identical).",
+      "concept": [
+        {
+          "code": "equal",
+          "display": "Equal",
+          "definition": "The definitions of the concepts are exactly the same (i.e. only grammatical differences) and structural implications of meaning are identical or irrelevant (i.e. intentionally identical)."
+        }
+      ]
+    },
+    {
+      "code": "equal",
+      "display": "Equal",
+      "definition": "The definitions of the concepts are exactly the same (i.e. only grammatical differences) and structural implications of meaning are identical or irrelevant (i.e. intentionally identical)."
+    },
+    {
+      "code": "wider",
+      "display": "Wider",
+      "definition": "The target mapping is wider in meaning than the source concept."
+    },
+    {
+      "code": "subsumes",
+      "display": "Subsumes",
+      "definition": "The target mapping subsumes the meaning of the source concept (e.g. the source is-a target)."
+    },
+    {
+      "code": "narrower",
+      "display": "Narrower",
+      "definition": "The target mapping is narrower in meaning than the source concept. The sense in which the mapping is narrower SHALL be described in the comments in this case, and applications should be careful when attempting to use these mappings operationally."
+    },
+    {
+      "code": "specializes",
+      "display": "Specializes",
+      "definition": "The target mapping specializes the meaning of the source concept (e.g. the target is-a source)."
+    },
+    {
+      "code": "inexact",
+      "display": "Inexact",
+      "definition": "The target mapping overlaps with the source concept, but both source and target cover additional meaning, or the definitions are imprecise and it is uncertain whether they have the same boundaries to their meaning. The sense in which the mapping is inexact SHALL be described in the comments in this case, and applications should be careful when attempting to use these mappings operationally."
+    },
+    {
+      "code": "unmatched",
+      "display": "Unmatched",
+      "definition": "There is no match for this concept in the target code system.",
+      "concept": [
+        {
+          "code": "disjoint",
+          "display": "Disjoint",
+          "definition": "This is an explicit assertion that there is no mapping between the source and target concept."
+        }
+      ]
+    },
+    {
+      "code": "disjoint",
+      "display": "Disjoint",
+      "definition": "This is an explicit assertion that there is no mapping between the source and target concept."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ConceptMapEquivalence",
+    "resource_id": "concept-map-equivalence",
+    "resource_url": "http://hl7.org/fhir/ValueSet/concept-map-equivalence",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/concept-map-equivalence"
+        }
+      ]
+    },
+    "description": "The degree of equivalence between concepts.",
+    "related_codesystems": [
+      {
+        "id": "concept-map-equivalence",
+        "url": "http://hl7.org/fhir/concept-map-equivalence"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "relatedto",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/concept-map-equivalence",
+        "display": "Related To",
+        "description": "The concepts are related to each other, and have at least some overlap in meaning, but the exact relationship is not known.",
+        "filter": null
+      },
+      {
+        "code": "unmatched",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/concept-map-equivalence",
+        "display": "Unmatched",
+        "description": "There is no match for this concept in the target code system.",
+        "filter": null
+      }
+    ]
+  }
+}

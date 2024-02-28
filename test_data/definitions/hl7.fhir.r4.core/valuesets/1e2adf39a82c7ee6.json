@@ -1,0 +1,41 @@
+{
+  "name": "PaymentAdjustmentReasonCodes",
+  "resource_id": "payment-adjustment-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/payment-adjustment-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/payment-adjustment-reason"
+      }
+    ]
+  },
+  "description": "This value set includes smattering of Payment Adjustment Reason codes.",
+  "related_codesystems": [
+    {
+      "id": "payment-adjustment-reason",
+      "url": "http://terminology.hl7.org/CodeSystem/payment-adjustment-reason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "a001",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/payment-adjustment-reason",
+      "display": "Prior Payment Reversal",
+      "description": "Prior Payment Reversal",
+      "filter": null
+    },
+    {
+      "code": "a002",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/payment-adjustment-reason",
+      "display": "Prior Overpayment",
+      "description": "Prior Overpayment",
+      "filter": null
+    }
+  ]
+}

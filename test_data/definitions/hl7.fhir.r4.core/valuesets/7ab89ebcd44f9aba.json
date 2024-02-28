@@ -1,0 +1,61 @@
+{
+  "name": "v2.0229",
+  "resource_id": "v2-0229",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0229",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0229"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0229 ( Outlier Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0229",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0229"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0229",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0229",
+      "display": "Champus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0229",
+      "display": "Managed Care Organization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0229",
+      "display": "Medicare",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

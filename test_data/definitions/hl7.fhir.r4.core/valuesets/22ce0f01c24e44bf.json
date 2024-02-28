@@ -1,0 +1,91 @@
+{
+  "name": "v2.0080",
+  "resource_id": "v2-0080",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0080",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0080"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0080 ( NATURE OF ABNORMAL TESTING)",
+  "related_codesystems": [
+    {
+      "id": "v2-0080",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0080"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "An age-based population",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "Breed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "None - generic normal range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "A race-based population",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "A sex-based population",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "Species",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0080",
+      "display": "Strain",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

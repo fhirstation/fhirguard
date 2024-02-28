@@ -1,0 +1,51 @@
+{
+  "name": "ActivityDefinitionCategory",
+  "resource_id": "activity-definition-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/activity-definition-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/activity-definition-category"
+      }
+    ]
+  },
+  "description": "High-level categorization of the type of activity.",
+  "related_codesystems": [
+    {
+      "id": "activity-definition-category",
+      "url": "http://terminology.hl7.org/CodeSystem/activity-definition-category"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "treatment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/activity-definition-category",
+      "display": "Treatment",
+      "description": "The activity is intended to provide or is related to treatment of the patient.",
+      "filter": null
+    },
+    {
+      "code": "education",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/activity-definition-category",
+      "display": "Education",
+      "description": "The activity is intended to provide or is related to education of the patient.",
+      "filter": null
+    },
+    {
+      "code": "assessment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/activity-definition-category",
+      "display": "Assessment",
+      "description": "The activity is intended to perform or is related to assessment of the patient.",
+      "filter": null
+    }
+  ]
+}

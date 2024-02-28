@@ -1,0 +1,31 @@
+{
+  "name": "v2.0092",
+  "resource_id": "v2-0092",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0092",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0092"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0092 ( RE-ADMISSION INDICATOR)",
+  "related_codesystems": [
+    {
+      "id": "v2-0092",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0092"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0092",
+      "display": "Re-admission",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

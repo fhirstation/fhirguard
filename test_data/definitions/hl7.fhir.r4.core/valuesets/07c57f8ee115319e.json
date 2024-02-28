@@ -1,0 +1,1434 @@
+{
+  "name": "ParticipationRoleType",
+  "resource_id": "participation-role-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/participation-role-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+        "concept": [
+          {
+            "code": "AMENDER"
+          },
+          {
+            "code": "COAUTH"
+          },
+          {
+            "code": "CONT"
+          },
+          {
+            "code": "EVTWIT"
+          },
+          {
+            "code": "PRIMAUTH"
+          },
+          {
+            "code": "REVIEWER"
+          },
+          {
+            "code": "SOURCE"
+          },
+          {
+            "code": "TRANS"
+          },
+          {
+            "code": "VALID"
+          },
+          {
+            "code": "VERF"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "concept": [
+          {
+            "code": "AFFL"
+          },
+          {
+            "code": "AGNT"
+          },
+          {
+            "code": "ASSIGNED"
+          },
+          {
+            "code": "CLAIM"
+          },
+          {
+            "code": "COVPTY"
+          },
+          {
+            "code": "DEPEN"
+          },
+          {
+            "code": "ECON"
+          },
+          {
+            "code": "EMP"
+          },
+          {
+            "code": "GUARD"
+          },
+          {
+            "code": "INVSBJ"
+          },
+          {
+            "code": "NAMED"
+          },
+          {
+            "code": "NOK"
+          },
+          {
+            "code": "PAT"
+          },
+          {
+            "code": "PROV"
+          },
+          {
+            "code": "NOT"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "concept": [
+          {
+            "code": "CLASSIFIER"
+          },
+          {
+            "code": "CONSENTER"
+          },
+          {
+            "code": "CONSWIT"
+          },
+          {
+            "code": "COPART"
+          },
+          {
+            "code": "DECLASSIFIER"
+          },
+          {
+            "code": "DELEGATEE"
+          },
+          {
+            "code": "DELEGATOR"
+          },
+          {
+            "code": "DOWNGRDER"
+          },
+          {
+            "code": "DPOWATT"
+          },
+          {
+            "code": "EXCEST"
+          },
+          {
+            "code": "GRANTEE"
+          },
+          {
+            "code": "GRANTOR"
+          },
+          {
+            "code": "GT"
+          },
+          {
+            "code": "GUADLTM"
+          },
+          {
+            "code": "HPOWATT"
+          },
+          {
+            "code": "INTPRTER"
+          },
+          {
+            "code": "POWATT"
+          },
+          {
+            "code": "RESPRSN"
+          },
+          {
+            "code": "SPOWATT"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "_CitizenRoleType"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
+        "concept": [
+          {
+            "code": "AUCG"
+          },
+          {
+            "code": "AULR"
+          },
+          {
+            "code": "AUTM"
+          },
+          {
+            "code": "AUWA"
+          },
+          {
+            "code": "PROMSK"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+        "concept": [
+          {
+            "code": "AUT"
+          },
+          {
+            "code": "CST"
+          },
+          {
+            "code": "INF"
+          },
+          {
+            "code": "IRCP"
+          },
+          {
+            "code": "LA"
+          },
+          {
+            "code": "IRCP"
+          },
+          {
+            "code": "TRC"
+          },
+          {
+            "code": "WIT"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/extra-security-role-type"
+      },
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110150"
+          },
+          {
+            "code": "110151"
+          },
+          {
+            "code": "110152"
+          },
+          {
+            "code": "110153"
+          },
+          {
+            "code": "110154"
+          },
+          {
+            "code": "110155"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This FHIR value set is comprised of Actor participation Type codes, which can be used to value FHIR agents, actors, and other role         elements. The FHIR Actor participation type value set is based on    DICOM Audit Message, C402;   ASTM Standard, E1762-95 [2013]; selected codes and          derived actor roles from HL7 RoleClass OID 2.16.840.1.113883.5.110;    HL7 Role Code 2.16.840.1.113883.5.111, including AgentRoleType;          HL7 ParticipationType OID: 2.16.840.1.113883.5.90; and    HL7 ParticipationFunction codes OID: 2.16.840.1.113883.5.88.           This value set includes, by reference, role codes from external code systems: NUCC Health Care Provider Taxonomy OID: 2.16.840.1.113883.6.101;          North American Industry Classification System [NAICS]OID: 2.16.840.1.113883.6.85; IndustryClassificationSystem 2.16.840.1.113883.1.11.16039;          and US Census Occupation Code OID: 2.16.840.1.113883.6.243 for relevant recipient or custodian codes not included in this value set.            If no source is indicated in the definition comments, then these are example FHIR codes.",
+  "related_codesystems": [
+    {
+      "id": "contract-signer-type",
+      "url": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes"
+    },
+    {
+      "id": "v3-RoleClass",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+    },
+    {
+      "id": "v3-RoleCode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+    },
+    {
+      "id": "v3-ParticipationFunction",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
+    },
+    {
+      "id": "v3-ParticipationType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+    },
+    {
+      "id": "extra-security-role-type",
+      "url": "http://terminology.hl7.org/CodeSystem/extra-security-role-type"
+    },
+    {
+      "id": "dicom-dcim",
+      "url": "http://dicom.nema.org/resources/ontology/DCM"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AMENDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Amender",
+      "description": "A person who has corrected, edited, or amended pre-existing information.",
+      "filter": null
+    },
+    {
+      "code": "COAUTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Co-Author",
+      "description": "The entity that co-authored content. There can be multiple co-authors of content, which may take such forms as a contract, a healthcare record entry or document, a policy, or a consent directive.",
+      "filter": null
+    },
+    {
+      "code": "CONT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Contact",
+      "description": "A person or an organization that provides or receives information regarding another entity. Examples; patient NOK and emergency contacts; guarantor contact; employer contact.",
+      "filter": null
+    },
+    {
+      "code": "EVTWIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Event Witness",
+      "description": "A person who attests to observing an occurrence.  For example, the witness has observed a procedure and is attesting to this fact.",
+      "filter": null
+    },
+    {
+      "code": "PRIMAUTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Primary Author",
+      "description": "An entity that is the primary or sole author of information content.  In the healthcare context, there can be only one primary author of health information content in a record entry or document.",
+      "filter": null
+    },
+    {
+      "code": "REVIEWER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Reviewer",
+      "description": "A person, device, or algorithm that has used approved criteria for filtered data for inclusion into the patient record.  Examples: (1) a medical records clerk who scans a document for inclusion in the medical record, enters header information, or catalogues and classifies the data, or a combination thereof; (2) a gateway that receives data from another computer system and interprets that data or changes its format, or both, before entering it into the patient record.",
+      "filter": null
+    },
+    {
+      "code": "SOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Source",
+      "description": "An automated data source that generates a signature along with content. Examples: (1) the signature for an image that is generated by a device for inclusion in the patient record; (2) the signature for an ECG derived by an ECG system for inclusion in the patient record; (3) the data from a biomedical monitoring device or system that is for inclusion in the patient record.",
+      "filter": null
+    },
+    {
+      "code": "TRANS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Transcriber",
+      "description": "An entity entering the data into the originating system. This includes the transcriptionist for dictated text transcribed into electronic form.",
+      "filter": null
+    },
+    {
+      "code": "VALID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Validator",
+      "description": "A person who validates a health information document for inclusion in the patient record. For example, a medical student or resident is credentialed to perform history or physical examinations and to write progress notes. The attending physician signs the history and physical examination to validate the entry for inclusion in the patient's medical record.",
+      "filter": null
+    },
+    {
+      "code": "VERF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
+      "display": "Verifier",
+      "description": "A person who asserts the correctness and appropriateness of an act or the recording of the act, and is accountable for the assertion that the act or the recording of the act complies with jurisdictional or organizational policy. For example, a physician is required to countersign a verbal order that has previously been recorded in the medical record by a registered nurse who has carried out the verbal order.",
+      "filter": null
+    },
+    {
+      "code": "AMENDER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COAUTH",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EVTWIT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRIMAUTH",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REVIEWER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRANS",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VALID",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VERF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AFFL",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AGNT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASSIGNED",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLAIM",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COVPTY",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEPEN",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ECON",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMP",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GUARD",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INVSBJ",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAMED",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROV",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Guarantor",
+      "description": "An individual or organization that makes or gives a promise, assurance, pledge to pay or has paid the healthcare service provider.",
+      "filter": null
+    },
+    {
+      "code": "CLASSIFIER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONSENTER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONSWIT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COPART",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DECLASSIFIER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELEGATEE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELEGATOR",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DOWNGRDER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DPOWATT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXCEST",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRANTEE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRANTOR",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GUADLTM",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HPOWATT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INTPRTER",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POWATT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESPRSN",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPOWATT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "_AffiliationRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "AffiliationRoleType",
+      "description": "Concepts characterizing the type of association formed by player and scoper when there is a recognized Affiliate role by which the two parties are related.\r\n\n                        \n                           Examples: Business Partner, Business Associate, Colleague",
+      "filter": null
+    },
+    {
+      "code": "_AssignedRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "AssignedRoleType",
+      "description": "AssignedRoleType",
+      "filter": null
+    },
+    {
+      "code": "_CertifiedEntityType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "CertifiedEntityType",
+      "description": "Defines types of certifications for all entities",
+      "filter": null
+    },
+    {
+      "code": "_CitizenRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "CitizenRoleType",
+      "description": "A role type used to qualify a person's legal status within a country or nation.",
+      "filter": null
+    },
+    {
+      "code": "_ContactRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "ContactRoleType",
+      "description": "Types of contact for Role code \"CON\"",
+      "filter": null
+    },
+    {
+      "code": "_IdentifiedEntityType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "IdentifiedEntityType",
+      "description": "Definition: A code representing the type of identifier that has been assigned to the identified entity (IDENT).\r\n\n                        \n                           Examples: Example values include Social Insurance Number, Product Catalog ID, Product Model Number.",
+      "filter": null
+    },
+    {
+      "code": "_LivingSubjectProductionClass",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "LivingSubjectProductionClass",
+      "description": "Code indicating the primary use for which a living subject is bred or grown",
+      "filter": null
+    },
+    {
+      "code": "_MedicationGeneralizationRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "MedicationGeneralizationRoleType",
+      "description": "Identifies the specific hierarchical relationship between the playing and scoping medications. \r\n\n                        \n                           Examples: Generic, Generic Formulation, Therapeutic Class, etc.",
+      "filter": null
+    },
+    {
+      "code": "_MemberRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "MemberRoleType",
+      "description": "Types of membership for Role code \"MBR\"",
+      "filter": null
+    },
+    {
+      "code": "_PersonalRelationshipRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "PersonalRelationshipRoleType",
+      "description": "PersonalRelationshipRoleType",
+      "filter": null
+    },
+    {
+      "code": "_PolicyOrProgramCoverageRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "PolicyOrProgramCoverageRoleType",
+      "description": "Description: A role recognized through the eligibility of an identified party for benefits covered under an insurance policy or a program based on meeting eligibility criteria.\r\n\n                        Eligibility as a covered party may be conditioned on the party meeting criteria to qualify for coverage under a policy or program, which may be mandated by law.  These criteria may be: \r\n\n                        \n                           \n                              The sole basis for coverage, e.g., being differently abled may qualify a person for disability coverage\r\n\n                           \n                           \n                              May more fully qualify a covered party role e.g, being differently abled may qualify an adult child as a dependent\r\n\n                           \n                           \n                              May impact the level of coverage for a covered party under a policy or program, e.g., being differently abled may qualify a program eligible for additional benefits.\r\n\n                           \n                        \n                        \n                           Discussion:  The Abstract Value Set \"CoverageRoleType\", which was developed for use in the Canadian realm \"pre-coordinate\" coverage roles with other roles that a covered party must play in order to be eligible for coverage, e.g., \"handicapped dependent\".   These role.codes may only be used with COVPTY to avoid overlapping concepts that would result from using them to specify the specializations of COVPTY, e.g., the role.class DEPEN should not be used with the role.code family dependent because that relationship has overlapping concepts due to the role.code precoodination and is conveyed in FICO with the personal relationship role that has a PART role link to the covered party role.  For the same reasons, the role.class DEPEN should not be used with the role.code HANDIC (handicapped dependent); the role.code DIFFABLE (differently abled) should be used instead.\r\n\n                        In summary, the coded concepts in the Abstract Value Set \"CoveredPartyRoleType\" can be \"post-coordinated\" with the \"RoleClassCoveredParty\" Abstract Value Set.  Decoupling these concepts is intended to support an expansive range of covered party concepts and their semantic comparability.",
+      "filter": null
+    },
+    {
+      "code": "_ResearchSubjectRoleBasis",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "ResearchSubjectRoleBasis",
+      "description": "Specifies the administrative functionality within a formal experimental design for which the ResearchSubject role was established.  Examples: screening - role is used for pre-enrollment evaluation portion of the design; enrolled - role is used for subjects admitted to the active treatment portion of the design.",
+      "filter": null
+    },
+    {
+      "code": "_ServiceDeliveryLocationRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "ServiceDeliveryLocationRoleType",
+      "description": "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "filter": null
+    },
+    {
+      "code": "_SpecimenRoleType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "SpecimenRoleType",
+      "description": "SpecimenRoleType",
+      "filter": null
+    },
+    {
+      "code": "CLAIM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "claimant",
+      "description": "A party that makes a claim for coverage under a policy.",
+      "filter": null
+    },
+    {
+      "code": "communityLaboratory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Community Laboratory",
+      "description": "Community Laboratory",
+      "filter": null
+    },
+    {
+      "code": "homeHealth",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Home Health",
+      "description": "Home Health",
+      "filter": null
+    },
+    {
+      "code": "laboratory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Laboratory",
+      "description": "Laboratory",
+      "filter": null
+    },
+    {
+      "code": "pathologist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Pathologist",
+      "description": "Pathologist",
+      "filter": null
+    },
+    {
+      "code": "PH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Policy Holder",
+      "description": "Policy holder for the insurance policy.",
+      "filter": null
+    },
+    {
+      "code": "phlebotomist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Phlebotomist",
+      "description": "Phlebotomist",
+      "filter": null
+    },
+    {
+      "code": "PROG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "program eligible",
+      "description": "A party that meets the eligibility criteria for coverage under a program.",
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Patient",
+      "description": "The recipient for the service(s) and/or product(s) when they are not the covered party.",
+      "filter": null
+    },
+    {
+      "code": "subject",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Self",
+      "description": "Self",
+      "filter": null
+    },
+    {
+      "code": "thirdParty",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Third Party",
+      "description": "Third Party",
+      "filter": null
+    },
+    {
+      "code": "DEP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEPEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "dependent",
+      "description": "A party covered under a policy based on association with a subscriber.",
+      "filter": null
+    },
+    {
+      "code": "FM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "Family Member",
+      "description": "A member of the covered party's family. This could be the spouse, a parent, a grand parent, a sibling, etc.",
+      "filter": null
+    },
+    {
+      "code": "INDIV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "individual",
+      "description": "A party covered under a policy as the policyholder.",
+      "filter": null
+    },
+    {
+      "code": "NAMED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "named insured",
+      "description": "A party to an insurance policy to whom the insurer agrees to indemnify for losses, provides benefits for, or renders services.",
+      "filter": null
+    },
+    {
+      "code": "PSYCHCF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBSCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "display": "subscriber",
+      "description": "A party covered under a policy based on association with a sponsor who is the policy holder, and whose association may provide for the eligibility of dependents for coverage",
+      "filter": null
+    },
+    {
+      "code": "AUCG",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AULR",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTM",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUWA",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROMSK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CST",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IRCP",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRC",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WIT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "authserver",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+      "display": "authorization server",
+      "description": "An entity providing authorization services to enable the electronic sharing of health-related information based on resource owner's preapproved permissions. For example, an UMA Authorization Server[UMA]",
+      "filter": null
+    },
+    {
+      "code": "datacollector",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+      "display": "data collector",
+      "description": "An entity that collects information over which the data subject may have certain rights under policy or law to control that information's management and distribution by data collectors, including the right to access, retrieve, distribute, or delete that information. ",
+      "filter": null
+    },
+    {
+      "code": "dataprocessor",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+      "display": "data processor",
+      "description": "An entity that processes collected information over which the data subject may have certain rights under policy or law to control that information's management and distribution by data processors, including the right to access, retrieve, distribute, or delete that information.",
+      "filter": null
+    },
+    {
+      "code": "datasubject",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+      "display": "data subject",
+      "description": "A person whose personal information is collected or processed, and who may have certain rights under policy or law to control that information's management and distribution by data collectors or processors, including the right to access, retrieve, distribute, or delete that information.",
+      "filter": null
+    },
+    {
+      "code": "humanuser",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+      "display": "human user",
+      "description": "The human user that has participated.",
+      "filter": null
+    },
+    {
+      "code": "110150",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Application",
+      "description": "Audit participant role ID of software application",
+      "filter": null
+    },
+    {
+      "code": "110151",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Application Launcher",
+      "description": "Audit participant role ID of software application launcher, i.e., the entity that started or stopped an application",
+      "filter": null
+    },
+    {
+      "code": "110152",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Destination Role ID",
+      "description": "Audit participant role ID of the receiver of data",
+      "filter": null
+    },
+    {
+      "code": "110153",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Source Role ID",
+      "description": "Audit participant role ID of the sender of data",
+      "filter": null
+    },
+    {
+      "code": "110154",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Destination Media",
+      "description": "Audit participant role ID of media receiving data during an export",
+      "filter": null
+    },
+    {
+      "code": "110155",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Source Media",
+      "description": "Audit participant role ID of media providing data during an import",
+      "filter": null
+    },
+    {
+      "code": "110150",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110151",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110152",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110153",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110154",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110155",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

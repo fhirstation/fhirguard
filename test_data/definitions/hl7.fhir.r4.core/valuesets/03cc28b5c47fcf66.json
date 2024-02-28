@@ -1,0 +1,51 @@
+{
+  "name": "v2.0617",
+  "resource_id": "v2-0617",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0617",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0617"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0617 ( Address Usage)",
+  "related_codesystems": [
+    {
+      "id": "v2-0617",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0617"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0617",
+      "display": "Classification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0617",
+      "display": "Mailing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0617",
+      "display": "Visit",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

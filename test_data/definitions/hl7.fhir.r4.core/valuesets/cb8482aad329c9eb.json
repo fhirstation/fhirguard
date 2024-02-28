@@ -1,0 +1,241 @@
+{
+  "name": "medicationKnowledge Package Type Codes",
+  "resource_id": "medicationknowledge-package-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationknowledge-package-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type"
+      }
+    ]
+  },
+  "description": "MedicationKnowledge Package Type Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationknowledge-package-type",
+      "url": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "amp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Ampule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "bag",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Bag",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "blstrpk",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Blister Pack",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "bot",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Bottle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "box",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Box",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "can",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Can",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "cart",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Cartridge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "disk",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Disk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "doset",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Dosette",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "jar",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Jar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "jug",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Jug",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "minim",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Minim",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "nebamp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Nebule Amp",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ovul",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Ovule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "pch",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Pouch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "pkt",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Packet",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "sash",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Sashet",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "strip",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Strip",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "tin",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Tin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "tub",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Tub",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "tube",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "vial",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-package-type",
+      "display": "Vial",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

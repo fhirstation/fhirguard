@@ -1,0 +1,75 @@
+{
+  "name": "ExpressionLanguage",
+  "resource_id": "expression-language",
+  "resource_url": "http://hl7.org/fhir/expression-language",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "text/cql",
+      "display": "CQL",
+      "definition": "Clinical Quality Language."
+    },
+    {
+      "code": "text/fhirpath",
+      "display": "FHIRPath",
+      "definition": "FHIRPath."
+    },
+    {
+      "code": "application/x-fhir-query",
+      "display": "FHIR Query",
+      "definition": "FHIR's RESTful query syntax - typically independent of base URL."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ExpressionLanguage",
+    "resource_id": "expression-language",
+    "resource_url": "http://hl7.org/fhir/ValueSet/expression-language",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/expression-language"
+        }
+      ]
+    },
+    "description": "The media type of the expression language.",
+    "related_codesystems": [
+      {
+        "id": "expression-language",
+        "url": "http://hl7.org/fhir/expression-language"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "text/cql",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/expression-language",
+        "display": "CQL",
+        "description": "Clinical Quality Language.",
+        "filter": null
+      },
+      {
+        "code": "text/fhirpath",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/expression-language",
+        "display": "FHIRPath",
+        "description": "FHIRPath.",
+        "filter": null
+      },
+      {
+        "code": "application/x-fhir-query",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/expression-language",
+        "display": "FHIR Query",
+        "description": "FHIR's RESTful query syntax - typically independent of base URL.",
+        "filter": null
+      }
+    ]
+  }
+}

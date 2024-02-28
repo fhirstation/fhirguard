@@ -1,0 +1,411 @@
+{
+  "name": "v2.0078",
+  "resource_id": "v2-0078",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0078",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0078"
+      }
+    ]
+  },
+  "description": "HL7-defined code system of concepts which specify a categorical assessment of an observation value.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation.",
+  "related_codesystems": [
+    {
+      "id": "v2-0078",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0078"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "<",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Off scale low",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": ">",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Off scale high",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Abnormal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Critically abnormal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Anti-complementary substances present",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Better",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Significant change down",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Detected",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "High",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Critically high",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Hold for Medical Review",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Very high",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Intermediate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Insufficient evidence",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Indeterminate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Low",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Critically low",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Very low",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Moderately susceptible. Indicates for microbiology susceptibilities only.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Normal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Not Detected",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NEG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Negative",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Non-reactive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Non-susceptible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "null",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "No range defined, or normal ranges don't apply",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Interpretation qualifiers in separate OBX segments",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Positive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QCF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Quality Control Failure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Resistant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Reactive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Susceptible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Susceptible-dose dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SYN-R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Synergy - resistant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SYN-S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Synergy - susceptible",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TOX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Cytotoxic substance present",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Significant change up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Very susceptible. Indicates for microbiology susceptibilities only.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Worse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0078",
+      "display": "Weakly reactive",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

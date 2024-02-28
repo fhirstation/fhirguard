@@ -1,0 +1,139 @@
+{
+  "name": "InstanceAvailability",
+  "resource_id": "instance-availability",
+  "resource_url": "http://hl7.org/fhir/ValueSet/instance-availability",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Resources are immediately available."
+              }
+            ],
+            "code": "ONLINE"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Resources need to be retrieved by manual intervention."
+              }
+            ],
+            "code": "OFFLINE"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Resources need to be retrieved from relatively slow media."
+              }
+            ],
+            "code": "NEARLINE"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-definition",
+                "valueString": "Resources cannot be retrieved."
+              }
+            ],
+            "code": "UNAVAILABLE"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Availability of the resource.",
+  "related_codesystems": [
+    {
+      "id": "dicom-dcim",
+      "url": "http://dicom.nema.org/resources/ontology/DCM"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ONLINE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Online",
+      "description": "Instances are immediately available",
+      "filter": null
+    },
+    {
+      "code": "OFFLINE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Offline",
+      "description": "Instances need to be retrieved by manual intervention",
+      "filter": null
+    },
+    {
+      "code": "NEARLINE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Nearline",
+      "description": "Instances need to be retrieved from relatively slow media such as optical disk or tape",
+      "filter": null
+    },
+    {
+      "code": "UNAVAILABLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Unavailable",
+      "description": "Instances cannot be retrieved",
+      "filter": null
+    },
+    {
+      "code": "ONLINE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OFFLINE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NEARLINE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNAVAILABLE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

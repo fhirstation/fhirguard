@@ -1,0 +1,30 @@
+{
+  "name": "v2.0778",
+  "resource_id": "v2-0778",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0778",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "EQP",
+      "display": "Equipment"
+    },
+    {
+      "code": "IMP",
+      "display": "Implant"
+    },
+    {
+      "code": "MED",
+      "display": "Medication"
+    },
+    {
+      "code": "SUP",
+      "display": "Supply"
+    },
+    {
+      "code": "TDC",
+      "display": "Tubes, Drains, and Catheters"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

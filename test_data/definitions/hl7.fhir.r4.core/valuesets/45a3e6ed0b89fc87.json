@@ -1,0 +1,61 @@
+{
+  "name": "VisionBase",
+  "resource_id": "vision-base-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/vision-base-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/vision-base-codes"
+      }
+    ]
+  },
+  "description": "A coded concept listing the base codes.",
+  "related_codesystems": [
+    {
+      "id": "vision-base-codes",
+      "url": "http://hl7.org/fhir/vision-base-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "up",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/vision-base-codes",
+      "display": "Up",
+      "description": "top.",
+      "filter": null
+    },
+    {
+      "code": "down",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/vision-base-codes",
+      "display": "Down",
+      "description": "bottom.",
+      "filter": null
+    },
+    {
+      "code": "in",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/vision-base-codes",
+      "display": "In",
+      "description": "inner edge.",
+      "filter": null
+    },
+    {
+      "code": "out",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/vision-base-codes",
+      "display": "Out",
+      "description": "outer edge.",
+      "filter": null
+    }
+  ]
+}

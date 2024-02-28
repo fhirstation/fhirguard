@@ -1,0 +1,71 @@
+{
+  "name": "AppointmentCancellationReason",
+  "resource_id": "appointment-cancellation-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/appointment-cancellation-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason"
+      }
+    ]
+  },
+  "description": "This example value set defines a set of reasons for the cancellation of an appointment.",
+  "related_codesystems": [
+    {
+      "id": "appointment-cancellation-reason",
+      "url": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "pat",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
+      "display": "Patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "prov",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
+      "display": "Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "maint",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
+      "display": "Equipment Maintenance/Repair",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "meds-inc",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
+      "display": "Prep/Med Incomplete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

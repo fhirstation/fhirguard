@@ -1,0 +1,81 @@
+{
+  "name": "v2.0498",
+  "resource_id": "v2-0498",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0498",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0498"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0498 ( Consent Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0498",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0498"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0498",
+      "display": "Active - Consent has been granted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0498",
+      "display": "Bypassed (Consent not sought)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0498",
+      "display": "Limited - Consent has been granted with limitations",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0498",
+      "display": "Pending - Consent has not yet been sought",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0498",
+      "display": "Refused - Consent has been refused",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0498",
+      "display": "Rescinded - Consent was initially granted, but was subsequently revoked or ended.",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

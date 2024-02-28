@@ -1,0 +1,71 @@
+{
+  "name": "ImmunizationRecommendationStatusCodes",
+  "resource_id": "immunization-recommendation-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/immunization-recommendation-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"
+      }
+    ]
+  },
+  "description": "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the status of the patient towards perceived immunity against a vaccine preventable disease. This value set is provided as a suggestive example.",
+  "related_codesystems": [
+    {
+      "id": "immunization-recommendation-status",
+      "url": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "due",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+      "display": "Due",
+      "description": "The patient is due for their next vaccination.",
+      "filter": null
+    },
+    {
+      "code": "overdue",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+      "display": "Overdue",
+      "description": "The patient is considered overdue for their next vaccination.",
+      "filter": null
+    },
+    {
+      "code": "immune",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+      "display": "Immune",
+      "description": "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit.",
+      "filter": null
+    },
+    {
+      "code": "contraindicated",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+      "display": "Contraindicated",
+      "description": "The patient is contraindicated for futher doses.",
+      "filter": null
+    },
+    {
+      "code": "complete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+      "display": "Complete",
+      "description": "The patient is fully protected and no further doses are recommended.",
+      "filter": null
+    }
+  ]
+}

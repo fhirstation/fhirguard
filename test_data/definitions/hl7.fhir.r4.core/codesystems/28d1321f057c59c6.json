@@ -1,0 +1,75 @@
+{
+  "name": "ListStatus",
+  "resource_id": "list-status",
+  "resource_url": "http://hl7.org/fhir/list-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "current",
+      "display": "Current",
+      "definition": "The list is considered to be an active part of the patient's record."
+    },
+    {
+      "code": "retired",
+      "display": "Retired",
+      "definition": "The list is \"old\" and should no longer be considered accurate or relevant."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered In Error",
+      "definition": "The list was never accurate.  It is retained for medico-legal purposes only."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ListStatus",
+    "resource_id": "list-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/list-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/list-status"
+        }
+      ]
+    },
+    "description": "The current state of the list.",
+    "related_codesystems": [
+      {
+        "id": "list-status",
+        "url": "http://hl7.org/fhir/list-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "current",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/list-status",
+        "display": "Current",
+        "description": "The list is considered to be an active part of the patient's record.",
+        "filter": null
+      },
+      {
+        "code": "retired",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/list-status",
+        "display": "Retired",
+        "description": "The list is \"old\" and should no longer be considered accurate or relevant.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/list-status",
+        "display": "Entered In Error",
+        "description": "The list was never accurate.  It is retained for medico-legal purposes only.",
+        "filter": null
+      }
+    ]
+  }
+}

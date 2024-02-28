@@ -1,0 +1,58 @@
+{
+  "name": "ACMECholCodesPlasma",
+  "resource_id": "example-filter",
+  "resource_url": "http://hl7.org/fhir/ValueSet/example-filter",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/example",
+        "filter": [
+          {
+            "property": "acme-plasma",
+            "op": "=",
+            "value": "true"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "ACME Codes for Cholesterol: Plasma only - demonstrating the use of a filter defined in a CodeSystem",
+  "related_codesystems": [
+    {
+      "id": "example",
+      "url": "http://hl7.org/fhir/CodeSystem/example"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "chol-mmol",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/example",
+      "display": "SChol (mmol/L)",
+      "description": "Serum Cholesterol, in mmol/L",
+      "filter": null
+    },
+    {
+      "code": "chol-mass",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/example",
+      "display": "SChol (mg/L)",
+      "description": "Serum Cholesterol, in mg/L",
+      "filter": null
+    },
+    {
+      "code": "chol",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/example",
+      "display": "SChol",
+      "description": "Serum Cholesterol",
+      "filter": null
+    }
+  ]
+}

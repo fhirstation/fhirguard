@@ -1,0 +1,90 @@
+{
+  "name": "GraphCompartmentRule",
+  "resource_id": "graph-compartment-rule",
+  "resource_url": "http://hl7.org/fhir/graph-compartment-rule",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "identical",
+      "display": "Identical",
+      "definition": "The compartment must be identical (the same literal reference)."
+    },
+    {
+      "code": "matching",
+      "display": "Matching",
+      "definition": "The compartment must be the same - the record must be about the same patient, but the reference may be different."
+    },
+    {
+      "code": "different",
+      "display": "Different",
+      "definition": "The compartment must be different."
+    },
+    {
+      "code": "custom",
+      "display": "Custom",
+      "definition": "The compartment rule is defined in the accompanying FHIRPath expression."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "GraphCompartmentRule",
+    "resource_id": "graph-compartment-rule",
+    "resource_url": "http://hl7.org/fhir/ValueSet/graph-compartment-rule",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/graph-compartment-rule"
+        }
+      ]
+    },
+    "description": "How a compartment must be linked.",
+    "related_codesystems": [
+      {
+        "id": "graph-compartment-rule",
+        "url": "http://hl7.org/fhir/graph-compartment-rule"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "identical",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/graph-compartment-rule",
+        "display": "Identical",
+        "description": "The compartment must be identical (the same literal reference).",
+        "filter": null
+      },
+      {
+        "code": "matching",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/graph-compartment-rule",
+        "display": "Matching",
+        "description": "The compartment must be the same - the record must be about the same patient, but the reference may be different.",
+        "filter": null
+      },
+      {
+        "code": "different",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/graph-compartment-rule",
+        "display": "Different",
+        "description": "The compartment must be different.",
+        "filter": null
+      },
+      {
+        "code": "custom",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/graph-compartment-rule",
+        "display": "Custom",
+        "description": "The compartment rule is defined in the accompanying FHIRPath expression.",
+        "filter": null
+      }
+    ]
+  }
+}

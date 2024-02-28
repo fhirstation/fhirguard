@@ -1,0 +1,41 @@
+{
+  "name": "ExceptionCodes",
+  "resource_id": "claim-exception",
+  "resource_url": "http://hl7.org/fhir/ValueSet/claim-exception",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/claim-exception"
+      }
+    ]
+  },
+  "description": "This value set includes sample Exception codes.",
+  "related_codesystems": [
+    {
+      "id": "claim-exception",
+      "url": "http://terminology.hl7.org/CodeSystem/claim-exception"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "student",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claim-exception",
+      "display": "Student (Fulltime)",
+      "description": "Fulltime Student",
+      "filter": null
+    },
+    {
+      "code": "disabled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claim-exception",
+      "display": "Disabled",
+      "description": "Disabled",
+      "filter": null
+    }
+  ]
+}

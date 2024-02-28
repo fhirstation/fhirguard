@@ -1,0 +1,81 @@
+{
+  "name": "ProcedureProgressStatusCodes",
+  "resource_id": "procedure-progress-status-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/procedure-progress-status-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/procedure-progress-status-code"
+      }
+    ]
+  },
+  "description": "This value set is provided as an example. The value set to instantiate this attribute should be drawn from a robust terminology code system that consists of or contains concepts to support the procedure performance process.",
+  "related_codesystems": [
+    {
+      "id": "procedure-progress-status-codes",
+      "url": "http://hl7.org/fhir/procedure-progress-status-code"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "in-operating-room",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/procedure-progress-status-code",
+      "display": "In Operating Room",
+      "description": "A patient is in the Operating Room.",
+      "filter": null
+    },
+    {
+      "code": "prepared",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/procedure-progress-status-code",
+      "display": "Prepared",
+      "description": "The patient is prepared for a procedure.",
+      "filter": null
+    },
+    {
+      "code": "anesthesia-induced",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/procedure-progress-status-code",
+      "display": "Anesthesia Induced",
+      "description": "The patient is under anesthesia.",
+      "filter": null
+    },
+    {
+      "code": "open-incision",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/procedure-progress-status-code",
+      "display": "Open Incision",
+      "description": "The patient has open incision(s).",
+      "filter": null
+    },
+    {
+      "code": "closed-incision",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/procedure-progress-status-code",
+      "display": "Closed Incision",
+      "description": "The patient has incision(s) closed.",
+      "filter": null
+    },
+    {
+      "code": "in-recovery-room",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/procedure-progress-status-code",
+      "display": "In Recovery Room",
+      "description": "The patient is in the recovery room.",
+      "filter": null
+    }
+  ]
+}

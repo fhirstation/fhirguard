@@ -1,0 +1,51 @@
+{
+  "name": "v2.0642",
+  "resource_id": "v2-0642",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0642",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0642"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0642 ( Reorder Theory Codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0642",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0642"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0642",
+      "display": "DOP/DOQ",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0642",
+      "display": "MIN/MAX",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0642",
+      "display": "Override",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

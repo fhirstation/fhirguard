@@ -1,0 +1,121 @@
+{
+  "name": "v2.0177",
+  "resource_id": "v2-0177",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0177",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0177"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0177 ( CONFIDENTIALITY CODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0177",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0177"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "AIDS patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Employee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ETH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Alcohol/drug treatment patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "HIV(+) patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Psychiatric patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Restricted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Usual control",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UWM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Unwed mother",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Very restricted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0177",
+      "display": "Very important person or celebrity",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "v2.0359",
+  "resource_id": "v2-0359",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0359",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0359"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0359 ( Diagnosis priority)",
+  "related_codesystems": [
+    {
+      "id": "v2-0359",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0359"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "Not included in diagnosis ranking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "The primary diagnosis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "For  secondary diagnosis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2 ...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "For ranked secondary diagnoses",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2 and higher",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "for ranked secondary diagnoses",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "For tertiary diagnosis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0359",
+      "display": "For quaternary diagnosis",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

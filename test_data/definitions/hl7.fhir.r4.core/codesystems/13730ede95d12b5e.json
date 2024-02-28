@@ -1,0 +1,90 @@
+{
+  "name": "v2.0334",
+  "resource_id": "v2-0334",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0334",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AP",
+      "display": "Associated party",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gerelateerde partij"
+        }
+      ]
+    },
+    {
+      "code": "GT",
+      "display": "Guarantor",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zahlugnspflichtiger"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Garantstaande"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "display": "Insured",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Versicherter"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verzekerde"
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "display": "Patient",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Patient"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Patiënt"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

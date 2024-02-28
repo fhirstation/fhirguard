@@ -1,0 +1,41 @@
+{
+  "name": "v2.0012",
+  "resource_id": "v2-0012",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0012",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0012"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0012 ( STOCK LOCATION)",
+  "related_codesystems": [
+    {
+      "id": "v2-0012",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0012"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0012",
+      "display": "Filled from ancillary department stock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0012",
+      "display": "Filled from floor stock",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

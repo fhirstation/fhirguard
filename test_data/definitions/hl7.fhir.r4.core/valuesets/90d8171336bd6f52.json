@@ -1,0 +1,71 @@
+{
+  "name": "v2.0206",
+  "resource_id": "v2-0206",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0206",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0206"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0206 ( Segment Action Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0206",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0206"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0206",
+      "display": "Add/Insert",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0206",
+      "display": "Delete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0206",
+      "display": "Used in Snapshot mode",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0206",
+      "display": "Update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0206",
+      "display": "No Change",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "OrganizationType",
+  "resource_id": "organization-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/organization-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/organization-type"
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate a type of organization.",
+  "related_codesystems": [
+    {
+      "id": "organization-type",
+      "url": "http://terminology.hl7.org/CodeSystem/organization-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "prov",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Healthcare Provider",
+      "description": "An organization that provides healthcare services.",
+      "filter": null
+    },
+    {
+      "code": "dept",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Hospital Department",
+      "description": "A department or ward within a hospital (Generally is not applicable to top level organizations)",
+      "filter": null
+    },
+    {
+      "code": "team",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Organizational team",
+      "description": "An organizational team is usually a grouping of practitioners that perform a specific function within an organization (which could be a top level organization, or a department).",
+      "filter": null
+    },
+    {
+      "code": "govt",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Government",
+      "description": "A political body, often used when including organization records for government bodies such as a Federal Government, State or Local Government.",
+      "filter": null
+    },
+    {
+      "code": "ins",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Insurance Company",
+      "description": "A company that provides insurance to its subscribers that may include healthcare related policies.",
+      "filter": null
+    },
+    {
+      "code": "pay",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Payer",
+      "description": "A company, charity, or governmental organization, which processes claims and/or issues payments to providers on behalf of patients or groups of patients.",
+      "filter": null
+    },
+    {
+      "code": "edu",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Educational Institute",
+      "description": "An educational institution that provides education or research facilities.",
+      "filter": null
+    },
+    {
+      "code": "reli",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Religious Institution",
+      "description": "An organization that is identified as a part of a religious institution.",
+      "filter": null
+    },
+    {
+      "code": "crs",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Clinical Research Sponsor",
+      "description": "An organization that is identified as a Pharmaceutical/Clinical Research Sponsor.",
+      "filter": null
+    },
+    {
+      "code": "cg",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Community Group",
+      "description": "An un-incorporated community group.",
+      "filter": null
+    },
+    {
+      "code": "bus",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Non-Healthcare Business or Corporation",
+      "description": "An organization that is a registered business or corporation but not identified by other types.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+      "display": "Other",
+      "description": "Other type of organization not already specified.",
+      "filter": null
+    }
+  ]
+}

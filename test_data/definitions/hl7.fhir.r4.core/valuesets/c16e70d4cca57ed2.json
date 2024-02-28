@@ -1,0 +1,1421 @@
+{
+  "name": "v2.0391.2.6",
+  "resource_id": "v2-2.6-0391",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-2.6-0391",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0391 ver 2.9 ( Segment Group)",
+  "related_codesystems": [
+    {
+      "id": "v2-2.6-0391",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ADMINISTRATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALLERGY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APP_STATS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APP_STATUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASSOCIATED_PERSON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASSOCIATED_RX_ADMIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASSOCIATED_RX_ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTHORIZATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUTHORIZATION_CONTACT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CERTIFICATE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLOCK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLOCK_AND_STATISTICS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLOCK_AND_STATS_WITH_NOTE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLOCK_AND_STATS_WITH_NOTES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLOCK_AND_STATS_WITH_NOTES_ALT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COMMAND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COMMAND_RESPONSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COMMON_ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COMPONENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COMPONENTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONTAINER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEFINITION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DISPENSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENCODED ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENCODED_ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENCODING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXPERIENCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_COMMON ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_COMMON_ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_INSURANCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_PROCEDURE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_TIMING QUANTITY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINANCIAL_TIMING_QUANTITY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GENERAL RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GENERAL_RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GIVE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GOAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GOAL_OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GOAL_PATHWAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GOAL_ROLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GUARANTOR_INSURANCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INSURANCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOCATION RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOCATION_RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MERGE_INFO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_CDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_CLIN_STUDY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_CLIN_STUDY_SCHED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_INV_ITEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_LOCATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_LOC_DEPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_OBS_ATTRIBUTES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_PHASE_SCHED_DETAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_QUERY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_SITE_DEFINED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_STAFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_BATTERIES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_BATT_DETAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_CALCULATED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_CALC_DETAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_CATEGORICAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_CAT_DETAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MF_TEST_NUMERIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NK1_TIMING_QTY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOTIFICATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBSERVATION_PRIOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBSERVATION_REQUEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_CHOICE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_DETAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_DETAIL_SUPPLEMENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_DIET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_ENCODED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_PRIOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORDER_TRAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATHWAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATHWAY_ROLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT VISIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT_PRIOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT_RESULT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT_VISIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATIENT_VISIT_PRIOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERSONNEL RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERSONNEL_RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEX_CAUSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEX_OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRIOR_RESULT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROBLEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROBLEM_OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROBLEM_PATHWAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROBLEM_ROLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROCEDURE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRODUCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRODUCT_STATUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROVIDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROVIDER_CONTACT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QBP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QRY_WITH_DETAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QUERY_RESPONSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QUERY_RESULT_CLUSTER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REQUEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESOURCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESOURCES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESPONSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESULT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESULTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESULTS_NOTES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROW_DEFINITION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RX_ADMINISTRATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RX_ORDER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCHEDULE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SERVICE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPECIMEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPECIMEN_CONTAINER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STAFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STUDY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STUDY_OBSERVATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STUDY_PHASE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STUDY_SCHEDULE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEST_CONFIGURATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_DIET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_ENCODED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_GIVE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_PRIOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_QTY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_QUANTITY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIMING_TRAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TREATMENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VISIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0391|2.6",
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

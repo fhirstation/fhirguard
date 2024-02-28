@@ -1,0 +1,81 @@
+{
+  "name": "ExamplePharmacyServiceCodes",
+  "resource_id": "service-pharmacy",
+  "resource_url": "http://hl7.org/fhir/ValueSet/service-pharmacy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/ex-pharmaservice"
+      }
+    ]
+  },
+  "description": "This value set includes a smattering of Pharmacy Service codes.",
+  "related_codesystems": [
+    {
+      "id": "service-pharmacy",
+      "url": "http://hl7.org/fhir/ex-pharmaservice"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "smokecess",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-pharmaservice",
+      "display": "Smoking cessation",
+      "description": "Smoking cessation",
+      "filter": null
+    },
+    {
+      "code": "flushot",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-pharmaservice",
+      "display": "Flu Shot",
+      "description": "Flu Shot",
+      "filter": null
+    },
+    {
+      "code": "drugcost",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-pharmaservice",
+      "display": "Drug Cost",
+      "description": "The wholesale price of the medication.",
+      "filter": null
+    },
+    {
+      "code": "markup",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-pharmaservice",
+      "display": "Markup",
+      "description": "The additional cost assessed on the drug.",
+      "filter": null
+    },
+    {
+      "code": "dispensefee",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-pharmaservice",
+      "display": "Dispense Fee",
+      "description": "The professional fee charged for dispensing the product or service.",
+      "filter": null
+    },
+    {
+      "code": "compoundfee",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-pharmaservice",
+      "display": "Compounding Fee",
+      "description": "The professional fee charged for compounding the medication.",
+      "filter": null
+    }
+  ]
+}

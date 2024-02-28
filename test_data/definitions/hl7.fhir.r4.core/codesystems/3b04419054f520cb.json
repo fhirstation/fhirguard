@@ -1,0 +1,66 @@
+{
+  "name": "v2.0309",
+  "resource_id": "v2-0309",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0309",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "B",
+      "display": "Both hospital and physician",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zowel ziekenhuis als arts"
+        }
+      ]
+    },
+    {
+      "code": "H",
+      "display": "Hospital/institutional",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ziekenhuis/instelling"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Physician/professional",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Arts/professional"
+        }
+      ]
+    },
+    {
+      "code": "RX",
+      "display": "Pharmacy",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Apotheek"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

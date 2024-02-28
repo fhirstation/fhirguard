@@ -1,0 +1,39 @@
+{
+  "name": "FHIRDocumentTypeCodes",
+  "resource_id": "doc-typecodes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/doc-typecodes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "SCALE_TYP",
+            "op": "=",
+            "value": "Doc"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "FHIR Document Codes - all LOINC codes where scale type = 'DOC'.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": [
+        {
+          "property": "SCALE_TYP",
+          "op": "=",
+          "value": "Doc"
+        }
+      ]
+    }
+  ]
+}

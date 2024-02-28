@@ -1,0 +1,90 @@
+{
+  "name": "AllergyIntoleranceCertainty",
+  "resource_id": "reaction-event-certainty",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "unlikely",
+      "display": "Unlikely",
+      "definition": "There is a low level of clinical certainty that the reaction was caused by the identified substance."
+    },
+    {
+      "code": "likely",
+      "display": "Likely",
+      "definition": "There is a high level of clinical certainty that the reaction was caused by the identified substance."
+    },
+    {
+      "code": "confirmed",
+      "display": "Confirmed",
+      "definition": "There is a very high level of clinical certainty that the reaction was due to the identified substance, which may include clinical evidence by testing or rechallenge."
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "The clinical certainty that the reaction was caused by the identified substance is unknown.  It is an explicit assertion that certainty is not known."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AllergyIntoleranceCertainty",
+    "resource_id": "reaction-event-certainty",
+    "resource_url": "http://hl7.org/fhir/ValueSet/reaction-event-certainty",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty"
+        }
+      ]
+    },
+    "description": "Statement about the degree of clinical certainty that a specific substance was the cause of the manifestation in a reaction event.",
+    "related_codesystems": [
+      {
+        "id": "reaction-event-certainty",
+        "url": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "unlikely",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty",
+        "display": "Unlikely",
+        "description": "There is a low level of clinical certainty that the reaction was caused by the identified substance.",
+        "filter": null
+      },
+      {
+        "code": "likely",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty",
+        "display": "Likely",
+        "description": "There is a high level of clinical certainty that the reaction was caused by the identified substance.",
+        "filter": null
+      },
+      {
+        "code": "confirmed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty",
+        "display": "Confirmed",
+        "description": "There is a very high level of clinical certainty that the reaction was due to the identified substance, which may include clinical evidence by testing or rechallenge.",
+        "filter": null
+      },
+      {
+        "code": "unknown",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/reaction-event-certainty",
+        "display": "Unknown",
+        "description": "The clinical certainty that the reaction was caused by the identified substance is unknown.  It is an explicit assertion that certainty is not known.",
+        "filter": null
+      }
+    ]
+  }
+}

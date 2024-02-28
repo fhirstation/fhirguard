@@ -1,0 +1,41 @@
+{
+  "name": "CatalogEntryRelationType",
+  "resource_id": "relation-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/relation-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/relation-type"
+      }
+    ]
+  },
+  "description": "The type of relations between entries.",
+  "related_codesystems": [
+    {
+      "id": "relation-type",
+      "url": "http://hl7.org/fhir/relation-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "triggers",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relation-type",
+      "display": "Triggers",
+      "description": "the related entry represents an activity that may be triggered by the current item.",
+      "filter": null
+    },
+    {
+      "code": "is-replaced-by",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/relation-type",
+      "display": "Replaced By",
+      "description": "the related entry represents an item that replaces the current retired item.",
+      "filter": null
+    }
+  ]
+}

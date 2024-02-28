@@ -1,0 +1,161 @@
+{
+  "name": "ClaimInformationCategoryCodes",
+  "resource_id": "claim-informationcategory",
+  "resource_url": "http://hl7.org/fhir/ValueSet/claim-informationcategory",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+      }
+    ]
+  },
+  "description": "This value set includes sample Information Category codes.",
+  "related_codesystems": [
+    {
+      "id": "claim-informationcategory",
+      "url": "http://terminology.hl7.org/CodeSystem/claiminformationcategory"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "info",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Information",
+      "description": "Codes conveying additional situation and condition information.",
+      "filter": null
+    },
+    {
+      "code": "discharge",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Discharge",
+      "description": "Discharge status and discharge to locations.",
+      "filter": null
+    },
+    {
+      "code": "onset",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Onset",
+      "description": "Period, start or end dates of aspects of the Condition.",
+      "filter": null
+    },
+    {
+      "code": "related",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Related Services",
+      "description": "Nature and date of the related event e.g. Last exam, service, X-ray etc.",
+      "filter": null
+    },
+    {
+      "code": "exception",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Exception",
+      "description": "Insurance policy exceptions.",
+      "filter": null
+    },
+    {
+      "code": "material",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Materials Forwarded",
+      "description": "Materials being forwarded, e.g. Models, molds, images, documents.",
+      "filter": null
+    },
+    {
+      "code": "attachment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Attachment",
+      "description": "Materials attached such as images, documents and resources.",
+      "filter": null
+    },
+    {
+      "code": "missingtooth",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Missing Tooth",
+      "description": "Teeth which are missing for any reason, for example: prior extraction, never developed.",
+      "filter": null
+    },
+    {
+      "code": "prosthesis",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Prosthesis",
+      "description": "The type of prosthesis and date of supply if a previously supplied prosthesis.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Other",
+      "description": "Other information identified by the type.system.",
+      "filter": null
+    },
+    {
+      "code": "hospitalized",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Hospitalized",
+      "description": "An indication that the patient was hospitalized, the period if known otherwise a Yes/No (boolean).",
+      "filter": null
+    },
+    {
+      "code": "employmentimpacted",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "EmploymentImpacted",
+      "description": "An indication that the patient was unable to work, the period if known otherwise a Yes/No (boolean).",
+      "filter": null
+    },
+    {
+      "code": "externalcause",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "External Caause",
+      "description": "The external cause of an illness or injury.",
+      "filter": null
+    },
+    {
+      "code": "patientreasonforvisit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+      "display": "Patient Reason for Visit",
+      "description": "The reason for the patient visit.",
+      "filter": null
+    }
+  ]
+}

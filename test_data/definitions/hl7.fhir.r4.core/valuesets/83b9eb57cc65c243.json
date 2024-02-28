@@ -1,0 +1,192 @@
+{
+  "name": "QuestionnaireResponseMode",
+  "resource_id": "questionnaireresponse-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaireresponse-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+        "concept": [
+          {
+            "code": "ELECTRONIC"
+          },
+          {
+            "code": "VERBAL"
+          },
+          {
+            "code": "WRITTEN"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Codes describing how the QuestionnaireResponse was populated",
+  "related_codesystems": [
+    {
+      "id": "v3-ParticipationMode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ELECTRONIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "electronic data",
+      "description": "Participation by non-human-languaged based electronic signal",
+      "filter": null
+    },
+    {
+      "code": "VERBAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "verbal",
+      "description": "Participation by voice communication",
+      "filter": null
+    },
+    {
+      "code": "DICTATE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "dictated",
+      "description": "Participation by pre-recorded voice.  Communication is limited to one direction (from the recorder to recipient).",
+      "filter": null
+    },
+    {
+      "code": "FACE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "face-to-face",
+      "description": "Participation by voice communication where parties speak to each other directly.",
+      "filter": null
+    },
+    {
+      "code": "PHONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "telephone",
+      "description": "Participation by voice communication where the voices of the communicating parties are transported over an electronic medium",
+      "filter": null
+    },
+    {
+      "code": "VIDEOCONF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "videoconferencing",
+      "description": "Participation by voice and visual communication where the voices and images of the communicating parties are transported over an electronic medium",
+      "filter": null
+    },
+    {
+      "code": "WRITTEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "written",
+      "description": "Participation by human language recorded on a physical material",
+      "filter": null
+    },
+    {
+      "code": "FAXWRIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "telefax",
+      "description": "Participation by text or diagrams printed on paper that have been transmitted over a fax device",
+      "filter": null
+    },
+    {
+      "code": "HANDWRIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "handwritten",
+      "description": "Participation by text or diagrams printed on paper or other recording medium",
+      "filter": null
+    },
+    {
+      "code": "MAILWRIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "mail",
+      "description": "Participation by text or diagrams printed on paper transmitted physically (e.g. by courier service, postal service).",
+      "filter": null
+    },
+    {
+      "code": "ONLINEWRIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "online written",
+      "description": "Participation by text or diagrams submitted by computer network, e.g. online survey.",
+      "filter": null
+    },
+    {
+      "code": "EMAILWRIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "email",
+      "description": "Participation by text or diagrams transmitted over an electronic mail system.",
+      "filter": null
+    },
+    {
+      "code": "TYPEWRIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode",
+      "display": "typewritten",
+      "description": "Participation by text or diagrams printed on paper or other recording medium where the recording was performed using a typewriter, typesetter, computer or similar mechanism.",
+      "filter": null
+    },
+    {
+      "code": "ELECTRONIC",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VERBAL",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WRITTEN",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

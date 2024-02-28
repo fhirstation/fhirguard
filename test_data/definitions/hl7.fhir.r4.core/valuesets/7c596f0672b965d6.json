@@ -1,0 +1,61 @@
+{
+  "name": "v2.0282",
+  "resource_id": "v2-0282",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0282",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0282"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0282 ( Referral Disposition)",
+  "related_codesystems": [
+    {
+      "id": "v2-0282",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0282"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0282",
+      "display": "Assume Management",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0282",
+      "display": "Return Patient After Evaluation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0282",
+      "display": "Second Opinion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0282",
+      "display": "Send Written Report",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "v2.0510",
+  "resource_id": "v2-0510",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0510",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "CR",
+      "display": "Released into inventory for general availability"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "DS",
+      "display": "Dispensed to patient location"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "PT",
+      "display": "Presumed transfused (dispensed and not returned)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "RA",
+      "display": "Returned unused/no longer needed"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "RD",
+      "display": "Reserved and ready to dispense"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Placer or Filler"
+        }
+      ],
+      "code": "RE",
+      "display": "Released (no longer allocated for the patient)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "RI",
+      "display": "Received into inventory (for specified patient)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "RL",
+      "display": "Returned unused/keep linked to patient for possible use later"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Placer"
+        }
+      ],
+      "code": "RQ",
+      "display": "Request to dispense blood product"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "RS",
+      "display": "Reserved (ordered and product allocated for the patient)"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Status determined by Filler"
+        }
+      ],
+      "code": "WA",
+      "display": "Wasted (product no longer viable)"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

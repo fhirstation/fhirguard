@@ -1,0 +1,91 @@
+{
+  "name": "Diet",
+  "resource_id": "encounter-diet",
+  "resource_url": "http://hl7.org/fhir/ValueSet/encounter-diet",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/diet"
+      }
+    ]
+  },
+  "description": "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+  "related_codesystems": [
+    {
+      "id": "encounter-diet",
+      "url": "http://terminology.hl7.org/CodeSystem/diet"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "vegetarian",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Vegetarian",
+      "description": "Food without meat, poultry or seafood.",
+      "filter": null
+    },
+    {
+      "code": "dairy-free",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Dairy Free",
+      "description": "Excludes dairy products.",
+      "filter": null
+    },
+    {
+      "code": "nut-free",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Nut Free",
+      "description": "Excludes ingredients containing nuts.",
+      "filter": null
+    },
+    {
+      "code": "gluten-free",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Gluten Free",
+      "description": "Excludes ingredients containing gluten.",
+      "filter": null
+    },
+    {
+      "code": "vegan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Vegan",
+      "description": "Food without meat, poultry, seafood, eggs, dairy products and other animal-derived substances.",
+      "filter": null
+    },
+    {
+      "code": "halal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Halal",
+      "description": "Foods that conform to Islamic law.",
+      "filter": null
+    },
+    {
+      "code": "kosher",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/diet",
+      "display": "Kosher",
+      "description": "Foods that conform to Jewish dietary law.",
+      "filter": null
+    }
+  ]
+}

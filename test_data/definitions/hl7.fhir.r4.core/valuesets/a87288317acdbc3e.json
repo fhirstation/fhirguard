@@ -1,0 +1,41 @@
+{
+  "name": "SubscriptionTag",
+  "resource_id": "subscription-tag",
+  "resource_url": "http://hl7.org/fhir/ValueSet/subscription-tag",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/subscription-tag"
+      }
+    ]
+  },
+  "description": "Tags to put on a resource after subscriptions have been sent.",
+  "related_codesystems": [
+    {
+      "id": "subscription-tag",
+      "url": "http://terminology.hl7.org/CodeSystem/subscription-tag"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "queued",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/subscription-tag",
+      "display": "Queued",
+      "description": "The message has been queued for processing on a destination systems.",
+      "filter": null
+    },
+    {
+      "code": "delivered",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/subscription-tag",
+      "display": "Delivered",
+      "description": "The message has been delivered to its intended recipient.",
+      "filter": null
+    }
+  ]
+}

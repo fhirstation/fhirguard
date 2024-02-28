@@ -1,0 +1,51 @@
+{
+  "name": "QuestionnaireItemUIControlCodes",
+  "resource_id": "questionnaire-item-control",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-item-control",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/questionnaire-item-control"
+      }
+    ]
+  },
+  "description": "Starter set of user interface control/display mechanisms that might be used when rendering an item in a questionnaire.",
+  "related_codesystems": [
+    {
+      "id": "questionnaire-item-control",
+      "url": "http://hl7.org/fhir/questionnaire-item-control"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "group",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-item-control",
+      "display": null,
+      "description": "UI controls relevant to organizing groups of questions",
+      "filter": null
+    },
+    {
+      "code": "text",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-item-control",
+      "display": null,
+      "description": "UI controls relevant to rendering questionnaire text items",
+      "filter": null
+    },
+    {
+      "code": "question",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/questionnaire-item-control",
+      "display": null,
+      "description": "UI controls relevant to capturing question data",
+      "filter": null
+    }
+  ]
+}

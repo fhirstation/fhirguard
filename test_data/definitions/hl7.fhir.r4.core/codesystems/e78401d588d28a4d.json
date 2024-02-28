@@ -1,0 +1,66 @@
+{
+  "name": "v2.0284",
+  "resource_id": "v2-0284",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0284",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Ambulatory",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Dagbehandeling"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Emergency",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Spoed"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Inpatient",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Klinisch"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Outpatient",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Poliklinisch"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

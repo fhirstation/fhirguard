@@ -1,0 +1,51 @@
+{
+  "name": "v2.0149",
+  "resource_id": "v2-0149",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0149",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0149"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0149 ( DAY TYPE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0149",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0149"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0149",
+      "display": "Approved",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0149",
+      "display": "Denied",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0149",
+      "display": "Pending",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

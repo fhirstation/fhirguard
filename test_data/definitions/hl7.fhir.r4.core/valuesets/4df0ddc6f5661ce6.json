@@ -1,0 +1,67 @@
+{
+  "name": "BodyWeightUnits",
+  "resource_id": "ucum-bodyweight",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ucum-bodyweight",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "kg"
+          },
+          {
+            "code": "[lb_av]"
+          },
+          {
+            "code": "g"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "UCUM units for recording Body Weight",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "kg",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "[lb_av]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "g",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "ClaimPayeeResourceType",
+  "resource_id": "ex-payee-resource-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ex-payee-resource-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type"
+      }
+    ]
+  },
+  "description": "The type of Claim payee Resource.",
+  "related_codesystems": [
+    {
+      "id": "ex-payee-resource-type",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "organization",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type",
+      "display": "Organization",
+      "description": "Organization resource.",
+      "filter": null
+    },
+    {
+      "code": "patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type",
+      "display": "Patient",
+      "description": "Patient resource.",
+      "filter": null
+    },
+    {
+      "code": "practitioner",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type",
+      "display": "Practitioner",
+      "description": "Practitioner resource.",
+      "filter": null
+    },
+    {
+      "code": "relatedperson",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type",
+      "display": "RelatedPerson",
+      "description": "RelatedPerson resource.",
+      "filter": null
+    }
+  ]
+}

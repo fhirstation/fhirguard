@@ -1,0 +1,80 @@
+{
+  "name": "ImmunizationRecommendationDateCriterionCodes",
+  "resource_id": "immunization-recommendation-date-criterion",
+  "resource_url": "http://hl7.org/fhir/ValueSet/immunization-recommendation-date-criterion",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "30981-5"
+          },
+          {
+            "code": "30980-7"
+          },
+          {
+            "code": "59777-3"
+          },
+          {
+            "code": "59778-1"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support the definition of dates relevant to recommendations for future doses of vaccines. This value set is provided as a suggestive example.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "30981-5",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30980-7",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "59777-3",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "59778-1",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

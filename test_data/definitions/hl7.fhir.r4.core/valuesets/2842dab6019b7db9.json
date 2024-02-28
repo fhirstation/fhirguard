@@ -1,0 +1,361 @@
+{
+  "name": "EventResourceType",
+  "resource_id": "event-resource-types",
+  "resource_url": "http://hl7.org/fhir/ValueSet/event-resource-types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/event-resource-types"
+      }
+    ]
+  },
+  "description": "A list of all the event resource types defined in this version of the FHIR specification.",
+  "related_codesystems": [
+    {
+      "id": "event-resource-types",
+      "url": "http://hl7.org/fhir/event-resource-types"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ChargeItem",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "ChargeItem",
+      "description": "Item containing charge code(s) associated with the provision of healthcare provider products.",
+      "filter": null
+    },
+    {
+      "code": "ClaimResponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "ClaimResponse",
+      "description": "Remittance resource.",
+      "filter": null
+    },
+    {
+      "code": "ClinicalImpression",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "ClinicalImpression",
+      "description": "A clinical assessment performed when planning treatments and management strategies for a patient.",
+      "filter": null
+    },
+    {
+      "code": "Communication",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Communication",
+      "description": "A record of information transmitted from a sender to a receiver.",
+      "filter": null
+    },
+    {
+      "code": "Composition",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Composition",
+      "description": "A set of resources composed into a single coherent clinical statement with clinical attestation.",
+      "filter": null
+    },
+    {
+      "code": "Condition",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Condition",
+      "description": "Detailed information about conditions, problems or diagnoses.",
+      "filter": null
+    },
+    {
+      "code": "Consent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Consent",
+      "description": "A healthcare consumer's policy choices to permits or denies recipients or roles to perform actions for specific purposes and periods of time.",
+      "filter": null
+    },
+    {
+      "code": "Coverage",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Coverage",
+      "description": "Insurance or medical plan or a payment agreement.",
+      "filter": null
+    },
+    {
+      "code": "DeviceUseStatement",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "DeviceUseStatement",
+      "description": "Record of use of a device.",
+      "filter": null
+    },
+    {
+      "code": "DiagnosticReport",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "DiagnosticReport",
+      "description": "A Diagnostic report - a combination of request information, atomic results, images, interpretation, as well as formatted reports.",
+      "filter": null
+    },
+    {
+      "code": "DocumentManifest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "DocumentManifest",
+      "description": "A list that defines a set of documents.",
+      "filter": null
+    },
+    {
+      "code": "DocumentReference",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "DocumentReference",
+      "description": "A reference to a document.",
+      "filter": null
+    },
+    {
+      "code": "Encounter",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Encounter",
+      "description": "An interaction during which services are provided to the patient.",
+      "filter": null
+    },
+    {
+      "code": "EnrollmentResponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "EnrollmentResponse",
+      "description": "EnrollmentResponse resource.",
+      "filter": null
+    },
+    {
+      "code": "EpisodeOfCare",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "EpisodeOfCare",
+      "description": "An association of a Patient with an Organization and  Healthcare Provider(s) for a period of time that the Organization assumes some level of responsibility.",
+      "filter": null
+    },
+    {
+      "code": "ExplanationOfBenefit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "ExplanationOfBenefit",
+      "description": "Explanation of Benefit resource.",
+      "filter": null
+    },
+    {
+      "code": "FamilyMemberHistory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "FamilyMemberHistory",
+      "description": "Information about patient's relatives, relevant for patient.",
+      "filter": null
+    },
+    {
+      "code": "GuidanceResponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "GuidanceResponse",
+      "description": "The formal response to a guidance request.",
+      "filter": null
+    },
+    {
+      "code": "ImagingStudy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "ImagingStudy",
+      "description": "A set of images produced in single study (one or more series of references images).",
+      "filter": null
+    },
+    {
+      "code": "Immunization",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Immunization",
+      "description": "Immunization event information.",
+      "filter": null
+    },
+    {
+      "code": "MeasureReport",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "MeasureReport",
+      "description": "Results of a measure evaluation.",
+      "filter": null
+    },
+    {
+      "code": "Media",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Media",
+      "description": "A photo, video, or audio recording acquired or used in healthcare. The actual content may be inline or provided by direct reference.",
+      "filter": null
+    },
+    {
+      "code": "MedicationAdministration",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "MedicationAdministration",
+      "description": "Administration of medication to a patient.",
+      "filter": null
+    },
+    {
+      "code": "MedicationDispense",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "MedicationDispense",
+      "description": "Dispensing a medication to a named patient.",
+      "filter": null
+    },
+    {
+      "code": "MedicationStatement",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "MedicationStatement",
+      "description": "Record of medication being taken by a patient.",
+      "filter": null
+    },
+    {
+      "code": "Observation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Observation",
+      "description": "Measurements and simple assertions.",
+      "filter": null
+    },
+    {
+      "code": "PaymentNotice",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "PaymentNotice",
+      "description": "PaymentNotice request.",
+      "filter": null
+    },
+    {
+      "code": "PaymentReconciliation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "PaymentReconciliation",
+      "description": "PaymentReconciliation resource.",
+      "filter": null
+    },
+    {
+      "code": "Procedure",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Procedure",
+      "description": "An action that is being or was performed on a patient.",
+      "filter": null
+    },
+    {
+      "code": "ProcessResponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "ProcessResponse",
+      "description": "ProcessResponse resource.",
+      "filter": null
+    },
+    {
+      "code": "QuestionnaireResponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "QuestionnaireResponse",
+      "description": "A structured set of questions and their answers.",
+      "filter": null
+    },
+    {
+      "code": "RiskAssessment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "RiskAssessment",
+      "description": "Potential outcomes for a subject with likelihood.",
+      "filter": null
+    },
+    {
+      "code": "SupplyDelivery",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "SupplyDelivery",
+      "description": "Delivery of bulk Supplies.",
+      "filter": null
+    },
+    {
+      "code": "Task",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/event-resource-types",
+      "display": "Task",
+      "description": "A task to be performed.",
+      "filter": null
+    }
+  ]
+}

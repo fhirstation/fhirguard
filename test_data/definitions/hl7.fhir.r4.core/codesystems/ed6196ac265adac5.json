@@ -1,0 +1,30 @@
+{
+  "name": "v2.0317",
+  "resource_id": "v2-0317",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0317",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "9900",
+      "display": "Pace spike"
+    },
+    {
+      "code": "9901",
+      "display": "SAS marker"
+    },
+    {
+      "code": "9902",
+      "display": "Sense marker"
+    },
+    {
+      "code": "9903",
+      "display": "Beat marker"
+    },
+    {
+      "code": "9904",
+      "display": "etc."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

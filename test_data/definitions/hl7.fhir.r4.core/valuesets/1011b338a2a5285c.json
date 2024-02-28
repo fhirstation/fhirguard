@@ -1,0 +1,101 @@
+{
+  "name": "v2.0287",
+  "resource_id": "v2-0287",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0287",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0287"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0287 ( Action Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0287",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0287"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "ADD",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "CORRECT",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "DELETE",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "LINK",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "Used in Snapshot mode",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "UNCHANGED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "UNLINK",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0287",
+      "display": "UPDATE",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

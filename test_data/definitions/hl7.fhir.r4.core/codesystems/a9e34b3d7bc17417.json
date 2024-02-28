@@ -1,0 +1,98 @@
+{
+  "name": "v2.0128",
+  "resource_id": "v2-0128",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0128",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "MI",
+      "display": "Mild",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Leicht"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Mild"
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "display": "Moderate",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Mittel"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gemiddeld"
+        }
+      ]
+    },
+    {
+      "code": "SV",
+      "display": "Severe",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Lebensbedrohlich"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ernstig"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "unbekannt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onbekend"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

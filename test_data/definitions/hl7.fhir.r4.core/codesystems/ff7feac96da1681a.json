@@ -1,0 +1,38 @@
+{
+  "name": "v2.0216",
+  "resource_id": "v2-0216",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0216",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AI",
+      "display": "Active Inpatient",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Actieve patiënt"
+        }
+      ]
+    },
+    {
+      "code": "DI",
+      "display": "Discharged Inpatient",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ontslagen patiënt"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

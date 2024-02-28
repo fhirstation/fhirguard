@@ -1,0 +1,108 @@
+{
+  "name": "v2.0438",
+  "resource_id": "v2-0438",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0438",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "C",
+      "display": "Confirmed or verified",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bevestigd of gecontroleerd"
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "display": "Doubt raised",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Twijfelachtig"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Erroneous",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Foutief"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Confirmed but inactive",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bevestigd maar inactief"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Pending",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "In bewerking"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Suspect",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verdacht"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unconfirmed",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet-bevestigd"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

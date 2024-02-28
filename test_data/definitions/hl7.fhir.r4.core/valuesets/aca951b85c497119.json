@@ -1,0 +1,141 @@
+{
+  "name": "ExampleDiagnosisTypeCodes",
+  "resource_id": "ex-diagnosistype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ex-diagnosistype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype"
+      }
+    ]
+  },
+  "description": "This value set includes example Diagnosis Type codes.",
+  "related_codesystems": [
+    {
+      "id": "ex-diagnosistype",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "admitting",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Admitting Diagnosis",
+      "description": "The diagnosis given as the reason why the patient was admitted to the hospital.",
+      "filter": null
+    },
+    {
+      "code": "clinical",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Clinical Diagnosis",
+      "description": "A diagnosis made on the basis of medical signs and patient-reported symptoms, rather than diagnostic tests.",
+      "filter": null
+    },
+    {
+      "code": "differential",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Differential Diagnosis",
+      "description": "One of a set of the possible diagnoses that could be connected to the signs, symptoms, and lab findings.",
+      "filter": null
+    },
+    {
+      "code": "discharge",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Discharge Diagnosis",
+      "description": "The diagnosis given when the patient is discharged from the hospital.",
+      "filter": null
+    },
+    {
+      "code": "laboratory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Laboratory Diagnosis",
+      "description": "A diagnosis based significantly on laboratory reports or test results, rather than the physical examination of the patient.",
+      "filter": null
+    },
+    {
+      "code": "nursing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Nursing Diagnosis",
+      "description": "A diagnosis which identifies people's responses to situations in their lives, such as a readiness to change or a willingness to accept assistance.",
+      "filter": null
+    },
+    {
+      "code": "prenatal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Prenatal Diagnosis",
+      "description": "A diagnosis determined prior to birth.",
+      "filter": null
+    },
+    {
+      "code": "principal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Principal Diagnosis",
+      "description": "The single medical diagnosis that is most relevant to the patient's chief complaint or need for treatment.",
+      "filter": null
+    },
+    {
+      "code": "radiology",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Radiology Diagnosis",
+      "description": "A diagnosis based primarily on the results from medical imaging studies.",
+      "filter": null
+    },
+    {
+      "code": "remote",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Remote Diagnosis",
+      "description": "A diagnosis determined using telemedicine techniques.",
+      "filter": null
+    },
+    {
+      "code": "retrospective",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Retrospective Diagnosis",
+      "description": "The labeling of an illness in a specific historical event using modern knowledge, methods and disease classifications.",
+      "filter": null
+    },
+    {
+      "code": "self",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosistype",
+      "display": "Self Diagnosis",
+      "description": "A diagnosis determined by the patient.",
+      "filter": null
+    }
+  ]
+}

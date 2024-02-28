@@ -1,0 +1,41 @@
+{
+  "name": "v2.0173",
+  "resource_id": "v2-0173",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0173",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0173"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0173 ( COORDINATION OF BENEFITS)",
+  "related_codesystems": [
+    {
+      "id": "v2-0173",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0173"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0173",
+      "display": "Coordination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0173",
+      "display": "Independent",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

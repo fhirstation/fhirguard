@@ -1,0 +1,42 @@
+{
+  "name": "v2.0372",
+  "resource_id": "v2-0372",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0372",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "BLD",
+      "display": "Whole blood, homogeneous"
+    },
+    {
+      "code": "BSEP",
+      "display": "Whole blood, separated"
+    },
+    {
+      "code": "PLAS",
+      "display": "Plasma, NOS (not otherwise specified)"
+    },
+    {
+      "code": "PPP",
+      "display": "Platelet poor plasma"
+    },
+    {
+      "code": "PRP",
+      "display": "Platelet rich plasma"
+    },
+    {
+      "code": "SED",
+      "display": "Sediment"
+    },
+    {
+      "code": "SER",
+      "display": "Serum, NOS (not otherwise specified)"
+    },
+    {
+      "code": "SUP",
+      "display": "Supernatant"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

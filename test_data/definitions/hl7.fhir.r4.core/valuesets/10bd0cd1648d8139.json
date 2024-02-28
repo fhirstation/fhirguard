@@ -1,0 +1,71 @@
+{
+  "name": "v2.0207",
+  "resource_id": "v2-0207",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0207",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0207"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0207 ( Processing Mode)",
+  "related_codesystems": [
+    {
+      "id": "v2-0207",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0207"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0207",
+      "display": "Archive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0207",
+      "display": "Initial load",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Not present",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0207",
+      "display": "Not present (the default, meaning current  processing)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0207",
+      "display": "Restore from archive",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0207",
+      "display": "Current processing, transmitted at intervals (scheduled or on demand)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

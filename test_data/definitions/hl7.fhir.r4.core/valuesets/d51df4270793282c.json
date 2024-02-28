@@ -1,0 +1,51 @@
+{
+  "name": "ReferenceVersionRules",
+  "resource_id": "reference-version-rules",
+  "resource_url": "http://hl7.org/fhir/ValueSet/reference-version-rules",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/reference-version-rules"
+      }
+    ]
+  },
+  "description": "Whether a reference needs to be version specific or version independent, or whether either can be used.",
+  "related_codesystems": [
+    {
+      "id": "reference-version-rules",
+      "url": "http://hl7.org/fhir/reference-version-rules"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "either",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/reference-version-rules",
+      "display": "Either Specific or independent",
+      "description": "The reference may be either version independent or version specific.",
+      "filter": null
+    },
+    {
+      "code": "independent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/reference-version-rules",
+      "display": "Version independent",
+      "description": "The reference must be version independent.",
+      "filter": null
+    },
+    {
+      "code": "specific",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/reference-version-rules",
+      "display": "Version Specific",
+      "description": "The reference must be version specific.",
+      "filter": null
+    }
+  ]
+}

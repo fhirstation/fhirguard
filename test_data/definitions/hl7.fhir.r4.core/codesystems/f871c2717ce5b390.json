@@ -1,0 +1,86 @@
+{
+  "name": "EncounterType",
+  "resource_id": "encounter-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/encounter-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ADMS",
+      "display": "Annual diabetes mellitus screening"
+    },
+    {
+      "code": "BD/BM-clin",
+      "display": "Bone drilling/bone marrow punction in clinic"
+    },
+    {
+      "code": "CCS60",
+      "display": "Infant colon screening - 60 minutes"
+    },
+    {
+      "code": "OKI",
+      "display": "Outpatient Kenacort injection"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "EncounterType",
+    "resource_id": "encounter-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/encounter-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/encounter-type"
+        }
+      ]
+    },
+    "description": "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+    "related_codesystems": [
+      {
+        "id": "encounter-type",
+        "url": "http://terminology.hl7.org/CodeSystem/encounter-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ADMS",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/encounter-type",
+        "display": "Annual diabetes mellitus screening",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "BD/BM-clin",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/encounter-type",
+        "display": "Bone drilling/bone marrow punction in clinic",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "CCS60",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/encounter-type",
+        "display": "Infant colon screening - 60 minutes",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "OKI",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/encounter-type",
+        "display": "Outpatient Kenacort injection",
+        "description": null,
+        "filter": null
+      }
+    ]
+  }
+}

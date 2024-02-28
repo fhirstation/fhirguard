@@ -1,0 +1,25 @@
+{
+  "name": "AnimalSpecies",
+  "resource_id": "animal-species",
+  "resource_url": "http://hl7.org/fhir/animal-species",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "canislf",
+      "display": "Dog",
+      "definition": "Canis lupus familiaris"
+    },
+    {
+      "code": "ovisa",
+      "display": "Sheep",
+      "definition": "Ovis aries"
+    },
+    {
+      "code": "serinuscd",
+      "display": "Domestic Canary",
+      "definition": "Serinus canaria domestica"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

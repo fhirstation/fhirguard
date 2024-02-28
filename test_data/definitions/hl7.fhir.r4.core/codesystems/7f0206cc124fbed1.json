@@ -1,0 +1,50 @@
+{
+  "name": "v2.0616",
+  "resource_id": "v2-0616",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0616",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The address has been replaced with a corrected version"
+        }
+      ],
+      "code": "C",
+      "display": "Corrected"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The address was incorrect and should never have been associated with the individual"
+        }
+      ],
+      "code": "E",
+      "display": "Added in error"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The individual associated with the address has moved and is no longer reachable at the address"
+        }
+      ],
+      "code": "M",
+      "display": "Moved"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The associated individual requested that the address be removed from their record"
+        }
+      ],
+      "code": "R",
+      "display": "On request"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

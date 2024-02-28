@@ -1,0 +1,54 @@
+{
+  "name": "ProcedureReasonCodes",
+  "resource_id": "procedure-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/procedure-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "71388002"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "404684003"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "71388002"
+        }
+      ]
+    }
+  ]
+}

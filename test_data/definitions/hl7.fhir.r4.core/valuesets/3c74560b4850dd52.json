@@ -1,0 +1,51 @@
+{
+  "name": "ResourceVersionPolicy",
+  "resource_id": "versioning-policy",
+  "resource_url": "http://hl7.org/fhir/ValueSet/versioning-policy",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/versioning-policy"
+      }
+    ]
+  },
+  "description": "How the system supports versioning for a resource.",
+  "related_codesystems": [
+    {
+      "id": "versioning-policy",
+      "url": "http://hl7.org/fhir/versioning-policy"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "no-version",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/versioning-policy",
+      "display": "No VersionId Support",
+      "description": "VersionId meta-property is not supported (server) or used (client).",
+      "filter": null
+    },
+    {
+      "code": "versioned",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/versioning-policy",
+      "display": "Versioned",
+      "description": "VersionId meta-property is supported (server) or used (client).",
+      "filter": null
+    },
+    {
+      "code": "versioned-update",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/versioning-policy",
+      "display": "VersionId tracked fully",
+      "description": "VersionId must be correct for updates (server) or will be specified (If-match header) for updates (client).",
+      "filter": null
+    }
+  ]
+}

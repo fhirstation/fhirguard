@@ -1,0 +1,39 @@
+{
+  "name": "FlagCode",
+  "resource_id": "flag-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/flag-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example list of detail codes for flagged issues.  (Not complete or necessarily appropriate.)",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "404684003"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "HumanNameAssemblyOrder",
+  "resource_id": "name-assembly-order",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/name-assembly-order",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "NL1",
+      "display": "Own Name"
+    },
+    {
+      "code": "NL2",
+      "display": "Partner Name"
+    },
+    {
+      "code": "NL3",
+      "display": "Partner Name followed by Maiden Name"
+    },
+    {
+      "code": "NL4",
+      "display": "Own Name followed by Partner Name"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

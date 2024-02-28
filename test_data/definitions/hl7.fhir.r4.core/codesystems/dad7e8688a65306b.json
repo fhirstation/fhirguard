@@ -1,0 +1,200 @@
+{
+  "name": "v2.0164",
+  "resource_id": "v2-0164",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0164",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AP",
+      "display": "Applicator",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Applikator"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Applicator"
+        }
+      ]
+    },
+    {
+      "code": "BT",
+      "display": "Buretrol",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Buretrol"
+        }
+      ]
+    },
+    {
+      "code": "HL",
+      "display": "Heparin Lock",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Infusionskanüle"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Heprine lock"
+        }
+      ]
+    },
+    {
+      "code": "IPPB",
+      "display": "IPPB",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Intermittierende Überdruckbeatmung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Intermittent positive pressure breathing"
+        }
+      ]
+    },
+    {
+      "code": "IVP",
+      "display": "IV Pump",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Perfusor"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Infuuspomp"
+        }
+      ]
+    },
+    {
+      "code": "IVS",
+      "display": "IV Soluset",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Infusionsbesteck"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Infuus soluset"
+        }
+      ]
+    },
+    {
+      "code": "MI",
+      "display": "Metered Inhaler",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Inhalator"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Dosis-inhalator"
+        }
+      ]
+    },
+    {
+      "code": "NEB",
+      "display": "Nebulizer",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vernebler"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vernevelaar"
+        }
+      ]
+    },
+    {
+      "code": "PCA",
+      "display": "PCA Pump",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Patientengesteuerte Analgesiepumpe"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "PCA-pomp"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

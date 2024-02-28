@@ -1,0 +1,61 @@
+{
+  "name": "AuditEventOutcome",
+  "resource_id": "audit-event-outcome",
+  "resource_url": "http://hl7.org/fhir/ValueSet/audit-event-outcome",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/audit-event-outcome"
+      }
+    ]
+  },
+  "description": "Indicates whether the event succeeded or failed.",
+  "related_codesystems": [
+    {
+      "id": "audit-event-outcome",
+      "url": "http://hl7.org/fhir/audit-event-outcome"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/audit-event-outcome",
+      "display": "Success",
+      "description": "The operation completed successfully (whether with warnings or not).",
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/audit-event-outcome",
+      "display": "Minor failure",
+      "description": "The action was not successful due to some kind of minor failure (often equivalent to an HTTP 400 response).",
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/audit-event-outcome",
+      "display": "Serious failure",
+      "description": "The action was not successful due to some kind of unexpected error (often equivalent to an HTTP 500 response).",
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/audit-event-outcome",
+      "display": "Major failure",
+      "description": "An error of such magnitude occurred that the system is no longer available for use (i.e. the system died).",
+      "filter": null
+    }
+  ]
+}

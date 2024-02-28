@@ -1,0 +1,51 @@
+{
+  "name": "v2.0232",
+  "resource_id": "v2-0232",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0232",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0232"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0232 ( Insurance Company Contact Reason)",
+  "related_codesystems": [
+    {
+      "id": "v2-0232",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0232"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0232",
+      "display": "Medicare claim status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0232",
+      "display": "Medicaid claim status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0232",
+      "display": "Name/address change",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

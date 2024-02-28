@@ -1,0 +1,71 @@
+{
+  "name": "SlotStatus",
+  "resource_id": "slotstatus",
+  "resource_url": "http://hl7.org/fhir/ValueSet/slotstatus",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/slotstatus"
+      }
+    ]
+  },
+  "description": "The free/busy status of the slot.",
+  "related_codesystems": [
+    {
+      "id": "slotstatus",
+      "url": "http://hl7.org/fhir/slotstatus"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "busy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/slotstatus",
+      "display": "Busy",
+      "description": "Indicates that the time interval is busy because one  or more events have been scheduled for that interval.",
+      "filter": null
+    },
+    {
+      "code": "free",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/slotstatus",
+      "display": "Free",
+      "description": "Indicates that the time interval is free for scheduling.",
+      "filter": null
+    },
+    {
+      "code": "busy-unavailable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/slotstatus",
+      "display": "Busy (Unavailable)",
+      "description": "Indicates that the time interval is busy and that the interval cannot be scheduled.",
+      "filter": null
+    },
+    {
+      "code": "busy-tentative",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/slotstatus",
+      "display": "Busy (Tentative)",
+      "description": "Indicates that the time interval is busy because one or more events have been tentatively scheduled for that interval.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/slotstatus",
+      "display": "Entered in error",
+      "description": "This instance should not have been part of this patient's medical record.",
+      "filter": null
+    }
+  ]
+}

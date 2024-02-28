@@ -1,0 +1,141 @@
+{
+  "name": "HumanNameAssemblyOrder",
+  "resource_id": "name-assembly-order",
+  "resource_url": "http://hl7.org/fhir/ValueSet/name-assembly-order",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/name-assembly-order"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0444",
+        "concept": [
+          {
+            "code": "F",
+            "display": "Prefix Family Given Suffix"
+          },
+          {
+            "code": "G",
+            "display": "Prefix Given Family Suffix"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "code": "UNK",
+            "display": "Unknown"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "A code that represents the preferred display order of the components of a human name.",
+  "related_codesystems": [
+    {
+      "id": "name-assembly-order",
+      "url": "http://terminology.hl7.org/CodeSystem/name-assembly-order"
+    },
+    {
+      "id": "v2-0444",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0444"
+    },
+    {
+      "id": "v3-NullFlavor",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "NL1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/name-assembly-order",
+      "display": "Own Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NL2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/name-assembly-order",
+      "display": "Partner Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NL3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/name-assembly-order",
+      "display": "Partner Name followed by Maiden Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NL4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/name-assembly-order",
+      "display": "Own Name followed by Partner Name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0444",
+      "display": "Prefix Family Middle Given Suffix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0444",
+      "display": "Prefix Given Middle Family Suffix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Prefix Family Given Suffix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Prefix Given Family Suffix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

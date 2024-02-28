@@ -1,0 +1,61 @@
+{
+  "name": "ResearchStudyReasonStopped",
+  "resource_id": "research-study-reason-stopped",
+  "resource_url": "http://hl7.org/fhir/ValueSet/research-study-reason-stopped",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped"
+      }
+    ]
+  },
+  "description": "Codes for why the study ended prematurely.",
+  "related_codesystems": [
+    {
+      "id": "research-study-reason-stopped",
+      "url": "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "accrual-goal-met",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
+      "display": "Accrual Goal Met",
+      "description": "The study prematurely ended because the accrual goal was met.",
+      "filter": null
+    },
+    {
+      "code": "closed-due-to-toxicity",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
+      "display": "Closed due to toxicity",
+      "description": "The study prematurely ended due to toxicity.",
+      "filter": null
+    },
+    {
+      "code": "closed-due-to-lack-of-study-progress",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
+      "display": "Closed due to lack of study progress",
+      "description": "The study prematurely ended due to lack of study progress.",
+      "filter": null
+    },
+    {
+      "code": "temporarily-closed-per-study-design",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
+      "display": "Temporarily closed per study design",
+      "description": "The study prematurely ended temporarily per study design.",
+      "filter": null
+    }
+  ]
+}

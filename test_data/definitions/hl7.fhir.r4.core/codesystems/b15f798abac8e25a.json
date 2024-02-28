@@ -1,0 +1,38 @@
+{
+  "name": "v2.0269",
+  "resource_id": "v2-0269",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0269",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "O",
+      "display": "Charge on Order",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Facturatie bij aanvraag"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Charge on Result",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Facturatie bij resultaat"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

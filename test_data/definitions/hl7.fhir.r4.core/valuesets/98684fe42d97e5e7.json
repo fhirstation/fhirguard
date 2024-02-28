@@ -1,0 +1,51 @@
+{
+  "name": "CopyNumberEvent",
+  "resource_id": "copy-number-event",
+  "resource_url": "http://hl7.org/fhir/ValueSet/copy-number-event",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/copy-number-event"
+      }
+    ]
+  },
+  "description": "Copy Number Event.",
+  "related_codesystems": [
+    {
+      "id": "copy-number-event",
+      "url": "http://terminology.hl7.org/CodeSystem/copy-number-event"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "amp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/copy-number-event",
+      "display": "amplification",
+      "description": "amplification.",
+      "filter": null
+    },
+    {
+      "code": "del",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/copy-number-event",
+      "display": "deletion",
+      "description": "deletion.",
+      "filter": null
+    },
+    {
+      "code": "lof",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/copy-number-event",
+      "display": "loss of function",
+      "description": "loss of function.",
+      "filter": null
+    }
+  ]
+}

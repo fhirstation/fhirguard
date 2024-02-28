@@ -1,0 +1,22 @@
+{
+  "name": "v2.0755",
+  "resource_id": "v2-0755",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0755",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "No weight reported at admission used for grouping"
+    },
+    {
+      "code": "1",
+      "display": "Weight reported at admission used for grouping"
+    },
+    {
+      "code": "2",
+      "display": "Default weight (>2499g) used for grouping"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

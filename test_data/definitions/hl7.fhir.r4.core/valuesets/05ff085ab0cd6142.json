@@ -1,0 +1,39 @@
+{
+  "name": "SNOMEDCTAdditionalDosageInstructions",
+  "resource_id": "additional-instruction-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/additional-instruction-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "419492006"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes all SNOMED CT Additional Dosage Instructions.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "419492006"
+        }
+      ]
+    }
+  ]
+}

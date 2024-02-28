@@ -1,0 +1,131 @@
+{
+  "name": "v2.0508",
+  "resource_id": "v2-0508",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0508",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0508"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0508 ( Blood Product Processing Requirements)",
+  "related_codesystems": [
+    {
+      "id": "v2-0508",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0508"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Autologous Unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "CMV Negative",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "CMV Safe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Directed Unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Fresh unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Hemoglobin S Negative",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "HLA Matched",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "IgA Deficient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Irradiated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Leukoreduced",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0508",
+      "display": "Washed",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

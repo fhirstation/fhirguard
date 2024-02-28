@@ -1,0 +1,39 @@
+{
+  "name": "AllUCUMExpressionForTime",
+  "resource_id": "all-time-units",
+  "resource_url": "http://hl7.org/fhir/ValueSet/all-time-units",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "filter": [
+          {
+            "property": "canonical",
+            "op": "=",
+            "value": "a"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Unified Code for Units of Measure (UCUM). This value set includes all UCUM codes for units of time",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": [
+        {
+          "property": "canonical",
+          "op": "=",
+          "value": "a"
+        }
+      ]
+    }
+  ]
+}

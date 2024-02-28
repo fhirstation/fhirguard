@@ -1,0 +1,61 @@
+{
+  "name": "EligibilityResponsePurpose",
+  "resource_id": "eligibilityresponse-purpose",
+  "resource_url": "http://hl7.org/fhir/ValueSet/eligibilityresponse-purpose",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/eligibilityresponse-purpose"
+      }
+    ]
+  },
+  "description": "A code specifying the types of information being requested.",
+  "related_codesystems": [
+    {
+      "id": "eligibilityresponse-purpose",
+      "url": "http://hl7.org/fhir/eligibilityresponse-purpose"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "auth-requirements",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/eligibilityresponse-purpose",
+      "display": "Coverage auth-requirements",
+      "description": "The prior authorization requirements for the listed, or discovered if specified, converages for the categories of service and/or specifed biling codes are requested.",
+      "filter": null
+    },
+    {
+      "code": "benefits",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/eligibilityresponse-purpose",
+      "display": "Coverage benefits",
+      "description": "The plan benefits and optionally benefits consumed  for the listed, or discovered if specified, converages are requested.",
+      "filter": null
+    },
+    {
+      "code": "discovery",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/eligibilityresponse-purpose",
+      "display": "Coverage Discovery",
+      "description": "The insurer is requested to report on any coverages which they are aware of in addition to any specifed.",
+      "filter": null
+    },
+    {
+      "code": "validation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/eligibilityresponse-purpose",
+      "display": "Coverage Validation",
+      "description": "A check that the specified coverages are in-force is requested.",
+      "filter": null
+    }
+  ]
+}

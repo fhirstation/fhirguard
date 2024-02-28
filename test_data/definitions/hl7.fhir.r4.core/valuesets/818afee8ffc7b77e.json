@@ -1,0 +1,151 @@
+{
+  "name": "v2.0925",
+  "resource_id": "v2-0925",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0925",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0925"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0925 ( Phlebotomy Issue)",
+  "related_codesystems": [
+    {
+      "id": "v2-0925",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0925"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Air Contamination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Clotted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Collapse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DAK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Defective Apheresis Kit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Defective Bag",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DMT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Defective Instrument",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Defective Needle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Infiltration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IPF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Instrument Power Failure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Missed / in tissue",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Needle adjustment (this may not end a procedure, if successful will impact component production)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Poor flow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VSM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0925",
+      "display": "Vein Spasm",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

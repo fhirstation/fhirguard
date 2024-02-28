@@ -1,0 +1,51 @@
+{
+  "name": "TestReportParticipantType",
+  "resource_id": "report-participant-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/report-participant-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/report-participant-type"
+      }
+    ]
+  },
+  "description": "The type of participant.",
+  "related_codesystems": [
+    {
+      "id": "report-participant-type",
+      "url": "http://hl7.org/fhir/report-participant-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "test-engine",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-participant-type",
+      "display": "Test Engine",
+      "description": "The test execution engine.",
+      "filter": null
+    },
+    {
+      "code": "client",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-participant-type",
+      "display": "Client",
+      "description": "A FHIR Client.",
+      "filter": null
+    },
+    {
+      "code": "server",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-participant-type",
+      "display": "Server",
+      "description": "A FHIR Server.",
+      "filter": null
+    }
+  ]
+}

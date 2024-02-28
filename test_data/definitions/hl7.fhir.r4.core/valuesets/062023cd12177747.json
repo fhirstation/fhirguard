@@ -1,0 +1,51 @@
+{
+  "name": "v2.0277",
+  "resource_id": "v2-0277",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0277",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0277"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0277 ( Appointment Type Codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0277",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0277"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Complete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0277",
+      "display": "A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Normal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0277",
+      "display": "Routine schedule request type – default if not valued",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Tentative",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0277",
+      "display": "A request for a tentative (e.g., “penciled in”) appointment",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

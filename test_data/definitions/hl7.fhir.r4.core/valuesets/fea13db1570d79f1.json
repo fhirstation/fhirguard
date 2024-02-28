@@ -1,0 +1,51 @@
+{
+  "name": "v2.0213",
+  "resource_id": "v2-0213",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0213",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0213"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0213 ( Purge Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0213",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0213"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0213",
+      "display": "The visit is marked for deletion and the user cannot enter new data against it.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0213",
+      "display": "The visit is marked inactive and the user cannot enter new data against it.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0213",
+      "display": "Marked for purge.  User is no longer able to update the visit.",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

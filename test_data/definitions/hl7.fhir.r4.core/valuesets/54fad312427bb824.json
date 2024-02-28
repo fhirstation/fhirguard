@@ -1,0 +1,61 @@
+{
+  "name": "OralProsthoMaterialTypeCodes",
+  "resource_id": "oral-prosthodontic-material",
+  "resource_url": "http://hl7.org/fhir/ValueSet/oral-prosthodontic-material",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/ex-oralprostho"
+      }
+    ]
+  },
+  "description": "This value set includes sample Oral Prosthodontic Material type codes.",
+  "related_codesystems": [
+    {
+      "id": "oral-prosthodontic-material",
+      "url": "http://hl7.org/fhir/ex-oralprostho"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-oralprostho",
+      "display": "Fixed Bridge",
+      "description": "Fixed Bridge",
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-oralprostho",
+      "display": "Maryland Bridge",
+      "description": "Maryland Bridge",
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-oralprostho",
+      "display": "Denture Acrylic",
+      "description": "Denture Acrylic",
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-oralprostho",
+      "display": "Denture Chrome Cobalt",
+      "description": "Denture Chrome Cobalt",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "SubscriptionChannelType",
+  "resource_id": "subscription-channel-type",
+  "resource_url": "http://hl7.org/fhir/subscription-channel-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "rest-hook",
+      "display": "Rest Hook",
+      "definition": "The channel is executed by making a post to the URI. If a payload is included, the URL is interpreted as the service base, and an update (PUT) is made."
+    },
+    {
+      "code": "websocket",
+      "display": "Websocket",
+      "definition": "The channel is executed by sending a packet across a web socket connection maintained by the client. The URL identifies the websocket, and the client binds to this URL."
+    },
+    {
+      "code": "email",
+      "display": "Email",
+      "definition": "The channel is executed by sending an email to the email addressed in the URI (which must be a mailto:)."
+    },
+    {
+      "code": "sms",
+      "display": "SMS",
+      "definition": "The channel is executed by sending an SMS message to the phone number identified in the URL (tel:)."
+    },
+    {
+      "code": "message",
+      "display": "Message",
+      "definition": "The channel is executed by sending a message (e.g. a Bundle with a MessageHeader resource etc.) to the application identified in the URI."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SubscriptionChannelType",
+    "resource_id": "subscription-channel-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/subscription-channel-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/subscription-channel-type"
+        }
+      ]
+    },
+    "description": "The type of method used to execute a subscription.",
+    "related_codesystems": [
+      {
+        "id": "subscription-channel-type",
+        "url": "http://hl7.org/fhir/subscription-channel-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "rest-hook",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-channel-type",
+        "display": "Rest Hook",
+        "description": "The channel is executed by making a post to the URI. If a payload is included, the URL is interpreted as the service base, and an update (PUT) is made.",
+        "filter": null
+      },
+      {
+        "code": "websocket",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-channel-type",
+        "display": "Websocket",
+        "description": "The channel is executed by sending a packet across a web socket connection maintained by the client. The URL identifies the websocket, and the client binds to this URL.",
+        "filter": null
+      },
+      {
+        "code": "email",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-channel-type",
+        "display": "Email",
+        "description": "The channel is executed by sending an email to the email addressed in the URI (which must be a mailto:).",
+        "filter": null
+      },
+      {
+        "code": "sms",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-channel-type",
+        "display": "SMS",
+        "description": "The channel is executed by sending an SMS message to the phone number identified in the URL (tel:).",
+        "filter": null
+      },
+      {
+        "code": "message",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/subscription-channel-type",
+        "display": "Message",
+        "description": "The channel is executed by sending a message (e.g. a Bundle with a MessageHeader resource etc.) to the application identified in the URI.",
+        "filter": null
+      }
+    ]
+  }
+}

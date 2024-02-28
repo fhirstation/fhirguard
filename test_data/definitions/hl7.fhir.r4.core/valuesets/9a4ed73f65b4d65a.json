@@ -1,0 +1,41 @@
+{
+  "name": "v2.0210",
+  "resource_id": "v2-0210",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0210",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0210"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0210 ( Relational Conjunction)",
+  "related_codesystems": [
+    {
+      "id": "v2-0210",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0210"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0210",
+      "display": "Default",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0210",
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

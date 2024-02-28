@@ -1,0 +1,61 @@
+{
+  "name": "ExplanationOfBenefitStatus",
+  "resource_id": "explanationofbenefit-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/explanationofbenefit-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/explanationofbenefit-status"
+      }
+    ]
+  },
+  "description": "A code specifying the state of the resource instance.",
+  "related_codesystems": [
+    {
+      "id": "explanationofbenefit-status",
+      "url": "http://hl7.org/fhir/explanationofbenefit-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/explanationofbenefit-status",
+      "display": "Active",
+      "description": "The resource instance is currently in-force.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/explanationofbenefit-status",
+      "display": "Cancelled",
+      "description": "The resource instance is withdrawn, rescinded or reversed.",
+      "filter": null
+    },
+    {
+      "code": "draft",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/explanationofbenefit-status",
+      "display": "Draft",
+      "description": "A new resource instance the contents of which is not complete.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/explanationofbenefit-status",
+      "display": "Entered In Error",
+      "description": "The resource instance was entered in error.",
+      "filter": null
+    }
+  ]
+}

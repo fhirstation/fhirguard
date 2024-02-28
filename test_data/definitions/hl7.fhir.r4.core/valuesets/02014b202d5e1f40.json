@@ -1,0 +1,51 @@
+{
+  "name": "v2.0569",
+  "resource_id": "v2-0569",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0569",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0569"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0569 ( Adjustment Action)",
+  "related_codesystems": [
+    {
+      "id": "v2-0569",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0569"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "EOB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0569",
+      "display": "Print on EOB",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0569",
+      "display": "Inform Patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0569",
+      "display": "Inform Provider",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

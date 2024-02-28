@@ -1,0 +1,91 @@
+{
+  "name": "DaysOfWeek",
+  "resource_id": "days-of-week",
+  "resource_url": "http://hl7.org/fhir/ValueSet/days-of-week",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/days-of-week"
+      }
+    ]
+  },
+  "description": "The days of the week.",
+  "related_codesystems": [
+    {
+      "id": "days-of-week",
+      "url": "http://hl7.org/fhir/days-of-week"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "mon",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Monday",
+      "description": "Monday.",
+      "filter": null
+    },
+    {
+      "code": "tue",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Tuesday",
+      "description": "Tuesday.",
+      "filter": null
+    },
+    {
+      "code": "wed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Wednesday",
+      "description": "Wednesday.",
+      "filter": null
+    },
+    {
+      "code": "thu",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Thursday",
+      "description": "Thursday.",
+      "filter": null
+    },
+    {
+      "code": "fri",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Friday",
+      "description": "Friday.",
+      "filter": null
+    },
+    {
+      "code": "sat",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Saturday",
+      "description": "Saturday.",
+      "filter": null
+    },
+    {
+      "code": "sun",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/days-of-week",
+      "display": "Sunday",
+      "description": "Sunday.",
+      "filter": null
+    }
+  ]
+}

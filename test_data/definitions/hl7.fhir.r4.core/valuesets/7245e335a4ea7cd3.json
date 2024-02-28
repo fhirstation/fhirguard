@@ -1,0 +1,61 @@
+{
+  "name": "ExampleDiagnosisRelatedGroupCodes",
+  "resource_id": "ex-diagnosisrelatedgroup",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ex-diagnosisrelatedgroup",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup"
+      }
+    ]
+  },
+  "description": "This value set includes example Diagnosis Related Group codes.",
+  "related_codesystems": [
+    {
+      "id": "ex-diagnosisrelatedgroup",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "100",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup",
+      "display": "Normal Vaginal Delivery",
+      "description": "Normal Vaginal Delivery.",
+      "filter": null
+    },
+    {
+      "code": "101",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup",
+      "display": "Appendectomy - uncomplicated",
+      "description": "Appendectomy without rupture or other complications.",
+      "filter": null
+    },
+    {
+      "code": "300",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup",
+      "display": "Tooth abscess",
+      "description": "Emergency department treatment of a tooth abscess.",
+      "filter": null
+    },
+    {
+      "code": "400",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-diagnosisrelatedgroup",
+      "display": "Head trauma - concussion",
+      "description": "Head trauma - concussion.",
+      "filter": null
+    }
+  ]
+}

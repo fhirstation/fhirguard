@@ -1,0 +1,85 @@
+{
+  "name": "FluidConsistencyTypeCodes",
+  "resource_id": "consistency-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consistency-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/731000124108",
+        "concept": [
+          {
+            "code": "439031000124108",
+            "display": "honey thick liquid"
+          },
+          {
+            "code": "439021000124105",
+            "display": "nectar thick liquid"
+          },
+          {
+            "code": "439041000124103",
+            "display": "spoon thick liquid"
+          },
+          {
+            "code": "439081000124109",
+            "display": "thin liquid"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "FluidConsistencyType :  Codes used to represent the consistency of fluids and liquids provided to the patient. This value set includes concepts from [SNOMED CT](http://snomed.info/sct)(US Extension) where concept is a 435681000124103  (Dietary liquid consistency diet (regime/therapy)). It is provided as a suggestive example.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "439031000124108",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "honey thick liquid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "439021000124105",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "nectar thick liquid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "439041000124103",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "spoon thick liquid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "439081000124109",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "thin liquid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": "http://snomed.info/sct/731000124108",
+      "filter": null
+    }
+  ]
+}

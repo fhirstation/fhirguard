@@ -1,0 +1,671 @@
+{
+  "name": "v2.0290",
+  "resource_id": "v2-0290",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0290",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0290"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0290 ( MIME base64 encoding Characters)",
+  "related_codesystems": [
+    {
+      "id": "v2-0290",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0290"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "(pad)",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "=",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "0",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "A",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "B",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "K",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "L",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "M",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "N",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "O",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "P",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "Q",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "R",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "S",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "T",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "C",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "U",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "V",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "W",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "X",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "Y",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "Z",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "a",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "b",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "c",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "d",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "D",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "e",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "f",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "g",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "h",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "I",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "j",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "k",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "l",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "m",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "n",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "E",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "o",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "p",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "q",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "r",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "s",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "t",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "u",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "v",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "w",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "x",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "F",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "y",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "z",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "0",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "53",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "54",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "3",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "57",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "58",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "6",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "59",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "7",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "G",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "60",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "8",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "61",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "9",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "62",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "+",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "63",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "/",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "H",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "I",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0290",
+      "display": "J",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "EncounterLocationStatus",
+  "resource_id": "encounter-location-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/encounter-location-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/encounter-location-status"
+      }
+    ]
+  },
+  "description": "The status of the location.",
+  "related_codesystems": [
+    {
+      "id": "encounter-location-status",
+      "url": "http://hl7.org/fhir/encounter-location-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "planned",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-location-status",
+      "display": "Planned",
+      "description": "The patient is planned to be moved to this location at some point in the future.",
+      "filter": null
+    },
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-location-status",
+      "display": "Active",
+      "description": "The patient is currently at this location, or was between the period specified.\r\rA system may update these records when the patient leaves the location to either reserved, or completed.",
+      "filter": null
+    },
+    {
+      "code": "reserved",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-location-status",
+      "display": "Reserved",
+      "description": "This location is held empty for this patient.",
+      "filter": null
+    },
+    {
+      "code": "completed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-location-status",
+      "display": "Completed",
+      "description": "The patient was at this location during the period specified.\r\rNot to be used when the patient is currently at the location.",
+      "filter": null
+    }
+  ]
+}

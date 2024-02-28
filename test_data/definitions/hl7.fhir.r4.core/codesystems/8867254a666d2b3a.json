@@ -1,0 +1,90 @@
+{
+  "name": "CommunicationCategory",
+  "resource_id": "communication-category",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/communication-category",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "alert",
+      "display": "Alert",
+      "definition": "The communication conveys an alert."
+    },
+    {
+      "code": "notification",
+      "display": "Notification",
+      "definition": "The communication conveys a notification."
+    },
+    {
+      "code": "reminder",
+      "display": "Reminder",
+      "definition": "The communication conveys a reminder."
+    },
+    {
+      "code": "instruction",
+      "display": "Instruction",
+      "definition": "The communication conveys an instruction."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "CommunicationCategory",
+    "resource_id": "communication-category",
+    "resource_url": "http://hl7.org/fhir/ValueSet/communication-category",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/communication-category"
+        }
+      ]
+    },
+    "description": "Codes for general categories of communications such as alerts, instructions, etc.",
+    "related_codesystems": [
+      {
+        "id": "communication-category",
+        "url": "http://terminology.hl7.org/CodeSystem/communication-category"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "alert",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/communication-category",
+        "display": "Alert",
+        "description": "The communication conveys an alert.",
+        "filter": null
+      },
+      {
+        "code": "notification",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/communication-category",
+        "display": "Notification",
+        "description": "The communication conveys a notification.",
+        "filter": null
+      },
+      {
+        "code": "reminder",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/communication-category",
+        "display": "Reminder",
+        "description": "The communication conveys a reminder.",
+        "filter": null
+      },
+      {
+        "code": "instruction",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/communication-category",
+        "display": "Instruction",
+        "description": "The communication conveys an instruction.",
+        "filter": null
+      }
+    ]
+  }
+}

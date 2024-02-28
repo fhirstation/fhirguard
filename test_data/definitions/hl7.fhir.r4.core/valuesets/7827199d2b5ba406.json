@@ -1,0 +1,51 @@
+{
+  "name": "v2.0494",
+  "resource_id": "v2-0494",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0494",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0494"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0494 ( Specimen Child Role)",
+  "related_codesystems": [
+    {
+      "id": "v2-0494",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0494"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0494",
+      "display": "Aliquot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0494",
+      "display": "Component",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0494",
+      "display": "Modified from original specimen",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "ContractResourceDefinitionSubtypeCodes",
+  "resource_id": "contract-definition-subtype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-definition-subtype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contract-definition-subtype"
+      }
+    ]
+  },
+  "description": "This value set contract specific codes for status.",
+  "related_codesystems": [
+    {
+      "id": "contract-definition-subtype",
+      "url": "http://hl7.org/fhir/contract-definition-subtype"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "temp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/contract-definition-subtype",
+      "display": "Temporary Value",
+      "description": "To be completed",
+      "filter": null
+    }
+  ]
+}

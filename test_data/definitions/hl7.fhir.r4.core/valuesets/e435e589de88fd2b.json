@@ -1,0 +1,41 @@
+{
+  "name": "v2.0398",
+  "resource_id": "v2-0398",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0398",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0398"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0398 ( Continuation style code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0398",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0398"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0398",
+      "display": "Fragmentation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0398",
+      "display": "Interactive Continuation",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

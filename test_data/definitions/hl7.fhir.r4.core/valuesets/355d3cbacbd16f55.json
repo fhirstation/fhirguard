@@ -1,0 +1,111 @@
+{
+  "name": "v2.0004",
+  "resource_id": "v2-0004",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0004",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0004"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0004 ( PATIENT CLASS)",
+  "related_codesystems": [
+    {
+      "id": "v2-0004",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0004"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Obstetrics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Commercial Account",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Emergency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Inpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Not Applicable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Outpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Preadmit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Recurring patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

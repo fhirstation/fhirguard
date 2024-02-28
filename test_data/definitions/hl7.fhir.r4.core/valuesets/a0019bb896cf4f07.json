@@ -1,0 +1,54 @@
+{
+  "name": "ImmunizationRecommendationReasonCodes",
+  "resource_id": "immunization-recommendation-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/immunization-recommendation-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "77176002"
+          },
+          {
+            "code": "77386006"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reasons why a given recommendation status is assigned. This value set is provided as a suggestive example and includes SNOMED CT concepts.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "77176002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77386006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

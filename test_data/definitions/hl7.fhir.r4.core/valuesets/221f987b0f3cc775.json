@@ -1,0 +1,26 @@
+{
+  "name": "LOINCCodes",
+  "resource_id": "observation-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/observation-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "description": "This value set includes all LOINC codes",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://loinc.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://loinc.org",
+      "display": "http://loinc.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "strandType",
+  "resource_id": "strand-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/strand-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/strand-type"
+      }
+    ]
+  },
+  "description": "Type for strand.",
+  "related_codesystems": [
+    {
+      "id": "strand-type",
+      "url": "http://hl7.org/fhir/strand-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "watson",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/strand-type",
+      "display": "Watson strand of referenceSeq",
+      "description": "Watson strand of reference sequence.",
+      "filter": null
+    },
+    {
+      "code": "crick",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/strand-type",
+      "display": "Crick strand of referenceSeq",
+      "description": "Crick strand of reference sequence.",
+      "filter": null
+    }
+  ]
+}

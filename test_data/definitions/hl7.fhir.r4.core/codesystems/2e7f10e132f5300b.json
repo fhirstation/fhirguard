@@ -1,0 +1,76 @@
+{
+  "name": "v2.0161",
+  "resource_id": "v2-0161",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0161",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "G",
+      "display": "Allow generic substitutions.",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Substitution durch Generika erlaubt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Generieke substituties toegestaan"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Substitutions are NOT authorized.  (This is the default - null.)",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Substitution nicht erlaubt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Substituties NIET geautoriseerd (Standaardwaarde.)"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Allow therapeutic substitutions",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Therapieorientierte Substitution erlaubt"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Therapeutische substituties toegestaan"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

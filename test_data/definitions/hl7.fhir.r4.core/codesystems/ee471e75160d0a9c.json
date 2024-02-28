@@ -1,0 +1,86 @@
+{
+  "name": "failure-action",
+  "resource_id": "verificationresult-failure-action",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/failure-action",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "fatal",
+      "display": "Fatal"
+    },
+    {
+      "code": "warn",
+      "display": "Warning"
+    },
+    {
+      "code": "rec-only",
+      "display": "Record only"
+    },
+    {
+      "code": "none",
+      "display": "None"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "failure-action",
+    "resource_id": "verificationresult-failure-action",
+    "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-failure-action",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/failure-action"
+        }
+      ]
+    },
+    "description": "The result if validation fails",
+    "related_codesystems": [
+      {
+        "id": "verificationresult-failure-action",
+        "url": "http://terminology.hl7.org/CodeSystem/failure-action"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "fatal",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/failure-action",
+        "display": "Fatal",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "warn",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/failure-action",
+        "display": "Warning",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "rec-only",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/failure-action",
+        "display": "Record only",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "none",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/failure-action",
+        "display": "None",
+        "description": null,
+        "filter": null
+      }
+    ]
+  }
+}

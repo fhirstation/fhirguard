@@ -1,0 +1,571 @@
+{
+  "name": "v2.0227",
+  "resource_id": "v2-0227",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0227",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0227"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0227 ( Manufacturers of Vaccines)",
+  "related_codesystems": [
+    {
+      "id": "v2-0227",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0227"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Abbott Laboratories",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Adams Laboratories, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Alpha Therapeutic Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Armour",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AVB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Aventis Behring L.L.C.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AVI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Aviron",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Baxter Healthcare Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Baxter Healthcare Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Bayer Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Berna Products",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Berna Products Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Centeon L.L.C.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Chiron Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Celltech Medeva Pharmaceuticals",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Cangene Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Connaught",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DVC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "DynPort Vaccine Company, LLC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EVN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Evans Medical Limited",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GEO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "GeoVax Labs, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Greer Laboratories, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IAG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Immuno International AG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Merieux",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Immuno-U.S., Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "The Research Foundation for Microbial Diseases of Osaka University",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KGC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Korea Green Cross Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Lederle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Massachusetts Public Health Biologic Laboratories",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MBL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Massachusetts Biologic Laboratories",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "MedImmune, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Miles",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Bioport Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Merck & Co., Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "NABI",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "North American Vaccine, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Novartis Pharmaceutical Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NVX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Novavax, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NYB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "New York Blood Center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Ortho-Clinical Diagnostics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Organon Teknika Corporation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Other manufacturer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Parkedale Pharmaceuticals",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "sanofi pasteur",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Praxis Biologics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PWJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "PowderJect Pharmaceuticals",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Sclavo, Inc.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Swiss Serum and Vaccine Inst.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SKB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "GlaxoSmithKline",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Solvay Pharmaceuticals",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Talecris Biotherapeutics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Unknown manufacturer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "United States Army Medical Research and Material Command",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "VaxGen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Wyeth-Ayerst",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "Wyeth-Ayerst",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ZLB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0227",
+      "display": "ZLB Behring",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Indicator",
+  "resource_id": "cdshooks-indicator",
+  "resource_url": "http://cds-hooks.hl7.org/CodeSystem/indicator",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "info",
+      "display": "The response is informational"
+    },
+    {
+      "code": "warning",
+      "display": "The response is a warning"
+    },
+    {
+      "code": "critical",
+      "display": "The response is critical and indicates the workflow should not be allowed to proceed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "Indicator",
+    "resource_id": "cdshooks-indicator",
+    "resource_url": "http://hl7.org/fhir/ValueSet/cdshooks-indicator",
+    "compose": {
+      "include": [
+        {
+          "system": "http://cds-hooks.hl7.org/CodeSystem/indicator"
+        }
+      ]
+    },
+    "description": "This value set captures the set of indicator codes defined by the CDS Hooks specification.",
+    "related_codesystems": [
+      {
+        "id": "cdshooks-indicator",
+        "url": "http://cds-hooks.hl7.org/CodeSystem/indicator"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "info",
+        "type": [
+          "concept"
+        ],
+        "system": "http://cds-hooks.hl7.org/CodeSystem/indicator",
+        "display": "The response is informational",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "warning",
+        "type": [
+          "concept"
+        ],
+        "system": "http://cds-hooks.hl7.org/CodeSystem/indicator",
+        "display": "The response is a warning",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "critical",
+        "type": [
+          "concept"
+        ],
+        "system": "http://cds-hooks.hl7.org/CodeSystem/indicator",
+        "display": "The response is critical and indicates the workflow should not be allowed to proceed",
+        "description": null,
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "FoodTypeCodes",
+  "resource_id": "food-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/food-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "255620007"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set represents codes for types of foods and is provided as a suggestive example. It include codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 255620007 (Foods (substance)).",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "255620007"
+        }
+      ]
+    }
+  ]
+}

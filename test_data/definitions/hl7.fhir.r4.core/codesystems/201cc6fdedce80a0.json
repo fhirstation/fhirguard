@@ -1,0 +1,90 @@
+{
+  "name": "DefinitionStatus",
+  "resource_id": "definition-status",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/definition-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "draft",
+      "display": "Draft",
+      "definition": "The definition is in the design stage and is not yet considered to be \"ready for use\"."
+    },
+    {
+      "code": "active",
+      "display": "Active",
+      "definition": "The definition is considered ready for use."
+    },
+    {
+      "code": "withdrawn",
+      "display": "Withdrawn",
+      "definition": "The definition should no longer be used."
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "The authoring/source system does not know which of the status values currently applies for this resource.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DefinitionStatus",
+    "resource_id": "definition-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/definition-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/definition-status"
+        }
+      ]
+    },
+    "description": "Codes identifying the lifecycle stage of a definition.",
+    "related_codesystems": [
+      {
+        "id": "definition-status",
+        "url": "http://terminology.hl7.org/CodeSystem/definition-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "draft",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/definition-status",
+        "display": "Draft",
+        "description": "The definition is in the design stage and is not yet considered to be \"ready for use\".",
+        "filter": null
+      },
+      {
+        "code": "active",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/definition-status",
+        "display": "Active",
+        "description": "The definition is considered ready for use.",
+        "filter": null
+      },
+      {
+        "code": "withdrawn",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/definition-status",
+        "display": "Withdrawn",
+        "description": "The definition should no longer be used.",
+        "filter": null
+      },
+      {
+        "code": "unknown",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/definition-status",
+        "display": "Unknown",
+        "description": "The authoring/source system does not know which of the status values currently applies for this resource.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.",
+        "filter": null
+      }
+    ]
+  }
+}

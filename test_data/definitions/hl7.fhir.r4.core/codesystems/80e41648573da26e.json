@@ -1,0 +1,60 @@
+{
+  "name": "SortDirection",
+  "resource_id": "sort-direction",
+  "resource_url": "http://hl7.org/fhir/sort-direction",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ascending",
+      "display": "Ascending",
+      "definition": "Sort by the value ascending, so that lower values appear first."
+    },
+    {
+      "code": "descending",
+      "display": "Descending",
+      "definition": "Sort by the value descending, so that lower values appear last."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SortDirection",
+    "resource_id": "sort-direction",
+    "resource_url": "http://hl7.org/fhir/ValueSet/sort-direction",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/sort-direction"
+        }
+      ]
+    },
+    "description": "The possible sort directions, ascending or descending.",
+    "related_codesystems": [
+      {
+        "id": "sort-direction",
+        "url": "http://hl7.org/fhir/sort-direction"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ascending",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/sort-direction",
+        "display": "Ascending",
+        "description": "Sort by the value ascending, so that lower values appear first.",
+        "filter": null
+      },
+      {
+        "code": "descending",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/sort-direction",
+        "display": "Descending",
+        "description": "Sort by the value descending, so that lower values appear last.",
+        "filter": null
+      }
+    ]
+  }
+}

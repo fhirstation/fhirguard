@@ -1,0 +1,120 @@
+{
+  "name": "GroupMeasure",
+  "resource_id": "group-measure",
+  "resource_url": "http://hl7.org/fhir/group-measure",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "mean",
+      "display": "Mean",
+      "definition": "Aggregated using Mean of participant values."
+    },
+    {
+      "code": "median",
+      "display": "Median",
+      "definition": "Aggregated using Median of participant values."
+    },
+    {
+      "code": "mean-of-mean",
+      "display": "Mean of Study Means",
+      "definition": "Aggregated using Mean of study mean values."
+    },
+    {
+      "code": "mean-of-median",
+      "display": "Mean of Study Medins",
+      "definition": "Aggregated using Mean of study median values."
+    },
+    {
+      "code": "median-of-mean",
+      "display": "Median of Study Means",
+      "definition": "Aggregated using Median of study mean values."
+    },
+    {
+      "code": "median-of-median",
+      "display": "Median of Study Medians",
+      "definition": "Aggregated using Median of study median values."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "GroupMeasure",
+    "resource_id": "group-measure",
+    "resource_url": "http://hl7.org/fhir/ValueSet/group-measure",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/group-measure"
+        }
+      ]
+    },
+    "description": "Possible group measure aggregates (E.g. Mean, Median).",
+    "related_codesystems": [
+      {
+        "id": "group-measure",
+        "url": "http://hl7.org/fhir/group-measure"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "mean",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/group-measure",
+        "display": "Mean",
+        "description": "Aggregated using Mean of participant values.",
+        "filter": null
+      },
+      {
+        "code": "median",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/group-measure",
+        "display": "Median",
+        "description": "Aggregated using Median of participant values.",
+        "filter": null
+      },
+      {
+        "code": "mean-of-mean",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/group-measure",
+        "display": "Mean of Study Means",
+        "description": "Aggregated using Mean of study mean values.",
+        "filter": null
+      },
+      {
+        "code": "mean-of-median",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/group-measure",
+        "display": "Mean of Study Medins",
+        "description": "Aggregated using Mean of study median values.",
+        "filter": null
+      },
+      {
+        "code": "median-of-mean",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/group-measure",
+        "display": "Median of Study Means",
+        "description": "Aggregated using Median of study mean values.",
+        "filter": null
+      },
+      {
+        "code": "median-of-median",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/group-measure",
+        "display": "Median of Study Medians",
+        "description": "Aggregated using Median of study median values.",
+        "filter": null
+      }
+    ]
+  }
+}

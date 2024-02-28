@@ -1,0 +1,52 @@
+{
+  "name": "v2.0497",
+  "resource_id": "v2-0497",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0497",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "T",
+      "display": "Telephone",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Telefonisch"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "display": "Verbal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Mondeling"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Written",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Op schrift"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

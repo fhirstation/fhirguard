@@ -1,0 +1,38 @@
+{
+  "name": "v2.0393",
+  "resource_id": "v2-0393",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0393",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "LINKSOFT_2.01",
+      "display": "Proprietary algorithm for LinkSoft v2.01",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Propriëtair algoritme voor LinkSoft v2.01"
+        }
+      ]
+    },
+    {
+      "code": "MATCHWARE_1.2",
+      "display": "Proprietary algorithm for MatchWare v1.2",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Propriëtair algoritme voor MatchWare v1.2"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

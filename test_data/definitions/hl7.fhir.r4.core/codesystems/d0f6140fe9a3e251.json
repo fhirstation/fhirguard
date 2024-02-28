@@ -1,0 +1,38 @@
+{
+  "name": "v2.0398",
+  "resource_id": "v2-0398",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0398",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "F",
+      "display": "Fragmentation",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Fragmentatie"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Interactive Continuation",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Interactieve continuatie"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

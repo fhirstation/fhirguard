@@ -1,0 +1,81 @@
+{
+  "name": "AdditionalMaterialCodes",
+  "resource_id": "additionalmaterials",
+  "resource_url": "http://hl7.org/fhir/ValueSet/additionalmaterials",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/additionalmaterials"
+      }
+    ]
+  },
+  "description": "This value set includes sample additional material type codes.",
+  "related_codesystems": [
+    {
+      "id": "additionalmaterials",
+      "url": "http://hl7.org/fhir/additionalmaterials"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "xray",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/additionalmaterials",
+      "display": "XRay",
+      "description": "XRay",
+      "filter": null
+    },
+    {
+      "code": "image",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/additionalmaterials",
+      "display": "Image",
+      "description": "Image",
+      "filter": null
+    },
+    {
+      "code": "email",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/additionalmaterials",
+      "display": "Email",
+      "description": "Email",
+      "filter": null
+    },
+    {
+      "code": "model",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/additionalmaterials",
+      "display": "Model",
+      "description": "Model",
+      "filter": null
+    },
+    {
+      "code": "document",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/additionalmaterials",
+      "display": "Document",
+      "description": "Document",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/additionalmaterials",
+      "display": "Other",
+      "description": "Other",
+      "filter": null
+    }
+  ]
+}

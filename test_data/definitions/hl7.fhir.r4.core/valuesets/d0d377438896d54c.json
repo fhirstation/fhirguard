@@ -1,0 +1,141 @@
+{
+  "name": "v2.0278",
+  "resource_id": "v2-0278",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0278",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0278"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0278 ( Filler Status Codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0278",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0278"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Blocked",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Blocked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Booked",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Booked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Cancelled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Complete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Complete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Discontinued",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Deleted",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Deleted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Discontinued",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Discontinued",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Noshow",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Noshow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Overbook",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Overbook",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Pending",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Pending",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Started",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Started",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Waitlist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0278",
+      "display": "Waitlist",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "PaymentStatusCodes",
+  "resource_id": "payment-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/payment-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/paymentstatus"
+      }
+    ]
+  },
+  "description": "This value set includes a sample set of Payment Status codes.",
+  "related_codesystems": [
+    {
+      "id": "payment-status",
+      "url": "http://terminology.hl7.org/CodeSystem/paymentstatus"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "paid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/paymentstatus",
+      "display": "Paid",
+      "description": "The payment has been sent physically or electronically.",
+      "filter": null
+    },
+    {
+      "code": "cleared",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/paymentstatus",
+      "display": "Cleared",
+      "description": "The payment has been received by the payee.",
+      "filter": null
+    }
+  ]
+}

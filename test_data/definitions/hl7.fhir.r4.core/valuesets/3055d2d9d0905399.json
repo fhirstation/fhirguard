@@ -1,0 +1,390 @@
+{
+  "name": "v2.0532",
+  "resource_id": "v2-0532",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0532",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "concept": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "Information was sought but not found (e.g., patient was asked but didn't know"
+              }
+            ],
+            "code": "ASKU",
+            "display": "asked but unknown"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "No proper value is applicable in this context (e.g., last menstrual period for a male)"
+              }
+            ],
+            "code": "NA",
+            "display": "not applicable"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "This information has not been sought (e.g., patient was not asked"
+              }
+            ],
+            "code": "NASK",
+            "display": "not asked"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "Information is not available at this time but it is expected that it will be available later"
+              }
+            ],
+            "code": "NAV",
+            "display": "temporarily unavailable"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "No information whatsoever can be inferred from this exceptional value. This is the most general exceptional value. It is also the default exceptional value"
+              }
+            ],
+            "code": "NI",
+            "display": "No Information"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "Obsolete as of v 2.7."
+              }
+            ],
+            "code": "NP",
+            "display": "not present"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments",
+                "valueString": "A proper value is applicable, but not known"
+              }
+            ],
+            "code": "UNK",
+            "display": "unknown"
+          }
+        ]
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+        "concept": [
+          {
+            "code": "N",
+            "display": "No"
+          },
+          {
+            "code": "Y",
+            "display": "Yes"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0532 ( Expanded yes/no indicator)",
+  "related_codesystems": [
+    {
+      "id": "v3-NullFlavor",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+    },
+    {
+      "id": "v2-0136",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0136"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "NI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "NoInformation",
+      "description": "Description:The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.",
+      "filter": null
+    },
+    {
+      "code": "INV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "invalid",
+      "description": "Description:The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable.",
+      "filter": null
+    },
+    {
+      "code": "DER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "derived",
+      "description": "Description:An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expressionexpression .",
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "other",
+      "description": "Description:The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).\r\n\n                        \n                           Usage Notes: This flavor and its specializations are most commonly used with the CD datatype and its flavors.  However, it may apply to *any* datatype where the constraints of the type are tighter than can be conveyed.  For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.\r\n\n                        With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE.  By definition, all local codes and original text are part of the value set if the coding strength is CWE.",
+      "filter": null
+    },
+    {
+      "code": "NINF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "negative infinity",
+      "description": "Negative infinity of numbers.",
+      "filter": null
+    },
+    {
+      "code": "PINF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "positive infinity",
+      "description": "Positive infinity of numbers.",
+      "filter": null
+    },
+    {
+      "code": "UNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "un-encoded",
+      "description": "Description: The actual value has not yet been encoded within the approved value domain.\r\n\n                        \n                           Example: Original text or a local code has been specified but translation or encoding to the approved value set has not yet occurred due to limitations of the sending system.  Original text has been captured for a PQ, but not attempt has been made to split the value and unit or to encode the unit in UCUM.\r\n\n                        \n                           Usage Notes: If it is known that it is not possible to encode the concept, OTH should be used instead.  However, use of UNC does not necessarily guarantee the concept will be encodable, only that encoding has not been attempted.\r\n\n                        Data type properties such as original text and translations may be present when this null flavor is included.",
+      "filter": null
+    },
+    {
+      "code": "MSK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "masked",
+      "description": "There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.\r\n\n                        Note: using this null flavor does provide information that may be a breach of confidentiality, even though no detail data is provided.  Its primary purpose is for those circumstances where it is necessary to inform the receiver that the information does exist without providing any detail.",
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "not applicable",
+      "description": "Known to have no proper value (e.g., last menstrual period for a male).",
+      "filter": null
+    },
+    {
+      "code": "UNK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "unknown",
+      "description": "Description:A proper value is applicable, but not known.\r\n\n                        \n                           Usage Notes: This means the actual value is not known.  If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used.  No properties should be included for a datatype with this property unless:\r\n\n                        \n                           Those properties themselves directly translate to a semantic of \"unknown\".  (E.g. a local code sent as a translation that conveys 'unknown')\n                           Those properties further qualify the nature of what is unknown.  (E.g. specifying a use code of \"H\" and a URL prefix of \"tel:\" to convey that it is the home phone number that is unknown.)",
+      "filter": null
+    },
+    {
+      "code": "ASKU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "asked but unknown",
+      "description": "Information was sought but not found (e.g., patient was asked but didn't know)",
+      "filter": null
+    },
+    {
+      "code": "NAV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "temporarily unavailable",
+      "description": "Information is not available at this time but it is expected that it will be available later.",
+      "filter": null
+    },
+    {
+      "code": "NASK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "not asked",
+      "description": "This information has not been sought (e.g., patient was not asked)",
+      "filter": null
+    },
+    {
+      "code": "NAVU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "Not available",
+      "description": "Information is not available at this time (with no expectation regarding whether it will or will not be available in the future).",
+      "filter": null
+    },
+    {
+      "code": "QS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "Sufficient Quantity",
+      "description": "Description:The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water.",
+      "filter": null
+    },
+    {
+      "code": "TRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "trace",
+      "description": "The content is greater than zero, but too small to be quantified.",
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "display": "not present",
+      "description": "Value is not present in a message.  This is only defined in messages, never in application data!  All values not present in the message must be replaced by the applicable default, or no-information (NI) as the default of all defaults.",
+      "filter": null
+    },
+    {
+      "code": "ASKU",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "asked but unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "not applicable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NASK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "not asked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAV",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "temporarily unavailable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NI",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "No Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "not present",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNK",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+      "display": "No",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0136",
+      "display": "Yes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "No",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Y",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Yes",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

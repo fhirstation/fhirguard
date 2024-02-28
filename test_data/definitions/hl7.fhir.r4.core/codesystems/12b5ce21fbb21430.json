@@ -1,0 +1,195 @@
+{
+  "name": "ResearchStudyStatus",
+  "resource_id": "research-study-status",
+  "resource_url": "http://hl7.org/fhir/research-study-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "active",
+      "display": "Active",
+      "definition": "Study is opened for accrual."
+    },
+    {
+      "code": "administratively-completed",
+      "display": "Administratively Completed",
+      "definition": "Study is completed prematurely and will not resume; patients are no longer examined nor treated."
+    },
+    {
+      "code": "approved",
+      "display": "Approved",
+      "definition": "Protocol is approved by the review board."
+    },
+    {
+      "code": "closed-to-accrual",
+      "display": "Closed to Accrual",
+      "definition": "Study is closed for accrual; patients can be examined and treated."
+    },
+    {
+      "code": "closed-to-accrual-and-intervention",
+      "display": "Closed to Accrual and Intervention",
+      "definition": "Study is closed to accrual and intervention, i.e. the study is closed to enrollment, all study subjects have completed treatment or intervention but are still being followed according to the primary objective of the study."
+    },
+    {
+      "code": "completed",
+      "display": "Completed",
+      "definition": "Study is closed to accrual and intervention, i.e. the study is closed to enrollment, all study subjects have completed treatment\nor intervention but are still being followed according to the primary objective of the study."
+    },
+    {
+      "code": "disapproved",
+      "display": "Disapproved",
+      "definition": "Protocol was disapproved by the review board."
+    },
+    {
+      "code": "in-review",
+      "display": "In Review",
+      "definition": "Protocol is submitted to the review board for approval."
+    },
+    {
+      "code": "temporarily-closed-to-accrual",
+      "display": "Temporarily Closed to Accrual",
+      "definition": "Study is temporarily closed for accrual; can be potentially resumed in the future; patients can be examined and treated."
+    },
+    {
+      "code": "temporarily-closed-to-accrual-and-intervention",
+      "display": "Temporarily Closed to Accrual and Intervention",
+      "definition": "Study is temporarily closed for accrual and intervention and potentially can be resumed in the future."
+    },
+    {
+      "code": "withdrawn",
+      "display": "Withdrawn",
+      "definition": "Protocol was withdrawn by the lead organization."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ResearchStudyStatus",
+    "resource_id": "research-study-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/research-study-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/research-study-status"
+        }
+      ]
+    },
+    "description": "Codes that convey the current status of the research study.",
+    "related_codesystems": [
+      {
+        "id": "research-study-status",
+        "url": "http://hl7.org/fhir/research-study-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "active",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Active",
+        "description": "Study is opened for accrual.",
+        "filter": null
+      },
+      {
+        "code": "administratively-completed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Administratively Completed",
+        "description": "Study is completed prematurely and will not resume; patients are no longer examined nor treated.",
+        "filter": null
+      },
+      {
+        "code": "approved",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Approved",
+        "description": "Protocol is approved by the review board.",
+        "filter": null
+      },
+      {
+        "code": "closed-to-accrual",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Closed to Accrual",
+        "description": "Study is closed for accrual; patients can be examined and treated.",
+        "filter": null
+      },
+      {
+        "code": "closed-to-accrual-and-intervention",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Closed to Accrual and Intervention",
+        "description": "Study is closed to accrual and intervention, i.e. the study is closed to enrollment, all study subjects have completed treatment or intervention but are still being followed according to the primary objective of the study.",
+        "filter": null
+      },
+      {
+        "code": "completed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Completed",
+        "description": "Study is closed to accrual and intervention, i.e. the study is closed to enrollment, all study subjects have completed treatment\nor intervention but are still being followed according to the primary objective of the study.",
+        "filter": null
+      },
+      {
+        "code": "disapproved",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Disapproved",
+        "description": "Protocol was disapproved by the review board.",
+        "filter": null
+      },
+      {
+        "code": "in-review",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "In Review",
+        "description": "Protocol is submitted to the review board for approval.",
+        "filter": null
+      },
+      {
+        "code": "temporarily-closed-to-accrual",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Temporarily Closed to Accrual",
+        "description": "Study is temporarily closed for accrual; can be potentially resumed in the future; patients can be examined and treated.",
+        "filter": null
+      },
+      {
+        "code": "temporarily-closed-to-accrual-and-intervention",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Temporarily Closed to Accrual and Intervention",
+        "description": "Study is temporarily closed for accrual and intervention and potentially can be resumed in the future.",
+        "filter": null
+      },
+      {
+        "code": "withdrawn",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/research-study-status",
+        "display": "Withdrawn",
+        "description": "Protocol was withdrawn by the lead organization.",
+        "filter": null
+      }
+    ]
+  }
+}

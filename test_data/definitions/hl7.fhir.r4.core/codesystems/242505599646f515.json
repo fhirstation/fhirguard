@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourceActionStatusCodes",
+  "resource_id": "contract-actionstatus",
+  "resource_url": "http://hl7.org/fhir/contract-action-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "complete",
+      "display": "Complete",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourceActionStatusCodes",
+    "resource_id": "contract-actionstatus",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-actionstatus",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-action-status"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for action status.",
+    "related_codesystems": [
+      {
+        "id": "contract-actionstatus",
+        "url": "http://hl7.org/fhir/contract-action-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "complete",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-action-status",
+        "display": "Complete",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

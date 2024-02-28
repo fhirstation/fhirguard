@@ -1,0 +1,52 @@
+{
+  "name": "v2.0277",
+  "resource_id": "v2-0277",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0277",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "Complete",
+      "display": "A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Een verzoek voor toevoegen voltooide afspraak, gebruikt voor bijhouden naslag van voltooide afspraken die niet in de agenda verschenen (bijv. STAT, inloop, etc.)"
+        }
+      ]
+    },
+    {
+      "code": "Normal",
+      "display": "Routine schedule request type – default if not valued",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Routine agendaverzoek type - standaardwaarde als geen waarde"
+        }
+      ]
+    },
+    {
+      "code": "Tentative",
+      "display": "A request for a tentative (e.g., “penciled in”) appointment",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Een verzoek voor een voorlopige afspraak (bijv. \"met potlood toegevoegd\")"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

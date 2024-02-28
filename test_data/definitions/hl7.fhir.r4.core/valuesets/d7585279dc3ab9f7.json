@@ -1,0 +1,881 @@
+{
+  "name": "v2.0006.2.4",
+  "resource_id": "v2-2.4-0006",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-2.4-0006",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0006 ver 2.9 ( Religion)",
+  "related_codesystems": [
+    {
+      "id": "v2-2.4-0006",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ABC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: American Baptist Church",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AGN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Agnostic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: African Methodist Episcopal Zion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: African Methodist Episcopal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Anglican",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AOG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Assembly of God",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ATH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Atheist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Baha'i",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BAP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Baptist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Buddhist: Mahayana",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Buddhist: Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Brethren",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Buddhist: Tantrayana",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Buddhist: Theravada",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BUD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Buddhist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Roman Catholic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Chinese Folk Religionist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Christian Science",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Christian Missionary Alliance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Confucian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Church of Christ",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Church of God",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Church of God in Christ",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Congregational",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Community",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Other Pentecostal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Christian Reformed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Disciples of Christ",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Eastern Orthodox",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Episcopalian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ERL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Ethnic Religionist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EVC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Evangelical Church",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FRQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Friends",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FUL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Full Gospel",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FWB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Free Will Baptist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Greek Orthodox",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Hindu",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Hindu: Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HSH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Hindu: Shaivites",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HVA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Hindu: Vaishnavites",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JAI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jain",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JCO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish: Conservative",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JEW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish: Orthodox",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish: Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish: Reconstructionist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JRF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish: Reform",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Jewish: Renewal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JWN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Jehovah's Witness",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LMS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Lutheran Missouri Synod",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Lutheran",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Mennonite",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Methodist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Latter-day Saints",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Muslim",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Muslim: Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Muslim: Shiite",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Muslim: Sunni",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Native American",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Church of the Nazarene",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Nonreligious",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NRL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "New Religionist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Orthodox",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Pentecostal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Other Protestant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Presbyterian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Protestant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QUA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Friends",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Reformed Church",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Reorganized Church of Jesus Christ-LDS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SAA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Salvation Army",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Seventh Day Adventist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Shintoist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Sikh",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Southern Baptist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Spiritist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UCC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: United Church of Christ",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: United Methodist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Unitarian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Unitarian Universalist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Wesleyan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WMC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.4",
+      "display": "Christian: Wesleyan Methodist",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

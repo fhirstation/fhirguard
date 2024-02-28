@@ -1,0 +1,137 @@
+{
+  "name": "TriggerType",
+  "resource_id": "trigger-type",
+  "resource_url": "http://hl7.org/fhir/trigger-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "named-event",
+      "display": "Named Event",
+      "definition": "The trigger occurs in response to a specific named event, and no other information about the trigger is specified. Named events are completely pre-coordinated, and the formal semantics of the trigger are not provided."
+    },
+    {
+      "code": "periodic",
+      "display": "Periodic",
+      "definition": "The trigger occurs at a specific time or periodically as described by a timing or schedule. A periodic event cannot have any data elements, but may have a name assigned as a shorthand for the event."
+    },
+    {
+      "code": "data-changed",
+      "display": "Data Changed",
+      "definition": "The trigger occurs whenever data of a particular type is changed in any way, either added, modified, or removed.",
+      "concept": [
+        {
+          "code": "data-added",
+          "display": "Data Added",
+          "definition": "The trigger occurs whenever data of a particular type is added."
+        },
+        {
+          "code": "data-modified",
+          "display": "Data Updated",
+          "definition": "The trigger occurs whenever data of a particular type is modified."
+        },
+        {
+          "code": "data-removed",
+          "display": "Data Removed",
+          "definition": "The trigger occurs whenever data of a particular type is removed."
+        }
+      ]
+    },
+    {
+      "code": "data-added",
+      "display": "Data Added",
+      "definition": "The trigger occurs whenever data of a particular type is added."
+    },
+    {
+      "code": "data-modified",
+      "display": "Data Updated",
+      "definition": "The trigger occurs whenever data of a particular type is modified."
+    },
+    {
+      "code": "data-removed",
+      "display": "Data Removed",
+      "definition": "The trigger occurs whenever data of a particular type is removed."
+    },
+    {
+      "code": "data-accessed",
+      "display": "Data Accessed",
+      "definition": "The trigger occurs whenever data of a particular type is accessed."
+    },
+    {
+      "code": "data-access-ended",
+      "display": "Data Access Ended",
+      "definition": "The trigger occurs whenever access to data of a particular type is completed."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "TriggerType",
+    "resource_id": "trigger-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/trigger-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/trigger-type"
+        }
+      ]
+    },
+    "description": "The type of trigger.",
+    "related_codesystems": [
+      {
+        "id": "trigger-type",
+        "url": "http://hl7.org/fhir/trigger-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "named-event",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/trigger-type",
+        "display": "Named Event",
+        "description": "The trigger occurs in response to a specific named event, and no other information about the trigger is specified. Named events are completely pre-coordinated, and the formal semantics of the trigger are not provided.",
+        "filter": null
+      },
+      {
+        "code": "periodic",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/trigger-type",
+        "display": "Periodic",
+        "description": "The trigger occurs at a specific time or periodically as described by a timing or schedule. A periodic event cannot have any data elements, but may have a name assigned as a shorthand for the event.",
+        "filter": null
+      },
+      {
+        "code": "data-changed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/trigger-type",
+        "display": "Data Changed",
+        "description": "The trigger occurs whenever data of a particular type is changed in any way, either added, modified, or removed.",
+        "filter": null
+      },
+      {
+        "code": "data-accessed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/trigger-type",
+        "display": "Data Accessed",
+        "description": "The trigger occurs whenever data of a particular type is accessed.",
+        "filter": null
+      },
+      {
+        "code": "data-access-ended",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/trigger-type",
+        "display": "Data Access Ended",
+        "description": "The trigger occurs whenever access to data of a particular type is completed.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "DeviceNameType",
+  "resource_id": "device-nametype",
+  "resource_url": "http://hl7.org/fhir/ValueSet/device-nametype",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/device-nametype"
+      }
+    ]
+  },
+  "description": "The type of name the device is referred by.",
+  "related_codesystems": [
+    {
+      "id": "device-nametype",
+      "url": "http://hl7.org/fhir/device-nametype"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "udi-label-name",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-nametype",
+      "display": "UDI Label name",
+      "description": "UDI Label name.",
+      "filter": null
+    },
+    {
+      "code": "user-friendly-name",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-nametype",
+      "display": "User Friendly name",
+      "description": "User Friendly name.",
+      "filter": null
+    },
+    {
+      "code": "patient-reported-name",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-nametype",
+      "display": "Patient Reported name",
+      "description": "Patient Reported name.",
+      "filter": null
+    },
+    {
+      "code": "manufacturer-name",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-nametype",
+      "display": "Manufacturer name",
+      "description": "Manufacturer name.",
+      "filter": null
+    },
+    {
+      "code": "model-name",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-nametype",
+      "display": "Model name",
+      "description": "Model name.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/device-nametype",
+      "display": "other",
+      "description": "other.",
+      "filter": null
+    }
+  ]
+}

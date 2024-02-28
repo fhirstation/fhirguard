@@ -1,0 +1,22 @@
+{
+  "name": "v2.0927",
+  "resource_id": "v2-0927",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0927",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "B",
+      "display": "Both Arms"
+    },
+    {
+      "code": "L",
+      "display": "Left Arm"
+    },
+    {
+      "code": "R",
+      "display": "Right Arm"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

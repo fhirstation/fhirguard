@@ -1,0 +1,91 @@
+{
+  "name": "v2.0271",
+  "resource_id": "v2-0271",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0271",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0271"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0271 ( Document Completion Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0271",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0271"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "Authenticated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "Dictated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "Documented",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "Incomplete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "In Progress",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "Legally authenticated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0271",
+      "display": "Pre-authenticated",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

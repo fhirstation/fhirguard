@@ -1,0 +1,81 @@
+{
+  "name": "status",
+  "resource_id": "verificationresult-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/status"
+      }
+    ]
+  },
+  "description": "The validation status of the target",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-status",
+      "url": "http://hl7.org/fhir/CodeSystem/status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "attested",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/status",
+      "display": "Attested",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "validated",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/status",
+      "display": "Validated",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "in-process",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/status",
+      "display": "In process",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "req-revalid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/status",
+      "display": "Requires revalidation",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "val-fail",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/status",
+      "display": "Validation failed",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "reval-fail",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/status",
+      "display": "Re-Validation failed",
+      "description": "***TODO***",
+      "filter": null
+    }
+  ]
+}

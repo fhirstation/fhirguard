@@ -1,0 +1,39 @@
+{
+  "name": "ConditionStage",
+  "resource_id": "condition-stage",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-stage",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "385356007"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for stages of cancer and other conditions.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "385356007"
+        }
+      ]
+    }
+  ]
+}

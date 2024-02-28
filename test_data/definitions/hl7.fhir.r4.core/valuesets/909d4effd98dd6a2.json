@@ -1,0 +1,41 @@
+{
+  "name": "GraphCompartmentUse",
+  "resource_id": "graph-compartment-use",
+  "resource_url": "http://hl7.org/fhir/ValueSet/graph-compartment-use",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/graph-compartment-use"
+      }
+    ]
+  },
+  "description": "Defines how a compartment rule is used.",
+  "related_codesystems": [
+    {
+      "id": "graph-compartment-use",
+      "url": "http://hl7.org/fhir/graph-compartment-use"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "condition",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/graph-compartment-use",
+      "display": "Condition",
+      "description": "This compartment rule is a condition for whether the rule applies.",
+      "filter": null
+    },
+    {
+      "code": "requirement",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/graph-compartment-use",
+      "display": "Requirement",
+      "description": "This compartment rule is enforced on any relationships that meet the conditions.",
+      "filter": null
+    }
+  ]
+}

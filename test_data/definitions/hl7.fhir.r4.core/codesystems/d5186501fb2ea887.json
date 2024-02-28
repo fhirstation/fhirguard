@@ -1,0 +1,72 @@
+{
+  "name": "AggregationMode",
+  "resource_id": "resource-aggregation-mode",
+  "resource_url": "http://hl7.org/fhir/resource-aggregation-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "contained",
+      "display": "Contained",
+      "definition": "The reference is a local reference to a contained resource."
+    },
+    {
+      "code": "referenced",
+      "display": "Referenced",
+      "definition": "The reference to a resource that has to be resolved externally to the resource that includes the reference.",
+      "concept": [
+        {
+          "code": "bundled",
+          "display": "Bundled",
+          "definition": "The resource the reference points to will be found in the same bundle as the resource that includes the reference."
+        }
+      ]
+    },
+    {
+      "code": "bundled",
+      "display": "Bundled",
+      "definition": "The resource the reference points to will be found in the same bundle as the resource that includes the reference."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AggregationMode",
+    "resource_id": "resource-aggregation-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/resource-aggregation-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/resource-aggregation-mode"
+        }
+      ]
+    },
+    "description": "How resource references can be aggregated.",
+    "related_codesystems": [
+      {
+        "id": "resource-aggregation-mode",
+        "url": "http://hl7.org/fhir/resource-aggregation-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "contained",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/resource-aggregation-mode",
+        "display": "Contained",
+        "description": "The reference is a local reference to a contained resource.",
+        "filter": null
+      },
+      {
+        "code": "referenced",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/resource-aggregation-mode",
+        "display": "Referenced",
+        "description": "The reference to a resource that has to be resolved externally to the resource that includes the reference.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "ContactEntityType",
+  "resource_id": "contactentity-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contactentity-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/contactentity-type"
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+  "related_codesystems": [
+    {
+      "id": "contactentity-type",
+      "url": "http://terminology.hl7.org/CodeSystem/contactentity-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BILL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+      "display": "Billing",
+      "description": "Contact details for information regarding to billing/general finance enquiries.",
+      "filter": null
+    },
+    {
+      "code": "ADMIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+      "display": "Administrative",
+      "description": "Contact details for administrative enquiries.",
+      "filter": null
+    },
+    {
+      "code": "HR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+      "display": "Human Resource",
+      "description": "Contact details for issues related to Human Resources, such as staff matters, OH&S etc.",
+      "filter": null
+    },
+    {
+      "code": "PAYOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+      "display": "Payor",
+      "description": "Contact details for dealing with issues related to insurance claims/adjudication/payment.",
+      "filter": null
+    },
+    {
+      "code": "PATINF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+      "display": "Patient",
+      "description": "Generic information contact for patients.",
+      "filter": null
+    },
+    {
+      "code": "PRESS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+      "display": "Press",
+      "description": "Dedicated contact point for matters relating to press enquiries.",
+      "filter": null
+    }
+  ]
+}

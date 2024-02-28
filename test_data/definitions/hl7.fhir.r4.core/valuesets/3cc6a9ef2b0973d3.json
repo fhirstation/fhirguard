@@ -1,0 +1,171 @@
+{
+  "name": "RequestResourceType",
+  "resource_id": "request-resource-types",
+  "resource_url": "http://hl7.org/fhir/ValueSet/request-resource-types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/request-resource-types"
+      }
+    ]
+  },
+  "description": "A list of all the request resource types defined in this version of the FHIR specification.",
+  "related_codesystems": [
+    {
+      "id": "request-resource-types",
+      "url": "http://hl7.org/fhir/request-resource-types"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "Appointment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "Appointment",
+      "description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+      "filter": null
+    },
+    {
+      "code": "AppointmentResponse",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "AppointmentResponse",
+      "description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+      "filter": null
+    },
+    {
+      "code": "CarePlan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "CarePlan",
+      "description": "Healthcare plan for patient or group.",
+      "filter": null
+    },
+    {
+      "code": "Claim",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "Claim",
+      "description": "Claim, Pre-determination or Pre-authorization.",
+      "filter": null
+    },
+    {
+      "code": "CommunicationRequest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "CommunicationRequest",
+      "description": "A request for information to be sent to a receiver.",
+      "filter": null
+    },
+    {
+      "code": "Contract",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "Contract",
+      "description": "Legal Agreement.",
+      "filter": null
+    },
+    {
+      "code": "DeviceRequest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "DeviceRequest",
+      "description": "Medical device request.",
+      "filter": null
+    },
+    {
+      "code": "EnrollmentRequest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "EnrollmentRequest",
+      "description": "Enrollment request.",
+      "filter": null
+    },
+    {
+      "code": "ImmunizationRecommendation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "ImmunizationRecommendation",
+      "description": "Guidance or advice relating to an immunization.",
+      "filter": null
+    },
+    {
+      "code": "MedicationRequest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "MedicationRequest",
+      "description": "Ordering of medication for patient or group.",
+      "filter": null
+    },
+    {
+      "code": "NutritionOrder",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "NutritionOrder",
+      "description": "Diet, formula or nutritional supplement request.",
+      "filter": null
+    },
+    {
+      "code": "ServiceRequest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "ServiceRequest",
+      "description": "A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.",
+      "filter": null
+    },
+    {
+      "code": "SupplyRequest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "SupplyRequest",
+      "description": "Request for a medication, substance or device.",
+      "filter": null
+    },
+    {
+      "code": "Task",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "Task",
+      "description": "A task to be performed.",
+      "filter": null
+    },
+    {
+      "code": "VisionPrescription",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-resource-types",
+      "display": "VisionPrescription",
+      "description": "Prescription for vision correction products for a patient.",
+      "filter": null
+    }
+  ]
+}

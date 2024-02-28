@@ -1,0 +1,165 @@
+{
+  "name": "KnowledgeResourceType",
+  "resource_id": "knowledge-resource-types",
+  "resource_url": "http://hl7.org/fhir/knowledge-resource-types",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ActivityDefinition",
+      "display": "ActivityDefinition",
+      "definition": "The definition of a specific activity to be taken, independent of any particular patient or context."
+    },
+    {
+      "code": "CodeSystem",
+      "display": "CodeSystem",
+      "definition": "A set of codes drawn from one or more code systems."
+    },
+    {
+      "code": "ConceptMap",
+      "display": "ConceptMap",
+      "definition": "A map from one set of concepts to one or more other concepts."
+    },
+    {
+      "code": "Library",
+      "display": "Library",
+      "definition": "Represents a library of quality improvement components."
+    },
+    {
+      "code": "Measure",
+      "display": "Measure",
+      "definition": "A quality measure definition."
+    },
+    {
+      "code": "PlanDefinition",
+      "display": "PlanDefinition",
+      "definition": "The definition of a plan for a series of actions, independent of any specific patient or context."
+    },
+    {
+      "code": "StructureDefinition",
+      "display": "StructureDefinition",
+      "definition": "Structural Definition."
+    },
+    {
+      "code": "StructureMap",
+      "display": "StructureMap",
+      "definition": "A Map of relationships between 2 structures that can be used to transform data."
+    },
+    {
+      "code": "ValueSet",
+      "display": "ValueSet",
+      "definition": "A set of codes drawn from one or more code systems."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "KnowledgeResourceType",
+    "resource_id": "knowledge-resource-types",
+    "resource_url": "http://hl7.org/fhir/ValueSet/knowledge-resource-types",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/knowledge-resource-types"
+        }
+      ]
+    },
+    "description": "A list of all the knowledge resource types defined in this version of the FHIR specification.",
+    "related_codesystems": [
+      {
+        "id": "knowledge-resource-types",
+        "url": "http://hl7.org/fhir/knowledge-resource-types"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ActivityDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "ActivityDefinition",
+        "description": "The definition of a specific activity to be taken, independent of any particular patient or context.",
+        "filter": null
+      },
+      {
+        "code": "CodeSystem",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "CodeSystem",
+        "description": "A set of codes drawn from one or more code systems.",
+        "filter": null
+      },
+      {
+        "code": "ConceptMap",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "ConceptMap",
+        "description": "A map from one set of concepts to one or more other concepts.",
+        "filter": null
+      },
+      {
+        "code": "Library",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "Library",
+        "description": "Represents a library of quality improvement components.",
+        "filter": null
+      },
+      {
+        "code": "Measure",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "Measure",
+        "description": "A quality measure definition.",
+        "filter": null
+      },
+      {
+        "code": "PlanDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "PlanDefinition",
+        "description": "The definition of a plan for a series of actions, independent of any specific patient or context.",
+        "filter": null
+      },
+      {
+        "code": "StructureDefinition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "StructureDefinition",
+        "description": "Structural Definition.",
+        "filter": null
+      },
+      {
+        "code": "StructureMap",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "StructureMap",
+        "description": "A Map of relationships between 2 structures that can be used to transform data.",
+        "filter": null
+      },
+      {
+        "code": "ValueSet",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/knowledge-resource-types",
+        "display": "ValueSet",
+        "description": "A set of codes drawn from one or more code systems.",
+        "filter": null
+      }
+    ]
+  }
+}

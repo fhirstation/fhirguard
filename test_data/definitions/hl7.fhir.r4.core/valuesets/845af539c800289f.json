@@ -1,0 +1,71 @@
+{
+  "name": "QuestionnaireItemUsageMode",
+  "resource_id": "questionnaire-usage-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-usage-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode"
+      }
+    ]
+  },
+  "description": "Identifies the modes of usage of a questionnaire that should enable a particular questionnaire item.",
+  "related_codesystems": [
+    {
+      "id": "questionnaire-usage-mode",
+      "url": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "capture-display",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode",
+      "display": "Capture & Display",
+      "description": "Render the item regardless of usage mode.",
+      "filter": null
+    },
+    {
+      "code": "capture",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode",
+      "display": "Capture Only",
+      "description": "Render the item only when capturing data.",
+      "filter": null
+    },
+    {
+      "code": "display",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode",
+      "display": "Display Only",
+      "description": "Render the item only when displaying a completed form.",
+      "filter": null
+    },
+    {
+      "code": "display-non-empty",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode",
+      "display": "Display when Answered",
+      "description": "Render the item only when displaying a completed form and the item has been answered (or has child items that have been answered).",
+      "filter": null
+    },
+    {
+      "code": "capture-display-non-empty",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/questionnaire-usage-mode",
+      "display": "Capture or, if answered, Display",
+      "description": "Render the item when capturing data or when displaying a completed form and the item has been answered (or has child items that have been answered).",
+      "filter": null
+    }
+  ]
+}

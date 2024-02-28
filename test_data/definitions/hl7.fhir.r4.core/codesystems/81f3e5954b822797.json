@@ -1,0 +1,105 @@
+{
+  "name": "ClaimTypeCodes",
+  "resource_id": "claim-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/claim-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "institutional",
+      "display": "Institutional",
+      "definition": "Hospital, clinic and typically inpatient claims."
+    },
+    {
+      "code": "oral",
+      "display": "Oral",
+      "definition": "Dental, Denture and Hygiene claims."
+    },
+    {
+      "code": "pharmacy",
+      "display": "Pharmacy",
+      "definition": "Pharmacy claims for goods and services."
+    },
+    {
+      "code": "professional",
+      "display": "Professional",
+      "definition": "Typically, outpatient claims from Physician, Psychological, Chiropractor, Physiotherapy, Speech Pathology, rehabilitative, consulting."
+    },
+    {
+      "code": "vision",
+      "display": "Vision",
+      "definition": "Vision claims for professional services and products such as glasses and contact lenses."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ClaimTypeCodes",
+    "resource_id": "claim-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/claim-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/claim-type"
+        }
+      ]
+    },
+    "description": "This value set includes Claim Type codes.",
+    "related_codesystems": [
+      {
+        "id": "claim-type",
+        "url": "http://terminology.hl7.org/CodeSystem/claim-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "institutional",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+        "display": "Institutional",
+        "description": "Hospital, clinic and typically inpatient claims.",
+        "filter": null
+      },
+      {
+        "code": "oral",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+        "display": "Oral",
+        "description": "Dental, Denture and Hygiene claims.",
+        "filter": null
+      },
+      {
+        "code": "pharmacy",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+        "display": "Pharmacy",
+        "description": "Pharmacy claims for goods and services.",
+        "filter": null
+      },
+      {
+        "code": "professional",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+        "display": "Professional",
+        "description": "Typically, outpatient claims from Physician, Psychological, Chiropractor, Physiotherapy, Speech Pathology, rehabilitative, consulting.",
+        "filter": null
+      },
+      {
+        "code": "vision",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+        "display": "Vision",
+        "description": "Vision claims for professional services and products such as glasses and contact lenses.",
+        "filter": null
+      }
+    ]
+  }
+}

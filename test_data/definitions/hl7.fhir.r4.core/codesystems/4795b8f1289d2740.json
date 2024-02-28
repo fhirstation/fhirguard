@@ -1,0 +1,22 @@
+{
+  "name": "v2.0881",
+  "resource_id": "v2-0881",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0881",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "B",
+      "display": "Both"
+    },
+    {
+      "code": "P",
+      "display": "Professional Part"
+    },
+    {
+      "code": "T",
+      "display": "Technical Part"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

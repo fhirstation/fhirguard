@@ -1,0 +1,51 @@
+{
+  "name": "v2.0500",
+  "resource_id": "v2-0500",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0500",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0500"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0500 ( Consent Disclosure Level)",
+  "related_codesystems": [
+    {
+      "id": "v2-0500",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0500"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0500",
+      "display": "Full Disclosure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0500",
+      "display": "No Disclosure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0500",
+      "display": "Partial Disclosure",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

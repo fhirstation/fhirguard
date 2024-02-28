@@ -1,0 +1,26 @@
+{
+  "name": "v2.0504",
+  "resource_id": "v2-0504",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0504",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "EE",
+      "display": "End related service request(s), end current service request."
+    },
+    {
+      "code": "ES",
+      "display": "End related service request(s), start current service request."
+    },
+    {
+      "code": "SE",
+      "display": "Start related service request(s), end current service request."
+    },
+    {
+      "code": "SS",
+      "display": "Start related service request(s), start current service request."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ExampleService/ProductCodes",
+  "resource_id": "service-product",
+  "resource_url": "http://hl7.org/fhir/ValueSet/service-product",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/ex-serviceproduct"
+      }
+    ]
+  },
+  "description": "This value set includes a smattering of Service/Product codes.",
+  "related_codesystems": [
+    {
+      "id": "service-product",
+      "url": "http://hl7.org/fhir/ex-serviceproduct"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "exam",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-serviceproduct",
+      "display": "Exam",
+      "description": "Exam",
+      "filter": null
+    },
+    {
+      "code": "flushot",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/ex-serviceproduct",
+      "display": "Flu shot",
+      "description": "Flu shot",
+      "filter": null
+    }
+  ]
+}

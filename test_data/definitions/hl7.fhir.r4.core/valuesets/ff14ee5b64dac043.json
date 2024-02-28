@@ -1,0 +1,51 @@
+{
+  "name": "MessageTransport",
+  "resource_id": "message-transport",
+  "resource_url": "http://hl7.org/fhir/ValueSet/message-transport",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/message-transport"
+      }
+    ]
+  },
+  "description": "The protocol used for message transport.",
+  "related_codesystems": [
+    {
+      "id": "message-transport",
+      "url": "http://terminology.hl7.org/CodeSystem/message-transport"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "http",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-transport",
+      "display": "HTTP",
+      "description": "The application sends or receives messages using HTTP POST (may be over http: or https:).",
+      "filter": null
+    },
+    {
+      "code": "ftp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-transport",
+      "display": "FTP",
+      "description": "The application sends or receives messages using File Transfer Protocol.",
+      "filter": null
+    },
+    {
+      "code": "mllp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/message-transport",
+      "display": "MLLP",
+      "description": "The application sends or receives messages using HL7's Minimal Lower Level Protocol.",
+      "filter": null
+    }
+  ]
+}

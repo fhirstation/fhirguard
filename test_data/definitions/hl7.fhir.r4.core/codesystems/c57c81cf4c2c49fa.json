@@ -1,0 +1,60 @@
+{
+  "name": "DocumentMode",
+  "resource_id": "document-mode",
+  "resource_url": "http://hl7.org/fhir/document-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "producer",
+      "display": "Producer",
+      "definition": "The application produces documents of the specified type."
+    },
+    {
+      "code": "consumer",
+      "display": "Consumer",
+      "definition": "The application consumes documents of the specified type."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DocumentMode",
+    "resource_id": "document-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/document-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/document-mode"
+        }
+      ]
+    },
+    "description": "Whether the application produces or consumes documents.",
+    "related_codesystems": [
+      {
+        "id": "document-mode",
+        "url": "http://hl7.org/fhir/document-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "producer",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/document-mode",
+        "display": "Producer",
+        "description": "The application produces documents of the specified type.",
+        "filter": null
+      },
+      {
+        "code": "consumer",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/document-mode",
+        "display": "Consumer",
+        "description": "The application consumes documents of the specified type.",
+        "filter": null
+      }
+    ]
+  }
+}

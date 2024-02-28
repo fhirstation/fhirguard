@@ -1,0 +1,151 @@
+{
+  "name": "v2.0528",
+  "resource_id": "v2-0528",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0528",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0528"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0528 ( Event related period)",
+  "related_codesystems": [
+    {
+      "id": "v2-0528",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0528"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "before meal (from lat. ante cibus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "before lunch (from lat. ante cibus diurnus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "before breakfast (from lat. ante cibus matutinus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "before dinner (from lat. ante cibus vespertinus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "the hour of sleep (e.g., H18-22)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "between meals (from lat. inter cibus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "between lunch and dinner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "between breakfast and lunch",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "between dinner and the hour of sleep",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "after meal (from lat. post cibus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "after lunch (from lat. post cibus diurnus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "after breakfast (from lat. post cibus matutinus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0528",
+      "display": "after dinner (from lat. post cibus vespertinus)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

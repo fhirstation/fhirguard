@@ -1,0 +1,75 @@
+{
+  "name": "AddressType",
+  "resource_id": "address-type",
+  "resource_url": "http://hl7.org/fhir/address-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "postal",
+      "display": "Postal",
+      "definition": "Mailing addresses - PO Boxes and care-of addresses."
+    },
+    {
+      "code": "physical",
+      "display": "Physical",
+      "definition": "A physical address that can be visited."
+    },
+    {
+      "code": "both",
+      "display": "Postal & Physical",
+      "definition": "An address that is both physical and postal."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AddressType",
+    "resource_id": "address-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/address-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/address-type"
+        }
+      ]
+    },
+    "description": "The type of an address (physical / postal).",
+    "related_codesystems": [
+      {
+        "id": "address-type",
+        "url": "http://hl7.org/fhir/address-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "postal",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-type",
+        "display": "Postal",
+        "description": "Mailing addresses - PO Boxes and care-of addresses.",
+        "filter": null
+      },
+      {
+        "code": "physical",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-type",
+        "display": "Physical",
+        "description": "A physical address that can be visited.",
+        "filter": null
+      },
+      {
+        "code": "both",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-type",
+        "display": "Postal & Physical",
+        "description": "An address that is both physical and postal.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "name": "v2.0043",
+  "resource_id": "v2-0043",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0043",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0043"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0043 ( Condition code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0043",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0043"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Military service related",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Condition is employment related",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient covered by insurance not reflected here",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "HMO enrollee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Lien has been filed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "ESRD patient in first 18 months of entitlement covered by employer group health insurance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Treatment of non-terminal condition for hospice patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Beneficiary would not provide information concerning other insurance coverage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Neither patient nor spouse is employed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient and/or spouse is employed but no EGHP exists",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Disabled beneficiary but no LGHP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12 ... 16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Maiden name retained",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Child retains mother's name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Beneficiary requested billing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Billing for Denial Notice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "VA eligible patient chooses to receive services in a Medicare certified facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient referred to a sole community hospital for a diagnostic laboratory test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient and/or spouse's EGHP is secondary to Medicare",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Disabled beneficiary and/or family member's LGHP is secondary to Medicare",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient is student (full time-day)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient is student (cooperative/work study program)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient is student (full time-night)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Patient is student (Part time)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "General care patient in a special unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Ward accommodation as patient request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Semi-private room not available",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Private room medically necessary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Same day transfer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Partial hospitalization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Non-availability statement on file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Psychiatric residential treatment centers for children and adolescents",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "SNF bed not available",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Medical appropriateness",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "57",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "SNF readmission",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "60",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Day outlier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "61",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Cost outlier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "62",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Payer code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "66",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Provider does not wish cost outlier payment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "67",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Beneficiary elects not to use life time reserve (LTR) days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "68",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Beneficiary elects to use life time reserve (LTR) days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Self-administered EPO",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "71",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Full care in unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Self-care in unit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Self-care training",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "74",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Home",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "75",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Home - 100% reimbursement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "76",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Back-up in facility dialysis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Provider accepts or is obligated/required due to a contractual arrangement or law to accept payment by a primary payer as payment in full",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "New coverage not implemented by HMO",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Corf services provided off-site",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "80",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0043",
+      "display": "Pregnant",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

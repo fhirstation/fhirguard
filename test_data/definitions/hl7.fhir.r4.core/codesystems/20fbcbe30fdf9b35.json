@@ -1,0 +1,75 @@
+{
+  "name": "LocationStatus",
+  "resource_id": "location-status",
+  "resource_url": "http://hl7.org/fhir/location-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "active",
+      "display": "Active",
+      "definition": "The location is operational."
+    },
+    {
+      "code": "suspended",
+      "display": "Suspended",
+      "definition": "The location is temporarily closed."
+    },
+    {
+      "code": "inactive",
+      "display": "Inactive",
+      "definition": "The location is no longer used."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "LocationStatus",
+    "resource_id": "location-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/location-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/location-status"
+        }
+      ]
+    },
+    "description": "Indicates whether the location is still in use.",
+    "related_codesystems": [
+      {
+        "id": "location-status",
+        "url": "http://hl7.org/fhir/location-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "active",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/location-status",
+        "display": "Active",
+        "description": "The location is operational.",
+        "filter": null
+      },
+      {
+        "code": "suspended",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/location-status",
+        "display": "Suspended",
+        "description": "The location is temporarily closed.",
+        "filter": null
+      },
+      {
+        "code": "inactive",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/location-status",
+        "display": "Inactive",
+        "description": "The location is no longer used.",
+        "filter": null
+      }
+    ]
+  }
+}

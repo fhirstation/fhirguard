@@ -1,0 +1,41 @@
+{
+  "name": "AdjudicationReasonCodes",
+  "resource_id": "adjudication-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adjudication-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adjudication-reason"
+      }
+    ]
+  },
+  "description": "This value set includes smattering of Adjudication Reason codes.",
+  "related_codesystems": [
+    {
+      "id": "adjudication-reason",
+      "url": "http://terminology.hl7.org/CodeSystem/adjudication-reason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ar001",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication-reason",
+      "display": "Not covered",
+      "description": "Not covered",
+      "filter": null
+    },
+    {
+      "code": "ar002",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication-reason",
+      "display": "Plan Limit Reached",
+      "description": "Plan Limit Reached",
+      "filter": null
+    }
+  ]
+}

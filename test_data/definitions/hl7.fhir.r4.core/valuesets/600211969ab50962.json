@@ -1,0 +1,111 @@
+{
+  "name": "v2.0484",
+  "resource_id": "v2-0484",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0484",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0484"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0484 ( Dispense Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0484",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0484"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Trial Quantity Balance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Compassionate Fill",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "New/Renew - Full Fill",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "New/Renew - Part Fill",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Refill - Part Fill",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Refill - Full Fill",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Manufacturer Sample",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Trial Quantity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Z",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0484",
+      "display": "Non-Prescription Fill",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

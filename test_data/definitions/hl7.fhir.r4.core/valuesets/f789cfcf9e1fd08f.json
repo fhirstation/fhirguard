@@ -1,0 +1,51 @@
+{
+  "name": "MeasureReportStatus",
+  "resource_id": "measure-report-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/measure-report-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/measure-report-status"
+      }
+    ]
+  },
+  "description": "The status of the measure report.",
+  "related_codesystems": [
+    {
+      "id": "measure-report-status",
+      "url": "http://hl7.org/fhir/measure-report-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "complete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/measure-report-status",
+      "display": "Complete",
+      "description": "The report is complete and ready for use.",
+      "filter": null
+    },
+    {
+      "code": "pending",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/measure-report-status",
+      "display": "Pending",
+      "description": "The report is currently being generated.",
+      "filter": null
+    },
+    {
+      "code": "error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/measure-report-status",
+      "display": "Error",
+      "description": "An error occurred attempting to generate the report.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "name": "v2.0702",
+  "resource_id": "v2-0702",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0702",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0702"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0702 ( Cycle Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0702",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0702"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "2RS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Second Rinse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Anesthesia/Respiratory",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BDP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Bedpans",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BWD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Bowie-Dick Test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CMW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Chemical Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Cart Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Decontamination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Dart",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Dart Warm-up Cycle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "EO High Temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "EO Low Temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Express",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FLS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Flash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GLS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Glassware",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GNP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Gen. Purpose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Gravity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Gentle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Isothermal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Instrument Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LKT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Leak Test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LQD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Liquid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Optional Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Peracetic Acid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Plastic Goods Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Prevac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Rinse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SFP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Steam Flush Pressure Pulse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Thermal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Tray/Basin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Utensil Wash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WFP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0702",
+      "display": "Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

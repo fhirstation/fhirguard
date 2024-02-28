@@ -1,0 +1,71 @@
+{
+  "name": "v2.0565",
+  "resource_id": "v2-0565",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0565",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0565"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0565 ( Provider Adjustment Reason Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0565",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0565"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "DISP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0565",
+      "display": "Dispensing Fee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0565",
+      "display": "Goods and Services Tax",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0565",
+      "display": "Harmonized Sales Tax",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MKUP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0565",
+      "display": "Mark up Fee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0565",
+      "display": "Provincial Sales Tax",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

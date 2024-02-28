@@ -1,0 +1,51 @@
+{
+  "name": "BenefitCostApplicability",
+  "resource_id": "insuranceplan-applicability",
+  "resource_url": "http://hl7.org/fhir/ValueSet/insuranceplan-applicability",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/applicability"
+      }
+    ]
+  },
+  "description": "Whether the cost applies to in-network or out-of-network providers.",
+  "related_codesystems": [
+    {
+      "id": "insuranceplan-applicability",
+      "url": "http://terminology.hl7.org/CodeSystem/applicability"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "in-network",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/applicability",
+      "display": "In Network",
+      "description": "Provider is contracted with the health insurance company to provide services to plan members for specific pre-negotiated rates",
+      "filter": null
+    },
+    {
+      "code": "out-of-network",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/applicability",
+      "display": "Out of Network",
+      "description": "Provider is  not contracted with the health insurance company to provide services to plan members for specific pre-negotiated rates",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/applicability",
+      "display": "Other",
+      "description": "Other applicability",
+      "filter": null
+    }
+  ]
+}

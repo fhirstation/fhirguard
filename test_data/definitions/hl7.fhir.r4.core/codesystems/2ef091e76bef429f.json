@@ -1,0 +1,102 @@
+{
+  "name": "v2.0207",
+  "resource_id": "v2-0207",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0207",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Archive",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Archiveren"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Initial load",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Initieel laden"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "_valueString": {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "lang",
+                    "valueCode": "nl"
+                  },
+                  {
+                    "url": "content",
+                    "valueString": "Niet aanwezig (de standaardwaarde, betekent huidige verwerking)"
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/translation"
+              }
+            ]
+          }
+        }
+      ],
+      "code": "Not present",
+      "display": "Not present (the default, meaning current  processing)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet aanwezig"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Restore from archive",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Herstellen uit archief"
+        }
+      ]
+    },
+    {
+      "code": "T",
+      "display": "Current processing, transmitted at intervals (scheduled or on demand)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Huidige verwerking, verstuurd op basis van intervallen (gepland of op aanvraag)"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

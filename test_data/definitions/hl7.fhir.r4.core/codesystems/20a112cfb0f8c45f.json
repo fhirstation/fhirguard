@@ -1,0 +1,75 @@
+{
+  "name": "ProcessPriorityCodes",
+  "resource_id": "process-priority",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/processpriority",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "stat",
+      "display": "Immediate",
+      "definition": "Immediately in real time."
+    },
+    {
+      "code": "normal",
+      "display": "Normal",
+      "definition": "With best effort."
+    },
+    {
+      "code": "deferred",
+      "display": "Deferred",
+      "definition": "Later, when possible."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ProcessPriorityCodes",
+    "resource_id": "process-priority",
+    "resource_url": "http://hl7.org/fhir/ValueSet/process-priority",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/processpriority"
+        }
+      ]
+    },
+    "description": "This value set includes the financial processing priority codes.",
+    "related_codesystems": [
+      {
+        "id": "process-priority",
+        "url": "http://terminology.hl7.org/CodeSystem/processpriority"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "stat",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+        "display": "Immediate",
+        "description": "Immediately in real time.",
+        "filter": null
+      },
+      {
+        "code": "normal",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+        "display": "Normal",
+        "description": "With best effort.",
+        "filter": null
+      },
+      {
+        "code": "deferred",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+        "display": "Deferred",
+        "description": "Later, when possible.",
+        "filter": null
+      }
+    ]
+  }
+}

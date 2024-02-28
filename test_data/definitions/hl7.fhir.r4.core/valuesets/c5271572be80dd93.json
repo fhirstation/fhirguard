@@ -1,0 +1,281 @@
+{
+  "name": "v2.0259",
+  "resource_id": "v2-0259",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0259",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0259"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0259 ( Modality)",
+  "related_codesystems": [
+    {
+      "id": "v2-0259",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0259"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Angioscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Biomagnetic imaging",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Color flow Doppler",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Colposcopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Computed radiography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Cystoscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Computed tomography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Duplex Doppler",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Diapanography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Digital microscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Echocardiography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Endoscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Fluorescein angiography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Fundoscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Laparoscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Laser surface scan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Magnetic resonance angiography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Magnetic resonance spectroscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Nuclear Medicine (radioisotope study)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Positron emission tomography (PET)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Radio fluoroscopy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Single photon emission computed tomography (SPECT)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Thermography",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "US",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "Ultrasound",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0259",
+      "display": "X-ray Angiography",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

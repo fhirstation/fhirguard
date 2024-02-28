@@ -1,0 +1,41 @@
+{
+  "name": "v3.ContainerSeparator",
+  "resource_id": "v3-ContainerSeparator",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-ContainerSeparator",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ContainerSeparator"
+      }
+    ]
+  },
+  "description": " A material in a blood collection container that facilites the separation of of blood cells from serum or plasma",
+  "related_codesystems": [
+    {
+      "id": "v3-ContainerSeparator",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ContainerSeparator"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "GEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ContainerSeparator",
+      "display": "Gel",
+      "description": "A gelatinous type of separator material.",
+      "filter": null
+    },
+    {
+      "code": "NONE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ContainerSeparator",
+      "display": "None",
+      "description": "No separator material is present in the container.",
+      "filter": null
+    }
+  ]
+}

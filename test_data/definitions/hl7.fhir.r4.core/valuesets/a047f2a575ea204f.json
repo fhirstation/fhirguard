@@ -1,0 +1,51 @@
+{
+  "name": "v2.0106",
+  "resource_id": "v2-0106",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0106",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0106"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0106 ( QUERY FORMAT CODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0106",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0106"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0106",
+      "display": "Response is in display format",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0106",
+      "display": "Response is in record-oriented format",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0106",
+      "display": "Response is in tabular format",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

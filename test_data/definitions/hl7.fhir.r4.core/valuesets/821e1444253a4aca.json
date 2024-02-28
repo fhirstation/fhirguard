@@ -1,0 +1,158 @@
+{
+  "name": "ProcedureFollowUpCodes(SNOMEDCT)",
+  "resource_id": "procedure-followup",
+  "resource_url": "http://hl7.org/fhir/ValueSet/procedure-followup",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "18949003"
+          },
+          {
+            "code": "30549001"
+          },
+          {
+            "code": "241031001"
+          },
+          {
+            "code": "35963001"
+          },
+          {
+            "code": "225164002"
+          },
+          {
+            "code": "447346005"
+          },
+          {
+            "code": "229506003"
+          },
+          {
+            "code": "274441001"
+          },
+          {
+            "code": "394725008"
+          },
+          {
+            "code": "359825008"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "18949003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30549001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "241031001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "35963001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "225164002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "447346005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "229506003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "274441001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "394725008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "359825008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

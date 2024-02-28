@@ -1,0 +1,120 @@
+{
+  "name": "PatientMedicineChangeTypes",
+  "resource_id": "list-item-flag",
+  "resource_url": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "01",
+      "display": "Unchanged",
+      "definition": "No change has been made to the status of this medicine item."
+    },
+    {
+      "code": "02",
+      "display": "Changed",
+      "definition": "The medicine item has changed. The change may be described in an extension (not defined yet)"
+    },
+    {
+      "code": "03",
+      "display": "Cancelled",
+      "definition": "The prescription for this medicine item was cancelled by an authorized health care provider. The patient may be advised to complete the course of the prescribed medicine. This advice is a clinical decision made based on assessment of the patient's clinical condition."
+    },
+    {
+      "code": "04",
+      "display": "Prescribed",
+      "definition": "A new medicine item has been prescribed"
+    },
+    {
+      "code": "05",
+      "display": "Ceased",
+      "definition": "Administration of this medication item that the patient is currently taking is stopped or recommended to be stopped (i.e. instructed to be ceased by a health care provider). This cessation is anticipated to be permanent. The Change Description should describe the reason for cessation. Example uses: the medication in question is considered ineffective or has caused serious adverse effects. This value applies both to the cessation of a medication that is prescribed by another healthcare provider or patient self-administration of OTC medicines."
+    },
+    {
+      "code": "06",
+      "display": "Suspended",
+      "definition": "Administration of this medication item that the patient is currently taking is on hold, or instructed or recommended by a health care provider to be temporarily stopped, or subject to clinical review (i.e. the stop may be temporary or permanent depending on the outcome of clinical review), or temporarily suspended as a pre-requisite to certain surgical or diagnostic procedures."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "PatientMedicineChangeTypes",
+    "resource_id": "list-item-flag",
+    "resource_url": "http://hl7.org/fhir/ValueSet/list-item-flag",
+    "compose": {
+      "include": [
+        {
+          "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592"
+        }
+      ]
+    },
+    "description": "Example Item Flags for the List Resource. In this case, these are the kind of flags that would be used on a medication list at the end of a consultation.",
+    "related_codesystems": [
+      {
+        "id": "list-item-flag",
+        "url": "urn:oid:1.2.36.1.2001.1001.101.104.16592"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "01",
+        "type": [
+          "concept"
+        ],
+        "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "display": "Unchanged",
+        "description": "No change has been made to the status of this medicine item.",
+        "filter": null
+      },
+      {
+        "code": "02",
+        "type": [
+          "concept"
+        ],
+        "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "display": "Changed",
+        "description": "The medicine item has changed. The change may be described in an extension (not defined yet)",
+        "filter": null
+      },
+      {
+        "code": "03",
+        "type": [
+          "concept"
+        ],
+        "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "display": "Cancelled",
+        "description": "The prescription for this medicine item was cancelled by an authorized health care provider. The patient may be advised to complete the course of the prescribed medicine. This advice is a clinical decision made based on assessment of the patient's clinical condition.",
+        "filter": null
+      },
+      {
+        "code": "04",
+        "type": [
+          "concept"
+        ],
+        "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "display": "Prescribed",
+        "description": "A new medicine item has been prescribed",
+        "filter": null
+      },
+      {
+        "code": "05",
+        "type": [
+          "concept"
+        ],
+        "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "display": "Ceased",
+        "description": "Administration of this medication item that the patient is currently taking is stopped or recommended to be stopped (i.e. instructed to be ceased by a health care provider). This cessation is anticipated to be permanent. The Change Description should describe the reason for cessation. Example uses: the medication in question is considered ineffective or has caused serious adverse effects. This value applies both to the cessation of a medication that is prescribed by another healthcare provider or patient self-administration of OTC medicines.",
+        "filter": null
+      },
+      {
+        "code": "06",
+        "type": [
+          "concept"
+        ],
+        "system": "urn:oid:1.2.36.1.2001.1001.101.104.16592",
+        "display": "Suspended",
+        "description": "Administration of this medication item that the patient is currently taking is on hold, or instructed or recommended by a health care provider to be temporarily stopped, or subject to clinical review (i.e. the stop may be temporary or permanent depending on the outcome of clinical review), or temporarily suspended as a pre-requisite to certain surgical or diagnostic procedures.",
+        "filter": null
+      }
+    ]
+  }
+}

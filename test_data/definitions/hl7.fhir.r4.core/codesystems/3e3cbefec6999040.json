@@ -1,0 +1,30 @@
+{
+  "name": "v2.0728",
+  "resource_id": "v2-0728",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0728",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "Nothing obvious"
+    },
+    {
+      "code": "1",
+      "display": "Low"
+    },
+    {
+      "code": "2",
+      "display": "Moderate"
+    },
+    {
+      "code": "3",
+      "display": "High"
+    },
+    {
+      "code": "4",
+      "display": "Very high"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

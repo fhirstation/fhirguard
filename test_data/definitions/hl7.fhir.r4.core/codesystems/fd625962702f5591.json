@@ -1,0 +1,128 @@
+{
+  "name": "DiagnosisRole",
+  "resource_id": "diagnosis-role",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AD",
+      "display": "Admission diagnosis"
+    },
+    {
+      "code": "DD",
+      "display": "Discharge diagnosis"
+    },
+    {
+      "code": "CC",
+      "display": "Chief complaint"
+    },
+    {
+      "code": "CM",
+      "display": "Comorbidity diagnosis"
+    },
+    {
+      "code": "pre-op",
+      "display": "pre-op diagnosis"
+    },
+    {
+      "code": "post-op",
+      "display": "post-op diagnosis"
+    },
+    {
+      "code": "billing",
+      "display": "Billing"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DiagnosisRole",
+    "resource_id": "diagnosis-role",
+    "resource_url": "http://hl7.org/fhir/ValueSet/diagnosis-role",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+        }
+      ]
+    },
+    "description": "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+    "related_codesystems": [
+      {
+        "id": "diagnosis-role",
+        "url": "http://terminology.hl7.org/CodeSystem/diagnosis-role"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "AD",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "Admission diagnosis",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "DD",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "Discharge diagnosis",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "CC",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "Chief complaint",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "CM",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "Comorbidity diagnosis",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "pre-op",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "pre-op diagnosis",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "post-op",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "post-op diagnosis",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "billing",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/diagnosis-role",
+        "display": "Billing",
+        "description": null,
+        "filter": null
+      }
+    ]
+  }
+}

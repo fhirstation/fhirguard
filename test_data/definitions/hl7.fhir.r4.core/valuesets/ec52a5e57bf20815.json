@@ -1,0 +1,51 @@
+{
+  "name": "GoalAcceptanceStatus",
+  "resource_id": "goal-acceptance-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/goal-acceptance-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/goal-acceptance-status"
+      }
+    ]
+  },
+  "description": "Codes indicating whether the goal has been accepted by a stakeholder.",
+  "related_codesystems": [
+    {
+      "id": "goal-acceptance-status",
+      "url": "http://terminology.hl7.org/CodeSystem/goal-acceptance-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "agree",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/goal-acceptance-status",
+      "display": "Agree",
+      "description": "Stakeholder supports pursuit of the goal.",
+      "filter": null
+    },
+    {
+      "code": "disagree",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/goal-acceptance-status",
+      "display": "Disagree",
+      "description": "Stakeholder is not in support of the pursuit of the goal.",
+      "filter": null
+    },
+    {
+      "code": "pending",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/goal-acceptance-status",
+      "display": "Pending",
+      "description": "Stakeholder has not yet made a decision on whether they support the goal.",
+      "filter": null
+    }
+  ]
+}

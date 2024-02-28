@@ -1,0 +1,60 @@
+{
+  "name": "MeasureDataUsage",
+  "resource_id": "measure-data-usage",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/measure-data-usage",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "supplemental-data",
+      "display": "Supplemental Data",
+      "definition": "The data is intended to be provided as additional information alongside the measure results."
+    },
+    {
+      "code": "risk-adjustment-factor",
+      "display": "Risk Adjustment Factor",
+      "definition": "The data is intended to be used to calculate and apply a risk adjustment model for the measure."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "MeasureDataUsage",
+    "resource_id": "measure-data-usage",
+    "resource_url": "http://hl7.org/fhir/ValueSet/measure-data-usage",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-data-usage"
+        }
+      ]
+    },
+    "description": "The intended usage for supplemental data elements in the measure.",
+    "related_codesystems": [
+      {
+        "id": "measure-data-usage",
+        "url": "http://terminology.hl7.org/CodeSystem/measure-data-usage"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "supplemental-data",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/measure-data-usage",
+        "display": "Supplemental Data",
+        "description": "The data is intended to be provided as additional information alongside the measure results.",
+        "filter": null
+      },
+      {
+        "code": "risk-adjustment-factor",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/measure-data-usage",
+        "display": "Risk Adjustment Factor",
+        "description": "The data is intended to be used to calculate and apply a risk adjustment model for the measure.",
+        "filter": null
+      }
+    ]
+  }
+}

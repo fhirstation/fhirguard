@@ -1,0 +1,81 @@
+{
+  "name": "v2.0367",
+  "resource_id": "v2-0367",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0367",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0367"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0367 ( Alert level)",
+  "related_codesystems": [
+    {
+      "id": "v2-0367",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0367"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0367",
+      "display": "(null) No level change",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0367",
+      "display": "Critical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0367",
+      "display": "Normal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0367",
+      "display": "Serious",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0367",
+      "display": "Warning",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "…",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0367",
+      "display": "(null) No level change",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

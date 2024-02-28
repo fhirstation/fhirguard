@@ -1,0 +1,61 @@
+{
+  "name": "v2.0158",
+  "resource_id": "v2-0158",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0158",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0158"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0158 ( DATE/TIME SELECTION QUALIFIER)",
+  "related_codesystems": [
+    {
+      "id": "v2-0158",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0158"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1ST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0158",
+      "display": "First value within range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0158",
+      "display": "All values within the range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0158",
+      "display": "Last value within the range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0158",
+      "display": "All values within the range returned in reverse chronological order (This is the default if not otherwise specified.)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

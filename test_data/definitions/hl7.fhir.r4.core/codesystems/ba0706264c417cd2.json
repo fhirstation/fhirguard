@@ -1,0 +1,72 @@
+{
+  "name": "v2.0925",
+  "resource_id": "v2-0925",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0925",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ACN",
+      "display": "Air Contamination",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Luftverschmutzung"
+        }
+      ]
+    },
+    {
+      "code": "CLT",
+      "display": "Clotted"
+    },
+    {
+      "code": "COL",
+      "display": "Collapse"
+    },
+    {
+      "code": "DAK",
+      "display": "Defective Apheresis Kit"
+    },
+    {
+      "code": "DBG",
+      "display": "Defective Bag"
+    },
+    {
+      "code": "DMT",
+      "display": "Defective Instrument"
+    },
+    {
+      "code": "DND",
+      "display": "Defective Needle"
+    },
+    {
+      "code": "INF",
+      "display": "Infiltration"
+    },
+    {
+      "code": "IPF",
+      "display": "Instrument Power Failure"
+    },
+    {
+      "code": "MIS",
+      "display": "Missed / in tissue"
+    },
+    {
+      "code": "NAD",
+      "display": "Needle adjustment (this may not end a procedure, if successful will impact component production)"
+    },
+    {
+      "code": "PFL",
+      "display": "Poor flow"
+    },
+    {
+      "code": "VSM",
+      "display": "Vein Spasm"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

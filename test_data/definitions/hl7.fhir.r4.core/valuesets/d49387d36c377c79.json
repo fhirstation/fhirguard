@@ -1,0 +1,401 @@
+{
+  "name": "ServiceCategory",
+  "resource_id": "service-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/service-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/service-category"
+      }
+    ]
+  },
+  "description": "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+  "related_codesystems": [
+    {
+      "id": "service-category",
+      "url": "http://terminology.hl7.org/CodeSystem/service-category"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Adoption",
+      "description": "Adoption",
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Aged Care",
+      "description": "Aged Care",
+      "filter": null
+    },
+    {
+      "code": "34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Allied Health",
+      "description": "Allied Health",
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Alternative/Complementary Therapies",
+      "description": "Alternative & Complementary Therapies",
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Child Care /Kindergarten",
+      "description": "Child Care and/or Kindergarten",
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Child Development",
+      "description": "Child Development",
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Child Protection & Family Services",
+      "description": "Child Protection & Family Services",
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Community Health Care",
+      "description": "Community Health Care",
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Counselling",
+      "description": "Counselling",
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Crisis Line (GPAH use only)",
+      "description": "Crisis Line (GPAH use only)",
+      "filter": null
+    },
+    {
+      "code": "9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Death Services",
+      "description": "Death Services",
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Dental",
+      "description": "Dental",
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Disability Support",
+      "description": "Disability Support",
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Drug/Alcohol",
+      "description": "Drug/Alcohol",
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Education & Learning",
+      "description": "Education & Learning",
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Emergency Department",
+      "description": "Emergency Department",
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Employment",
+      "description": "Employment",
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Financial & Material Aid",
+      "description": "Financial & Material aid",
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "General Practice",
+      "description": "General Practice/GP (doctor)",
+      "filter": null
+    },
+    {
+      "code": "35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Hospital",
+      "description": "Hospital",
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Housing/Homelessness",
+      "description": "Housing/Homelessness",
+      "filter": null
+    },
+    {
+      "code": "19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Interpreting",
+      "description": "Interpreting",
+      "filter": null
+    },
+    {
+      "code": "20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Justice",
+      "description": "Justice",
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Legal",
+      "description": "Legal",
+      "filter": null
+    },
+    {
+      "code": "22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Mental Health",
+      "description": "Mental Health",
+      "filter": null
+    },
+    {
+      "code": "38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "NDIA",
+      "description": "NDIA",
+      "filter": null
+    },
+    {
+      "code": "23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Physical Activity & Recreation",
+      "description": "Physical Activity & Recreation",
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Regulation",
+      "description": "Regulation",
+      "filter": null
+    },
+    {
+      "code": "25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Respite/Carer Support",
+      "description": "Respite/Carer Support",
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Specialist Clinical Pathology",
+      "description": "Specialist Clinical Pathology - requires referral",
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Specialist Medical",
+      "description": "Specialist Medical - requires referral",
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Specialist Obstetrics & Gynecology",
+      "description": "Specialist Obstetrics & Gynecology - requires referral",
+      "filter": null
+    },
+    {
+      "code": "29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Specialist Paediatric",
+      "description": "Specialist Paediatric - requires referral",
+      "filter": null
+    },
+    {
+      "code": "30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Specialist Radiology/Imaging",
+      "description": "Specialist Radiology/Imaging - requires referral",
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Specialist Surgical",
+      "description": "Specialist Surgical - requires referral",
+      "filter": null
+    },
+    {
+      "code": "32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Support Group/s",
+      "description": "Support group/s",
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Test Message (HSD admin)",
+      "description": "Test Message (HSD admin use only)",
+      "filter": null
+    },
+    {
+      "code": "33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/service-category",
+      "display": "Transport",
+      "description": "Transport",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "v2.0669",
+  "resource_id": "v2-0669",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0669",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The load is complete"
+        }
+      ],
+      "code": "LCC",
+      "display": "Load is Complete"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The load is canceled"
+        }
+      ],
+      "code": "LCN",
+      "display": "Load Canceled"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The load is running"
+        }
+      ],
+      "code": "LCP",
+      "display": "Load In Process"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "A load is being built"
+        }
+      ],
+      "code": "LLD",
+      "display": "Building a Load"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

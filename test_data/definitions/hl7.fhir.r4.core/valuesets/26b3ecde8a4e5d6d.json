@@ -1,0 +1,26 @@
+{
+  "name": "UCUMCodes",
+  "resource_id": "ucum-units",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ucum-units",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org"
+      }
+    ]
+  },
+  "description": "Unified Code for Units of Measure (UCUM). This value set includes all UCUM codes",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

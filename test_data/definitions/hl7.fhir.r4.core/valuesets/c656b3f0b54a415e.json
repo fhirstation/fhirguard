@@ -1,0 +1,61 @@
+{
+  "name": "ClaimCareTeamRoleCodes",
+  "resource_id": "claim-careteamrole",
+  "resource_url": "http://hl7.org/fhir/ValueSet/claim-careteamrole",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/claimcareteamrole"
+      }
+    ]
+  },
+  "description": "This value set includes sample Claim Care Team Role codes.",
+  "related_codesystems": [
+    {
+      "id": "claim-careteamrole",
+      "url": "http://terminology.hl7.org/CodeSystem/claimcareteamrole"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "primary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claimcareteamrole",
+      "display": "Primary provider",
+      "description": "The primary care provider.",
+      "filter": null
+    },
+    {
+      "code": "assist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claimcareteamrole",
+      "display": "Assisting Provider",
+      "description": "Assisting care provider.",
+      "filter": null
+    },
+    {
+      "code": "supervisor",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claimcareteamrole",
+      "display": "Supervising Provider",
+      "description": "Supervising care provider.",
+      "filter": null
+    },
+    {
+      "code": "other",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/claimcareteamrole",
+      "display": "Other",
+      "description": "Other role on the care team.",
+      "filter": null
+    }
+  ]
+}

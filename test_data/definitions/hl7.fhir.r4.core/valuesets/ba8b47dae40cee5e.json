@@ -1,0 +1,92 @@
+{
+  "name": "TaskCode",
+  "resource_id": "task-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/task-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/CodeSystem/task-code",
+        "version": "3.6.0"
+      }
+    ]
+  },
+  "description": "Codes indicating the type of action that is expected to be performed",
+  "related_codesystems": [
+    {
+      "id": "task-code",
+      "url": "http://hl7.org/fhir/CodeSystem/task-code"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "approve",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Activate/approve the focal resource",
+      "description": "Take what actions are needed to transition the focus resource from 'draft' to 'active' or 'in-progress', as appropriate for the resource type.  This may involve additing additional content, approval, validation, etc.",
+      "filter": null
+    },
+    {
+      "code": "fulfill",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Fulfill the focal request",
+      "description": "Act to perform the actions defined in the focus request.  This might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  The degree of fulfillment requested might be limited by Task.restriction.",
+      "filter": null
+    },
+    {
+      "code": "abort",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Mark the focal resource as no longer active",
+      "description": "Abort, cancel or withdraw the focal resource, as appropriate for the type of resource.",
+      "filter": null
+    },
+    {
+      "code": "replace",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Replace the focal resource with the input resource",
+      "description": "Replace the focal resource with the specified input resource",
+      "filter": null
+    },
+    {
+      "code": "change",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Change the focal resource",
+      "description": "Update the focal resource of the owning system to reflect the content specified as the Task.focus",
+      "filter": null
+    },
+    {
+      "code": "suspend",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Suspend the focal resource",
+      "description": "Transition the focal resource from 'active' or 'in-progress' to 'suspended'",
+      "filter": null
+    },
+    {
+      "code": "resume",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/CodeSystem/task-code",
+      "display": "Re-activate the focal resource",
+      "description": "Transition the focal resource from 'suspended' to 'active' or 'in-progress' as appropriate for the resource type.",
+      "filter": null
+    }
+  ]
+}

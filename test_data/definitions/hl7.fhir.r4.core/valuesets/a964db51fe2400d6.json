@@ -1,0 +1,93 @@
+{
+  "name": "ImagingStudySeriesPerformerFunction",
+  "resource_id": "series-performer-function",
+  "resource_url": "http://hl7.org/fhir/ValueSet/series-performer-function",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+        "concept": [
+          {
+            "code": "CON",
+            "display": "consultant"
+          },
+          {
+            "code": "VRF",
+            "display": "verifier"
+          },
+          {
+            "code": "PRF",
+            "display": "performer"
+          },
+          {
+            "code": "SPRF",
+            "display": "secondary performer"
+          },
+          {
+            "code": "REF",
+            "display": "referrer"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Performer function of an agent in an imaging study series",
+  "related_codesystems": [
+    {
+      "id": "v3-ParticipationType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CON",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "consultant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "verifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "performer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPRF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "secondary performer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REF",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "referrer",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

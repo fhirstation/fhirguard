@@ -1,0 +1,39 @@
+{
+  "name": "SNOMEDCTRouteCodes",
+  "resource_id": "route-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/route-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "284009009"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "284009009"
+        }
+      ]
+    }
+  ]
+}

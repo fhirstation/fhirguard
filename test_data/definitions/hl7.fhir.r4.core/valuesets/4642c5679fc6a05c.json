@@ -1,0 +1,41 @@
+{
+  "name": "SupplyRequestReason",
+  "resource_id": "supplyrequest-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/supplyrequest-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/supplyrequest-reason"
+      }
+    ]
+  },
+  "description": "The reason why the supply item was requested.",
+  "related_codesystems": [
+    {
+      "id": "supplyrequest-reason",
+      "url": "http://terminology.hl7.org/CodeSystem/supplyrequest-reason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "patient-care",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/supplyrequest-reason",
+      "display": "Patient Care",
+      "description": "The supply has been requested for use in direct patient care.",
+      "filter": null
+    },
+    {
+      "code": "ward-stock",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/supplyrequest-reason",
+      "display": "Ward Stock",
+      "description": "The supply has been requested for creating or replenishing ward stock.",
+      "filter": null
+    }
+  ]
+}

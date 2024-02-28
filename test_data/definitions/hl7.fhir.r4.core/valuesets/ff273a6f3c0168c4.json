@@ -1,0 +1,241 @@
+{
+  "name": "v2.0544",
+  "resource_id": "v2-0544",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0544",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0544"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0544 ( Container Condition)",
+  "related_codesystems": [
+    {
+      "id": "v2-0544",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0544"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "No suggested values",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Container Cracked",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Container Leaking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Container Torn",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Seal Broken",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XAMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Ambient temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XC37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Body temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XCAMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Critical ambient temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XCATM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Exposed to Air",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XCFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Critical frozen temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XCREF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Critical refrigerated temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XDFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Deep frozen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XDRY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Dry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Frozen temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XMTLF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Metal Exposed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XNTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Liquid nitrogen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XPRTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Protected from light",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XPSA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Shaken",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XPSO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Exposed to shock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XREF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Refrigerated temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XUFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Ultra frozen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XUPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0544",
+      "display": "Not Upright",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

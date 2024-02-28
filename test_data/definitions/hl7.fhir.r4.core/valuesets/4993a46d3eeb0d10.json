@@ -1,0 +1,341 @@
+{
+  "name": "v2.0063",
+  "resource_id": "v2-0063",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0063",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0063"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0063 ( Relationship)",
+  "related_codesystems": [
+    {
+      "id": "v2-0063",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0063"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ASC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Associate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Brother",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CGV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Care giver",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Child",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Handicapped dependent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Life partner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Emergency contact",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Employee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Employer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Extended family",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Foster child",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Friend",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Father",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Grandchild",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Guardian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GRP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Grandparent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MGR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Manager",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Mother",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Natural child",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "None",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Other adult",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OWN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Owner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Parent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Stepchild",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Self",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Sibling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Sister",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Spouse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Trainer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UNK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0063",
+      "display": "Ward of court",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

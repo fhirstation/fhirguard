@@ -1,0 +1,91 @@
+{
+  "name": "v2.0267",
+  "resource_id": "v2-0267",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0267",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0267"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0267 ( Days of the Week)",
+  "related_codesystems": [
+    {
+      "id": "v2-0267",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0267"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "FRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Friday",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Monday",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Saturday",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Sunday",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Thursday",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TUE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Tuesday",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0267",
+      "display": "Wednesday",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

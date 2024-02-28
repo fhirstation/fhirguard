@@ -1,0 +1,51 @@
+{
+  "name": "v2.0904",
+  "resource_id": "v2-0904",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0904",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0904"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0904 ( Security Check Scheme)",
+  "related_codesystems": [
+    {
+      "id": "v2-0904",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0904"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BCV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0904",
+      "display": "Bank Card Validation Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0904",
+      "display": "Credit Card Security code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0904",
+      "display": "Version ID",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

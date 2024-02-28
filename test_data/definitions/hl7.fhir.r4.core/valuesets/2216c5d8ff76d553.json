@@ -1,0 +1,26 @@
+{
+  "name": "ConditionPredecessorCodes",
+  "resource_id": "condition-predecessor",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-predecessor",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "description": "Example value set for condition predecessor codes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "ConditionStageType",
+  "resource_id": "condition-stage-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-stage-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "261023001",
+            "display": "Pathological staging (qualifier value)"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "260998006",
+            "display": "Clinical staging (qualifier value)"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "254291000"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for the type of stages of cancer and other conditions",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "261023001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Pathological staging (qualifier value)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "260998006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Clinical staging (qualifier value)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "254291000"
+        }
+      ]
+    }
+  ]
+}

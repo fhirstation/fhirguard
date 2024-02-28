@@ -1,0 +1,221 @@
+{
+  "name": "v2.0363",
+  "resource_id": "v2-0363",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0363",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0363"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0363 ( Assigning authority)",
+  "related_codesystems": [
+    {
+      "id": "v2-0363",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0363"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUSDVA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Australia - Dept. of Veterans Affairs",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUSHIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Australia - Health Insurance Commission",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANAB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Alberta",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - British Columbia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Manitoba",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANNB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - New Brunswick",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANNF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Newfoundland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Nova Scotia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Northwest Territories",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANNU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Nanavut",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Ontario",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANPE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Prince Edward Island",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANQC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Quebec",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANSK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Saskatchewan",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANYT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "Canada - Yukon Territories",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NLVWS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "NL - Ministerie van Volksgezondheid, Welzijn en Sport",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USCDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "US Center for Disease Control",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USHCFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "US Healthcare Finance Authority",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USSSA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0363",
+      "display": "US Social Security Administration",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

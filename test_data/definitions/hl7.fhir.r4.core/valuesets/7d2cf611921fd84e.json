@@ -1,0 +1,1041 @@
+{
+  "name": "v2.0254",
+  "resource_id": "v2-0254",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0254",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0254"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0254 ( Kind of Quantity)",
+  "related_codesystems": [
+    {
+      "id": "v2-0254",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0254"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ABS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Absorbance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Concentration, Arbitrary Substance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Activity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Appearance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Arbitrary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AREA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Area",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASPECT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Aspect",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CACT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Activity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Concentration Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Fraction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Class",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Constant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COEF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Coefficient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COLOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Color",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Consistency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Catalytic Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Density",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Device",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Difference",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Elasticity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELPOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Electrical Potential (Voltage)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELRAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Electrical current (amperage)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELRES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Electrical Resistance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENGR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Energy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Entitic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTCAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Entitic Catalytic Activity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTNUM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Entitic Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTSUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Entitic Substance of Amount",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTVOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Entitic Volume",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EQL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Equilibrium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FORCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mechanical force",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FREQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Frequency",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Impression/ interpretation of study",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KINV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Kinematic Viscosity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Length",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LINC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Length Increment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Liquefaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MASS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Concentration Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Fraction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MGFLUX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Magnetic flux",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MINC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Increment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MORPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Morphology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOTIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Motility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MRAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Mass Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Number Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NCNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Number Content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Number Fraction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Number Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NUM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Optical density",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSMOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Osmolality",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Pressure (Partial)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Presence/Identity/Existence",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PWR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Power (wattage)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RANGE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Ranges",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RATIO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Ratios",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCRLTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Reciprocal Relative Time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Relative Density",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Relative",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLMCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Relative Mass Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLSCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Relative Substance Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Relative Time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SATFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Saturation Fraction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCNCIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Concentration Increment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCNTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Content Rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Concentration Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Fraction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHAPE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Shape",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SMELL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Smell",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Substance Amount",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Susceptibility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TASTE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Taste",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEMPDF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Temperature Difference",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEMPIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Temperature Increment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THRMCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Threshold Mass Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THRSCNC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Threshold Substance Concentration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Time (e.g. seconds)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TITR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Dilution Factor (Titer)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TMDF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Time Difference",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TMSTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Time Stamp-Date and Time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Time Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TYPE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Type",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VCNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Volume Content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Velocity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VELRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Velocity Ratio",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Volume Fraction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VISC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Viscosity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Volume",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VRAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Volume Rate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VRTO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0254",
+      "display": "Volume Ratio",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

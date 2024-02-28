@@ -1,0 +1,52 @@
+{
+  "name": "v2.0421",
+  "resource_id": "v2-0421",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0421",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "MI",
+      "display": "Mild",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Mild"
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "display": "Moderate",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gemiddeld"
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "display": "Severe",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ernstig"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,41 @@
+{
+  "name": "v2.0269",
+  "resource_id": "v2-0269",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0269",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0269"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0269 ( Charge on Indicator)",
+  "related_codesystems": [
+    {
+      "id": "v2-0269",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0269"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0269",
+      "display": "Charge on Order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0269",
+      "display": "Charge on Result",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

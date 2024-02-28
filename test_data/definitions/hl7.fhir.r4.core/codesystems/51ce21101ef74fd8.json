@@ -1,0 +1,60 @@
+{
+  "name": "SpecimenContainedPreference",
+  "resource_id": "specimen-contained-preference",
+  "resource_url": "http://hl7.org/fhir/specimen-contained-preference",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "preferred",
+      "display": "Preferred",
+      "definition": "This type of contained specimen is preferred to collect this kind of specimen."
+    },
+    {
+      "code": "alternate",
+      "display": "Alternate",
+      "definition": "This type of conditioned specimen is an alternate."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SpecimenContainedPreference",
+    "resource_id": "specimen-contained-preference",
+    "resource_url": "http://hl7.org/fhir/ValueSet/specimen-contained-preference",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/specimen-contained-preference"
+        }
+      ]
+    },
+    "description": "Degree of preference of a type of conditioned specimen.",
+    "related_codesystems": [
+      {
+        "id": "specimen-contained-preference",
+        "url": "http://hl7.org/fhir/specimen-contained-preference"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "preferred",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/specimen-contained-preference",
+        "display": "Preferred",
+        "description": "This type of contained specimen is preferred to collect this kind of specimen.",
+        "filter": null
+      },
+      {
+        "code": "alternate",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/specimen-contained-preference",
+        "display": "Alternate",
+        "description": "This type of conditioned specimen is an alternate.",
+        "filter": null
+      }
+    ]
+  }
+}

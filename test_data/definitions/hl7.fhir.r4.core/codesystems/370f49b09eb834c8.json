@@ -1,0 +1,95 @@
+{
+  "name": "v2.4000",
+  "resource_id": "v2-4000",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-4000",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Alphabetic (i.e., Default or some single-byte)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Alfabetisch (d.w.z. standaard of bepaalde 1-byte)"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "1999-05"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Ideographic (i.e., Kanji)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ideografisch (d.w.z. Kanjii)"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "1999-05"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Phonetic (i.e., ASCII, Katakana, Hiragana, etc.)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Fonetisch (d.w.z. ASCII, Katakane, Hirogana, etc.)"
+        }
+      ],
+      "property": [
+        {
+          "code": "status",
+          "valueCode": "deprecated"
+        },
+        {
+          "code": "deprecationDate",
+          "valueDateTime": "1999-05"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "code": "status",
+      "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A property that indicates the status of the concept. One of active, experimental, deprecated, retired",
+      "type": "code"
+    },
+    {
+      "code": "deprecationDate",
+      "uri": "http://hl7.org/fhir/concept-properties#deprecationDate",
+      "description": "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged",
+      "type": "dateTime"
+    }
+  ],
+  "valueset": null
+}

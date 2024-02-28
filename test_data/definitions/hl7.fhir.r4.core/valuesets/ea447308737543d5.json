@@ -1,0 +1,91 @@
+{
+  "name": "v2.0205",
+  "resource_id": "v2-0205",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0205",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0205"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0205 ( Price Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0205",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0205"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "administrative price or handling fee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "direct unit cost",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "indirect unit cost",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "professional fee for performing provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "technology fee for use of equipment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "total price",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0205",
+      "display": "unit price, may be based on length of procedure or service",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

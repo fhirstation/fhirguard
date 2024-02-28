@@ -1,0 +1,61 @@
+{
+  "name": "ExampleProgramReasonCodes",
+  "resource_id": "ex-program-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ex-program-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-programcode"
+      }
+    ]
+  },
+  "description": "This value set includes sample Program Reason Span codes.",
+  "related_codesystems": [
+    {
+      "id": "ex-program-code",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-programcode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "as",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-programcode",
+      "display": "Child Asthma",
+      "description": "Child Asthma Program",
+      "filter": null
+    },
+    {
+      "code": "hd",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-programcode",
+      "display": "Hemodialysis",
+      "description": "Hemodialysis Program.",
+      "filter": null
+    },
+    {
+      "code": "auscr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-programcode",
+      "display": "Autism Screening",
+      "description": "Autism Screening Program.",
+      "filter": null
+    },
+    {
+      "code": "none",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-programcode",
+      "display": "None",
+      "description": "No program code applies.",
+      "filter": null
+    }
+  ]
+}

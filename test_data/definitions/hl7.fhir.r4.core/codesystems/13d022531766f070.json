@@ -1,0 +1,52 @@
+{
+  "name": "v2.0217",
+  "resource_id": "v2-0217",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0217",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Emergency",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Spoed"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Urgent",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Urgent"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Elective",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zelf gekozen"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

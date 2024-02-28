@@ -1,0 +1,162 @@
+{
+  "name": "CarePlanActivityStatus",
+  "resource_id": "care-plan-activity-status",
+  "resource_url": "http://hl7.org/fhir/care-plan-activity-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "not-started",
+      "display": "Not Started",
+      "definition": "Care plan activity is planned but no action has yet been taken."
+    },
+    {
+      "code": "scheduled",
+      "display": "Scheduled",
+      "definition": "Appointment or other booking has occurred but activity has not yet begun."
+    },
+    {
+      "code": "in-progress",
+      "display": "In Progress",
+      "definition": "Care plan activity has been started but is not yet complete."
+    },
+    {
+      "code": "on-hold",
+      "display": "On Hold",
+      "definition": "Care plan activity was started but has temporarily ceased with an expectation of resumption at a future time."
+    },
+    {
+      "code": "completed",
+      "display": "Completed",
+      "definition": "Care plan activity has been completed (more or less) as planned."
+    },
+    {
+      "code": "cancelled",
+      "display": "Cancelled",
+      "definition": "The planned care plan activity has been withdrawn.",
+      "concept": [
+        {
+          "code": "stopped",
+          "display": "Stopped",
+          "definition": "The planned care plan activity has been ended prior to completion after the activity was started."
+        }
+      ]
+    },
+    {
+      "code": "stopped",
+      "display": "Stopped",
+      "definition": "The planned care plan activity has been ended prior to completion after the activity was started."
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "The current state of the care plan activity is not known.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, but the authoring/source system does not know which one."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "Care plan activity was entered in error and voided."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "CarePlanActivityStatus",
+    "resource_id": "care-plan-activity-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/care-plan-activity-status"
+        }
+      ]
+    },
+    "description": "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+    "related_codesystems": [
+      {
+        "id": "care-plan-activity-status",
+        "url": "http://hl7.org/fhir/care-plan-activity-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "not-started",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "Not Started",
+        "description": "Care plan activity is planned but no action has yet been taken.",
+        "filter": null
+      },
+      {
+        "code": "scheduled",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "Scheduled",
+        "description": "Appointment or other booking has occurred but activity has not yet begun.",
+        "filter": null
+      },
+      {
+        "code": "in-progress",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "In Progress",
+        "description": "Care plan activity has been started but is not yet complete.",
+        "filter": null
+      },
+      {
+        "code": "on-hold",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "On Hold",
+        "description": "Care plan activity was started but has temporarily ceased with an expectation of resumption at a future time.",
+        "filter": null
+      },
+      {
+        "code": "completed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "Completed",
+        "description": "Care plan activity has been completed (more or less) as planned.",
+        "filter": null
+      },
+      {
+        "code": "cancelled",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "Cancelled",
+        "description": "The planned care plan activity has been withdrawn.",
+        "filter": null
+      },
+      {
+        "code": "unknown",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "Unknown",
+        "description": "The current state of the care plan activity is not known.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, but the authoring/source system does not know which one.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/care-plan-activity-status",
+        "display": "Entered in Error",
+        "description": "Care plan activity was entered in error and voided.",
+        "filter": null
+      }
+    ]
+  }
+}

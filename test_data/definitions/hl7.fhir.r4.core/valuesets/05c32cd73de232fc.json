@@ -1,0 +1,39 @@
+{
+  "name": "ClinicalImpressionPrognosis",
+  "resource_id": "clinicalimpression-prognosis",
+  "resource_url": "http://hl7.org/fhir/ValueSet/clinicalimpression-prognosis",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "365858006"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for clinical impression prognosis.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "365858006"
+        }
+      ]
+    }
+  ]
+}

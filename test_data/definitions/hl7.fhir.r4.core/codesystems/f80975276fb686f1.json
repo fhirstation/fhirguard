@@ -1,0 +1,135 @@
+{
+  "name": "ChargeItemStatus",
+  "resource_id": "chargeitem-status",
+  "resource_url": "http://hl7.org/fhir/chargeitem-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "planned",
+      "display": "Planned",
+      "definition": "The charge item has been entered, but the charged service is not  yet complete, so it shall not be billed yet but might be used in the context of pre-authorization."
+    },
+    {
+      "code": "billable",
+      "display": "Billable",
+      "definition": "The charge item is ready for billing."
+    },
+    {
+      "code": "not-billable",
+      "display": "Not billable",
+      "definition": "The charge item has been determined to be not billable (e.g. due to rules associated with the billing code)."
+    },
+    {
+      "code": "aborted",
+      "display": "Aborted",
+      "definition": "The processing of the charge was aborted."
+    },
+    {
+      "code": "billed",
+      "display": "Billed",
+      "definition": "The charge item has been billed (e.g. a billing engine has generated financial transactions by applying the associated ruled for the charge item to the context of the Encounter, and placed them into Claims/Invoices."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "The charge item has been entered in error and should not be processed for billing."
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "The authoring system does not know which of the status values currently applies for this charge item  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, it's just not known which one."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ChargeItemStatus",
+    "resource_id": "chargeitem-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/chargeitem-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/chargeitem-status"
+        }
+      ]
+    },
+    "description": "Codes identifying the lifecycle stage of a ChargeItem.",
+    "related_codesystems": [
+      {
+        "id": "chargeitem-status",
+        "url": "http://hl7.org/fhir/chargeitem-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "planned",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Planned",
+        "description": "The charge item has been entered, but the charged service is not  yet complete, so it shall not be billed yet but might be used in the context of pre-authorization.",
+        "filter": null
+      },
+      {
+        "code": "billable",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Billable",
+        "description": "The charge item is ready for billing.",
+        "filter": null
+      },
+      {
+        "code": "not-billable",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Not billable",
+        "description": "The charge item has been determined to be not billable (e.g. due to rules associated with the billing code).",
+        "filter": null
+      },
+      {
+        "code": "aborted",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Aborted",
+        "description": "The processing of the charge was aborted.",
+        "filter": null
+      },
+      {
+        "code": "billed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Billed",
+        "description": "The charge item has been billed (e.g. a billing engine has generated financial transactions by applying the associated ruled for the charge item to the context of the Encounter, and placed them into Claims/Invoices.",
+        "filter": null
+      },
+      {
+        "code": "entered-in-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Entered in Error",
+        "description": "The charge item has been entered in error and should not be processed for billing.",
+        "filter": null
+      },
+      {
+        "code": "unknown",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/chargeitem-status",
+        "display": "Unknown",
+        "description": "The authoring system does not know which of the status values currently applies for this charge item  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, it's just not known which one.",
+        "filter": null
+      }
+    ]
+  }
+}

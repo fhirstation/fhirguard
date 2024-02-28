@@ -1,0 +1,22 @@
+{
+  "name": "v2.0618",
+  "resource_id": "v2-0618",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0618",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "LI",
+      "display": "Listed"
+    },
+    {
+      "code": "UL",
+      "display": "Unlisted (Should not appear in directories)"
+    },
+    {
+      "code": "UP",
+      "display": "Unpublished"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

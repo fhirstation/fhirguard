@@ -1,0 +1,56 @@
+{
+  "name": "v2.0493",
+  "resource_id": "v2-0493",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0493",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AUT",
+      "display": "Autolyzed"
+    },
+    {
+      "code": "CFU",
+      "display": "Centrifuged"
+    },
+    {
+      "code": "CLOT",
+      "display": "Clotted"
+    },
+    {
+      "code": "CON",
+      "display": "Contaminated"
+    },
+    {
+      "code": "COOL",
+      "display": "Cool"
+    },
+    {
+      "code": "FROZ",
+      "display": "Frozen"
+    },
+    {
+      "code": "HEM",
+      "display": "Hemolyzed"
+    },
+    {
+      "code": "LIVE",
+      "display": "Live"
+    },
+    {
+      "code": "ROOM",
+      "display": "Room temperature"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Deprecated in v 2.8"
+        }
+      ],
+      "code": "SNR",
+      "display": "Sample not received"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

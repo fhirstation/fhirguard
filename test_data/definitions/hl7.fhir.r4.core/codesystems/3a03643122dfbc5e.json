@@ -1,0 +1,183 @@
+{
+  "name": "FilterOperator",
+  "resource_id": "filter-operator",
+  "resource_url": "http://hl7.org/fhir/filter-operator",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "=",
+      "display": "Equals",
+      "definition": "The specified property of the code equals the provided value."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The definition of is-a is that all the properties of the value are true for the specified property of the code, which means that a code has an is-a relationship with itself. To exclude the root code, use descendent-of"
+        }
+      ],
+      "code": "is-a",
+      "display": "Is A (by subsumption)",
+      "definition": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, including the provided concept itself (include descendant codes and self)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The definition of is-a is that all the properties of the value are true for the specified property of the code. \n\nSpelling note: \"descendant\" is a more correct spelling, but the spelling \"descendent\" is maintained in the code for backwards compatibility reasons"
+        }
+      ],
+      "code": "descendent-of",
+      "display": "Descendent Of (by subsumption)",
+      "definition": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, excluding the provided concept itself i.e. include descendant codes only)."
+    },
+    {
+      "code": "is-not-a",
+      "display": "Not (Is A) (by subsumption)",
+      "definition": "The specified property of the code does not have an is-a relationship with the provided value."
+    },
+    {
+      "code": "regex",
+      "display": "Regular Expression",
+      "definition": "The specified property of the code  matches the regex specified in the provided value."
+    },
+    {
+      "code": "in",
+      "display": "In Set",
+      "definition": "The specified property of the code is in the set of codes or concepts specified in the provided value (comma separated list)."
+    },
+    {
+      "code": "not-in",
+      "display": "Not in Set",
+      "definition": "The specified property of the code is not in the set of codes or concepts specified in the provided value (comma separated list)."
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "The definition of is-a is that all the properties of the value are true for the specified property of the code, which means that a code has an is-a relationship with itself. To exclude the root code, add it explicitly to as an exclude"
+        }
+      ],
+      "code": "generalizes",
+      "display": "Generalizes (by Subsumption)",
+      "definition": "Includes all concept ids that have a transitive is-a relationship from the concept Id provided as the value, including the provided concept itself (i.e. include ancestor codes and self)."
+    },
+    {
+      "code": "exists",
+      "display": "Exists",
+      "definition": "The specified property of the code has at least one value (if the specified value is true; if the specified value is false, then matches when the specified property of the code has no values)."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "FilterOperator",
+    "resource_id": "filter-operator",
+    "resource_url": "http://hl7.org/fhir/ValueSet/filter-operator",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/filter-operator"
+        }
+      ]
+    },
+    "description": "The kind of operation to perform as a part of a property based filter.",
+    "related_codesystems": [
+      {
+        "id": "filter-operator",
+        "url": "http://hl7.org/fhir/filter-operator"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "=",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Equals",
+        "description": "The specified property of the code equals the provided value.",
+        "filter": null
+      },
+      {
+        "code": "is-a",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Is A (by subsumption)",
+        "description": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, including the provided concept itself (include descendant codes and self).",
+        "filter": null
+      },
+      {
+        "code": "descendent-of",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Descendent Of (by subsumption)",
+        "description": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, excluding the provided concept itself i.e. include descendant codes only).",
+        "filter": null
+      },
+      {
+        "code": "is-not-a",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Not (Is A) (by subsumption)",
+        "description": "The specified property of the code does not have an is-a relationship with the provided value.",
+        "filter": null
+      },
+      {
+        "code": "regex",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Regular Expression",
+        "description": "The specified property of the code  matches the regex specified in the provided value.",
+        "filter": null
+      },
+      {
+        "code": "in",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "In Set",
+        "description": "The specified property of the code is in the set of codes or concepts specified in the provided value (comma separated list).",
+        "filter": null
+      },
+      {
+        "code": "not-in",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Not in Set",
+        "description": "The specified property of the code is not in the set of codes or concepts specified in the provided value (comma separated list).",
+        "filter": null
+      },
+      {
+        "code": "generalizes",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Generalizes (by Subsumption)",
+        "description": "Includes all concept ids that have a transitive is-a relationship from the concept Id provided as the value, including the provided concept itself (i.e. include ancestor codes and self).",
+        "filter": null
+      },
+      {
+        "code": "exists",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/filter-operator",
+        "display": "Exists",
+        "description": "The specified property of the code has at least one value (if the specified value is true; if the specified value is false, then matches when the specified property of the code has no values).",
+        "filter": null
+      }
+    ]
+  }
+}

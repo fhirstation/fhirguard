@@ -1,0 +1,81 @@
+{
+  "name": "CommunicationTopic",
+  "resource_id": "communication-topic",
+  "resource_url": "http://hl7.org/fhir/ValueSet/communication-topic",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/communication-topic"
+      }
+    ]
+  },
+  "description": "Codes describing the purpose or content of the communication.",
+  "related_codesystems": [
+    {
+      "id": "communication-topic",
+      "url": "http://terminology.hl7.org/CodeSystem/communication-topic"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "prescription-refill-request",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+      "display": "Prescription Refill Request",
+      "description": "The purpose or content of the communication is a prescription refill request.",
+      "filter": null
+    },
+    {
+      "code": "progress-update",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+      "display": "Progress Update",
+      "description": "The purpose or content of the communication is a progress update.",
+      "filter": null
+    },
+    {
+      "code": "report-labs",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+      "display": "Report Labs",
+      "description": "The purpose or content of the communication is to report labs.",
+      "filter": null
+    },
+    {
+      "code": "appointment-reminder",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+      "display": "Appointment Reminder",
+      "description": "The purpose or content of the communication is an appointment reminder.",
+      "filter": null
+    },
+    {
+      "code": "phone-consult",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+      "display": "Phone Consult",
+      "description": "The purpose or content of the communication is a phone consult.",
+      "filter": null
+    },
+    {
+      "code": "summary-report",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/communication-topic",
+      "display": "Summary Report",
+      "description": "The purpose or content of the communication is a summary report.",
+      "filter": null
+    }
+  ]
+}

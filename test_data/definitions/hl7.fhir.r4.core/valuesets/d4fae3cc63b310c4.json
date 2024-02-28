@@ -1,0 +1,2221 @@
+{
+  "name": "v2.0396",
+  "resource_id": "v2-0396",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0396",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0396"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0396 ( Coding System)",
+  "related_codesystems": [
+    {
+      "id": "v2-0396",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0396"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "99zzz",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Local general code where z is an alphanumeric character",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "99zzz or L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Local general code (where z is an alphanumeric character)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "American College of Radiology finding codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACTCODE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Table of HL7 Version 3 ActCode values",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACTRELSS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Used to indicate that the target of the relationship will be a filtered subset of the total related set of targets.\r\nUsed when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtere",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2006",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2006",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2007",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2007",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2008",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2008",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2009",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2009",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2010",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2010",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2011",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2011",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2012",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2013",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2013",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2013",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2014",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2014",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2015",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2015",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ALPHAID2016",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Alpha-ID v2016",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMTv2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Australian Medicines Terminology (v2)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANS+",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "HL7 set of units of measure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "WHO Adverse Reaction Terms",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AS4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ASTM E1238/ E1467 Universal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AS4E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "AS4 Neurophysiology Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ATC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "American Type Culture Collection",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CPT-4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CPT-5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAPECC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "College of American Pathologists Electronic Cancer Checklist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Chemical abstract codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Clinical Care Classification system",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CD2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDT-2 Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Analyte Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCEDACUITY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Emergency Department Acuity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "cdcgs1vis",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "VIS Bar Codes (IIS)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Methods/Instruments Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCNHSN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC National Healthcare Safety Network Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCOBS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC BioSense RT observations (Census) - CDC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCPHINVS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC PHIN Vocabulary Coding System",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDCREC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Race & Ethnicity - CDC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Surveillance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CEN ECG diagnostic codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CE (obsolete)",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CEN ECG diagnostic codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CLIP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CPTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CPT Modifier Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "COSTART",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CVX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Vaccine Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DCL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "DICOM Class Label",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DCM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "DICOM Controlled Terminology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DQL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "DICOM Query Label",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "EUCLIDES",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Euclides  quantity codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Euclides Lab method codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Euclides Lab equipment codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EDLEVEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Education Level",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTITYCODE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Entity Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENTITYHDLG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Entity Handling Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENZC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Enzyme Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPASRS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "EPA SRS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDAUDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "FDA Unique Device Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDAUNII",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Unique Ingredient Identifier (UNII)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "First DataBank Drug Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDDX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "First DataBank Diagnostic Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "FDA K10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIPS5_2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "FIPS 5-2 (State)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIPS6_4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "FIPS 6-4 (County)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GDRG2004",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "G-DRG German DRG Codes v2004",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GDRG2005",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "G-DRG German DRG Codes v2005",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GDRG2006",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "G-DRG German DRG Codes v2006",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GDRG2007",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "G-DRG German DRG Codes v2007",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GDRG2008",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "G-DRG German DRG Codes v2008",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GDRG2009",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "G-DRG German DRG Codes v2009",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "General code",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Active",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GMDC2004",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Major Diagnostic Codes v2004",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GMDC2005",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Major Diagnostic Codes v2005",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GMDC2006",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Major Diagnostic Codes v2006",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GMDC2007",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Major Diagnostic Codes v2007",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GMDC2008",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Major Diagnostic Codes v2008",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GMDC2009",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Major Diagnostic Codes v2009",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GS1UDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "GS1 Unique Device Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "HIBCC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HCPCS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CMS (formerly HCFA)  Common Procedure Coding System",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HCPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Health Care Provider Taxonomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HHC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Home Health Care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Health Outcomes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIBUDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "HIBCC Unique Device Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HL7nnnn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "HL7 Defined Codes where nnnn is the HL7 table number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Japanese Nationwide Medicine Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CMS (formerly HCFA )Procedure Codes (HCPCS)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HSLOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Healthcare Service Location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-10",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "International Classification of Diseases, 10th  Revision, Clinical Modification (ICD-10-CM)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10G2004",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany 2004",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10G2005",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany 2005",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10G2006",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany 2006",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-10  Procedure Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD9",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I9C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-9CM",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I9CDX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-9CM Diagnosis codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I9CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-9CM Procedure codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IBT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISBT",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IBT0001",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISBT 128 Standard transfusion/transplantation data items",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IBTnnnn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISBT 128 codes where nnnn  specifies a specific table within ISBT 128.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IC2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICHPPC-2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICCUDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICCBBA Unique Device Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10AM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-10 Australian modification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10CA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD-10 Canada",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2007",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2007",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2008",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2008",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2009",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2009",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2010",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2010",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2011",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2011",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2012",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2012",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2013",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2013",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2014",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2014",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2015",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2015",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD10GM2016",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICD 10 Germany v2016",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICDO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "International Classification of Diseases for Oncology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICDO2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "International Classification of Disease for Oncology Second Edition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICDO3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "International Classification of Disease for Oncology Third Edition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "International Classification of Functioning, Disability and Health (ICF)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ICCS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICSD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "International Classification of Sleep Disorders",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IHELAW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "IHE Laboratory Analytical Workflow (LAW) Profile Codes.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO 2955.83 (units of measure) with HL7 extensions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO+",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO 2955.83 (units of measure) with HL7 extensions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO3166_1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO 3166-1 Country Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO3166_2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO 3166-2 Country subdivisions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO4217",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO4217 Currency Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISO639",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO 639 Language",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISOnnnn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO Defined Codes where nnnn is the ISO table number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISOnnnn (deprecated)",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ISO Defined Codes where nnnn is the ISO table number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ITIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Integrated Taxonomic Information System",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IUPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "IUPAC/IFCC Component Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IUPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "IUPAC/IFCC Property Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JC10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "JLAC/JSLM, nationwide laboratory code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JC8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Japanese Chemistry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JJ1017",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Japanese Image Examination Cache",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Local general code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LANGUAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "LanguaL",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Local billing code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Logical Observation Identifier Names and Codes (LOINCÂ®)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medicaid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medicare",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medical Device Communication",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDDX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medispan Diagnostic Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medical Economics Drug Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEDIATYPE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "MIME Media Type IANA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medical Dictionary for Drug Regulatory Affairs (MEDDRA)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEDX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medical Economics Diagnostic Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MGPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Medispan GPI",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MVX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Vaccine Manufacturer Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAICS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Industry (NAICS)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NCPDPnnnnsss",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "NCPDP code list for data element nnnn [as used in segment sss]",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "NANDA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "National drug codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NDFRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "NDF-RT (Drug Classification)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Nursing Interventions Classification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP001",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Source of Information (Immunization)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP002",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Substance refusal reason",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP004",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Vaccination - Contraindications, Precautions, and Immunities",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP007",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Vaccinated at location (facility)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP008",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Vaccine purchased with (Type of funding)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP009",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Reported adverse event previously",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIP010",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "VAERS Report type",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Notifiable Event (Disease/Condition) Code List",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "National Provider Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NUBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "National Uniform Billing Committee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NULLFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Null Flavor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O301",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "German Procedure Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O3012004",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2004",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O3012005",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2005",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O3012006",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2006",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBSMETHOD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Observation Method Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OHA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Omaha System",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2007",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2007",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2008",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2008",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2009",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2009",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2010",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2010",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2011",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2011",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2012",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2012",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2013",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2013",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2014",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2014",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2015",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2015",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OPS2016",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "OPS Germany v2016",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHDSCSOPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Source of Payment Typology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHINQUESTION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC Public Health Information Network (PHIN) Question",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC PHLIP Lab result codes that are not covered in SNOMED at the time of this implementation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "CDC PHLIP Lab test codes, where LOINC concept is too broad or not yet available, especially as needed for ordering and or lab to lab reporting )",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "POS Codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRTCPTNMODE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Paticipation Mode Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Read Classification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROLECLASS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Used initially for contact roles.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROLECODE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Participation Mode",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RSPMODE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RXNORM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "RxNorm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "SNOMED Clinical Terms",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCT2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "SNOMED Clinical Terms alphanumeric codes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "SNOMED- DICOM Microglossary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Industry (SIC)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Systemized Nomenclature of Medicine (SNOMED)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNM3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "SNOMED International",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "SNOMED topology codes (anatomic sites)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Occupation (SOC 2000)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UB04FL14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Priority (Type) of Visit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UB04FL15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Point of Origin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UB04FL17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Patient Discharge Status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UB04FL31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Occurrence Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UB04FL35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Occurrence Span",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UB04FL39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Value Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "UCDS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UCUM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "UCUM code set for units of measure(from Regenstrief)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "MDNS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Unified Medical Language",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Universal Product Code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "UPIN",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USGSGNIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "U.S. Board on Geographic Names (USGS - GNIS)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "United States Postal Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "Clinicians are required to track the Vaccine Information Sheet (VIS) that was shared with the recipient of a vaccination.  This code system contains codes that  identify the document type and the owner of the document.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "WHO record # drug codes (6 digit)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "WHO record # drug codes (8 digit)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "WHO record # code with ASTM extension",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "WHO ATC",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X12Dennnn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0396",
+      "display": "ASC X12 Code List nnnn",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "v2.0659",
+  "resource_id": "v2-0659",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0659",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0659"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0659 ( Lot Control)",
+  "related_codesystems": [
+    {
+      "id": "v2-0659",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0659"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0659",
+      "display": "OR Mode Without Operator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0659",
+      "display": "OR Mode with Operator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0659",
+      "display": "CPD Mode Without Operator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0659",
+      "display": "CPD Mode With Operator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0659",
+      "display": "Offline Mode",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

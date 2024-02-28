@@ -1,0 +1,51 @@
+{
+  "name": "v2.0922",
+  "resource_id": "v2-0922",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0922",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0922"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0922 ( Certification Category Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0922",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0922"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "IR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0922",
+      "display": "Initial Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0922",
+      "display": "Request for Appeal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0922",
+      "display": "Request for Extension",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

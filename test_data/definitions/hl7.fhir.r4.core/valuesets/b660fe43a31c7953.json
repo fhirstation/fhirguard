@@ -1,0 +1,71 @@
+{
+  "name": "v2.0214",
+  "resource_id": "v2-0214",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0214",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0214"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0214 ( Special Program Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0214",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0214"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0214",
+      "display": "Child Health Assistance",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0214",
+      "display": "Elective Surgery Program",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0214",
+      "display": "Family Planning",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0214",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0214",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

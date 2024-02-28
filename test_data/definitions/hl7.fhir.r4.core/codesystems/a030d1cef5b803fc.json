@@ -1,0 +1,62 @@
+{
+  "name": "v2.0717",
+  "resource_id": "v2-0717",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0717",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ALL",
+      "display": "All"
+    },
+    {
+      "code": "DEM",
+      "display": "All demographic data"
+    },
+    {
+      "code": "DRG",
+      "display": "Drug"
+    },
+    {
+      "code": "HIV",
+      "display": "HIV status and results"
+    },
+    {
+      "code": "LOC",
+      "display": "Patient Location"
+    },
+    {
+      "code": "NO",
+      "display": "None"
+    },
+    {
+      "code": "OI",
+      "display": "Opt in all registries (HIPAA)"
+    },
+    {
+      "code": "OO",
+      "display": "Opt out all registries (HIPAA)"
+    },
+    {
+      "code": "PID-17",
+      "display": "Religion"
+    },
+    {
+      "code": "PID-7",
+      "display": "Date of Birth"
+    },
+    {
+      "code": "PSY",
+      "display": "Psychiatric Mental health"
+    },
+    {
+      "code": "SMD",
+      "display": "Sensitive medical data"
+    },
+    {
+      "code": "STD",
+      "display": "Sexually transmitted diseases"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

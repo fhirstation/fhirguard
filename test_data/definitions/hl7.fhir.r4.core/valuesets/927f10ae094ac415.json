@@ -1,0 +1,71 @@
+{
+  "name": "v2.0017",
+  "resource_id": "v2-0017",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0017",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0017"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0017 ( Transaction Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0017",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0017"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0017",
+      "display": "Adjustment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0017",
+      "display": "Credit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0017",
+      "display": "Charge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0017",
+      "display": "Co-payment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0017",
+      "display": "Payment",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "name": "v2.0495",
+  "resource_id": "v2-0495",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0495",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0495"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0495 ( Body Site Modifier)",
+  "related_codesystems": [
+    {
+      "id": "v2-0495",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0495"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ANT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Anterior",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Bilateral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Distal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EXT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "External",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Left",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Lateral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LLQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Quadrant, Left Lower",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Lower",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Quadrant, Left Upper",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Medial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Posterior",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Proximal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Right",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RLQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Quadrant, Right Lower",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RUQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Quadrant, Right Upper",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0495",
+      "display": "Upper",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

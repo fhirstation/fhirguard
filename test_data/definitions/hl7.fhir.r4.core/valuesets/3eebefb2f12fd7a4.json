@@ -1,0 +1,51 @@
+{
+  "name": "AdverseEventCausalityMethod",
+  "resource_id": "adverse-event-causality-method",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-causality-method",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-causality-method"
+      }
+    ]
+  },
+  "description": "TODO.",
+  "related_codesystems": [
+    {
+      "id": "adverse-event-causality-method",
+      "url": "http://terminology.hl7.org/CodeSystem/adverse-event-causality-method"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ProbabilityScale",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-causality-method",
+      "display": "Probability Scale",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Bayesian",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-causality-method",
+      "display": "Bayesian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Checklist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-causality-method",
+      "display": "Checklist",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

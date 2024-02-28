@@ -1,0 +1,74 @@
+{
+  "name": "v2.0280",
+  "resource_id": "v2-0280",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0280",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "_valueString": {
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "lang",
+                    "valueCode": "nl"
+                  },
+                  {
+                    "url": "content",
+                    "valueString": "Zo spoedig mogelijk"
+                  }
+                ],
+                "url": "http://hl7.org/fhir/StructureDefinition/translation"
+              }
+            ]
+          }
+        }
+      ],
+      "code": "A",
+      "display": "ASAP",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "ZSM"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Routine",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Routine"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "STAT",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "STAT"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

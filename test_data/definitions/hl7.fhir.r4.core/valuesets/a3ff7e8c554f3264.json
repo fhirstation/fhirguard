@@ -1,0 +1,196 @@
+{
+  "name": "VitalSignsUnits",
+  "resource_id": "ucum-vitals-common",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ucum-vitals-common",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "%",
+            "display": "percent"
+          },
+          {
+            "code": "cm",
+            "display": "centimeter"
+          },
+          {
+            "code": "[in_i]",
+            "display": "inch (international)"
+          },
+          {
+            "code": "kg",
+            "display": "kilogram"
+          },
+          {
+            "code": "g",
+            "display": "gram"
+          },
+          {
+            "code": "[lb_av]",
+            "display": "pound (US and British)"
+          },
+          {
+            "code": "Cel",
+            "display": "degree Celsius"
+          },
+          {
+            "code": "[degF]",
+            "display": "degree Fahrenheit"
+          },
+          {
+            "code": "mm[Hg]",
+            "display": "millimeter of mercury"
+          },
+          {
+            "code": "/min",
+            "display": "per minute"
+          },
+          {
+            "code": "kg/m2",
+            "display": "kilogram / (meter ^ 2)"
+          },
+          {
+            "code": "m2",
+            "display": "square meter"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Common UCUM units for recording Vital Signs",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "%",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "percent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "cm",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "centimeter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "[in_i]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "inch (international)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "kg",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "kilogram",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "g",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "gram",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "[lb_av]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "pound (US and British)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Cel",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "degree Celsius",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "[degF]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "degree Fahrenheit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "mm[Hg]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "millimeter of mercury",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "/min",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "per minute",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "kg/m2",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "kilogram / (meter ^ 2)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "m2",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "square meter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

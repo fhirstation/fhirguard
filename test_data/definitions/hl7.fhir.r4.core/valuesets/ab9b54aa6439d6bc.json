@@ -1,0 +1,51 @@
+{
+  "name": "v2.0497",
+  "resource_id": "v2-0497",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0497",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0497"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0497 ( Consent Mode)",
+  "related_codesystems": [
+    {
+      "id": "v2-0497",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0497"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0497",
+      "display": "Telephone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0497",
+      "display": "Verbal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0497",
+      "display": "Written",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

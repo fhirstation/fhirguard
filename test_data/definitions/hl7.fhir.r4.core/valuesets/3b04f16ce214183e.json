@@ -1,0 +1,51 @@
+{
+  "name": "v3.EntityNamePartQualifier",
+  "resource_id": "v3-EntityNamePartQualifier",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-EntityNamePartQualifier",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier"
+      }
+    ]
+  },
+  "description": "  OpenIssue:\r\nNeeds description",
+  "related_codesystems": [
+    {
+      "id": "v3-EntityNamePartQualifier",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "_OrganizationNamePartQualifier",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+      "display": "OrganizationNamePartQualifier",
+      "description": "OrganizationNamePartQualifier",
+      "filter": null
+    },
+    {
+      "code": "PharmaceuticalEntityNamePartQualifiers",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+      "display": "PharmaceuticalEntityNamePartQualifiers",
+      "description": "Description: Medication Name Parts are a means of specifying a range of acceptable \"official\" forms of the name of a product.  They are used as patterns against which input name strings may be matched for automatic identification of products from input text reports.   While they cover the concepts held under \"doseForm\" or \"route\" or \"strength\" the name parts are not the same and do not fit into a controlled vocabulary in the same way. By specifying up to 8 name parts a much larger range of possible names can be generated.",
+      "filter": null
+    },
+    {
+      "code": "_PersonNamePartQualifier",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
+      "display": "PersonNamePartQualifier",
+      "description": "PersonNamePartQualifier",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "InvoiceStatus",
+  "resource_id": "invoice-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/invoice-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/invoice-status"
+      }
+    ]
+  },
+  "description": "Codes identifying the lifecycle stage of an Invoice.",
+  "related_codesystems": [
+    {
+      "id": "invoice-status",
+      "url": "http://hl7.org/fhir/invoice-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "draft",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-status",
+      "display": "draft",
+      "description": "the invoice has been prepared but not yet finalized.",
+      "filter": null
+    },
+    {
+      "code": "issued",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-status",
+      "display": "issued",
+      "description": "the invoice has been finalized and sent to the recipient.",
+      "filter": null
+    },
+    {
+      "code": "balanced",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-status",
+      "display": "balanced",
+      "description": "the invoice has been balaced / completely paid.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-status",
+      "display": "cancelled",
+      "description": "the invoice was cancelled.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/invoice-status",
+      "display": "entered in error",
+      "description": "the invoice was determined as entered in error before it was issued.",
+      "filter": null
+    }
+  ]
+}

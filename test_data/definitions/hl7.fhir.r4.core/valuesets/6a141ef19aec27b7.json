@@ -1,0 +1,291 @@
+{
+  "name": "NHIN PurposeOfUse",
+  "resource_id": "nhin-purposeofuse",
+  "resource_url": "http://hl7.org/fhir/ValueSet/nhin-purposeofuse",
+  "compose": {
+    "include": [
+      {
+        "system": "http://healthit.gov/nhin/purposeofuse"
+      }
+    ]
+  },
+  "description": "This value set is suitable for use with the provenance resource. It is derived from, but not compatible with, the HL7 v3 Purpose of use Code system.",
+  "related_codesystems": [
+    {
+      "id": "nhin-purposeofuse",
+      "url": "http://healthit.gov/nhin/purposeofuse"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "TREATMENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Treatment",
+      "description": "Treatment",
+      "filter": null
+    },
+    {
+      "code": "PAYMENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Payment",
+      "description": "Payment",
+      "filter": null
+    },
+    {
+      "code": "OPERATIONS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Operations",
+      "description": "Healthcare Operations",
+      "filter": null
+    },
+    {
+      "code": "SYSADMIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Sysadmin",
+      "description": "System Administration",
+      "filter": null
+    },
+    {
+      "code": "FRAUD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Fraud",
+      "description": "Fraud detection",
+      "filter": null
+    },
+    {
+      "code": "PSYCHOTHERAPY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Psychotherapy",
+      "description": "Use or disclosure of Psychotherapy Notes",
+      "filter": null
+    },
+    {
+      "code": "TRAINING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Training",
+      "description": "Use or disclosure by the covered entity for its own training programs",
+      "filter": null
+    },
+    {
+      "code": "LEGAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Legal",
+      "description": "Use or disclosure by the covered entity to defend itself in a legal action",
+      "filter": null
+    },
+    {
+      "code": "MARKETING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Marketing",
+      "description": "Marketing",
+      "filter": null
+    },
+    {
+      "code": "DIRECTORY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Directory",
+      "description": "Use and disclosure for facility directories",
+      "filter": null
+    },
+    {
+      "code": "FAMILY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Family",
+      "description": "Disclose to a family member, other relative, or a close personal friend of the individual",
+      "filter": null
+    },
+    {
+      "code": "PRESENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Present",
+      "description": "Uses and disclosures with the individual present.",
+      "filter": null
+    },
+    {
+      "code": "EMERGENCY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Emergency",
+      "description": "Permission cannot practicably be provided because of the individual's incapacity or an emergency.",
+      "filter": null
+    },
+    {
+      "code": "DISASTER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Disaster",
+      "description": "Use and disclosures for disaster relief purposes.",
+      "filter": null
+    },
+    {
+      "code": "PUBLICHEALTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Public Health",
+      "description": "Uses and disclosures for public health activities.",
+      "filter": null
+    },
+    {
+      "code": "ABUSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Abuse",
+      "description": "Disclosures about victims of abuse, neglect or domestic violence.",
+      "filter": null
+    },
+    {
+      "code": "OVERSIGHT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Oversight",
+      "description": "Uses and disclosures for health oversight activities.",
+      "filter": null
+    },
+    {
+      "code": "JUDICIAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Judicial",
+      "description": "Disclosures for judicial and administrative proceedings.",
+      "filter": null
+    },
+    {
+      "code": "LAW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Law Enforcement",
+      "description": "Disclosures for law enforcement purposes.",
+      "filter": null
+    },
+    {
+      "code": "DECEASED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Deceased",
+      "description": "Uses and disclosures about decedents.",
+      "filter": null
+    },
+    {
+      "code": "DONATION",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Donation",
+      "description": "Uses and disclosures for cadaveric organ,  eye or tissue donation purposes",
+      "filter": null
+    },
+    {
+      "code": "RESEARCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Research",
+      "description": "Uses and disclosures for research purposes.",
+      "filter": null
+    },
+    {
+      "code": "THREAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Threat",
+      "description": "Uses and disclosures to avert a serious threat to health or safety.",
+      "filter": null
+    },
+    {
+      "code": "GOVERNMENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Government",
+      "description": "Uses and disclosures for specialized government functions.",
+      "filter": null
+    },
+    {
+      "code": "WORKERSCOMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Worker's Comp",
+      "description": "Disclosures for workers' compensation.",
+      "filter": null
+    },
+    {
+      "code": "COVERAGE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Coverage",
+      "description": "Disclosures for insurance or disability coverage determination",
+      "filter": null
+    },
+    {
+      "code": "REQUEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://healthit.gov/nhin/purposeofuse",
+      "display": "Request",
+      "description": "Request of the Individual",
+      "filter": null
+    }
+  ]
+}

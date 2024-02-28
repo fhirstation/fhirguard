@@ -1,0 +1,981 @@
+{
+  "name": "v2.0440",
+  "resource_id": "v2-0440",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0440",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0440"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0440 ( Data types)",
+  "related_codesystems": [
+    {
+      "id": "v2-0440",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0440"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AUI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Authorization information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Charge code and date",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Channel calibration parameters",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Channel definition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Coded element",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Coded element with formatted values",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite ID with check digit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite ID number and name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Coded with no exceptions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite ID number and name simplified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite ID number and name simplified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite price",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Composite quantity with units",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Channel sensitivity and units",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CWE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Coded with exceptions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Extended composite ID with check digit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Daily deductible information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Date and institution name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Discharge to location and date",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DLN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Driver's license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Delta",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Date/time range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Date",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Date/time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DTN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Day type and number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Encapsulated data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Entity identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Entity identifier pair",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Error location and description",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ERL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Error location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Financial class",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Family name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Formatted text",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "General timing specification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Hierarchic designator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Insurance certification definition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Coded values for HL7 tables",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Coded value for user-defined tables",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JCC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Job code/class",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LA1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Location with address variation 1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LA2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Location with address variation 2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Multiplexed array",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Money",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Money and charge code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Money or percentage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Message type",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Numeric array",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NDL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Name with date and location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Numeric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Numeric range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Occurrence code and date",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Order sequence definition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Occurrence span code and date",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Practitioner institutional privileges",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Person location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Practitioner license or other ID number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Person name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Performing person time stamp",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Parent result link",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Processing type",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Policy type and amount",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Query input parameter list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Query selection criteria",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Row column definition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RFR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Reference range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Repeat interval",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RMC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Room coverage",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Reference pointer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Repeat pattern",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Street Address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Scheduling class value pair",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Sequence ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Structured numeric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "String of telephone number digits",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Specialty description",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Specimen source",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Sort order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "String data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Time",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Telephone number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Timing/quantity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Time stamp",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Text data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UVC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "UB value code and amount",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Visiting hours",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Version identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Value range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WVI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Channel Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WVS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Waveform source",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Extended address",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Extended composite ID number and name for persons",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Extended composite name and ID number for organizations",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Extended person name",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XTN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0440",
+      "display": "Extended telecommunications number",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

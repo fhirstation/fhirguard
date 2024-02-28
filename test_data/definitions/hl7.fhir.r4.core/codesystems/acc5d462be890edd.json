@@ -1,0 +1,60 @@
+{
+  "name": "EnableWhenBehavior",
+  "resource_id": "questionnaire-enable-behavior",
+  "resource_url": "http://hl7.org/fhir/questionnaire-enable-behavior",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "all",
+      "display": "All",
+      "definition": "Enable the question when all the enableWhen criteria are satisfied."
+    },
+    {
+      "code": "any",
+      "display": "Any",
+      "definition": "Enable the question when any of the enableWhen criteria are satisfied."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "EnableWhenBehavior",
+    "resource_id": "questionnaire-enable-behavior",
+    "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/questionnaire-enable-behavior"
+        }
+      ]
+    },
+    "description": "Controls how multiple enableWhen values are interpreted -  whether all or any must be true.",
+    "related_codesystems": [
+      {
+        "id": "questionnaire-enable-behavior",
+        "url": "http://hl7.org/fhir/questionnaire-enable-behavior"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "all",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-behavior",
+        "display": "All",
+        "description": "Enable the question when all the enableWhen criteria are satisfied.",
+        "filter": null
+      },
+      {
+        "code": "any",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-behavior",
+        "display": "Any",
+        "description": "Enable the question when any of the enableWhen criteria are satisfied.",
+        "filter": null
+      }
+    ]
+  }
+}

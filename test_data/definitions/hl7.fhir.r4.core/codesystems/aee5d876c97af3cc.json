@@ -1,0 +1,40 @@
+{
+  "name": "v2.0776",
+  "resource_id": "v2-0776",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0776",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Item is available to be purchased or issued."
+        }
+      ],
+      "code": "A",
+      "display": "Active"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Item is not available to be purchased or issued."
+        }
+      ],
+      "code": "I",
+      "display": "Inactive"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Item is not available to be purchased, but is available to be issued."
+        }
+      ],
+      "code": "P",
+      "display": "Pending Inactive"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

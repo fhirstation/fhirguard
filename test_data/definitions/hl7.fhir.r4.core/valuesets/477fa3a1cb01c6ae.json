@@ -1,0 +1,131 @@
+{
+  "name": "AssertionOperatorType",
+  "resource_id": "assert-operator-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/assert-operator-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/assert-operator-codes"
+      }
+    ]
+  },
+  "description": "The type of operator to use for assertion.",
+  "related_codesystems": [
+    {
+      "id": "assert-operator-codes",
+      "url": "http://hl7.org/fhir/assert-operator-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "equals",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "equals",
+      "description": "Default value. Equals comparison.",
+      "filter": null
+    },
+    {
+      "code": "notEquals",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "notEquals",
+      "description": "Not equals comparison.",
+      "filter": null
+    },
+    {
+      "code": "in",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "in",
+      "description": "Compare value within a known set of values.",
+      "filter": null
+    },
+    {
+      "code": "notIn",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "notIn",
+      "description": "Compare value not within a known set of values.",
+      "filter": null
+    },
+    {
+      "code": "greaterThan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "greaterThan",
+      "description": "Compare value to be greater than a known value.",
+      "filter": null
+    },
+    {
+      "code": "lessThan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "lessThan",
+      "description": "Compare value to be less than a known value.",
+      "filter": null
+    },
+    {
+      "code": "empty",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "empty",
+      "description": "Compare value is empty.",
+      "filter": null
+    },
+    {
+      "code": "notEmpty",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "notEmpty",
+      "description": "Compare value is not empty.",
+      "filter": null
+    },
+    {
+      "code": "contains",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "contains",
+      "description": "Compare value string contains a known value.",
+      "filter": null
+    },
+    {
+      "code": "notContains",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "notContains",
+      "description": "Compare value string does not contain a known value.",
+      "filter": null
+    },
+    {
+      "code": "eval",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/assert-operator-codes",
+      "display": "evaluate",
+      "description": "Evaluate the FHIRPath expression as a boolean condition.",
+      "filter": null
+    }
+  ]
+}

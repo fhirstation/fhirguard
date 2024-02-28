@@ -1,0 +1,60 @@
+{
+  "name": "AllergyIntoleranceSubstanceExposureRisk",
+  "resource_id": "allerg-intol-substance-exp-risk",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/allerg-intol-substance-exp-risk",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "known-reaction-risk",
+      "display": "Known Reaction Risk",
+      "definition": "Known risk of allergy or intolerance reaction upon exposure to the specified substance."
+    },
+    {
+      "code": "no-known-reaction-risk",
+      "display": "No Known Reaction Risk",
+      "definition": "No known risk of allergy or intolerance reaction upon exposure to the specified substance."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AllergyIntoleranceSubstanceExposureRisk",
+    "resource_id": "allerg-intol-substance-exp-risk",
+    "resource_url": "http://hl7.org/fhir/ValueSet/allerg-intol-substance-exp-risk",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allerg-intol-substance-exp-risk"
+        }
+      ]
+    },
+    "description": "The risk of an adverse reaction (allergy or intolerance) for this patient upon exposure to the substance (including pharmaceutical products).",
+    "related_codesystems": [
+      {
+        "id": "allerg-intol-substance-exp-risk",
+        "url": "http://terminology.hl7.org/CodeSystem/allerg-intol-substance-exp-risk"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "known-reaction-risk",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/allerg-intol-substance-exp-risk",
+        "display": "Known Reaction Risk",
+        "description": "Known risk of allergy or intolerance reaction upon exposure to the specified substance.",
+        "filter": null
+      },
+      {
+        "code": "no-known-reaction-risk",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/allerg-intol-substance-exp-risk",
+        "display": "No Known Reaction Risk",
+        "description": "No known risk of allergy or intolerance reaction upon exposure to the specified substance.",
+        "filter": null
+      }
+    ]
+  }
+}

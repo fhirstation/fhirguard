@@ -1,0 +1,191 @@
+{
+  "name": "v2.0376",
+  "resource_id": "v2-0376",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0376",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0376"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0376 ( Special handling considerations)",
+  "related_codesystems": [
+    {
+      "id": "v2-0376",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0376"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Ambient temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Body temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Critical ambient temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CATM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Protect from air",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Critical frozen temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CREF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Critical refrigerated temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Deep frozen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Dry",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Frozen temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MTLF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Metal Free",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Liquid nitrogen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Protect from light",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Do not shake",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "No shock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Refrigerated temperature",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UFRZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Ultra frozen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0376",
+      "display": "Upright",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

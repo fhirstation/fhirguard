@@ -1,0 +1,108 @@
+{
+  "name": "v2.0263",
+  "resource_id": "v2-0263",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0263",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Ambulatory",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Dagbehandeling"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "display": "Critical care",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Kritieke zorg"
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "display": "Emergency",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Spoed"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Isolation",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Isolatie"
+        }
+      ]
+    },
+    {
+      "code": "N",
+      "display": "Intensive care",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Intensive care"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Routine",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Routine"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Surgery",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Chirurgie"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

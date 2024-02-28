@@ -1,0 +1,49 @@
+{
+  "name": "Jurisdiction ValueSet",
+  "resource_id": "jurisdiction",
+  "resource_url": "http://hl7.org/fhir/ValueSet/jurisdiction",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:3166"
+      },
+      {
+        "system": "urn:iso:std:iso:3166:-2"
+      },
+      {
+        "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+        "filter": [
+          {
+            "property": "class",
+            "op": "=",
+            "value": "region"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set defines a base set of codes for country, country subdivision and region    for indicating where a resource is intended to be used.   \r\n   \r\n   Note: The codes for countries and country subdivisions are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html)    while the codes for \"supra-national\" regions are from    [UN Standard country or area codes for statistical use (M49)](http://unstats.un.org/unsd/methods/m49/m49.htm).",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "urn:iso:std:iso:3166",
+      "type": [
+        "include"
+      ],
+      "system": "urn:iso:std:iso:3166",
+      "display": "urn:iso:std:iso:3166",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "urn:iso:std:iso:3166:-2",
+      "type": [
+        "include"
+      ],
+      "system": "urn:iso:std:iso:3166:-2",
+      "display": "urn:iso:std:iso:3166:-2",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

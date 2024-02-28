@@ -1,0 +1,61 @@
+{
+  "name": "ContractDataMeaning",
+  "resource_id": "contract-data-meaning",
+  "resource_url": "http://hl7.org/fhir/ValueSet/contract-data-meaning",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/contract-data-meaning"
+      }
+    ]
+  },
+  "description": "How a resource reference is interpreted when evaluating contract offers.",
+  "related_codesystems": [
+    {
+      "id": "contract-data-meaning",
+      "url": "http://terminology.hl7.org/CodeSystem/contract-data-meaning"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "instance",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-data-meaning",
+      "display": "Instance",
+      "description": "The consent applies directly to the instance of the resource.",
+      "filter": null
+    },
+    {
+      "code": "related",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-data-meaning",
+      "display": "Related",
+      "description": "The consent applies directly to the instance of the resource and instances it refers to.",
+      "filter": null
+    },
+    {
+      "code": "dependents",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-data-meaning",
+      "display": "Dependents",
+      "description": "The consent applies directly to the instance of the resource and instances that refer to it.",
+      "filter": null
+    },
+    {
+      "code": "authoredby",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/contract-data-meaning",
+      "display": "AuthoredBy",
+      "description": "The consent applies to instances of resources that are authored by.",
+      "filter": null
+    }
+  ]
+}

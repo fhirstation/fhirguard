@@ -1,0 +1,46 @@
+{
+  "name": "v2.0924",
+  "resource_id": "v2-0924",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0924",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Annual"
+    },
+    {
+      "code": "D",
+      "display": "Per Day"
+    },
+    {
+      "code": "M",
+      "display": "Per Month"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Not from UCUM"
+        }
+      ],
+      "code": "O",
+      "display": "Duration of the Order"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Not from UCUM"
+        }
+      ],
+      "code": "PL",
+      "display": "Patients Lifetime"
+    },
+    {
+      "code": "WK",
+      "display": "Per Week"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

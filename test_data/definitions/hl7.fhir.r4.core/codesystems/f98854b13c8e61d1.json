@@ -1,0 +1,52 @@
+{
+  "name": "v2.0502",
+  "resource_id": "v2-0502",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0502",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "LM",
+      "display": "Legally mandated",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Wettelijk vereist"
+        }
+      ]
+    },
+    {
+      "code": "MIN",
+      "display": "Subject is a minor",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Subject is minderjairg"
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "display": "Subject is not competent to consent",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Subject is niet in staat tot toestemming"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

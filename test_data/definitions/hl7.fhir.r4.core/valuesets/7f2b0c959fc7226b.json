@@ -1,0 +1,39 @@
+{
+  "name": "Iso3166-1-N",
+  "resource_id": "iso3166-1-N",
+  "resource_url": "http://hl7.org/fhir/ValueSet/iso3166-1-N",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:3166",
+        "filter": [
+          {
+            "property": "code",
+            "op": "regex",
+            "value": "[0-9]{3}"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set defines the ISO 3166 Part 1 Numeric codes",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "urn:iso:std:iso:3166",
+      "type": [
+        "include"
+      ],
+      "system": "urn:iso:std:iso:3166",
+      "display": "urn:iso:std:iso:3166",
+      "description": null,
+      "filter": [
+        {
+          "property": "code",
+          "op": "regex",
+          "value": "[0-9]{3}"
+        }
+      ]
+    }
+  ]
+}

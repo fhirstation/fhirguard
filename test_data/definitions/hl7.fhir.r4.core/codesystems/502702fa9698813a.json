@@ -1,0 +1,52 @@
+{
+  "name": "v2.0409",
+  "resource_id": "v2-0409",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0409",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "M",
+      "display": "Migrates to different CPU",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Migreert naar andere CPU"
+        }
+      ]
+    },
+    {
+      "code": "SD",
+      "display": "Shut down",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Afsluiten"
+        }
+      ]
+    },
+    {
+      "code": "SU",
+      "display": "Start up",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Opstarten"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

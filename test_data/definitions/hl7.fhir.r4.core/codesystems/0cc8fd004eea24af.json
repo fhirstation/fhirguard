@@ -1,0 +1,50 @@
+{
+  "name": "v2.0564",
+  "resource_id": "v2-0564",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0564",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Payer adjustment"
+        }
+      ],
+      "code": "EA",
+      "display": "Edit/Adjudication Response"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Payer adjustment"
+        }
+      ],
+      "code": "IN",
+      "display": "Information"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Provider adjustment"
+        }
+      ],
+      "code": "PA",
+      "display": "Provider Adjustment"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Payer adjustment"
+        }
+      ],
+      "code": "PR",
+      "display": "Processing Result"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

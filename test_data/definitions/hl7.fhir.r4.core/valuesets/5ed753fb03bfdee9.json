@@ -1,0 +1,71 @@
+{
+  "name": "v2.0180",
+  "resource_id": "v2-0180",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0180",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0180"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0180 ( REcord Level Event Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0180",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0180"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "MAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0180",
+      "display": "Reactivate deactivated record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0180",
+      "display": "Add record to master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0180",
+      "display": "Deactivate: discontinue using record in master file, but do not delete from database",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0180",
+      "display": "Delete record from master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MUP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0180",
+      "display": "Update record for master file",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

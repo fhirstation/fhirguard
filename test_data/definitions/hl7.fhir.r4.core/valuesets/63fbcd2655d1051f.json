@@ -1,0 +1,41 @@
+{
+  "name": "ConsentProvisionType",
+  "resource_id": "consent-provision-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/consent-provision-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/consent-provision-type"
+      }
+    ]
+  },
+  "description": "How a rule statement is applied, such as adding additional consent or removing consent.",
+  "related_codesystems": [
+    {
+      "id": "consent-provision-type",
+      "url": "http://hl7.org/fhir/consent-provision-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "deny",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-provision-type",
+      "display": "Opt Out",
+      "description": "Consent is denied for actions meeting these rules.",
+      "filter": null
+    },
+    {
+      "code": "permit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/consent-provision-type",
+      "display": "Opt In",
+      "description": "Consent is provided for actions meeting these rules.",
+      "filter": null
+    }
+  ]
+}

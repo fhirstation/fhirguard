@@ -1,0 +1,81 @@
+{
+  "name": "v2.0909",
+  "resource_id": "v2-0909",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0909",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0909"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0909 ( Patient Results Release Categorization Scheme)",
+  "related_codesystems": [
+    {
+      "id": "v2-0909",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0909"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "SID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0909",
+      "display": "Share In1 Day -<p>Share result regardless of reference/therapeutic range after 1 or more business day as agreed to by the systems in play.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0909",
+      "display": "Share in 1 Day Conditionally -<p>Share result in reference ranges/therapeutic with patient after 1 or more business day as agreed to by the systems in play.<p>Withhold result out of reference/therapeutic range until physician release",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIMM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0909",
+      "display": "Share Immediately -<p>Share result with patient immediately",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STBD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0909",
+      "display": "Share To Be Determined -<p>Category to be determined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWNL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0909",
+      "display": "Share Within Normal Limits -<p>Share result in reference/therapeutic range with patient immediately<p>Share result out of reference/therapeutic ranges with patient after 1 or more business day as agreed to by the systems in play.",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0909",
+      "display": "Share Withhold -<p>Withhold result regardless of reference/therapeutic ranges",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

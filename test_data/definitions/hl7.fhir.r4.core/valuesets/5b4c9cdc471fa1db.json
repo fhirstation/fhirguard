@@ -1,0 +1,3701 @@
+{
+  "name": "v2.0003",
+  "resource_id": "v2-0003",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0003",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0003"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0003 ( EVENT TYPE CODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0003",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0003"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Admit/visit notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Transfer a patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Discharge/end visit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Register a patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Pre-admit a patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Change an outpatient to an inpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Change an inpatient to an outpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Update patient information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Patient departing - tracking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Patient arriving - tracking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel admit/visit notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel transfer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel discharge/end visit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Pending admit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Pending transfer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Pending discharge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Swap patients",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Merge patient information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/ADR -  Patient query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Bed status update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Patient goes on a \"leave of absence\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Patient returns from a \"leave of absence\"",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Delete a patient record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Link patient information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel pending discharge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel pending transfer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel pending admit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Add person information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Delete person information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Merge person information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Update person information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel patient arriving - tracking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Cancel patient departing - tracking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Merge patient information - patient ID only",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Merge patient information - account number only",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Merge patient information - patient ID and account number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK -  Unlink patient information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Cancel pre-admit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Merge person - patient ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Merge patient - patient identifier list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Merge account - patient account number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Merge visit - visit number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Move patient information - patient identifier list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Move account information - patient account number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Move visit information - visit number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change patient ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change patient identifier list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change alternate patient ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change patient account number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change visit number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change alternate visit ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Cancel leave of absence for a patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A53",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Cancel patient returns from a leave of absence",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A54",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change attending doctor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Cancel change attending doctor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A60",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Update allergy information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A61",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Change consulting doctor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "A62",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ADT/ACK - Cancel change consulting doctor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Add personnel record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Update personnel record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Delete personnel re cord",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Active practicing person",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Deactivate practicing person",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Terminate practicing person",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Grant Certificate/Permission",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PMU/ACK - Revoke Certificate/Permission",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Register a patient on a clinical trial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Cancel a patient registration on clinical trial (for clerical mistakes only)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Correct/update registration information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Patient has gone off a clinical trial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Patient enters phase of clinical trial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Cancel patient entering a phase (clerical mistake)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Correct/update phase information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CRM - Patient has gone off phase of clinical trial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CSU - Automated time intervals for reporting, like monthly",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CSU - Patient completes the clinical trial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CSU - Patient completes a phase of the clinical trial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "CSU - Update/correction of patient order/result information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Cancel Query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Submit HealthCare Services Invoice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Cancel HealthCare Services Invoice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "HealthCare Services Invoice Status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Re-Assess HealthCare Services Invoice Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Edit/Adjudication Results",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Request Additional Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Additional Information Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Payment/Remittance Advice",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Submit Authorization Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Cancel Authorization Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Authorization Request Status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Authorization Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Submit Health Document related to Authorization Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Cancel Health Document related to Authorization Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQI/RPI - Request for insurance information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQI/RPL - Request/receipt of patient selection display list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQI/RPR - Request/receipt of patient selection list",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQD/RPI - Request for patient demographic data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQC/RCI - Request for patient clinical information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQC/RCL - Request/receipt of clinical data listing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PIN/ACK - Unsolicited insurance information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQA/RPA - Request for treatment authorization information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQA/RPA - Request for modification to an authorization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQA/RPA - Request for resubmission of an authorization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQA/RPA - Request for cancellation of an authorization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "REF/RRI - Patient referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "REF/RRI - Modify patient referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "REF/RRI - Cancel patient referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "REF/RRI - Request patient referral status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Collaborative Care Referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Modify Collaborative Care Referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Cancel Collaborative Care Referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Collaborative Care Query/Collaborative Care Query Update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Asynchronous Collaborative Care Update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Collaborative Care Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "I22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Collaborative Care Fetch / Collaborative Care Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "J01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QCN/ACK - Cancel query/acknowledge message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "J02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QSX/ACK - Cancel subscription/acknowledge message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP - Segment pattern response in response to QBP^Q11",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RTB - Tabular response in response to QBP^Q13",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RDY - Display response in response to QBP^Q15",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP - Get person demographics response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP - Find candidates response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP - Get corresponding identifiers response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP - Allocate identifiers response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP - Personnel Information by Segment Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RSP -Dispense History Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Find Candidates including Visit Information Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Get Donor Record Candidates Response Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "K34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Segment Pattern Response Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file not otherwise specified",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file - staff practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file - test/observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master files charge description",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Patient location master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Clinical study with phases and schedules master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Clinical study without phases but with schedules master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Test/observation (numeric) master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Test/observation (categorical) master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Test /observation batteries master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Test/calculated observations master file",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file notification message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file notification - general",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file notification - site defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Inventory item master file notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master File Notification Inventory Item Enhanced",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "DRG Master File Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFN/MFK - Master file notification - Test/Observation (Payer)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "NMQ/NMR - Application management query message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "NMD/ACK - Application management data message (unsolicited)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORM - Order message (also RDE, RDS, RGV, RAS)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORR - Order response (also RRE, RRD, RRG, RRA)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMD - Diet order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORD - Diet order acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMS - Stock requisition order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORS - Stock requisition acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMN - Non-stock requisition order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORN - Non-stock requisition acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMP - Pharmacy/treatment order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORP - Pharmacy/treatment order acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RDE - Pharmacy/treatment encoded order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RRE - Pharmacy/treatment encoded order acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RDS - Pharmacy/treatment dispense",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RRD - Pharmacy/treatment dispense acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RGV - Pharmacy/treatment give",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RRG - Pharmacy/treatment give acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RAS - Pharmacy/treatment administration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RRA - Pharmacy/treatment administration acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMG - General clinical order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORG/ORL - General clinical order response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OML - Laboratory order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - General laboratory order response message to any OML",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMI - Imaging order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORI - Imaging order response message to any OMI",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RDE - Pharmacy/treatment refill authorization request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RRE - Pharmacy/Treatment Refill Authorization Acknowledgement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMB - Blood product order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORB - Blood product order acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BPS - Blood product dispense status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BRP - Blood product dispense status acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BTS - Blood product transfusion/disposition",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BRT - Blood product transfusion/disposition acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OML - Laboratory order for multiple orders related to a single specimen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - Laboratory order response message to a multiple order related to single specimen OML",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OML - Laboratory order for multiple orders related to a single container of a specimen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - Laboratory order response message to a single container of a specimen OML",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OPL - Population/Location-Based Laboratory Order Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OPR - Population/Location-Based Laboratory Order Acknowledgment Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Specimen shipment centric laboratory order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Specimen Shipment Centric Laboratory Order Acknowledgment Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "DBC - Create Donor Record Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "DBU - Update Donor Record Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "General Order Message with Document Payload Acknowledgement Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Donor Registration - Minimal Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Donor Eligibility Observations Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Donor Eligiblity Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Donor Request to Collect Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Donation Procedure Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Pharmacy/Treatment Dispense Request Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Pharmacy/Treatment Encoded Order Acknowledgment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OSU – Order Status Update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OSU – Order Status Update Acknowledgement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O53",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - General Laboratory Order Acknowledgment Message (Patient Optional)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O54",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - Laboratory Order Acknowledgment Message  – Multiple Order Per Specimen (Patient Optional)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - Laboratory Order Acknowledgment Message  – Multiple Order Per Container of Specimen (Patient Optional)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORL - Specimen Shipment Centric Laboratory Order Acknowledgment Message (Patient Optional)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O57",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OMQ- General Order Message with Document Payload",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O58",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORX - General Order Message with Document Payload Acknowledgement Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O59",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OML - Laboratory order for additional work up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BAR/ACK - Add patient accounts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BAR/ACK - Purge patient accounts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "DFT/ACK - Post detail financial transaction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/DSP - Generate bill and A/R statements",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BAR/ACK - Update account",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BAR/ACK - End account",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PEX - Unsolicited initial individual product experience report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PEX - Unsolicited update individual product experience report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SUR - Summary product experience report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BAR/ACK -Transmit Ambulatory Payment  Classification(APC)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "DFT/ACK - Post Detail Financial Transactions - New",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "BAR/ACK - Update Diagnosis/Procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPR - PC/ problem add",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPR - PC/ problem update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPR - PC/ problem delete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY - PC/ problem query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PRR - PC/ problem response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PGL - PC/ goal add",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PGL - PC/ goal update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PGL - PC/ goal delete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY - PC/ goal query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPV - PC/ goal response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPP - PC/ pathway (problem-oriented) add",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPP - PC/ pathway (problem-oriented) update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPP - PC/ pathway (problem-oriented) delete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY - PC/ pathway (problem-oriented) query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PTR - PC/ pathway (problem-oriented) query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPG - PC/ pathway (goal-oriented) add",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPG - PC/ pathway (goal-oriented) update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPG - PC/ pathway (goal-oriented) delete",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY - PC/ pathway (goal-oriented) query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PPT - PC/ pathway (goal-oriented) query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/DSR - Query sent for immediate response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/QCK - Query sent for deferred response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "DSR/ACK - Deferred response to a query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "EQQ - Embedded query language query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "UDM/ACK - Unsolicited display update message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OSQ/OSR - Query for order status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "VQQ - Virtual table query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SPQ - Stored procedure request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RQQ - event replay query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Query by parameter requesting an RSP segment pattern response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Query by parameter requesting an  RTB - tabular response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Query by parameter requesting an RDY display response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QSB - Create subscription",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QVR - Query for previous events",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Get person demographics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Find candidates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Get corresponding identifiers",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Allocate identifiers",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Personnel Information by Segment Query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ROR - Pharmacy/treatment order response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RAR - Pharmacy/treatment administration information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RDR - Pharmacy/treatment dispense information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RER - Pharmacy/treatment encoded order information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RGR - Pharmacy/treatment dose information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP Query Dispense history",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Find Candidates including Visit Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Get Donor Record Candidates",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Q34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QBP - Get Donor Record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU/ACK - Unsolicited transmission of an observation message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY - Query for results of observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/DSR Display-oriented results, query/unsol. update (for backward compatibility only) (Replaced by Q05)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORF - Response to query; transmission of requested observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/DSR - query for display results (See Q01)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "UDM - unsolicited update/display results (See Q05)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "EDR - Enhanced Display Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "TBR - Tabular Data Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ERP - Event Replay Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R0R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "R0R - Pharmacy prescription order query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OUL - Unsolicited laboratory observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OUL - Unsolicited Specimen Oriented Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OUL - Unsolicited Specimen Container Oriented Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OUL - Unsolicited Order Oriented Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OPU - Unsolicited Population/Location-Based Laboratory Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "OSM - Unsolicited Specimen Shipment Manifest Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU - Unsolicited Point-Of-Care Observation Message Without Existing Order - Place An Order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU - Unsolicited New Point-Of-Care Observation Message - Search For An Order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU - Unsolicited Pre-Ordered Point-Of-Care Observation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORA - Observation Report Acknowledgement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU - Unsolicited Report Alarm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "Observation Report Alert Acknowledgement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU – Unsolicited Device Event Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU – Unsolicited Patient-Device Association Observation Message",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RAR - Pharmacy administration information query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RDR - Pharmacy dispense information query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RER - Pharmacy encoded order information query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "RGR - Pharmacy dose information query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ROR - Pharmacy prescription order query response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request new appointment booking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request appointment rescheduling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request appointment modification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request appointment cancellation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request appointment discontinuation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request appointment deletion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request addition of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request modification of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request cancellation of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request discontinuation of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SRM/SRR - Request deletion of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of new appointment booking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of appointment rescheduling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of appointment modification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of appointment cancellation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of appointment discontinuation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of appointment deletion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of addition of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of modification of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of cancellation of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of discontinuation of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of deletion of service/resource on appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of blocked schedule time slot(s)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Notification of opened (\"unblocked\") schedule time slot(s)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SQM/SQR - Schedule query message and response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK Notification that patient did not show up for schedule appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SIU/ACK - Broadcast Notification of Scheduled Appointments",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SLR/SLS - Request new sterilization lot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SLR/SLS - Request Sterilization lot deletion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "STI/STS - Request item",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SDR/SDS - Request anti-microbial device data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SMD/SMS - Request anti-microbial device cycle data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "STC/ACK - Notification of sterilization configuration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SLN/ACK - Notification of sterilization lot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SLN/ACK - Notification of sterilization lot deletion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SDN/ACK - Notification of anti-microbial device data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SCN/ACK - Notification of anti-microbial device cycle data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Original document notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Original document notification and content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document status change notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document status change notification and content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document addendum notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document addendum notification and content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document edit notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document edit notification and content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document replacement notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document replacement notification and content",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MDM/ACK - Document cancel notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRY/DOC - Document query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ESU/ACK - Automated equipment status update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ESR/ACK - Automated equipment status request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SSU/ACK - Specimen status update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "SSR/ACK - specimen status request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "INU/ACK  - Automated equipment inventory update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "INR/ACK - Automated equipment inventory request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "EAC/ACK - Automated equipment command",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "EAR/ACK - Automated equipment response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "EAN/ACK - Automated equipment notification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "TCU/ACK - Automated equipment test code settings update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "TCR/ACK - Automated equipment test code settings request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "LSU/ACK - Automated equipment log/service update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "LSR/ACK - Automated equipment log/service request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "INR/ACK – Automated Equipment Inventory Request",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "VXQ - Query for vaccination record",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "VXX - Response to vaccination query returning multiple PID matches",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "VXR - Vaccination record response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "V04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "VXU - Unsolicited vaccination record update",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Varies",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "MFQ/MFR - Master files query (use event same as asking for e.g., M05 - location)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "ORU - Waveform result, unsolicited transmission of requested information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "W02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "QRF - Waveform result, response to query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "X01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0003",
+      "display": "PEX - Product experience",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

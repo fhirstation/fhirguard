@@ -1,0 +1,61 @@
+{
+  "name": "SpecimenStatus",
+  "resource_id": "specimen-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/specimen-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/specimen-status"
+      }
+    ]
+  },
+  "description": "Codes providing the status/availability of a specimen.",
+  "related_codesystems": [
+    {
+      "id": "specimen-status",
+      "url": "http://hl7.org/fhir/specimen-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "available",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/specimen-status",
+      "display": "Available",
+      "description": "The physical specimen is present and in good condition.",
+      "filter": null
+    },
+    {
+      "code": "unavailable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/specimen-status",
+      "display": "Unavailable",
+      "description": "There is no physical specimen because it is either lost, destroyed or consumed.",
+      "filter": null
+    },
+    {
+      "code": "unsatisfactory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/specimen-status",
+      "display": "Unsatisfactory",
+      "description": "The specimen cannot be used because of a quality issue such as a broken container, contamination, or too old.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/specimen-status",
+      "display": "Entered in Error",
+      "description": "The specimen was entered in error and therefore nullified.",
+      "filter": null
+    }
+  ]
+}

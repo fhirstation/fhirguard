@@ -1,0 +1,75 @@
+{
+  "name": "ResponseType",
+  "resource_id": "response-code",
+  "resource_url": "http://hl7.org/fhir/response-code",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ok",
+      "display": "OK",
+      "definition": "The message was accepted and processed without error."
+    },
+    {
+      "code": "transient-error",
+      "display": "Transient Error",
+      "definition": "Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required."
+    },
+    {
+      "code": "fatal-error",
+      "display": "Fatal Error",
+      "definition": "The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ResponseType",
+    "resource_id": "response-code",
+    "resource_url": "http://hl7.org/fhir/ValueSet/response-code",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/response-code"
+        }
+      ]
+    },
+    "description": "The kind of response to a message.",
+    "related_codesystems": [
+      {
+        "id": "response-code",
+        "url": "http://hl7.org/fhir/response-code"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "ok",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/response-code",
+        "display": "OK",
+        "description": "The message was accepted and processed without error.",
+        "filter": null
+      },
+      {
+        "code": "transient-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/response-code",
+        "display": "Transient Error",
+        "description": "Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required.",
+        "filter": null
+      },
+      {
+        "code": "fatal-error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/response-code",
+        "display": "Fatal Error",
+        "description": "The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.",
+        "filter": null
+      }
+    ]
+  }
+}

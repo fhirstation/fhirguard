@@ -1,0 +1,61 @@
+{
+  "name": "v2.0321",
+  "resource_id": "v2-0321",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0321",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0321"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0321 ( Dispense Method)",
+  "related_codesystems": [
+    {
+      "id": "v2-0321",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0321"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0321",
+      "display": "Automatic Dispensing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0321",
+      "display": "Floor Stock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0321",
+      "display": "Traditional",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0321",
+      "display": "Unit Dose",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

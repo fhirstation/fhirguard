@@ -1,0 +1,30 @@
+{
+  "name": "v2.0507",
+  "resource_id": "v2-0507",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0507",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Alert provider when abnormal"
+    },
+    {
+      "code": "BCC",
+      "display": "Blind copy"
+    },
+    {
+      "code": "CC",
+      "display": "Copies requested"
+    },
+    {
+      "code": "F",
+      "display": "Film-with-patient"
+    },
+    {
+      "code": "N",
+      "display": "Notify provider when ready"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

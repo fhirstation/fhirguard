@@ -1,0 +1,51 @@
+{
+  "name": "ResearchStudyObjectiveType",
+  "resource_id": "research-study-objective-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/research-study-objective-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type"
+      }
+    ]
+  },
+  "description": "Codes for the kind of study objective.",
+  "related_codesystems": [
+    {
+      "id": "research-study-objective-type",
+      "url": "http://terminology.hl7.org/CodeSystem/research-study-objective-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "primary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+      "display": "Primary",
+      "description": "The main question to be answered, and the one that drives any statistical planning for the study—e.g., calculation of the sample size to provide the appropriate power for statistical testing.",
+      "filter": null
+    },
+    {
+      "code": "secondary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+      "display": "Secondary",
+      "description": "Question to be answered in the study that is of lesser importance than the primary objective.",
+      "filter": null
+    },
+    {
+      "code": "exploratory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
+      "display": "Exploratory",
+      "description": "Exploratory questions to be answered in the study.",
+      "filter": null
+    }
+  ]
+}

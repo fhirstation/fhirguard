@@ -1,0 +1,461 @@
+{
+  "name": "v2.0256",
+  "resource_id": "v2-0256",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0256",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0256"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0256 ( Time Delay Post Challenge)",
+  "related_codesystems": [
+    {
+      "id": "v2-0256",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0256"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "10D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "10 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "10 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "12 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "15 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "1 hour post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "1 month (30 days) post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "1 minute post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "1 week",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2.5H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "2 1/2 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "20M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "20 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "24H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "24 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "25M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "25 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "2 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "2 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "2 months (60 days) post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "2 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "2 weeks",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "30 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "3 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "3 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "3 months (90 days) post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "3 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "3 weeks",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "4 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "4 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "4 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4W",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "4 weeks",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "5 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "5  hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "5 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "6 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "6 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "6 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "7 days",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "7 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "7 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "8 hours post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8H SHIFT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "8 hours aligned on nursing shifts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "8 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "9 minutes post challenge",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "Baseline (time just before the challenge)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEAK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "The time post drug dose at which the highest drug level is reached (differs by drug)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RANDOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "Time from the challenge, or dose not specified. (random)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TROUGH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0256",
+      "display": "The time post drug dose at which the lowest drug level is reached (varies with drug)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

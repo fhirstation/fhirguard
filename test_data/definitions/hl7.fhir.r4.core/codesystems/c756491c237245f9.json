@@ -1,0 +1,52 @@
+{
+  "name": "v2.0142",
+  "resource_id": "v2-0142",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0142",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ACT",
+      "display": "Active duty",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Actieve dienst"
+        }
+      ]
+    },
+    {
+      "code": "DEC",
+      "display": "Deceased",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overleden"
+        }
+      ]
+    },
+    {
+      "code": "RET",
+      "display": "Retired",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Gepensioneerd"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

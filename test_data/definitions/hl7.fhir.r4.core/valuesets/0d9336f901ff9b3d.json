@@ -1,0 +1,601 @@
+{
+  "name": "v2.0360.2.3.1",
+  "resource_id": "v2-2.3.1-0360",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-2.3.1-0360",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0360 ver 2.6 ( Degree/license/certificate)",
+  "related_codesystems": [
+    {
+      "id": "v2-2.3.1-0360",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Associate of Arts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Associate of Applied Science",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ABA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Associate of Business Administration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Associate of Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Associate of Science",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Arts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BBA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Business Administration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor or Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Fine Arts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Nursing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Science",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BSL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Science - Law",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BSN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor on Science - Nursing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Bachelor of Theology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Adult Nurse Practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certificate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Medical Assistant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Nurse Midwife",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Nurse Practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Nurse Specialist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CPNP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Pediatric Nurse Practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Certified Registered Nurse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DBA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Business Administration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Education",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Diploma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Osteopathy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Emergency Medical Technician",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EMTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Emergency Medical Technician - Paramedic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FPNP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Family Practice Nurse Practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "High School Graduate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Juris Doctor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Arts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MBA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Business Administration",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Civil Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Medicine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Medical Assistant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Divinity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Education",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Electrical Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Fine Arts",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Mechanical Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Science",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Science - Law",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MSN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Science - Nursing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Master of Theology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Non-Graduate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Nurse Practitioner",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Physician Assistant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Philosophy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Engineering",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Science",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Advanced Practice Nurse",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PharmD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Doctor of Pharmacy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Registered Medical Assistant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Registered Pharmacist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Secretarial Certificate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0360|2.3.1",
+      "display": "Trade School Graduate",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

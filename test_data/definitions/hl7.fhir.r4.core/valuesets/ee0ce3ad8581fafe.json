@@ -1,0 +1,301 @@
+{
+  "name": "BenefitCategoryCodes",
+  "resource_id": "ex-benefitcategory",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ex-benefitcategory",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"
+      }
+    ]
+  },
+  "description": "This value set includes examples of Benefit Category codes.",
+  "related_codesystems": [
+    {
+      "id": "ex-benefitcategory",
+      "url": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Medical Care",
+      "description": "Medical Care.",
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Surgical",
+      "description": "Surgical.",
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Consultation",
+      "description": "Consultation.",
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Diagnostic XRay",
+      "description": "Diagnostic XRay.",
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Diagnostic Lab",
+      "description": "Diagnostic Lab.",
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Renal Supplies",
+      "description": "Renal Supplies excluding Dialysis.",
+      "filter": null
+    },
+    {
+      "code": "23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Diagnostic Dental",
+      "description": "Diagnostic Dental.",
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Periodontics",
+      "description": "Periodontics.",
+      "filter": null
+    },
+    {
+      "code": "25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Restorative",
+      "description": "Restorative.",
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Endodontics",
+      "description": "Endodontics.",
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Maxillofacial Prosthetics",
+      "description": "Maxillofacial Prosthetics.",
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Adjunctive Dental Services",
+      "description": "Adjunctive Dental Services.",
+      "filter": null
+    },
+    {
+      "code": "30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Health Benefit Plan Coverage",
+      "description": "Health Benefit Plan Coverage.",
+      "filter": null
+    },
+    {
+      "code": "35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Dental Care",
+      "description": "Dental Care.",
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Dental Crowns",
+      "description": "Dental Crowns.",
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Dental Accident",
+      "description": "Dental Accident.",
+      "filter": null
+    },
+    {
+      "code": "49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Hospital Room and Board",
+      "description": "Hospital Room and Board.",
+      "filter": null
+    },
+    {
+      "code": "55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Major Medical",
+      "description": "Major Medical.",
+      "filter": null
+    },
+    {
+      "code": "56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Medically Related Transportation",
+      "description": "Medically Related Transportation.",
+      "filter": null
+    },
+    {
+      "code": "61",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "In-vitro Fertilization",
+      "description": "In-vitro Fertilization.",
+      "filter": null
+    },
+    {
+      "code": "62",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "MRI Scan",
+      "description": "MRI Scan.",
+      "filter": null
+    },
+    {
+      "code": "63",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Donor Procedures",
+      "description": "Donor Procedures such as organ harvest.",
+      "filter": null
+    },
+    {
+      "code": "69",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Maternity",
+      "description": "Maternity.",
+      "filter": null
+    },
+    {
+      "code": "76",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Renal Dialysis",
+      "description": "Renal dialysis.",
+      "filter": null
+    },
+    {
+      "code": "F1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Medical Coverage",
+      "description": "Medical Coverage.",
+      "filter": null
+    },
+    {
+      "code": "F3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Dental Coverage",
+      "description": "Dental Coverage.",
+      "filter": null
+    },
+    {
+      "code": "F4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Hearing Coverage",
+      "description": "Hearing Coverage.",
+      "filter": null
+    },
+    {
+      "code": "F6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/ex-benefitcategory",
+      "display": "Vision Coverage",
+      "description": "Vision Coverage.",
+      "filter": null
+    }
+  ]
+}

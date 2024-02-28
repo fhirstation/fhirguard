@@ -1,0 +1,30 @@
+{
+  "name": "v2.0659",
+  "resource_id": "v2-0659",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0659",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "OR Mode Without Operator"
+    },
+    {
+      "code": "2",
+      "display": "OR Mode with Operator"
+    },
+    {
+      "code": "3",
+      "display": "CPD Mode Without Operator"
+    },
+    {
+      "code": "4",
+      "display": "CPD Mode With Operator"
+    },
+    {
+      "code": "5",
+      "display": "Offline Mode"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

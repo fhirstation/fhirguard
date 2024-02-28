@@ -1,0 +1,101 @@
+{
+  "name": "AdjudicationValueCodes",
+  "resource_id": "adjudication",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adjudication",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adjudication"
+      }
+    ]
+  },
+  "description": "This value set includes a smattering of Adjudication Value codes which includes codes to indicate the amounts eligible under the plan, the amount of benefit, copays etc.",
+  "related_codesystems": [
+    {
+      "id": "adjudication",
+      "url": "http://terminology.hl7.org/CodeSystem/adjudication"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "submitted",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Submitted Amount",
+      "description": "The total submitted amount for the claim or group or line item.",
+      "filter": null
+    },
+    {
+      "code": "copay",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "CoPay",
+      "description": "Patient Co-Payment",
+      "filter": null
+    },
+    {
+      "code": "eligible",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Eligible Amount",
+      "description": "Amount of the change which is considered for adjudication.",
+      "filter": null
+    },
+    {
+      "code": "deductible",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Deductible",
+      "description": "Amount deducted from the eligible amount prior to adjudication.",
+      "filter": null
+    },
+    {
+      "code": "unallocdeduct",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Unallocated Deductible",
+      "description": "The amount of deductible which could not allocated to other line items.",
+      "filter": null
+    },
+    {
+      "code": "eligpercent",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Eligible %",
+      "description": "Eligible Percentage.",
+      "filter": null
+    },
+    {
+      "code": "tax",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Tax",
+      "description": "The amount of tax.",
+      "filter": null
+    },
+    {
+      "code": "benefit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+      "display": "Benefit Amount",
+      "description": "Amount payable under the coverage",
+      "filter": null
+    }
+  ]
+}

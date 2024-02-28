@@ -1,0 +1,1261 @@
+{
+  "name": "v2.0292",
+  "resource_id": "v2-0292",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0292",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0292"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0292 ( Vaccines Administered)",
+  "related_codesystems": [
+    {
+      "id": "v2-0292",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0292"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "OPV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "MMR",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "M/R",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "measles",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rubella",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "07",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "mumps",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "08",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep B, adolescent or pediatric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "09",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Td (adult)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "IPV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "100",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "pneumococcal conjugate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "101",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "typhoid, ViCPs",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "102",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTP-Hib-Hep B",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "103",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "meningococcal C conjugate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "104",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep A-Hep B",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "105",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "vaccinia (smallpox) diluted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "106",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTaP, 5 pertussis antigens6",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "107",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTaP, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "108",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "meningococcal, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "109",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "pneumococcal, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "pertussis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTaP-Hep B-IPV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "111",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "influenza, live, intranasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "112",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "tetanus toxoid, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "113",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Td (adult)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "114",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "meningococcal A,C,Y,W-135 diphtheria conjugate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "115",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Tdap",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "116",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rotavirus, pentavalent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "117",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "VZIG (IND)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "118",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "HPV, bivalent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "119",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rotavirus, monovalent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "diphtheria antitoxin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "120",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTaP-Hib-IPV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "121",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "zoster",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "122",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rotavirus, NOS1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "TIG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "IG, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "influenza, split (incl. purified surface antigen)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "16",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "influenza, whole",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hib, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "18",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rabies, intramuscular injection",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "19",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "BCG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "20",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTaP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "21",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "varicella",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "22",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTP-Hib",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "23",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "plague",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "24",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "anthrax",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "25",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "typhoid, oral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "26",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "cholera",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "27",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "botulinum antitoxin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "28",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DT (pediatric)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "29",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "CMVIG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "30",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "HBIG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "31",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep A, pediatric, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "32",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "meningococcal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "33",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "pneumococcal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "34",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "RIG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "35",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "tetanus toxoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "36",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "VZIG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "37",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "yellow fever",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "38",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rubella/mumps",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "39",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Japanese encephalitis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "40",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rabies, intradermal injection",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "41",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "typhoid, parenteral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "42",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep B, adolescent/high risk infant2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "43",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep B, adult4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "44",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep B, dialysis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "45",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep B, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "46",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hib (PRP-D)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "47",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hib (HbOC)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "48",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hib (PRP-T)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "49",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hib (PRP-OMP)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "50",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "DTaP-Hib",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "51",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hib-Hep B",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "52",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep A, adult",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "53",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "typhoid, parenteral, AKD (U.S. military)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "54",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "adenovirus, type 4",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "55",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "adenovirus, type 7",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "56",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "dengue fever",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "57",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "hantavirus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "58",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep C",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "59",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep E",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "60",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "herpes simplex 2",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "61",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "HIV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "62",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "HPV, quadrivalent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "63",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Junin virus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "64",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "leishmaniasis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "65",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "leprosy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "66",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Lyme disease",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "67",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "malaria",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "68",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "melanoma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "69",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "parainfluenza-3",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "70",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Q fever",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "71",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "RSV-IGIV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "72",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rheumatic fever",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "73",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Rift Valley fever",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "74",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rotavirus, tetravalent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "75",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "vaccinia (smallpox)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "76",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Staphylococcus bacterio lysate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "77",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "tick-borne encephalitis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "78",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "tularemia vaccine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "79",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "vaccinia immune globulin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "80",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "VEE, live",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "81",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "VEE, inactivated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "82",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "adenovirus, NOS1",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "83",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep A, ped/adol, 2 dose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "84",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep A, ped/adol, 3 dose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "85",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "Hep A, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "86",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "IG",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "87",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "IGIV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "88",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "influenza, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "89",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "polio, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "90",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "rabies, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "91",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "typhoid, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "92",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "VEE, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "93",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "RSV-MAb",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "94",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "MMRV",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "95",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "TST-OT tine test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "96",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "TST-PPD intradermal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "97",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "TST-PPD tine test",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "98",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "TST, NOS",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "99",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "RESERVED - do not use3",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "998",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "no vaccine administered5",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "999",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0292",
+      "display": "unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

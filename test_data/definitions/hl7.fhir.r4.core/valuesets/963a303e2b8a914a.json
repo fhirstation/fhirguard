@@ -1,0 +1,111 @@
+{
+  "name": "v2.0006.2.1",
+  "resource_id": "v2-2.1-0006",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-2.1-0006",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0006 ver 2.1 ( RELIGION)",
+  "related_codesystems": [
+    {
+      "id": "v2-2.1-0006",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Atheist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Baptist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Catholic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Episcopalian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "J",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Judaism",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Lutheran",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Church of Latter Day Saints (Mormon)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Hindu",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0006|2.1",
+      "display": "Protestant",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

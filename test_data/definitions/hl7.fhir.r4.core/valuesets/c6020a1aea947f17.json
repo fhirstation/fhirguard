@@ -1,0 +1,71 @@
+{
+  "name": "RiskProbability",
+  "resource_id": "risk-probability",
+  "resource_url": "http://hl7.org/fhir/ValueSet/risk-probability",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/risk-probability"
+      }
+    ]
+  },
+  "description": "Codes representing the likelihood of a particular outcome in a risk assessment.",
+  "related_codesystems": [
+    {
+      "id": "risk-probability",
+      "url": "http://terminology.hl7.org/CodeSystem/risk-probability"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "negligible",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/risk-probability",
+      "display": "Negligible likelihood",
+      "description": "The specified outcome is exceptionally unlikely.",
+      "filter": null
+    },
+    {
+      "code": "low",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/risk-probability",
+      "display": "Low likelihood",
+      "description": "The specified outcome is possible but unlikely.",
+      "filter": null
+    },
+    {
+      "code": "moderate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/risk-probability",
+      "display": "Moderate likelihood",
+      "description": "The specified outcome has a reasonable likelihood of occurrence.",
+      "filter": null
+    },
+    {
+      "code": "high",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/risk-probability",
+      "display": "High likelihood",
+      "description": "The specified outcome is more likely to occur than not.",
+      "filter": null
+    },
+    {
+      "code": "certain",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/risk-probability",
+      "display": "Certain",
+      "description": "The specified outcome is effectively guaranteed.",
+      "filter": null
+    }
+  ]
+}

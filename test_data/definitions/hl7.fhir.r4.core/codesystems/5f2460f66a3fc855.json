@@ -1,0 +1,90 @@
+{
+  "name": "ClaimProcessingCodes",
+  "resource_id": "remittance-outcome",
+  "resource_url": "http://hl7.org/fhir/remittance-outcome",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "queued",
+      "display": "Queued",
+      "definition": "The Claim/Pre-authorization/Pre-determination has been received but processing has not begun."
+    },
+    {
+      "code": "complete",
+      "display": "Processing Complete",
+      "definition": "The processing has completed without errors"
+    },
+    {
+      "code": "error",
+      "display": "Error",
+      "definition": "One or more errors have been detected in the Claim"
+    },
+    {
+      "code": "partial",
+      "display": "Partial Processing",
+      "definition": "No errors have been detected in the Claim and some of the adjudication has been performed."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ClaimProcessingCodes",
+    "resource_id": "remittance-outcome",
+    "resource_url": "http://hl7.org/fhir/ValueSet/remittance-outcome",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/remittance-outcome"
+        }
+      ]
+    },
+    "description": "This value set includes Claim Processing Outcome codes.",
+    "related_codesystems": [
+      {
+        "id": "remittance-outcome",
+        "url": "http://hl7.org/fhir/remittance-outcome"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "queued",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/remittance-outcome",
+        "display": "Queued",
+        "description": "The Claim/Pre-authorization/Pre-determination has been received but processing has not begun.",
+        "filter": null
+      },
+      {
+        "code": "complete",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/remittance-outcome",
+        "display": "Processing Complete",
+        "description": "The processing has completed without errors",
+        "filter": null
+      },
+      {
+        "code": "error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/remittance-outcome",
+        "display": "Error",
+        "description": "One or more errors have been detected in the Claim",
+        "filter": null
+      },
+      {
+        "code": "partial",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/remittance-outcome",
+        "display": "Partial Processing",
+        "description": "No errors have been detected in the Claim and some of the adjudication has been performed.",
+        "filter": null
+      }
+    ]
+  }
+}

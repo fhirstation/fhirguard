@@ -1,0 +1,111 @@
+{
+  "name": "ExampleUseCodesForList",
+  "resource_id": "list-example-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/list-example-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes"
+      }
+    ]
+  },
+  "description": "Example use codes for the List resource - typical kinds of use.",
+  "related_codesystems": [
+    {
+      "id": "list-example-codes",
+      "url": "http://terminology.hl7.org/CodeSystem/list-example-use-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "alerts",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Alerts",
+      "description": "A list of alerts for the patient.",
+      "filter": null
+    },
+    {
+      "code": "adverserxns",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Adverse Reactions",
+      "description": "A list of part adverse reactions.",
+      "filter": null
+    },
+    {
+      "code": "allergies",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Allergies",
+      "description": "A list of Allergies for the patient.",
+      "filter": null
+    },
+    {
+      "code": "medications",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Medication List",
+      "description": "A list of medication statements for the patient.",
+      "filter": null
+    },
+    {
+      "code": "problems",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Problem List",
+      "description": "A list of problems that the patient is known of have (or have had in the past).",
+      "filter": null
+    },
+    {
+      "code": "worklist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Worklist",
+      "description": "A list of items that constitute a set of work to be performed (typically this code would be specialized for more specific uses, such as a ward round list).",
+      "filter": null
+    },
+    {
+      "code": "waiting",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Waiting List",
+      "description": "A list of items waiting for an event (perhaps a surgical patient waiting list).",
+      "filter": null
+    },
+    {
+      "code": "protocols",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Protocols",
+      "description": "A set of protocols to be followed.",
+      "filter": null
+    },
+    {
+      "code": "plans",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/list-example-use-codes",
+      "display": "Care Plans",
+      "description": "A set of care plans that apply in a particular context of care.",
+      "filter": null
+    }
+  ]
+}

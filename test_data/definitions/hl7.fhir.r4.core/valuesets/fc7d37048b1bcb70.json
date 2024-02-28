@@ -1,0 +1,51 @@
+{
+  "name": "ParticipantRequired",
+  "resource_id": "participantrequired",
+  "resource_url": "http://hl7.org/fhir/ValueSet/participantrequired",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/participantrequired"
+      }
+    ]
+  },
+  "description": "Is the Participant required to attend the appointment.",
+  "related_codesystems": [
+    {
+      "id": "participantrequired",
+      "url": "http://hl7.org/fhir/participantrequired"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "required",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/participantrequired",
+      "display": "Required",
+      "description": "The participant is required to attend the appointment.",
+      "filter": null
+    },
+    {
+      "code": "optional",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/participantrequired",
+      "display": "Optional",
+      "description": "The participant may optionally attend the appointment.",
+      "filter": null
+    },
+    {
+      "code": "information-only",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/participantrequired",
+      "display": "Information Only",
+      "description": "The participant is excluded from the appointment, and might not be informed of the appointment taking place. (Appointment is about them, not for them - such as 2 doctors discussing results about a patient's test).",
+      "filter": null
+    }
+  ]
+}

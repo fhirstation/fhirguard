@@ -1,0 +1,41 @@
+{
+  "name": "v2.0216",
+  "resource_id": "v2-0216",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0216",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0216"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0216 ( Patient Status Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0216",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0216"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0216",
+      "display": "Active Inpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0216",
+      "display": "Discharged Inpatient",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

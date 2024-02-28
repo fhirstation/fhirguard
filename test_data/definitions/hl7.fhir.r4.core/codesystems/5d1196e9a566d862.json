@@ -1,0 +1,70 @@
+{
+  "name": "DICOM Audit Message Record Lifecycle Events",
+  "resource_id": "dicom-audit-lifecycle",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Origination / Creation"
+    },
+    {
+      "code": "2",
+      "display": "Import / Copy"
+    },
+    {
+      "code": "3",
+      "display": "Amendment"
+    },
+    {
+      "code": "4",
+      "display": "Verification"
+    },
+    {
+      "code": "5",
+      "display": "Translation"
+    },
+    {
+      "code": "6",
+      "display": "Access / Use"
+    },
+    {
+      "code": "7",
+      "display": "De-identification"
+    },
+    {
+      "code": "8",
+      "display": "Aggregation / summarization / derivation"
+    },
+    {
+      "code": "9",
+      "display": "Report"
+    },
+    {
+      "code": "10",
+      "display": "Export"
+    },
+    {
+      "code": "11",
+      "display": "Disclosure"
+    },
+    {
+      "code": "12",
+      "display": "Receipt of disclosure"
+    },
+    {
+      "code": "13",
+      "display": "Archiving"
+    },
+    {
+      "code": "14",
+      "display": "Logical deletion"
+    },
+    {
+      "code": "15",
+      "display": "Permanent erasure / Physical destruction"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

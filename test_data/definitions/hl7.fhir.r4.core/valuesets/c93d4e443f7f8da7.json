@@ -1,0 +1,51 @@
+{
+  "name": "ResearchElementType",
+  "resource_id": "research-element-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/research-element-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/research-element-type"
+      }
+    ]
+  },
+  "description": "The possible types of research elements (E.g. Population, Exposure, Outcome).",
+  "related_codesystems": [
+    {
+      "id": "research-element-type",
+      "url": "http://hl7.org/fhir/research-element-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "population",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-element-type",
+      "display": "Population",
+      "description": "The element defines the population that forms the basis for research.",
+      "filter": null
+    },
+    {
+      "code": "exposure",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-element-type",
+      "display": "Exposure",
+      "description": "The element defines an exposure within the population that is being researched.",
+      "filter": null
+    },
+    {
+      "code": "outcome",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/research-element-type",
+      "display": "Outcome",
+      "description": "The element defines an outcome within the population that is being researched.",
+      "filter": null
+    }
+  ]
+}

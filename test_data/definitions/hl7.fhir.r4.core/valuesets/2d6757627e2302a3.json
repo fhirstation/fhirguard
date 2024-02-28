@@ -1,0 +1,81 @@
+{
+  "name": "v2.0330",
+  "resource_id": "v2-0330",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0330",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0330"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0330 ( Marketing Basis)",
+  "related_codesystems": [
+    {
+      "id": "v2-0330",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0330"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "510E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0330",
+      "display": "510 (K) exempt",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "510K",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0330",
+      "display": "510 (K)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "522S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0330",
+      "display": "Post marketing study (522)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0330",
+      "display": "Premarketing authorization",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0330",
+      "display": "Preamendment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TXN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0330",
+      "display": "Transitional",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

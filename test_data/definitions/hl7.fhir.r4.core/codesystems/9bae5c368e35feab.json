@@ -1,0 +1,66 @@
+{
+  "name": "v2.0336",
+  "resource_id": "v2-0336",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0336",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "O",
+      "display": "Provider Ordered",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verzoek zorgverlener"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Patient Preference",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verzoek patiënt"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Second Opinion",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Second opinion"
+        }
+      ]
+    },
+    {
+      "code": "W",
+      "display": "Work Load",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Werkdruk"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

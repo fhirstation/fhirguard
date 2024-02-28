@@ -1,0 +1,94 @@
+{
+  "name": "v2.0422",
+  "resource_id": "v2-0422",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0422",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "1",
+      "display": "Non-acute",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet-acuut"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "display": "Acute",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Acuut"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "Urgent",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Urgent"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "display": "Severe",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Ernstig"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "display": "Dead on Arrival (DOA)",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Overleden bij aankomst (DOA)"
+        }
+      ]
+    },
+    {
+      "code": "99",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Anders"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

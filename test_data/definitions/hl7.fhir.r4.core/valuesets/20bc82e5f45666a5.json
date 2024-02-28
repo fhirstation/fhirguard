@@ -1,0 +1,61 @@
+{
+  "name": "FlagPriorityCodes",
+  "resource_id": "flag-priority",
+  "resource_url": "http://hl7.org/fhir/ValueSet/flag-priority",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/flag-priority-code"
+      }
+    ]
+  },
+  "description": "This value set is provided as an exemplar. The value set is driven by IHE Table B.8-4: Abnormal Flags, Alert Priority.",
+  "related_codesystems": [
+    {
+      "id": "flag-priority",
+      "url": "http://hl7.org/fhir/flag-priority-code"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "PN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/flag-priority-code",
+      "display": "No alarm",
+      "description": "No alarm.",
+      "filter": null
+    },
+    {
+      "code": "PL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/flag-priority-code",
+      "display": "Low priority",
+      "description": "Low priority.",
+      "filter": null
+    },
+    {
+      "code": "PM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/flag-priority-code",
+      "display": "Medium priority",
+      "description": "Medium priority.",
+      "filter": null
+    },
+    {
+      "code": "PH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/flag-priority-code",
+      "display": "High priority",
+      "description": "High priority.",
+      "filter": null
+    }
+  ]
+}

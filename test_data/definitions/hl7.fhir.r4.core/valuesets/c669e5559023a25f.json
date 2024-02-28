@@ -1,0 +1,39 @@
+{
+  "name": "CarePlanCategory",
+  "resource_id": "care-plan-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/care-plan-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "734163000"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "734163000"
+        }
+      ]
+    }
+  ]
+}

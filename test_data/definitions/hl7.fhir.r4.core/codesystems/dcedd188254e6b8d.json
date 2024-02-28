@@ -1,0 +1,30 @@
+{
+  "name": "v2.0920",
+  "resource_id": "v2-0920",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0920",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "This is a specimen that is acceptable as a replacement for a preferred specimen.  In the following field (OM4-17), the sequence number of the preferred specimen must be messaged."
+        }
+      ],
+      "code": "A",
+      "display": "Alternate"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "This specimen is Preferred for all attributes (Container and Additive) identified in the OM4 segment."
+        }
+      ],
+      "code": "P",
+      "display": "Preferred"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,91 @@
+{
+  "name": "EffectEstimateType",
+  "resource_id": "effect-estimate-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/effect-estimate-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type"
+      }
+    ]
+  },
+  "description": "Whether the effect estimate is an absolute effect estimate (absolute difference) or a relative effect estimate (relative difference), and the specific type of effect estimate (eg relative risk or median difference).",
+  "related_codesystems": [
+    {
+      "id": "effect-estimate-type",
+      "url": "http://terminology.hl7.org/CodeSystem/effect-estimate-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "relative-RR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "relative risk",
+      "description": "relative risk (a type of relative effect estimate).",
+      "filter": null
+    },
+    {
+      "code": "relative-OR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "odds ratio",
+      "description": "odds ratio (a type of relative effect estimate).",
+      "filter": null
+    },
+    {
+      "code": "relative-HR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "hazard ratio",
+      "description": "hazard ratio (a type of relative effect estimate).",
+      "filter": null
+    },
+    {
+      "code": "absolute-ARD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "absolute risk difference",
+      "description": "absolute risk difference (a type of absolute effect estimate).",
+      "filter": null
+    },
+    {
+      "code": "absolute-MeanDiff",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "mean difference",
+      "description": "mean difference (a type of absolute effect estimate).",
+      "filter": null
+    },
+    {
+      "code": "absolute-SMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "standardized mean difference",
+      "description": "standardized mean difference (a type of absolute effect estimate).",
+      "filter": null
+    },
+    {
+      "code": "absolute-MedianDiff",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/effect-estimate-type",
+      "display": "median difference",
+      "description": "median difference (a type of absolute effect estimate).",
+      "filter": null
+    }
+  ]
+}

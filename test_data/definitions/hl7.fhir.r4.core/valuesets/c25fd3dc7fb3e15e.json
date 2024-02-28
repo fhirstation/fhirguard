@@ -1,0 +1,98 @@
+{
+  "name": "v3.ActRelationshipConditional",
+  "resource_id": "v3-ActRelationshipConditional",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-ActRelationshipConditional",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "_ActRelationshipConditional"
+          }
+        ]
+      }
+    ],
+    "exclude": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "concept": [
+          {
+            "code": "_ActRelationshipConditional"
+          }
+        ]
+      }
+    ]
+  },
+  "description": " Specifies under what circumstances (target Act) the source-Act may, must, must not or has occurred",
+  "related_codesystems": [
+    {
+      "id": "v3-ActRelationshipType",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+      "display": "act relationship type",
+      "description": "Description: A directed association between a source Act and a target Act.\r\n\n                        \n                           Usage Note: This code should never be transmitted in an instance as the value of ActRelationship.typeCode (attribute)",
+      "filter": null
+    },
+    {
+      "code": "CURE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+      "display": "curative indication",
+      "description": "curative indication",
+      "filter": null
+    },
+    {
+      "code": "CURE.ADJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+      "display": "adjunct curative indication",
+      "description": "adjunct curative indication",
+      "filter": null
+    },
+    {
+      "code": "MTGT.ADJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+      "display": "adjunct mitigation",
+      "description": "adjunct mitigation",
+      "filter": null
+    },
+    {
+      "code": "RACT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUGG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

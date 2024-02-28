@@ -1,0 +1,105 @@
+{
+  "name": "CodeSystemContentMode",
+  "resource_id": "codesystem-content-mode",
+  "resource_url": "http://hl7.org/fhir/codesystem-content-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "not-present",
+      "display": "Not Present",
+      "definition": "None of the concepts defined by the code system are included in the code system resource."
+    },
+    {
+      "code": "example",
+      "display": "Example",
+      "definition": "A few representative concepts are included in the code system resource. There is no useful intent in the subset choice and there's no process to make it workable: it's not intended to be workable."
+    },
+    {
+      "code": "fragment",
+      "display": "Fragment",
+      "definition": "A subset of the code system concepts are included in the code system resource. This is a curated subset released for a specific purpose under the governance of the code system steward, and that the intent, bounds and consequences of the fragmentation are clearly defined in the fragment or the code system documentation. Fragments are also known as partitions."
+    },
+    {
+      "code": "complete",
+      "display": "Complete",
+      "definition": "All the concepts defined by the code system are included in the code system resource."
+    },
+    {
+      "code": "supplement",
+      "display": "Supplement",
+      "definition": "The resource doesn't define any new concepts; it just provides additional designations and properties to another code system."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "CodeSystemContentMode",
+    "resource_id": "codesystem-content-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/codesystem-content-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/codesystem-content-mode"
+        }
+      ]
+    },
+    "description": "The extent of the content of the code system (the concepts and codes it defines) are represented in a code system resource.",
+    "related_codesystems": [
+      {
+        "id": "codesystem-content-mode",
+        "url": "http://hl7.org/fhir/codesystem-content-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "not-present",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/codesystem-content-mode",
+        "display": "Not Present",
+        "description": "None of the concepts defined by the code system are included in the code system resource.",
+        "filter": null
+      },
+      {
+        "code": "example",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/codesystem-content-mode",
+        "display": "Example",
+        "description": "A few representative concepts are included in the code system resource. There is no useful intent in the subset choice and there's no process to make it workable: it's not intended to be workable.",
+        "filter": null
+      },
+      {
+        "code": "fragment",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/codesystem-content-mode",
+        "display": "Fragment",
+        "description": "A subset of the code system concepts are included in the code system resource. This is a curated subset released for a specific purpose under the governance of the code system steward, and that the intent, bounds and consequences of the fragmentation are clearly defined in the fragment or the code system documentation. Fragments are also known as partitions.",
+        "filter": null
+      },
+      {
+        "code": "complete",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/codesystem-content-mode",
+        "display": "Complete",
+        "description": "All the concepts defined by the code system are included in the code system resource.",
+        "filter": null
+      },
+      {
+        "code": "supplement",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/codesystem-content-mode",
+        "display": "Supplement",
+        "description": "The resource doesn't define any new concepts; it just provides additional designations and properties to another code system.",
+        "filter": null
+      }
+    ]
+  }
+}

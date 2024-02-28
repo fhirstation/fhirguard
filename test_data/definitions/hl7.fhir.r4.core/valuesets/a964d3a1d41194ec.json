@@ -1,0 +1,41 @@
+{
+  "name": "v2.0920",
+  "resource_id": "v2-0920",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0920",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0920"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0920 ( Preferred Specimen/Attribute Status)",
+  "related_codesystems": [
+    {
+      "id": "v2-0920",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0920"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0920",
+      "display": "Alternate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0920",
+      "display": "Preferred",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

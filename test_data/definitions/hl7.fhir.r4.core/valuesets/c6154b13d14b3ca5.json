@@ -1,0 +1,61 @@
+{
+  "name": "ActionType",
+  "resource_id": "action-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/action-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/action-type"
+      }
+    ]
+  },
+  "description": "The type of action to be performed.",
+  "related_codesystems": [
+    {
+      "id": "action-type",
+      "url": "http://terminology.hl7.org/CodeSystem/action-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "create",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/action-type",
+      "display": "Create",
+      "description": "The action is to create a new resource.",
+      "filter": null
+    },
+    {
+      "code": "update",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/action-type",
+      "display": "Update",
+      "description": "The action is to update an existing resource.",
+      "filter": null
+    },
+    {
+      "code": "remove",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/action-type",
+      "display": "Remove",
+      "description": "The action is to remove an existing resource.",
+      "filter": null
+    },
+    {
+      "code": "fire-event",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/action-type",
+      "display": "Fire Event",
+      "description": "The action is to fire a specific event.",
+      "filter": null
+    }
+  ]
+}

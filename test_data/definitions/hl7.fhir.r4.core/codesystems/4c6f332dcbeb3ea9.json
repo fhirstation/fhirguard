@@ -1,0 +1,45 @@
+{
+  "name": "v3.TransmissionRelationshipTypeCode",
+  "resource_id": "v3-TransmissionRelationshipTypeCode",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v3-TransmissionRelationshipTypeCode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "SEQL",
+      "display": "sequence",
+      "definition": "Description:A transmission relationship indicating that the source transmission follows the target transmission."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "v3.TransmissionRelationshipTypeCode",
+    "resource_id": "v3-TransmissionRelationshipTypeCode",
+    "resource_url": "http://terminology.hl7.org/ValueSet/v3-TransmissionRelationshipTypeCode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-TransmissionRelationshipTypeCode"
+        }
+      ]
+    },
+    "description": "  Description:\r\nA code specifying the meaning and purpose of every TransmissionRelationship instance. Each of its values implies specific constraints to what kinds of Transmission objects can be related and in which way.",
+    "related_codesystems": [
+      {
+        "id": "v3-TransmissionRelationshipTypeCode",
+        "url": "http://terminology.hl7.org/CodeSystem/v3-TransmissionRelationshipTypeCode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "SEQL",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-TransmissionRelationshipTypeCode",
+        "display": "sequence",
+        "description": "Description:A transmission relationship indicating that the source transmission follows the target transmission.",
+        "filter": null
+      }
+    ]
+  }
+}

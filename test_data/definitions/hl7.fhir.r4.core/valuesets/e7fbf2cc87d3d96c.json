@@ -1,0 +1,61 @@
+{
+  "name": "v2.0108",
+  "resource_id": "v2-0108",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0108",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0108"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0108 ( QUERY RESULTS LEVEL)",
+  "related_codesystems": [
+    {
+      "id": "v2-0108",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0108"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0108",
+      "display": "Order plus order status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0108",
+      "display": "Results without bulk text",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0108",
+      "display": "Status only",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0108",
+      "display": "Full results",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

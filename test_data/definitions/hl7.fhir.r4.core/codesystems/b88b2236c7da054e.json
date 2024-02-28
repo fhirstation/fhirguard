@@ -1,0 +1,75 @@
+{
+  "name": "BenefitTermCodes",
+  "resource_id": "benefit-term",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/benefit-term",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "annual",
+      "display": "Annual",
+      "definition": "Annual, renewing on the anniversary"
+    },
+    {
+      "code": "day",
+      "display": "Day",
+      "definition": "Per day"
+    },
+    {
+      "code": "lifetime",
+      "display": "Lifetime",
+      "definition": "For the total term, lifetime, of the policy or coverage"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "BenefitTermCodes",
+    "resource_id": "benefit-term",
+    "resource_url": "http://hl7.org/fhir/ValueSet/benefit-term",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/benefit-term"
+        }
+      ]
+    },
+    "description": "This value set includes a smattering of Benefit Term codes.",
+    "related_codesystems": [
+      {
+        "id": "benefit-term",
+        "url": "http://terminology.hl7.org/CodeSystem/benefit-term"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "annual",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-term",
+        "display": "Annual",
+        "description": "Annual, renewing on the anniversary",
+        "filter": null
+      },
+      {
+        "code": "day",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-term",
+        "display": "Day",
+        "description": "Per day",
+        "filter": null
+      },
+      {
+        "code": "lifetime",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-term",
+        "display": "Lifetime",
+        "description": "For the total term, lifetime, of the policy or coverage",
+        "filter": null
+      }
+    ]
+  }
+}

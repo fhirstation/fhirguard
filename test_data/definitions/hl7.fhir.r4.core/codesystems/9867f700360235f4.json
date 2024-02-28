@@ -1,0 +1,9 @@
+{
+  "name": "Code system summary example for ACME body sites",
+  "resource_id": "summary",
+  "resource_url": "http://hl7.org/fhir/CodeSystem/summary",
+  "filter": null,
+  "concepts": [],
+  "properties": [],
+  "valueset": null
+}

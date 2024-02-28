@@ -1,0 +1,81 @@
+{
+  "name": "GuidanceResponseStatus",
+  "resource_id": "guidance-response-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/guidance-response-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/guidance-response-status"
+      }
+    ]
+  },
+  "description": "The status of a guidance response.",
+  "related_codesystems": [
+    {
+      "id": "guidance-response-status",
+      "url": "http://hl7.org/fhir/guidance-response-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "success",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/guidance-response-status",
+      "display": "Success",
+      "description": "The request was processed successfully.",
+      "filter": null
+    },
+    {
+      "code": "data-requested",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/guidance-response-status",
+      "display": "Data Requested",
+      "description": "The request was processed successfully, but more data may result in a more complete evaluation.",
+      "filter": null
+    },
+    {
+      "code": "data-required",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/guidance-response-status",
+      "display": "Data Required",
+      "description": "The request was processed, but more data is required to complete the evaluation.",
+      "filter": null
+    },
+    {
+      "code": "in-progress",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/guidance-response-status",
+      "display": "In Progress",
+      "description": "The request is currently being processed.",
+      "filter": null
+    },
+    {
+      "code": "failure",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/guidance-response-status",
+      "display": "Failure",
+      "description": "The request was not processed successfully.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/guidance-response-status",
+      "display": "Entered In Error",
+      "description": "The response was entered in error.",
+      "filter": null
+    }
+  ]
+}

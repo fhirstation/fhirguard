@@ -1,0 +1,61 @@
+{
+  "name": "MissingToothReasonCodes",
+  "resource_id": "missing-tooth-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/missing-tooth-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/missingtoothreason"
+      }
+    ]
+  },
+  "description": "This value set includes sample Missing Tooth Reason codes.",
+  "related_codesystems": [
+    {
+      "id": "missing-tooth-reason",
+      "url": "http://terminology.hl7.org/CodeSystem/missingtoothreason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "e",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/missingtoothreason",
+      "display": "E",
+      "description": "Extraction",
+      "filter": null
+    },
+    {
+      "code": "c",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/missingtoothreason",
+      "display": "C",
+      "description": "Congenital",
+      "filter": null
+    },
+    {
+      "code": "u",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/missingtoothreason",
+      "display": "U",
+      "description": "Unknown",
+      "filter": null
+    },
+    {
+      "code": "o",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/missingtoothreason",
+      "display": "O",
+      "description": "Other",
+      "filter": null
+    }
+  ]
+}

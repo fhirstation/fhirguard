@@ -1,0 +1,54 @@
+{
+  "name": "SubstanceCode",
+  "resource_id": "substance-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/substance-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "105590001"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "373873005"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set contains concept codes for specific substances. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) and where concept is-a 373873005 (Pharmaceutical / biologic product (product))",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "105590001"
+        },
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "373873005"
+        }
+      ]
+    }
+  ]
+}

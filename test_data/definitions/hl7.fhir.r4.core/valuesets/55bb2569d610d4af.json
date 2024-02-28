@@ -1,0 +1,111 @@
+{
+  "name": "DeviceDefinitionParameterGroup",
+  "resource_id": "parameter-group",
+  "resource_url": "http://hl7.org/fhir/ValueSet/parameter-group",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/parameter-group"
+      }
+    ]
+  },
+  "description": "Codes identifying groupings of parameters; e.g. Cardiovascular.",
+  "related_codesystems": [
+    {
+      "id": "parameter-group",
+      "url": "http://terminology.hl7.org/CodeSystem/parameter-group"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "haemodynamic",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Haemodynamic Parameter Group",
+      "description": "Haemodynamic Parameter Group - MDC_PGRP_HEMO.",
+      "filter": null
+    },
+    {
+      "code": "ecg",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "ECG Parameter Group",
+      "description": "ECG Parameter Group - MDC_PGRP_ECG.",
+      "filter": null
+    },
+    {
+      "code": "respiratory",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Respiratory Parameter Group",
+      "description": "Respiratory Parameter Group - MDC_PGRP_RESP.",
+      "filter": null
+    },
+    {
+      "code": "ventilation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Ventilation Parameter Group",
+      "description": "Ventilation Parameter Group - MDC_PGRP_VENT.",
+      "filter": null
+    },
+    {
+      "code": "neurological",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Neurological Parameter Group",
+      "description": "Neurological Parameter Group - MDC_PGRP_NEURO.",
+      "filter": null
+    },
+    {
+      "code": "drug-delivery",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Drug Delivery Parameter Group",
+      "description": "Drug Delivery Parameter Group - MDC_PGRP_DRUG.",
+      "filter": null
+    },
+    {
+      "code": "fluid-chemistry",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Fluid Chemistry Parameter Group",
+      "description": "Fluid Chemistry Parameter Group - MDC_PGRP_FLUID.",
+      "filter": null
+    },
+    {
+      "code": "blood-chemistry",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Blood Chemistry Parameter Group",
+      "description": "Blood Chemistry Parameter Group - MDC_PGRP_BLOOD_CHEM.",
+      "filter": null
+    },
+    {
+      "code": "miscellaneous",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/parameter-group",
+      "display": "Miscellaneous Parameter Group",
+      "description": "Miscellaneous Parameter Group - MDC_PGRP_MISC.",
+      "filter": null
+    }
+  ]
+}

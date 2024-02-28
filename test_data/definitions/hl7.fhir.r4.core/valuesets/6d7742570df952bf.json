@@ -1,0 +1,91 @@
+{
+  "name": "v2.0561",
+  "resource_id": "v2-0561",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0561",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0561"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0561 ( Product/Services Clarification Codes)",
+  "related_codesystems": [
+    {
+      "id": "v2-0561",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0561"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CLCTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Claim Center",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DGAPP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Diagnostic Approval Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DTCTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Data Center Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Encounter Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GFTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Good Faith Indicator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OOP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Out of Province Indicator",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0561",
+      "display": "Sequence Number",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

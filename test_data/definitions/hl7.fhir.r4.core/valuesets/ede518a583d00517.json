@@ -1,0 +1,141 @@
+{
+  "name": "v2.0324",
+  "resource_id": "v2-0324",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0324",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0324"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0324 ( Location Characteristic ID)",
+  "related_codesystems": [
+    {
+      "id": "v2-0324",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0324"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "GEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Gender of patient(s)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Implant: can be used for radiation implant patients",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Infectious disease: this location can be used for isolation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Level of care",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Licensed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OVR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Overflow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Privacy level: indicating the level of private versus non-private room",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Bed is set up",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Shadow: a temporary holding location that does not physically exist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SMK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Smoking",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Bed is staffed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0324",
+      "display": "Teaching location",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "name": "QuestionnaireItemOperator",
+  "resource_id": "questionnaire-enable-operator",
+  "resource_url": "http://hl7.org/fhir/questionnaire-enable-operator",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "exists",
+      "display": "Exists",
+      "definition": "True if whether an answer exists is equal to the enableWhen answer (which must be a boolean)."
+    },
+    {
+      "code": "=",
+      "display": "Equals",
+      "definition": "True if whether at least one answer has a value that is equal to the enableWhen answer."
+    },
+    {
+      "code": "!=",
+      "display": "Not Equals",
+      "definition": "True if whether at least no answer has a value that is equal to the enableWhen answer."
+    },
+    {
+      "code": ">",
+      "display": "Greater Than",
+      "definition": "True if whether at least no answer has a value that is greater than the enableWhen answer."
+    },
+    {
+      "code": "<",
+      "display": "Less Than",
+      "definition": "True if whether at least no answer has a value that is less than the enableWhen answer."
+    },
+    {
+      "code": ">=",
+      "display": "Greater or Equals",
+      "definition": "True if whether at least no answer has a value that is greater or equal to the enableWhen answer."
+    },
+    {
+      "code": "<=",
+      "display": "Less or Equals",
+      "definition": "True if whether at least no answer has a value that is less or equal to the enableWhen answer."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "QuestionnaireItemOperator",
+    "resource_id": "questionnaire-enable-operator",
+    "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-enable-operator",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/questionnaire-enable-operator"
+        }
+      ]
+    },
+    "description": "The criteria by which a question is enabled.",
+    "related_codesystems": [
+      {
+        "id": "questionnaire-enable-operator",
+        "url": "http://hl7.org/fhir/questionnaire-enable-operator"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "exists",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Exists",
+        "description": "True if whether an answer exists is equal to the enableWhen answer (which must be a boolean).",
+        "filter": null
+      },
+      {
+        "code": "=",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Equals",
+        "description": "True if whether at least one answer has a value that is equal to the enableWhen answer.",
+        "filter": null
+      },
+      {
+        "code": "!=",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Not Equals",
+        "description": "True if whether at least no answer has a value that is equal to the enableWhen answer.",
+        "filter": null
+      },
+      {
+        "code": ">",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Greater Than",
+        "description": "True if whether at least no answer has a value that is greater than the enableWhen answer.",
+        "filter": null
+      },
+      {
+        "code": "<",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Less Than",
+        "description": "True if whether at least no answer has a value that is less than the enableWhen answer.",
+        "filter": null
+      },
+      {
+        "code": ">=",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Greater or Equals",
+        "description": "True if whether at least no answer has a value that is greater or equal to the enableWhen answer.",
+        "filter": null
+      },
+      {
+        "code": "<=",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/questionnaire-enable-operator",
+        "display": "Less or Equals",
+        "description": "True if whether at least no answer has a value that is less or equal to the enableWhen answer.",
+        "filter": null
+      }
+    ]
+  }
+}

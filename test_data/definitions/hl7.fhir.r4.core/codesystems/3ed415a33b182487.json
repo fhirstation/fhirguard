@@ -1,0 +1,164 @@
+{
+  "name": "v2.0383",
+  "resource_id": "v2-0383",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0383",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "CE",
+      "display": "Calibration Error",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Calibratie fout"
+        }
+      ]
+    },
+    {
+      "code": "CW",
+      "display": "Calibration Warning",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Calibratie waarschuwing"
+        }
+      ]
+    },
+    {
+      "code": "EE",
+      "display": "Expired Error",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verlopen fout"
+        }
+      ]
+    },
+    {
+      "code": "EW",
+      "display": "Expired Warning",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Verlopen waarschuwing"
+        }
+      ]
+    },
+    {
+      "code": "NE",
+      "display": "Not Available Error",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet beschikbaar fout"
+        }
+      ]
+    },
+    {
+      "code": "NW",
+      "display": "Not Available Warning",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet beschikbaar waarschuwing"
+        }
+      ]
+    },
+    {
+      "code": "OE",
+      "display": "Other Error",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Andere fout"
+        }
+      ]
+    },
+    {
+      "code": "OK",
+      "display": "OK Status",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Status OK"
+        }
+      ]
+    },
+    {
+      "code": "OW",
+      "display": "Other Warning",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Andere waarschuwing"
+        }
+      ]
+    },
+    {
+      "code": "QE",
+      "display": "QC Error",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "QC fout"
+        }
+      ]
+    },
+    {
+      "code": "QW",
+      "display": "QC Warning",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "QC waarschuwing"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

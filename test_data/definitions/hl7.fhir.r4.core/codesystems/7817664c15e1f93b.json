@@ -1,0 +1,60 @@
+{
+  "name": "NetworkTypeCodes",
+  "resource_id": "benefit-network",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/benefit-network",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "in",
+      "display": "In Network",
+      "definition": "Services rendered by a Network provider"
+    },
+    {
+      "code": "out",
+      "display": "Out of Network",
+      "definition": "Services rendered by a provider who is not in the Network"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "NetworkTypeCodes",
+    "resource_id": "benefit-network",
+    "resource_url": "http://hl7.org/fhir/ValueSet/benefit-network",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/benefit-network"
+        }
+      ]
+    },
+    "description": "This value set includes a smattering of Network type codes.",
+    "related_codesystems": [
+      {
+        "id": "benefit-network",
+        "url": "http://terminology.hl7.org/CodeSystem/benefit-network"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "in",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-network",
+        "display": "In Network",
+        "description": "Services rendered by a Network provider",
+        "filter": null
+      },
+      {
+        "code": "out",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-network",
+        "display": "Out of Network",
+        "description": "Services rendered by a provider who is not in the Network",
+        "filter": null
+      }
+    ]
+  }
+}

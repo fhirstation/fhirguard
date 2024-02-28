@@ -1,0 +1,61 @@
+{
+  "name": "StructureMapModelMode",
+  "resource_id": "map-model-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/map-model-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/map-model-mode"
+      }
+    ]
+  },
+  "description": "How the referenced structure is used in this mapping.",
+  "related_codesystems": [
+    {
+      "id": "map-model-mode",
+      "url": "http://hl7.org/fhir/map-model-mode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "source",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-model-mode",
+      "display": "Source Structure Definition",
+      "description": "This structure describes an instance passed to the mapping engine that is used a source of data.",
+      "filter": null
+    },
+    {
+      "code": "queried",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-model-mode",
+      "display": "Queried Structure Definition",
+      "description": "This structure describes an instance that the mapping engine may ask for that is used a source of data.",
+      "filter": null
+    },
+    {
+      "code": "target",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-model-mode",
+      "display": "Target Structure Definition",
+      "description": "This structure describes an instance passed to the mapping engine that is used a target of data.",
+      "filter": null
+    },
+    {
+      "code": "produced",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-model-mode",
+      "display": "Produced Structure Definition",
+      "description": "This structure describes an instance that the mapping engine may ask to create that is used a target of data.",
+      "filter": null
+    }
+  ]
+}

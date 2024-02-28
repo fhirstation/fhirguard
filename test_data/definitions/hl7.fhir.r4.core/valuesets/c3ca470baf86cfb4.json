@@ -1,0 +1,401 @@
+{
+  "name": "v2.0048",
+  "resource_id": "v2-0048",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0048",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0048"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0048 ( WHAT SUBJECT FILTER)",
+  "related_codesystems": [
+    {
+      "id": "v2-0048",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0048"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ADV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Advice/diagnosis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Nursing unit lookup (returns patients in beds, excluding empty beds)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Account number query, return matching visit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Medical record number query, returns visits for a medical record number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Patient name lookup",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Physician lookup",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Nursing unit lookup (returns patients in beds, including empty beds)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Cancel.  Used to cancel a query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Demographics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Financial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Generate new identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Goals",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MFQ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Master file query",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Most recent inpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Most recent outpatient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NCK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Network clock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NSC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Network status change",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Network statistic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Order",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Problems",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Pharmacy administration information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Pharmacy dispense information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Pharmacy encoded order information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Result",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RGR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Pharmacy give information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ROR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Pharmacy prescription information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "All schedule related information, including open slots, booked slots, blocked slots",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SBK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Booked slots on the identified schedule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SBL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Blocked slots on the identified schedule",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "First open slot on the identified schedule after the start date/tiem",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Open slots on the identified schedule between the begin and end of the start date/time range",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SSA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Time slots available for a single appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SSR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Time slots available for a recurring appointment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VXI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Vaccine Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0048",
+      "display": "Get cross-referenced identifiers",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

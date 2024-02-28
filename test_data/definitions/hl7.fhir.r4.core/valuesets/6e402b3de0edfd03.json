@@ -1,0 +1,51 @@
+{
+  "name": "ConditionalDeleteStatus",
+  "resource_id": "conditional-delete-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/conditional-delete-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/conditional-delete-status"
+      }
+    ]
+  },
+  "description": "A code that indicates how the server supports conditional delete.",
+  "related_codesystems": [
+    {
+      "id": "conditional-delete-status",
+      "url": "http://hl7.org/fhir/conditional-delete-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "not-supported",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/conditional-delete-status",
+      "display": "Not Supported",
+      "description": "No support for conditional deletes.",
+      "filter": null
+    },
+    {
+      "code": "single",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/conditional-delete-status",
+      "display": "Single Deletes Supported",
+      "description": "Conditional deletes are supported, but only single resources at a time.",
+      "filter": null
+    },
+    {
+      "code": "multiple",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/conditional-delete-status",
+      "display": "Multiple Deletes Supported",
+      "description": "Conditional deletes are supported, and multiple resources can be deleted in a single interaction.",
+      "filter": null
+    }
+  ]
+}

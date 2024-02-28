@@ -1,0 +1,45 @@
+{
+  "name": "ContractResourceAssetSub-TypeCodes",
+  "resource_id": "contract-assetsubtype",
+  "resource_url": "http://hl7.org/fhir/contract-asset-subtype",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "participation",
+      "display": "Participation",
+      "definition": "To be completed"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContractResourceAssetSub-TypeCodes",
+    "resource_id": "contract-assetsubtype",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contract-assetsubtype",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contract-asset-subtype"
+        }
+      ]
+    },
+    "description": "This value set contract specific codes for asset subtype.",
+    "related_codesystems": [
+      {
+        "id": "contract-assetsubtype",
+        "url": "http://hl7.org/fhir/contract-asset-subtype"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "participation",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contract-asset-subtype",
+        "display": "Participation",
+        "description": "To be completed",
+        "filter": null
+      }
+    ]
+  }
+}

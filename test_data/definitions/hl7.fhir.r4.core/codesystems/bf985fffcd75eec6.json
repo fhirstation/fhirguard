@@ -1,0 +1,28 @@
+{
+  "name": "v2.0503",
+  "resource_id": "v2-0503",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0503",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Used for indicating a repeating cycle of service requests; for example, individual intravenous solutions used in a cyclical sequence (a.k.a. \"Alternating IVs\"). This value would be compatible with linking separate service requests or with having all cyclical service request components in a single service request. Likewise, the value would be compatible with either Parent-Child messages or a single service request message to communicate the service requests' sequencing"
+        }
+      ],
+      "code": "C",
+      "display": "Cyclical"
+    },
+    {
+      "code": "R",
+      "display": "Reserved for future use"
+    },
+    {
+      "code": "S",
+      "display": "Sequential"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

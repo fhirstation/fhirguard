@@ -1,0 +1,54 @@
+{
+  "name": "BodyTemperatureUnits",
+  "resource_id": "ucum-bodytemp",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ucum-bodytemp",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "Cel"
+          },
+          {
+            "code": "[degF]"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "UCUM units for recording Body Temperature",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "Cel",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "[degF]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

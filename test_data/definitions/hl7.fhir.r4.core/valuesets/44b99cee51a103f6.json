@@ -1,0 +1,41 @@
+{
+  "name": "v2.0556",
+  "resource_id": "v2-0556",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0556",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0556"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0556 ( Benefit Group)",
+  "related_codesystems": [
+    {
+      "id": "v2-0556",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0556"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0556",
+      "display": "AMBULATORY CARE",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DENT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0556",
+      "display": "DENTAL",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "UDICodes",
+  "resource_id": "udi",
+  "resource_url": "http://hl7.org/fhir/ex-udi",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "gudid",
+      "display": "GUDID (FDA)",
+      "definition": "GUDID (FDA) US Repository"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "UDICodes",
+    "resource_id": "udi",
+    "resource_url": "http://hl7.org/fhir/ValueSet/udi",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/ex-udi"
+        }
+      ]
+    },
+    "description": "This value set includes sample UDI codes.",
+    "related_codesystems": [
+      {
+        "id": "udi",
+        "url": "http://hl7.org/fhir/ex-udi"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "gudid",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/ex-udi",
+        "display": "GUDID (FDA)",
+        "description": "GUDID (FDA) US Repository",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "name": "NarrativeStatus",
+  "resource_id": "narrative-status",
+  "resource_url": "http://hl7.org/fhir/narrative-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "generated",
+      "display": "Generated",
+      "definition": "The contents of the narrative are entirely generated from the core elements in the content."
+    },
+    {
+      "code": "extensions",
+      "display": "Extensions",
+      "definition": "The contents of the narrative are entirely generated from the core elements in the content and some of the content is generated from extensions. The narrative SHALL reflect the impact of all modifier extensions."
+    },
+    {
+      "code": "additional",
+      "display": "Additional",
+      "definition": "The contents of the narrative may contain additional information not found in the structured data. Note that there is no computable way to determine what the extra information is, other than by human inspection."
+    },
+    {
+      "code": "empty",
+      "display": "Empty",
+      "definition": "The contents of the narrative are some equivalent of \"No human-readable text provided in this case\"."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "NarrativeStatus",
+    "resource_id": "narrative-status",
+    "resource_url": "http://hl7.org/fhir/ValueSet/narrative-status",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/narrative-status"
+        }
+      ]
+    },
+    "description": "The status of a resource narrative.",
+    "related_codesystems": [
+      {
+        "id": "narrative-status",
+        "url": "http://hl7.org/fhir/narrative-status"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "generated",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/narrative-status",
+        "display": "Generated",
+        "description": "The contents of the narrative are entirely generated from the core elements in the content.",
+        "filter": null
+      },
+      {
+        "code": "extensions",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/narrative-status",
+        "display": "Extensions",
+        "description": "The contents of the narrative are entirely generated from the core elements in the content and some of the content is generated from extensions. The narrative SHALL reflect the impact of all modifier extensions.",
+        "filter": null
+      },
+      {
+        "code": "additional",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/narrative-status",
+        "display": "Additional",
+        "description": "The contents of the narrative may contain additional information not found in the structured data. Note that there is no computable way to determine what the extra information is, other than by human inspection.",
+        "filter": null
+      },
+      {
+        "code": "empty",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/narrative-status",
+        "display": "Empty",
+        "description": "The contents of the narrative are some equivalent of \"No human-readable text provided in this case\".",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ProcedureDeviceActionCodes",
+  "resource_id": "device-action",
+  "resource_url": "http://hl7.org/fhir/device-action",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "implanted",
+      "display": "Implanted",
+      "definition": "The device was implanted in the patient during the procedure."
+    },
+    {
+      "code": "explanted",
+      "display": "Explanted",
+      "definition": "The device was explanted from the patient during the procedure."
+    },
+    {
+      "code": "manipulated",
+      "display": "Manipulated",
+      "definition": "The device remains in the patient, but its location, settings, or functionality was changed."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

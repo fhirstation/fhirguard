@@ -1,0 +1,679 @@
+{
+  "name": "AuditEventSub-Type",
+  "resource_id": "audit-event-sub-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/audit-event-sub-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "concept": [
+          {
+            "code": "110120"
+          },
+          {
+            "code": "110121"
+          },
+          {
+            "code": "110122"
+          },
+          {
+            "code": "110123"
+          },
+          {
+            "code": "110124"
+          },
+          {
+            "code": "110125"
+          },
+          {
+            "code": "110126"
+          },
+          {
+            "code": "110127"
+          },
+          {
+            "code": "110128"
+          },
+          {
+            "code": "110129"
+          },
+          {
+            "code": "110130"
+          },
+          {
+            "code": "110131"
+          },
+          {
+            "code": "110132"
+          },
+          {
+            "code": "110133"
+          },
+          {
+            "code": "110134"
+          },
+          {
+            "code": "110135"
+          },
+          {
+            "code": "110136"
+          },
+          {
+            "code": "110137"
+          },
+          {
+            "code": "110138"
+          },
+          {
+            "code": "110139"
+          },
+          {
+            "code": "110140"
+          },
+          {
+            "code": "110141"
+          },
+          {
+            "code": "110142"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/restful-interaction"
+      }
+    ]
+  },
+  "description": "More detailed code concerning the type of the audit event - defined by DICOM with some FHIR specific additions.",
+  "related_codesystems": [
+    {
+      "id": "dicom-dcim",
+      "url": "http://dicom.nema.org/resources/ontology/DCM"
+    },
+    {
+      "id": "restful-interaction",
+      "url": "http://hl7.org/fhir/restful-interaction"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "110120",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Application Start",
+      "description": "Audit event: Application Entity has started",
+      "filter": null
+    },
+    {
+      "code": "110121",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Application Stop",
+      "description": "Audit event: Application Entity has stopped",
+      "filter": null
+    },
+    {
+      "code": "110122",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Login",
+      "description": "Audit event: User login has been attempted",
+      "filter": null
+    },
+    {
+      "code": "110123",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Logout",
+      "description": "Audit event: User logout has been attempted",
+      "filter": null
+    },
+    {
+      "code": "110124",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Attach",
+      "description": "Audit event: Node has been attached",
+      "filter": null
+    },
+    {
+      "code": "110125",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Detach",
+      "description": "Audit event: Node has been detached",
+      "filter": null
+    },
+    {
+      "code": "110126",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Node Authentication",
+      "description": "Audit event: Node Authentication has been attempted",
+      "filter": null
+    },
+    {
+      "code": "110127",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Emergency Override Started",
+      "description": "Audit event: Emergency Override has started",
+      "filter": null
+    },
+    {
+      "code": "110128",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Network Configuration",
+      "description": "Audit event: Network configuration has been changed",
+      "filter": null
+    },
+    {
+      "code": "110129",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Security Configuration",
+      "description": "Audit event: Security configuration has been changed",
+      "filter": null
+    },
+    {
+      "code": "110130",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Hardware Configuration",
+      "description": "Audit event: Hardware configuration has been changed",
+      "filter": null
+    },
+    {
+      "code": "110131",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Software Configuration",
+      "description": "Audit event: Software configuration has been changed",
+      "filter": null
+    },
+    {
+      "code": "110132",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Use of Restricted Function",
+      "description": "Audit event: A use of a restricted function has been attempted",
+      "filter": null
+    },
+    {
+      "code": "110133",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Audit Recording Stopped",
+      "description": "Audit event: Audit recording has been stopped",
+      "filter": null
+    },
+    {
+      "code": "110134",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Audit Recording Started",
+      "description": "Audit event: Audit recording has been started",
+      "filter": null
+    },
+    {
+      "code": "110135",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Object Security Attributes Changed",
+      "description": "Audit event: Security attributes of an object have been changed",
+      "filter": null
+    },
+    {
+      "code": "110136",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Security Roles Changed",
+      "description": "Audit event: Security roles have been changed",
+      "filter": null
+    },
+    {
+      "code": "110137",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "User security Attributes Changed",
+      "description": "Audit event: Security attributes of a user have been changed",
+      "filter": null
+    },
+    {
+      "code": "110138",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Emergency Override Stopped",
+      "description": "Audit event: Emergency Override has Stopped",
+      "filter": null
+    },
+    {
+      "code": "110139",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Remote Service Operation Started",
+      "description": "Audit event: Remote Service Operation has Begun",
+      "filter": null
+    },
+    {
+      "code": "110140",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Remote Service Operation Stopped",
+      "description": "Audit event: Remote Service Operation has Stopped",
+      "filter": null
+    },
+    {
+      "code": "110141",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Local Service Operation Started",
+      "description": "Audit event: Local Service Operation has Begun",
+      "filter": null
+    },
+    {
+      "code": "110142",
+      "type": [
+        "concept"
+      ],
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "display": "Local Service Operation Stopped",
+      "description": "Audit event: Local Service Operation Stopped",
+      "filter": null
+    },
+    {
+      "code": "110120",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110121",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110122",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110123",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110124",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110125",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110126",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110127",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110128",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110129",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110130",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110131",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110132",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110133",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110134",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110135",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110136",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110137",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110138",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110139",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110140",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110141",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "110142",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "read",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "read",
+      "description": "Read the current state of the resource.",
+      "filter": null
+    },
+    {
+      "code": "vread",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "vread",
+      "description": "Read the state of a specific version of the resource.",
+      "filter": null
+    },
+    {
+      "code": "update",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "update",
+      "description": "Update an existing resource by its id (or create it if it is new).",
+      "filter": null
+    },
+    {
+      "code": "patch",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "patch",
+      "description": "Update an existing resource by posting a set of changes to it.",
+      "filter": null
+    },
+    {
+      "code": "delete",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "delete",
+      "description": "Delete a resource.",
+      "filter": null
+    },
+    {
+      "code": "history",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "history",
+      "description": "Retrieve the change history for a particular resource, type of resource, or the entire system.",
+      "filter": null
+    },
+    {
+      "code": "create",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "create",
+      "description": "Create a new resource with a server assigned id.",
+      "filter": null
+    },
+    {
+      "code": "search",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "search",
+      "description": "Search a resource type or all resources based on some filter criteria.",
+      "filter": null
+    },
+    {
+      "code": "capabilities",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "capabilities",
+      "description": "Get a Capability Statement for the system.",
+      "filter": null
+    },
+    {
+      "code": "transaction",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "transaction",
+      "description": "Update, create or delete a set of resources as a single transaction.",
+      "filter": null
+    },
+    {
+      "code": "batch",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "batch",
+      "description": "perform a set of a separate interactions in a single http operation",
+      "filter": null
+    },
+    {
+      "code": "operation",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-interaction",
+      "display": "operation",
+      "description": "Perform an operation as defined by an OperationDefinition.",
+      "filter": null
+    }
+  ]
+}

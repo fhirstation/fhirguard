@@ -1,0 +1,75 @@
+{
+  "name": "PaymentTypeCodes",
+  "resource_id": "payment-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/payment-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "payment",
+      "display": "Payment",
+      "definition": "The amount is partial or complete settlement of the amounts due."
+    },
+    {
+      "code": "adjustment",
+      "display": "Adjustment",
+      "definition": "The amount is an adjustment regarding claims already paid."
+    },
+    {
+      "code": "advance",
+      "display": "Advance",
+      "definition": "The amount is an advance against future claims."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "PaymentTypeCodes",
+    "resource_id": "payment-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/payment-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/payment-type"
+        }
+      ]
+    },
+    "description": "This value set includes sample Payment Type codes.",
+    "related_codesystems": [
+      {
+        "id": "payment-type",
+        "url": "http://terminology.hl7.org/CodeSystem/payment-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "payment",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/payment-type",
+        "display": "Payment",
+        "description": "The amount is partial or complete settlement of the amounts due.",
+        "filter": null
+      },
+      {
+        "code": "adjustment",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/payment-type",
+        "display": "Adjustment",
+        "description": "The amount is an adjustment regarding claims already paid.",
+        "filter": null
+      },
+      {
+        "code": "advance",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/payment-type",
+        "display": "Advance",
+        "description": "The amount is an advance against future claims.",
+        "filter": null
+      }
+    ]
+  }
+}

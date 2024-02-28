@@ -1,0 +1,26 @@
+{
+  "name": "v2.0749",
+  "resource_id": "v2-0749",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0749",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "Valid code; not used for grouping"
+    },
+    {
+      "code": "1",
+      "display": "Valid code; used for grouping"
+    },
+    {
+      "code": "2",
+      "display": "Invalid code; not used for grouping"
+    },
+    {
+      "code": "3",
+      "display": "Invalid code; code is relevant for grouping"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

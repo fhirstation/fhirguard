@@ -1,0 +1,100 @@
+{
+  "name": "EpisodeOfCareType",
+  "resource_id": "episodeofcare-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "hacc",
+      "display": "Home and Community Care"
+    },
+    {
+      "code": "pac",
+      "display": "Post Acute Care"
+    },
+    {
+      "code": "diab",
+      "display": "Post coordinated diabetes program"
+    },
+    {
+      "code": "da",
+      "display": "Drug and alcohol rehabilitation"
+    },
+    {
+      "code": "cacp",
+      "display": "Community-based aged care"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "EpisodeOfCareType",
+    "resource_id": "episodeofcare-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/episodeofcare-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type"
+        }
+      ]
+    },
+    "description": "This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.",
+    "related_codesystems": [
+      {
+        "id": "episodeofcare-type",
+        "url": "http://terminology.hl7.org/CodeSystem/episodeofcare-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "hacc",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "display": "Home and Community Care",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "pac",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "display": "Post Acute Care",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "diab",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "display": "Post coordinated diabetes program",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "da",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "display": "Drug and alcohol rehabilitation",
+        "description": null,
+        "filter": null
+      },
+      {
+        "code": "cacp",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
+        "display": "Community-based aged care",
+        "description": null,
+        "filter": null
+      }
+    ]
+  }
+}

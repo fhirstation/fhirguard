@@ -1,0 +1,105 @@
+{
+  "name": "AddressUse",
+  "resource_id": "address-use",
+  "resource_url": "http://hl7.org/fhir/address-use",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "home",
+      "display": "Home",
+      "definition": "A communication address at a home."
+    },
+    {
+      "code": "work",
+      "display": "Work",
+      "definition": "An office address. First choice for business related contacts during business hours."
+    },
+    {
+      "code": "temp",
+      "display": "Temporary",
+      "definition": "A temporary address. The period can provide more detailed information."
+    },
+    {
+      "code": "old",
+      "display": "Old / Incorrect",
+      "definition": "This address is no longer in use (or was never correct but retained for records)."
+    },
+    {
+      "code": "billing",
+      "display": "Billing",
+      "definition": "An address to be used to send bills, invoices, receipts etc."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "AddressUse",
+    "resource_id": "address-use",
+    "resource_url": "http://hl7.org/fhir/ValueSet/address-use",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/address-use"
+        }
+      ]
+    },
+    "description": "The use of an address.",
+    "related_codesystems": [
+      {
+        "id": "address-use",
+        "url": "http://hl7.org/fhir/address-use"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "home",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-use",
+        "display": "Home",
+        "description": "A communication address at a home.",
+        "filter": null
+      },
+      {
+        "code": "work",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-use",
+        "display": "Work",
+        "description": "An office address. First choice for business related contacts during business hours.",
+        "filter": null
+      },
+      {
+        "code": "temp",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-use",
+        "display": "Temporary",
+        "description": "A temporary address. The period can provide more detailed information.",
+        "filter": null
+      },
+      {
+        "code": "old",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-use",
+        "display": "Old / Incorrect",
+        "description": "This address is no longer in use (or was never correct but retained for records).",
+        "filter": null
+      },
+      {
+        "code": "billing",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/address-use",
+        "display": "Billing",
+        "description": "An address to be used to send bills, invoices, receipts etc.",
+        "filter": null
+      }
+    ]
+  }
+}

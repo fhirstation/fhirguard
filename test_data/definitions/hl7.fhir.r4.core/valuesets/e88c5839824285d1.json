@@ -1,0 +1,61 @@
+{
+  "name": "v2.0564",
+  "resource_id": "v2-0564",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0564",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0564"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0564 ( Adjustment Category Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0564",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0564"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "EA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0564",
+      "display": "Edit/Adjudication Response",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0564",
+      "display": "Information",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0564",
+      "display": "Provider Adjustment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0564",
+      "display": "Processing Result",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "SpecimenCollectionPriority",
+  "resource_id": "specimen-collection-priority",
+  "resource_url": "http://hl7.org/fhir/ValueSet/specimen-collection-priority",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.com",
+        "concept": [
+          {
+            "code": "1",
+            "display": "STAT"
+          },
+          {
+            "code": "2",
+            "display": "ASAP"
+          },
+          {
+            "code": "3",
+            "display": "ASAP-ED"
+          },
+          {
+            "code": "4",
+            "display": "AM"
+          },
+          {
+            "code": "5",
+            "display": "ROUTINE"
+          },
+          {
+            "code": "6",
+            "display": "NURSE COLLECT"
+          },
+          {
+            "code": "7",
+            "display": "CALL OR FAX"
+          }
+        ]
+      }
+    ]
+  },
+  "description": " This example value set defines a set of codes that can be used to indicate the priority of collection of a specimen.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "STAT",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "ASAP",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "ASAP-ED",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "AM",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "ROUTINE",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "NURSE COLLECT",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "CALL OR FAX",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

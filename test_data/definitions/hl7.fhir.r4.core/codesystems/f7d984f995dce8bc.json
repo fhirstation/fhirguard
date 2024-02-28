@@ -1,0 +1,141 @@
+{
+  "name": "GoalAchievementStatus",
+  "resource_id": "goal-achievement",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "in-progress",
+      "display": "In Progress",
+      "definition": "The goal is being sought but has not yet been reached. (Also applies if the goal was reached in the past but there has been regression and the goal is again being sought).",
+      "concept": [
+        {
+          "code": "improving",
+          "display": "Improving",
+          "definition": "The goal is being sought, and is progressing."
+        },
+        {
+          "code": "worsening",
+          "display": "Worsening",
+          "definition": "The goal is being sought, but is regressing."
+        },
+        {
+          "code": "no-change",
+          "display": "No Change",
+          "definition": "The goal is being sought, but the trend is flat."
+        }
+      ]
+    },
+    {
+      "code": "improving",
+      "display": "Improving",
+      "definition": "The goal is being sought, and is progressing."
+    },
+    {
+      "code": "worsening",
+      "display": "Worsening",
+      "definition": "The goal is being sought, but is regressing."
+    },
+    {
+      "code": "no-change",
+      "display": "No Change",
+      "definition": "The goal is being sought, but the trend is flat."
+    },
+    {
+      "code": "achieved",
+      "display": "Achieved",
+      "definition": "The goal has been met.",
+      "concept": [
+        {
+          "code": "sustaining",
+          "display": "Sustaining",
+          "definition": "The goal has been met, but ongoing activity is needed to sustain the goal objective."
+        }
+      ]
+    },
+    {
+      "code": "sustaining",
+      "display": "Sustaining",
+      "definition": "The goal has been met, but ongoing activity is needed to sustain the goal objective."
+    },
+    {
+      "code": "not-achieved",
+      "display": "Not Achieved",
+      "definition": "The goal has not been met and there might or might not have been progress towards target.",
+      "concept": [
+        {
+          "code": "no-progress",
+          "display": "No Progress",
+          "definition": "The goal has not been met and little to no progress towards target."
+        },
+        {
+          "code": "not-attainable",
+          "display": "Not Attainable",
+          "definition": "The goal is not possible to be met."
+        }
+      ]
+    },
+    {
+      "code": "no-progress",
+      "display": "No Progress",
+      "definition": "The goal has not been met and little to no progress towards target."
+    },
+    {
+      "code": "not-attainable",
+      "display": "Not Attainable",
+      "definition": "The goal is not possible to be met."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "GoalAchievementStatus",
+    "resource_id": "goal-achievement",
+    "resource_url": "http://hl7.org/fhir/ValueSet/goal-achievement",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/goal-achievement"
+        }
+      ]
+    },
+    "description": "Describes the progression, or lack thereof, towards the goal against the target.",
+    "related_codesystems": [
+      {
+        "id": "goal-achievement",
+        "url": "http://terminology.hl7.org/CodeSystem/goal-achievement"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "in-progress",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "In Progress",
+        "description": "The goal is being sought but has not yet been reached. (Also applies if the goal was reached in the past but there has been regression and the goal is again being sought).",
+        "filter": null
+      },
+      {
+        "code": "achieved",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "Achieved",
+        "description": "The goal has been met.",
+        "filter": null
+      },
+      {
+        "code": "not-achieved",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+        "display": "Not Achieved",
+        "description": "The goal has not been met and there might or might not have been progress towards target.",
+        "filter": null
+      }
+    ]
+  }
+}

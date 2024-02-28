@@ -1,0 +1,38 @@
+{
+  "name": "v2.0566",
+  "resource_id": "v2-0566",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0566",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "GRN",
+      "display": "Granulocytes"
+    },
+    {
+      "code": "LYM",
+      "display": "Lymphocytes"
+    },
+    {
+      "code": "PLS",
+      "display": "Plasma"
+    },
+    {
+      "code": "PLT",
+      "display": "Platelets"
+    },
+    {
+      "code": "PSC",
+      "display": "Peripheral Stem Cells"
+    },
+    {
+      "code": "RBC",
+      "display": "Red Blood Cells"
+    },
+    {
+      "code": "WBL",
+      "display": "Whole Blood"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,70 @@
+{
+  "name": "v2.0536",
+  "resource_id": "v2-0536",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0536",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "E",
+      "display": "Expired",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "abgelaufen"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Inactive",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "inaktiv"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Provisional"
+    },
+    {
+      "code": "R",
+      "display": "Revoked",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "zurückgezogen"
+        }
+      ]
+    },
+    {
+      "code": "V",
+      "display": "Active/Valid",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "aktiv/gültig"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

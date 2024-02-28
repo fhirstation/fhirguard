@@ -1,0 +1,151 @@
+{
+  "name": "v2.0717",
+  "resource_id": "v2-0717",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0717",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0717"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0717 ( Access Restriction Value)",
+  "related_codesystems": [
+    {
+      "id": "v2-0717",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0717"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ALL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "All",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "All demographic data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DRG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Drug",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "HIV status and results",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Patient Location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "None",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Opt in all registries (HIPAA)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Opt out all registries (HIPAA)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PID-17",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Religion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PID-7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Date of Birth",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PSY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Psychiatric Mental health",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SMD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Sensitive medical data",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0717",
+      "display": "Sexually transmitted diseases",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

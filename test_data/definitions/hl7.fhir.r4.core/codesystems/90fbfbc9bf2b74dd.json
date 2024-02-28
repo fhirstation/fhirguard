@@ -1,0 +1,38 @@
+{
+  "name": "v2.0401",
+  "resource_id": "v2-0401",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0401",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "C",
+      "display": "Medi-Cal",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Medi-Cal"
+        }
+      ]
+    },
+    {
+      "code": "MM",
+      "display": "Medicare",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Medicare"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

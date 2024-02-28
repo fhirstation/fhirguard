@@ -1,0 +1,30 @@
+{
+  "name": "FHIRDeviceStatus",
+  "resource_id": "device-status",
+  "resource_url": "http://hl7.org/fhir/device-status",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "active",
+      "display": "Active",
+      "definition": "The device is available for use.  Note: For *implanted devices*  this means that the device is implanted in the patient."
+    },
+    {
+      "code": "inactive",
+      "display": "Inactive",
+      "definition": "The device is no longer available for use (e.g. lost, expired, damaged).  Note: For *implanted devices*  this means that the device has been removed from the patient."
+    },
+    {
+      "code": "entered-in-error",
+      "display": "Entered in Error",
+      "definition": "The device was entered in error and voided."
+    },
+    {
+      "code": "unknown",
+      "display": "Unknown",
+      "definition": "The status of the device has not been determined."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

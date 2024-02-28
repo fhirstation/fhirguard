@@ -1,0 +1,71 @@
+{
+  "name": "PropertyRepresentation",
+  "resource_id": "property-representation",
+  "resource_url": "http://hl7.org/fhir/ValueSet/property-representation",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/property-representation"
+      }
+    ]
+  },
+  "description": "How a property is represented when serialized.",
+  "related_codesystems": [
+    {
+      "id": "property-representation",
+      "url": "http://hl7.org/fhir/property-representation"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "xmlAttr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/property-representation",
+      "display": "XML Attribute",
+      "description": "In XML, this property is represented as an attribute not an element.",
+      "filter": null
+    },
+    {
+      "code": "xmlText",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/property-representation",
+      "display": "XML Text",
+      "description": "This element is represented using the XML text attribute (primitives only).",
+      "filter": null
+    },
+    {
+      "code": "typeAttr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/property-representation",
+      "display": "Type Attribute",
+      "description": "The type of this element is indicated using xsi:type.",
+      "filter": null
+    },
+    {
+      "code": "cdaText",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/property-representation",
+      "display": "CDA Text Format",
+      "description": "Use CDA narrative instead of XHTML.",
+      "filter": null
+    },
+    {
+      "code": "xhtml",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/property-representation",
+      "display": "XHTML",
+      "description": "The property is represented using XHTML.",
+      "filter": null
+    }
+  ]
+}

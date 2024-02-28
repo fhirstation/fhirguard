@@ -1,0 +1,51 @@
+{
+  "name": "AdverseEventSeverity",
+  "resource_id": "adverse-event-severity",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-severity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-severity"
+      }
+    ]
+  },
+  "description": "The severity of the adverse event itself, in direct relation to the subject.",
+  "related_codesystems": [
+    {
+      "id": "adverse-event-severity",
+      "url": "http://terminology.hl7.org/CodeSystem/adverse-event-severity"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "mild",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-severity",
+      "display": "Mild",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "moderate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-severity",
+      "display": "Moderate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "severe",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-severity",
+      "display": "Severe",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

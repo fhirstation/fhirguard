@@ -1,0 +1,91 @@
+{
+  "name": "EpisodeOfCareStatus",
+  "resource_id": "episode-of-care-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/episode-of-care-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/episode-of-care-status"
+      }
+    ]
+  },
+  "description": "The status of the episode of care.",
+  "related_codesystems": [
+    {
+      "id": "episode-of-care-status",
+      "url": "http://hl7.org/fhir/episode-of-care-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "planned",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "Planned",
+      "description": "This episode of care is planned to start at the date specified in the period.start. During this status, an organization may perform assessments to determine if the patient is eligible to receive services, or be organizing to make resources available to provide care services.",
+      "filter": null
+    },
+    {
+      "code": "waitlist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "Waitlist",
+      "description": "This episode has been placed on a waitlist, pending the episode being made active (or cancelled).",
+      "filter": null
+    },
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "Active",
+      "description": "This episode of care is current.",
+      "filter": null
+    },
+    {
+      "code": "onhold",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "On Hold",
+      "description": "This episode of care is on hold; the organization has limited responsibility for the patient (such as while on respite).",
+      "filter": null
+    },
+    {
+      "code": "finished",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "Finished",
+      "description": "This episode of care is finished and the organization is not expecting to be providing further care to the patient. Can also be known as \"closed\", \"completed\" or other similar terms.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "Cancelled",
+      "description": "The episode of care was cancelled, or withdrawn from service, often selected during the planned stage as the patient may have gone elsewhere, or the circumstances have changed and the organization is unable to provide the care. It indicates that services terminated outside the planned/expected workflow.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/episode-of-care-status",
+      "display": "Entered in Error",
+      "description": "This instance should not have been part of this patient's medical record.",
+      "filter": null
+    }
+  ]
+}

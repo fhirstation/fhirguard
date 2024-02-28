@@ -1,0 +1,61 @@
+{
+  "name": "v2.0236",
+  "resource_id": "v2-0236",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0236",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0236"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0236 ( Reported To)",
+  "related_codesystems": [
+    {
+      "id": "v2-0236",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0236"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "D",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0236",
+      "display": "Distributor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "L",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0236",
+      "display": "Local facility/user facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0236",
+      "display": "Manufacturer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0236",
+      "display": "Regulatory agency",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "name": "v3.VaccineManufacturer",
+  "resource_id": "v3-VaccineManufacturer",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AB",
+      "display": "Abbott Laboratories (includes Ross Products Division)",
+      "definition": "Abbott Laboratories (includes Ross Products Division)"
+    },
+    {
+      "code": "AD",
+      "display": "Adams Laboratories",
+      "definition": "Adams Laboratories"
+    },
+    {
+      "code": "ALP",
+      "display": "Alpha Therapeutic Corporation",
+      "definition": "Alpha Therapeutic Corporation"
+    },
+    {
+      "code": "AR",
+      "display": "Armour [Inactive - use CEN]",
+      "definition": "Armour [Inactive-use CEN]"
+    },
+    {
+      "code": "AVI",
+      "display": "Aviron",
+      "definition": "Aviron"
+    },
+    {
+      "code": "BA",
+      "display": "Baxter Healthcare Corporation",
+      "definition": "Baxter Healthcare Corporation"
+    },
+    {
+      "code": "BAY",
+      "display": "Bayer Corporation (includes Miles, Inc. and Cutter Laboratories)",
+      "definition": "Bayer Corporation (includes Miles, Inc. and Cutter Laboratories)"
+    },
+    {
+      "code": "BP",
+      "display": "Berna Products [Inactive - use BPC]",
+      "definition": "Berna Products [Inactive-use BPC]"
+    },
+    {
+      "code": "BPC",
+      "display": "Berna Products Corporation (includes Swiss Serum and Vaccine Institute Berne)",
+      "definition": "Berna Products Corporation (includes Swiss Serum and Vaccine Institute Berne)"
+    },
+    {
+      "code": "CEN",
+      "display": "Centeon L.L.C. (includes Armour Pharmaceutical Company)",
+      "definition": "Centeon L.L.C. (includes Armour Pharmaceutical Company)"
+    },
+    {
+      "code": "CHI",
+      "display": "Chiron Corporation",
+      "definition": "Chiron Corporation"
+    },
+    {
+      "code": "CON",
+      "display": "Connaught [Inactive - use PMC]",
+      "definition": "Connaught [Inactive-use PMC]"
+    },
+    {
+      "code": "EVN",
+      "display": "Evans Medical Limited (an affiliate of Medeva Pharmaceuticals, Inc.)",
+      "definition": "Evans Medical Limited (an affiliate of Medeva Pharmaceuticals, Inc.)"
+    },
+    {
+      "code": "GRE",
+      "display": "Greer Laboratories, Inc.",
+      "definition": "Greer Laboratories, Inc."
+    },
+    {
+      "code": "IAG",
+      "display": "Immuno International AG",
+      "definition": "Immuno International AG"
+    },
+    {
+      "code": "IM",
+      "display": "Merieux [Inactive - use PMC]",
+      "definition": "Merieux [Inactive-use PMC]"
+    },
+    {
+      "code": "IUS",
+      "display": "Immuno-U.S., Inc.",
+      "definition": "Immuno-U.S., Inc."
+    },
+    {
+      "code": "JPN",
+      "display": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)",
+      "definition": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)"
+    },
+    {
+      "code": "KGC",
+      "display": "Korea Green Cross Corporation",
+      "definition": "Korea Green Cross Corporation"
+    },
+    {
+      "code": "LED",
+      "display": "Lederle [Inactive - use WAL]",
+      "definition": "Lederle [Inactive-use WAL]"
+    },
+    {
+      "code": "MA",
+      "display": "Massachusetts Public Health Biologic Laboratories",
+      "definition": "Massachusetts Public Health Biologic Laboratories"
+    },
+    {
+      "code": "MED",
+      "display": "MedImmune, Inc.",
+      "definition": "MedImmune, Inc."
+    },
+    {
+      "code": "MIL",
+      "display": "Miles [Inactive - use BAY]",
+      "definition": "Miles [Inactive-use BAY]"
+    },
+    {
+      "code": "MIP",
+      "display": "Bioport Corporation (formerly Michigan Biologic Products Institute)",
+      "definition": "Bioport Corporation (formerly Michigan Biologic Products Institute)"
+    },
+    {
+      "code": "MSD",
+      "display": "Merck and Co., Inc.",
+      "definition": "Merck & Co., Inc."
+    },
+    {
+      "code": "NAB",
+      "display": "NABI (formerly North American Biologicals, Inc.)",
+      "definition": "NABI (formerly North American Biologicals, Inc.)"
+    },
+    {
+      "code": "NAV",
+      "display": "North American Vaccine, Inc.",
+      "definition": "North American Vaccine, Inc."
+    },
+    {
+      "code": "NOV",
+      "display": "Novartis Pharmaceutical Corporation (includes Ciba-Geigy Limited and Sandoz Limited)",
+      "definition": "Novartis Pharmaceutical Corporation (includes Ciba-Geigy Limited and Sandoz Limited)"
+    },
+    {
+      "code": "NYB",
+      "display": "New York Blood Center",
+      "definition": "New York Blood Center"
+    },
+    {
+      "code": "ORT",
+      "display": "Ortho Diagnostic Systems, Inc.",
+      "definition": "Ortho Diagnostic Systems, Inc."
+    },
+    {
+      "code": "OTC",
+      "display": "Organon Teknika Corporation",
+      "definition": "Organon Teknika Corporation"
+    },
+    {
+      "code": "PD",
+      "display": "Parkedale Pharmaceuticals (formerly Parke-Davis)",
+      "definition": "Parkedale Pharmaceuticals (formerly Parke-Davis)"
+    },
+    {
+      "code": "PMC",
+      "display": "Aventis Pasteur Inc. (formerly Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux)",
+      "definition": "Aventis Pasteur Inc. (formerly Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux)"
+    },
+    {
+      "code": "PRX",
+      "display": "Praxis Biologics [Inactive - use WAL]",
+      "definition": "Praxis Biologics [Inactive-use WAL]"
+    },
+    {
+      "code": "SCL",
+      "display": "Sclavo, Inc.",
+      "definition": "Sclavo, Inc."
+    },
+    {
+      "code": "SI",
+      "display": "Swiss Serum and Vaccine Inst. [Inactive - use BPC]",
+      "definition": "Swiss Serum and Vaccine Inst. [Inactive-use BPC]"
+    },
+    {
+      "code": "SKB",
+      "display": "SmithKline Beecham",
+      "definition": "SmithKline Beecham"
+    },
+    {
+      "code": "USA",
+      "display": "United States Army Medical Research and Materiel Command",
+      "definition": "United States Army Medical Research and Materiel Command"
+    },
+    {
+      "code": "WA",
+      "display": "Wyeth-Ayerst [Inactive - use WAL]",
+      "definition": "Wyeth-Ayerst [Inactive-use WAL]"
+    },
+    {
+      "code": "WAL",
+      "display": "Wyeth-Ayerst (includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)",
+      "definition": "Wyeth-Ayerst (includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "v3.VaccineManufacturer",
+    "resource_id": "v3-VaccineManufacturer",
+    "resource_url": "http://terminology.hl7.org/ValueSet/v3-VaccineManufacturer",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer"
+        }
+      ]
+    },
+    "description": " The manufacturer of a vaccine.",
+    "related_codesystems": [
+      {
+        "id": "v3-VaccineManufacturer",
+        "url": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "AB",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Abbott Laboratories (includes Ross Products Division)",
+        "description": "Abbott Laboratories (includes Ross Products Division)",
+        "filter": null
+      },
+      {
+        "code": "AD",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Adams Laboratories",
+        "description": "Adams Laboratories",
+        "filter": null
+      },
+      {
+        "code": "ALP",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Alpha Therapeutic Corporation",
+        "description": "Alpha Therapeutic Corporation",
+        "filter": null
+      },
+      {
+        "code": "AR",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Armour [Inactive - use CEN]",
+        "description": "Armour [Inactive-use CEN]",
+        "filter": null
+      },
+      {
+        "code": "AVI",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Aviron",
+        "description": "Aviron",
+        "filter": null
+      },
+      {
+        "code": "BA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Baxter Healthcare Corporation",
+        "description": "Baxter Healthcare Corporation",
+        "filter": null
+      },
+      {
+        "code": "BAY",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Bayer Corporation (includes Miles, Inc. and Cutter Laboratories)",
+        "description": "Bayer Corporation (includes Miles, Inc. and Cutter Laboratories)",
+        "filter": null
+      },
+      {
+        "code": "BP",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Berna Products [Inactive - use BPC]",
+        "description": "Berna Products [Inactive-use BPC]",
+        "filter": null
+      },
+      {
+        "code": "BPC",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Berna Products Corporation (includes Swiss Serum and Vaccine Institute Berne)",
+        "description": "Berna Products Corporation (includes Swiss Serum and Vaccine Institute Berne)",
+        "filter": null
+      },
+      {
+        "code": "CEN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Centeon L.L.C. (includes Armour Pharmaceutical Company)",
+        "description": "Centeon L.L.C. (includes Armour Pharmaceutical Company)",
+        "filter": null
+      },
+      {
+        "code": "CHI",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Chiron Corporation",
+        "description": "Chiron Corporation",
+        "filter": null
+      },
+      {
+        "code": "CON",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Connaught [Inactive - use PMC]",
+        "description": "Connaught [Inactive-use PMC]",
+        "filter": null
+      },
+      {
+        "code": "EVN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Evans Medical Limited (an affiliate of Medeva Pharmaceuticals, Inc.)",
+        "description": "Evans Medical Limited (an affiliate of Medeva Pharmaceuticals, Inc.)",
+        "filter": null
+      },
+      {
+        "code": "GRE",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Greer Laboratories, Inc.",
+        "description": "Greer Laboratories, Inc.",
+        "filter": null
+      },
+      {
+        "code": "IAG",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Immuno International AG",
+        "description": "Immuno International AG",
+        "filter": null
+      },
+      {
+        "code": "IM",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Merieux [Inactive - use PMC]",
+        "description": "Merieux [Inactive-use PMC]",
+        "filter": null
+      },
+      {
+        "code": "IUS",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Immuno-U.S., Inc.",
+        "description": "Immuno-U.S., Inc.",
+        "filter": null
+      },
+      {
+        "code": "JPN",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)",
+        "description": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)",
+        "filter": null
+      },
+      {
+        "code": "KGC",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Korea Green Cross Corporation",
+        "description": "Korea Green Cross Corporation",
+        "filter": null
+      },
+      {
+        "code": "LED",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Lederle [Inactive - use WAL]",
+        "description": "Lederle [Inactive-use WAL]",
+        "filter": null
+      },
+      {
+        "code": "MA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Massachusetts Public Health Biologic Laboratories",
+        "description": "Massachusetts Public Health Biologic Laboratories",
+        "filter": null
+      },
+      {
+        "code": "MED",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "MedImmune, Inc.",
+        "description": "MedImmune, Inc.",
+        "filter": null
+      },
+      {
+        "code": "MIL",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Miles [Inactive - use BAY]",
+        "description": "Miles [Inactive-use BAY]",
+        "filter": null
+      },
+      {
+        "code": "MIP",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Bioport Corporation (formerly Michigan Biologic Products Institute)",
+        "description": "Bioport Corporation (formerly Michigan Biologic Products Institute)",
+        "filter": null
+      },
+      {
+        "code": "MSD",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Merck and Co., Inc.",
+        "description": "Merck & Co., Inc.",
+        "filter": null
+      },
+      {
+        "code": "NAB",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "NABI (formerly North American Biologicals, Inc.)",
+        "description": "NABI (formerly North American Biologicals, Inc.)",
+        "filter": null
+      },
+      {
+        "code": "NAV",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "North American Vaccine, Inc.",
+        "description": "North American Vaccine, Inc.",
+        "filter": null
+      },
+      {
+        "code": "NOV",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Novartis Pharmaceutical Corporation (includes Ciba-Geigy Limited and Sandoz Limited)",
+        "description": "Novartis Pharmaceutical Corporation (includes Ciba-Geigy Limited and Sandoz Limited)",
+        "filter": null
+      },
+      {
+        "code": "NYB",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "New York Blood Center",
+        "description": "New York Blood Center",
+        "filter": null
+      },
+      {
+        "code": "ORT",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Ortho Diagnostic Systems, Inc.",
+        "description": "Ortho Diagnostic Systems, Inc.",
+        "filter": null
+      },
+      {
+        "code": "OTC",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Organon Teknika Corporation",
+        "description": "Organon Teknika Corporation",
+        "filter": null
+      },
+      {
+        "code": "PD",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Parkedale Pharmaceuticals (formerly Parke-Davis)",
+        "description": "Parkedale Pharmaceuticals (formerly Parke-Davis)",
+        "filter": null
+      },
+      {
+        "code": "PMC",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Aventis Pasteur Inc. (formerly Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux)",
+        "description": "Aventis Pasteur Inc. (formerly Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux)",
+        "filter": null
+      },
+      {
+        "code": "PRX",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Praxis Biologics [Inactive - use WAL]",
+        "description": "Praxis Biologics [Inactive-use WAL]",
+        "filter": null
+      },
+      {
+        "code": "SCL",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Sclavo, Inc.",
+        "description": "Sclavo, Inc.",
+        "filter": null
+      },
+      {
+        "code": "SI",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Swiss Serum and Vaccine Inst. [Inactive - use BPC]",
+        "description": "Swiss Serum and Vaccine Inst. [Inactive-use BPC]",
+        "filter": null
+      },
+      {
+        "code": "SKB",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "SmithKline Beecham",
+        "description": "SmithKline Beecham",
+        "filter": null
+      },
+      {
+        "code": "USA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "United States Army Medical Research and Materiel Command",
+        "description": "United States Army Medical Research and Materiel Command",
+        "filter": null
+      },
+      {
+        "code": "WA",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Wyeth-Ayerst [Inactive - use WAL]",
+        "description": "Wyeth-Ayerst [Inactive-use WAL]",
+        "filter": null
+      },
+      {
+        "code": "WAL",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/v3-VaccineManufacturer",
+        "display": "Wyeth-Ayerst (includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)",
+        "description": "Wyeth-Ayerst (includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)",
+        "filter": null
+      }
+    ]
+  }
+}

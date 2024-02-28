@@ -1,0 +1,81 @@
+{
+  "name": "v2.0185",
+  "resource_id": "v2-0185",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0185",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0185"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0185 ( Preferred Method Of Contrct)",
+  "related_codesystems": [
+    {
+      "id": "v2-0185",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0185"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0185",
+      "display": "Beeper Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0185",
+      "display": "Cellular Phone Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0185",
+      "display": "E-Mail Address (for backward compatibility)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0185",
+      "display": "FAX Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "H",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0185",
+      "display": "Home Phone Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "O",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0185",
+      "display": "Office Phone Number",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

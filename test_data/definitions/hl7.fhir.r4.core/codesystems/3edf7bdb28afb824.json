@@ -1,0 +1,38 @@
+{
+  "name": "v2.0332",
+  "resource_id": "v2-0332",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0332",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Accept",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Accepteren"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Initiate",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Initiëren"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

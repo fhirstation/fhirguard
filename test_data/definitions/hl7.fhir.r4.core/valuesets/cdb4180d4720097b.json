@@ -1,0 +1,491 @@
+{
+  "name": "v2.0162",
+  "resource_id": "v2-0162",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0162",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0162"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0162 ( ROUTE OF ADMINISTRATION)",
+  "related_codesystems": [
+    {
+      "id": "v2-0162",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0162"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Apply Externally",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Buccal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Dental",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Epidural",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Endotrachial Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GTT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Gastrostomy Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "GU Irrigant",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intra-arterial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intrabursal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intracardiac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intracervical (uterus)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intradermal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Inhalation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IHA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intrahepatic Artery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intramuscular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IMR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Immerse (Soak) Body Part",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intranasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intraocular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intraperitoneal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intrasynovial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intrathecal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intrauterine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Intravenous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Mucous Membrane",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Mouth/Throat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Nasogastric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Nasal Prongs",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Nasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Nasotrachial Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Ophthalmic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Otic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Other/Miscellaneous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Perfusion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Oral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Rectal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Rebreather Mask",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Subcutaneous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Soaked Dressing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Sublingual",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Transdermal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Translingual",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Topical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Tracheostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Urethral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Vaginal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Ventimask",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0162",
+      "display": "Wound",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

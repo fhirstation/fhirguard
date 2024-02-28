@@ -1,0 +1,39 @@
+{
+  "name": "SNOMEDCTMedicationAsNeededReasonCodes",
+  "resource_id": "medication-as-needed-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "This value set includes all clinical findings from SNOMED CT - provided as an exemplar value set.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "404684003"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "StructureMapInputMode",
+  "resource_id": "map-input-mode",
+  "resource_url": "http://hl7.org/fhir/map-input-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "source",
+      "display": "Source Instance",
+      "definition": "Names an input instance used a source for mapping."
+    },
+    {
+      "code": "target",
+      "display": "Target Instance",
+      "definition": "Names an instance that is being populated."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "StructureMapInputMode",
+    "resource_id": "map-input-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/map-input-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/map-input-mode"
+        }
+      ]
+    },
+    "description": "Mode for this instance of data.",
+    "related_codesystems": [
+      {
+        "id": "map-input-mode",
+        "url": "http://hl7.org/fhir/map-input-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "source",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-input-mode",
+        "display": "Source Instance",
+        "description": "Names an input instance used a source for mapping.",
+        "filter": null
+      },
+      {
+        "code": "target",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/map-input-mode",
+        "display": "Target Instance",
+        "description": "Names an instance that is being populated.",
+        "filter": null
+      }
+    ]
+  }
+}

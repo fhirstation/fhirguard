@@ -1,0 +1,98 @@
+{
+  "name": "QuestionnaireCategoryCodes",
+  "resource_id": "questionnaire-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/questionnaire-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "273601006",
+            "display": "Mental status questionnaire"
+          },
+          {
+            "code": "273820006",
+            "display": "Social support questionnaire"
+          },
+          {
+            "code": "273479001",
+            "display": "General health questionnaire"
+          },
+          {
+            "code": "273384008",
+            "display": "Consumer satisfaction questionnaire"
+          },
+          {
+            "code": "304784009",
+            "display": "Administrative form"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example list of potential categories for questionnaires.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "273601006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Mental status questionnaire",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "273820006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Social support questionnaire",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "273479001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "General health questionnaire",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "273384008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Consumer satisfaction questionnaire",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "304784009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Administrative form",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

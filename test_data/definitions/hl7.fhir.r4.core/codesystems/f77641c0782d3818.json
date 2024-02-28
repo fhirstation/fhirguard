@@ -1,0 +1,75 @@
+{
+  "name": "Use",
+  "resource_id": "claim-use",
+  "resource_url": "http://hl7.org/fhir/claim-use",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "claim",
+      "display": "Claim",
+      "definition": "The treatment is complete and this represents a Claim for the services."
+    },
+    {
+      "code": "preauthorization",
+      "display": "Preauthorization",
+      "definition": "The treatment is proposed and this represents a Pre-authorization for the services."
+    },
+    {
+      "code": "predetermination",
+      "display": "Predetermination",
+      "definition": "The treatment is proposed and this represents a Pre-determination for the services."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "Use",
+    "resource_id": "claim-use",
+    "resource_url": "http://hl7.org/fhir/ValueSet/claim-use",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/claim-use"
+        }
+      ]
+    },
+    "description": "The purpose of the Claim: predetermination, preauthorization, claim.",
+    "related_codesystems": [
+      {
+        "id": "claim-use",
+        "url": "http://hl7.org/fhir/claim-use"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "claim",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/claim-use",
+        "display": "Claim",
+        "description": "The treatment is complete and this represents a Claim for the services.",
+        "filter": null
+      },
+      {
+        "code": "preauthorization",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/claim-use",
+        "display": "Preauthorization",
+        "description": "The treatment is proposed and this represents a Pre-authorization for the services.",
+        "filter": null
+      },
+      {
+        "code": "predetermination",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/claim-use",
+        "display": "Predetermination",
+        "description": "The treatment is proposed and this represents a Pre-determination for the services.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "name": "ProvenanceHistoryRecordActivityCodes",
+  "resource_id": "provenance-history-record-activity",
+  "resource_url": "http://hl7.org/fhir/ValueSet/provenance-history-record-activity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-DataOperation",
+        "concept": [
+          {
+            "code": "CREATE",
+            "display": "Created"
+          },
+          {
+            "code": "UPDATE",
+            "display": "Updated"
+          },
+          {
+            "code": "DELETE",
+            "display": "Deleted"
+          },
+          {
+            "code": "ABORT",
+            "display": "Stopped/Ended/Aborted"
+          },
+          {
+            "code": "HOLD",
+            "display": "Held"
+          },
+          {
+            "code": "RELEASE",
+            "display": "Released"
+          },
+          {
+            "code": "CANCEL",
+            "display": "Cancelled"
+          },
+          {
+            "code": "ACTIVATE",
+            "display": "Activated"
+          },
+          {
+            "code": "SUSPEND",
+            "display": "Suspended"
+          },
+          {
+            "code": "RESUME"
+          },
+          {
+            "code": "COMPLETE",
+            "display": "Completed"
+          },
+          {
+            "code": "NULLIFY",
+            "display": "Mark Entered-in-error"
+          },
+          {
+            "code": "OBSOLETE",
+            "display": "Replaced"
+          },
+          {
+            "code": "REACTIVATE",
+            "display": "Reactivated"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Codes for Provenance activities that are relevant when capturing event history for resources.",
+  "related_codesystems": [
+    {
+      "id": "v3-DataOperation",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-DataOperation"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CREATE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Created",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPDATE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Updated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELETE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Deleted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ABORT",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Stopped/Ended/Aborted",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HOLD",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Held",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RELEASE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Released",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANCEL",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Cancelled",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACTIVATE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Activated",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUSPEND",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Suspended",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RESUME",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COMPLETE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Completed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NULLIFY",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Mark Entered-in-error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBSOLETE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Replaced",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REACTIVATE",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Reactivated",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

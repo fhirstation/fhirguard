@@ -1,0 +1,22 @@
+{
+  "name": "v2.0494",
+  "resource_id": "v2-0494",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0494",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Aliquot"
+    },
+    {
+      "code": "C",
+      "display": "Component"
+    },
+    {
+      "code": "M",
+      "display": "Modified from original specimen"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

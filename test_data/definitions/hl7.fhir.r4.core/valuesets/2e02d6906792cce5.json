@@ -1,0 +1,261 @@
+{
+  "name": "HL7Workgroup",
+  "resource_id": "hl7-work-group",
+  "resource_url": "http://hl7.org/fhir/ValueSet/hl7-work-group",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group"
+      }
+    ]
+  },
+  "description": "An HL7 administrative unit that owns artifacts in the FHIR specification.",
+  "related_codesystems": [
+    {
+      "id": "hl7-work-group",
+      "url": "http://terminology.hl7.org/CodeSystem/hl7-work-group"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "cbcc",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Community Based Collaborative Care",
+      "description": "Community Based Collaborative Care (http://www.hl7.org/Special/committees/cbcc/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "cds",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Clinical Decision Support",
+      "description": "Clinical Decision Support (http://www.hl7.org/Special/committees/dss/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "cqi",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Clinical Quality Information",
+      "description": "Clinical Quality Information (http://www.hl7.org/Special/committees/cqi/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "cg",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Clinical Genomics",
+      "description": "Clinical Genomics (http://www.hl7.org/Special/committees/clingenomics/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "dev",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Health Care Devices",
+      "description": "Health Care Devices (http://www.hl7.org/Special/committees/healthcaredevices/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "ehr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Electronic Health Records",
+      "description": "Electronic Health Records (http://www.hl7.org/special/committees/ehr/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "fhir",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "FHIR Infrastructure",
+      "description": "FHIR Infrastructure (http://www.hl7.org/Special/committees/fiwg/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "fm",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Financial Management",
+      "description": "Financial Management (http://www.hl7.org/Special/committees/fm/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "hsi",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Health Standards Integration",
+      "description": "Health Standards Integration (http://www.hl7.org/Special/committees/hsi/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "ii",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Imaging Integration",
+      "description": "Imaging Integration (http://www.hl7.org/Special/committees/imagemgt/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "inm",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Infrastructure And Messaging",
+      "description": "Infrastructure And Messaging (http://www.hl7.org/special/committees/inm/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "its",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Implementable Technology Specifications",
+      "description": "Implementable Technology Specifications (http://www.hl7.org/special/committees/xml/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "mnm",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Modeling and Methodology",
+      "description": "Modeling and Methodology (http://www.hl7.org/Special/committees/mnm/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "oo",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Orders and Observations",
+      "description": "Orders and Observations (http://www.hl7.org/Special/committees/orders/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "pa",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Patient Administration",
+      "description": "Patient Administration (http://www.hl7.org/Special/committees/pafm/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "pc",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Patient Care",
+      "description": "Patient Care (http://www.hl7.org/Special/committees/patientcare/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "pher",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Public Health and Emergency Response",
+      "description": "Public Health and Emergency Response (http://www.hl7.org/Special/committees/pher/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "phx",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Pharmacy",
+      "description": "Pharmacy (http://www.hl7.org/Special/committees/medication/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "brr",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Biomedical Research and Regulation",
+      "description": "Biomedical Research and Regulation (http://www.hl7.org/Special/committees/rcrim/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "sd",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Structured Documents",
+      "description": "Structured Documents (http://www.hl7.org/Special/committees/structure/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "sec",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Security",
+      "description": "Security (http://www.hl7.org/Special/committees/secure/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "us",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "US Realm Taskforce",
+      "description": "US Realm Taskforce (http://www.hl7.org/Special/committees/usrealm/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "vocab",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Vocabulary",
+      "description": "Vocabulary (http://www.hl7.org/Special/committees/Vocab/index.cfm).",
+      "filter": null
+    },
+    {
+      "code": "aid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/hl7-work-group",
+      "display": "Application Implementation and Design",
+      "description": "Application Implementation and Design (http://www.hl7.org/Special/committees/java/index.cfm).",
+      "filter": null
+    }
+  ]
+}

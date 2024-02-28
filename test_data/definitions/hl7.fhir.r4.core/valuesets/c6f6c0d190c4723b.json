@@ -1,0 +1,61 @@
+{
+  "name": "v2.0517",
+  "resource_id": "v2-0517",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0517",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0517"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0517 ( Inform person code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0517",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0517"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "HD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0517",
+      "display": "Inform help desk",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NPAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0517",
+      "display": "Do NOT inform patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0517",
+      "display": "Inform patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0517",
+      "display": "Inform User",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

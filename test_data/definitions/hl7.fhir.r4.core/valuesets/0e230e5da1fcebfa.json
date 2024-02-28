@@ -1,0 +1,54 @@
+{
+  "name": "BodyLengthUnits",
+  "resource_id": "ucum-bodylength",
+  "resource_url": "http://hl7.org/fhir/ValueSet/ucum-bodylength",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "cm"
+          },
+          {
+            "code": "[in_i]"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "UCUM units for recording body length measures such as height and head circumference",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "cm",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "[in_i]",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://unitsofmeasure.org",
+      "type": [
+        "include"
+      ],
+      "system": "http://unitsofmeasure.org",
+      "display": "http://unitsofmeasure.org",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

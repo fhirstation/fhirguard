@@ -1,0 +1,135 @@
+{
+  "name": "ContactPointSystem",
+  "resource_id": "contact-point-system",
+  "resource_url": "http://hl7.org/fhir/contact-point-system",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "phone",
+      "display": "Phone",
+      "definition": "The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."
+    },
+    {
+      "code": "fax",
+      "display": "Fax",
+      "definition": "The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."
+    },
+    {
+      "code": "email",
+      "display": "Email",
+      "definition": "The value is an email address."
+    },
+    {
+      "code": "pager",
+      "display": "Pager",
+      "definition": "The value is a pager number. These may be local pager numbers that are only usable on a particular pager system."
+    },
+    {
+      "code": "url",
+      "display": "URL",
+      "definition": "A contact that is not a phone, fax, pager or email address and is expressed as a URL.  This is intended for various institutional or personal contacts including web sites, blogs, Skype, Twitter, Facebook, etc. Do not use for email addresses."
+    },
+    {
+      "code": "sms",
+      "display": "SMS",
+      "definition": "A contact that can be used for sending an sms message (e.g. mobile phones, some landlines)."
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "A contact that is not a phone, fax, page or email address and is not expressible as a URL.  E.g. Internal mail address.  This SHOULD NOT be used for contacts that are expressible as a URL (e.g. Skype, Twitter, Facebook, etc.)  Extensions may be used to distinguish \"other\" contact types."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ContactPointSystem",
+    "resource_id": "contact-point-system",
+    "resource_url": "http://hl7.org/fhir/ValueSet/contact-point-system",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/contact-point-system"
+        }
+      ]
+    },
+    "description": "Telecommunications form for contact point.",
+    "related_codesystems": [
+      {
+        "id": "contact-point-system",
+        "url": "http://hl7.org/fhir/contact-point-system"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "phone",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "Phone",
+        "description": "The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.",
+        "filter": null
+      },
+      {
+        "code": "fax",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "Fax",
+        "description": "The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.",
+        "filter": null
+      },
+      {
+        "code": "email",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "Email",
+        "description": "The value is an email address.",
+        "filter": null
+      },
+      {
+        "code": "pager",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "Pager",
+        "description": "The value is a pager number. These may be local pager numbers that are only usable on a particular pager system.",
+        "filter": null
+      },
+      {
+        "code": "url",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "URL",
+        "description": "A contact that is not a phone, fax, pager or email address and is expressed as a URL.  This is intended for various institutional or personal contacts including web sites, blogs, Skype, Twitter, Facebook, etc. Do not use for email addresses.",
+        "filter": null
+      },
+      {
+        "code": "sms",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "SMS",
+        "description": "A contact that can be used for sending an sms message (e.g. mobile phones, some landlines).",
+        "filter": null
+      },
+      {
+        "code": "other",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/contact-point-system",
+        "display": "Other",
+        "description": "A contact that is not a phone, fax, page or email address and is not expressible as a URL.  E.g. Internal mail address.  This SHOULD NOT be used for contacts that are expressible as a URL (e.g. Skype, Twitter, Facebook, etc.)  Extensions may be used to distinguish \"other\" contact types.",
+        "filter": null
+      }
+    ]
+  }
+}

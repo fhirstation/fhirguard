@@ -1,0 +1,51 @@
+{
+  "name": "v2.0921",
+  "resource_id": "v2-0921",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0921",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0921"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0921 ( Certification Type Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0921",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0921"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ADM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0921",
+      "display": "Admitting",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0921",
+      "display": "Procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SERV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0921",
+      "display": "Service",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

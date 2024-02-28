@@ -1,0 +1,71 @@
+{
+  "name": "TestReportActionResult",
+  "resource_id": "report-action-result-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/report-action-result-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/report-action-result-codes"
+      }
+    ]
+  },
+  "description": "The results of executing an action.",
+  "related_codesystems": [
+    {
+      "id": "report-action-result-codes",
+      "url": "http://hl7.org/fhir/report-action-result-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "pass",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-action-result-codes",
+      "display": "Pass",
+      "description": "The action was successful.",
+      "filter": null
+    },
+    {
+      "code": "skip",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-action-result-codes",
+      "display": "Skip",
+      "description": "The action was skipped.",
+      "filter": null
+    },
+    {
+      "code": "fail",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-action-result-codes",
+      "display": "Fail",
+      "description": "The action failed.",
+      "filter": null
+    },
+    {
+      "code": "warning",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-action-result-codes",
+      "display": "Warning",
+      "description": "The action passed but with warnings.",
+      "filter": null
+    },
+    {
+      "code": "error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/report-action-result-codes",
+      "display": "Error",
+      "description": "The action encountered a fatal error and the engine was unable to process.",
+      "filter": null
+    }
+  ]
+}

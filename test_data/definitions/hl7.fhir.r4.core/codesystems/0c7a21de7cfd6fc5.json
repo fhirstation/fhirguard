@@ -1,0 +1,22 @@
+{
+  "name": "v2.0806",
+  "resource_id": "v2-0806",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0806",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "EOG",
+      "display": "Ethylene Oxide Gas"
+    },
+    {
+      "code": "PCA",
+      "display": "Peracetic acid"
+    },
+    {
+      "code": "STM",
+      "display": "Steam"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

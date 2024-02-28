@@ -1,0 +1,231 @@
+{
+  "name": "MedicationDispense Status Reason Codes",
+  "resource_id": "medicationdispense-status-reason",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationdispense-status-reason",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason"
+      }
+    ]
+  },
+  "description": "MedicationDispense Status Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationdispense-status-reason",
+      "url": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "frr01",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Order Stopped",
+      "description": "The order has been stopped by the prescriber but this fact has not necessarily captured electronically. Example: A verbal stop, a fax, etc.",
+      "filter": null
+    },
+    {
+      "code": "frr02",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Stale-dated Order",
+      "description": "Order has not been fulfilled within a reasonable amount of time, and might not be current.",
+      "filter": null
+    },
+    {
+      "code": "frr03",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Incomplete data",
+      "description": "Data needed to safely act on the order which was expected to become available independent of the order is not yet available. Example: Lab results, diagnostic imaging, etc.",
+      "filter": null
+    },
+    {
+      "code": "frr04",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Product unavailable",
+      "description": "Product not available or manufactured. Cannot supply.",
+      "filter": null
+    },
+    {
+      "code": "frr05",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Ethical/religious",
+      "description": "The dispenser has ethical, religious or moral objections to fulfilling the order/dispensing the product.",
+      "filter": null
+    },
+    {
+      "code": "frr06",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Unable to provide care",
+      "description": "Fulfiller not able to provide appropriate care associated with fulfilling the order. Example: Therapy requires ongoing monitoring by fulfiller and fulfiller will be ending practice, leaving town, unable to schedule necessary time, etc.",
+      "filter": null
+    },
+    {
+      "code": "altchoice",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Try another treatment first",
+      "description": "This therapy has been ordered as a backup to a preferred therapy. This order will be released when and if the preferred therapy is unsuccessful.",
+      "filter": null
+    },
+    {
+      "code": "clarif",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Prescription/Request requires clarification",
+      "description": "Clarification is required before the order can be acted upon.",
+      "filter": null
+    },
+    {
+      "code": "drughigh",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Drug level too high",
+      "description": "The current level of the medication in the patient's system is too high. The medication is suspended to allow the level to subside to a safer level.",
+      "filter": null
+    },
+    {
+      "code": "hospadm",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Admission to hospital",
+      "description": "The patient has been admitted to a care facility and their community medications are suspended until hospital discharge.",
+      "filter": null
+    },
+    {
+      "code": "labint",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Lab interference issues",
+      "description": "The therapy would interfere with a planned lab test and the therapy is being withdrawn until the test is completed.",
+      "filter": null
+    },
+    {
+      "code": "non-avail",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Patient not available",
+      "description": "Patient not available for a period of time due to a scheduled therapy, leave of absence or other reason.",
+      "filter": null
+    },
+    {
+      "code": "preg",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Patient is pregnant or breastfeeding",
+      "description": "The patient is pregnant or breast feeding. The therapy will be resumed when the pregnancy is complete and the patient is no longer breastfeeding.",
+      "filter": null
+    },
+    {
+      "code": "saig",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Allergy",
+      "description": "The patient is believed to be allergic to a substance that is part of the therapy and the therapy is being temporarily withdrawn to confirm.",
+      "filter": null
+    },
+    {
+      "code": "sddi",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Drug interacts with another drug",
+      "description": "The drug interacts with a short-term treatment that is more urgently required. This order will be resumed when the short-term treatment is complete.",
+      "filter": null
+    },
+    {
+      "code": "sdupther",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Duplicate therapy",
+      "description": "Another short-term co-occurring therapy fulfills the same purpose as this therapy. This therapy will be resumed when the co-occuring therapy is complete.",
+      "filter": null
+    },
+    {
+      "code": "sintol",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Suspected intolerance",
+      "description": "The patient is believed to have an intolerance to a substance that is part of the therapy and the therapy is being temporarily withdrawn to confirm.",
+      "filter": null
+    },
+    {
+      "code": "surg",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Patient scheduled for surgery",
+      "description": "The drug is contraindicated for patients receiving surgery and the patient is scheduled to be admitted for surgery in the near future. The drug will be resumed when the patient has sufficiently recovered from the surgery.",
+      "filter": null
+    },
+    {
+      "code": "washout",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Washout",
+      "description": "The patient was previously receiving a medication contraindicated with the current medication. The current medication will remain on hold until the prior medication has been cleansed from their system.",
+      "filter": null
+    },
+    {
+      "code": "outofstock",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Drug not available - out of stock",
+      "description": "Drug out of stock. Cannot supply.",
+      "filter": null
+    },
+    {
+      "code": "offmarket",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason",
+      "display": "Drug not available - off market",
+      "description": "Drug no longer marketed Cannot supply.",
+      "filter": null
+    }
+  ]
+}

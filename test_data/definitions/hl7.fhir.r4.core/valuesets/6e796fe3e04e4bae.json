@@ -1,0 +1,578 @@
+{
+  "name": "v3.ActPharmacySupplyType",
+  "resource_id": "v3-ActPharmacySupplyType",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "_ActPharmacySupplyType"
+          }
+        ]
+      }
+    ],
+    "exclude": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "concept": [
+          {
+            "code": "_ActPharmacySupplyType"
+          }
+        ]
+      }
+    ]
+  },
+  "description": " Identifies types of dispensing events",
+  "related_codesystems": [
+    {
+      "id": "v3-ActCode",
+      "url": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "_ActAccountCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActAccountCode",
+      "description": "An account represents a grouping of financial transactions that are tracked and reported together with a single balance. \t \tExamples of account codes (types) are Patient billing accounts (collection of charges), Cost centers; Cash.",
+      "filter": null
+    },
+    {
+      "code": "_ActAdjudicationCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActAdjudicationCode",
+      "description": "Includes coded responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results.",
+      "filter": null
+    },
+    {
+      "code": "_ActAdjudicationResultActionCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActAdjudicationResultActionCode",
+      "description": "Actions to be carried out by the recipient of the Adjudication Result information.",
+      "filter": null
+    },
+    {
+      "code": "_ActBillableModifierCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActBillableModifierCode",
+      "description": "Definition:An identifying modifier code for healthcare interventions or procedures.",
+      "filter": null
+    },
+    {
+      "code": "_ActBillingArrangementCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActBillingArrangementCode",
+      "description": "The type of provision(s)  made for reimbursing for the deliver of healthcare services and/or goods provided by a Provider, over a specified period.",
+      "filter": null
+    },
+    {
+      "code": "_ActBoundedROICode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActBoundedROICode",
+      "description": "Type of bounded ROI.",
+      "filter": null
+    },
+    {
+      "code": "_ActCareProvisionCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "act care provision",
+      "description": "Description:The type and scope of responsibility taken-on by the performer of the Act for a specific subject of care.",
+      "filter": null
+    },
+    {
+      "code": "_ActClaimAttachmentCategoryCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActClaimAttachmentCategoryCode",
+      "description": "Description: Coded types of attachments included to support a healthcare claim.",
+      "filter": null
+    },
+    {
+      "code": "_ActConsentType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActConsentType",
+      "description": "Definition: The type of consent directive, e.g., to consent or dissent to collect, access, or use in specific ways within an EHRS or for health information exchange; or to disclose  health information  for purposes such as research.",
+      "filter": null
+    },
+    {
+      "code": "_ActContainerRegistrationCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActContainerRegistrationCode",
+      "description": "Constrains the ActCode to the domain of Container Registration",
+      "filter": null
+    },
+    {
+      "code": "_ActControlVariable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActControlVariable",
+      "description": "An observation form that determines parameters or attributes of an Act. Examples are the settings of a ventilator machine as parameters of a ventilator treatment act; the controls on dillution factors of a chemical analyzer as a parameter of a laboratory observation act; the settings of a physiologic measurement assembly (e.g., time skew) or the position of the body while measuring blood pressure.\r\n\n                        Control variables are forms of observations because just as with clinical observations, the Observation.code determines the parameter and the Observation.value assigns the value. While control variables sometimes can be observed (by noting the control settings or an actually measured feedback loop) they are not primary observations, in the sense that a control variable without a primary act is of no use (e.g., it makes no sense to record a blood pressure position without recording a blood pressure, whereas it does make sense to record a systolic blood pressure without a diastolic blood pressure).",
+      "filter": null
+    },
+    {
+      "code": "_ActCoverageConfirmationCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActCoverageConfirmationCode",
+      "description": "Response to an insurance coverage eligibility query or authorization request.",
+      "filter": null
+    },
+    {
+      "code": "_ActCoverageLimitCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActCoverageLimitCode",
+      "description": "Criteria that are applicable to the authorized coverage.",
+      "filter": null
+    },
+    {
+      "code": "_ActCoverageTypeCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActCoverageTypeCode",
+      "description": "Definition: Set of codes indicating the type of insurance policy or program that pays for the cost of benefits provided to covered parties.",
+      "filter": null
+    },
+    {
+      "code": "_ActDetectedIssueManagementCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActDetectedIssueManagementCode",
+      "description": "Codes dealing with the management of Detected Issue observations",
+      "filter": null
+    },
+    {
+      "code": "_ActExposureCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActExposureCode",
+      "description": "Concepts that identify the type or nature of exposure interaction.  Examples include \"household\", \"care giver\", \"intimate partner\", \"common space\", \"common substance\", etc. to further describe the nature of interaction.",
+      "filter": null
+    },
+    {
+      "code": "_ActFinancialTransactionCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActFinancialTransactionCode",
+      "description": "ActFinancialTransactionCode",
+      "filter": null
+    },
+    {
+      "code": "_ActIncidentCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActIncidentCode",
+      "description": "Set of codes indicating the type of incident or accident.",
+      "filter": null
+    },
+    {
+      "code": "_ActInformationAccessCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActInformationAccessCode",
+      "description": "Description: The type of health information to which the subject of the information or the subject's delegate consents or dissents.",
+      "filter": null
+    },
+    {
+      "code": "_ActInformationAccessContextCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActInformationAccessContextCode",
+      "description": "Concepts conveying the context in which authorization given under jurisdictional law, by organizational policy, or by a patient consent directive permits the collection, access, use or disclosure of specified patient health information.",
+      "filter": null
+    },
+    {
+      "code": "_ActInformationCategoryCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActInformationCategoryCode",
+      "description": "Definition:Indicates the set of information types which may be manipulated or referenced, such as for recommending access restrictions.",
+      "filter": null
+    },
+    {
+      "code": "_ActInvoiceElementCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActInvoiceElementCode",
+      "description": "Type of invoice element that is used to assist in describing an Invoice that is either submitted for adjudication or for which is returned on adjudication results.",
+      "filter": null
+    },
+    {
+      "code": "_ActInvoiceElementSummaryCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActInvoiceElementSummaryCode",
+      "description": "Identifies the different types of summary information that can be reported by queries dealing with Statement of Financial Activity (SOFA).  The summary information is generally used to help resolve balance discrepancies between providers and payors.",
+      "filter": null
+    },
+    {
+      "code": "_ActInvoiceOverrideCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActInvoiceOverrideCode",
+      "description": "Includes coded responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results.",
+      "filter": null
+    },
+    {
+      "code": "_ActListCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActListCode",
+      "description": "Provides codes associated with ActClass value of LIST (working list)",
+      "filter": null
+    },
+    {
+      "code": "_ActMonitoringProtocolCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActMonitoringProtocolCode",
+      "description": "Identifies types of monitoring programs",
+      "filter": null
+    },
+    {
+      "code": "_ActNonObservationIndicationCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActNonObservationIndicationCode",
+      "description": "Description:Concepts representing indications (reasons for clinical action) other than diagnosis and symptoms.",
+      "filter": null
+    },
+    {
+      "code": "_ActObservationVerificationType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "act observation verification",
+      "description": "Identifies the type of verification investigation being undertaken with respect to the subject of the verification activity.\r\n\n                        \n                           Examples:\n                        \r\n\n                        \n                           \n                              Verification of eligibility for coverage under a policy or program - aka enrolled/covered by a policy or program\r\n\n                           \n                           \n                              Verification of record - e.g., person has record in an immunization registry\r\n\n                           \n                           \n                              Verification of enumeration - e.g. NPI\r\n\n                           \n                           \n                              Verification of Board Certification - provider specific\r\n\n                           \n                           \n                              Verification of Certification - e.g. JAHCO, NCQA, URAC\r\n\n                           \n                           \n                              Verification of Conformance - e.g. entity use with HIPAA, conformant to the CCHIT EHR system criteria\r\n\n                           \n                           \n                              Verification of Provider Credentials\r\n\n                           \n                           \n                              Verification of no adverse findings - e.g. on National Provider Data Bank, Health Integrity Protection Data Base (HIPDB)",
+      "filter": null
+    },
+    {
+      "code": "_ActPaymentCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActPaymentCode",
+      "description": "Code identifying the method or the movement of payment instructions.\r\n\n                        Codes are drawn from X12 data element 591 (PaymentMethodCode)",
+      "filter": null
+    },
+    {
+      "code": "_ActPharmacySupplyType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActPharmacySupplyType",
+      "description": "Identifies types of dispensing events",
+      "filter": null
+    },
+    {
+      "code": "_ActPolicyType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActPolicyType",
+      "description": "Description:Types of policies that further specify the ActClassPolicy value set.",
+      "filter": null
+    },
+    {
+      "code": "_ActProductAcquisitionCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActProductAcquisitionCode",
+      "description": "The method that a product is obtained for use by the subject of the supply act (e.g. patient).  Product examples are consumable or durable goods.",
+      "filter": null
+    },
+    {
+      "code": "_ActSpecimenTransportCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActSpecimenTransportCode",
+      "description": "Transportation of a specimen.",
+      "filter": null
+    },
+    {
+      "code": "_ActSpecimenTreatmentCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActSpecimenTreatmentCode",
+      "description": "Set of codes related to specimen treatments",
+      "filter": null
+    },
+    {
+      "code": "_ActSubstanceAdministrationCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActSubstanceAdministrationCode",
+      "description": "Description: Describes the type of substance administration being performed.  This should not be used to carry codes for identification of products.  Use an associated role or entity to carry such information.",
+      "filter": null
+    },
+    {
+      "code": "_ActTaskCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActTaskCode",
+      "description": "Description: A task or action that a user may perform in a clinical information system (e.g., medication order entry, laboratory test results review, problem list entry).",
+      "filter": null
+    },
+    {
+      "code": "_ActTransportationModeCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActTransportationModeCode",
+      "description": "Characterizes how a transportation act was or will be carried out.\r\n\n                        \n                           Examples: Via private transport, via public transit, via courier.",
+      "filter": null
+    },
+    {
+      "code": "_ObservationType",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ObservationType",
+      "description": "Identifies the kinds of observations that can be performed",
+      "filter": null
+    },
+    {
+      "code": "_ROIOverlayShape",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ROIOverlayShape",
+      "description": "Shape of the region on the object being referenced",
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "corrected",
+      "description": "Description:Indicates that result data has been corrected.",
+      "filter": null
+    },
+    {
+      "code": "DIET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "Diet",
+      "description": "Code set to define specialized/allowed diets",
+      "filter": null
+    },
+    {
+      "code": "DRUGPRG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "drug program",
+      "description": "Definition: A public or government health program that administers and funds coverage for prescription drugs to assist program eligible who meet financial and health status criteria.",
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "final",
+      "description": "Description:Indicates that a result is complete.  No further results are to come.  This maps to the 'complete' state in the observation result status code.",
+      "filter": null
+    },
+    {
+      "code": "PRLMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "preliminary",
+      "description": "Description:Indicates that a result is incomplete.  There are further results to come.  This maps to the 'active' state in the observation result status code.",
+      "filter": null
+    },
+    {
+      "code": "SECOBS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "SecurityObservationType",
+      "description": "An observation identifying security metadata about an IT resource (data, information object, service, or system capability), which may be used to make access control decisions.  Security metadata are used to name security labels.  \r\n\n                        \n                           Rationale: According to ISO/TS 22600-3:2009(E) A.9.1.7 SECURITY LABEL MATCHING, Security label matching compares the initiator's clearance to the target's security label.  All of the following must be true for authorization to be granted:\r\n\n                        \n                           The security policy identifiers shall be identical\n                           The classification level of the initiator shall be greater than or equal to that of the target (that is, there shall be at least one value in the classification list of the clearance greater than or equal to the classification of the target), and \n                           For each security category in the target label, there shall be a security category of the same type in the initiator's clearance and the initiator's classification level shall dominate that of the target.\n                        \n                        \n                           Examples: SecurityObservationType  security label fields include:\r\n\n                        \n                           Confidentiality classification\n                           Compartment category\n                           Sensitivity category\n                           Security mechanisms used to ensure data integrity or to perform authorized data transformation\n                           Indicators of an IT resource completeness, veracity, reliability, trustworthiness, or provenance.\n                        \n                        \n                           Usage Note: SecurityObservationType codes designate security label field types, which are valued with an applicable SecurityObservationValue code as the \"security label tag\".",
+      "filter": null
+    },
+    {
+      "code": "SUBSIDFFS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "subsidized fee for service program",
+      "description": "Definition: A government health program that provides coverage on a fee for service basis for health services to persons meeting eligibility criteria such as income, location of residence, access to other coverages, health condition, and age, the cost of which is to some extent subsidized by public funds.\r\n\n                        \n                           Discussion: The structure and business processes for underwriting and administering a subsidized fee for service program is further specified by the Underwriter and Payer Role.class and Role.code.",
+      "filter": null
+    },
+    {
+      "code": "WRKCOMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "(workers compensation program",
+      "description": "Definition: Government mandated program providing coverage, disability income, and vocational rehabilitation for injuries sustained in the work place or in the course of employment.  Employers may either self-fund the program, purchase commercial coverage, or pay a premium to a government entity that administers the program.  Employees may be required to pay premiums toward the cost of coverage as well.",
+      "filter": null
+    },
+    {
+      "code": "_ActProcedureCode",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "ActProcedureCode",
+      "description": "An identifying code for healthcare interventions/procedures.",
+      "filter": null
+    },
+    {
+      "code": "_HL7DefinedActCodes",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "HL7DefinedActCodes",
+      "description": "Domain provides the root for HL7-defined detailed or rich codes for the Act classes.",
+      "filter": null
+    },
+    {
+      "code": "COPAY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEDUCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DOSEIND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STORE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "display": "Storage",
+      "description": "The act of putting something away for safe keeping. The \"something\" may be physical object such as a specimen, or information, such as observations regarding a specimen.",
+      "filter": null
+    }
+  ]
+}

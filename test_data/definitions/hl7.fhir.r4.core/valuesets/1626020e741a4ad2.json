@@ -1,0 +1,41 @@
+{
+  "name": "RestfulCapabilityMode",
+  "resource_id": "restful-capability-mode",
+  "resource_url": "http://hl7.org/fhir/ValueSet/restful-capability-mode",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/restful-capability-mode"
+      }
+    ]
+  },
+  "description": "The mode of a RESTful capability statement.",
+  "related_codesystems": [
+    {
+      "id": "restful-capability-mode",
+      "url": "http://hl7.org/fhir/restful-capability-mode"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "client",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-capability-mode",
+      "display": "Client",
+      "description": "The application acts as a client for this resource.",
+      "filter": null
+    },
+    {
+      "code": "server",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/restful-capability-mode",
+      "display": "Server",
+      "description": "The application acts as a server for this resource.",
+      "filter": null
+    }
+  ]
+}

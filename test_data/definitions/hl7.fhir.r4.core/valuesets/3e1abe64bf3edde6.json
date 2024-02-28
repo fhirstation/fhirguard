@@ -1,0 +1,51 @@
+{
+  "name": "QuestionnaireItemType",
+  "resource_id": "item-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/item-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/item-type"
+      }
+    ]
+  },
+  "description": "Distinguishes groups from questions and display text and indicates data type for questions.",
+  "related_codesystems": [
+    {
+      "id": "item-type",
+      "url": "http://hl7.org/fhir/item-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "group",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/item-type",
+      "display": "Group",
+      "description": "An item with no direct answer but should have at least one child item.",
+      "filter": null
+    },
+    {
+      "code": "display",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/item-type",
+      "display": "Display",
+      "description": "Text for display that will not capture an answer or have child items.",
+      "filter": null
+    },
+    {
+      "code": "question",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/item-type",
+      "display": "Question",
+      "description": "An item that defines a specific answer to be captured, and which may have child items. (the answer provided in the QuestionnaireResponse should be of the defined datatype).",
+      "filter": null
+    }
+  ]
+}

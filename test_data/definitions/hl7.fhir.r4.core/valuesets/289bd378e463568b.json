@@ -1,0 +1,41 @@
+{
+  "name": "StructureMapContextType",
+  "resource_id": "map-context-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/map-context-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/map-context-type"
+      }
+    ]
+  },
+  "description": "How to interpret the context.",
+  "related_codesystems": [
+    {
+      "id": "map-context-type",
+      "url": "http://hl7.org/fhir/map-context-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "type",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-context-type",
+      "display": "Type",
+      "description": "The context specifies a type.",
+      "filter": null
+    },
+    {
+      "code": "variable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-context-type",
+      "display": "Variable",
+      "description": "The context specifies a variable.",
+      "filter": null
+    }
+  ]
+}

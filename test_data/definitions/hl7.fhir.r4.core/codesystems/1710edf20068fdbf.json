@@ -1,0 +1,90 @@
+{
+  "name": "NamingSystemIdentifierType",
+  "resource_id": "namingsystem-identifier-type",
+  "resource_url": "http://hl7.org/fhir/namingsystem-identifier-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "oid",
+      "display": "OID",
+      "definition": "An ISO object identifier; e.g. 1.2.3.4.5."
+    },
+    {
+      "code": "uuid",
+      "display": "UUID",
+      "definition": "A universally unique identifier of the form a5afddf4-e880-459b-876e-e4591b0acc11."
+    },
+    {
+      "code": "uri",
+      "display": "URI",
+      "definition": "A uniform resource identifier (ideally a URL - uniform resource locator); e.g. http://unitsofmeasure.org."
+    },
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Some other type of unique identifier; e.g. HL7-assigned reserved string such as LN for LOINC."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "NamingSystemIdentifierType",
+    "resource_id": "namingsystem-identifier-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/namingsystem-identifier-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/namingsystem-identifier-type"
+        }
+      ]
+    },
+    "description": "Identifies the style of unique identifier used to identify a namespace.",
+    "related_codesystems": [
+      {
+        "id": "namingsystem-identifier-type",
+        "url": "http://hl7.org/fhir/namingsystem-identifier-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "oid",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/namingsystem-identifier-type",
+        "display": "OID",
+        "description": "An ISO object identifier; e.g. 1.2.3.4.5.",
+        "filter": null
+      },
+      {
+        "code": "uuid",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/namingsystem-identifier-type",
+        "display": "UUID",
+        "description": "A universally unique identifier of the form a5afddf4-e880-459b-876e-e4591b0acc11.",
+        "filter": null
+      },
+      {
+        "code": "uri",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/namingsystem-identifier-type",
+        "display": "URI",
+        "description": "A uniform resource identifier (ideally a URL - uniform resource locator); e.g. http://unitsofmeasure.org.",
+        "filter": null
+      },
+      {
+        "code": "other",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/namingsystem-identifier-type",
+        "display": "Other",
+        "description": "Some other type of unique identifier; e.g. HL7-assigned reserved string such as LN for LOINC.",
+        "filter": null
+      }
+    ]
+  }
+}

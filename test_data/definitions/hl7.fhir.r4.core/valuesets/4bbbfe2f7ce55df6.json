@@ -1,0 +1,91 @@
+{
+  "name": "ObservationStatus",
+  "resource_id": "observation-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/observation-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/observation-status"
+      }
+    ]
+  },
+  "description": "Codes providing the status of an observation.",
+  "related_codesystems": [
+    {
+      "id": "observation-status",
+      "url": "http://hl7.org/fhir/observation-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "registered",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Registered",
+      "description": "The existence of the observation is registered, but there is no result yet available.",
+      "filter": null
+    },
+    {
+      "code": "preliminary",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Preliminary",
+      "description": "This is an initial or interim observation: data may be incomplete or unverified.",
+      "filter": null
+    },
+    {
+      "code": "final",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Final",
+      "description": "The observation is complete and there are no further actions needed. Additional information such \"released\", \"signed\", etc would be represented using [Provenance](provenance.html) which provides not only the act but also the actors and dates and other related data. These act states would be associated with an observation status of `preliminary` until they are all completed and then a status of `final` would be applied.",
+      "filter": null
+    },
+    {
+      "code": "amended",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Amended",
+      "description": "Subsequent to being Final, the observation has been modified subsequent.  This includes updates/new information and corrections.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Cancelled",
+      "description": "The observation is unavailable because the measurement was not started or not completed (also sometimes called \"aborted\").",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Entered in Error",
+      "description": "The observation has been withdrawn following previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be \"cancelled\" rather than \"entered-in-error\".).",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/observation-status",
+      "display": "Unknown",
+      "description": "The authoring/source system does not know which of the status values currently applies for this observation. Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.",
+      "filter": null
+    }
+  ]
+}

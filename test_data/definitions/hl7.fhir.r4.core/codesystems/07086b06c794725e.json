@@ -1,0 +1,18 @@
+{
+  "name": "v2.0415",
+  "resource_id": "v2-0415",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0415",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "E",
+      "display": "DRG Exempt"
+    },
+    {
+      "code": "N",
+      "display": "DRG Non Exempt"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

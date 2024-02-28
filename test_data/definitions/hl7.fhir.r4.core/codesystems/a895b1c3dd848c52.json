@@ -1,0 +1,210 @@
+{
+  "name": "BenefitTypeCodes",
+  "resource_id": "benefit-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/benefit-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "benefit",
+      "display": "Benefit",
+      "definition": "Maximum benefit allowable."
+    },
+    {
+      "code": "deductible",
+      "display": "Deductible",
+      "definition": "Cost to be incurred before benefits are applied"
+    },
+    {
+      "code": "visit",
+      "display": "Visit",
+      "definition": "Service visit"
+    },
+    {
+      "code": "room",
+      "display": "Room",
+      "definition": "Type of room"
+    },
+    {
+      "code": "copay",
+      "display": "Copayment per service",
+      "definition": "Copayment per service"
+    },
+    {
+      "code": "copay-percent",
+      "display": "Copayment Percent per service",
+      "definition": "Copayment percentage per service"
+    },
+    {
+      "code": "copay-maximum",
+      "display": "Copayment maximum per service",
+      "definition": "Copayment maximum per service"
+    },
+    {
+      "code": "vision-exam",
+      "display": "Vision Exam",
+      "definition": "Vision Exam"
+    },
+    {
+      "code": "vision-glasses",
+      "display": "Vision Glasses",
+      "definition": "Frames and lenses"
+    },
+    {
+      "code": "vision-contacts",
+      "display": "Vision Contacts Coverage",
+      "definition": "Contact Lenses"
+    },
+    {
+      "code": "medical-primarycare",
+      "display": "Medical Primary Health Coverage",
+      "definition": "Medical Primary Health Coverage"
+    },
+    {
+      "code": "pharmacy-dispense",
+      "display": "Pharmacy Dispense Coverage",
+      "definition": "Pharmacy Dispense Coverage"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "BenefitTypeCodes",
+    "resource_id": "benefit-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/benefit-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/benefit-type"
+        }
+      ]
+    },
+    "description": "This value set includes a smattering of Benefit type codes.",
+    "related_codesystems": [
+      {
+        "id": "benefit-type",
+        "url": "http://terminology.hl7.org/CodeSystem/benefit-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "benefit",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Benefit",
+        "description": "Maximum benefit allowable.",
+        "filter": null
+      },
+      {
+        "code": "deductible",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Deductible",
+        "description": "Cost to be incurred before benefits are applied",
+        "filter": null
+      },
+      {
+        "code": "visit",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Visit",
+        "description": "Service visit",
+        "filter": null
+      },
+      {
+        "code": "room",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Room",
+        "description": "Type of room",
+        "filter": null
+      },
+      {
+        "code": "copay",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Copayment per service",
+        "description": "Copayment per service",
+        "filter": null
+      },
+      {
+        "code": "copay-percent",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Copayment Percent per service",
+        "description": "Copayment percentage per service",
+        "filter": null
+      },
+      {
+        "code": "copay-maximum",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Copayment maximum per service",
+        "description": "Copayment maximum per service",
+        "filter": null
+      },
+      {
+        "code": "vision-exam",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Vision Exam",
+        "description": "Vision Exam",
+        "filter": null
+      },
+      {
+        "code": "vision-glasses",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Vision Glasses",
+        "description": "Frames and lenses",
+        "filter": null
+      },
+      {
+        "code": "vision-contacts",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Vision Contacts Coverage",
+        "description": "Contact Lenses",
+        "filter": null
+      },
+      {
+        "code": "medical-primarycare",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Medical Primary Health Coverage",
+        "description": "Medical Primary Health Coverage",
+        "filter": null
+      },
+      {
+        "code": "pharmacy-dispense",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+        "display": "Pharmacy Dispense Coverage",
+        "description": "Pharmacy Dispense Coverage",
+        "filter": null
+      }
+    ]
+  }
+}

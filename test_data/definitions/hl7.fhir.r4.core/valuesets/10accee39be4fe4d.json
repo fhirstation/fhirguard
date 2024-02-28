@@ -1,0 +1,101 @@
+{
+  "name": "v2.0364",
+  "resource_id": "v2-0364",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0364",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0364"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0364 ( Comment type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0364",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0364"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "Primary Reason",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "Secondary Reason",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "Ancillary Instructions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "Duplicate/Interaction Reason",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "General Instructions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "General Reason",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "Patient Instructions",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0364",
+      "display": "Remark",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

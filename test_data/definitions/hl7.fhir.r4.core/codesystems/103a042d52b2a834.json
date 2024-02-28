@@ -1,0 +1,52 @@
+{
+  "name": "v2.0935",
+  "resource_id": "v2-0935",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0935",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "ASC",
+      "display": "Apheresis Software Crash"
+    },
+    {
+      "code": "BSC",
+      "display": "Manufacturing Software Crash"
+    },
+    {
+      "code": "CFT",
+      "display": "Couldn't follow through with donation (scared)"
+    },
+    {
+      "code": "DBB",
+      "display": "Bathroom"
+    },
+    {
+      "code": "DCW",
+      "display": "Couldn't wait"
+    },
+    {
+      "code": "DNI",
+      "display": "Phlebotomy Issue"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."
+        }
+      ],
+      "code": "GFE",
+      "display": "General Facility Emergency"
+    },
+    {
+      "code": "NRG",
+      "display": "No reason given, donor decided to stop without giving a reason"
+    },
+    {
+      "code": "PCD",
+      "display": "Phone Call-Donor"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,71 @@
+{
+  "name": "v2.0868",
+  "resource_id": "v2-0868",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0868",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0868"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0868 ( Telecommunication expiration reason)",
+  "related_codesystems": [
+    {
+      "id": "v2-0868",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0868"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0868",
+      "display": "Corrected",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0868",
+      "display": "Added in error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0868",
+      "display": "Moved",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "N",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0868",
+      "display": "No longer in service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0868",
+      "display": "On request",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "v2.0450",
+  "resource_id": "v2-0450",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0450",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0450"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0450 ( Event type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0450",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0450"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "LOG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0450",
+      "display": "Log Event",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0450",
+      "display": "Service Event",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

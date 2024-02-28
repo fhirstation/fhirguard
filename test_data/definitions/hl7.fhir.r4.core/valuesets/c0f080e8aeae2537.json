@@ -1,0 +1,61 @@
+{
+  "name": "v2.0491",
+  "resource_id": "v2-0491",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0491",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0491"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0491 ( Specimen Quality)",
+  "related_codesystems": [
+    {
+      "id": "v2-0491",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0491"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "E",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0491",
+      "display": "Excellent",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "F",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0491",
+      "display": "Fair",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "G",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0491",
+      "display": "Good",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0491",
+      "display": "Poor",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "v2.0389",
+  "resource_id": "v2-0389",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0389",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "Repeated with dilution"
+    },
+    {
+      "code": "F",
+      "display": "Reflex test"
+    },
+    {
+      "code": "O",
+      "display": "Original, first run"
+    },
+    {
+      "code": "R",
+      "display": "Repeated without dilution"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

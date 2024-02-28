@@ -1,0 +1,30 @@
+{
+  "name": "v2.0615",
+  "resource_id": "v2-0615",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0615",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Structure defined by RFC 1510"
+        }
+      ],
+      "code": "KERB",
+      "display": "Kerberos Service Ticket"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "XML structure defined by the OASIS Security Assertion Markup Language (SAML) specification"
+        }
+      ],
+      "code": "SAML",
+      "display": "Authenticated User Identity Assertion"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

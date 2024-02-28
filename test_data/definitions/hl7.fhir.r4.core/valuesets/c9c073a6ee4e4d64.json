@@ -1,0 +1,71 @@
+{
+  "name": "IssueType",
+  "resource_id": "issue-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/issue-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/issue-type"
+      }
+    ]
+  },
+  "description": "A code that describes the type of issue.",
+  "related_codesystems": [
+    {
+      "id": "issue-type",
+      "url": "http://hl7.org/fhir/issue-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "invalid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/issue-type",
+      "display": "Invalid Content",
+      "description": "Content invalid against the specification or a profile.",
+      "filter": null
+    },
+    {
+      "code": "security",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/issue-type",
+      "display": "Security Problem",
+      "description": "An authentication/authorization/permissions issue of some kind.",
+      "filter": null
+    },
+    {
+      "code": "processing",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/issue-type",
+      "display": "Processing Failure",
+      "description": "Processing issues. These are expected to be final e.g. there is no point resubmitting the same content unchanged.",
+      "filter": null
+    },
+    {
+      "code": "transient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/issue-type",
+      "display": "Transient Issue",
+      "description": "Transient processing issues. The system receiving the message may be able to resubmit the same content once an underlying issue is resolved.",
+      "filter": null
+    },
+    {
+      "code": "informational",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/issue-type",
+      "display": "Informational Note",
+      "description": "A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).",
+      "filter": null
+    }
+  ]
+}

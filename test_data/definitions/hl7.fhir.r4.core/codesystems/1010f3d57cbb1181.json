@@ -1,0 +1,75 @@
+{
+  "name": "ObservationRangeCategory",
+  "resource_id": "observation-range-category",
+  "resource_url": "http://hl7.org/fhir/observation-range-category",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "reference",
+      "display": "reference range",
+      "definition": "Reference (Normal) Range for Ordinal and Continuous Observations."
+    },
+    {
+      "code": "critical",
+      "display": "critical range",
+      "definition": "Critical Range for Ordinal and Continuous Observations."
+    },
+    {
+      "code": "absolute",
+      "display": "absolute range",
+      "definition": "Absolute Range for Ordinal and Continuous Observations. Results outside this range are not possible."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ObservationRangeCategory",
+    "resource_id": "observation-range-category",
+    "resource_url": "http://hl7.org/fhir/ValueSet/observation-range-category",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/observation-range-category"
+        }
+      ]
+    },
+    "description": "Codes identifying the category of observation range.",
+    "related_codesystems": [
+      {
+        "id": "observation-range-category",
+        "url": "http://hl7.org/fhir/observation-range-category"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "reference",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/observation-range-category",
+        "display": "reference range",
+        "description": "Reference (Normal) Range for Ordinal and Continuous Observations.",
+        "filter": null
+      },
+      {
+        "code": "critical",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/observation-range-category",
+        "display": "critical range",
+        "description": "Critical Range for Ordinal and Continuous Observations.",
+        "filter": null
+      },
+      {
+        "code": "absolute",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/observation-range-category",
+        "display": "absolute range",
+        "description": "Absolute Range for Ordinal and Continuous Observations. Results outside this range are not possible.",
+        "filter": null
+      }
+    ]
+  }
+}

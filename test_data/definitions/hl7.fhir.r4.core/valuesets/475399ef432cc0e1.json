@@ -1,0 +1,39 @@
+{
+  "name": "ManifestationAndSymptomCodes",
+  "resource_id": "manifestation-or-symptom",
+  "resource_url": "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "404684003"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Example value set for Manifestation and Symptom codes.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": [
+        {
+          "property": "concept",
+          "op": "is-a",
+          "value": "404684003"
+        }
+      ]
+    }
+  ]
+}

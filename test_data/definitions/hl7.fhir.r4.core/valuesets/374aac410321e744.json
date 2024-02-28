@@ -1,0 +1,224 @@
+{
+  "name": "TaskIntent",
+  "resource_id": "task-intent",
+  "resource_url": "http://hl7.org/fhir/ValueSet/task-intent",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/task-intent"
+      },
+      {
+        "system": "http://hl7.org/fhir/request-intent",
+        "concept": [
+          {
+            "code": "proposal"
+          },
+          {
+            "code": "plan"
+          },
+          {
+            "code": "order"
+          },
+          {
+            "code": "original-order"
+          },
+          {
+            "code": "reflex-order"
+          },
+          {
+            "code": "filler-order"
+          },
+          {
+            "code": "instance-order"
+          },
+          {
+            "code": "option"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Distinguishes whether the task is a proposal, plan or full order.",
+  "related_codesystems": [
+    {
+      "id": "task-intent",
+      "url": "http://hl7.org/fhir/task-intent"
+    },
+    {
+      "id": "request-intent",
+      "url": "http://hl7.org/fhir/request-intent"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/task-intent",
+      "display": "Unknown",
+      "description": "The intent is not known.  When dealing with Task, it's not always known (or relevant) how the task was initiated - i.e. whether it was proposed, planned, ordered or just done spontaneously.",
+      "filter": null
+    },
+    {
+      "code": "proposal",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Proposal",
+      "description": "The request is a suggestion made by someone/something that does not have an intention to ensure it occurs and without providing an authorization to act.",
+      "filter": null
+    },
+    {
+      "code": "plan",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Plan",
+      "description": "The request represents an intention to ensure something occurs without providing an authorization for others to act.",
+      "filter": null
+    },
+    {
+      "code": "order",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Order",
+      "description": "The request represents a request/demand and authorization for action by a Practitioner.",
+      "filter": null
+    },
+    {
+      "code": "original-order",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Original Order",
+      "description": "The request represents an original authorization for action.",
+      "filter": null
+    },
+    {
+      "code": "reflex-order",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Reflex Order",
+      "description": "The request represents an automatically generated supplemental authorization for action based on a parent authorization together with initial results of the action taken against that parent authorization.",
+      "filter": null
+    },
+    {
+      "code": "filler-order",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Filler Order",
+      "description": "The request represents the view of an authorization instantiated by a fulfilling system representing the details of the fulfiller's intention to act upon a submitted order.",
+      "filter": null
+    },
+    {
+      "code": "instance-order",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Instance Order",
+      "description": "An order created in fulfillment of a broader order that represents the authorization for a single activity occurrence.  E.g. The administration of a single dose of a drug.",
+      "filter": null
+    },
+    {
+      "code": "option",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/request-intent",
+      "display": "Option",
+      "description": "The request represents a component or option for a RequestGroup that establishes timing, conditionality and/or other constraints among a set of requests.  Refer to [[[RequestGroup]]] for additional information on how this status is used.",
+      "filter": null
+    },
+    {
+      "code": "proposal",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "plan",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "order",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "original-order",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "reflex-order",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "filler-order",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "instance-order",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "option",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    }
+  ]
+}

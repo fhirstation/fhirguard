@@ -1,0 +1,51 @@
+{
+  "name": "need",
+  "resource_id": "verificationresult-need",
+  "resource_url": "http://hl7.org/fhir/ValueSet/verificationresult-need",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/need"
+      }
+    ]
+  },
+  "description": "The frequency with which the target must be validated",
+  "related_codesystems": [
+    {
+      "id": "verificationresult-need",
+      "url": "http://terminology.hl7.org/CodeSystem/need"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "none",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/need",
+      "display": "None",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "initial",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/need",
+      "display": "Initial",
+      "description": "***TODO***",
+      "filter": null
+    },
+    {
+      "code": "periodic",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/need",
+      "display": "Periodic",
+      "description": "***TODO***",
+      "filter": null
+    }
+  ]
+}

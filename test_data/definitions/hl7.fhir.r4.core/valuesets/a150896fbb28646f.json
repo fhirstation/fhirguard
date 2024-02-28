@@ -1,0 +1,225 @@
+{
+  "name": "TextureModifierCodes",
+  "resource_id": "texture-code",
+  "resource_url": "http://hl7.org/fhir/ValueSet/texture-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/731000124108",
+        "concept": [
+          {
+            "code": "228053002",
+            "display": "Cut-up food"
+          },
+          {
+            "code": "439091000124107",
+            "display": "Easy to chew food"
+          },
+          {
+            "code": "228049004",
+            "display": "Chopped food"
+          },
+          {
+            "code": "441881000124103",
+            "display": "Ground food"
+          },
+          {
+            "code": "441761000124103",
+            "display": "Minced food"
+          },
+          {
+            "code": "441751000124100",
+            "display": "Mashed food"
+          },
+          {
+            "code": "228059003",
+            "display": "Soft food"
+          },
+          {
+            "code": "441791000124106",
+            "display": "Strained food"
+          },
+          {
+            "code": "228055009",
+            "display": "Liquidized food"
+          },
+          {
+            "code": "228056005",
+            "display": "Lumpy food"
+          },
+          {
+            "code": "441771000124105",
+            "display": "Moist food"
+          },
+          {
+            "code": "228057001",
+            "display": "Semi-solid food"
+          },
+          {
+            "code": "228058006",
+            "display": "Single texture food"
+          },
+          {
+            "code": "228060008",
+            "display": "Solid food"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "TextureModifier: Codes for food consistency types or texture modifications to apply to foods. This value set is composed of SNOMED CT (US Extension and Core) Concepts from SCTID 229961002 Food consistency types (substance) hierarchy and is provided as a suggestive example.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "228053002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Cut-up food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "439091000124107",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Easy to chew food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228049004",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Chopped food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "441881000124103",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Ground food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "441761000124103",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Minced food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "441751000124100",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Mashed food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228059003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Soft food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "441791000124106",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Strained food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228055009",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Liquidized food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228056005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Lumpy food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "441771000124105",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Moist food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228057001",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Semi-solid food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228058006",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Single texture food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "228060008",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Solid food",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": "http://snomed.info/sct/731000124108",
+      "filter": null
+    }
+  ]
+}

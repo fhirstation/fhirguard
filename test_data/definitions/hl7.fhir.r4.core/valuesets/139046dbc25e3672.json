@@ -1,0 +1,1291 @@
+{
+  "name": "v2.0203",
+  "resource_id": "v2-0203",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0203",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0203 ( Identifier Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0203",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0203"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Accreditation/Certification Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACSN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Accession ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "American Express",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "American Medical Association Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Account number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Account number Creditor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Account number debitor",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Anonymous identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Temporary Account Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Advanced Practice Registered Nurse number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Ancestor Specimen ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Bank Account Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Bank Card Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BCFN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Birth Certificate File Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Birth Certificate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Birth registry number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Breed Registry Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BSNR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Primary physician office number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Cost Center number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Change of Name Document",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "County number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CZ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Citizenship Card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Death Certificate ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DCFN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Death Certificate File Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DDS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Dentist license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Drug Enforcement Administration registration number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DFN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Drug Furnishing or prescriptive authority Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Diner's Club card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Driver's license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Doctor number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Osteopathic License number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Diplomatic Passport",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DPM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Podiatrist license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Donor Registration Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Discover Card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Employee number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Employer number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Staff Enterprise Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Fetal Death Report ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FDRFN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Fetal Death Report File Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Facility ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FILL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Filler Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Guarantor internal identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "General ledger number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Guarantor external  identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Health Card Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Indigenous/Aboriginal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JHN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Jurisdictional health number (Canada)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LACSN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Laboratory Accession ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LANR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Lifelong physician number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Labor and industries number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "License number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Local Registry ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Patient Medicaid number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Member Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Patient's Medicare number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Practitioner Medicaid number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Microchip Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Practitioner Medicare number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Marriage Certificate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Medical License number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Military ID number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Medical record number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MRT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Temporary Medical Record Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "MasterCard",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NBSNR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Secondary physician office number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Naturalization Certificate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National employer identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National Health Plan Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National unique individual identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NII",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National Insurance Organization Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National Insurance Payor Identifier (Payor)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NNxxx",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Nurse practitioner number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NPI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "National provider identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OBI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Observation Instance Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Optometrist license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Physician Assistant number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Parole Card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Penitentiary/correctional institution Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Living Subject Enterprise Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Pension Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Public Health Case Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Public Health Event Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Public Health Official ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Patient internal identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Placer Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Person number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PNT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Temporary Living Subject Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Medicare/CMS Performing Provider Identification Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PPN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Passport number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Permanent Resident Card Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Provider number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Patient external identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "QA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "QA number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Resource identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Registered Nurse Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Pharmacist license number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Railroad Retirement number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Regional registry ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RRP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Railroad Retirement Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Social Beneficiary Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Specimen ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "State license",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Subscriber Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNBSN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "State assigned NDBS card Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SNO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Serial Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Study Permit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "State registry ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Social Security number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Shipment Tracking Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TAX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Tax ID number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Treaty Number/ (Canada)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TPR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Temporary Permanent Resident (Canada)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Training License Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Unspecified identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Universal Device Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UPIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Medicare/CMS (formerly HCFA)'s Universal Physician Identification numbers",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Unique Specimen ID",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Visit number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Visitor Permit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "VISA",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "WIC identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Workers' Comp Number",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Work Permit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Health Plan Identifier",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "XX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "display": "Organization identifier",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

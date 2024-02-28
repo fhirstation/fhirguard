@@ -1,0 +1,102 @@
+{
+  "name": "v2.0220",
+  "resource_id": "v2-0220",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0220",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "A",
+      "display": "Alone",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": " Seul"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zelfstandig"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Family",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Familie"
+        }
+      ]
+    },
+    {
+      "code": "I",
+      "display": "Institution",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Instituut"
+        }
+      ]
+    },
+    {
+      "code": "R",
+      "display": "Relative",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Familielid"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Spouse Only",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Alleen echtgenoot"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unknown",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Onbekend"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

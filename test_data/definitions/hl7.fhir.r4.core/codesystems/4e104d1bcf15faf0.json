@@ -1,0 +1,80 @@
+{
+  "name": "v2.0253",
+  "resource_id": "v2-0253",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0253",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "B",
+      "display": "Breast milk",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Borstmelk"
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "display": "Father",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Vader"
+        }
+      ]
+    },
+    {
+      "code": "O",
+      "display": "Other",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Anders"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Transplacental",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Via placenta"
+        }
+      ]
+    },
+    {
+      "code": "X",
+      "display": "Blood product",
+      "designation": [
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Bloedproduct"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

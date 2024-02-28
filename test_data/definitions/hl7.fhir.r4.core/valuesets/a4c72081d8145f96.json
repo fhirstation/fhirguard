@@ -1,0 +1,71 @@
+{
+  "name": "v2.0317",
+  "resource_id": "v2-0317",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0317",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0317"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0317 ( Annotations)",
+  "related_codesystems": [
+    {
+      "id": "v2-0317",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0317"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "9900",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0317",
+      "display": "Pace spike",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9901",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0317",
+      "display": "SAS marker",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9902",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0317",
+      "display": "Sense marker",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9903",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0317",
+      "display": "Beat marker",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9904",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0317",
+      "display": "etc.",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

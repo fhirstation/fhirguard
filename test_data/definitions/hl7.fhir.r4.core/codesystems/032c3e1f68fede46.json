@@ -1,0 +1,70 @@
+{
+  "name": "v2.0653",
+  "resource_id": "v2-0653",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0653",
+  "filter": null,
+  "concepts": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "USA standard"
+        }
+      ],
+      "code": "1",
+      "display": "mm/dd/yy"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "ANSI standard"
+        }
+      ],
+      "code": "2",
+      "display": "yy.mm.dd"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Britain/France standard"
+        }
+      ],
+      "code": "3",
+      "display": "dd/mm/yy"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Germany standard"
+        }
+      ],
+      "code": "4",
+      "display": "dd.mm.yy"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "Japan standard"
+        }
+      ],
+      "code": "5",
+      "display": "yy/mm/dd"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/codesystem-concept-comments",
+          "valueString": "ISO standard"
+        }
+      ],
+      "code": "6",
+      "display": "Yymmdd"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

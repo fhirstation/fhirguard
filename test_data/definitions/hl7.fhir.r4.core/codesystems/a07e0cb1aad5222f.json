@@ -1,0 +1,75 @@
+{
+  "name": "SlicingRules",
+  "resource_id": "resource-slicing-rules",
+  "resource_url": "http://hl7.org/fhir/resource-slicing-rules",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "closed",
+      "display": "Closed",
+      "definition": "No additional content is allowed other than that described by the slices in this profile."
+    },
+    {
+      "code": "open",
+      "display": "Open",
+      "definition": "Additional content is allowed anywhere in the list."
+    },
+    {
+      "code": "openAtEnd",
+      "display": "Open at End",
+      "definition": "Additional content is allowed, but only at the end of the list. Note that using this requires that the slices be ordered, which makes it hard to share uses. This should only be done where absolutely required."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "SlicingRules",
+    "resource_id": "resource-slicing-rules",
+    "resource_url": "http://hl7.org/fhir/ValueSet/resource-slicing-rules",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/resource-slicing-rules"
+        }
+      ]
+    },
+    "description": "How slices are interpreted when evaluating an instance.",
+    "related_codesystems": [
+      {
+        "id": "resource-slicing-rules",
+        "url": "http://hl7.org/fhir/resource-slicing-rules"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "closed",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/resource-slicing-rules",
+        "display": "Closed",
+        "description": "No additional content is allowed other than that described by the slices in this profile.",
+        "filter": null
+      },
+      {
+        "code": "open",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/resource-slicing-rules",
+        "display": "Open",
+        "description": "Additional content is allowed anywhere in the list.",
+        "filter": null
+      },
+      {
+        "code": "openAtEnd",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/resource-slicing-rules",
+        "display": "Open at End",
+        "description": "Additional content is allowed, but only at the end of the list. Note that using this requires that the slices be ordered, which makes it hard to share uses. This should only be done where absolutely required.",
+        "filter": null
+      }
+    ]
+  }
+}

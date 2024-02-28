@@ -1,0 +1,75 @@
+{
+  "name": "MedicationAdministration Category Codes",
+  "resource_id": "medication-admin-category",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/medication-admin-category",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "inpatient",
+      "display": "Inpatient",
+      "definition": "Includes administrations in an inpatient or acute care setting"
+    },
+    {
+      "code": "outpatient",
+      "display": "Outpatient",
+      "definition": "Includes administrations in an outpatient setting (for example, Emergency Department, Outpatient Clinic, Outpatient Surgery, Doctor's office)"
+    },
+    {
+      "code": "community",
+      "display": "Community",
+      "definition": "Includes administrations by the patient in their home (this would include long term care or nursing homes, hospices, etc.)"
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "MedicationAdministration Category Codes",
+    "resource_id": "medication-admin-category",
+    "resource_url": "http://hl7.org/fhir/ValueSet/medication-admin-category",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/medication-admin-category"
+        }
+      ]
+    },
+    "description": "MedicationAdministration Category Codes",
+    "related_codesystems": [
+      {
+        "id": "medication-admin-category",
+        "url": "http://terminology.hl7.org/CodeSystem/medication-admin-category"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "inpatient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medication-admin-category",
+        "display": "Inpatient",
+        "description": "Includes administrations in an inpatient or acute care setting",
+        "filter": null
+      },
+      {
+        "code": "outpatient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medication-admin-category",
+        "display": "Outpatient",
+        "description": "Includes administrations in an outpatient setting (for example, Emergency Department, Outpatient Clinic, Outpatient Surgery, Doctor's office)",
+        "filter": null
+      },
+      {
+        "code": "community",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/medication-admin-category",
+        "display": "Community",
+        "description": "Includes administrations by the patient in their home (this would include long term care or nursing homes, hospices, etc.)",
+        "filter": null
+      }
+    ]
+  }
+}

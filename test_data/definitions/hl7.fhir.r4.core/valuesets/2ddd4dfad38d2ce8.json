@@ -1,0 +1,121 @@
+{
+  "name": "AppointmentStatus",
+  "resource_id": "appointmentstatus",
+  "resource_url": "http://hl7.org/fhir/ValueSet/appointmentstatus",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/appointmentstatus"
+      }
+    ]
+  },
+  "description": "The free/busy status of an appointment.",
+  "related_codesystems": [
+    {
+      "id": "appointmentstatus",
+      "url": "http://hl7.org/fhir/appointmentstatus"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "proposed",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Proposed",
+      "description": "None of the participant(s) have finalized their acceptance of the appointment request, and the start/end time might not be set yet.",
+      "filter": null
+    },
+    {
+      "code": "pending",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Pending",
+      "description": "Some or all of the participant(s) have not finalized their acceptance of the appointment request.",
+      "filter": null
+    },
+    {
+      "code": "booked",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Booked",
+      "description": "All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.",
+      "filter": null
+    },
+    {
+      "code": "arrived",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Arrived",
+      "description": "The patient/patients has/have arrived and is/are waiting to be seen.",
+      "filter": null
+    },
+    {
+      "code": "fulfilled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Fulfilled",
+      "description": "The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Cancelled",
+      "description": "The appointment has been cancelled.",
+      "filter": null
+    },
+    {
+      "code": "noshow",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "No Show",
+      "description": "Some or all of the participant(s) have not/did not appear for the appointment (usually the patient).",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Entered in error",
+      "description": "This instance should not have been part of this patient's medical record.",
+      "filter": null
+    },
+    {
+      "code": "checked-in",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Checked In",
+      "description": "When checked in, all pre-encounter administrative work is complete, and the encounter may begin. (where multiple patients are involved, they are all present).",
+      "filter": null
+    },
+    {
+      "code": "waitlist",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/appointmentstatus",
+      "display": "Waitlisted",
+      "description": "The appointment has been placed on a waitlist, to be scheduled/confirmed in the future when a slot/service is available.\nA specific time might or might not be pre-allocated.",
+      "filter": null
+    }
+  ]
+}

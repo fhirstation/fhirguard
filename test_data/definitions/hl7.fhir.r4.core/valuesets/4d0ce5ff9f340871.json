@@ -1,0 +1,51 @@
+{
+  "name": "NamingSystemType",
+  "resource_id": "namingsystem-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/namingsystem-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/namingsystem-type"
+      }
+    ]
+  },
+  "description": "Identifies the purpose of the naming system.",
+  "related_codesystems": [
+    {
+      "id": "namingsystem-type",
+      "url": "http://hl7.org/fhir/namingsystem-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "codesystem",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/namingsystem-type",
+      "display": "Code System",
+      "description": "The naming system is used to define concepts and symbols to represent those concepts; e.g. UCUM, LOINC, NDC code, local lab codes, etc.",
+      "filter": null
+    },
+    {
+      "code": "identifier",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/namingsystem-type",
+      "display": "Identifier",
+      "description": "The naming system is used to manage identifiers (e.g. license numbers, order numbers, etc.).",
+      "filter": null
+    },
+    {
+      "code": "root",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/namingsystem-type",
+      "display": "Root",
+      "description": "The naming system is used as the root for other identifiers and naming systems.",
+      "filter": null
+    }
+  ]
+}

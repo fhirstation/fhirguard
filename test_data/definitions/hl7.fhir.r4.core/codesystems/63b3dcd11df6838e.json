@@ -1,0 +1,76 @@
+{
+  "name": "v2.0159",
+  "resource_id": "v2-0159",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0159",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "D",
+      "display": "Diet",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Diät"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Dieet"
+        }
+      ]
+    },
+    {
+      "code": "P",
+      "display": "Preference",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "bevorzugte Verpflegung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Voorkeur"
+        }
+      ]
+    },
+    {
+      "code": "S",
+      "display": "Supplement",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Zusatzverpflegung"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Supplement"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

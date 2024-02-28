@@ -1,0 +1,141 @@
+{
+  "name": "v2.0429",
+  "resource_id": "v2-0429",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0429",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0429"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0429 ( Production class Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0429",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0429"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Breeding/genetic stock",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Dairy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Draft",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Dual Purpose",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Layer, Includes Multiplier flocks",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Meat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Not Applicable",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Other",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Pleasure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Racing",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Show",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0429",
+      "display": "Unknown",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

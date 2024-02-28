@@ -1,0 +1,81 @@
+{
+  "name": "v2.0157",
+  "resource_id": "v2-0157",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0157",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0157"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0157 ( WHIHC DATE/TIME STATUS QUALIFIER)",
+  "related_codesystems": [
+    {
+      "id": "v2-0157",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0157"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ANY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0157",
+      "display": "Any status",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CFN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0157",
+      "display": "Current final value, whether final or corrected",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0157",
+      "display": "Corrected only (no final with corrections)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0157",
+      "display": "Final only (no corrections)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0157",
+      "display": "Preliminary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "REP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0157",
+      "display": "Report completion date/time",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

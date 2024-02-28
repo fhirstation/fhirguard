@@ -1,0 +1,98 @@
+{
+  "name": "ServiceRequestCategoryCodes",
+  "resource_id": "servicerequest-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/servicerequest-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "108252007",
+            "display": "Laboratory procedure"
+          },
+          {
+            "code": "363679005",
+            "display": "Imaging"
+          },
+          {
+            "code": "409063005",
+            "display": "Counselling"
+          },
+          {
+            "code": "409073007",
+            "display": "Education"
+          },
+          {
+            "code": "387713003",
+            "display": "Surgical procedure"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "An example value set of SNOMED CT concepts that can classify a requested service",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "108252007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Laboratory procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "363679005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Imaging",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409063005",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Counselling",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "409073007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Education",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "387713003",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": "Surgical procedure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

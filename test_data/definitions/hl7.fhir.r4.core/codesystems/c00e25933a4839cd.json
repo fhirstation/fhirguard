@@ -1,0 +1,30 @@
+{
+  "name": "SNOMEDCTReasonMedicationNotGivenCodes",
+  "resource_id": "reason-medication-not-given-codes",
+  "resource_url": "http://hl7.org/fhir/reason-medication-not-given",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "a",
+      "display": "None",
+      "definition": "No reason known."
+    },
+    {
+      "code": "b",
+      "display": "Away",
+      "definition": "The patient was not available when the dose was scheduled."
+    },
+    {
+      "code": "c",
+      "display": "Asleep",
+      "definition": "The patient was asleep when the dose was scheduled."
+    },
+    {
+      "code": "d",
+      "display": "Vomit",
+      "definition": "The patient was given the medication and immediately vomited it back."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,51 @@
+{
+  "name": "EvidenceVariantState",
+  "resource_id": "evidence-variant-state",
+  "resource_url": "http://hl7.org/fhir/ValueSet/evidence-variant-state",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/evidence-variant-state"
+      }
+    ]
+  },
+  "description": "Used for results by exposure in variant states such as low-risk, medium-risk and high-risk states.",
+  "related_codesystems": [
+    {
+      "id": "evidence-variant-state",
+      "url": "http://terminology.hl7.org/CodeSystem/evidence-variant-state"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "low-risk",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/evidence-variant-state",
+      "display": "low risk",
+      "description": "low risk estimate.",
+      "filter": null
+    },
+    {
+      "code": "medium-risk",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/evidence-variant-state",
+      "display": "medium risk",
+      "description": "medium risk estimate.",
+      "filter": null
+    },
+    {
+      "code": "high-risk",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/evidence-variant-state",
+      "display": "high risk",
+      "description": "high risk estimate.",
+      "filter": null
+    }
+  ]
+}

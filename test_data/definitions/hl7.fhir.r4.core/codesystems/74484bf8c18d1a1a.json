@@ -1,0 +1,120 @@
+{
+  "name": "ModifierTypeCodes",
+  "resource_id": "claim-modifiers",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/modifiers",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "a",
+      "display": "Repair of prior service or installation",
+      "definition": "Repair of prior service or installation."
+    },
+    {
+      "code": "b",
+      "display": "Temporary service or installation",
+      "definition": "Temporary service or installation."
+    },
+    {
+      "code": "c",
+      "display": "TMJ treatment",
+      "definition": "Treatment associated with TMJ."
+    },
+    {
+      "code": "e",
+      "display": "Implant or associated with an implant",
+      "definition": "Implant or associated with an implant."
+    },
+    {
+      "code": "rooh",
+      "display": "Rush or Outside of office hours",
+      "definition": "A Rush service or service performed outside of normal office hours."
+    },
+    {
+      "code": "x",
+      "display": "None",
+      "definition": "None."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ModifierTypeCodes",
+    "resource_id": "claim-modifiers",
+    "resource_url": "http://hl7.org/fhir/ValueSet/claim-modifiers",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/modifiers"
+        }
+      ]
+    },
+    "description": "This value set includes sample Modifier type codes.",
+    "related_codesystems": [
+      {
+        "id": "claim-modifiers",
+        "url": "http://terminology.hl7.org/CodeSystem/modifiers"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "a",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/modifiers",
+        "display": "Repair of prior service or installation",
+        "description": "Repair of prior service or installation.",
+        "filter": null
+      },
+      {
+        "code": "b",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/modifiers",
+        "display": "Temporary service or installation",
+        "description": "Temporary service or installation.",
+        "filter": null
+      },
+      {
+        "code": "c",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/modifiers",
+        "display": "TMJ treatment",
+        "description": "Treatment associated with TMJ.",
+        "filter": null
+      },
+      {
+        "code": "e",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/modifiers",
+        "display": "Implant or associated with an implant",
+        "description": "Implant or associated with an implant.",
+        "filter": null
+      },
+      {
+        "code": "rooh",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/modifiers",
+        "display": "Rush or Outside of office hours",
+        "description": "A Rush service or service performed outside of normal office hours.",
+        "filter": null
+      },
+      {
+        "code": "x",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/modifiers",
+        "display": "None",
+        "description": "None.",
+        "filter": null
+      }
+    ]
+  }
+}

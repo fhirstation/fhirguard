@@ -1,0 +1,61 @@
+{
+  "name": "PublicationStatus",
+  "resource_id": "publication-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/publication-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/publication-status"
+      }
+    ]
+  },
+  "description": "The lifecycle status of an artifact.",
+  "related_codesystems": [
+    {
+      "id": "publication-status",
+      "url": "http://hl7.org/fhir/publication-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "draft",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/publication-status",
+      "display": "Draft",
+      "description": "This resource is still under development and is not yet considered to be ready for normal use.",
+      "filter": null
+    },
+    {
+      "code": "active",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/publication-status",
+      "display": "Active",
+      "description": "This resource is ready for normal use.",
+      "filter": null
+    },
+    {
+      "code": "retired",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/publication-status",
+      "display": "Retired",
+      "description": "This resource has been withdrawn or superseded and should no longer be used.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/publication-status",
+      "display": "Unknown",
+      "description": "The authoring system does not know which of the status values currently applies for this resource.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, it's just not known which one.",
+      "filter": null
+    }
+  ]
+}

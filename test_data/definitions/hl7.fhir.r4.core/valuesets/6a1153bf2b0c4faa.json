@@ -1,0 +1,67 @@
+{
+  "name": "Condition/DiagnosisSeverity",
+  "resource_id": "condition-severity",
+  "resource_url": "http://hl7.org/fhir/ValueSet/condition-severity",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24484000"
+          },
+          {
+            "code": "6736007"
+          },
+          {
+            "code": "255604002"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Preferred value set for Condition/Diagnosis severity grading.",
+  "related_codesystems": [],
+  "allowed_values": [
+    {
+      "code": "24484000",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6736007",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "255604002",
+      "type": [
+        "concept"
+      ],
+      "system": null,
+      "display": null,
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "http://snomed.info/sct",
+      "type": [
+        "include"
+      ],
+      "system": "http://snomed.info/sct",
+      "display": "http://snomed.info/sct",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

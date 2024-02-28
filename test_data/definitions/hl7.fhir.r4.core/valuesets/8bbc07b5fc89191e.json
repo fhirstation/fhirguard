@@ -1,0 +1,61 @@
+{
+  "name": "PayeeResourceType",
+  "resource_id": "resource-type-link",
+  "resource_url": "http://hl7.org/fhir/ValueSet/resource-type-link",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/resource-type-link"
+      }
+    ]
+  },
+  "description": "The type of payee Resource.",
+  "related_codesystems": [
+    {
+      "id": "resource-type-link",
+      "url": "http://terminology.hl7.org/CodeSystem/resource-type-link"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "organization",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/resource-type-link",
+      "display": "Organization",
+      "description": "Organization resource.",
+      "filter": null
+    },
+    {
+      "code": "patient",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/resource-type-link",
+      "display": "Patient",
+      "description": "Patient resource.",
+      "filter": null
+    },
+    {
+      "code": "practitioner",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/resource-type-link",
+      "display": "Practitioner",
+      "description": "Practitioner resource.",
+      "filter": null
+    },
+    {
+      "code": "relatedperson",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/resource-type-link",
+      "display": "RelatedPerson",
+      "description": "RelatedPerson resource.",
+      "filter": null
+    }
+  ]
+}

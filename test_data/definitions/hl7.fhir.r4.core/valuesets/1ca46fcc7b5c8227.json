@@ -1,0 +1,111 @@
+{
+  "name": "EncounterStatus",
+  "resource_id": "encounter-status",
+  "resource_url": "http://hl7.org/fhir/ValueSet/encounter-status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/encounter-status"
+      }
+    ]
+  },
+  "description": "Current state of the encounter.",
+  "related_codesystems": [
+    {
+      "id": "encounter-status",
+      "url": "http://hl7.org/fhir/encounter-status"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "planned",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Planned",
+      "description": "The Encounter has not yet started.",
+      "filter": null
+    },
+    {
+      "code": "arrived",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Arrived",
+      "description": "The Patient is present for the encounter, however is not currently meeting with a practitioner.",
+      "filter": null
+    },
+    {
+      "code": "triaged",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Triaged",
+      "description": "The patient has been assessed for the priority of their treatment based on the severity of their condition.",
+      "filter": null
+    },
+    {
+      "code": "in-progress",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "In Progress",
+      "description": "The Encounter has begun and the patient is present / the practitioner and the patient are meeting.",
+      "filter": null
+    },
+    {
+      "code": "onleave",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "On Leave",
+      "description": "The Encounter has begun, but the patient is temporarily on leave.",
+      "filter": null
+    },
+    {
+      "code": "finished",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Finished",
+      "description": "The Encounter has ended.",
+      "filter": null
+    },
+    {
+      "code": "cancelled",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Cancelled",
+      "description": "The Encounter has ended before it has begun.",
+      "filter": null
+    },
+    {
+      "code": "entered-in-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Entered in Error",
+      "description": "This instance should not have been part of this patient's medical record.",
+      "filter": null
+    },
+    {
+      "code": "unknown",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/encounter-status",
+      "display": "Unknown",
+      "description": "The encounter status is unknown. Note that \"unknown\" is a value of last resort and every attempt should be made to provide a meaningful value other than \"unknown\".",
+      "filter": null
+    }
+  ]
+}

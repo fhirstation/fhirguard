@@ -1,0 +1,81 @@
+{
+  "name": "v2.0008",
+  "resource_id": "v2-0008",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0008",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0008"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0008 ( ACKNOWLEDGMENT CODE)",
+  "related_codesystems": [
+    {
+      "id": "v2-0008",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0008"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0008",
+      "display": "Original mode: Application Accept - Enhanced mode: Application acknowledgment: Accept",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0008",
+      "display": "Original mode: Application Error - Enhanced mode: Application acknowledgment: Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0008",
+      "display": "Original mode: Application Reject - Enhanced mode: Application acknowledgment: Reject",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0008",
+      "display": "Enhanced mode: Accept acknowledgment: Commit Accept",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0008",
+      "display": "Enhanced mode: Accept acknowledgment: Commit Error",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0008",
+      "display": "Enhanced mode: Accept acknowledgment: Commit Reject",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

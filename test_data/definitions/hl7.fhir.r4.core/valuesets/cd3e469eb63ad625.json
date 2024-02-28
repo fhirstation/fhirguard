@@ -1,0 +1,81 @@
+{
+  "name": "AdverseEventCategory",
+  "resource_id": "adverse-event-category",
+  "resource_url": "http://hl7.org/fhir/ValueSet/adverse-event-category",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category"
+      }
+    ]
+  },
+  "description": "Overall categorization of the event, e.g. product-related or situational.",
+  "related_codesystems": [
+    {
+      "id": "adverse-event-category",
+      "url": "http://terminology.hl7.org/CodeSystem/adverse-event-category"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "product-problem",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category",
+      "display": "Product Problem",
+      "description": "The adverse event pertains to a product problem.",
+      "filter": null
+    },
+    {
+      "code": "product-quality",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category",
+      "display": "Product Quality",
+      "description": "The adverse event pertains to product quality.",
+      "filter": null
+    },
+    {
+      "code": "product-use-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category",
+      "display": "Product Use Error",
+      "description": "The adverse event pertains to a product use error.",
+      "filter": null
+    },
+    {
+      "code": "medical-device-use-error",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category",
+      "display": "Medical Device Use Error",
+      "description": "The adverse event pertains to a medical device use error.",
+      "filter": null
+    },
+    {
+      "code": "problem-different-manufacturer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category",
+      "display": "Problem with Different Manufacturer of Same Medicine",
+      "description": "The adverse event pertains to a problem with a different manufacturer of the same medication.",
+      "filter": null
+    },
+    {
+      "code": "unsafe-physical-environment",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/adverse-event-category",
+      "display": "Unsafe Physical Environment",
+      "description": "The adverse event pertains to an unsafe physical environment.",
+      "filter": null
+    }
+  ]
+}

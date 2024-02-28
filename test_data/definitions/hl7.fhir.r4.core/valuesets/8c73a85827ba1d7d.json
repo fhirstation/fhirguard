@@ -1,0 +1,51 @@
+{
+  "name": "HandlingConditionSet",
+  "resource_id": "handling-condition",
+  "resource_url": "http://hl7.org/fhir/ValueSet/handling-condition",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/handling-condition"
+      }
+    ]
+  },
+  "description": "Set of handling instructions prior testing of the specimen.",
+  "related_codesystems": [
+    {
+      "id": "handling-condition",
+      "url": "http://terminology.hl7.org/CodeSystem/handling-condition"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "room",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/handling-condition",
+      "display": "room temperature",
+      "description": "room temperature.",
+      "filter": null
+    },
+    {
+      "code": "refrigerated",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/handling-condition",
+      "display": "refrigerated",
+      "description": "refrigerated temperature.",
+      "filter": null
+    },
+    {
+      "code": "frozen",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/handling-condition",
+      "display": "frozen",
+      "description": "frozen temperature.",
+      "filter": null
+    }
+  ]
+}

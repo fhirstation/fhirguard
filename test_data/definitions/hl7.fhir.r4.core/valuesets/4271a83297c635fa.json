@@ -1,0 +1,61 @@
+{
+  "name": "v2.0286",
+  "resource_id": "v2-0286",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0286",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0286"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0286 ( Provider Role)",
+  "related_codesystems": [
+    {
+      "id": "v2-0286",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0286"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0286",
+      "display": "Consulting Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0286",
+      "display": "Primary Care Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0286",
+      "display": "Referring Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0286",
+      "display": "Referred to Provider",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

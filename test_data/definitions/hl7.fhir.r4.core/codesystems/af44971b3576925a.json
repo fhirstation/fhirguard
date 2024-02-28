@@ -1,0 +1,60 @@
+{
+  "name": "ConstraintSeverity",
+  "resource_id": "constraint-severity",
+  "resource_url": "http://hl7.org/fhir/constraint-severity",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "error",
+      "display": "Error",
+      "definition": "If the constraint is violated, the resource is not conformant."
+    },
+    {
+      "code": "warning",
+      "display": "Warning",
+      "definition": "If the constraint is violated, the resource is conformant, but it is not necessarily following best practice."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ConstraintSeverity",
+    "resource_id": "constraint-severity",
+    "resource_url": "http://hl7.org/fhir/ValueSet/constraint-severity",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/constraint-severity"
+        }
+      ]
+    },
+    "description": "SHALL applications comply with this constraint?",
+    "related_codesystems": [
+      {
+        "id": "constraint-severity",
+        "url": "http://hl7.org/fhir/constraint-severity"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "error",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/constraint-severity",
+        "display": "Error",
+        "description": "If the constraint is violated, the resource is not conformant.",
+        "filter": null
+      },
+      {
+        "code": "warning",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/constraint-severity",
+        "display": "Warning",
+        "description": "If the constraint is violated, the resource is conformant, but it is not necessarily following best practice.",
+        "filter": null
+      }
+    ]
+  }
+}

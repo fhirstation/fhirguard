@@ -1,0 +1,101 @@
+{
+  "name": "OrganizationAffiliationRole",
+  "resource_id": "organization-role",
+  "resource_url": "http://hl7.org/fhir/ValueSet/organization-role",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/organization-role"
+      }
+    ]
+  },
+  "description": "This example value set defines a set of codes that can be used to indicate the role of one Organization in relation to another.",
+  "related_codesystems": [
+    {
+      "id": "organization-role",
+      "url": "http://hl7.org/fhir/organization-role"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "provider",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Provider",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "agency",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Agency",
+      "description": "An organization such as a public health agency, community/social services provider, etc.",
+      "filter": null
+    },
+    {
+      "code": "research",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Research",
+      "description": "An organization providing research-related services such as conducting research, recruiting research participants, analyzing data, etc.",
+      "filter": null
+    },
+    {
+      "code": "payer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Payer",
+      "description": "An organization providing reimbursement, payment, or related services",
+      "filter": null
+    },
+    {
+      "code": "diagnostics",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Diagnostics",
+      "description": "An organization providing diagnostic testing/laboratory services",
+      "filter": null
+    },
+    {
+      "code": "supplier",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Supplier",
+      "description": "An organization that provides medical supplies (e.g. medical devices, equipment, pharmaceutical products, etc.)",
+      "filter": null
+    },
+    {
+      "code": "HIE/HIO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "HIE/HIO",
+      "description": "An organization that facilitates electronic clinical data exchange between entities",
+      "filter": null
+    },
+    {
+      "code": "member",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/organization-role",
+      "display": "Member",
+      "description": "A type of non-ownership relationship between entities (encompasses partnerships, collaboration, joint ventures, etc.)",
+      "filter": null
+    }
+  ]
+}

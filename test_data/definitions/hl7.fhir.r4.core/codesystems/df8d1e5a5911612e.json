@@ -1,0 +1,15 @@
+{
+  "name": "AuditEventID",
+  "resource_id": "audit-event-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/audit-event-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "rest",
+      "display": "RESTful Operation",
+      "definition": "Audit Event: Execution of a RESTful operation as defined by FHIR."
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

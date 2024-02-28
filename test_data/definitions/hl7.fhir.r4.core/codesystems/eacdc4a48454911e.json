@@ -1,0 +1,54 @@
+{
+  "name": "v2.0148",
+  "resource_id": "v2-0148",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0148",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "AT",
+      "display": "Currency amount",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Betrag (Tabelle 148 wird nicht verwendet)"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Geldbedrag"
+        }
+      ]
+    },
+    {
+      "code": "PC",
+      "display": "Percentage",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Prozentsatz"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Percentage"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

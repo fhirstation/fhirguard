@@ -1,0 +1,41 @@
+{
+  "name": "VisionEyes",
+  "resource_id": "vision-eye-codes",
+  "resource_url": "http://hl7.org/fhir/ValueSet/vision-eye-codes",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/vision-eye-codes"
+      }
+    ]
+  },
+  "description": "A coded concept listing the eye codes.",
+  "related_codesystems": [
+    {
+      "id": "vision-eye-codes",
+      "url": "http://hl7.org/fhir/vision-eye-codes"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "right",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/vision-eye-codes",
+      "display": "Right Eye",
+      "description": "Right Eye.",
+      "filter": null
+    },
+    {
+      "code": "left",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/vision-eye-codes",
+      "display": "Left Eye",
+      "description": "Left Eye.",
+      "filter": null
+    }
+  ]
+}

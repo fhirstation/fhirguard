@@ -1,0 +1,22 @@
+{
+  "name": "v2.0520",
+  "resource_id": "v2-0520",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0520",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "H",
+      "display": "High"
+    },
+    {
+      "code": "L",
+      "display": "Low"
+    },
+    {
+      "code": "M",
+      "display": "Medium"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

@@ -1,0 +1,51 @@
+{
+  "name": "NoteType",
+  "resource_id": "note-type",
+  "resource_url": "http://hl7.org/fhir/ValueSet/note-type",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/note-type"
+      }
+    ]
+  },
+  "description": "The presentation types of notes.",
+  "related_codesystems": [
+    {
+      "id": "note-type",
+      "url": "http://hl7.org/fhir/note-type"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "display",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/note-type",
+      "display": "Display",
+      "description": "Display the note.",
+      "filter": null
+    },
+    {
+      "code": "print",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/note-type",
+      "display": "Print (Form)",
+      "description": "Print the note on the form.",
+      "filter": null
+    },
+    {
+      "code": "printoper",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/note-type",
+      "display": "Print (Operator)",
+      "description": "Print the note for the operator.",
+      "filter": null
+    }
+  ]
+}

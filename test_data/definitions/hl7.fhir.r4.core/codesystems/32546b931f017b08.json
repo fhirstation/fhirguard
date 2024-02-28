@@ -1,0 +1,105 @@
+{
+  "name": "RejectionCriterion",
+  "resource_id": "rejection-criteria",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/rejection-criteria",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "hemolized",
+      "display": "hemolized specimen",
+      "definition": "blood specimen hemolized."
+    },
+    {
+      "code": "insufficient",
+      "display": "insufficient specimen volume",
+      "definition": "insufficient quantity of specimen."
+    },
+    {
+      "code": "broken",
+      "display": "broken specimen container",
+      "definition": "specimen container broken."
+    },
+    {
+      "code": "clotted",
+      "display": "specimen clotted",
+      "definition": "specimen clotted."
+    },
+    {
+      "code": "wrong-temperature",
+      "display": "specimen temperature inappropriate",
+      "definition": "specimen temperature inappropriate."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "RejectionCriterion",
+    "resource_id": "rejection-criteria",
+    "resource_url": "http://hl7.org/fhir/ValueSet/rejection-criteria",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/rejection-criteria"
+        }
+      ]
+    },
+    "description": "Criterion for rejection of the specimen by laboratory.",
+    "related_codesystems": [
+      {
+        "id": "rejection-criteria",
+        "url": "http://terminology.hl7.org/CodeSystem/rejection-criteria"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "hemolized",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/rejection-criteria",
+        "display": "hemolized specimen",
+        "description": "blood specimen hemolized.",
+        "filter": null
+      },
+      {
+        "code": "insufficient",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/rejection-criteria",
+        "display": "insufficient specimen volume",
+        "description": "insufficient quantity of specimen.",
+        "filter": null
+      },
+      {
+        "code": "broken",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/rejection-criteria",
+        "display": "broken specimen container",
+        "description": "specimen container broken.",
+        "filter": null
+      },
+      {
+        "code": "clotted",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/rejection-criteria",
+        "display": "specimen clotted",
+        "description": "specimen clotted.",
+        "filter": null
+      },
+      {
+        "code": "wrong-temperature",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/rejection-criteria",
+        "display": "specimen temperature inappropriate",
+        "description": "specimen temperature inappropriate.",
+        "filter": null
+      }
+    ]
+  }
+}

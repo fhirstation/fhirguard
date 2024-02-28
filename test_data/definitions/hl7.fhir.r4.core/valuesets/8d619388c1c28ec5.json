@@ -1,0 +1,448 @@
+{
+  "name": "ObjectLifecycleEvents",
+  "resource_id": "object-lifecycle-events",
+  "resource_url": "http://hl7.org/fhir/ValueSet/object-lifecycle-events",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"
+      }
+    ]
+  },
+  "description": "This example FHIR value set is comprised of lifecycle event codes. The FHIR Actor value set is based on    DICOM Audit Message, ParticipantObjectDataLifeCycle;   ISO Standard, TS 21089-2017;  ",
+  "related_codesystems": [
+    {
+      "id": "dicom-audit-lifecycle",
+      "url": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle"
+    },
+    {
+      "id": "iso-21089-lifecycle",
+      "url": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Origination / Creation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Import / Copy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Amendment",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Verification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Translation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Access / Use",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "De-identification",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Aggregation / summarization / derivation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "10",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Export",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "11",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Disclosure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "12",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Receipt of disclosure",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "13",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Archiving",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "14",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Logical deletion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "15",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
+      "display": "Permanent erasure / Physical destruction",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "access",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Access/View Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to obtain and open a record entry for inspection or review.",
+      "filter": null
+    },
+    {
+      "code": "hold",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Add Legal Hold Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to tag or otherwise indicate special access management and suspension of record entry deletion/destruction, if deemed relevant to a lawsuit or which are reasonably anticipated to be relevant or to fulfill organizational policy under the legal doctrine of “duty to preserve”.",
+      "filter": null
+    },
+    {
+      "code": "amend",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Amend (Update) Record Lifecycle Event",
+      "description": "Occurs when an agent makes any change to record entry content currently residing in storage considered permanent (persistent).",
+      "filter": null
+    },
+    {
+      "code": "archive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Archive Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to create and move archive artifacts containing record entry content, typically to long-term offline storage.",
+      "filter": null
+    },
+    {
+      "code": "attest",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Attest Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to capture the agent’s digital signature (or equivalent indication) during formal validation of record entry content.",
+      "filter": null
+    },
+    {
+      "code": "decrypt",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Decrypt Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to decode record entry content from a cipher.",
+      "filter": null
+    },
+    {
+      "code": "deidentify",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "De-Identify (Anononymize) Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to scrub record entry content to reduce the association between a set of identifying data and the data subject in a way that might or might not be reversible.",
+      "filter": null
+    },
+    {
+      "code": "deprecate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Deprecate Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to tag record entry(ies) as obsolete, erroneous or untrustworthy, to warn against its future use.",
+      "filter": null
+    },
+    {
+      "code": "destroy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Destroy/Delete Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to permanently erase record entry content from the system.",
+      "filter": null
+    },
+    {
+      "code": "disclose",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Disclose Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to release, transfer, provision access to, or otherwise divulge record entry content.",
+      "filter": null
+    },
+    {
+      "code": "encrypt",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Encrypt Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to encode record entry content in a cipher.",
+      "filter": null
+    },
+    {
+      "code": "extract",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Extract Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to selectively pull out a subset of record entry content, based on explicit criteria.",
+      "filter": null
+    },
+    {
+      "code": "link",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Link Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to connect related record entries.",
+      "filter": null
+    },
+    {
+      "code": "merge",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Merge Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to combine or join content from two or more record entries, resulting in a single logical record entry.",
+      "filter": null
+    },
+    {
+      "code": "originate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Originate/Retain Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to: a) initiate capture of potential record content, and b) incorporate that content into the storage considered a permanent part of the health record.",
+      "filter": null
+    },
+    {
+      "code": "pseudonymize",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Pseudonymize Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to remove record entry content to reduce the association between a set of identifying data and the data subject in a way that may be reversible.",
+      "filter": null
+    },
+    {
+      "code": "reactivate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Re-activate Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to recreate or restore full status to record entries previously deleted or deprecated.",
+      "filter": null
+    },
+    {
+      "code": "receive",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Receive/Retain Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to a) initiate capture of data content from elsewhere, and b) incorporate that content into the storage considered a permanent part of the health record.",
+      "filter": null
+    },
+    {
+      "code": "reidentify",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Re-identify Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to restore information to data that allows identification of information source and/or information subject.",
+      "filter": null
+    },
+    {
+      "code": "unhold",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Remove Legal Hold Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to remove a tag or other cues for special access management had required to fulfill organizational policy under the legal doctrine of “duty to preserve”.",
+      "filter": null
+    },
+    {
+      "code": "report",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Report (Output) Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to produce and deliver record entry content in a particular form and manner.",
+      "filter": null
+    },
+    {
+      "code": "restore",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Restore Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to recreate record entries and their content from a previous created archive artefact.",
+      "filter": null
+    },
+    {
+      "code": "transform",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Transform/Translate Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to change the form, language or code system used to represent record entry content.",
+      "filter": null
+    },
+    {
+      "code": "transmit",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Transmit Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to send record entry content from one (EHR/PHR/other) system to another.",
+      "filter": null
+    },
+    {
+      "code": "unlink",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Unlink Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to disconnect two or more record entries previously connected, rendering them separate (disconnected) again.",
+      "filter": null
+    },
+    {
+      "code": "unmerge",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Unmerge Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to reverse a previous record entry merge operation, rendering them separate again.",
+      "filter": null
+    },
+    {
+      "code": "verify",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle",
+      "display": "Verify Record Lifecycle Event",
+      "description": "Occurs when an agent causes the system to confirm compliance of data or data objects with regulations, requirements, specifications, or other imposed conditions based on organizational policy.",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name": "medicationKnowledge Characteristic Codes",
+  "resource_id": "medicationknowledge-characteristic",
+  "resource_url": "http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic"
+      }
+    ]
+  },
+  "description": "MedicationKnowledge Characteristic Codes",
+  "related_codesystems": [
+    {
+      "id": "medicationknowledge-characteristic",
+      "url": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "imprintcd",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Imprint Code",
+      "description": "Identyifying marks on product",
+      "filter": null
+    },
+    {
+      "code": "size",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Size",
+      "description": "Description of size of the product",
+      "filter": null
+    },
+    {
+      "code": "shape",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Shape",
+      "description": "Description of the shape of the product",
+      "filter": null
+    },
+    {
+      "code": "color",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Color",
+      "description": "Description of the color of the product",
+      "filter": null
+    },
+    {
+      "code": "coating",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Coating",
+      "description": "Description of the coating of the product",
+      "filter": null
+    },
+    {
+      "code": "scoring",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Scoring",
+      "description": "Description of the scoring of the product",
+      "filter": null
+    },
+    {
+      "code": "logo",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
+      "display": "Logo",
+      "description": "Description of the Logo of the product",
+      "filter": null
+    }
+  ]
+}

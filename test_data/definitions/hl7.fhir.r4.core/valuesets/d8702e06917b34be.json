@@ -1,0 +1,71 @@
+{
+  "name": "EnteralFormulaAdditiveTypeCode",
+  "resource_id": "entformula-additive",
+  "resource_url": "http://hl7.org/fhir/ValueSet/entformula-additive",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/entformula-additive"
+      }
+    ]
+  },
+  "description": "EnteralFormulaAdditiveType: Codes for the type of modular component such as protein, carbohydrate or fiber to be provided in addition to or mixed with the base formula. This value set is provided as a suggestive example.",
+  "related_codesystems": [
+    {
+      "id": "entformula-additive",
+      "url": "http://terminology.hl7.org/CodeSystem/entformula-additive"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "lipid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/entformula-additive",
+      "display": "Lipid",
+      "description": "Modular lipid enteral formula component",
+      "filter": null
+    },
+    {
+      "code": "protein",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/entformula-additive",
+      "display": "Protein",
+      "description": "Modular protein enteral formula component",
+      "filter": null
+    },
+    {
+      "code": "carbohydrate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/entformula-additive",
+      "display": "Carbohydrate",
+      "description": "Modular carbohydrate enteral formula component",
+      "filter": null
+    },
+    {
+      "code": "fiber",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/entformula-additive",
+      "display": "Fiber",
+      "description": "Modular fiber enteral formula component",
+      "filter": null
+    },
+    {
+      "code": "water",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/entformula-additive",
+      "display": "Water",
+      "description": "Added water",
+      "filter": null
+    }
+  ]
+}

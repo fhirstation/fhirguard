@@ -1,0 +1,54 @@
+{
+  "name": "v2.0181",
+  "resource_id": "v2-0181",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0181",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "S",
+      "display": "Successful posting of the record defined by the MFE segment",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Erfolgreiche Übernahme des Datensatzes"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Succesvolle verzending van het gedefinieerde record in het MFE-segment"
+        }
+      ]
+    },
+    {
+      "code": "U",
+      "display": "Unsuccessful posting of the record defined by the MFE segment",
+      "designation": [
+        {
+          "language": "de",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Übernahme des Datensatzes nicht erfolgreich"
+        },
+        {
+          "language": "nl",
+          "use": {
+            "system": "http://terminology.hl7.org/CodeSystem/designation-usage",
+            "code": "display"
+          },
+          "value": "Niet-succesvolle verzending van het gedefinieerde record in het MFE-segment"
+        }
+      ]
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

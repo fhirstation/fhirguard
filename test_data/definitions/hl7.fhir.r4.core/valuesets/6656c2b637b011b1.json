@@ -1,0 +1,41 @@
+{
+  "name": "v2.0109",
+  "resource_id": "v2-0109",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0109",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0109"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0109 ( REPORT PRIORITY)",
+  "related_codesystems": [
+    {
+      "id": "v2-0109",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0109"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0109",
+      "display": "Routine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0109",
+      "display": "Stat",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

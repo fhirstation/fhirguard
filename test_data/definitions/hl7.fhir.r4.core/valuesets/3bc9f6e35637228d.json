@@ -1,0 +1,51 @@
+{
+  "name": "v2.0098",
+  "resource_id": "v2-0098",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0098",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0098"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0098 ( Type of Agreement)",
+  "related_codesystems": [
+    {
+      "id": "v2-0098",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0098"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "M",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0098",
+      "display": "Maternity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0098",
+      "display": "Standard",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "U",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0098",
+      "display": "Unified",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

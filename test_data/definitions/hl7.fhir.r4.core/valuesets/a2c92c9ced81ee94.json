@@ -1,0 +1,121 @@
+{
+  "name": "v2.0023",
+  "resource_id": "v2-0023",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0023",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0023"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0023 ( Admit source)",
+  "related_codesystems": [
+    {
+      "id": "v2-0023",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0023"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "...",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "No suggested values defined",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "1",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Physician referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Clinic referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "3",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "HMO referral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "4",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Transfer from a hospital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "5",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Transfer from a skilled nursing facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "6",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Transfer from another health care facility",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "7",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Emergency room",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "8",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Court/law enforcement",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "9",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0023",
+      "display": "Information not available",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

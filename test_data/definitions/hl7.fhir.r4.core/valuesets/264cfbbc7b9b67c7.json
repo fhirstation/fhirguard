@@ -1,0 +1,121 @@
+{
+  "name": "v2.0555",
+  "resource_id": "v2-0555",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0555",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0555"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0555 ( Invoice Type)",
+  "related_codesystems": [
+    {
+      "id": "v2-0555",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0555"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "BK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Block",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Final",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Fee for Service",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Group",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "IN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Information Only",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Non Patient",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Partial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Salary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "By Session",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0555",
+      "display": "Supplemental",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "name": "v2.0570",
+  "resource_id": "v2-0570",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0570",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0570"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0570 ( Payment Method Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0570",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0570"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CASH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Cash",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Credit Card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CCHK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Cashier's Check",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Credit/Debit Account",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHCK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Check",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DDPO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Direct Deposit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Debit Card",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWFT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "Traveler's Check",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VISN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0570",
+      "display": "VISA Special Electronic Funds Transfer Network",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

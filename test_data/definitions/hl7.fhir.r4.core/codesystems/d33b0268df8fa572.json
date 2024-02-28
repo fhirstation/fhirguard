@@ -1,0 +1,75 @@
+{
+  "name": "DetectedIssueSeverity",
+  "resource_id": "detectedissue-severity",
+  "resource_url": "http://hl7.org/fhir/detectedissue-severity",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "high",
+      "display": "High",
+      "definition": "Indicates the issue may be life-threatening or has the potential to cause permanent injury."
+    },
+    {
+      "code": "moderate",
+      "display": "Moderate",
+      "definition": "Indicates the issue may result in noticeable adverse consequences but is unlikely to be life-threatening or cause permanent injury."
+    },
+    {
+      "code": "low",
+      "display": "Low",
+      "definition": "Indicates the issue may result in some adverse consequences but is unlikely to substantially affect the situation of the subject."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "DetectedIssueSeverity",
+    "resource_id": "detectedissue-severity",
+    "resource_url": "http://hl7.org/fhir/ValueSet/detectedissue-severity",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/detectedissue-severity"
+        }
+      ]
+    },
+    "description": "Indicates the potential degree of impact of the identified issue on the patient.",
+    "related_codesystems": [
+      {
+        "id": "detectedissue-severity",
+        "url": "http://hl7.org/fhir/detectedissue-severity"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "high",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/detectedissue-severity",
+        "display": "High",
+        "description": "Indicates the issue may be life-threatening or has the potential to cause permanent injury.",
+        "filter": null
+      },
+      {
+        "code": "moderate",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/detectedissue-severity",
+        "display": "Moderate",
+        "description": "Indicates the issue may result in noticeable adverse consequences but is unlikely to be life-threatening or cause permanent injury.",
+        "filter": null
+      },
+      {
+        "code": "low",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/detectedissue-severity",
+        "display": "Low",
+        "description": "Indicates the issue may result in some adverse consequences but is unlikely to substantially affect the situation of the subject.",
+        "filter": null
+      }
+    ]
+  }
+}

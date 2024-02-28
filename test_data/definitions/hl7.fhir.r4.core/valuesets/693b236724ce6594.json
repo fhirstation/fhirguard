@@ -1,0 +1,191 @@
+{
+  "name": "StructureMapTransform",
+  "resource_id": "map-transform",
+  "resource_url": "http://hl7.org/fhir/ValueSet/map-transform",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/map-transform"
+      }
+    ]
+  },
+  "description": "How data is copied/created.",
+  "related_codesystems": [
+    {
+      "id": "map-transform",
+      "url": "http://hl7.org/fhir/map-transform"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "create",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "create",
+      "description": "create(type : string) - type is passed through to the application on the standard API, and must be known by it.",
+      "filter": null
+    },
+    {
+      "code": "copy",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "copy",
+      "description": "copy(source).",
+      "filter": null
+    },
+    {
+      "code": "truncate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "truncate",
+      "description": "truncate(source, length) - source must be stringy type.",
+      "filter": null
+    },
+    {
+      "code": "escape",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "escape",
+      "description": "escape(source, fmt1, fmt2) - change source from one kind of escaping to another (plain, java, xml, json). note that this is for when the string itself is escaped.",
+      "filter": null
+    },
+    {
+      "code": "cast",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "cast",
+      "description": "cast(source, type?) - case source from one type to another. target type can be left as implicit if there is one and only one target type known.",
+      "filter": null
+    },
+    {
+      "code": "append",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "append",
+      "description": "append(source...) - source is element or string.",
+      "filter": null
+    },
+    {
+      "code": "translate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "translate",
+      "description": "translate(source, uri_of_map) - use the translate operation.",
+      "filter": null
+    },
+    {
+      "code": "reference",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "reference",
+      "description": "reference(source : object) - return a string that references the provided tree properly.",
+      "filter": null
+    },
+    {
+      "code": "dateOp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "dateOp",
+      "description": "Perform a date operation. *Parameters to be documented*.",
+      "filter": null
+    },
+    {
+      "code": "uuid",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "uuid",
+      "description": "Generate a random UUID (in lowercase). No Parameters.",
+      "filter": null
+    },
+    {
+      "code": "pointer",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "pointer",
+      "description": "Return the appropriate string to put in a reference that refers to the resource provided as a parameter.",
+      "filter": null
+    },
+    {
+      "code": "evaluate",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "evaluate",
+      "description": "Execute the supplied FHIRPath expression and use the value returned by that.",
+      "filter": null
+    },
+    {
+      "code": "cc",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "cc",
+      "description": "Create a CodeableConcept. Parameters = (text) or (system. Code[, display]).",
+      "filter": null
+    },
+    {
+      "code": "c",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "c",
+      "description": "Create a Coding. Parameters = (system. Code[, display]).",
+      "filter": null
+    },
+    {
+      "code": "qty",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "qty",
+      "description": "Create a quantity. Parameters = (text) or (value, unit, [system, code]) where text is the natural representation e.g. [comparator]value[space]unit.",
+      "filter": null
+    },
+    {
+      "code": "id",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "id",
+      "description": "Create an identifier. Parameters = (system, value[, type]) where type is a code from the identifier type value set.",
+      "filter": null
+    },
+    {
+      "code": "cp",
+      "type": [
+        "concept"
+      ],
+      "system": "http://hl7.org/fhir/map-transform",
+      "display": "cp",
+      "description": "Create a contact details. Parameters = (value) or (system, value). If no system is provided, the system should be inferred from the content of the value.",
+      "filter": null
+    }
+  ]
+}

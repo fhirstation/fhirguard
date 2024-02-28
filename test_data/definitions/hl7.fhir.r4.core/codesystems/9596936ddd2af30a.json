@@ -1,0 +1,75 @@
+{
+  "name": "ListMode",
+  "resource_id": "list-mode",
+  "resource_url": "http://hl7.org/fhir/list-mode",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "working",
+      "display": "Working List",
+      "definition": "This list is the master list, maintained in an ongoing fashion with regular updates as the real world list it is tracking changes."
+    },
+    {
+      "code": "snapshot",
+      "display": "Snapshot List",
+      "definition": "This list was prepared as a snapshot. It should not be assumed to be current."
+    },
+    {
+      "code": "changes",
+      "display": "Change List",
+      "definition": "A point-in-time list that shows what changes have been made or recommended.  E.g. a discharge medication list showing what was added and removed during an encounter."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "ListMode",
+    "resource_id": "list-mode",
+    "resource_url": "http://hl7.org/fhir/ValueSet/list-mode",
+    "compose": {
+      "include": [
+        {
+          "system": "http://hl7.org/fhir/list-mode"
+        }
+      ]
+    },
+    "description": "The processing mode that applies to this list.",
+    "related_codesystems": [
+      {
+        "id": "list-mode",
+        "url": "http://hl7.org/fhir/list-mode"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "working",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/list-mode",
+        "display": "Working List",
+        "description": "This list is the master list, maintained in an ongoing fashion with regular updates as the real world list it is tracking changes.",
+        "filter": null
+      },
+      {
+        "code": "snapshot",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/list-mode",
+        "display": "Snapshot List",
+        "description": "This list was prepared as a snapshot. It should not be assumed to be current.",
+        "filter": null
+      },
+      {
+        "code": "changes",
+        "type": [
+          "concept"
+        ],
+        "system": "http://hl7.org/fhir/list-mode",
+        "display": "Change List",
+        "description": "A point-in-time list that shows what changes have been made or recommended.  E.g. a discharge medication list showing what was added and removed during an encounter.",
+        "filter": null
+      }
+    ]
+  }
+}

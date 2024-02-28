@@ -1,0 +1,161 @@
+{
+  "name": "v2.0270",
+  "resource_id": "v2-0270",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0270",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0270"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0270 ( Report Type Code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0270",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0270"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "AR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Autopsy report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Cardiodiagnostics",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Consultation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Diagnostic imaging",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Discharge summary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ED",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Emergency department report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "History and physical examination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Operative report",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Psychiatric consultation",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Psychiatric history and physical examination",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Procedure note",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Progress note",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Surgical pathology",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0270",
+      "display": "Transfer summary",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

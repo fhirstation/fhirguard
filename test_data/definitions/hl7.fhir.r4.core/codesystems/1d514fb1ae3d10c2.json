@@ -1,0 +1,30 @@
+{
+  "name": "v2.0761",
+  "resource_id": "v2-0761",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0761",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "0",
+      "display": "Valid code"
+    },
+    {
+      "code": "1",
+      "display": "Invalid code"
+    },
+    {
+      "code": "2",
+      "display": "Not used"
+    },
+    {
+      "code": "3",
+      "display": "Invalid for this gender"
+    },
+    {
+      "code": "4",
+      "display": "Invalid for this age"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

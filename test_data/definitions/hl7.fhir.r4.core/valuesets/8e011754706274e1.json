@@ -1,0 +1,91 @@
+{
+  "name": "v2.0168",
+  "resource_id": "v2-0168",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0168",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0168"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0168 ( PROCESSING PRIORITY)",
+  "related_codesystems": [
+    {
+      "id": "v2-0168",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0168"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "A",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "As soon as possible (a priority lower than stat)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "B",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "Do at bedside or portable (may be used with other codes)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "C",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "Measure continuously (e.g., arterial line blood pressure)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "P",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "Preoperative (to be done prior to surgery)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "R",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "Routine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "S",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "Stat (do immediately)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "T",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0168",
+      "display": "Timing critical (do as near as possible to requested time)",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

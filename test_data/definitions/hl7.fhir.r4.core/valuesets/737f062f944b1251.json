@@ -1,0 +1,4481 @@
+{
+  "name": "v2.0550",
+  "resource_id": "v2-0550",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0550",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0550"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0550 ( Body Parts)",
+  "related_codesystems": [
+    {
+      "id": "v2-0550",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0550"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ACET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Acetabulum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ACHIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Achilles",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Abdomen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Adenoids",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ADR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Adrenal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Amniotic fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AMS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Amniotic Sac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Anal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANKL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ankle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANTEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Antecubital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANTECF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Antecubital Fossa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Antrum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ANUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Anus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AORTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Aorta",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "APDX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Appendix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Aortic Rim",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AREO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Areola",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Arm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ARTE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Artery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASCIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ascites",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ASCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ascitic Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ATR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Atrium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AURI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Auricular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Aortic Valve",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "AXI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Axilla",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BACK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Back",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BARTD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bartholin Duct",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BARTG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bartholin Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BCYS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Brain Cyst Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BDY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Body, Whole",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BID",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bile Duct",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BIFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bile fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bladder",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Blood, Whole",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLDA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Blood,  Arterial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Blood,  Capillary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLDV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Blood,  Venous",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BLOOD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BMAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bone marrow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bone",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOWEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bowel",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOWLA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bowel, Large",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BOWSM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bowel, Small",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Basophils",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Brachial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRAIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Brain",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bronchial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BROCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bronchiole/Bronchiolar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRONC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bronchus/Bronchial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BROW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Eyebrow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Breast",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRSTFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Breast fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRTGF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bartholin Gland Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BRV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Broviac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BUCCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Buccal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BURSA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bursa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BURSF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Bursa Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "BUTT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Buttocks",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CALF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Calf",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Canal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANLI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Canaliculis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CANTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Canthus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CARO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Carotid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CARP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Carpal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CAVIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cavity",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CBLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Blood, Cord",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cardiac Muscle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CDUCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Common Duct",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CECUM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cecum/Cecal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CERVUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cervix/Uterus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cavity, Chest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHEEK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cheek",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Chest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHEST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Chest Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHESTÂ ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Chest Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CHIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Chin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CIRCU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Circumcision Site",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLAVI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Clavicle/Clavicular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Clitoris",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CLITO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Clitoral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CNL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cannula",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COCCG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Coccygeal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COCCY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Coccyx",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COLON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Colon",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COLOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Colostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CONJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Conjunctiva",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cord",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CORAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Coral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CORD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cord Blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CORN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cornea",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "COS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Colostomy Stoma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRANE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cranium, ethmoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRANF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cranium, frontal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRANO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cranium, occipital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRANP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cranium, parietal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRANS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cranium, sphenoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRANT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cranium, temporal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CSF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cerebral Spinal Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CUBIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cubitus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CUFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cuff",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CULD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cul De Sac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CULDO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Culdocentesis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CVX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Cervix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DELT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Deltoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Dental Gingiva",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DENTA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Dental",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIAF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Dialysis Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DIGIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Digit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DISC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Disc",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DORS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Dorsum/Dorsal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Diaphragm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DUFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Duodenal Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DUODE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Duodenum/Duodenal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Dura",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ear",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EARBI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ear bone, incus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EARBM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ear bone, malleus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EARBS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ear bone,stapes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EARLO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ear Lobe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Endocervical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELBOW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Elbow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ELBOWJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Elbow Joint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENDC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Endocardium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ENDM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Endometrium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOLPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "endolpthamitis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Eosinophils",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Epididymis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPICA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Epicardial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPICM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Epicardium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPIDU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Epidural",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EPIGL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Epiglottis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Esophagus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ESOPG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Esophageal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Endotracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ETHMO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ethmoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Endourethral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EYE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Eye",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "EYELI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Eyelid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FACE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Face",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FALLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Fallopian Tube",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBINC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, inferior nasal concha",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBLAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, lacrimal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBMAX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, maxilla",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBNAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, nasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBPAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, palatine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBVOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, vomer",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FBZYG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Facial bone, zygomatic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FEMOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Femoral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FEMUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Femur",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Fetus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FIBU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Fibula",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Finger",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FINGN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Finger Nail",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FMH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Femoral Head",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Follicle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FOOT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Foot",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FOREA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Forearm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FOREH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Forehead",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FORES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Foreskin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FOURC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Fourchette",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Gall Bladder",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Genital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GENC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Genital Cervix",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GENL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Genital Lochia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Genital Lesion",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GLAND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GLANS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Glans",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GLUT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Gluteus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GLUTE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Gluteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GLUTM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Gluteus Medius",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GROIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Groin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GUM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Gum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "GVU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Genital - Vulva",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hallux",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HAND",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hand",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hair",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HART",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Heart",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEAD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Head",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Heel",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hemorrhoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hip",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HIPJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hip Joint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HUMER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Humerus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Heart Valve",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HVB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Heart Valve, Bicuspid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HVT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Heart Valve, Tricuspid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "HYMEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Hymen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ICX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Intracervical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ileal Conduit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILCON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ilical Conduit",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Iliac Crest",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ileal Loop",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILEOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ileostomy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILEUM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ileum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ILIAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Iliac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INASA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Intranasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INGUI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Inguinal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INSTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Intestine, Large",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INSTS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Intestine, Small",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Intestine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INTRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Introitus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "INTRU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Intrauterine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISCHI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ischium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ISH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Loop, Ishial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JAW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Jaw",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JUGE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Jugular, External",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "JUGI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Jugular, Internal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KIDN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Kidney",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KIDNÂ ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Kidney",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KNEE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Knee",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KNEEF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Knee Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "KNEEJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Knee Joint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LABIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Labia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LABMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Labia Majora",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LABMI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Labia Minora",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LACRI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lacrimal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lamella",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LARYN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Larynx",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LEG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Leg",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LENS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lens",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LING",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lingual",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LINGU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lingula",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lip",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LIVER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Liver",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lumen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lymph Node",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LNG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lymph Node, Groin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOBE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lobe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LOCH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lochia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUMBA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lumbar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LUNG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lung",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LYM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Lymphocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Macrophages",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MALLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Malleolus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MANDI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mandible/Mandibular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Marrow",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mastoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAXIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Maxilla/Maxillary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MAXS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Maxillary Sinus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEATU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Meatus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Meconium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEDST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mediastinum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MEDU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Medullary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "METAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Metacarpal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "METAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Metatarsal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MILK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Milk, Breast",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MITRL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mitral Valve",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOLAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Molar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MONSU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mons Ureteris",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MONSV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mons Veneris(Mons Pubis)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Membrane",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MOUTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mouth",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mons Pubis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MPB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Meninges",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MRSA2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Mrsa:",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "MYO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Myocardium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nail",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAILB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nail Bed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAILF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nail, Finger",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAILT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nail, Toe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NARES",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nares",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NASL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nasal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NAVEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Navel",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NECK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Neck",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NERVE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nerve",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NIPPL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nipple",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NLACR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nasolacrimal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nose (Nasal Passage)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOSE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nose/Nose(outside)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NOSTR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nostril",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nasopharyngeal/Nasopharynx",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NSS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nasal Septum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "NTRAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Nasotracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OCCIP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Occipital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OLECR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Olecranon",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OMEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Omentum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORBIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Orbit/Orbital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ORO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Oropharynx",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OSCOX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Os coxa (pelvic girdle)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "OVARY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ovary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAFL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pancreatic Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PALAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Palate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PALM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Palm",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PANAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perianal/Perirectal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PANCR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pancreas",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PARAT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Paratracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PARIE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Parietal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PARON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Paronychia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAROT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Parotid/Parotid Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Parasternal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PATEL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Patella",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCARD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pericardium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCLIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Periclitoral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PELV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pelvis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PENIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Penis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PENSH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Penile Shaft",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Peritoneal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pericardial Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perihepatic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perineal Abscess",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perisplenic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Peritoneum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Periurethal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERIV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perivesicular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perirectal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PERT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Peritoneal Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PHALA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Phalanyx",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PILO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pilonidal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PINNA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pinna",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLACF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Placenta (Fetal Side)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLACM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Placenta (Maternal Side)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLANT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Plantar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLATH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Palate, Hard",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLATS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Palate, Soft",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Placenta",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLEU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pleural Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLEUR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pleura",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pleural Fluid (Thoracentesis Fld)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PNEAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perineal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PNEPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perinephric",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PNM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Perineum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "POPLI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Popliteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PORBI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Periorbital",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PREAU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Preauricular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRERE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Prerenal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PROS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Prostatic Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PRST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Prostate Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PTONS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Peritonsillar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUBIC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pubic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PUL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Pulmonary Artery",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RADI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Radial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RADIUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Radius",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Red Blood Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RECTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Rectal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RECTU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Rectum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RENL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Renal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RIB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Rib",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RNP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Renal Pelvis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RPERI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Retroperitoneal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SAC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Uterine Cul/De/Sac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SACIL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sacroiliac",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SACRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sacral",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SACRO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sacrococcygeal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SACRU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sacrum",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SALGL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Salivary Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCALP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Scalp",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCAPU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Scapula/Scapular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCLAV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Supraclavicle/Supraclavicular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCLER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sclera",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCLV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sub Clavian",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SCROT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Scrotum/Scrotal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SDP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Subdiaphramatic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Seminal Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEMN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Semen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEPTU",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Septum/Septal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SEROM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Seroma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SGF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Subgaleal Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Shin",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Shoulder",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SHOLJ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sholder Joint",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SIGMO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sigmoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SINUS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sinus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SKENE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Skene's Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SKM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Skeletal Muscle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SKULL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Skull",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SOLE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sole",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPCOR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Spinal Cord",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPHEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sphenoid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPLN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Spleen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPRM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Spermatozoa",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SPX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Supra Cervical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sternum/Sternal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Stoma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STOMA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Stomach",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STOOLL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Liquid Stool",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "STUMP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Stump",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Subdural",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Subdural Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Submandibular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBME",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Submental",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Subphrenic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUBX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Submaxillary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUPB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Suprapubic Specimen",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SUPRA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Suprapubic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sweat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SWTG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Sweat Gland",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SYN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Synovial Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SYNOL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Synovial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "SYNOV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Synovium",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TARS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tarsal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TBRON",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Transbronchial",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TCN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Transcarina Asp",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TDUCT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tear Duct",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tears",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEMPL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Temple",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TEMPO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Temporal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TESTI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Testicle(Testis)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THIGH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Thigh",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Thymus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THORA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Thorax/Thoracic/Thoracentesis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THRB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Throat",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THUMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Thumb",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "THYRD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Thyroid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TIBIA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tibia",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TML",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Temporal Lobe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TNL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Thumbnail",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TOE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Toe",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TOEN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Toe Nail",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TONG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tongue",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TONS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tonsil",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TOOTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tooth",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TRCHE",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Trachea/Tracheal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "TSK",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Tooth Socket",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "ULNA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ulna/Ulnar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UMB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Umbilical Blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UMBL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Umbilicus/Umbilical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URET",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ureter",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "URTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Urethra",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "USTOM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Stoma, Urinary",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UTER",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Uterus",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "UTERI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Uterine",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VAGIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vagina/Vaginal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VAL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Valve",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VAS",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vas Deferens",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VASTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vastus Lateralis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VAULT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vault",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VCSF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ventricular CSF",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VCUFF",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vaginal Cuff",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VEIN",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vein",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VENTG",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Ventragluteal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VERMI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vermis Cerebelli",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VERTC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vertebra, cervical",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VERTL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vertebra, lumbar",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VERTT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vertebra, thoracic",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VESCL",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vesicular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VESFLD",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vesicular Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VESI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vesicle",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VESTI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vestibule(Genital)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VGV",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vaginal Vault",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VITR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vitreous Fluid",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VOC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vocal Cord",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "VULVA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Vulva",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WBC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Leukocytes",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WRIST",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "Wrist",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": " ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "External Jugular",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "Â ",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0550",
+      "display": "External Jugular",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

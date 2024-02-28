@@ -1,0 +1,90 @@
+{
+  "name": "LibraryType",
+  "resource_id": "library-type",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/library-type",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "logic-library",
+      "display": "Logic Library",
+      "definition": "The resource is a shareable library of formalized knowledge."
+    },
+    {
+      "code": "model-definition",
+      "display": "Model Definition",
+      "definition": "The resource is a definition of an information model."
+    },
+    {
+      "code": "asset-collection",
+      "display": "Asset Collection",
+      "definition": "The resource is a collection of knowledge assets."
+    },
+    {
+      "code": "module-definition",
+      "display": "Module Definition",
+      "definition": "The resource defines the dependencies, parameters, and data requirements for a particular module or evaluation context."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "LibraryType",
+    "resource_id": "library-type",
+    "resource_url": "http://hl7.org/fhir/ValueSet/library-type",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/library-type"
+        }
+      ]
+    },
+    "description": "The type of knowledge asset this library contains.",
+    "related_codesystems": [
+      {
+        "id": "library-type",
+        "url": "http://terminology.hl7.org/CodeSystem/library-type"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "logic-library",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/library-type",
+        "display": "Logic Library",
+        "description": "The resource is a shareable library of formalized knowledge.",
+        "filter": null
+      },
+      {
+        "code": "model-definition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/library-type",
+        "display": "Model Definition",
+        "description": "The resource is a definition of an information model.",
+        "filter": null
+      },
+      {
+        "code": "asset-collection",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/library-type",
+        "display": "Asset Collection",
+        "description": "The resource is a collection of knowledge assets.",
+        "filter": null
+      },
+      {
+        "code": "module-definition",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/library-type",
+        "display": "Module Definition",
+        "description": "The resource defines the dependencies, parameters, and data requirements for a particular module or evaluation context.",
+        "filter": null
+      }
+    ]
+  }
+}

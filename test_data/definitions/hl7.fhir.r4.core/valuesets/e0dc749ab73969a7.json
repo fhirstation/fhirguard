@@ -1,0 +1,91 @@
+{
+  "name": "v2.0325",
+  "resource_id": "v2-0325",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0325",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0325"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0325 ( Location Relationship ID)",
+  "related_codesystems": [
+    {
+      "id": "v2-0325",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0325"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "ALI",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Location Alias(es)",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "DTY",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Nearest  dietary location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LAB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Nearest  lab",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "LB2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Second nearest lab",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PAR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Parent location",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RX",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Nearest  pharmacy",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RX2",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0325",
+      "display": "Second nearest pharmacy",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "v2.0565",
+  "resource_id": "v2-0565",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/v2-0565",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "DISP",
+      "display": "Dispensing Fee"
+    },
+    {
+      "code": "GST",
+      "display": "Goods and Services Tax"
+    },
+    {
+      "code": "HST",
+      "display": "Harmonized Sales Tax"
+    },
+    {
+      "code": "MKUP",
+      "display": "Mark up Fee"
+    },
+    {
+      "code": "PST",
+      "display": "Provincial Sales Tax"
+    }
+  ],
+  "properties": [],
+  "valueset": null
+}

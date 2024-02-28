@@ -1,0 +1,90 @@
+{
+  "name": "MeasureScoring",
+  "resource_id": "measure-scoring",
+  "resource_url": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+  "filter": null,
+  "concepts": [
+    {
+      "code": "proportion",
+      "display": "Proportion",
+      "definition": "The measure score is defined using a proportion."
+    },
+    {
+      "code": "ratio",
+      "display": "Ratio",
+      "definition": "The measure score is defined using a ratio."
+    },
+    {
+      "code": "continuous-variable",
+      "display": "Continuous Variable",
+      "definition": "The score is defined by a calculation of some quantity."
+    },
+    {
+      "code": "cohort",
+      "display": "Cohort",
+      "definition": "The measure is a cohort definition."
+    }
+  ],
+  "properties": [],
+  "valueset": {
+    "name": "MeasureScoring",
+    "resource_id": "measure-scoring",
+    "resource_url": "http://hl7.org/fhir/ValueSet/measure-scoring",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-scoring"
+        }
+      ]
+    },
+    "description": "The scoring type of the measure.",
+    "related_codesystems": [
+      {
+        "id": "measure-scoring",
+        "url": "http://terminology.hl7.org/CodeSystem/measure-scoring"
+      }
+    ],
+    "allowed_values": [
+      {
+        "code": "proportion",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "display": "Proportion",
+        "description": "The measure score is defined using a proportion.",
+        "filter": null
+      },
+      {
+        "code": "ratio",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "display": "Ratio",
+        "description": "The measure score is defined using a ratio.",
+        "filter": null
+      },
+      {
+        "code": "continuous-variable",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "display": "Continuous Variable",
+        "description": "The score is defined by a calculation of some quantity.",
+        "filter": null
+      },
+      {
+        "code": "cohort",
+        "type": [
+          "concept"
+        ],
+        "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "display": "Cohort",
+        "description": "The measure is a cohort definition.",
+        "filter": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "name": "v2.0426",
+  "resource_id": "v2-0426",
+  "resource_url": "http://terminology.hl7.org/ValueSet/v2-0426",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0426"
+      }
+    ]
+  },
+  "description": "FHIR Value set/code system definition for HL7 v2 table 0426 ( Blood product code)",
+  "related_codesystems": [
+    {
+      "id": "v2-0426",
+      "url": "http://terminology.hl7.org/CodeSystem/v2-0426"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "CRYO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Cryoprecipitated AHF",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "CRYOP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Pooled Cryoprecipitate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FFP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Fresh Frozen Plasma",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "FFPTH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Fresh Frozen Plasma - Thawed",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PC",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Packed Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Autologous Packed Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCNEO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Packed Cells - Neonatal",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PCW",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Washed Packed Cells",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLT",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Platelet Concentrate",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLTNEO",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Reduced Volume Platelets",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLTP",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Pooled Platelets",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLTPH",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Platelet Pheresis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "PLTPHLR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Leukoreduced Platelet Pheresis",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "RWB",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Reconstituted Whole Blood",
+      "description": null,
+      "filter": null
+    },
+    {
+      "code": "WBA",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0426",
+      "display": "Autologous Whole Blood",
+      "description": null,
+      "filter": null
+    }
+  ]
+}

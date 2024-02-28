@@ -1,0 +1,31 @@
+{
+  "name": "CommonTags",
+  "resource_id": "common-tags",
+  "resource_url": "http://hl7.org/fhir/ValueSet/common-tags",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/common-tags"
+      }
+    ]
+  },
+  "description": "Common Tag Codes defined by FHIR project",
+  "related_codesystems": [
+    {
+      "id": "common-tags",
+      "url": "http://terminology.hl7.org/CodeSystem/common-tags"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "actionable",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/common-tags",
+      "display": "Actionable",
+      "description": "This request is intended to be acted upon, not merely stored",
+      "filter": null
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "RestfulSecurityService",
+  "resource_id": "restful-security-service",
+  "resource_url": "http://hl7.org/fhir/ValueSet/restful-security-service",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/restful-security-service"
+      }
+    ]
+  },
+  "description": "Types of security services used with FHIR.",
+  "related_codesystems": [
+    {
+      "id": "restful-security-service",
+      "url": "http://terminology.hl7.org/CodeSystem/restful-security-service"
+    }
+  ],
+  "allowed_values": [
+    {
+      "code": "OAuth",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+      "display": "OAuth",
+      "description": "OAuth (unspecified version see oauth.net).",
+      "filter": null
+    },
+    {
+      "code": "SMART-on-FHIR",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+      "display": "SMART-on-FHIR",
+      "description": "OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org/).",
+      "filter": null
+    },
+    {
+      "code": "NTLM",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+      "display": "NTLM",
+      "description": "Microsoft NTLM Authentication.",
+      "filter": null
+    },
+    {
+      "code": "Basic",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+      "display": "Basic",
+      "description": "Basic authentication defined in HTTP specification.",
+      "filter": null
+    },
+    {
+      "code": "Kerberos",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+      "display": "Kerberos",
+      "description": "see http://www.ietf.org/rfc/rfc4120.txt.",
+      "filter": null
+    },
+    {
+      "code": "Certificates",
+      "type": [
+        "concept"
+      ],
+      "system": "http://terminology.hl7.org/CodeSystem/restful-security-service",
+      "display": "Certificates",
+      "description": "SSL where client must have a certificate registered with the server.",
+      "filter": null
+    }
+  ]
+}
