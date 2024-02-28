@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fhirguard"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 authors = ["Thomas Judd-Cooper <thomas.judd-cooper1@nhs.net>"]
 readme = "README.md"
