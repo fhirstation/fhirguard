@@ -31,6 +31,14 @@ pytest-cov = "^4.1.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+addopts = "--cov=fhirguard --cov=fhirguard_core --cov=fhirguard_cli --cov-report term-missing"
+testpaths = [
+    "fhirguard",
+    "fhirguard_cli",
+    "fhirguard_core"
+]
+
 [tool.ruff]
 line-length = 88
 indent-width = 4

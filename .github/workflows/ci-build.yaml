@@ -37,8 +37,11 @@ jobs:
       - name: Run linting
         run: poetry run ruff check --output-format=concise
 
+      - name: Run formatting
+        run: poetry run ruff format --diff
+
       - name: Run tests
-        run: poetry run pytest --cov=fhirguard --cov=fhirguard_core --cov=fhirguard_cli --cov-report term-missing
+        run: poetry run pytest 
       
       - name: Package application
         run: poetry build
